@@ -14,6 +14,6 @@ AIVC: Artificial Intelligence Virtual Cell
 
 - <a name=""></a> Build the virtual cell with artificial intelligence: a perspective for cancer research (**Military Medical Research 2025**) [[paper](https://link.springer.com/article/10.1186/s40779-025-00591-6)]
 
-- <a name=""></a> Building the next generation of virtual cells to understand cellular biology (**Biophysical Journal**) [[paper](https://www.sciencedirect.com/science/article/pii/S0006349523002369)]
+- <a name=""></a> Building the next generation of virtual cells to understand cellular biology (**Biophysical Journal 2023**) [[paper](https://www.sciencedirect.com/science/article/pii/S0006349523002369)]
 
-- <a name=""></a> **[2003]** Quantitative cell biology with the Virtual Cell (**Trends in Cell Biology**) [[paper](https://www.sciencedirect.com/science/article/pii/S0962892403002150)]
+- <a name=""></a> Quantitative cell biology with the Virtual Cell (**Trends in Cell Biology 2003**) [[paper](https://www.sciencedirect.com/science/article/pii/S0962892403002150)]
