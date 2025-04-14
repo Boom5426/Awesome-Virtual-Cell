@@ -17,3 +17,5 @@ AIVC: Artificial Intelligence Virtual Cell
 - <a name=""></a> Building the next generation of virtual cells to understand cellular biology (**Biophysical Journal 2023**) [[paper](https://www.sciencedirect.com/science/article/pii/S0006349523002369)]
 
 - <a name=""></a> Quantitative cell biology with the Virtual Cell (**Trends in Cell Biology 2003**) [[paper](https://www.sciencedirect.com/science/article/pii/S0962892403002150)]
+
+- <a name=""></a> Evaluating feature extraction in ovarian cancer cell line co-cultures using deep neural networks (**Communications Biology 2025**) [[paper](https://www.nature.com/articles/s42003-025-07766-w)]
