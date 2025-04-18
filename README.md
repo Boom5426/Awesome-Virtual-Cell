@@ -8,7 +8,9 @@ AIVC: Artificial Intelligence Virtual Cell
 
 
 ## Papers
-- <a name=""></a> **[Survey]** How to build the virtual cell with artificial intelligence: Priorities and opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1?fbclid=IwY2xj...)] [[中文解读](https://zhuanlan.zhihu.com/p/12552020780)] 
+- <a name=""></a> **[Perspectives]** Towards multimodal foundation models in molecular cell biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)] 
+
+- <a name=""></a> **[Perspectives]** How to build the virtual cell with artificial intelligence: Priorities and opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1?fbclid=IwY2xj...)] [[中文解读](https://zhuanlan.zhihu.com/p/12552020780)] 
 
 - <a name=""></a> Grow AI virtual cells: three data pillars and closed-loop learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)]
 
