@@ -6,15 +6,18 @@ AIVC: Artificial Intelligence Virtual Cell
 - <a name=""></a> **[Arc Virtual Cell Atlas]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**Bioxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)][[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars) [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
 
 
-
-## Papers
-
-- <a name=""></a> **[UCE]** Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN (**Nature methods**) [[paper](https://www.nature.com/articles/s41592-024-02191-z)] 
-
-
 - <a name=""></a> **[Perspectives]** Towards multimodal foundation models in molecular cell biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)] 
 
 - <a name=""></a> **[Perspectives]** How to build the virtual cell with artificial intelligence: Priorities and opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1?fbclid=IwY2xj...)] [[中文解读](https://zhuanlan.zhihu.com/p/12552020780)] 
+
+
+
+## Papers
+
+- <a name=""></a> **[SATURN]** Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN (**Nature methods**) [[paper](https://www.nature.com/articles/s41592-024-02191-z)]  [[code](https://github.com/snap-stanford/saturn)]![GitHub stars](https://img.shields.io/github/stars/snap-stanford/saturn.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[UCE]** Universal Cell Embeddings: A Foundation Model for Cell Biolog (**Nature methods**) [[paper](https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2)]  [[code](https://github.com/snap-stanford/UCE)]![GitHub stars](https://img.shields.io/github/stars/snap-stanford/UCE.svg?logo=github&label=Stars)
+y
 
 - <a name=""></a> Grow AI virtual cells: three data pillars and closed-loop learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)]
 
