@@ -8,6 +8,10 @@ AIVC: Artificial Intelligence Virtual Cell
 
 
 ## Papers
+
+- <a name=""></a> **[UCE]** Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN (**Nature methods**) [[paper](https://www.nature.com/articles/s41592-024-02191-z)] 
+
+
 - <a name=""></a> **[Perspectives]** Towards multimodal foundation models in molecular cell biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)] 
 
 - <a name=""></a> **[Perspectives]** How to build the virtual cell with artificial intelligence: Priorities and opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1?fbclid=IwY2xj...)] [[中文解读](https://zhuanlan.zhihu.com/p/12552020780)] 
