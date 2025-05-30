@@ -5,9 +5,9 @@ AIVC: Artificial Intelligence Virtual Cell
 ## Datasets
 - <a name=""></a> **[Arc Virtual Cell Atlas]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**Bioxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)][[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars) [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
 
-- <a name=""></a>**[Cell Painting Gallery]** [[Link](https://registry.opendata.aws/cellpainting-gallery/)]  [[Datasets Overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)]  [[AWS Overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray Dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
-
 - <a name=""></a> **[CMAP LINCS 2020]** [[Link](https://clue.io/data/CMap2020#LINCS2020)]
+
+- <a name=""></a>**[Cell Painting Gallery]** [[Link](https://registry.opendata.aws/cellpainting-gallery/)]  [[Datasets Overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)]  [[AWS Overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray Dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
 
 
 ## Overview
