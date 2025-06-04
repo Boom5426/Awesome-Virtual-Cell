@@ -19,6 +19,9 @@ AIVC: Artificial Intelligence Virtual Cell
 ## Papers
 
 ### 2025
+
+- <a name=""></a> **[Recursion]** Virtual Cells: Predict, Explain, Discover (**Arxiv 2025**) [[paper](https://arxiv.org/pdf/2505.14613)]
+
 - <a name=""></a> **[CellFlow]** CellFlow enables generative single-cell phenotype modeling with flow matching (**Biorxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf)]  [[code](https://github.com/theislab/CellFlow)]![GitHub stars](https://img.shields.io/github/stars/theislab/CellFlow.svg?logo=github&label=Stars)
 
 
