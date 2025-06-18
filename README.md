@@ -9,6 +9,7 @@ AIVC: Artificial Intelligence Virtual Cell
 
 - <a name=""></a>**[Cell Painting Gallery]** [[Link](https://registry.opendata.aws/cellpainting-gallery/)]  [[Datasets Overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)]  [[AWS Overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray Dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
 
+- <a name=""></a>**[X-Atlas/Orion]** Genome-wide Perturb-seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**Bioxiv 2025**)[[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]  [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)] 
 
 ## Overview
 - <a name=""></a> **[Nature Perspectives]** Towards multimodal foundation models in molecular cell biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)] 
