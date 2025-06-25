@@ -21,6 +21,10 @@ AIVC: Artificial Intelligence Virtual Cell
 
 ### 2025
 
+- <a name=""></a> **[State]** Predicting cellular responses to perturbation across diverse contexts with State (**Biorxiv 2025**) [[paper](https://arcinstitute.org/manuscripts/State)]  [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[UniCure]** UniCure: A Foundation Model for Predicting Personalized Cancer Therapy Response (**Biorxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1)]  [[code](https://github.com/ZexiChen502/UniCure)]![GitHub stars](https://img.shields.io/github/stars/ZexiChen502/UniCure.svg?logo=github&label=Stars)
+
 - <a name=""></a> **[Comment]** Virtual cells for predictive immunotherapy (**Nature Biotechnology Comment**) [[paper](https://www.nature.com/articles/s41587-025-02583-2)]
 
 - <a name=""></a> **[Recursion]** Virtual Cells: Predict, Explain, Discover (**Arxiv 2025**) [[paper](https://arxiv.org/pdf/2505.14613)]
