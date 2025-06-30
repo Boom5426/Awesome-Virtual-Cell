@@ -17,11 +17,12 @@ AIVC: Artificial Intelligence Virtual Cell
 - <a name=""></a> **[Cell Perspectives]** How to build the virtual cell with artificial intelligence: Priorities and opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1?fbclid=IwY2xj...)] [[中文解读](https://zhuanlan.zhihu.com/p/12552020780)] 
 
 
+## Challenge
+- <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing test for the virtual cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]  [[Homepage](https://virtualcellchallenge.org/)]
+
 ## Papers
 
 ### 2025
-
-- <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing test for the virtual cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]  [[Homepage](https://virtualcellchallenge.org/)]
 
 - <a name=""></a> **[State]** Predicting cellular responses to perturbation across diverse contexts with State (**Biorxiv 2025**) [[paper](https://arcinstitute.org/manuscripts/State)]  [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)
 
