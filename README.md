@@ -2,25 +2,25 @@
 
 AIVC: Artificial Intelligence Virtual Cell
 
-## Datasets
+## 📊 Datasets
 - <a name=""></a> **[Arc Virtual Cell Atlas]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**Bioxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)][[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars) [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
+
+- <a name=""></a>**[X-Atlas/Orion]** Genome-wide Perturb-seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**Bioxiv 2025**)[[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]  [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)] 
 
 - <a name=""></a> **[CMAP LINCS 2020]** [[Link](https://clue.io/data/CMap2020#LINCS2020)]
 
 - <a name=""></a>**[Cell Painting Gallery]** [[Link](https://registry.opendata.aws/cellpainting-gallery/)]  [[Datasets Overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)]  [[AWS Overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray Dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
 
-- <a name=""></a>**[X-Atlas/Orion]** Genome-wide Perturb-seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**Bioxiv 2025**)[[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]  [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)] 
-
-## Overview
+## 🔬 Overview Papers
 - <a name=""></a> **[Nature Perspectives]** Towards multimodal foundation models in molecular cell biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)] 
 
 - <a name=""></a> **[Cell Perspectives]** How to build the virtual cell with artificial intelligence: Priorities and opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1?fbclid=IwY2xj...)] [[中文解读](https://zhuanlan.zhihu.com/p/12552020780)] 
 
 
-## Challenge
+## 🎯 Challenges
 - <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing test for the virtual cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]  [[Homepage](https://virtualcellchallenge.org/)]
 
-## Papers
+## 📚 Research Papers
 
 ### 2025
 
@@ -52,7 +52,7 @@ AIVC: Artificial Intelligence Virtual Cell
 
 
 
-### Ago
+### Older Papers
 
 - <a name=""></a> **[CellOT]** Learning single-cell perturbation responses using neural optimal transport (**Nature methods**) [[paper](https://www.nature.com/articles/s41592-023-01969-x)]  [[code](https://github.com/bunnech/cellot)]![GitHub stars](https://img.shields.io/github/stars/bunnech/cellot.svg?logo=github&label=Stars)
 
