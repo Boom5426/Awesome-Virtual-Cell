@@ -16,6 +16,7 @@ AIVC: Artificial Intelligence Virtual Cell
 - <a name=""></a> **[CMAP LINCS 2020]** [[Link](https://clue.io/data/CMap2020#LINCS2020)]
 
 - <a name=""></a>**[Cell Painting Gallery]** [[Link](https://registry.opendata.aws/cellpainting-gallery/)]  [[Datasets Overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)]  [[AWS Overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray Dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
+- <a name=""></a>**[RxRx from Recursion]** [[Link](https://www.rxrx.ai/datasets)]
 
 
 ## 🎯 Challenges
