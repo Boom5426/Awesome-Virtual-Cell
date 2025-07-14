@@ -49,7 +49,7 @@ AIVC: Artificial Intelligence Virtual Cell
 
 ### 2024
 
-- <a name=""></a> **[UCE]** Universal Cell Embeddings: A Foundation Model for Cell Biolog (**Nature methods**) [[paper](https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2)]  [[code](https://github.com/snap-stanford/UCE)]![GitHub stars](https://img.shields.io/github/stars/snap-stanford/UCE.svg?logo=github&label=Stars)
+- <a name=""></a> **[UCE]** Universal Cell Embeddings: A Foundation Model for Cell Biology (**BioRxiv**) [[paper](https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2)]  [[code](https://github.com/snap-stanford/UCE)]![GitHub stars](https://img.shields.io/github/stars/snap-stanford/UCE.svg?logo=github&label=Stars)
 
 
 
