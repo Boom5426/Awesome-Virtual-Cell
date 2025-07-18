@@ -24,6 +24,32 @@ If you have any problems, suggestions or improvements, please submit the issue o
 ## 🎯 Challenges
 - <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing test for the virtual cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]  [[Homepage](https://virtualcellchallenge.org/)]
 
+
+## 🛠️ Tools
+|------|----------|------|
+| **Molecule Encoder** | Fingerprints | [scikit-fingerprints](https://github.com/scikit-fingerprints/scikit-fingerprints) |
+|  | KPGT | [lihan97/kpgt](https://github.com/lihan97/kpgt) |
+|  | InfoAlign | [liugangcode/InfoAlign](https://github.com/liugangcode/InfoAlign) |
+|  | GeminiMol | [Wang-Lin-boop/GeminiMol](https://github.com/Wang-Lin-boop/GeminiMol) |
+|  | Ouroboros | [Wang-Lin-boop/ouroboros](https://github.com/Wang-Lin-boop/ouroboros) |
+|  | Mole-BERT | [junxia97/Mole-BERT](https://github.com/junxia97/Mole-BERT) |
+|  | ChemBERTa2 | [seyonechithrananda/bert-loves-chemistry](https://github.com/seyonechithrananda/bert-loves-chemistry) |
+|  | MoLT5 | [blender-nlp/molt5](https://github.com/blender-nlp/molt5) |
+|  | Chemprop | [chemprop/chemprop](https://github.com/chemprop/chemprop) |
+|  | MolCLR | [yuyangw/MolCLR](https://github.com/yuyangw/MolCLR) |
+|  | UniMol | [deepmodeling/Uni-Mol](https://github.com/deepmodeling/Uni-Mol) |
+
+| **Gene Encoder** | Geneformer | [ctheodoris/Geneformer](https://huggingface.co/ctheodoris/Geneformer) |
+|  | tGPT | [deeplearningplus/tGPT](https://github.com/deeplearningplus/tGPT) |
+|  | UCE | [snap-stanford/uce](https://github.com/snap-stanford/uce) |
+|  | scBERT | [TencentAILabHealthcare/scBERT](https://github.com/TencentAILabHealthcare/scBERT) |
+|  | CellPLM | [OmicsML/CellPLM](https://github.com/OmicsML/CellPLM) |
+|  | OpenBioMed/CellLM | [PharMolix/OpenBioMed](https://github.com/PharMolix/OpenBioMed) |
+|  | scGPT | [bowang-lab/scGPT](https://github.com/bowang-lab/scGPT) |
+|  | scFoundation | [biomap-research/scFoundation](https://github.com/biomap-research/scFoundation) |
+
+
+
 ## 📚 Research Papers
 
 ### 2025
