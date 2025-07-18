@@ -2,6 +2,8 @@
 
 AIVC: Artificial Intelligence Virtual Cell
 
+If you have any problems, suggestions or improvements, please submit the issue or PR.
+
 ## 🔬 Overview Papers
 - <a name=""></a> **[Nature Perspectives]** Towards multimodal foundation models in molecular cell biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)] 
 
