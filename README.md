@@ -89,7 +89,7 @@
 
 - <a name=""></a> **[GenePT]** Simple and Effective Embedding Model for Single-Cell Biology Built from ChatGPT (**Nature Biomedical Engineering 2024**) [[paper](https://doi.org/10.1038/s41551-024-01284-6)]   [[code](https://github.com/yiqunchen/GenePT)]![GitHub stars](https://img.shields.io/github/stars/yiqunchen/GenePT.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[SCimilarity]** A Cell Atlas Foundation Model for Scalable Search of Similar Human Cells (**Nature 2024**) [[paper]([https://doi.org/10.1038/s41551-024-01284-6](https://doi.org/10.1038/s41586-024-08411-y))]   [[code](https://github.com/Genentech/scimilarity)]![GitHub stars](https://img.shields.io/github/stars/Genentech/scimilarity.svg?logo=github&label=Stars)
+- <a name=""></a> **[SCimilarity]** A Cell Atlas Foundation Model for Scalable Search of Similar Human Cells (**Nature 2024**) [[paper](https://doi.org/10.1038/s41586-024-08411-y)]   [[code](https://github.com/Genentech/scimilarity)]![GitHub stars](https://img.shields.io/github/stars/Genentech/scimilarity.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[scLong]** scLong: A Billion-Parameter Foundation Model for Capturing Long-Range Gene Context in Single-Cell Transcriptomics (**bioRxiv 2024**) [[paper](https://doi.org/10.1101/2024.11.09.622759)]   [[code](https://github.com/BaiDing1234/scLong)]![GitHub stars](https://img.shields.io/github/stars/BaiDing1234/scLong.svg?logo=github&label=Stars)
 
