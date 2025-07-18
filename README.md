@@ -28,18 +28,18 @@ If you have any problems, suggestions or improvements, please submit the issue o
 ## 🛠️ Tools
 
 ### Molecule Encoder
-| [Fingerprints](https://github.com/scikit-fingerprints/scikit-fingerprints) | [KPGT](https://github.com/lihan97/kpgt) | [InfoAlign](https://github.com/liugangcode/InfoAlign) |
+| [UniMol](https://github.com/deepmodeling/Uni-Mol) | [KPGT](https://github.com/lihan97/kpgt) | [InfoAlign](https://github.com/liugangcode/InfoAlign) |
 |--------------------------------------------------------------------------|----------------------------------------|------------------------------------------------------|
 | [GeminiMol](https://github.com/Wang-Lin-boop/GeminiMol)                  | [Ouroboros](https://github.com/Wang-Lin-boop/ouroboros) | [Mole-BERT](https://github.com/junxia97/Mole-BERT)   |
 | [ChemBERTa2](https://github.com/seyonechithrananda/bert-loves-chemistry) | [MoLT5](https://github.com/blender-nlp/molt5) | [Chemprop](https://github.com/chemprop/chemprop)     |
-| [MolCLR](https://github.com/yuyangw/MolCLR)                              | [UniMol](https://github.com/deepmodeling/Uni-Mol) |                                                      |
+| [MolCLR](https://github.com/yuyangw/MolCLR)                              | [Fingerprints](https://github.com/scikit-fingerprints/scikit-fingerprints) |                                                      |
 
 
 ### Gene Encoder
 | [Geneformer](https://huggingface.co/ctheodoris/Geneformer) | [tGPT](https://github.com/deeplearningplus/tGPT) | [UCE](https://github.com/snap-stanford/uce) |
 |----------------------------------------------------------|------------------------------------------------|--------------------------------------------|
 | [scBERT](https://github.com/TencentAILabHealthcare/scBERT) | [CellPLM](https://github.com/OmicsML/CellPLM) | [OpenBioMed/CellLM](https://github.com/PharMolix/OpenBioMed) |
-| [scGPT](https://github.com/bowang-lab/scGPT)              | [scFoundation](https://github.com/biomap-research/scFoundation) |                                            |
+| [scGPT](https://github.com/bowang-lab/scGPT)              | [scFoundation](https://github.com/biomap-research/scFoundation) |  [CellFM](https://github.com/biomed-AI/CellFM) |
 
 
 
