@@ -50,7 +50,17 @@
 
 ### 2025
 
+- <a name=""></a> **[CLIP^n]** Transitive Prediction of Small-Molecule Function through Alignment of High-Content Screening Resources (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02729-2)]   [[code](https://github.com/AltschulerWu-Lab/CLIPn)]![GitHub stars](https://img.shields.io/github/stars/AltschulerWu-Lab/CLIPn.svg?logo=github&label=Stars)
+
 - <a name=""></a> **[OmniPert]** OmniPert: A Deep Learning Foundation Model for Predicting Responses to Genetic and Chemical Perturbations in Single Cancer Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.02.662744)]
+
+- <a name=""></a> **[UNAGI]** A Deep Generative Model for Deciphering Cellular Dynamics and in Silico Drug Discovery in Complex Diseases (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01423-7)]   [[code](https://github.com/mcgilldinglab/UNAGI)]![GitHub stars](https://img.shields.io/github/stars/mcgilldinglab/UNAGI.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[OmiCLIP]** A Visual–Omics Foundation Model to Bridge Histopathology with Spatial Transcriptomics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02707-1)]   [[code](https://github.com/GuangyuWangLab2021/Loki)]![GitHub stars](https://img.shields.io/github/stars/GuangyuWangLab2021/Loki.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[Biomni]** Biomni: A General-Purpose Biomedical AI Agent (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.05.30.656746)]   [[code](https://github.com/snap-stanford/biomni)]![GitHub stars](https://img.shields.io/github/stars/snap-stanford/biomni.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[OCTO-vc]** OCTO-vc: Virtual Cells in Real Tissue (**© by Noetik 2025**) [[technical report](https://www.noetik.ai/octo-vc)]   [[online demonstration](https://celleporter.noetik.ai/)]
 
 - <a name=""></a> **[STATE]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE (**bioRxiv 2025**) [[paper](https://arcinstitute.org/manuscripts/State)]   [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)
 
@@ -89,7 +99,7 @@
 
 - <a name=""></a> **[GenePT]** Simple and Effective Embedding Model for Single-Cell Biology Built from ChatGPT (**Nature Biomedical Engineering 2024**) [[paper](https://doi.org/10.1038/s41551-024-01284-6)]   [[code](https://github.com/yiqunchen/GenePT)]![GitHub stars](https://img.shields.io/github/stars/yiqunchen/GenePT.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[SCimilarity]** A Cell Atlas Foundation Model for Scalable Search of Similar Human Cells (**Nature 2024**) [[paper]([https://doi.org/10.1038/s41551-024-01284-6](https://doi.org/10.1038/s41586-024-08411-y))]   [[code](https://github.com/Genentech/scimilarity)]![GitHub stars](https://img.shields.io/github/stars/Genentech/scimilarity.svg?logo=github&label=Stars)
+- <a name=""></a> **[SCimilarity]** A Cell Atlas Foundation Model for Scalable Search of Similar Human Cells (**Nature 2024**) [[paper](https://doi.org/10.1038/s41586-024-08411-y)]   [[code](https://github.com/Genentech/scimilarity)]![GitHub stars](https://img.shields.io/github/stars/Genentech/scimilarity.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[scLong]** scLong: A Billion-Parameter Foundation Model for Capturing Long-Range Gene Context in Single-Cell Transcriptomics (**bioRxiv 2024**) [[paper](https://doi.org/10.1101/2024.11.09.622759)]   [[code](https://github.com/BaiDing1234/scLong)]![GitHub stars](https://img.shields.io/github/stars/BaiDing1234/scLong.svg?logo=github&label=Stars)
 
