@@ -62,7 +62,7 @@
 
 - <a name=""></a> **[OCTO-vc]** OCTO-vc: Virtual Cells in Real Tissue (**© by Noetik 2025**) [[technical report](https://www.noetik.ai/octo-vc)]   [[online demonstration](https://celleporter.noetik.ai/)]
 
-- <a name=""></a> **[STATE]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE (**bioRxiv 2025**) [[paper](https://arcinstitute.org/manuscripts/State)]   [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)
+- <a name=""></a> **[STATE]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.26.661135v2)]   [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[UniCure]** Unicure: A Foundation Model for Predicting Personalized Cancer Therapy Response (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1)]   [[code](https://github.com/ZexiChen502/UniCure)]![GitHub stars](https://img.shields.io/github/stars/ZexiChen502/UniCure.svg?logo=github&label=Stars)
 
