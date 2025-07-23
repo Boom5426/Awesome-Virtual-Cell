@@ -14,9 +14,12 @@
 
 ## 🧬 Datasets
 
-- <a name=""></a> **[Arc Virtual Cell Atlas]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
+- <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
 
 - <a name=""></a>**[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)] 
+
+- <a name=""></a>**[Sci-Plex]** Massively multiplex chemical transcriptomics at single-cell resolution (**Science 2019**) [[paper](https://www.science.org/doi/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset)] [[code](https://github.com/cole-trapnell-lab/sci-plex)] 
+
 
 - <a name=""></a> **[CMAP LINCS 2020]** [[Link](https://clue.io/data/CMap2020#LINCS2020)]
 
