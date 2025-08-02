@@ -2,7 +2,7 @@
 
 🔥 **AIVC** is a new frontier in computational biology, AIVC stands for **Artificial Intelligence Virtual Cell**, a technical term originating from a *Cell Perspective* paper titled ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015)
 
-💖 If you have any questions, suggestions, or improvements, please submit your Issues or PRs.
+💖 If you have any questions, suggestions, or improvements, please submit your Issues or Pull Requests (PRs).
 
 
 ## 🔬 Overview Papers
@@ -53,7 +53,15 @@
 
 ### 2025
 
+- <a name=""></a> **[GeneAgent]** GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02748-6)]   [[code](https://github.com/ncbi-nlp/GeneAgent)]![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/GeneAgent.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[Theory]** Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.06.048)]   [[code](https://github.com/physicell-models/grammar_samples)]![GitHub stars](https://img.shields.io/github/stars/physicell-models/grammar_samples.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[CausCell]** Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-62008-1)]   [[code](https://github.com/bm2-lab/CausCell)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/CausCell.svg?logo=github&label=Stars)
+
 - <a name=""></a> **[CLIP^n]** Transitive Prediction of Small-Molecule Function through Alignment of High-Content Screening Resources (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02729-2)]   [[code](https://github.com/AltschulerWu-Lab/CLIPn)]![GitHub stars](https://img.shields.io/github/stars/AltschulerWu-Lab/CLIPn.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[DrugPT]** DrugPT: A Flexible Framework for Integrating Gene and Chemical Representations in Perturbation Modeling (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.25.665130)]
 
 - <a name=""></a> **[OmniPert]** OmniPert: A Deep Learning Foundation Model for Predicting Responses to Genetic and Chemical Perturbations in Single Cancer Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.02.662744)]
 
