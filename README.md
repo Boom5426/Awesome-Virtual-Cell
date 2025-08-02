@@ -2,7 +2,7 @@
 
 🔥 **AIVC** is a new frontier in computational biology, AIVC stands for **Artificial Intelligence Virtual Cell**, a technical term originating from a *Cell Perspective* paper titled ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015)
 
-💖 If you have any questions, suggestions, or improvements, please submit your issues or PRs.
+💖 If you have any questions, suggestions, or improvements, please submit your Issues or PRs.
 
 
 ## 🔬 Overview Papers
@@ -139,5 +139,14 @@
 
 - <a name=""></a> Building the Next Generation of Virtual Cells to Understand Cellular Biology (**Biophysical Journal 2023**) [[paper](https://doi.org/10.1016/j.bpj.2023.04.006)]
 
+- <a name=""></a> **[Research Highlight]** Simulating a Whole Cell (**Nature Methods 2022**) [[paper](https://doi.org/10.1038/s41592-022-01429-y)]
+
+- <a name=""></a> **[Comment]** Personalized Medicine: Time for One-Person Trials (**Nature Comment 2015**) [[paper](https://doi.org/10.1038/520609a)]
+
+- <a name=""></a> A Whole-Cell Computational Model Predicts Phenotype from Genotype (**Cell 2012**) [[paper](https://doi.org/10.1016/j.cell.2012.05.044)]
+
 - <a name=""></a> Quantitative Cell Biology with the Virtual Cell (**Trends in Cell Biology 2003**) [[paper](https://doi.org/10.1016/j.tcb.2003.09.002)]
 
+- <a name=""></a> The Virtual Cell: A Software Environment for Computational Cell Biology (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01740-1)]
+
+- <a name=""></a> Whole-Cell Simulation: A Grand Challenge of the 21st Century (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01636-5)]
