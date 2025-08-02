@@ -103,6 +103,10 @@
 
 - <a name=""></a> Build the Virtual Cell with Artificial Intelligence: A Perspective for Cancer Research (**Military Medical Research 2025**) [[paper](https://link.springer.com/article/10.1186/s40779-025-00591-6)]
 
+- <a name=""></a> **[PS]** Decoding Heterogeneous Single-Cell Perturbation Responses (**Nature Cell Biology 2025**) [[paper](https://doi.org/10.1038/s41556-025-01626-9)]   [[code](https://github.com/davidliwei/PS)]![GitHub stars](https://img.shields.io/github/stars/davidliwei/PS.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[Mixscale]** Systematic Reconstruction of Molecular Pathway Signatures Using Scalable Single-Cell Perturbation Screens (**Nature Cell Biology 2025**) [[paper](https://doi.org/10.1038/s41556-025-01622-z)]   [[code](https://github.com/satijalab/Mixscale)]![GitHub stars](https://img.shields.io/github/stars/satijalab/Mixscale.svg?logo=github&label=Stars)
+
 - <a name=""></a> **[GET]** A Foundation Model of Transcription across Human Cell Types (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-024-08391-z)]   [[code](https://github.com/GET-Foundation/get_model)]![GitHub stars](https://img.shields.io/github/stars/GET-Foundation/get_model.svg?logo=github&label=Stars)
 
 
@@ -151,7 +155,7 @@
 
 - <a name=""></a> **[Comment]** Personalized Medicine: Time for One-Person Trials (**Nature Comment 2015**) [[paper](https://doi.org/10.1038/520609a)]
 
-- <a name=""></a> A Whole-Cell Computational Model Predicts Phenotype from Genotype (**Cell 2012**) [[paper](https://doi.org/10.1016/j.cell.2012.05.044)]
+- <a name=""></a> **[Theory]** A Whole-Cell Computational Model Predicts Phenotype from Genotype (**Cell 2012**) [[paper](https://doi.org/10.1016/j.cell.2012.05.044)]
 
 - <a name=""></a> Quantitative Cell Biology with the Virtual Cell (**Trends in Cell Biology 2003**) [[paper](https://doi.org/10.1016/j.tcb.2003.09.002)]
 
