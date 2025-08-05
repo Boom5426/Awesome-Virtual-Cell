@@ -99,7 +99,7 @@
 
 - <a name=""></a> Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-cultures Using Deep Neural Networks (**Communications Biology 2025**) [[paper](https://www.nature.com/articles/s42003-025-07766-w)]
 
-- <a name=""></a> Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)]
+- <a name=""></a> Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)]   [[中文解读](https://mp.weixin.qq.com/s/kPQmgzAbySrw3rp-B6JGfw)]
 
 - <a name=""></a> Build the Virtual Cell with Artificial Intelligence: A Perspective for Cancer Research (**Military Medical Research 2025**) [[paper](https://link.springer.com/article/10.1186/s40779-025-00591-6)]
 
