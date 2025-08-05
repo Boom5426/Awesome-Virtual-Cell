@@ -159,8 +159,10 @@
 
 - <a name=""></a> **[Theory]** A Whole-Cell Computational Model Predicts Phenotype from Genotype (**Cell 2012**) [[paper](https://doi.org/10.1016/j.cell.2012.05.044)]
 
+- <a name=""></a> **[VCell 7.7]** Virtual Cell Modelling and Simulation Software Environment (**IET Systems Biology 2008**) [[paper](https://doi.org/10.1049/iet-syb:20080102)]   [[software](https://vcell.org/)]
+
 - <a name=""></a> Quantitative Cell Biology with the Virtual Cell (**Trends in Cell Biology 2003**) [[paper](https://doi.org/10.1016/j.tcb.2003.09.002)]
 
-- <a name=""></a> The Virtual Cell: A Software Environment for Computational Cell Biology (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01740-1)]
+- <a name=""></a> **[Review]** The Virtual Cell: A Software Environment for Computational Cell Biology (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01740-1)]
 
-- <a name=""></a> Whole-Cell Simulation: A Grand Challenge of the 21st Century (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01636-5)]
+- <a name=""></a> **[Opinion]** Whole-Cell Simulation: A Grand Challenge of the 21st Century (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01636-5)]
