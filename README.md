@@ -30,6 +30,8 @@
 
 ## ⚔️ Challenges
 
+- <a name=""></a> **[Evaluation]** Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI Virtual Cells Workshop (**arXiv 2025**) [[paper](https://arxiv.org/abs/2507.10502)]
+
 - <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]   [[Homepage](https://virtualcellchallenge.org/)]   [[Beginner's Guidance](https://fleetwood.dev/posts/virtual-cell-challenge)]
 
 
@@ -52,8 +54,10 @@
 ## 📚 Research Papers
 
 ### 2025
-- <a name=""></a> Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02772-6)]   [[code](https://github.com/const-ae/linear_perturbation_prediction-Paper)]![GitHub stars](https://img.shields.io/github/stars/const-ae/linear_perturbation_prediction-Paper.svg?logo=github&label=Stars)
 
+- <a name=""></a> **[CellForge]** CellForge: Agentic Design of Virtual Cell Models (**arXiv 2025**) [[paper](https://arxiv.org/abs/2508.02276)]   [[code](https://github.com/gersteinlab/CellForge)]![GitHub stars](https://img.shields.io/github/stars/gersteinlab/CellForge.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/gersteinlab/CellForge)]
+
+- <a name=""></a> **[Brief Communication]** Deep-Learning-Based Gene Perturbation Effect Prediction Does Not Yet Outperform Simple Linear Baselines (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02772-6)]   [[code](https://github.com/const-ae/linear_perturbation_prediction-Paper)]![GitHub stars](https://img.shields.io/github/stars/const-ae/linear_perturbation_prediction-Paper.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[GeneAgent]** GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02748-6)]   [[code](https://github.com/ncbi-nlp/GeneAgent)]![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/GeneAgent.svg?logo=github&label=Stars)
 
