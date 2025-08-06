@@ -52,6 +52,8 @@
 ## 📚 Research Papers
 
 ### 2025
+- <a name=""></a> Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02772-6)]   [[code](https://github.com/const-ae/linear_perturbation_prediction-Paper)]![GitHub stars](https://img.shields.io/github/stars/const-ae/linear_perturbation_prediction-Paper.svg?logo=github&label=Stars)
+
 
 - <a name=""></a> **[GeneAgent]** GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02748-6)]   [[code](https://github.com/ncbi-nlp/GeneAgent)]![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/GeneAgent.svg?logo=github&label=Stars)
 
