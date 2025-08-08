@@ -87,9 +87,9 @@
 
 - <a name=""></a> **[scPRINT]** scPRINT: Pre-training on 50 Million Cells Allows Robust Gene Network Predictions (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-58699-1)]   [[code](https://github.com/cantinilab/scPRINT)]![GitHub stars](https://img.shields.io/github/stars/cantinilab/scPRINT.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[CellFM]** CellFM: A Large-Scale Foundation Model Pre-trained on Transcriptomics of 100 Million Human Cells (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-59926-5)]   [[code](https://github.com/biomed-AI/CellFM)]![GitHub stars](https://img.shields.io/github/stars/biomed-AI/CellFM.svg?logo=github&label=Stars)
+- <a name=""></a> **[CellFM]** CellFM: A Large-Scale Foundation Model Pre-trained on Transcriptomics of 100 Million Human Cells (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-59926-5)]   [[中文解读](https://mp.weixin.qq.com/s/bZLJIiiGh8nhRC8923hOzw)]   [[code](https://github.com/biomed-AI/CellFM)]![GitHub stars](https://img.shields.io/github/stars/biomed-AI/CellFM.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[C2S-Scale]** C2S-Scale: A Large-Scale Foundation Model Pre-trained on Transcriptomics of 100 Million Human Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.14.648850)]   [[code](https://github.com/vandijklab/cell2sentence)]![GitHub stars](https://img.shields.io/github/stars/vandijklab/cell2sentence.svg?logo=github&label=Stars)
+- <a name=""></a> **[C2S-Scale]** C2S-Scale: Scaling Large Language Models for Next-Generation Single-Cell Analysis (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.14.648850)]   [[中文解读](https://mp.weixin.qq.com/s/QTBpfyoNExkPN1fbqb6ggg)]   [[code](https://github.com/vandijklab/cell2sentence)]![GitHub stars](https://img.shields.io/github/stars/vandijklab/cell2sentence.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[scNET]** scNET: Learning Context-Specific Gene and Cell Embeddings by Integrating Single-Cell Gene Expression Data with Protein–Protein Interactions (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02627-0)]   [[code](https://github.com/madilabcode/scNET)]![GitHub stars](https://img.shields.io/github/stars/madilabcode/scNET.svg?logo=github&label=Stars)
 
