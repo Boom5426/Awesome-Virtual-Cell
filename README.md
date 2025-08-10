@@ -40,7 +40,7 @@
 - <a name=""></a>**[Sci-Plex]** Massively multiplex chemical transcriptomics at single-cell resolution (**Science 2019**) [[paper](https://www.science.org/doi/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset)] [[code](https://github.com/cole-trapnell-lab/sci-plex)] 
 
 
-- <a name=""></a> **[scPerturb]** scPerturb: harmonized single-cell perturbation data [[Link](https://www.nature.com/articles/s41592-023-02144-y)] [[code](https://github.com/sanderlab/scPerturb/)]![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb/.svg?logo=github&label=Stars)
+- <a name=""></a> **[scPerturb]** scPerturb: harmonized single-cell perturbation data [[Link](https://www.nature.com/articles/s41592-023-02144-y)] [[code](https://github.com/sanderlab/scPerturb)]![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[CMAP LINCS 2020]** [[Link](https://clue.io/data/CMap2020#LINCS2020)]
 
