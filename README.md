@@ -14,6 +14,21 @@
 - <a name=""></a> **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)]   [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
 
 
+## 🎞️ Videos
+
+- <a name=""></a> **[Valence Labs]** Virtual Cells: Predict, Explain, Discover [[youtube](https://www.youtube.com/watch?v=QSfVjsa1i4g)]
+
+- <a name=""></a> **[EPFL]** Virtual Cells and Digital Twins: AI in Personalized Medicine [[youtube](https://www.youtube.com/watch?v=AJL7fMYvCKE)]
+
+- <a name=""></a> **[SciLifeLab]** Emma Lundberg: AI Virtual Cells Could Revolutionize Biological Science [[youtube](https://www.youtube.com/watch?v=Ifc1FDdDlvw)]
+
+- <a name=""></a> **[Chan Zuckerberg Initiative]** AI Virtual Cell Models: How AI is Accelerating Science [[youtube](https://www.youtube.com/watch?v=bzSdgzDVpq4)]
+
+- <a name=""></a> **[Chan Zuckerberg Initiative]** CZI's Vision for AI-Powered "Virtual Cells" [[youtube](https://www.youtube.com/watch?v=DxVL0oVMr60)]
+
+- <a name=""></a> **[Podcast]** Google DeepMind CEO: We Want to Build a Virtual Cell [[youtube](https://www.youtube.com/watch?v=CEOOMYxMvY4)]
+
+
 ## 🧬 Datasets
 
 - <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
