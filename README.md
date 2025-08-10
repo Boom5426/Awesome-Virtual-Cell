@@ -7,6 +7,8 @@
 
 ## 🔬 Overview Papers
 
+- <a name=""></a> **[Blog]** The State of Research on Virtual Cell Modeling (**© by Will Connell 2025**) [[blog](https://behindbioml.substack.com/p/the-state-of-research-on-virtual)]
+
 - <a name=""></a> **[Nature New]** Can AI Build a Virtual Cell? Scientists Race to Model Life's Smallest Unit (**Nature 2025**) [[paper](https://www.nature.com/articles/d41586-025-02011-0)]   [[中文解读](https://mp.weixin.qq.com/s/s-tH8ccpyBAag_QMpv0toQ)]
 
 - <a name=""></a> **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)]   [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
@@ -71,6 +73,8 @@
 ## 📚 Research Papers
 
 ### 2025
+
+- <a name=""></a> **[CellFlux]** CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=3NLNmdheIi)]   [[code](https://github.com/yuhui-zh15/CellFlux)]![GitHub stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/yuhui-zh15/CellFlux)]
 
 - <a name=""></a> **[CellForge]** CellForge: Agentic Design of Virtual Cell Models (**arXiv 2025**) [[paper](https://arxiv.org/abs/2508.02276)]   [[code](https://github.com/gersteinlab/CellForge)]![GitHub stars](https://img.shields.io/github/stars/gersteinlab/CellForge.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/gersteinlab/CellForge)]
 
