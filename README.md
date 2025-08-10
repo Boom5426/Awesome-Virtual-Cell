@@ -7,9 +7,11 @@
 
 ## 🔬 Overview Papers
 
-- <a name=""></a> **[Nature Perspectives]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)]   [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)] 
+- <a name=""></a> **[Nature New]** Can AI Build a Virtual Cell? Scientists Race to Model Life's Smallest Unit (**Nature 2025**) [[paper](https://www.nature.com/articles/d41586-025-02011-0)]   [[中文解读](https://mp.weixin.qq.com/s/s-tH8ccpyBAag_QMpv0toQ)]
 
-- <a name=""></a> **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)]   [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)] 
+- <a name=""></a> **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)]   [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
+
+- <a name=""></a> **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)]   [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
 
 
 ## 🧬 Datasets
@@ -59,9 +61,13 @@
 
 - <a name=""></a> **[Brief Communication]** Deep-Learning-Based Gene Perturbation Effect Prediction Does Not Yet Outperform Simple Linear Baselines (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02772-6)]   [[code](https://github.com/const-ae/linear_perturbation_prediction-Paper)]![GitHub stars](https://img.shields.io/github/stars/const-ae/linear_perturbation_prediction-Paper.svg?logo=github&label=Stars)
 
+- <a name=""></a> **[Review]** Early-Stage Detection of Donozology at the Molecular Level **Using Virtual Cell with AI** (**PIAS 2025**) [[paper](https://www.academia.edu/127870689/Early_Stage_Detection_of_Donozology_at_the_Molecular_Level_Using_Virtual_Cell_with_AI)]
+
 - <a name=""></a> **[GeneAgent]** GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02748-6)]   [[code](https://github.com/ncbi-nlp/GeneAgent)]![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/GeneAgent.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[Theory]** Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.06.048)]   [[code](https://github.com/physicell-models/grammar_samples)]![GitHub stars](https://img.shields.io/github/stars/physicell-models/grammar_samples.svg?logo=github&label=Stars)
+
+- <a name=""></a> **[GREmLN]** GREmLN: A Cellular Regulatory Network-Aware Transcriptomics Foundation Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.03.663009)]   [[code](https://github.com/czi-ai/GREmLN)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/GREmLN.svg?logo=github&label=Stars)   [[中文解读](https://mp.weixin.qq.com/s/YlgiFnb-6MmhAcE5qZAwKA)]
 
 - <a name=""></a> **[CausCell]** Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-62008-1)]   [[code](https://github.com/bm2-lab/CausCell)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/CausCell.svg?logo=github&label=Stars)
 
@@ -104,6 +110,8 @@
 - <a name=""></a> **[Prophet]** Scalable and Universal Prediction of Cellular Phenotypes (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf)]  [[code](https://github.com/theislab/prophet)]![GitHub stars](https://img.shields.io/github/stars/theislab/prophet.svg?logo=github&label=Stars)
 
 - <a name=""></a> Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-cultures Using Deep Neural Networks (**Communications Biology 2025**) [[paper](https://www.nature.com/articles/s42003-025-07766-w)]
+
+- <a name=""></a> **[ProteinTalks]** A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.07.637070)]   [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)]![GitHub stars](https://img.shields.io/github/stars/guomics-lab/PTV-1.svg?logo=github&label=Stars)   [[中文解读](https://mp.weixin.qq.com/s/iAmR6EhV7KYfneRktRaEfw)]
 
 - <a name=""></a> Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)]   [[中文解读](https://mp.weixin.qq.com/s/kPQmgzAbySrw3rp-B6JGfw)]
 
