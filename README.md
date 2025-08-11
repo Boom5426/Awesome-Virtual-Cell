@@ -15,6 +15,8 @@
 
 - <a name=""></a> **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)]   [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
 
+- <a name=""></a> **[Cell Review]** Toward a Foundation Model of Causal Cell and Tissue Biology with a Perturbation Cell and Tissue Atlas (**Cell 2024**) [[paper](https://doi.org/10.1016/j.cell.2024.07.035)]   [[中文解读](https://mp.weixin.qq.com/s/uXdSz-XCR_2gC2enwN_lDg)]
+
 
 ## 🎞️ Videos
 
@@ -33,11 +35,11 @@
 
 ## 🧬 Datasets
 
-- <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
+- <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)] 
+- <a name=""></a> **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)]   [[中文解读](https://mp.weixin.qq.com/s/qLXXGXYmTjcFAWMtrd-wwQ)]
 
-- <a name=""></a> **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)]   [[code](https://github.com/cole-trapnell-lab/sci-plex)] 
+- <a name=""></a> **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)]   [[code](https://github.com/cole-trapnell-lab/sci-plex)]![GitHub stars](https://img.shields.io/github/stars/cole-trapnell-lab/sci-plex.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[scPerturb]** scPerturb: Harmonized Single-Cell Perturbation Data  (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-023-02144-y)]   [[Datasets Link](https://projects.sanderlab.org/scperturb/)]   [[code](https://github.com/sanderlab/scPerturb)]![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
 
