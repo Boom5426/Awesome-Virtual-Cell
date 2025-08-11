@@ -56,7 +56,7 @@
 
 - <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]   [[Homepage](https://virtualcellchallenge.org/)]   [[Beginner's Guidance](https://fleetwood.dev/posts/virtual-cell-challenge)]
 
-
+<!-- 
 ## 🛠️ Tools
 
 ### Molecule Encoder
@@ -71,7 +71,7 @@
 | [Geneformer](https://huggingface.co/ctheodoris/Geneformer) <br> ![Stars](https://img.shields.io/github/stars/jkobject/Geneformer.svg?logo=github&label=) | [tGPT](https://github.com/deeplearningplus/tGPT) <br> ![Stars](https://img.shields.io/github/stars/deeplearningplus/tGPT.svg?logo=github&label=) | [UCE](https://github.com/snap-stanford/uce) <br> ![Stars](https://img.shields.io/github/stars/snap-stanford/uce.svg?logo=github&label=) | [scBERT](https://github.com/TencentAILabHealthcare/scBERT) <br> ![Stars](https://img.shields.io/github/stars/TencentAILabHealthcare/scBERT.svg?logo=github&label=) | [CellPLM](https://github.com/OmicsML/CellPLM) <br> ![Stars](https://img.shields.io/github/stars/OmicsML/CellPLM.svg?logo=github&label=) | [OpenBioMed/CellLM](https://github.com/PharMolix/OpenBioMed) <br> ![Stars](https://img.shields.io/github/stars/PharMolix/OpenBioMed.svg?logo=github&label=) |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [scGPT](https://github.com/bowang-lab/scGPT) <br> ![Stars](https://img.shields.io/github/stars/bowang-lab/scGPT.svg?logo=github&label=)                        | [scFoundation](https://github.com/biomap-research/scFoundation) <br> ![Stars](https://img.shields.io/github/stars/biomap-research/scFoundation.svg?logo=github&label=) |                                                                                                                                        |                                                                                                                                                                    |                                                                                                                                                              |                                                                                                                                                                        |
-
+-->
 
 ## 📚 Research Papers
 
