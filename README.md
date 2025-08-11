@@ -35,18 +35,17 @@
 
 - <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] 
 
-- <a name=""></a>**[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)] 
+- <a name=""></a> **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)] 
 
-- <a name=""></a>**[Sci-Plex]** Massively multiplex chemical transcriptomics at single-cell resolution (**Science 2019**) [[paper](https://www.science.org/doi/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset)] [[code](https://github.com/cole-trapnell-lab/sci-plex)] 
+- <a name=""></a> **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)]   [[code](https://github.com/cole-trapnell-lab/sci-plex)] 
 
-
-- <a name=""></a> **[scPerturb]** scPerturb: harmonized single-cell perturbation data [[Link](https://www.nature.com/articles/s41592-023-02144-y)] [[code](https://github.com/sanderlab/scPerturb)]![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
+- <a name=""></a> **[scPerturb]** scPerturb: Harmonized Single-Cell Perturbation Data  (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-023-02144-y)]   [[Datasets Link](https://projects.sanderlab.org/scperturb/)]   [[code](https://github.com/sanderlab/scPerturb)]![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[CMAP LINCS 2020]** [[Link](https://clue.io/data/CMap2020#LINCS2020)]
 
-- <a name=""></a>**[Cell Painting Gallery]** [[Link](https://registry.opendata.aws/cellpainting-gallery/)]   [[Datasets Overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)]   [[AWS Overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)]   [[Bray Dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
+- <a name=""></a> **[Cell Painting Gallery]** [[Link](https://registry.opendata.aws/cellpainting-gallery/)]   [[Datasets Overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)]   [[AWS Overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)]   [[Bray Dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
 
-- <a name=""></a>**[RxRx from Recursion]** [[Link](https://www.rxrx.ai/datasets)]
+- <a name=""></a> **[RxRx from Recursion]** [[Link](https://www.rxrx.ai/datasets)]
 
 
 ## ⚔️ Challenges
@@ -76,8 +75,7 @@
 
 ### 2025
 
-- <a name=""></a> **[CellPB]** Benchmarking AI Models for In Silico Gene Perturbation of Cells (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.1101/2024.12.20.629581v2)]   [[code](https://github.com/Chen-Li-17/CellPB)]![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars)
-
+- <a name=""></a> **[CellPB]** Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.20.629581)]   [[code](https://github.com/Chen-Li-17/CellPB)]![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[CellFlux]** CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=3NLNmdheIi)]   [[code](https://github.com/yuhui-zh15/CellFlux)]![GitHub stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/yuhui-zh15/CellFlux)]
 
