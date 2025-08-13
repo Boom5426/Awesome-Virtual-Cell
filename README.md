@@ -105,11 +105,11 @@
 
 - <a name=""></a> **[OmiCLIP]** A Visual–Omics Foundation Model to Bridge Histopathology with Spatial Transcriptomics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02707-1)]   [[code](https://github.com/GuangyuWangLab2021/Loki)]![GitHub stars](https://img.shields.io/github/stars/GuangyuWangLab2021/Loki.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[Biomni]** Biomni: A General-Purpose Biomedical AI Agent (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.05.30.656746)]   [[code](https://github.com/snap-stanford/biomni)]![GitHub stars](https://img.shields.io/github/stars/snap-stanford/biomni.svg?logo=github&label=Stars)
+- <a name=""></a> **[Biomni]** Biomni: A General-Purpose Biomedical AI Agent (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.05.30.656746)]   [[code](https://github.com/snap-stanford/biomni)]![GitHub stars](https://img.shields.io/github/stars/snap-stanford/biomni.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/snap-stanford/Biomni)]
 
 - <a name=""></a> **[OCTO-vc]** OCTO-vc: Virtual Cells in Real Tissue (**© by Noetik 2025**) [[technical report](https://www.noetik.ai/octo-vc)]   [[online demonstration](https://celleporter.noetik.ai/)]
 
-- <a name=""></a> **[STATE]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.26.661135v2)]   [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)
+- <a name=""></a> **[STATE]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.26.661135v2)]   [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/ArcInstitute/state)]
 
 - <a name=""></a> **[UniCure]** Unicure: A Foundation Model for Predicting Personalized Cancer Therapy Response (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1)]   [[code](https://github.com/ZexiChen502/UniCure)]![GitHub stars](https://img.shields.io/github/stars/ZexiChen502/UniCure.svg?logo=github&label=Stars)
 
