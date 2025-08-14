@@ -54,7 +54,7 @@
 
 ## ⚔️ Challenges
 
-- <a name=""></a> **[Evaluation]** Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI Virtual Cells Workshop (**arXiv 2025**) [[paper](https://arxiv.org/abs/2507.10502)]
+- <a name=""></a> **[Evaluation]** Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI Virtual Cells Workshop (**arXiv 2025**) [[paper](https://arxiv.org/abs/2507.10502)]   [[中文解读](https://mp.weixin.qq.com/s/5iGqIUMq1IoHEm0Ssl84-w)]
 
 - <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]   [[Homepage](https://virtualcellchallenge.org/)]   [[Beginner's Guidance](https://fleetwood.dev/posts/virtual-cell-challenge)]
 
@@ -85,17 +85,17 @@
 
 - <a name=""></a> **[CellForge]** CellForge: Agentic Design of Virtual Cell Models (**arXiv 2025**) [[paper](https://arxiv.org/abs/2508.02276)]   [[code](https://github.com/gersteinlab/CellForge)]![GitHub stars](https://img.shields.io/github/stars/gersteinlab/CellForge.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/gersteinlab/CellForge)]
 
-- <a name=""></a> **[Brief Communication]** Deep-Learning-Based Gene Perturbation Effect Prediction Does Not Yet Outperform Simple Linear Baselines (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02772-6)]   [[code](https://github.com/const-ae/linear_perturbation_prediction-Paper)]![GitHub stars](https://img.shields.io/github/stars/const-ae/linear_perturbation_prediction-Paper.svg?logo=github&label=Stars)
+- <a name=""></a> **[Brief Communication]** Deep-Learning-Based Gene Perturbation Effect Prediction Does Not Yet Outperform Simple Linear Baselines (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02772-6)]   [[code](https://github.com/const-ae/linear_perturbation_prediction-Paper)]![GitHub stars](https://img.shields.io/github/stars/const-ae/linear_perturbation_prediction-Paper.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/const-ae/linear_perturbation_prediction-Paper)]
 
 - <a name=""></a> **[Review]** Early-Stage Detection of Donozology at the Molecular Level **Using Virtual Cell with AI** (**PIAS 2025**) [[paper](https://www.academia.edu/127870689/Early_Stage_Detection_of_Donozology_at_the_Molecular_Level_Using_Virtual_Cell_with_AI)]
 
-- <a name=""></a> **[GeneAgent]** GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02748-6)]   [[code](https://github.com/ncbi-nlp/GeneAgent)]![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/GeneAgent.svg?logo=github&label=Stars)
+- <a name=""></a> **[GeneAgent]** GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02748-6)]   [[code](https://github.com/ncbi-nlp/GeneAgent)]![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/GeneAgent.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/ncbi-nlp/GeneAgent)]
 
-- <a name=""></a> **[Theory]** Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.06.048)]   [[code](https://github.com/physicell-models/grammar_samples)]![GitHub stars](https://img.shields.io/github/stars/physicell-models/grammar_samples.svg?logo=github&label=Stars)
+- <a name=""></a> **[Theory]** Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.06.048)]   [[code](https://github.com/physicell-models/grammar_samples)]![GitHub stars](https://img.shields.io/github/stars/physicell-models/grammar_samples.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/PhysiCell-Models/grammar_samples)]
 
-- <a name=""></a> **[GREmLN]** GREmLN: A Cellular Regulatory Network-Aware Transcriptomics Foundation Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.03.663009)]   [[中文解读](https://mp.weixin.qq.com/s/YlgiFnb-6MmhAcE5qZAwKA)]   [[code](https://github.com/czi-ai/GREmLN)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/GREmLN.svg?logo=github&label=Stars)
+- <a name=""></a> **[GREmLN]** GREmLN: A Cellular Regulatory Network-Aware Transcriptomics Foundation Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.03.663009)]   [[中文解读](https://mp.weixin.qq.com/s/YlgiFnb-6MmhAcE5qZAwKA)]   [[code](https://github.com/czi-ai/GREmLN)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/GREmLN.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/GREmLN)]
 
-- <a name=""></a> **[CausCell]** Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-62008-1)]   [[中文解读](https://mp.weixin.qq.com/s/N8nG9g3ur99zbcXhHC2xAQ)]   [[code](https://github.com/bm2-lab/CausCell)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/CausCell.svg?logo=github&label=Stars)
+- <a name=""></a> **[CausCell]** Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-62008-1)]   [[中文解读](https://mp.weixin.qq.com/s/N8nG9g3ur99zbcXhHC2xAQ)]   [[code](https://github.com/bm2-lab/CausCell)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/CausCell.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/bm2-lab/CausCell)]
 
 - <a name=""></a> **[CLIP^n]** Transitive Prediction of Small-Molecule Function through Alignment of High-Content Screening Resources (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02729-2)]   [[code](https://github.com/AltschulerWu-Lab/CLIPn)]![GitHub stars](https://img.shields.io/github/stars/AltschulerWu-Lab/CLIPn.svg?logo=github&label=Stars)
 
