@@ -20,6 +20,8 @@
 
 ## 🎞️ Videos
 
+- <a name=""></a> **[Arc Institute]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE [[youtube](https://www.youtube.com/watch?v=rPWzpPf-3N0)]
+
 - <a name=""></a> **[Valence Labs]** Virtual Cells: Predict, Explain, Discover [[youtube](https://www.youtube.com/watch?v=QSfVjsa1i4g)]
 
 - <a name=""></a> **[EPFL]** Virtual Cells and Digital Twins: AI in Personalized Medicine [[youtube](https://www.youtube.com/watch?v=AJL7fMYvCKE)]
