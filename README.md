@@ -39,7 +39,7 @@
 
 - <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)]   [[中文解读](https://mp.weixin.qq.com/s/qLXXGXYmTjcFAWMtrd-wwQ)]
+- <a name=""></a> **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[中文解读](https://mp.weixin.qq.com/s/qLXXGXYmTjcFAWMtrd-wwQ)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)]
 
 - <a name=""></a> **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)]   [[code](https://github.com/cole-trapnell-lab/sci-plex)]![GitHub stars](https://img.shields.io/github/stars/cole-trapnell-lab/sci-plex.svg?logo=github&label=Stars)
 
@@ -93,7 +93,7 @@
 
 - <a name=""></a> **[Theory]** Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.06.048)]   [[code](https://github.com/physicell-models/grammar_samples)]![GitHub stars](https://img.shields.io/github/stars/physicell-models/grammar_samples.svg?logo=github&label=Stars)
 
-- <a name=""></a> **[GREmLN]** GREmLN: A Cellular Regulatory Network-Aware Transcriptomics Foundation Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.03.663009)]   [[code](https://github.com/czi-ai/GREmLN)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/GREmLN.svg?logo=github&label=Stars)   [[中文解读](https://mp.weixin.qq.com/s/YlgiFnb-6MmhAcE5qZAwKA)]
+- <a name=""></a> **[GREmLN]** GREmLN: A Cellular Regulatory Network-Aware Transcriptomics Foundation Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.03.663009)]   [[中文解读](https://mp.weixin.qq.com/s/YlgiFnb-6MmhAcE5qZAwKA)]   [[code](https://github.com/czi-ai/GREmLN)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/GREmLN.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[CausCell]** Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-62008-1)]   [[中文解读](https://mp.weixin.qq.com/s/N8nG9g3ur99zbcXhHC2xAQ)]   [[code](https://github.com/bm2-lab/CausCell)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/CausCell.svg?logo=github&label=Stars)
 
@@ -137,7 +137,7 @@
 
 - <a name=""></a> Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-cultures Using Deep Neural Networks (**Communications Biology 2025**) [[paper](https://www.nature.com/articles/s42003-025-07766-w)]
 
-- <a name=""></a> **[ProteinTalks]** A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.07.637070)]   [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)]![GitHub stars](https://img.shields.io/github/stars/guomics-lab/PTV-1.svg?logo=github&label=Stars)   [[中文解读](https://mp.weixin.qq.com/s/iAmR6EhV7KYfneRktRaEfw)]
+- <a name=""></a> **[ProteinTalks]** A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.07.637070)]   [[中文解读](https://mp.weixin.qq.com/s/iAmR6EhV7KYfneRktRaEfw)]   [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)]![GitHub stars](https://img.shields.io/github/stars/guomics-lab/PTV-1.svg?logo=github&label=Stars)
 
 - <a name=""></a> Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)]   [[中文解读](https://mp.weixin.qq.com/s/kPQmgzAbySrw3rp-B6JGfw)]
 
