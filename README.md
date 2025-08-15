@@ -193,11 +193,11 @@
 
 ### 🏛️ Earlier Papers
 
-- <a name=""></a> **[Geneformer]** Transfer Learning Enables Predictions in Network Biology (**Nature 2023**) [[paper](https://doi.org/10.1038/s41586-023-06139-9)]   [[code](https://github.com/jkobject/geneformer)]![GitHub stars](https://img.shields.io/github/stars/jkobject/geneformer.svg?logo=github&label=Stars)
+- <a name=""></a> **[Geneformer]** Transfer Learning Enables Predictions in Network Biology (**Nature 2023**) [[paper](https://doi.org/10.1038/s41586-023-06139-9)]   [[code](https://github.com/jkobject/geneformer)]![GitHub stars](https://img.shields.io/github/stars/jkobject/geneformer.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/jkobject/geneformer)]
 
-- <a name=""></a> **[CellOT]** Learning Single-Cell Perturbation Responses Using Neural Optimal Transport (**Nature Methods 2023**) [[paper](https://www.nature.com/articles/s41592-023-01969-x)]   [[code](https://github.com/bunnech/cellot)]![GitHub stars](https://img.shields.io/github/stars/bunnech/cellot.svg?logo=github&label=Stars)
+- <a name=""></a> **[CellOT]** Learning Single-Cell Perturbation Responses Using Neural Optimal Transport (**Nature Methods 2023**) [[paper](https://www.nature.com/articles/s41592-023-01969-x)]   [[code](https://github.com/bunnech/cellot)]![GitHub stars](https://img.shields.io/github/stars/bunnech/cellot.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/bunnech/cellot)]
 
-- <a name=""></a> **[tGPT]** Generative Pretraining from Large-Scale Transcriptomes for Single-Cell Deciphering (**iScience 2023**) [[paper](https://doi.org/10.1016/j.isci.2023.106536)]   [[code](https://github.com/deeplearningplus/tGPT)]![GitHub stars](https://img.shields.io/github/stars/deeplearningplus/tGPT.svg?logo=github&label=Stars)
+- <a name=""></a> **[tGPT]** Generative Pretraining from Large-Scale Transcriptomes for Single-Cell Deciphering (**iScience 2023**) [[paper](https://doi.org/10.1016/j.isci.2023.106536)]   [[code](https://github.com/deeplearningplus/tGPT)]![GitHub stars](https://img.shields.io/github/stars/deeplearningplus/tGPT.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/deeplearningplus/tGPT)]
 
 - <a name=""></a> Building the Next Generation of Virtual Cells to Understand Cellular Biology (**Biophysical Journal 2023**) [[paper](https://doi.org/10.1016/j.bpj.2023.04.006)]
 
@@ -207,7 +207,7 @@
 
 - <a name=""></a> **[Theory]** A Whole-Cell Computational Model Predicts Phenotype from Genotype (**Cell 2012**) [[paper](https://doi.org/10.1016/j.cell.2012.05.044)]
 
-- <a name=""></a> **[Virtual Cell]** The Virtual Cell —— a Candidate Co-Ordinator for "Middle-Out" Modelling of Biological Systems (**BIB 2009**) [[paper](https://doi.org/10.1093/bib/bbp010)]
+- <a name=""></a> **[Virtual Cell]** The Virtual Cell —— A Candidate Co-Ordinator for "Middle-Out" Modelling of Biological Systems (**BIB 2009**) [[paper](https://doi.org/10.1093/bib/bbp010)]
 
 - <a name=""></a> **[VCell 7.7]** Virtual Cell Modelling and Simulation Software Environment (**IET Systems Biology 2008**) [[paper](https://doi.org/10.1049/iet-syb:20080102)]   [[software](https://vcell.org/)]
 
