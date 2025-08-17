@@ -18,7 +18,7 @@
 
 ## 📝 High-Quality Blogs
 
-- <a name=""></a> **[Blog]** AI's Next Frontier: Modeling Life Itself (**© by Chan Zuckerberg Initiative 2025**) [[blog](https://www.freethink.com/artificial-intelligence/virtual-cells)]   [[中文解读](https://mp.weixin.qq.com/s/wtWiYNAXmycTL-K_SfLyhQ)]
+- <a name=""></a> **[Blog]** AI's Next Frontier: Modeling Life Itself (**© by Chan Zuckerberg Initiative 2025**) [[blog](https://www.freethink.com/artificial-intelligence/virtual-cells)]   [[中文解读](https://mp.weixin.qq.com/s/nVJDT3LqzRY6QZUU6odNLQ)]
 
 - <a name=""></a> **[Blog]** The State of Research on Virtual Cell Modeling (**© by Will Connell 2025**) [[blog](https://behindbioml.substack.com/p/the-state-of-research-on-virtual)]
 
