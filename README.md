@@ -2,7 +2,7 @@
 
 🔥 **AIVC** is a new frontier in computational biology, AIVC stands for **Artificial Intelligence Virtual Cell**, a technical term originating from a *Cell Perspective* paper titled ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015)
 
-💖 If you have any questions, suggestions, or improvements, please submit your Issues or Pull Requests (PRs).
+💖 If you have any questions, suggestions or improvements, or want to promote your work, please submit your Issues or Pull Requests (PRs).
 
 
 ## 🔬 Overview Papers
@@ -46,6 +46,8 @@
 
 - <a name=""></a> **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[中文解读](https://mp.weixin.qq.com/s/qLXXGXYmTjcFAWMtrd-wwQ)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)]
 
+- <a name=""></a> **[scBaseCount]** scBaseCount: An AI Agent-Curated, Uniformly Processed, and Continually Expanding Single Cell Data Repository (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.27.640494)]   [[Access Data Documentation](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]   [[code-SRAgent](https://github.com/ArcInstitute/scRecounter)]   [[code-SRAgent](thttps://github.com/ArcInstitute/SRAgent)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/SRAgent.svg?logo=github&label=Stars)
+
 - <a name=""></a> **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)]   [[Datasets Link](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)]   [[code](https://github.com/cole-trapnell-lab/sci-plex)]![GitHub stars](https://img.shields.io/github/stars/cole-trapnell-lab/sci-plex.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[scPerturb]** scPerturb: Harmonized Single-Cell Perturbation Data  (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-023-02144-y)]   [[Datasets Link](https://projects.sanderlab.org/scperturb/)]   [[code](https://github.com/sanderlab/scPerturb)]![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
@@ -85,9 +87,11 @@
 
 ### 2025
 
-- <a name=""></a> **[CellPB]** Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.20.629581)]   [[code](https://github.com/Chen-Li-17/CellPB)]![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/Chen-Li-17/CellPB)]
+- <a name=""></a> **[SToFM]** SToFM: A Multi-scale Foundation Model for Spatial Transcriptomics (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=PQx66EJUu0)]   [[code](https://github.com/PharMolix/SToFM)]![GitHub stars](https://img.shields.io/github/stars/PharMolix/SToFM.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/PharMolix/SToFM)]
 
 - <a name=""></a> **[CellFlux]** CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=3NLNmdheIi)]   [[code](https://github.com/yuhui-zh15/CellFlux)]![GitHub stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/yuhui-zh15/CellFlux)]
+
+- <a name=""></a> **[CellPB]** Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.20.629581)]   [[code](https://github.com/Chen-Li-17/CellPB)]![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/Chen-Li-17/CellPB)]
 
 - <a name=""></a> **[CellForge]** CellForge: Agentic Design of Virtual Cell Models (**arXiv 2025**) [[paper](https://arxiv.org/abs/2508.02276)]   [[code](https://github.com/gersteinlab/CellForge)]![GitHub stars](https://img.shields.io/github/stars/gersteinlab/CellForge.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/gersteinlab/CellForge)]
 
