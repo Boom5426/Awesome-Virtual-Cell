@@ -18,6 +18,8 @@
 
 ## 📝 High-Quality Blogs
 
+- <a name=""></a> **[Blog]** AI's Next Frontier: Modeling Life Itself (**© by Chan Zuckerberg Initiative 2025**) [[blog](https://www.freethink.com/artificial-intelligence/virtual-cells)]   [[中文解读](https://mp.weixin.qq.com/s/wtWiYNAXmycTL-K_SfLyhQ)]
+
 - <a name=""></a> **[Blog]** The State of Research on Virtual Cell Modeling (**© by Will Connell 2025**) [[blog](https://behindbioml.substack.com/p/the-state-of-research-on-virtual)]
 
 - <a name=""></a> **[Blog]** What Are Virtual Cells? Learning “Universal Representations” of Life’s Fundamental Unit (**© by Elliot Hershberg 2025**) [[blog](https://centuryofbio.com/p/virtual-cell)]
