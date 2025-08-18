@@ -1,4 +1,4 @@
-# Awesome-Virtual-Cell
+# Awesome-Virtual-Cell [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 🔥 **AIVC** is a new frontier in computational biology, AIVC stands for **Artificial Intelligence Virtual Cell**, a technical term originating from a *Cell Perspective* paper titled ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015)
 
