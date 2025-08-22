@@ -89,6 +89,8 @@
 
 ### 2025
 
+- <a name=""></a> **[Rbio-1]** Rbio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.08.18.670981)]   [[code](https://github.com/czi-ai/rbio)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/rbio.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/rbio)]
+
 - <a name=""></a> **[SToFM]** SToFM: A Multi-scale Foundation Model for Spatial Transcriptomics (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=PQx66EJUu0)]   [[code](https://github.com/PharMolix/SToFM)]![GitHub stars](https://img.shields.io/github/stars/PharMolix/SToFM.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/PharMolix/SToFM)]
 
 - <a name=""></a> **[CellFlux]** CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=3NLNmdheIi)]   [[code](https://github.com/yuhui-zh15/CellFlux)]![GitHub stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/yuhui-zh15/CellFlux)]
