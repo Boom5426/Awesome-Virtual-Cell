@@ -1,5 +1,6 @@
 # Awesome-Virtual-Cell [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+
 🔥 **AIVC** is a new frontier in computational biology, AIVC stands for **Artificial Intelligence Virtual Cell**, a technical term originating from a *Cell Perspective* paper titled ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015)
 
 💖 If you have any questions, suggestions or improvements, or want to promote your work, please submit your Issues or Pull Requests (PRs).
@@ -91,7 +92,7 @@
 
 - <a name=""></a> **[Rbio-1]** Rbio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.08.18.670981)]   [[code](https://github.com/czi-ai/rbio)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/rbio.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/rbio)]
 
-- <a name=""></a> **[Stereo-Cell]** Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density Dna Nanoball-Patterned Arrays (**Science 2025**) [[paper](https://doi.org/10.1126/science.adr0475)]   [[中文解读](https://mp.weixin.qq.com/s/vlzSO2QTsAm3QIIdpp4wXQ)]   [[code](https://github.com/haoshijie13/Stereo-cell-paper-code)]![GitHub stars](https://img.shields.io/github/stars/haoshijie13/Stereo-cell-paper-code.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/haoshijie13/Stereo-cell-paper-code)]
+- <a name=""></a> **[Stereo-Cell]** Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays (**Science 2025**) [[paper](https://doi.org/10.1126/science.adr0475)]   [[中文解读](https://mp.weixin.qq.com/s/vlzSO2QTsAm3QIIdpp4wXQ)]   [[code](https://github.com/haoshijie13/Stereo-cell-paper-code)]![GitHub stars](https://img.shields.io/github/stars/haoshijie13/Stereo-cell-paper-code.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/haoshijie13/Stereo-cell-paper-code)]
 
 - <a name=""></a> **[SToFM]** SToFM: A Multi-scale Foundation Model for Spatial Transcriptomics (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=PQx66EJUu0)]   [[code](https://github.com/PharMolix/SToFM)]![GitHub stars](https://img.shields.io/github/stars/PharMolix/SToFM.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/PharMolix/SToFM)]
 
