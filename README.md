@@ -25,6 +25,8 @@
 
 - <a name=""></a> **[Blog]** What Are Virtual Cells? Learning “Universal Representations” of Life’s Fundamental Unit (**© by Elliot Hershberg 2025**) [[blog](https://centuryofbio.com/p/virtual-cell)]
 
+- <a name=""></a> **[中文 Blog]** 什么是虚拟细胞：AI 生物学的 “登月时刻” 和 “苦涩教训” (**© by 范阳 2025**) [[blog](https://mp.weixin.qq.com/s/vmXIwW1XNCOVinI31Eh1Bw)]
+
 
 ## 🎞️ Videos
 
