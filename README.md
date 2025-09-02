@@ -92,6 +92,9 @@
 
 ### 2025
 
+
+- <a name=""></a> **[rBio-1]** RegVelo: gene-regulatory-informed dynamics of single cells (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2024.12.11.627935v1)]   [[code](https://github.com/theislab/regvelo)]![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
+
 - <a name=""></a> **[rBio-1]** rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.08.18.670981)]   [[中文解读](https://mp.weixin.qq.com/s/QPS1L1MRQr9-F8u8fZsNWw)]   [[code](https://github.com/czi-ai/rbio)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/rbio.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/rbio)]
 
 - <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
