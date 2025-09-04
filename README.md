@@ -47,6 +47,9 @@
 
 ## 🧬 Datasets
 
+- <a name=""></a> **[CIGS]** High-throughput profiling of chemical-induced gene expression across 93644 perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)]   [[Dataset link](https://cigs.iomicscloud.com/)]   [[code](https://github.com/Wang-lab302/CIGS)]![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
+
+
 - <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]   [[中文解读](https://mp.weixin.qq.com/s/qLXXGXYmTjcFAWMtrd-wwQ)]   [[Datasets Link](https://doi.org/10.25452/figshare.plus.29190726)]
