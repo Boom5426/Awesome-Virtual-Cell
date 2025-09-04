@@ -92,6 +92,7 @@
 
 ### 2025
 
+- <a name=""></a>**[MorphDiff ]** Prediction of cellular morphology changes under perturbations with a transcriptome-guided diffusion model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)][[code](https://github.com/biomap-research/MorphDiff)]![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[RegVelo]** RegVelo: gene-regulatory-informed dynamics of single cells (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2024.12.11.627935v1)]   [[code](https://github.com/theislab/regvelo)]![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
 
