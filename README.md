@@ -98,6 +98,8 @@
 
 - <a name=""></a> **[rBio-1]** rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.08.18.670981)]   [[中文解读](https://mp.weixin.qq.com/s/QPS1L1MRQr9-F8u8fZsNWw)]   [[code](https://github.com/czi-ai/rbio)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/rbio.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/rbio)]
 
+- <a name=""></a> **[TranscriptFormer]** A Cross-Species Generative Cell Atlas across 1.5 Billion Years of Evolution: The Transcriptformer Single-Cell Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.25.650731)]   [[code](https://github.com/czi-ai/transcriptformer)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/transcriptformer.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/transcriptformer)]
+
 - <a name=""></a> **[GraphVelo]** GraphVelo Allows for Accurate Inference of Multimodal Velocities and Molecular Mechanisms for Single Cells (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-62784-w)]   [[中文解读](https://mp.weixin.qq.com/s/zhZOzhhPiYYBYwfAipM_-Q)]   [[code](https://github.com/xing-lab-pitt/GraphVelo)]![GitHub stars](https://img.shields.io/github/stars/xing-lab-pitt/GraphVelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/xing-lab-pitt/GraphVelo)]
 
 - <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
@@ -141,6 +143,8 @@
 - <a name=""></a> **[OCTO-vc]** OCTO-vc: Virtual Cells in Real Tissue (**© by Noetik 2025**) [[technical report](https://www.noetik.ai/octo-vc)]   [[online demonstration](https://celleporter.noetik.ai/)]
 
 - <a name=""></a> **[STATE]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.26.661135v2)]   [[code](https://github.com/ArcInstitute/state)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/ArcInstitute/state)]
+
+- <a name=""></a> **[UniPert-G2CP]** Genetic-To-Chemical Perturbation Transfer Learning through Unified Multimodal Molecular Representations (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.02.635055)]   [[code](https://github.com/TencentAILabHealthcare/UniPert)]![GitHub stars](https://img.shields.io/github/stars/TencentAILabHealthcare/UniPert.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/TencentAILabHealthcare/UniPert)]
 
 - <a name=""></a> **[UniCure]** Unicure: A Foundation Model for Predicting Personalized Cancer Therapy Response (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1)]   [[code](https://github.com/ZexiChen502/UniCure)]![GitHub stars](https://img.shields.io/github/stars/ZexiChen502/UniCure.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/ZexiChen502/UniCure)]
 
