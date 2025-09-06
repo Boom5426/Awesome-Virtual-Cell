@@ -47,8 +47,7 @@
 
 ## 🧬 Datasets
 
-- <a name=""></a> **[CIGS]** High-throughput profiling of chemical-induced gene expression across 93644 perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)]   [[Dataset link](https://cigs.iomicscloud.com/)]   [[code](https://github.com/Wang-lab302/CIGS)]![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
-
+- <a name=""></a> **[CIGS]** High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)]   [[中文解读](https://mp.weixin.qq.com/s/nLvu4AFf6MFRurPL0WVu8g)]   [[Dataset Link](https://cigs.iomicscloud.com/)]   [[code](https://github.com/Wang-lab302/CIGS)]![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
@@ -95,11 +94,11 @@
 
 ### 2025
 
-- <a name=""></a>**[MorphDiff]** Prediction of cellular morphology changes under perturbations with a transcriptome-guided diffusion model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)][[code](https://github.com/biomap-research/MorphDiff)]![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars)
-
-- <a name=""></a> **[RegVelo]** RegVelo: gene-regulatory-informed dynamics of single cells (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2024.12.11.627935v1)]   [[code](https://github.com/theislab/regvelo)]![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
+- <a name=""></a> **[MorphDiff]** Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion Model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)]   [[中文解读](https://mp.weixin.qq.com/s/UKdrMoYTis1BAp9N_dkbtQ)]   [[code](https://github.com/biomap-research/MorphDiff)]![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/biomap-research/MorphDiff)]
 
 - <a name=""></a> **[rBio-1]** rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.08.18.670981)]   [[中文解读](https://mp.weixin.qq.com/s/QPS1L1MRQr9-F8u8fZsNWw)]   [[code](https://github.com/czi-ai/rbio)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/rbio.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/rbio)]
+
+- <a name=""></a> **[GraphVelo]** GraphVelo Allows for Accurate Inference of Multimodal Velocities and Molecular Mechanisms for Single Cells (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-62784-w)]   [[中文解读](https://mp.weixin.qq.com/s/zhZOzhhPiYYBYwfAipM_-Q)]   [[code](https://github.com/xing-lab-pitt/GraphVelo)]![GitHub stars](https://img.shields.io/github/stars/xing-lab-pitt/GraphVelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/xing-lab-pitt/GraphVelo)]
 
 - <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
 
@@ -182,7 +181,9 @@
 
 ### 2024
 
-- <a name=""></a>**[TranSiGen]** Deep Representation Learning of Chemical-Induced Transcriptional Profile for Phenotype-Based Drug Discovery (**Nature Communications 2024**) [[paper](https://www.nature.com/articles/s41467-024-49620-3)] [[code](https://github.com/myzhengSIMM/TranSiGen)]![GitHub stars](https://img.shields.io/github/stars/myzhengSIMM/TranSiGen.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/myzhengSIMM/TranSiGen)]
+- <a name=""></a> **[RegVelo]** RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells (**bioRxiv 2024**) [[paper](https://doi.org/10.1101/2024.12.11.627935)]   [[code](https://github.com/theislab/regvelo)]![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
+
+- <a name=""></a> **[TranSiGen]** Deep Representation Learning of Chemical-Induced Transcriptional Profile for Phenotype-Based Drug Discovery (**Nature Communications 2024**) [[paper](https://www.nature.com/articles/s41467-024-49620-3)] [[code](https://github.com/myzhengSIMM/TranSiGen)]![GitHub stars](https://img.shields.io/github/stars/myzhengSIMM/TranSiGen.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/myzhengSIMM/TranSiGen)]
 
 - <a name=""></a> **[GenePT]** Simple and Effective Embedding Model for Single-Cell Biology Built from ChatGPT (**Nature Biomedical Engineering 2024**) [[paper](https://doi.org/10.1038/s41551-024-01284-6)]   [[code](https://github.com/yiqunchen/GenePT)]![GitHub stars](https://img.shields.io/github/stars/yiqunchen/GenePT.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/yiqunchen/GenePT)]
 
