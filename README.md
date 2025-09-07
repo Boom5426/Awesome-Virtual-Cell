@@ -27,6 +27,8 @@
 
 - <a name=""></a> **[中文 Blog]** 什么是虚拟细胞：AI 生物学的 “登月时刻” 和 “苦涩教训” (**© by 范阳 2025**) [[blog](https://mp.weixin.qq.com/s/vmXIwW1XNCOVinI31Eh1Bw)]
 
+- <a name=""></a> **[Introduction]** Virtual Cells (**© by Udara Jay 2025**) [[blog](https://udara.io/science/virtual-cells)]
+
 
 ## 🎞️ Videos
 
