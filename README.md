@@ -17,7 +17,9 @@
 - <a name=""></a> **[Cell Review]** Toward a Foundation Model of Causal Cell and Tissue Biology with a Perturbation Cell and Tissue Atlas (**Cell 2024**) [[paper](https://doi.org/10.1016/j.cell.2024.07.035)]   [[中文解读](https://mp.weixin.qq.com/s/uXdSz-XCR_2gC2enwN_lDg)]
 
 
-## 📝 High-Quality Blogs
+## 📝 High-Quality Reports and Blogs
+
+- <a name=""></a> **[Report]** Projections at the Frontier: Decoding Bio Snapshot 2025 (**© by Decoding Bio's Team 2025**) [[Slide](https://drive.google.com/file/d/15ku6sly5P9yjehvMnfrija8F2oFl7koR/view)]   [[中文解读](https://mp.weixin.qq.com/s/XMtP2LZJIAl6a3nDsw-AEQ?scene=1&click_id=10)]
 
 - <a name=""></a> **[Blog]** AI's Next Frontier: Modeling Life Itself (**© by Chan Zuckerberg Initiative 2025**) [[blog](https://www.freethink.com/artificial-intelligence/virtual-cells)]   [[中文解读](https://mp.weixin.qq.com/s/nVJDT3LqzRY6QZUU6odNLQ)]
 
