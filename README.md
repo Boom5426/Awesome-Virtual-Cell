@@ -98,7 +98,7 @@
 
 ### 2025
 
-- <a name=""></a> **[MorphDiff]** Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion Model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)]   [[中文解读](https://mp.weixin.qq.com/s/UKdrMoYTis1BAp9N_dkbtQ)]   [[code](https://github.com/biomap-research/MorphDiff)]![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/biomap-research/MorphDiff)]
+- <a name=""></a> **[MorphDiff]** Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion Model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)]   [[中文解读](https://mp.weixin.qq.com/s/f_4Q0DEuy3K4sy_jsYhabQ)]   [[code](https://github.com/biomap-research/MorphDiff)]![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/biomap-research/MorphDiff)]
 
 - <a name=""></a> **[rBio-1]** rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.08.18.670981)]   [[中文解读](https://mp.weixin.qq.com/s/QPS1L1MRQr9-F8u8fZsNWw)]   [[code](https://github.com/czi-ai/rbio)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/rbio.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/rbio)]
 
