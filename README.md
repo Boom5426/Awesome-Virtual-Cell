@@ -100,8 +100,7 @@
 
 ### 2025
 
-- <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://www.nature.com/articles/s41587-025-02777-8)]  [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
-
+- <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
 
 - <a name=""></a> **[MorphDiff]** Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion Model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)]   [[中文解读](https://mp.weixin.qq.com/s/f_4Q0DEuy3K4sy_jsYhabQ)]   [[code](https://github.com/biomap-research/MorphDiff)]![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/biomap-research/MorphDiff)]
 
@@ -110,8 +109,6 @@
 - <a name=""></a> **[TranscriptFormer]** A Cross-Species Generative Cell Atlas across 1.5 Billion Years of Evolution: The Transcriptformer Single-Cell Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.25.650731)]   [[code](https://github.com/czi-ai/transcriptformer)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/transcriptformer.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/transcriptformer)]
 
 - <a name=""></a> **[GraphVelo]** GraphVelo Allows for Accurate Inference of Multimodal Velocities and Molecular Mechanisms for Single Cells (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-62784-w)]   [[中文解读](https://mp.weixin.qq.com/s/zhZOzhhPiYYBYwfAipM_-Q)]   [[code](https://github.com/xing-lab-pitt/GraphVelo)]![GitHub stars](https://img.shields.io/github/stars/xing-lab-pitt/GraphVelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/xing-lab-pitt/GraphVelo)]
-
-- <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
 
 - <a name=""></a> **[Stereo-Cell]** Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays (**Science 2025**) [[paper](https://doi.org/10.1126/science.adr0475)]   [[中文解读](https://mp.weixin.qq.com/s/vlzSO2QTsAm3QIIdpp4wXQ)]   [[code](https://github.com/haoshijie13/Stereo-cell-paper-code)]![GitHub stars](https://img.shields.io/github/stars/haoshijie13/Stereo-cell-paper-code.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/haoshijie13/Stereo-cell-paper-code)]
 
