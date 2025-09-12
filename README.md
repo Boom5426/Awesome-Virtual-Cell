@@ -74,6 +74,8 @@
 
 ## ⚔️ Challenges
 
+- <a name=""></a> **[Insight]** From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models (**iCell 2025**) [[paper](https://doi.org/10.71373/IQHA9494)]
+
 - <a name=""></a> **[Evaluation]** Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI Virtual Cells Workshop (**arXiv 2025**) [[paper](https://arxiv.org/abs/2507.10502)]   [[中文解读](https://mp.weixin.qq.com/s/5iGqIUMq1IoHEm0Ssl84-w)]
 
 - <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]   [[Homepage](https://virtualcellchallenge.org/)]   [[Beginner's Guidance](https://fleetwood.dev/posts/virtual-cell-challenge)]
