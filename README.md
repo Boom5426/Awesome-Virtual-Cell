@@ -12,6 +12,8 @@
 
 - <a name=""></a> **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)]   [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
 
+- - <a name=""></a> **[Cell Perspective]** Empowering biomedical discovery with AI agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)]   [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
+
 - <a name=""></a> **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)]   [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
 
 - <a name=""></a> **[Cell Review]** Toward a Foundation Model of Causal Cell and Tissue Biology with a Perturbation Cell and Tissue Atlas (**Cell 2024**) [[paper](https://doi.org/10.1016/j.cell.2024.07.035)]   [[中文解读](https://mp.weixin.qq.com/s/uXdSz-XCR_2gC2enwN_lDg)]
@@ -104,10 +106,15 @@
 
 - <a name=""></a> **[CRISPR-GPT]** CRISPR-GPT for agentic automation of gene-editing experiments (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01463-z)]   [[中文解读](https://mp.weixin.qq.com/s/KuKndV469cvTczi9CePcqQ)]   [[code](https://github.com/cong-lab/crispr-gpt-pub)]![GitHub stars](https://img.shields.io/github/stars/cong-lab/crispr-gpt-pub.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/cong-lab/crispr-gpt-pub)]
 
+- <a name=""></a> **[SpatialAgent]** SpatialAgent: An autonomous AI agent for spatial biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.03.646459)]   [[中文解读](https://mp.weixin.qq.com/s?search_click_id=134569473472224483-1758854209798-0350010529&__biz=Mzk1NzMzNjgyOQ==&mid=2247484231&idx=1&sn=d19dbd8b6e6161d864ec03cd7558c6d9&chksm=c2b40c7da2bc7d2f2e55dd4368c34a4c2c1de1387b463d456901aa2d2023cfac46eac4ebd994&scene=7#rd)]   [[code](https://github.com/Genentech/SpatialAgent)]![GitHub stars](https://img.shields.io/github/stars/Genentech/SpatialAgent.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/Genentech/SpatialAgent)]
+
+- <a name=""></a> **[CellAtria]** An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-seq Data Analysis (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.31.667880)]   [[中文解读](https://mp.weixin.qq.com/s/F7SeT3NJEbjpbRBOIZihKw)]   [[code](https://github.com/AstraZeneca/cellatria)]![GitHub stars](https://img.shields.io/github/stars/AstraZeneca/cellatria.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/AstraZeneca/cellatria)]
+
+- <a name=""></a> **[CellVoyager]** CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.06.03.657517)]   [[中文解读](https://mp.weixin.qq.com/s/BSWKav3U6MBxdf3ePAxzOg)]   [[code](https://github.com/zou-group/CellVoyager)]![GitHub stars](https://img.shields.io/github/stars/zou-group/CellVoyager.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/zou-group/CellVoyager)]
+
 - <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
 
 - <a name=""></a> **[RegVelo]** RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells (**bioRxiv**) [[paper](https://doi.org/10.1101/2024.12.11.627935)]   [[code](https://github.com/theislab/regvelo)]![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
-
 
 - <a name=""></a> **[MorphDiff]** Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion Model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)]   [[中文解读](https://mp.weixin.qq.com/s/f_4Q0DEuy3K4sy_jsYhabQ)]   [[code](https://github.com/biomap-research/MorphDiff)]![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/biomap-research/MorphDiff)]
 
