@@ -12,7 +12,7 @@
 
 - <a name=""></a> **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)]   [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
 
-- - <a name=""></a> **[Cell Perspective]** Empowering biomedical discovery with AI agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)]   [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
+- <a name=""></a> **[Cell Perspective]** Empowering biomedical discovery with AI agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)]   [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
 
 - <a name=""></a> **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)]   [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
 
