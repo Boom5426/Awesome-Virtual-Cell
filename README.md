@@ -12,7 +12,7 @@
 
 - <a name=""></a> **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)]   [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
 
-- <a name=""></a> **[Cell Perspective]** Empowering biomedical discovery with AI agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)]   [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
+- <a name=""></a> **[Cell Perspective]** Empowering Biomedical Discovery with AI Agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)]   [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
 
 - <a name=""></a> **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)]   [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
 
@@ -104,13 +104,10 @@
 
 ### 2025
 
-- <a name=""></a> **[CRISPR-GPT]** CRISPR-GPT for agentic automation of gene-editing experiments (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01463-z)]   [[中文解读](https://mp.weixin.qq.com/s/KuKndV469cvTczi9CePcqQ)]   [[code](https://github.com/cong-lab/crispr-gpt-pub)]![GitHub stars](https://img.shields.io/github/stars/cong-lab/crispr-gpt-pub.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/cong-lab/crispr-gpt-pub)]
+- <a name=""></a> **[EpiAgent]** EpiAgent: Foundation Model for Single-Cell Epigenomics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02822-z)]   [[中文解读](https://mp.weixin.qq.com/s/Zuguvzdvx6YOIPT8O889NQ?scene=1&click_id=7)]   [[code](https://github.com/xy-chen16/EpiAgent)]![GitHub stars](https://img.shields.io/github/stars/xy-chen16/EpiAgent.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/xy-chen16/EpiAgent)]
 
-- <a name=""></a> **[SpatialAgent]** SpatialAgent: An autonomous AI agent for spatial biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.03.646459)]   [[中文解读](https://mp.weixin.qq.com/s?search_click_id=134569473472224483-1758854209798-0350010529&__biz=Mzk1NzMzNjgyOQ==&mid=2247484231&idx=1&sn=d19dbd8b6e6161d864ec03cd7558c6d9&chksm=c2b40c7da2bc7d2f2e55dd4368c34a4c2c1de1387b463d456901aa2d2023cfac46eac4ebd994&scene=7#rd)]   [[code](https://github.com/Genentech/SpatialAgent)]![GitHub stars](https://img.shields.io/github/stars/Genentech/SpatialAgent.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/Genentech/SpatialAgent)]
 
-- <a name=""></a> **[CellAtria]** An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-seq Data Analysis (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.31.667880)]   [[中文解读](https://mp.weixin.qq.com/s/F7SeT3NJEbjpbRBOIZihKw)]   [[code](https://github.com/AstraZeneca/cellatria)]![GitHub stars](https://img.shields.io/github/stars/AstraZeneca/cellatria.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/AstraZeneca/cellatria)]
-
-- <a name=""></a> **[CellVoyager]** CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.06.03.657517)]   [[中文解读](https://mp.weixin.qq.com/s/BSWKav3U6MBxdf3ePAxzOg)]   [[code](https://github.com/zou-group/CellVoyager)]![GitHub stars](https://img.shields.io/github/stars/zou-group/CellVoyager.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/zou-group/CellVoyager)]
+- <a name=""></a> **[CRISPR-GPT]** CRISPR-GPT for Agentic Automation of Gene-Editing Experiments (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01463-z)]   [[中文解读](https://mp.weixin.qq.com/s/KuKndV469cvTczi9CePcqQ)]   [[code](https://github.com/cong-lab/crispr-gpt-pub)]![GitHub stars](https://img.shields.io/github/stars/cong-lab/crispr-gpt-pub.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/cong-lab/crispr-gpt-pub)]
 
 - <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
 
@@ -122,11 +119,17 @@
 
 - <a name=""></a> **[TranscriptFormer]** A Cross-Species Generative Cell Atlas across 1.5 Billion Years of Evolution: The Transcriptformer Single-Cell Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.25.650731)]   [[code](https://github.com/czi-ai/transcriptformer)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/transcriptformer.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/transcriptformer)]
 
+- <a name=""></a> **[CellAtria]** An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-Seq Data Analysis (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.31.667880)]   [[中文解读](https://mp.weixin.qq.com/s/F7SeT3NJEbjpbRBOIZihKw)]   [[code](https://github.com/AstraZeneca/cellatria)]![GitHub stars](https://img.shields.io/github/stars/AstraZeneca/cellatria.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/AstraZeneca/cellatria)]
+
+- <a name=""></a> **[Scvi-hub]** Scvi-hub: An Actionable Repository for Model-Driven Single-Cell Analysis (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02799-9)]   [[中文解读](https://mp.weixin.qq.com/s/VzGqZAUmpC4z4rq_laK8KQ)]   [[code](https://github.com/YosefLab/scvi-hub-reproducibility)]![GitHub stars](https://img.shields.io/github/stars/YosefLab/scvi-hub-reproducibility.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/YosefLab/scvi-hub-reproducibility)]
+
 - <a name=""></a> **[GraphVelo]** GraphVelo Allows for Accurate Inference of Multimodal Velocities and Molecular Mechanisms for Single Cells (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-62784-w)]   [[中文解读](https://mp.weixin.qq.com/s/zhZOzhhPiYYBYwfAipM_-Q)]   [[code](https://github.com/xing-lab-pitt/GraphVelo)]![GitHub stars](https://img.shields.io/github/stars/xing-lab-pitt/GraphVelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/xing-lab-pitt/GraphVelo)]
 
 - <a name=""></a> **[Stereo-Cell]** Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays (**Science 2025**) [[paper](https://doi.org/10.1126/science.adr0475)]   [[中文解读](https://mp.weixin.qq.com/s/vlzSO2QTsAm3QIIdpp4wXQ)]   [[code](https://github.com/haoshijie13/Stereo-cell-paper-code)]![GitHub stars](https://img.shields.io/github/stars/haoshijie13/Stereo-cell-paper-code.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/haoshijie13/Stereo-cell-paper-code)]
 
 - <a name=""></a> **[SToFM]** SToFM: A Multi-scale Foundation Model for Spatial Transcriptomics (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=PQx66EJUu0)]   [[中文解读](https://mp.weixin.qq.com/s/BevOy589OoJ6qnKt_wG3sg)]   [[code](https://github.com/PharMolix/SToFM)]![GitHub stars](https://img.shields.io/github/stars/PharMolix/SToFM.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/PharMolix/SToFM)]
+
+- <a name=""></a> **[SpatialAgent]** SpatialAgent: An Autonomous AI Agent for Spatial Biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.03.646459)]   [[中文解读](https://mp.weixin.qq.com/s/uoJ3RGxR2fa5Wy3gUcjeLQ)]   [[code](https://github.com/Genentech/SpatialAgent)]![GitHub stars](https://img.shields.io/github/stars/Genentech/SpatialAgent.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/Genentech/SpatialAgent)]
 
 - <a name=""></a> **[CellFlux]** CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=3NLNmdheIi)]   [[code](https://github.com/yuhui-zh15/CellFlux)]![GitHub stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/yuhui-zh15/CellFlux)]
 
@@ -145,6 +148,8 @@
 - <a name=""></a> **[Theory]** Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.06.048)]   [[code](https://github.com/physicell-models/grammar_samples)]![GitHub stars](https://img.shields.io/github/stars/physicell-models/grammar_samples.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/PhysiCell-Models/grammar_samples)]
 
 - <a name=""></a> **[GREmLN]** GREmLN: A Cellular Regulatory Network-Aware Transcriptomics Foundation Model (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.07.03.663009)]   [[中文解读](https://mp.weixin.qq.com/s/YlgiFnb-6MmhAcE5qZAwKA)]   [[code](https://github.com/czi-ai/GREmLN)]![GitHub stars](https://img.shields.io/github/stars/czi-ai/GREmLN.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/czi-ai/GREmLN)]
+
+- <a name=""></a> **[CellVoyager]** CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.06.03.657517)]   [[中文解读](https://mp.weixin.qq.com/s/BSWKav3U6MBxdf3ePAxzOg)]   [[code](https://github.com/zou-group/CellVoyager)]![GitHub stars](https://img.shields.io/github/stars/zou-group/CellVoyager.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/zou-group/CellVoyager)]
 
 - <a name=""></a> **[CausCell]** Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-62008-1)]   [[中文解读](https://mp.weixin.qq.com/s/N8nG9g3ur99zbcXhHC2xAQ)]   [[code](https://github.com/bm2-lab/CausCell)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/CausCell.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/bm2-lab/CausCell)]
 
