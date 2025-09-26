@@ -102,6 +102,8 @@
 
 ### 2025
 
+- <a name=""></a> **[CRISPR-GPT]** CRISPR-GPT for agentic automation of gene-editing experiments (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01463-z)]   [[中文解读](https://mp.weixin.qq.com/s/KuKndV469cvTczi9CePcqQ)]   [[code](https://github.com/cong-lab/crispr-gpt-pub)]![GitHub stars](https://img.shields.io/github/stars/cong-lab/crispr-gpt-pub.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/cong-lab/crispr-gpt-pub)]
+
 - <a name=""></a> **[Systema]** Systema: A Framework for Evaluating Genetic Perturbation Response Prediction Beyond Systematic Variation (**Nature Biotechnology 2025**) [[paper](https://doi.org/10.1038/s41587-025-02777-8)]   [[中文解读](https://mp.weixin.qq.com/s/QIhPbz034nwCPRBvd0P_tQ)]   [[code](https://github.com/mlbio-epfl/systema)]![GitHub stars](https://img.shields.io/github/stars/mlbio-epfl/systema.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/mlbio-epfl/systema)]
 
 - <a name=""></a> **[RegVelo]** RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells (**bioRxiv**) [[paper](https://doi.org/10.1101/2024.12.11.627935)]   [[code](https://github.com/theislab/regvelo)]![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
