@@ -210,6 +210,7 @@
 
 - <a name=""></a> **[GET]** A Foundation Model of Transcription across Human Cell Types (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-024-08391-z)]   [[code](https://github.com/GET-Foundation/get_model)]![GitHub stars](https://img.shields.io/github/stars/GET-Foundation/get_model.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/GET-Foundation/get_model)]
 
+- <a name=""></a>**[PhenoProfiler]** PhenoProfiler: Advancing Morphology Representations for Image-based Drug Discovery (**Nature Communications 2025**) [[paper](https://arxiv.org/abs/2502.19568)] [[code](https://github.com/QSong-github/PhenoProfiler)]![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler.svg?logo=github&label=Stars) [Webserver](https://phenoprofiler.org/)
 
 ### 2024
 
