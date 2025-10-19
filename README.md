@@ -21,6 +21,8 @@
 
 ## 📝 High-Quality Reports and Blogs
 
+- <a name=""></a> **[Symposium]** Al Proteomics and Virtual Cell (**© by Westlake University 2025**) [[Media](https://mp.weixin.qq.com/s/45Evl-tKw9DAY8xdcWSlPg)]   [[中文解读](https://mp.weixin.qq.com/s/efB7nMeXLjxEqpfbhv8AWg?scene=1)]
+
 - <a name=""></a> **[Report]** Projections at the Frontier: Snapshot 2025 (**© by Decoding Bio's Team 2025**) [[Slide](https://drive.google.com/file/d/15ku6sly5P9yjehvMnfrija8F2oFl7koR/view)]   [[中文解读](https://mp.weixin.qq.com/s/XMtP2LZJIAl6a3nDsw-AEQ?scene=1&click_id=10)]
 
 - <a name=""></a> **[Post]** Chan Zuckerberg Initiative's rBio Uses Virtual Cells to Train AI, Bypassing Lab Work (**© by Michael Nuñez 2025**) [[blog](https://venturebeat.com/ai/chan-zuckerberg-initiatives-rbio-uses-virtual-cells-to-train-ai-bypassing-lab-work)]
