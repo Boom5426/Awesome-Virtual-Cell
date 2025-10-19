@@ -104,6 +104,8 @@
 
 ### 2025
 
+- <a name=""></a> **[LPM]** In Silico Biological Discovery with Large Perturbation Models (**Nature Computational Science 2025**) [[paper](https://doi.org/10.1038/s43588-025-00870-1)]   [[中文解读](https://mp.weixin.qq.com/s/i_UllqEDVwPQnw-X7dR2BQ)]   [[code](https://github.com/perturblib/perturblib)]![GitHub stars](https://img.shields.io/github/stars/perturblib/perturblib.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/perturblib/perturblib)]
+
 - <a name=""></a> **[CellNavi]** CellNavi Predicts Genes Directing Cellular Transitions by Learning a Gene Graph-Enhanced Cell State Manifold (**Nature Cell Biology 2025**) [[paper](https://doi.org/10.1038/s41556-025-01755-1)]   [[中文解读](https://mp.weixin.qq.com/s/RqLpybJxpHz-8epY7IXA3w)]   [[code](https://github.com/DLS5-Omics/CellNavi)]![GitHub stars](https://img.shields.io/github/stars/DLS5-Omics/CellNavi.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/DLS5-Omics/CellNavi)]
 
 - <a name=""></a> **[EpiAgent]** EpiAgent: Foundation Model for Single-Cell Epigenomics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02822-z)]   [[中文解读](https://mp.weixin.qq.com/s/Zuguvzdvx6YOIPT8O889NQ)]   [[code](https://github.com/xy-chen16/EpiAgent)]![GitHub stars](https://img.shields.io/github/stars/xy-chen16/EpiAgent.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/xy-chen16/EpiAgent)]
