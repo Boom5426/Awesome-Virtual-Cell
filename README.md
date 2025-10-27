@@ -89,7 +89,7 @@
 
 ### 2025
 
-- <a name=""></a> **** Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science 2025**) [[paper](https://www.science.org/doi/10.1126/science.adi8577)]   [[code](https://doi.org/10.5281/zenodo.16921928)] 
+- <a name=""></a> Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science 2025**) [[paper](https://www.science.org/doi/10.1126/science.adi8577)]   [[code](https://doi.org/10.5281/zenodo.16921928)] 
 
 
 - <a name=""></a> **[Tahoe-x1]** Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.10.23.683759)]   [[code](https://github.com/tahoebio/tahoe-x1)]![GitHub stars](https://img.shields.io/github/stars/tahoebio/tahoe-x1.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/tahoebio/tahoe-x1)]   [[hugging face files](https://huggingface.co/tahoebio/Tahoe-x1/tree/main)]
