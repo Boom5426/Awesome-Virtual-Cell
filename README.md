@@ -89,6 +89,8 @@
 
 ### 2025
 
+- <a name=""></a> **[Squidiff]** Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02877-y)]  [[code](https://github.com/siyuh/Squidiff)]![GitHub stars](https://img.shields.io/github/stars/siyuh/Squidiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/siyuh/Squidiff)]
+
 - <a name=""></a> **[Nicheformer]** Nicheformer: A Foundation Model for Single-Cell and Spatial Omics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02814-z)]   [[中文解读](https://mp.weixin.qq.com/s/dCOncaXH2O1ArVxYiI4tjA)]   [[code](https://github.com/theislab/nicheformer)]![GitHub stars](https://img.shields.io/github/stars/theislab/nicheformer.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/nicheformer)]
 
 - <a name=""></a> **[ADLF]** Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science 2025**) [[paper](https://doi.org/10.1126/science.adi8577)]   [[code](https://doi.org/10.5281/zenodo.16921928)] 
