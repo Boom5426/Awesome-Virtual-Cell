@@ -89,7 +89,7 @@
 
 ### 2025
 
-- <a name=""></a> **[Benchmarking]** Benchmarking algorithms for generalizable single-cell perturbation response prediction (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02980-0)]  [[code](https://github.com/bm2-lab/scPerturBench/)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/scPerturBench.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/bm2-lab/scPerturBench)]
+- <a name=""></a> **[Benchmarking]** Benchmarking Algorithms for Generalizable Single-Cell Perturbation Response Prediction (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02980-0)]  [[code](https://github.com/bm2-lab/scPerturBench/)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/scPerturBench.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/bm2-lab/scPerturBench)]
 
 - <a name=""></a> **[VCWorld]** VCWorld: A Biological World Model for Virtual Cell Simulation (**arXiv 2025**) [[paper](https://arxiv.org/abs/2512.00306)]  [[code](https://github.com/GENTEL-lab/VCWorld)]![GitHub stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/GENTEL-lab/VCWorld)]
 
