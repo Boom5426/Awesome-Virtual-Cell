@@ -89,22 +89,23 @@
 
 ### 2026
 
-- <a name=""></a> **[Pertpy]** Pertpy: an end-to-end framework for perturbation analysis (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02909-7)]  [[code](https://github.com/scverse/pertpy)]![GitHub stars](https://img.shields.io/github/stars/scverse/pertpy.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/scverse/pertpy)]
+- <a name=""></a> **[Stack]** Stack: In-Context Learning of Single-Cell Biology (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1)]  [[code](https://github.com/ArcInstitute/stack)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/stack.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/ArcInstitute/stack)]
 
 
 ### 2025
 
-- <a name=""></a> **[Pertpy]** Pertpy: an end-to-end framework for perturbation analysis (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02909-7)]  [[code](https://github.com/scverse/pertpy)]![GitHub stars](https://img.shields.io/github/stars/scverse/pertpy.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/scverse/pertpy)]
+- <a name=""></a> **[Pertpy]** Pertpy: an End-to-end Framework for Perturbation Analysis (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02909-7)]  [[code](https://github.com/scverse/pertpy)]![GitHub stars](https://img.shields.io/github/stars/scverse/pertpy.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/scverse/pertpy)]
 
-- <a name=""></a> **[Benchmarking]** Benchmarking Algorithms for Generalizable Single-Cell Perturbation Response Prediction (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02980-0)]  [[code](https://github.com/bm2-lab/scPerturBench/)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/scPerturBench.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/bm2-lab/scPerturBench)]
 
-- <a name=""></a> **[VCWorld]** VCWorld: A Biological World Model for Virtual Cell Simulation (**arXiv 2025**) [[paper](https://arxiv.org/abs/2512.00306)]  [[code](https://github.com/GENTEL-lab/VCWorld)]![GitHub stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/GENTEL-lab/VCWorld)]
+- <a name=""></a> **[Benchmarking]** Benchmarking Algorithms for Generalizable Single-Cell Perturbation Response Prediction (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02980-0)]  [[code](https://github.com/bm2-lab/scPerturBench/)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/scPerturBench.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/bm2-lab/scPerturBench)]
 
-- <a name=""></a> **[Squidiff]** Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02877-y)]  [[code](https://github.com/siyuh/Squidiff)]![GitHub stars](https://img.shields.io/github/stars/siyuh/Squidiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/siyuh/Squidiff)]
+- <a name=""></a> **[VCWorld]** VCWorld: A Biological World Model for Virtual Cell Simulation (**arXiv**) [[paper](https://arxiv.org/abs/2512.00306)]  [[code](https://github.com/GENTEL-lab/VCWorld)]![GitHub stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/GENTEL-lab/VCWorld)]
 
-- <a name=""></a> **[Nicheformer]** Nicheformer: A Foundation Model for Single-Cell and Spatial Omics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02814-z)]   [[中文解读](https://mp.weixin.qq.com/s/dCOncaXH2O1ArVxYiI4tjA)]   [[code](https://github.com/theislab/nicheformer)]![GitHub stars](https://img.shields.io/github/stars/theislab/nicheformer.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/nicheformer)]
+- <a name=""></a> **[Squidiff]** Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02877-y)]  [[code](https://github.com/siyuh/Squidiff)]![GitHub stars](https://img.shields.io/github/stars/siyuh/Squidiff.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/siyuh/Squidiff)]
 
-- <a name=""></a> **[ADLF]** Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science 2025**) [[paper](https://doi.org/10.1126/science.adi8577)]   [[code](https://doi.org/10.5281/zenodo.16921928)] 
+- <a name=""></a> **[Nicheformer]** Nicheformer: A Foundation Model for Single-Cell and Spatial Omics (**Nature Methods**) [[paper](https://doi.org/10.1038/s41592-025-02814-z)]   [[中文解读](https://mp.weixin.qq.com/s/dCOncaXH2O1ArVxYiI4tjA)]   [[code](https://github.com/theislab/nicheformer)]![GitHub stars](https://img.shields.io/github/stars/theislab/nicheformer.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/theislab/nicheformer)]
+
+- <a name=""></a> **[ADLF]** Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science**) [[paper](https://doi.org/10.1126/science.adi8577)]   [[code](https://doi.org/10.5281/zenodo.16921928)] 
 
 - <a name=""></a> **[Tahoe-x1]** Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.10.23.683759)]   [[code](https://github.com/tahoebio/tahoe-x1)]![GitHub stars](https://img.shields.io/github/stars/tahoebio/tahoe-x1.svg?logo=github&label=Stars)   [[ask deepwiki](https://deepwiki.com/tahoebio/tahoe-x1)]   [[hugging face files](https://huggingface.co/tahoebio/Tahoe-x1/tree/main)]
 
