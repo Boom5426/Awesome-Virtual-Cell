@@ -87,7 +87,14 @@
 
 ## 📚 Research Papers
 
+### 2026
+
+- <a name=""></a> **[Pertpy]** Pertpy: an end-to-end framework for perturbation analysis (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02909-7)]  [[code](https://github.com/scverse/pertpy)]![GitHub stars](https://img.shields.io/github/stars/scverse/pertpy.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/scverse/pertpy)]
+
+
 ### 2025
+
+- <a name=""></a> **[Pertpy]** Pertpy: an end-to-end framework for perturbation analysis (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02909-7)]  [[code](https://github.com/scverse/pertpy)]![GitHub stars](https://img.shields.io/github/stars/scverse/pertpy.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/scverse/pertpy)]
 
 - <a name=""></a> **[Benchmarking]** Benchmarking Algorithms for Generalizable Single-Cell Perturbation Response Prediction (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02980-0)]  [[code](https://github.com/bm2-lab/scPerturBench/)]![GitHub stars](https://img.shields.io/github/stars/bm2-lab/scPerturBench.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/bm2-lab/scPerturBench)]
 
