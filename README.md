@@ -63,6 +63,9 @@
 
 ## 🧬 Datasets
 
+<details close>
+<summary>Details</summary>
+
 - <a name=""></a> **[CIGS]** High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)]   [[中文解读](https://mp.weixin.qq.com/s/nLvu4AFf6MFRurPL0WVu8g)]   [[Dataset Link](https://cigs.iomicscloud.com/)]   [[code](https://github.com/Wang-lab302/CIGS)]![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
 
 - <a name=""></a> **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]   [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)]   [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
@@ -81,8 +84,12 @@
 
 - <a name=""></a> **[RxRx from Recursion]** [[Link](https://www.rxrx.ai/datasets)]
 
+</details>
 
 ## ⚔️ Challenges
+
+<details close>
+<summary>Details</summary>
 
 - <a name=""></a> **[Insight]** From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models (**iCell 2025**) [[paper](https://doi.org/10.71373/IQHA9494)]
 
@@ -90,6 +97,8 @@
 
 - <a name=""></a> **[Challenge]** Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]   [[Homepage](https://virtualcellchallenge.org/)]   [[Beginner's Guidance](https://fleetwood.dev/posts/virtual-cell-challenge)]
 
+
+</details>
 
 ## 📚 Research Papers
 
