@@ -7,6 +7,8 @@
 
 
 ## 🔬 Overview Papers
+<details close>
+<summary>Details</summary>
 
 - <a name=""></a> **[Nature New]** Can AI Build a Virtual Cell? Scientists Race to Model Life's Smallest Unit (**Nature 2025**) [[paper](https://www.nature.com/articles/d41586-025-02011-0)]   [[中文解读](https://mp.weixin.qq.com/s/s-tH8ccpyBAag_QMpv0toQ)]
 
@@ -18,6 +20,7 @@
 
 - <a name=""></a> **[Cell Review]** Toward a Foundation Model of Causal Cell and Tissue Biology with a Perturbation Cell and Tissue Atlas (**Cell 2024**) [[paper](https://doi.org/10.1016/j.cell.2024.07.035)]   [[中文解读](https://mp.weixin.qq.com/s/uXdSz-XCR_2gC2enwN_lDg)]
 
+</details>
 
 ## 📝 High-Quality Reports and Blogs
 <details close>
