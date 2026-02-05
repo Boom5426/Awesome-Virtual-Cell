@@ -20,6 +20,8 @@
 
 
 ## 📝 High-Quality Reports and Blogs
+<details close>
+<summary>Details</summary>
 
 - <a name=""></a> **[Symposium]** Al Proteomics and Virtual Cell (**© by Westlake University 2025**) [[Media](https://mp.weixin.qq.com/s/45Evl-tKw9DAY8xdcWSlPg)]   [[中文解读](https://mp.weixin.qq.com/s/efB7nMeXLjxEqpfbhv8AWg?scene=1)]
 
@@ -37,8 +39,11 @@
 
 - <a name=""></a> **[Introduction]** Virtual Cells (**© by Udara Jay 2025**) [[blog](https://udara.io/science/virtual-cells)]
 
+</details>
 
 ## 🎞️ Videos
+<details close>
+<summary>Details</summary>
 
 - <a name=""></a> **[Arc Institute]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE [[youtube](https://www.youtube.com/watch?v=rPWzpPf-3N0)]
 
@@ -54,6 +59,7 @@
 
 - <a name=""></a> **[Podcast]** Google DeepMind CEO: We Want to Build a Virtual Cell [[youtube](https://www.youtube.com/watch?v=CEOOMYxMvY4)]
 
+</details>
 
 ## 🧬 Datasets
 
