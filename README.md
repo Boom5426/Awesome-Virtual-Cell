@@ -107,6 +107,8 @@
 
 ### 2026
 
+- <a name=""></a> **[HarmonyCell]** HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts (**bioRxiv**) [[paper](https://arxiv.org/pdf/2603.01396)]
+
 - <a name=""></a> **[Stack]** Stack: In-Context Learning of Single-Cell Biology (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1)]  [[code](https://github.com/ArcInstitute/stack)]![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/stack.svg?logo=github&label=Stars)  [[ask deepwiki](https://deepwiki.com/ArcInstitute/stack)]
 
 
