@@ -1,9 +1,10 @@
 # Awesome-Virtual-Cell [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+🔥 **AIVC** is a new frontier in computational biology. AIVC stands for **Artificial Intelligence Virtual Cell**, a technical term originating from the *Cell Perspective* paper titled ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015)
 
-🔥 **AIVC** is a new frontier in computational biology, AIVC stands for **Artificial Intelligence Virtual Cell**, a technical term originating from a *Cell Perspective* paper titled ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015)
+This repository curates key resources for the AI Virtual Cell community, including **overview papers, reports, datasets, benchmarks, research papers, open-source codebases**, and also a growing collection of **scientific figure inspirations and plotting code** for computational biology and single-cell research.
 
-💖 If you have any questions, suggestions or improvements, or want to promote your work, please submit your Issues or Pull Requests (PRs).
+💖 If you have any questions, suggestions, improvements, or want to promote your work, please submit an Issue or Pull Request (PR).
 
 
 ## 🔬 Overview Papers
