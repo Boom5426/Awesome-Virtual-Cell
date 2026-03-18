@@ -4,7 +4,7 @@ A curated list of papers, datasets, benchmarks, talks, and community resources f
 
 Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popularized by the *Cell* perspective ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015) The focus of this repository is broad but practical: resources that help researchers understand, model, benchmark, or build virtual cells and related cellular foundation models.
 
-**Last updated:** March 18, 2026
+For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
 
 ## Contents
 
