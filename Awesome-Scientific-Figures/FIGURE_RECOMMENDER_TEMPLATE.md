@@ -1,5 +1,22 @@
 # Figure Recommender Template
 
+## 新用户先看
+
+如果你还没有运行过这些 notebook，可以先做最小准备：
+
+```bash
+pip install numpy pandas matplotlib seaborn jupyter
+jupyter lab
+```
+
+然后按这个顺序使用：
+
+1. 如果你还不知道该选什么图，先用这份文档做“图种推荐”。
+2. 如果你已经拿到推荐结果，回到 [README_Figure.md](README_Figure.md) 查看 `图种选择表`、`风格规则表` 和 `Notebook 索引表`。
+3. 打开对应的 `.ipynb` 文件，先替换数据，再微调样式。
+
+如果你已经很明确自己要画哪一类图，可以直接去 [README_Figure.md](README_Figure.md) 找参考 notebook。
+
 这个文档是仓库内的**推荐模板**，只负责两件事：
 
 1. 推荐 1 到 3 个合适的图种
