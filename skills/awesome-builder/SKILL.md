@@ -25,24 +25,26 @@ Do not use this skill as the main workflow when the user:
 
 ## Workflow
 
-1. Read `references/awesome-guidelines.md`.
-2. Infer the repository’s current problem shape:
+1. Read the current `README.md` before giving structural advice.
+2. Read `CONTRIBUTING.md` when contribution flow, formatting rules, or submission expectations are part of the problem.
+3. Read `references/awesome-guidelines.md`.
+4. Infer the repository’s current problem shape:
    - weak onboarding
    - unclear scope
    - poor section order
    - inconsistent entry formatting
    - too many flat items
    - weak contribution guidance
-3. Diagnose before prescribing. Identify the top 2 to 5 problems first.
-4. Recommend the smallest structural changes that materially improve usability.
-5. Prefer repository-level guidance such as:
+5. Diagnose before prescribing. Identify the top 2 to 5 problems first.
+6. Recommend the smallest structural changes that materially improve usability.
+7. Prefer repository-level guidance such as:
    - top-of-page entry layer
    - section reordering
    - inclusion and exclusion rules
    - entry template normalization
    - contribution flow improvements
-6. Keep suggestions actionable. Avoid abstract curation advice without a concrete README consequence.
-7. Default to Chinese unless the user is writing in English.
+8. Tie each recommendation to a concrete consequence in the current repo, not just a generic awesome-list principle.
+9. Default to Chinese unless the user is writing in English.
 
 ## Output Contract
 
@@ -78,9 +80,12 @@ When the user asks for a more concrete rewrite plan, also include:
 - Recommend a `Start Here` layer when the repository is large or newcomer-heavy.
 - Keep section names stable and intuitive.
 - Favor small, high-leverage changes before proposing a full rewrite.
+- Anchor structural advice to the current `README.md` and `CONTRIBUTING.md`, not an imagined generic repo.
 
 ## Reference Map
 
-Load only this file unless the task expands beyond repository design:
+Load only the files needed for the current design diagnosis:
 
+- `README.md` -> current section order, entry layer, and navigation structure
+- `CONTRIBUTING.md` -> contribution flow and submission expectations
 - `references/awesome-guidelines.md` -> awesome-project structure patterns, anti-patterns, entry templates, and maintenance heuristics

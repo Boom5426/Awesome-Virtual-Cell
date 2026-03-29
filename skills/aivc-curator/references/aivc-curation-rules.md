@@ -66,7 +66,23 @@ Mark an item as related when:
 - it mainly supports adjacent workflows
 - it belongs in the reader’s peripheral awareness rather than the main path
 
-If you are unsure, prefer `Related Resources` over pushing a marginal item into `Research Papers`.
+If you are unsure, prefer `Related Resources` over forcing a weak or non-paper-shaped item into the main paper flow.
+
+### `[Related]` Inside `Research Papers`
+
+This repository already uses a lightweight `[Related]` tag inside `Research Papers` for paper-shaped items that are:
+
+- still worth seeing inline while browsing papers
+- adjacent to the main path rather than central
+- better understood next to nearby methods or models than in a generic resource bucket
+
+Prefer `[Related]` inside `Research Papers` when the item is still a credible paper that helps readers scan the field.
+
+Prefer `Related Resources` instead when:
+
+- the item is not primarily a paper entry
+- it is too peripheral for the main paper flow
+- it is better treated as infrastructure, commentary, or a general pointer
 
 ## Section Placement Rules
 
@@ -170,6 +186,12 @@ Exclude when:
 - the paper is mostly generic biomedical AI
 - the cellular connection is superficial
 
+Update existing instead of adding when:
+
+- the same paper is already present under another label, acronym, or title variant
+- the current entry exists but the venue, year, title, or primary link is stale
+- the new suggestion mostly adds missing code, dataset, or project links to an existing item
+
 ### Datasets
 
 Include when:
@@ -214,9 +236,26 @@ Align suggested entries with the current README style:
 
 - start with a short bracketed label when it helps scanning
 - add lightweight tags only in `Research Papers` when useful
+- `[Related]` is allowed inside `Research Papers` for adjacent but still useful papers
 - keep venue and year concise
 - prefer `paper`, `code`, `dataset`, `project`, `homepage`, `video`, or `中文解读` style labels
 - avoid overlong annotation inside the entry itself
+
+## Duplicate and Maintenance Checks
+
+Before recommending a new entry, check for existing coverage by:
+
+- exact title
+- common acronym or short label
+- DOI
+- project or code repository name
+
+If the work already exists, prefer one of these maintenance outcomes:
+
+- `update-existing` -> correct title, venue, year, or links
+- `duplicate/no-op` -> no README change needed
+- `move` -> keep the item but relocate it to a better section
+- `demote` -> keep it but mark `[Related]` or move it to `Related Resources`
 
 Suggested entry pattern for research items:
 
@@ -239,6 +278,7 @@ Suggested entry pattern for reports or blogs:
 ## Decision Bias
 
 - If the item is clearly useful but not central, route it to `Related Resources`.
+- If the item is clearly useful, paper-shaped, and already fits the paper flow, a `[Related]` tag inside `Research Papers` is acceptable.
 - If the item is central but the evidence is incomplete, return `hold` and state what needs verification.
 - If the user asks for a README-ready entry, give one concise draft instead of multiple variants.
 - If an item would force the repository’s scope to drift, exclude it even if it is broadly interesting.
