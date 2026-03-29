@@ -37,6 +37,20 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 
 - **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
 
+- **[Nature]** The Human Cell Atlas from a cell census to a unified foundation model (**Nature 2024**) [[paper](https://www.nature.com/articles/s41586-024-08338-4)]
+
+- **[Nature Review]** Interpretation, extrapolation and perturbation of single cells (**Nature Reviews Genetics 2026**) [[paper](https://www.nature.com/articles/s41576-025-00920-4)]
+
+- **[Nature Review]** Revisiting the blueprint for an interpretable virtual cell (**Nature Reviews Genetics 2026**) [[paper](https://www.nature.com/articles/s41576-026-00940-8)]
+
+- **[npj Digital Medicine]** AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential (**npj Digital Medicine 2025**) [[paper](https://www.nature.com/articles/s41746-025-02198-6)]
+
+- **[Nature Review]** Adapting systems biology to address the complexity of human disease in the single-cell era (**Nature Reviews Genetics 2025**) [[paper](https://www.nature.com/articles/s41576-025-00821-6)]
+
+- **[Nature Genetics]** Causal machine learning for single-cell genomics (**Nature Genetics 2025**) [[paper](https://www.nature.com/articles/s41588-025-02124-2)]
+
+- **[Nature Methods]** Multimodal foundation transformer models for multiscale genomics (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02918-6)]
+
 - **[Cell Perspective]** Empowering Biomedical Discovery with AI Agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)] [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
 
 - **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)] [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
@@ -48,6 +62,16 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`, `[Morphology]`, `[Agent]`, `[Benchmark]`, `[Tool]`, `[Related]`. Tags are lightweight and non-exhaustive.
 
 ### 2026
+
+- **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)]
+
+- **[CONCORD]** `[Foundation Model]` Revealing a coherent cell-state landscape across single-cell datasets with CONCORD (**Nature Biotechnology 2026**) [[paper](https://www.nature.com/articles/s41587-025-02950-z)]
+
+- **[AI Scientist]** `[Related]` Towards end-to-end automation of AI research (**Nature 2026**) [[paper](https://www.nature.com/articles/s41586-026-10265-5)] [[code](https://github.com/SakanaAI/AI-Scientist)] ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist.svg?logo=github&label=Stars)
+
+- **[CRISPRi Map]** `[Perturbation]` A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) [[paper](https://pubmed.ncbi.nlm.nih.gov/41330380/)]
+
+- **[Therapeutic Design]** `[Related]` Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.02.016)]
 
 - **[X-Pert]** `[Perturbation]` Unified Multimodal Learning Enables Generalized Cellular Response Prediction to Diverse Perturbations (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2)] [[code](https://github.com/Chen-Li-17/X-Pert)] ![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/X-Pert.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Chen-Li-17/X-Pert)]
 
@@ -88,6 +112,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[CellNavi]** `[Perturbation]` CellNavi Predicts Genes Directing Cellular Transitions by Learning a Gene Graph-Enhanced Cell State Manifold (**Nature Cell Biology 2025**) [[paper](https://doi.org/10.1038/s41556-025-01755-1)] [[中文解读](https://mp.weixin.qq.com/s/RqLpybJxpHz-8epY7IXA3w)] [[code](https://github.com/DLS5-Omics/CellNavi)] ![GitHub stars](https://img.shields.io/github/stars/DLS5-Omics/CellNavi.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/DLS5-Omics/CellNavi)]
 
 - **[EpiAgent]** `[Foundation Model]` EpiAgent: Foundation Model for Single-Cell Epigenomics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02822-z)] [[中文解读](https://mp.weixin.qq.com/s/Zuguvzdvx6YOIPT8O889NQ)] [[code](https://github.com/xy-chen16/EpiAgent)] ![GitHub stars](https://img.shields.io/github/stars/xy-chen16/EpiAgent.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/xy-chen16/EpiAgent)]
+
+- **[CellWhisperer]** `[Tool]` Multimodal learning enables chat-based exploration of single-cell data (**Nature Biotechnology 2025**) [[paper](https://www.nature.com/articles/s41587-025-02857-9)] [[code](https://github.com/epigen/CellWhisperer)] ![GitHub stars](https://img.shields.io/github/stars/epigen/CellWhisperer.svg?logo=github&label=Stars)
 
 - **[CRISPR-GPT]** `[Agent]` CRISPR-GPT for Agentic Automation of Gene-Editing Experiments (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01463-z)] [[中文解读](https://mp.weixin.qq.com/s/KuKndV469cvTczi9CePcqQ)] [[code](https://github.com/cong-lab/crispr-gpt-pub)] ![GitHub stars](https://img.shields.io/github/stars/cong-lab/crispr-gpt-pub.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/cong-lab/crispr-gpt-pub)]
 
@@ -248,6 +274,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[RxRx from Recursion]** [[link](https://www.rxrx.ai/datasets)]
 
 ### Benchmarks and Challenges
+
+- **[scDrugMap]** scDrugMap: benchmarking large foundation models for drug response prediction (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-67481-2)]
 
 - **[Insight]** From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models (**iCell 2025**) [[paper](https://doi.org/10.71373/IQHA9494)]
 
