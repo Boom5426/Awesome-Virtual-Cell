@@ -199,7 +199,7 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[scNET]** `[Foundation Model]` scNET: Learning Context-Specific Gene and Cell Embeddings by Integrating Single-Cell Gene Expression Data with Protein-Protein Interactions (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02627-0)] [[code](https://github.com/madilabcode/scNET)] ![GitHub stars](https://img.shields.io/github/stars/madilabcode/scNET.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/madilabcode/scNET)]
 
-- **[SubCell]** `[Foundation Model]` SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.06.627299)]
+- **[SubCell]** `[Foundation Model]` SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.06.627299)] [[code](https://github.com/CellProfiling/subcell-embed)] ![GitHub stars](https://img.shields.io/github/stars/CellProfiling/subcell-embed.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/CellProfiling/subcell-embed)]
 
 - **[Token-Mol 1.0]** `[Related]` Token-Mol 1.0: Tokenized Drug Design with Large Language Models (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-59628-y)] [[code](https://github.com/jkwang93/Token-Mol)] ![GitHub stars](https://img.shields.io/github/stars/jkwang93/Token-Mol.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/jkwang93/Token-Mol)]
 
