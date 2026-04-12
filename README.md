@@ -63,13 +63,13 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 ### 2026
 
-- **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)]
+- **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)][[code](https://github.com/kimberle9/spatialperturbseq)] ![GitHub stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq.svg?logo=github&label=Stars)
 
-- **[CONCORD]** `[Foundation Model]` Revealing a coherent cell-state landscape across single-cell datasets with CONCORD (**Nature Biotechnology 2026**) [[paper](https://www.nature.com/articles/s41587-025-02950-z)]
+- **[CONCORD]** `[Foundation Model]` Revealing a coherent cell-state landscape across single-cell datasets with CONCORD (**Nature Biotechnology 2026**) [[paper](https://www.nature.com/articles/s41587-025-02950-z)][[code](https://github.com/Gartner-Lab/Concord)] ![GitHub stars](https://img.shields.io/github/stars/Gartner-Lab/Concord.svg?logo=github&label=Stars)
 
 - **[AI Scientist]** `[Related]` Towards end-to-end automation of AI research (**Nature 2026**) [[paper](https://www.nature.com/articles/s41586-026-10265-5)] [[code](https://github.com/SakanaAI/AI-Scientist)] ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist.svg?logo=github&label=Stars)
 
-- **[CRISPRi Map]** `[Perturbation]` A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) [[paper](https://pubmed.ncbi.nlm.nih.gov/41330380/)]
+- **[CRISPRi Map]** `[Perturbation]` A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) [[paper](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X25003325%3Fshowall%3Dtrue)]
 
 - **[Therapeutic Design]** `[Related]` Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.02.016)]
 
@@ -193,13 +193,19 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[scNET]** `[Foundation Model]` scNET: Learning Context-Specific Gene and Cell Embeddings by Integrating Single-Cell Gene Expression Data with Protein-Protein Interactions (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02627-0)] [[code](https://github.com/madilabcode/scNET)] ![GitHub stars](https://img.shields.io/github/stars/madilabcode/scNET.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/madilabcode/scNET)]
 
+- **[SubCell]** `[Foundation Model]` SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.06.627299)]
+
 - **[Token-Mol 1.0]** `[Related]` Token-Mol 1.0: Tokenized Drug Design with Large Language Models (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-59628-y)] [[code](https://github.com/jkwang93/Token-Mol)] ![GitHub stars](https://img.shields.io/github/stars/jkwang93/Token-Mol.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/jkwang93/Token-Mol)]
 
 - **[Comment]** `[Virtual Cell]` Virtual Cells for Predictive Immunotherapy (**Nature Biotechnology Comment 2025**) [[paper](https://www.nature.com/articles/s41587-025-02583-2)]
 
 - **[Recursion]** `[Virtual Cell]` Virtual Cells: Predict, Explain, Discover (**arXiv 2025**) [[paper](https://arxiv.org/pdf/2505.14613)]
 
+- **[Cell Maps]** `[Virtual Cell]` Multimodal cell maps as a foundation for structural and functional genomics (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-025-08878-3)] [[project](https://musicmaps.ai/u2os-cellmap/)]
+
 - **[CellFlow]** `[Morphology]` CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf)] [[code](https://github.com/theislab/CellFlow)] ![GitHub stars](https://img.shields.io/github/stars/theislab/CellFlow.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/CellFlow)]
+
+- **[Cell Shapes]** `[Morphology]` Cell shapes decode molecular phenotypes in image-based spatial proteomics (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.05.13.653868)]
 
 - **[Prophet]** `[Perturbation]` Scalable and Universal Prediction of Cellular Phenotypes (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf)] [[code](https://github.com/theislab/prophet)] ![GitHub stars](https://img.shields.io/github/stars/theislab/prophet.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/prophet)]
 
@@ -270,6 +276,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[CMAP LINCS 2020]** [[link](https://clue.io/data/CMap2020#LINCS2020)]
 
 - **[Cell Painting Gallery]** [[link](https://registry.opendata.aws/cellpainting-gallery/)] [[dataset overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)] [[AWS overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
+
+- **[CM4AI]** Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture from Disease-Relevant Cell Lines (**bioRxiv 2024**) [[paper](https://doi.org/10.1101/2024.05.21.589311)] [[dataset](https://cm4ai.org/)]
 
 - **[RxRx from Recursion]** [[link](https://www.rxrx.ai/datasets)]
 
