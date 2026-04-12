@@ -63,6 +63,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 ### 2026
 
+- **[Lingshu-Cell]** `[Virtual Cell]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.25240)]
+
 - **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)][[code](https://github.com/kimberle9/spatialperturbseq)] ![GitHub stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq.svg?logo=github&label=Stars)
 
 - **[CONCORD]** `[Foundation Model]` Revealing a coherent cell-state landscape across single-cell datasets with CONCORD (**Nature Biotechnology 2026**) [[paper](https://www.nature.com/articles/s41587-025-02950-z)][[code](https://github.com/Gartner-Lab/Concord)] ![GitHub stars](https://img.shields.io/github/stars/Gartner-Lab/Concord.svg?logo=github&label=Stars)
@@ -141,9 +143,13 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[SToFM]** `[Spatial]` SToFM: A Multi-scale Foundation Model for Spatial Transcriptomics (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=PQx66EJUu0)] [[中文解读](https://mp.weixin.qq.com/s/BevOy589OoJ6qnKt_wG3sg)] [[code](https://github.com/PharMolix/SToFM)] ![GitHub stars](https://img.shields.io/github/stars/PharMolix/SToFM.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/PharMolix/SToFM)]
 
+- **[scGPT-spatial]** `[Spatial]` scGPT-spatial: Continual Pretraining of Single-Cell Foundation Model for Spatial Transcriptomics (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.05.636714)] [[code](https://github.com/bowang-lab/scGPT-spatial)] ![GitHub stars](https://img.shields.io/github/stars/bowang-lab/scGPT-spatial.svg?logo=github&label=Stars)
+
 - **[SpatialAgent]** `[Agent]` SpatialAgent: An Autonomous AI Agent for Spatial Biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.03.646459)] [[中文解读](https://mp.weixin.qq.com/s/uoJ3RGxR2fa5Wy3gUcjeLQ)] [[code](https://github.com/Genentech/SpatialAgent)] ![GitHub stars](https://img.shields.io/github/stars/Genentech/SpatialAgent.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Genentech/SpatialAgent)]
 
 - **[CellFlux]** `[Morphology]` CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=3NLNmdheIi)] [[code](https://github.com/yuhui-zh15/CellFlux)] ![GitHub stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/yuhui-zh15/CellFlux)]
+
+- **[MorphoDiff]** `[Morphology]` MorphoDiff: Cellular Morphology Painting with Diffusion Models (**ICLR 2025**) [[paper](https://openreview.net/forum?id=PstM8YfhvI)] [[preprint](https://doi.org/10.1101/2024.12.19.629451)] [[code](https://github.com/bowang-lab/MorphoDiff)] ![GitHub stars](https://img.shields.io/github/stars/bowang-lab/MorphoDiff.svg?logo=github&label=Stars)
 
 - **[CellPB]** `[Benchmark]` Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.20.629581)] [[code](https://github.com/Chen-Li-17/CellPB)] ![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Chen-Li-17/CellPB)]
 
