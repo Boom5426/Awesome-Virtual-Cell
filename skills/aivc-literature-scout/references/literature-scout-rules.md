@@ -39,9 +39,9 @@ Treat these as high-priority scans:
 
 Strong preprints are still in scope when they are clearly field-shaping or come with credible code, data, or project pages.
 
-## Major-Lab / Group Heuristics
+## Major-Lab / Group / Researcher Heuristics
 
-Check these groups when the user asks for big labs or major groups:
+Check these groups or named researchers when the user asks for big labs, major groups, or specific people:
 
 - Arc Institute
 - Chan Zuckerberg Initiative
@@ -53,8 +53,11 @@ Check these groups when the user asks for big labs or major groups:
 - Stanford SNAP
 - Yosef Lab
 - Gerstein Lab
+- Emma Lundberg
 
 Do not force these groups into every search. Use them as emphasis buckets when relevant.
+
+When the user asks for protein, subcellular localization, cell imaging, image-based proteomics, spatial proteomics, or morphology-heavy work, treat Emma Lundberg as a priority scan target.
 
 ## Candidate Checklist
 
