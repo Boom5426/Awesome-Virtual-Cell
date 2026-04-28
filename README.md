@@ -79,7 +79,7 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[X-Pert]** `[Perturbation]` Unified Multimodal Learning Enables Generalized Cellular Response Prediction to Diverse Perturbations (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2)] [[code](https://github.com/Chen-Li-17/X-Pert)] ![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/X-Pert.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Chen-Li-17/X-Pert)]
 
-- **[MVCBench]** `[Benchmark]` MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes (**bioRxiv**) [[paper](https://github.com/QSong-github/MVCBench)] [[code](https://github.com/QSong-github/MVCBench)] ![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/QSong-github/MVCBench)]
+- **[MVCBench]** `[Benchmark]` MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)] [[code](https://github.com/QSong-github/MVCBench)] ![GitHub stars](https://img.shields.io/github/stars/QSong-github/MVCBench.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/QSong-github/MVCBench)]
 
 - **[HarmonyCell]** `[Perturbation]` HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts (**bioRxiv**) [[paper](https://arxiv.org/pdf/2603.01396)]
 
