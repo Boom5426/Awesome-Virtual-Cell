@@ -37,6 +37,8 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 
 - **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
 
+- **[Nature Methods]** The virtual cell (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02951-5)]
+
 - **[Nature]** The Human Cell Atlas from a cell census to a unified foundation model (**Nature 2024**) [[paper](https://www.nature.com/articles/s41586-024-08338-4)]
 
 - **[Nature Review]** Interpretation, extrapolation and perturbation of single cells (**Nature Reviews Genetics 2026**) [[paper](https://www.nature.com/articles/s41576-025-00920-4)]
@@ -69,11 +71,17 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)][[code](https://github.com/kimberle9/spatialperturbseq)] ![GitHub stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq.svg?logo=github&label=Stars)
 
+- **[Celcomen]** `[Spatial]` Celcomen: spatial causal disentanglement for single-cell and tissue perturbation modeling (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69856-5)] [[code](https://github.com/Teichlab/celcomen)] ![GitHub stars](https://img.shields.io/github/stars/Teichlab/celcomen.svg?logo=github&label=Stars)
+
+- **[stVCR]** `[Spatial]` stVCR: spatiotemporal dynamics of single cells (**Nature Methods 2026**) [[paper](https://www.nature.com/articles/s41592-026-03010-3)] [[code](https://github.com/QiangweiPeng/stVCR)] ![GitHub stars](https://img.shields.io/github/stars/QiangweiPeng/stVCR.svg?logo=github&label=Stars)
+
 - **[CONCORD]** `[Foundation Model]` Revealing a coherent cell-state landscape across single-cell datasets with CONCORD (**Nature Biotechnology 2026**) [[paper](https://www.nature.com/articles/s41587-025-02950-z)][[code](https://github.com/Gartner-Lab/Concord)] ![GitHub stars](https://img.shields.io/github/stars/Gartner-Lab/Concord.svg?logo=github&label=Stars)
 
 - **[AI Scientist]** `[Related]` Towards end-to-end automation of AI research (**Nature 2026**) [[paper](https://www.nature.com/articles/s41586-026-10265-5)] [[code](https://github.com/SakanaAI/AI-Scientist)] ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist.svg?logo=github&label=Stars)
 
 - **[CRISPRi Map]** `[Perturbation]` A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) [[paper](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X25003325%3Fshowall%3Dtrue)]
+
+- **[TxPert]** `[Perturbation]` TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects (**Nature Biotechnology 2026**) [[paper](https://www.nature.com/articles/s41587-026-03113-4)] [[code](https://github.com/valence-labs/TxPert)] ![GitHub stars](https://img.shields.io/github/stars/valence-labs/TxPert.svg?logo=github&label=Stars)
 
 - **[Therapeutic Design]** `[Related]` Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.02.016)]
 
@@ -101,11 +109,15 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[Scouter]** `[Perturbation]` Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings (**Nature Computational Science 2025**) [[paper](https://www.nature.com/articles/s43588-025-00912-8)]
 
+- **[GPerturb]** `[Perturbation]` GPerturb: Gaussian process modelling of single-cell perturbation data (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-61165-7)] [[code](https://github.com/hwxing3259/GPerturb)] ![GitHub stars](https://img.shields.io/github/stars/hwxing3259/GPerturb.svg?logo=github&label=Stars)
+
 - **[VCWorld]** `[Virtual Cell]` VCWorld: A Biological World Model for Virtual Cell Simulation (**arXiv**) [[paper](https://arxiv.org/abs/2512.00306)] [[code](https://github.com/GENTEL-lab/VCWorld)] ![GitHub stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GENTEL-lab/VCWorld)]
 
 - **[Squidiff]** `[Perturbation]` Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02877-y)] [[code](https://github.com/siyuh/Squidiff)] ![GitHub stars](https://img.shields.io/github/stars/siyuh/Squidiff.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/siyuh/Squidiff)]
 
 - **[Nicheformer]** `[Spatial]` Nicheformer: A Foundation Model for Single-Cell and Spatial Omics (**Nature Methods**) [[paper](https://doi.org/10.1038/s41592-025-02814-z)] [[中文解读](https://mp.weixin.qq.com/s/dCOncaXH2O1ArVxYiI4tjA)] [[code](https://github.com/theislab/nicheformer)] ![GitHub stars](https://img.shields.io/github/stars/theislab/nicheformer.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/nicheformer)]
+
+- **[NicheCompass]** `[Spatial]` Quantitative characterization of cell niches in spatially resolved omics data (**Nature Genetics 2025**) [[paper](https://www.nature.com/articles/s41588-025-02120-6)] [[code](https://github.com/Lotfollahi-lab/nichecompass)] ![GitHub stars](https://img.shields.io/github/stars/Lotfollahi-lab/nichecompass.svg?logo=github&label=Stars)
 
 - **[ADLF]** `[Perturbation]` Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science**) [[paper](https://doi.org/10.1126/science.adi8577)] [[code](https://doi.org/10.5281/zenodo.16921928)]
 
@@ -127,7 +139,13 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[RegVelo]** `[Perturbation]` RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells (**bioRxiv**) [[paper](https://doi.org/10.1101/2024.12.11.627935)] [[code](https://github.com/theislab/regvelo)] ![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
 
+- **[IMPA]** `[Morphology]` Predicting cell morphological responses to perturbations using generative modeling (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-024-55707-8)] [[code](https://github.com/theislab/IMPA)] ![GitHub stars](https://img.shields.io/github/stars/theislab/IMPA.svg?logo=github&label=Stars)
+
 - **[PhenoProfiler]** `[Morphology]` PhenoProfiler: Advancing Morphology Representations for Image-based Drug Discovery (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-60033-1)] [[code](https://github.com/QSong-github/PhenoProfiler)] ![GitHub stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler.svg?logo=github&label=Stars) [[webserver](https://phenoprofiler.org/)] [[ask deepwiki](https://deepwiki.com/QSong-github/PhenoProfiler)]
+
+- **[PERISCOPE]** `[Morphology]` A genome-wide atlas of human cell morphology (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-024-02537-7)] [[dataset](https://registry.opendata.aws/cellpainting-gallery/)] [[code](https://github.com/broadinstitute/2022_PERISCOPE)] ![GitHub stars](https://img.shields.io/github/stars/broadinstitute/2022_PERISCOPE.svg?logo=github&label=Stars)
+
+- **[Morph Map]** `[Morphology]` Morphological map of under- and overexpression of genes in human cells (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02753-9)] [[dataset](https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap/blob/main/README.md)] [[code](https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap)] ![GitHub stars](https://img.shields.io/github/stars/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap.svg?logo=github&label=Stars)
 
 - **[MorphDiff]** `[Morphology]` Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion Model (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-63478-z)] [[中文解读](https://mp.weixin.qq.com/s/f_4Q0DEuy3K4sy_jsYhabQ)] [[code](https://github.com/biomap-research/MorphDiff)] ![GitHub stars](https://img.shields.io/github/stars/biomap-research/MorphDiff.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/biomap-research/MorphDiff)]
 
