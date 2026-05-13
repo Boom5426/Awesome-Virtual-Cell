@@ -1,0 +1,84 @@
+{
+  "crossref_queries": [
+    "virtual cell perturbation",
+    "single-cell perturbation",
+    "spatial perturbation transcriptomics",
+    "cell morphology perturbation",
+    "histopathology spatial transcriptomics",
+    "proteome-aware microscopy foundation model"
+  ],
+  "crossref_venue_allowlist": [
+    "Nature",
+    "Nature Methods",
+    "Nature Communications",
+    "Nature Biotechnology",
+    "Nature Genetics",
+    "Nature Cell Biology",
+    "Nature Biomedical Engineering",
+    "Nature Computational Science",
+    "Cell",
+    "Cell Genomics",
+    "Cell Reports",
+    "Cell Systems",
+    "Science"
+  ],
+  "topic_keywords": [
+    "virtual cell",
+    "perturb",
+    "perturbation",
+    "crispr",
+    "spatial",
+    "morphology",
+    "histology",
+    "histopathology",
+    "proteome",
+    "proteomic",
+    "cell painting",
+    "multimodal"
+  ],
+  "domain_keywords": [
+    "cell",
+    "single-cell",
+    "single cell",
+    "transcript",
+    "omics",
+    "protein",
+    "gene"
+  ],
+  "dataset_keywords": [
+    "dataset",
+    "atlas",
+    "benchmark",
+    "challenge",
+    "resource",
+    "repository"
+  ],
+  "tag_rules": {
+    "Virtual Cell": [
+      "virtual cell"
+    ],
+    "Perturbation": [
+      "perturb",
+      "crispr"
+    ],
+    "Spatial": [
+      "spatial",
+      "histology",
+      "histopathology",
+      "tissue"
+    ],
+    "Morphology": [
+      "morpholog",
+      "cell painting",
+      "image-based",
+      "microscopy"
+    ],
+    "Foundation Model": [
+      "foundation model",
+      "transformer",
+      "pre-train",
+      "pretrain"
+    ]
+  },
+  "max_additions_per_run": 10
+}

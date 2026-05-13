@@ -1,0 +1,60 @@
+name: Auto Update Awesome Virtual Cell
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip off-week runs
+        if: github.event_name == 'schedule'
+        run: |
+          WEEK=$(date -u +%V)
+          if [ $((10#$WEEK % 2)) -ne 0 ]; then
+            echo "Skipping this week."
+            exit 0
+          fi
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate README updates
+        run: python scripts/auto_update_readme.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/update-awesome-${{ github.run_id }}
+          delete-branch: true
+          add-paths: |
+            README.md
+            auto_update_summary.md
+          commit-message: "docs: automate awesome virtual cell updates"
+          title: "docs: automated awesome virtual cell update"
+          body-path: auto_update_summary.md
+          draft: true
+          labels: |
+            automated
+            literature-update
