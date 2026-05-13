@@ -69,6 +69,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[ProtiCelli]** `[Virtual Cell]` Generative machine learning unlocks the first proteome-wide image of human cells (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.31.715748)] [[code](https://github.com/CellProfiling/ProtiCelli)] ![GitHub stars](https://img.shields.io/github/stars/CellProfiling/ProtiCelli.svg?logo=github&label=Stars)
 
+- **[AetherCell]** `[Virtual Cell]` AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery (**bioRxiv 2026**) [[paper](https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1)]
+
 - **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)][[code](https://github.com/kimberle9/spatialperturbseq)] ![GitHub stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq.svg?logo=github&label=Stars)
 
 - **[Celcomen]** `[Spatial]` Celcomen: spatial causal disentanglement for single-cell and tissue perturbation modeling (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69856-5)] [[code](https://github.com/Teichlab/celcomen)] ![GitHub stars](https://img.shields.io/github/stars/Teichlab/celcomen.svg?logo=github&label=Stars)
@@ -118,6 +120,10 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[Nicheformer]** `[Spatial]` Nicheformer: A Foundation Model for Single-Cell and Spatial Omics (**Nature Methods**) [[paper](https://doi.org/10.1038/s41592-025-02814-z)] [[中文解读](https://mp.weixin.qq.com/s/dCOncaXH2O1ArVxYiI4tjA)] [[code](https://github.com/theislab/nicheformer)] ![GitHub stars](https://img.shields.io/github/stars/theislab/nicheformer.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/nicheformer)]
 
 - **[NicheCompass]** `[Spatial]` Quantitative characterization of cell niches in spatially resolved omics data (**Nature Genetics 2025**) [[paper](https://www.nature.com/articles/s41588-025-02120-6)] [[code](https://github.com/Lotfollahi-lab/nichecompass)] ![GitHub stars](https://img.shields.io/github/stars/Lotfollahi-lab/nichecompass.svg?logo=github&label=Stars)
+
+- **[STAMP]** `[Tool]` STAMP: Single-cell transcriptomics analysis and multimodal profiling through imaging (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.05.027)]
+
+- **[Perturb-FISH]** `[Spatial]` Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular, and functional transcriptional circuits (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.02.012)]
 
 - **[ADLF]** `[Perturbation]` Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science**) [[paper](https://doi.org/10.1126/science.adi8577)] [[code](https://doi.org/10.5281/zenodo.16921928)]
 
@@ -287,6 +293,12 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 ### Datasets
 
+- **[L1000/CMap]** A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles (**Cell 2017**) [[paper](https://doi.org/10.1016/j.cell.2017.10.049)] [[dataset](https://clue.io/data/CMap2020#LINCS2020)]
+
+- **[CPJUMP1]** Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-024-02241-6)] [[code](https://github.com/jump-cellpainting/2024_Chandrasekaran_NatureMethods)] ![GitHub stars](https://img.shields.io/github/stars/jump-cellpainting/2024_Chandrasekaran_NatureMethods.svg?logo=github&label=Stars) [[dataset](https://registry.opendata.aws/cellpainting-gallery/)]
+
+- **[HEST-1k]** HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis (**NeurIPS 2024**) [[paper](https://arxiv.org/abs/2406.16192)] [[code](https://github.com/mahmoodlab/HEST)] ![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/HEST.svg?logo=github&label=Stars)
+
 - **[CIGS]** High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)] [[中文解读](https://mp.weixin.qq.com/s/nLvu4AFf6MFRurPL0WVu8g)] [[dataset](https://cigs.iomicscloud.com/)] [[code](https://github.com/Wang-lab302/CIGS)] ![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
 
 - **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)] [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
@@ -298,8 +310,6 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)] [[dataset](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)] [[code](https://github.com/cole-trapnell-lab/sci-plex)] ![GitHub stars](https://img.shields.io/github/stars/cole-trapnell-lab/sci-plex.svg?logo=github&label=Stars)
 
 - **[scPerturb]** scPerturb: Harmonized Single-Cell Perturbation Data (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-023-02144-y)] [[dataset](https://projects.sanderlab.org/scperturb/)] [[code](https://github.com/sanderlab/scPerturb)] ![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
-
-- **[CMAP LINCS 2020]** [[link](https://clue.io/data/CMap2020#LINCS2020)]
 
 - **[Cell Painting Gallery]** [[link](https://registry.opendata.aws/cellpainting-gallery/)] [[dataset overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)] [[AWS overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
 
@@ -352,6 +362,12 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[Podcast]** Google DeepMind CEO: We Want to Build a Virtual Cell [[YouTube](https://www.youtube.com/watch?v=CEOOMYxMvY4)]
 
 ## Historical and Foundational Works
+
+- **[HPA Cell Atlas]** `[Morphology]` A subcellular map of the human proteome (**Science 2017**) [[paper](https://doi.org/10.1126/science.aal3321)] [[resource](https://www.proteinatlas.org/humanproteome/subcellular)]
+
+- **[OpenCell]** `[Morphology]` OpenCell: Endogenous tagging for the cartography of human cellular organization (**Science 2022**) [[paper](https://doi.org/10.1126/science.abi6983)] [[dataset](https://registry.opendata.aws/czb-opencell/)]
+
+- **[Perturb-seq]** `[Perturbation]` Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq (**Cell 2022**) [[paper](https://doi.org/10.1016/j.cell.2022.05.013)] [[code](https://github.com/thomasmaxwellnorman/Perturbseq_GI)]
 
 - **[GEARS]** `[Perturbation]` Predicting transcriptional outcomes of novel multigene perturbations with GEARS (**Nature Biotechnology 2023**) [[paper](https://www.nature.com/articles/s41587-023-01905-6)] [[code](https://github.com/snap-stanford/GEARS)] ![GitHub stars](https://img.shields.io/github/stars/snap-stanford/GEARS.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/snap-stanford/GEARS)]
 
