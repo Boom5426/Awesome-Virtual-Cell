@@ -71,6 +71,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[AetherCell]** `[Virtual Cell]` AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery (**bioRxiv 2026**) [[paper](https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1)]
 
+- **[VCWorld]** `[Virtual Cell]` VCWorld: A Biological World Model for Virtual Cell Simulation (**ICLR 2026 Poster**) [[paper](https://openreview.net/forum?id=hhq89Hs7T3)] [[code](https://github.com/GENTEL-lab/VCWorld)] ![GitHub stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GENTEL-lab/VCWorld)]
+
 - **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)][[code](https://github.com/kimberle9/spatialperturbseq)] ![GitHub stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq.svg?logo=github&label=Stars)
 
 - **[Celcomen]** `[Spatial]` Celcomen: spatial causal disentanglement for single-cell and tissue perturbation modeling (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69856-5)] [[code](https://github.com/Teichlab/celcomen)] ![GitHub stars](https://img.shields.io/github/stars/Teichlab/celcomen.svg?logo=github&label=Stars)
@@ -93,7 +95,13 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[HarmonyCell]** `[Perturbation]` HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts (**bioRxiv**) [[paper](https://arxiv.org/pdf/2603.01396)]
 
-- **[scDFM]** `[Perturbation]` scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.07103)]
+- **[scDFM]** `[Perturbation]` scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction (**ICLR 2026 Poster**) [[paper](https://openreview.net/forum?id=QSGanMEcUV)] [[code](https://github.com/AI4Science-WestlakeU/scDFM)] ![GitHub stars](https://img.shields.io/github/stars/AI4Science-WestlakeU/scDFM.svg?logo=github&label=Stars)
+
+- **[Doloris]** `[Perturbation]` Doloris: Dual Conditional Diffusion Implicit Bridges with Sparsity Masking Strategy for Unpaired Single-Cell Perturbation Estimation (**ICLR 2026 Poster**) [[paper](https://openreview.net/forum?id=rvpDHfoTd2)] [[code](https://github.com/ChangxiChi/Doloris)] ![GitHub stars](https://img.shields.io/github/stars/ChangxiChi/Doloris.svg?logo=github&label=Stars)
+
+- **[Departures]** `[Perturbation]` Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/39190)] [[preprint](https://arxiv.org/abs/2511.13124)]
+
+- **[PETRI]** `[Foundation Model]` PETRI: Learning Unified Cell Embeddings from Unpaired Modalities via Early-Fusion Joint Reconstruction (**ICLR 2026 Poster**) [[paper](https://openreview.net/forum?id=Vu8YXDooG5)]
 
 - **[STRAND]** `[Perturbation]` STRAND: Sequence-Conditioned Transport for Single-Cell Perturbations (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.10156)]
 
@@ -112,8 +120,6 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[Scouter]** `[Perturbation]` Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings (**Nature Computational Science 2025**) [[paper](https://www.nature.com/articles/s43588-025-00912-8)]
 
 - **[GPerturb]** `[Perturbation]` GPerturb: Gaussian process modelling of single-cell perturbation data (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-61165-7)] [[code](https://github.com/hwxing3259/GPerturb)] ![GitHub stars](https://img.shields.io/github/stars/hwxing3259/GPerturb.svg?logo=github&label=Stars)
-
-- **[VCWorld]** `[Virtual Cell]` VCWorld: A Biological World Model for Virtual Cell Simulation (**arXiv**) [[paper](https://arxiv.org/abs/2512.00306)] [[code](https://github.com/GENTEL-lab/VCWorld)] ![GitHub stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GENTEL-lab/VCWorld)]
 
 - **[Squidiff]** `[Perturbation]` Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02877-y)] [[code](https://github.com/siyuh/Squidiff)] ![GitHub stars](https://img.shields.io/github/stars/siyuh/Squidiff.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/siyuh/Squidiff)]
 
@@ -177,9 +183,15 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[MorphoDiff]** `[Morphology]` MorphoDiff: Cellular Morphology Painting with Diffusion Models (**ICLR 2025**) [[paper](https://openreview.net/forum?id=PstM8YfhvI)] [[preprint](https://doi.org/10.1101/2024.12.19.629451)] [[code](https://github.com/bowang-lab/MorphoDiff)] ![GitHub stars](https://img.shields.io/github/stars/bowang-lab/MorphoDiff.svg?logo=github&label=Stars)
 
+- **[PRESCRIBE]** `[Perturbation]` PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation (**NeurIPS 2025 Poster**) [[paper](https://openreview.net/forum?id=A5O41ntKjk)]
+
 - **[CellPB]** `[Benchmark]` Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.20.629581)] [[code](https://github.com/Chen-Li-17/CellPB)] ![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Chen-Li-17/CellPB)]
 
 - **[CellForge]** `[Agent]` CellForge: Agentic Design of Virtual Cell Models (**arXiv 2025**) [[paper](https://arxiv.org/abs/2508.02276)] [[中文解读](https://mp.weixin.qq.com/s/kX43st2-SYRgxP57_xOoWw)] [[code](https://github.com/gersteinlab/CellForge)] ![GitHub stars](https://img.shields.io/github/stars/gersteinlab/CellForge.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/gersteinlab/CellForge)]
+
+- **[Cradle-VAE]** `[Perturbation]` Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/33695)] [[code](https://github.com/dmis-lab/CRADLE-VAE)] ![GitHub stars](https://img.shields.io/github/stars/dmis-lab/CRADLE-VAE.svg?logo=github&label=Stars)
+
+- **[XTransferCDR]** `[Perturbation]` Learning Cross-Domain Representations for Transferable Drug Perturbations on Single-Cell Transcriptional Responses (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/34073)] [[code](https://github.com/hliulab/XTransferCDR)] ![GitHub stars](https://img.shields.io/github/stars/hliulab/XTransferCDR.svg?logo=github&label=Stars)
 
 - **[Brief Communication]** `[Benchmark]` Deep-Learning-Based Gene Perturbation Effect Prediction Does Not Yet Outperform Simple Linear Baselines (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02772-6)] [[code](https://github.com/const-ae/linear_perturbation_prediction-Paper)] ![GitHub stars](https://img.shields.io/github/stars/const-ae/linear_perturbation_prediction-Paper.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/const-ae/linear_perturbation_prediction-Paper)]
 
@@ -318,6 +330,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[RxRx from Recursion]** [[link](https://www.rxrx.ai/datasets)]
 
 ### Benchmarks and Challenges
+
+- **[PerturBench]** Benchmarking Machine Learning Models for Cellular Perturbation Analysis (**NeurIPS 2025 Datasets and Benchmarks Track**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8aee537279a66ced96319dfca3c00002-Abstract-Datasets_and_Benchmarks_Track.html)] [[code](https://github.com/altoslabs/perturbench)] ![GitHub stars](https://img.shields.io/github/stars/altoslabs/perturbench.svg?logo=github&label=Stars)
 
 - **[scDrugMap]** scDrugMap: benchmarking large foundation models for drug response prediction (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-67481-2)]
 
