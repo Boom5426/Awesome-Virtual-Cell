@@ -71,6 +71,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[AetherCell]** `[Virtual Cell]` AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery (**bioRxiv 2026**) [[paper](https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1)]
 
+- **[AlphaCell]** `[Virtual Cell]` Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.02.709176)]
+
 - **[VCWorld]** `[Virtual Cell]` VCWorld: A Biological World Model for Virtual Cell Simulation (**ICLR 2026 Poster**) [[paper](https://openreview.net/forum?id=hhq89Hs7T3)] [[code](https://github.com/GENTEL-lab/VCWorld)] ![GitHub stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GENTEL-lab/VCWorld)]
 
 - **[Spatial Perturb-seq]** `[Spatial]` Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)][[code](https://github.com/kimberle9/spatialperturbseq)] ![GitHub stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq.svg?logo=github&label=Stars)
