@@ -177,15 +177,21 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[SToFM]** `[Spatial]` SToFM: A Multi-scale Foundation Model for Spatial Transcriptomics (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=PQx66EJUu0)] [[中文解读](https://mp.weixin.qq.com/s/BevOy589OoJ6qnKt_wG3sg)] [[code](https://github.com/PharMolix/SToFM)] ![GitHub stars](https://img.shields.io/github/stars/PharMolix/SToFM.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/PharMolix/SToFM)]
 
+- **[NicheFlow]** `[Spatial]` Modeling Microenvironment Trajectories on Spatial Transcriptomics with NicheFlow (**NeurIPS 2025**) [[paper](https://openreview.net/forum?id=5ofJyjgrth)] [[code](https://github.com/kristiyansakalyan/nicheflow)] ![GitHub stars](https://img.shields.io/github/stars/kristiyansakalyan/nicheflow.svg?logo=github&label=Stars)
+
 - **[scGPT-spatial]** `[Spatial]` scGPT-spatial: Continual Pretraining of Single-Cell Foundation Model for Spatial Transcriptomics (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.05.636714)] [[code](https://github.com/bowang-lab/scGPT-spatial)] ![GitHub stars](https://img.shields.io/github/stars/bowang-lab/scGPT-spatial.svg?logo=github&label=Stars)
 
 - **[SpatialAgent]** `[Agent]` SpatialAgent: An Autonomous AI Agent for Spatial Biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.04.03.646459)] [[中文解读](https://mp.weixin.qq.com/s/uoJ3RGxR2fa5Wy3gUcjeLQ)] [[code](https://github.com/Genentech/SpatialAgent)] ![GitHub stars](https://img.shields.io/github/stars/Genentech/SpatialAgent.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Genentech/SpatialAgent)]
 
 - **[CellFlux]** `[Morphology]` CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025 Poster**) [[paper](https://openreview.net/forum?id=3NLNmdheIi)] [[code](https://github.com/yuhui-zh15/CellFlux)] ![GitHub stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/yuhui-zh15/CellFlux)]
 
+- **[CellCLIP]** `[Morphology]` CellCLIP: Learning Perturbation Effects in Cell Painting via Text-Guided Contrastive Learning (**NeurIPS 2025**) [[paper](https://papers.nips.cc/paper_files/paper/2025/hash/b4689a8e6ac04c0919f7162365f1248d-Abstract-Conference.html)] [[code](https://github.com/suinleelab/CellCLIP)] ![GitHub stars](https://img.shields.io/github/stars/suinleelab/CellCLIP.svg?logo=github&label=Stars)
+
 - **[MorphoDiff]** `[Morphology]` MorphoDiff: Cellular Morphology Painting with Diffusion Models (**ICLR 2025**) [[paper](https://openreview.net/forum?id=PstM8YfhvI)] [[preprint](https://doi.org/10.1101/2024.12.19.629451)] [[code](https://github.com/bowang-lab/MorphoDiff)] ![GitHub stars](https://img.shields.io/github/stars/bowang-lab/MorphoDiff.svg?logo=github&label=Stars)
 
 - **[PRESCRIBE]** `[Perturbation]` PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation (**NeurIPS 2025 Poster**) [[paper](https://openreview.net/forum?id=A5O41ntKjk)]
+
+- **[GDE]** `[Related]` Generative Distribution Embeddings: Lifting Autoencoders to the Space of Distributions for Multiscale Representation Learning (**NeurIPS 2025 Poster**) [[paper](https://openreview.net/forum?id=ERQRSnqLRb)] [[preprint](https://arxiv.org/abs/2505.18150)]
 
 - **[CellPB]** `[Benchmark]` Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.20.629581)] [[code](https://github.com/Chen-Li-17/CellPB)] ![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Chen-Li-17/CellPB)]
 
@@ -314,6 +320,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[HEST-1k]** HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis (**NeurIPS 2024**) [[paper](https://arxiv.org/abs/2406.16192)] [[code](https://github.com/mahmoodlab/HEST)] ![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/HEST.svg?logo=github&label=Stars)
 
 - **[CIGS]** High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)] [[中文解读](https://mp.weixin.qq.com/s/nLvu4AFf6MFRurPL0WVu8g)] [[dataset](https://cigs.iomicscloud.com/)] [[code](https://github.com/Wang-lab302/CIGS)] ![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
+
+- **[scGeneScope]** scGeneScope: A Treatment-Matched Single Cell Imaging and Transcriptomics Dataset and Benchmark for Treatment Response Modeling (**NeurIPS 2025 Datasets and Benchmarks Track**) [[paper](https://openreview.net/forum?id=918POZbZ50)] [[dataset](https://huggingface.co/datasets/altoslabs/scGeneScope)]
 
 - **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)] [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
