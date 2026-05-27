@@ -12,7 +12,7 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 - [Inclusion Rules](#inclusion-rules)
 - [Overview Papers](#overview-papers)
 - [Research Papers](#research-papers)
-- [Datasets and Benchmarks](#datasets-and-benchmarks)
+- [Datasets](#datasets)
 - [Reports and Blogs](#reports-and-blogs)
 - [Videos](#videos)
 - [Historical and Foundational Works](#historical-and-foundational-works)
@@ -111,6 +111,10 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[scBIG]** `[Perturbation]` Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.04901)]
 
+- **[CellxPert]** `[Perturbation]` CellxPert: Inference-Time MCMC Steering of a Multi-Omics Single-Cell Foundation Model for In-Silico Perturbation (**arXiv 2026**) [[paper](https://arxiv.org/abs/2605.00930)]
+
+- **[msInfer]** `[Tool]` Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer (**Research Square 2026**) [[paper](https://doi.org/10.21203/rs.3.rs-9068677/v1)]
+
 - **[Stack]** `[Foundation Model]` Stack: In-Context Learning of Single-Cell Biology (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1)] [[code](https://github.com/ArcInstitute/stack)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/stack.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/ArcInstitute/stack)]
 
 ### 2025
@@ -187,6 +191,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[CellCLIP]** `[Morphology]` CellCLIP: Learning Perturbation Effects in Cell Painting via Text-Guided Contrastive Learning (**NeurIPS 2025**) [[paper](https://papers.nips.cc/paper_files/paper/2025/hash/b4689a8e6ac04c0919f7162365f1248d-Abstract-Conference.html)] [[code](https://github.com/suinleelab/CellCLIP)] ![GitHub stars](https://img.shields.io/github/stars/suinleelab/CellCLIP.svg?logo=github&label=Stars)
 
+- **[CELTIC]** `[Morphology]` Cell context-dependent in silico organelle localization in label-free microscopy images (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02960-4)] [[code](https://github.com/zaritskylab/CELTIC)] ![GitHub stars](https://img.shields.io/github/stars/zaritskylab/CELTIC.svg?logo=github&label=Stars)
+
 - **[MorphoDiff]** `[Morphology]` MorphoDiff: Cellular Morphology Painting with Diffusion Models (**ICLR 2025**) [[paper](https://openreview.net/forum?id=PstM8YfhvI)] [[preprint](https://doi.org/10.1101/2024.12.19.629451)] [[code](https://github.com/bowang-lab/MorphoDiff)] ![GitHub stars](https://img.shields.io/github/stars/bowang-lab/MorphoDiff.svg?logo=github&label=Stars)
 
 - **[PRESCRIBE]** `[Perturbation]` PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation (**NeurIPS 2025 Poster**) [[paper](https://openreview.net/forum?id=A5O41ntKjk)]
@@ -194,6 +200,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[GDE]** `[Related]` Generative Distribution Embeddings: Lifting Autoencoders to the Space of Distributions for Multiscale Representation Learning (**NeurIPS 2025 Poster**) [[paper](https://openreview.net/forum?id=ERQRSnqLRb)] [[preprint](https://arxiv.org/abs/2505.18150)]
 
 - **[CellPB]** `[Benchmark]` Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.20.629581)] [[code](https://github.com/Chen-Li-17/CellPB)] ![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Chen-Li-17/CellPB)]
+
+- **[PerturBench]** `[Benchmark]` Benchmarking Machine Learning Models for Cellular Perturbation Analysis (**NeurIPS 2025 Datasets and Benchmarks Track**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8aee537279a66ced96319dfca3c00002-Abstract-Datasets_and_Benchmarks_Track.html)] [[code](https://github.com/altoslabs/perturbench)] ![GitHub stars](https://img.shields.io/github/stars/altoslabs/perturbench.svg?logo=github&label=Stars)
 
 - **[CellForge]** `[Agent]` CellForge: Agentic Design of Virtual Cell Models (**arXiv 2025**) [[paper](https://arxiv.org/abs/2508.02276)] [[中文解读](https://mp.weixin.qq.com/s/kX43st2-SYRgxP57_xOoWw)] [[code](https://github.com/gersteinlab/CellForge)] ![GitHub stars](https://img.shields.io/github/stars/gersteinlab/CellForge.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/gersteinlab/CellForge)]
 
@@ -245,6 +253,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[scNET]** `[Foundation Model]` scNET: Learning Context-Specific Gene and Cell Embeddings by Integrating Single-Cell Gene Expression Data with Protein-Protein Interactions (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02627-0)] [[code](https://github.com/madilabcode/scNET)] ![GitHub stars](https://img.shields.io/github/stars/madilabcode/scNET.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/madilabcode/scNET)]
 
+- **[ProCyon]** `[Foundation Model]` ProCyon: A multimodal foundation model for protein phenotypes (**bioRxiv**) [[paper](https://doi.org/10.1101/2024.12.10.627665)] [[project](https://zitniklab.hms.harvard.edu/ProCyon/)] [[code](https://github.com/mims-harvard/ProCyon)] ![GitHub stars](https://img.shields.io/github/stars/mims-harvard/ProCyon.svg?logo=github&label=Stars)
+
 - **[SubCell]** `[Foundation Model]` SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.06.627299)] [[code](https://github.com/CellProfiling/subcell-embed)] ![GitHub stars](https://img.shields.io/github/stars/CellProfiling/subcell-embed.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/CellProfiling/subcell-embed)]
 
 - **[Token-Mol 1.0]** `[Related]` Token-Mol 1.0: Tokenized Drug Design with Large Language Models (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-59628-y)] [[code](https://github.com/jkwang93/Token-Mol)] ![GitHub stars](https://img.shields.io/github/stars/jkwang93/Token-Mol.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/jkwang93/Token-Mol)]
@@ -272,6 +282,14 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[PS]** `[Perturbation]` Decoding Heterogeneous Single-Cell Perturbation Responses (**Nature Cell Biology 2025**) [[paper](https://doi.org/10.1038/s41556-025-01626-9)] [[code](https://github.com/davidliwei/PS)] ![GitHub stars](https://img.shields.io/github/stars/davidliwei/PS.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/davidliwei/PS)]
 
 - **[Mixscale]** `[Perturbation]` Systematic Reconstruction of Molecular Pathway Signatures Using Scalable Single-Cell Perturbation Screens (**Nature Cell Biology 2025**) [[paper](https://doi.org/10.1038/s41556-025-01622-z)] [[code](https://github.com/satijalab/Mixscale)] ![GitHub stars](https://img.shields.io/github/stars/satijalab/Mixscale.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/satijalab/Mixscale)]
+
+- **[scDrugMap]** `[Benchmark]` scDrugMap: benchmarking large foundation models for drug response prediction (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-67481-2)]
+
+- **[VCC Commentary]** `[Benchmark]` Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)] [[homepage](https://virtualcellchallenge.org/)] [[beginner's guidance](https://fleetwood.dev/posts/virtual-cell-challenge)]
+
+- **[CZI Evaluation]** `[Benchmark]` Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI Virtual Cells Workshop (**arXiv 2025**) [[paper](https://arxiv.org/abs/2507.10502)] [[中文解读](https://mp.weixin.qq.com/s/5iGqIUMq1IoHEm0Ssl84-w)]
+
+- **[Virtual Organs]** `[Benchmark]` From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models (**iCell 2025**) [[paper](https://doi.org/10.71373/IQHA9494)]
 
 - **[GET]** `[Foundation Model]` A Foundation Model of Transcription across Human Cell Types (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-024-08391-z)] [[code](https://github.com/GET-Foundation/get_model)] ![GitHub stars](https://img.shields.io/github/stars/GET-Foundation/get_model.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GET-Foundation/get_model)]
 
@@ -309,47 +327,93 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[Stanford PhD Thesis]** `[Virtual Cell]` Engineering Cells Using Artificial Intelligence (**© by Yusuf Roohani 2024**) [[paper](https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf)] [[GitHub Homepage](https://github.com/yhr91)] [[Arc profile](https://arcinstitute.org/news/yusuf-roohani-virtual-cell-architecture)]
 
-## Datasets and Benchmarks
+## Datasets
 
-### Datasets
+### Perturbation and Cell-State Atlases
 
-- **[L1000/CMap]** A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles (**Cell 2017**) [[paper](https://doi.org/10.1016/j.cell.2017.10.049)] [[dataset](https://clue.io/data/CMap2020#LINCS2020)]
+- **[Arc Virtual Cell Atlas]** Large-scale perturbation atlas and codebase from Arc Institute [[resource](https://arcinstitute.org/tools/virtualcellatlas)] [[repo](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]
 
-- **[CPJUMP1]** Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-024-02241-6)] [[code](https://github.com/jump-cellpainting/2024_Chandrasekaran_NatureMethods)] ![GitHub stars](https://img.shields.io/github/stars/jump-cellpainting/2024_Chandrasekaran_NatureMethods.svg?logo=github&label=Stars) [[dataset](https://registry.opendata.aws/cellpainting-gallery/)]
+- **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)] [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
-- **[HEST-1k]** HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis (**NeurIPS 2024**) [[paper](https://arxiv.org/abs/2406.16192)] [[code](https://github.com/mahmoodlab/HEST)] ![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/HEST.svg?logo=github&label=Stars)
-
-- **[CIGS]** High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)] [[中文解读](https://mp.weixin.qq.com/s/nLvu4AFf6MFRurPL0WVu8g)] [[dataset](https://cigs.iomicscloud.com/)] [[code](https://github.com/Wang-lab302/CIGS)] ![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
-
-- **[scGeneScope]** scGeneScope: A Treatment-Matched Single Cell Imaging and Transcriptomics Dataset and Benchmark for Treatment Response Modeling (**NeurIPS 2025 Datasets and Benchmarks Track**) [[paper](https://openreview.net/forum?id=918POZbZ50)] [[dataset](https://huggingface.co/datasets/altoslabs/scGeneScope)]
-
-- **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)] [[中文解读](https://zhuanlan.zhihu.com/p/28908614524)] [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
-
-- **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)] [[中文解读](https://mp.weixin.qq.com/s/qLXXGXYmTjcFAWMtrd-wwQ)] [[dataset](https://doi.org/10.25452/figshare.plus.29190726)]
-
-- **[scBaseCount]** scBaseCount: An AI Agent-Curated, Uniformly Processed, and Continually Expanding Single Cell Data Repository (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.27.640494)] [[code-scRecounter](https://github.com/ArcInstitute/scRecounter)] [[code-SRAgent](https://github.com/ArcInstitute/SRAgent)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/SRAgent.svg?logo=github&label=Stars)
-
-- **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)] [[dataset](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)] [[code](https://github.com/cole-trapnell-lab/sci-plex)] ![GitHub stars](https://img.shields.io/github/stars/cole-trapnell-lab/sci-plex.svg?logo=github&label=Stars)
+- **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)] [[dataset](https://doi.org/10.25452/figshare.plus.29190726)]
 
 - **[scPerturb]** scPerturb: Harmonized Single-Cell Perturbation Data (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-023-02144-y)] [[dataset](https://projects.sanderlab.org/scperturb/)] [[code](https://github.com/sanderlab/scPerturb)] ![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
 
-- **[Cell Painting Gallery]** [[link](https://registry.opendata.aws/cellpainting-gallery/)] [[dataset overview](https://github.com/broadinstitute/cellpainting-gallery/blob/main/README.md)] [[AWS overview](https://open.quiltdata.com/b/cellpainting-gallery/tree/)] [[Bray dataset](https://github.com/gigascience/paper-bray2017/tree/master)]
+- **[CIGS]** High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)] [[dataset](https://cigs.iomicscloud.com/)] [[code](https://github.com/Wang-lab302/CIGS)] ![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
+
+- **[L1000/CMap]** A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles (**Cell 2017**) [[paper](https://doi.org/10.1016/j.cell.2017.10.049)] [[dataset](https://clue.io/data/CMap2020#LINCS2020)]
+
+- **[Sci-Plex]** Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution (**Science 2019**) [[paper](https://doi.org/10.1126/science.aax6234)] [[dataset](https://figshare.com/articles/dataset/sciPlex_dataset/24681285)] [[code](https://github.com/cole-trapnell-lab/sci-plex)] ![GitHub stars](https://img.shields.io/github/stars/cole-trapnell-lab/sci-plex.svg?logo=github&label=Stars)
+
+- **[Perturb-seq datasets]** Genome-scale and combinatorial Perturb-seq datasets from Replogle, Norman, Dixit, Adamson, and related screens [[overview](https://github.com/sanderlab/scPerturb)]
+
+- **[Virtual Cell Challenge]** Community perturbation-prediction challenge and hidden evaluation resources [[homepage](https://virtualcellchallenge.org/)]
+
+### Single-Cell Reference Atlases
+
+- **[scBaseCount]** scBaseCount: An AI Agent-Curated, Uniformly Processed, and Continually Expanding Single Cell Data Repository (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.27.640494)] [[code-scRecounter](https://github.com/ArcInstitute/scRecounter)] [[code-SRAgent](https://github.com/ArcInstitute/SRAgent)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/SRAgent.svg?logo=github&label=Stars)
+
+- **[CZ CELLxGENE Discover]** A single-cell data platform for scalable exploration, analysis, and modeling of aggregated data (**NAR 2025**) [[paper](https://academic.oup.com/nar/article/53/D1/D886/7912032)] [[dataset](https://cellxgene.cziscience.com/)]
+
+- **[Human Cell Atlas]** International atlas of human cells and tissues [[portal](https://data.humancellatlas.org/)] [[paper](https://www.nature.com/articles/s41586-024-08338-4)]
+
+- **[Tabula Sapiens]** A multiple-organ single-cell transcriptomic atlas of humans (**Science 2022**) [[paper](https://www.science.org/doi/10.1126/science.abl4896)] [[dataset](https://tabula-sapiens-portal.ds.czbiohub.org/)]
+
+- **[Human BioMolecular Atlas Program]** HuBMAP healthy human tissue atlas and common coordinate framework [[portal](https://hubmapconsortium.org/)] [[paper](https://www.nature.com/articles/s41592-024-02563-5)]
+
+- **[GTEx]** Genotype-Tissue Expression project for human tissue expression baselines [[portal](https://gtexportal.org/)] [[overview](https://www.genome.gov/Funded-Programs-Projects/Genotype-Tissue-Expression-Project)]
+
+### Multimodal, Morphology, and Imaging
+
+- **[scGeneScope]** scGeneScope: A Treatment-Matched Single Cell Imaging and Transcriptomics Dataset and Benchmark for Treatment Response Modeling (**NeurIPS 2025 Datasets and Benchmarks Track**) [[paper](https://openreview.net/forum?id=918POZbZ50)] [[dataset](https://huggingface.co/datasets/altoslabs/scGeneScope)]
+
+- **[CPJUMP1]** Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-024-02241-6)] [[dataset](https://registry.opendata.aws/cellpainting-gallery/)] [[code](https://github.com/jump-cellpainting/2024_Chandrasekaran_NatureMethods)] ![GitHub stars](https://img.shields.io/github/stars/jump-cellpainting/2024_Chandrasekaran_NatureMethods.svg?logo=github&label=Stars)
+
+- **[Cell Painting Gallery]** Public high-content cell painting datasets from Broad and partners [[dataset](https://registry.opendata.aws/cellpainting-gallery/)] [[overview](https://github.com/broadinstitute/cellpainting-gallery)]
+
+- **[RxRx]** Recursion high-content cellular imaging datasets for perturbation and batch-correction research [[datasets](https://www.rxrx.ai/datasets)]
 
 - **[CM4AI]** Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture from Disease-Relevant Cell Lines (**bioRxiv 2024**) [[paper](https://doi.org/10.1101/2024.05.21.589311)] [[dataset](https://cm4ai.org/)]
 
-- **[RxRx from Recursion]** [[link](https://www.rxrx.ai/datasets)]
+- **[STAMP]** Single-cell transcriptomics analysis and multimodal profiling through imaging (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.05.027)]
 
-### Benchmarks and Challenges
+### Spatial and Tissue Context
 
-- **[PerturBench]** Benchmarking Machine Learning Models for Cellular Perturbation Analysis (**NeurIPS 2025 Datasets and Benchmarks Track**) [[paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/8aee537279a66ced96319dfca3c00002-Abstract-Datasets_and_Benchmarks_Track.html)] [[code](https://github.com/altoslabs/perturbench)] ![GitHub stars](https://img.shields.io/github/stars/altoslabs/perturbench.svg?logo=github&label=Stars)
+- **[HEST-1k]** HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis (**NeurIPS 2024**) [[paper](https://arxiv.org/abs/2406.16192)] [[code](https://github.com/mahmoodlab/HEST)] ![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/HEST.svg?logo=github&label=Stars)
 
-- **[scDrugMap]** scDrugMap: benchmarking large foundation models for drug response prediction (**Nature Communications 2025**) [[paper](https://www.nature.com/articles/s41467-025-67481-2)]
+- **[Spatial Perturb-seq]** Spatial perturb-seq data for functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)] [[code](https://github.com/kimberle9/spatialperturbseq)]
 
-- **[Insight]** From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models (**iCell 2025**) [[paper](https://doi.org/10.71373/IQHA9494)]
+- **[Perturb-FISH]** CRISPR screening with imaging-based spatial transcriptomics (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.02.012)]
 
-- **[Evaluation]** Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI Virtual Cells Workshop (**arXiv 2025**) [[paper](https://arxiv.org/abs/2507.10502)] [[中文解读](https://mp.weixin.qq.com/s/5iGqIUMq1IoHEm0Ssl84-w)]
+- **[10x Genomics spatial datasets]** Visium, Xenium, and related public spatial transcriptomics example datasets [[datasets](https://www.10xgenomics.com/datasets)]
 
-- **[Challenge]** Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)] [[homepage](https://virtualcellchallenge.org/)] [[beginner's guidance](https://fleetwood.dev/posts/virtual-cell-challenge)]
+- **[Vizgen MERFISH datasets]** Public MERFISH example datasets for spatial transcriptomics [[datasets](https://vizgen.com/data-release-program/)]
+
+### Protein, Organelle, and Molecular Priors
+
+- **[Human Protein Atlas]** Subcellular and tissue protein expression atlases [[resource](https://www.proteinatlas.org/)] [[subcellular](https://www.proteinatlas.org/humanproteome/subcellular)] [[paper](https://doi.org/10.1126/science.aal3321)]
+
+- **[OpenCell]** Endogenous protein tagging, localization, and interaction data for human cellular organization (**Science 2022**) [[paper](https://doi.org/10.1126/science.abi6983)] [[dataset](https://registry.opendata.aws/czb-opencell/)]
+
+- **[ProtiCelli]** Proteome-wide image generation resources for human cell protein localization (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.31.715748)] [[code](https://github.com/CellProfiling/ProtiCelli)]
+
+- **[SubCell]** Proteome-aware microscopy foundation model resources based on HPA images (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.06.627299)] [[code](https://github.com/CellProfiling/subcell-embed)]
+
+- **[STRING]** Protein functional association and interaction networks [[resource](https://string-db.org/)] [[paper](https://academic.oup.com/nar/article/53/D1/D730/7903368)]
+
+- **[OmniPath]** Signaling, ligand-receptor, and causal network priors for multi-omics analysis [[resource](https://omnipathdb.org/)] [[paper](https://academic.oup.com/nar/article/54/D1/D652/8326458)]
+
+### Chemical, Drug, and Target Resources
+
+- **[Drug Repurposing Hub]** Curated compound library with targets, mechanisms, and clinical annotations (**Nature Medicine 2017**) [[paper](https://www.nature.com/articles/nm.4306)] [[resource](https://clue.io/repurposing)]
+
+- **[DepMap/CCLE/PRISM]** Cancer dependency, molecular profile, and drug-response resources for cell-line perturbation modeling [[resource](https://depmap.org/portal/)] [[paper](https://www.nature.com/articles/s41568-024-00763-x)]
+
+- **[ChEMBL]** Drug-like molecules, bioactivities, targets, and assays [[resource](https://www.ebi.ac.uk/chembl/)] [[paper](https://academic.oup.com/nar/article/52/D1/D1180/7337608)]
+
+- **[BindingDB]** Protein-small molecule binding affinity knowledgebase [[resource](https://www.bindingdb.org/)] [[paper](https://academic.oup.com/nar/article/53/D1/D1633/7906836)]
+
+- **[PubChem]** Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)] [[paper](https://academic.oup.com/nar/article/51/D1/D1373/6777787)]
 
 ## Reports and Blogs
 
