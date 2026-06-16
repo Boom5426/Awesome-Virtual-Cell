@@ -65,9 +65,9 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 ### 2026
 
-- **[Lingshu-Cell]** `[Virtual Cell]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.25240)]
+- **[Dataset Size & Diversity]** Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance  (**Nature Methods 2026**) [[paper](https://www.nature.com/articles/s41592-026-03120-y)]
 
-- **[Dataset Size & Diversity]** `[Foundation Model]` Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance
+- **[Lingshu-Cell]** `[Virtual Cell]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.25240)]
 
 - **[SCALE]** `[Perturbation]` SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.17380)]
 
