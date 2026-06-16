@@ -67,6 +67,12 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[Lingshu-Cell]** `[Virtual Cell]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.25240)]
 
+- **[Dataset Size & Diversity]** `[Foundation Model]` Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance
+
+- **[SCALE]** `[Perturbation]` SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.17380)]
+
+- **[Conditional Monge Gap]** `[Perturbation]` Conditional Monge Gap enables generalizable single-cell perturbation modelling (**Nature Machine Intelligence 2026**) [[paper](https://www.nature.com/articles/s42256-026-01242-8)]
+
 - **[ProtiCelli]** `[Virtual Cell]` Generative machine learning unlocks the first proteome-wide image of human cells (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.31.715748)] [[code](https://github.com/CellProfiling/ProtiCelli)] ![GitHub stars](https://img.shields.io/github/stars/CellProfiling/ProtiCelli.svg?logo=github&label=Stars)
 
 - **[AetherCell]** `[Virtual Cell]` AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery (**bioRxiv 2026**) [[paper](https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1)]
@@ -84,6 +90,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[CONCORD]** `[Foundation Model]` Revealing a coherent cell-state landscape across single-cell datasets with CONCORD (**Nature Biotechnology 2026**) [[paper](https://www.nature.com/articles/s41587-025-02950-z)][[code](https://github.com/Gartner-Lab/Concord)] ![GitHub stars](https://img.shields.io/github/stars/Gartner-Lab/Concord.svg?logo=github&label=Stars)
 
 - **[AI Scientist]** `[Related]` Towards end-to-end automation of AI research (**Nature 2026**) [[paper](https://www.nature.com/articles/s41586-026-10265-5)] [[code](https://github.com/SakanaAI/AI-Scientist)] ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist.svg?logo=github&label=Stars)
+
+- **[Conformation Description Language]** `[Related]` Bridging three-dimensional molecular structures and artificial intelligence with a conformation description language (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-026-01068-4)]
 
 - **[CRISPRi Map]** `[Perturbation]` A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) [[paper](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X25003325%3Fshowall%3Dtrue)]
 
@@ -112,6 +120,12 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[scBIG]** `[Perturbation]` Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.04901)]
 
 - **[CellxPert]** `[Perturbation]` CellxPert: Inference-Time MCMC Steering of a Multi-Omics Single-Cell Foundation Model for In-Silico Perturbation (**arXiv 2026**) [[paper](https://arxiv.org/abs/2605.00930)]
+
+- **[Perturbation Representation]** `[Perturbation]` What Makes a Representation Good for Single-Cell Perturbation Prediction? (**arXiv 2026**) [[paper](https://arxiv.org/abs/2605.19343)]
+
+- **[CisTransCell]** `[Perturbation]` CisTransCell: Single-Cell Perturbation Prediction via Gene Function, Regulatory Control, and Cellular Context (**arXiv 2026**) [[paper](https://arxiv.org/abs/2606.13713)]
+
+- **[Latent Causal Processes]** `[Perturbation]` Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2605.25581)]
 
 - **[msInfer]** `[Tool]` Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer (**Research Square 2026**) [[paper](https://doi.org/10.21203/rs.3.rs-9068677/v1)]
 
@@ -262,6 +276,10 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[Comment]** `[Virtual Cell]` Virtual Cells for Predictive Immunotherapy (**Nature Biotechnology Comment 2025**) [[paper](https://www.nature.com/articles/s41587-025-02583-2)]
 
 - **[Recursion]** `[Virtual Cell]` Virtual Cells: Predict, Explain, Discover (**arXiv 2025**) [[paper](https://arxiv.org/pdf/2505.14613)]
+
+### 2024
+
+- **[Zero-Shot Perturbation]** `[Perturbation]` Efficient Fine-Tuning of Single-Cell Foundation Models Enables Zero-Shot Molecular Perturbation Prediction (**arXiv 2024**) [[paper](https://arxiv.org/abs/2412.13478)]
 
 - **[Cell Maps]** `[Virtual Cell]` Multimodal cell maps as a foundation for structural and functional genomics (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-025-08878-3)] [[project](https://musicmaps.ai/u2os-cellmap/)]
 
