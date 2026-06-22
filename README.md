@@ -65,17 +65,17 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 ### 2026
 
-- **[Lingshu-Cell]** `[Virtual Cell]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.25240)]
+- **[Dataset Size & Diversity]** `[Foundation Model]` Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance (**Nature Methods 2026**) [[paper](https://www.nature.com/articles/s41592-026-03120-y)] [[code](https://github.com/microsoft/scFM-dataselection)] ![GitHub stars](https://img.shields.io/github/stars/microsoft/scFM-dataselection.svg?logo=github&label=Stars)
 
-- **[Dataset Size & Diversity]** `[Foundation Model]` Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance
+- **[Lingshu-Cell]** `[Virtual Cell]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.25240)] [[homepage](https://github.com/alibaba-damo-academy/lingshu-cell-homepage)]
 
 - **[SCALE]** `[Perturbation]` SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.17380)]
 
-- **[Conditional Monge Gap]** `[Perturbation]` Conditional Monge Gap enables generalizable single-cell perturbation modelling (**Nature Machine Intelligence 2026**) [[paper](https://www.nature.com/articles/s42256-026-01242-8)]
+- **[Conditional Monge Gap]** `[Perturbation]` Conditional Monge Gap enables generalizable single-cell perturbation modelling (**Nature Machine Intelligence 2026**) [[paper](https://www.nature.com/articles/s42256-026-01242-8)] [[code](https://github.com/AI4SCR/conditional-monge-gap)] ![GitHub stars](https://img.shields.io/github/stars/AI4SCR/conditional-monge-gap.svg?logo=github&label=Stars)
 
 - **[ProtiCelli]** `[Virtual Cell]` Generative machine learning unlocks the first proteome-wide image of human cells (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.31.715748)] [[code](https://github.com/CellProfiling/ProtiCelli)] ![GitHub stars](https://img.shields.io/github/stars/CellProfiling/ProtiCelli.svg?logo=github&label=Stars)
 
-- **[AetherCell]** `[Virtual Cell]` AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery (**bioRxiv 2026**) [[paper](https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1)]
+- **[AetherCell]** `[Virtual Cell]` AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery (**bioRxiv 2026**) [[paper](https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1)] [[code](https://github.com/Wenyuan-AI4science/AetherCell)] ![GitHub stars](https://img.shields.io/github/stars/Wenyuan-AI4science/AetherCell.svg?logo=github&label=Stars)
 
 - **[AlphaCell]** `[Virtual Cell]` Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.02.709176)]
 
@@ -115,9 +115,9 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[STRAND]** `[Perturbation]` STRAND: Sequence-Conditioned Transport for Single-Cell Perturbations (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.10156)]
 
-- **[PerturbDiff]** `[Perturbation]` PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.19685)] [[project](https://katarinayuan.github.io/PerturbDiff-ProjectPage/)]
+- **[PerturbDiff]** `[Perturbation]` PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.19685)] [[code](https://github.com/DeepGraphLearning/PerturbDiff)] ![GitHub stars](https://img.shields.io/github/stars/DeepGraphLearning/PerturbDiff.svg?logo=github&label=Stars) [[project](https://katarinayuan.github.io/PerturbDiff-ProjectPage/)]
 
-- **[scBIG]** `[Perturbation]` Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.04901)]
+- **[scBIG]** `[Perturbation]` Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2602.04901)] [[code](https://github.com/ttruan2426-dot/scBIG)] ![GitHub stars](https://img.shields.io/github/stars/ttruan2426-dot/scBIG.svg?logo=github&label=Stars) [[code](https://github.com/ttruan2426-dot/scBIG)] ![GitHub stars](https://img.shields.io/github/stars/ttruan2426-dot/scBIG.svg?logo=github&label=Stars)
 
 - **[CellxPert]** `[Perturbation]` CellxPert: Inference-Time MCMC Steering of a Multi-Omics Single-Cell Foundation Model for In-Silico Perturbation (**arXiv 2026**) [[paper](https://arxiv.org/abs/2605.00930)]
 
@@ -130,6 +130,36 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[msInfer]** `[Tool]` Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer (**Research Square 2026**) [[paper](https://doi.org/10.21203/rs.3.rs-9068677/v1)]
 
 - **[Stack]** `[Foundation Model]` Stack: In-Context Learning of Single-Cell Biology (**bioRxiv**) [[paper](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1)] [[code](https://github.com/ArcInstitute/stack)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/stack.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/ArcInstitute/stack)]
+
+- **[BioWorldModel]** `[Related]` BioWorldModel: a single architecture predicts phenotype from genotype across four kingdoms of life (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.27.714912)]
+
+- **[Gene Importance]** `[Foundation Model]` Scoring gene importance by interpreting single-cell foundation models (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03112-5)]
+
+- **[Hi-C FM]** `[Foundation Model]` A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics analysis across species (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03097-8)]
+
+- **[Virtual Spatial Tumor]** `[Virtual Cell]` Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.05.031)]
+
+- **[SynCell]** `[Virtual Cell]` A framework for building a synthetic cell from the SynCell Asia Initiative (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03153-w)]
+
+- **[3D Genome FM]** `[Foundation Model]` A foundation model to help understand the regulatory implications of 3D genome organization (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03098-7)]
+
+- **[Tissueformer]** `[Foundation Model]` Tissueformer: extending single-cell foundation models to predict population-level phenotypes (**BMC Bioinformatics 2026**) [[paper](https://doi.org/10.1186/s12859-026-06490-4)]
+
+- **[CytoSignal]** `[Spatial]` CytoSignal detects locations and dynamics of ligand–receptor signaling at cellular resolution from spatial transcriptomic data (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02624-9)]
+
+- **[graphene-seq]** `[Spatial]` In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-73883-7)]
+
+- **[Deep Molecular Profiling]** `[Spatial]` Deep molecular profiling in three dimensions (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03149-z)]
+
+- **[SpaMosaic]** `[Spatial]` Mosaic integration of spatial multi-omics with SpaMosaic (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02573-3)]
+
+- **[Computational Landscape]** `[Perturbation]` Charting the computational landscape of single-cell genetic perturbation (**Journal of Advanced Research 2026**) [[paper](https://doi.org/10.1016/j.jare.2026.06.012)]
+
+- **[veloAgent]** `[Agent]` Dissecting and steering cell dynamics using spatially-informed RNA velocity with veloAgent (**Molecular Systems Biology 2026**) [[paper](https://doi.org/10.1038/s44320-026-00213-w)] [[code](https://github.com/mcgilldinglab/veloAgent)] ![GitHub stars](https://img.shields.io/github/stars/mcgilldinglab/veloAgent.svg?logo=github&label=Stars)
+
+- **[Morphodynamics]** `[Morphology]` Single-cell morphodynamics predict cell fate decisions during mucociliary epithelial differentiation (**Molecular Systems Biology 2026**) [[paper](https://doi.org/10.1038/s44320-026-00212-x)]
+
+- **[Single Cell Notebooks]** `[Tool]` The Single Cell Notebooks for inclusive and accessible training in single-cell and spatial omics (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02584-0)]
 
 ### 2025
 
@@ -219,7 +249,7 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[CellForge]** `[Agent]` CellForge: Agentic Design of Virtual Cell Models (**arXiv 2025**) [[paper](https://arxiv.org/abs/2508.02276)] [[中文解读](https://mp.weixin.qq.com/s/kX43st2-SYRgxP57_xOoWw)] [[code](https://github.com/gersteinlab/CellForge)] ![GitHub stars](https://img.shields.io/github/stars/gersteinlab/CellForge.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/gersteinlab/CellForge)]
 
-- **[Cradle-VAE]** `[Perturbation]` Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/33695)] [[code](https://github.com/dmis-lab/CRADLE-VAE)] ![GitHub stars](https://img.shields.io/github/stars/dmis-lab/CRADLE-VAE.svg?logo=github&label=Stars)
+- **[Cradle-VAE]** `[Perturbation]` Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/33695)] [[code](https://github.com/dmis-lab/CRADLE-VAE)] ![GitHub stars](https://img.shields.io/github/stars/dmis-lab/CRADLE-VAE.svg?logo=github&label=Stars) [[code](https://github.com/dmis-lab/CRADLE-VAE)] ![GitHub stars](https://img.shields.io/github/stars/dmis-lab/CRADLE-VAE.svg?logo=github&label=Stars)
 
 - **[XTransferCDR]** `[Perturbation]` Learning Cross-Domain Representations for Transferable Drug Perturbations on Single-Cell Transcriptional Responses (**AAAI 2025**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/34073)] [[code](https://github.com/hliulab/XTransferCDR)] ![GitHub stars](https://img.shields.io/github/stars/hliulab/XTransferCDR.svg?logo=github&label=Stars)
 
