@@ -65,6 +65,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 ### 2026
 
+- **[DeSCOPE]** `[Virtual Cell]` Decoding Single-Cell Omics of Perturbation Responses Using DeSCOPE (**bioRxiv 2026**) [[paper](https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1)] [[code](https://github.com/Peg-Wu/DeSCOPE)] ![GitHub stars](https://img.shields.io/github/stars/Peg-Wu/DeSCOPE.svg?logo=github&label=Stars)
+
 - **[Dataset Size & Diversity]** `[Foundation Model]` Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance (**Nature Methods 2026**) [[paper](https://www.nature.com/articles/s41592-026-03120-y)] [[code](https://github.com/microsoft/scFM-dataselection)] ![GitHub stars](https://img.shields.io/github/stars/microsoft/scFM-dataselection.svg?logo=github&label=Stars)
 
 - **[Lingshu-Cell]** `[Virtual Cell]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[paper](https://arxiv.org/abs/2603.25240)] [[homepage](https://github.com/alibaba-damo-academy/lingshu-cell-homepage)]
