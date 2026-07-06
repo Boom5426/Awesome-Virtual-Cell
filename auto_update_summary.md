@@ -1,57 +1,54 @@
 # Automated README Update Summary
 
-- Date: 2026-06-22
-- Fixed entries: 3
-- Added new papers: 15
+- Date: 2026-07-06
+- Added new papers: 27
+- Code links added: 4
 
-## Fixed Entries
+## New Papers Added
 
-### 1. Dataset Size & Diversity
-- **Issue**: Missing paper link
-- **Fix**: Added `[[paper](https://www.nature.com/articles/s41592-026-03120-y)]` and venue/year `(**Nature Methods 2026**)`
+### Virtual Cell (5)
+- **OCOO-T**: OCOO-T : A Simple and Scalable Virtual Cell Model for Transcriptional Perturbation Response Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2606.12838)]
+- **DeepSpot-M**: DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology (**medRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.19.26356060)] [[code](https://github.com/ratschlab/DeepSpotM)]
+- **V3Cell**: V3Cell: A Vision-Guided Virtual 3D Cell Framework for Phenotypic Modeling and Perturbation Prediction (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.23.734130)] [[code](https://github.com/Laineyoulu/V3Cell)]
+- **HoloCell**: HoloCell: A Generative Foundation Model for Holistic Cellular Modeling (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.07.730684)]
+- **BRIDGE**: BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot Cancer Diagnosis (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.05.05.722971)]
 
-### 2. AetherCell
-- **Issue**: Missing code link
-- **Fix**: Added `[[code](https://github.com/Wenyuan-AI4science/AetherCell)]` and GitHub stars badge
+### Foundation Model (7)
+- **Tabular FM Perturbation**: Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.28.735106)]
+- **CellFM-Datasets**: Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.11.731508)]
+- **Glitch Genes**: Glitch genes: embedding geometry predicts functional fragility in single-cell foundation models (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.22.733850)]
+- **SciCore-Omics**: SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.05.30.728937)]
+- **FM Roadmap**: A User’s Roadmap to Foundation Models on Single-Cell and Spatial-Omics – Cell Type and Lineage applications (**National Science Review 2026**) [[paper](https://doi.org/10.1093/nsr/nwag371)]
+- **Cross-Modal Transfer**: Single-Cell Cross-Modal Transfer by Adversarial Fine-Tuning of Foundation Models (**arXiv 2026**) [[paper](https://arxiv.org/abs/2606.07676)]
+- **RegFormer**: RegFormer: a single-cell foundation model powered by gene regulatory hierarchies (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-72198-x)]
 
-### 3. PerturbDiff
-- **Issue**: Missing code link (only had project page)
-- **Fix**: Added `[[code](https://github.com/DeepGraphLearning/PerturbDiff)]` and GitHub stars badge (44 ⭐)
+### Perturbation (7)
+- **Design Space**: Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.15.732063)]
+- **Cross-Context DrugPert**: Enhancing Cross-Context Generalization in Drug Perturbation Prediction with a Multimodal Conditional Diffusion Framework (**Bioinformatics 2026**) [[paper](https://doi.org/10.1093/bioinformatics/btag482)]
+- **PerturbCellRL**: PerturbCellRL: Verifier-Guided Reinforcement Learning for Single-Cell Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2606.27752)]
+- **KG-Reasoning LLM**: Knowledge Graphs and Reasoning LLMs for Finding Simple Yet Effective Transcriptomic Perturbation Predictors (**arXiv 2026**) [[paper](https://arxiv.org/abs/2606.08816)]
+- **DoFormer**: DoFormer: Causal Transformer for Gene Perturbation (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.05.02.722054)]
+- **Chemical Pert DL**: Deep learning models for chemical perturbation prediction do not yet utilise drug molecular features (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.05.13.724458)]
+- **StateXDiff**: StateXDiff: Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2605.16104)]
 
-## New Papers Added (15 papers)
+### Benchmark (5)
+- **VCBench**: VCBench: A Multi-Dimensional Benchmark for Single-Cell Foundation Models (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.18.733146)] [[code](https://github.com/AppliedScientific/VCBench)]
+- **PertDiffBench**: PertDiffBench: Benchmarking Diffusion Models for Single-Cell Perturbation Response Prediction (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.13.732013)]
+- **Zero-Shot Benchmark**: Systematic benchmarking of zero-shot utility and robustness in single-cell transcriptomic foundation models (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.18.733285)]
+- **Spurious Correlation**: Spurious correlation inflates performance in single-cell perturbation prediction (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.05.07.723486)]
+- **scArchon**: scArchon: a scalable benchmarking framework for assessing single-cell perturbation models (**Genome Biology 2026**) [[paper](https://doi.org/10.1186/s13059-026-04104-z)] [[code](https://github.com/hdsu-bioquant/scArchon)]
 
-### Virtual Cell (3)
-- **BioWorldModel**: BioWorldModel: a single architecture predicts phenotype from genotype across four kingdoms of life (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.27.714912)]
-- **Virtual Spatial Tumor**: Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.05.031)]
-- **SynCell**: A framework for building a synthetic cell from the SynCell Asia Initiative (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03153-w)]
+### Spatial (1)
+- **Cycle-Consistent GenModel**: Cycle-consistent deep generative modeling unifies cellular states across unpaired spatial and single-cell modalities (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.05.25.727736)]
 
-### Foundation Model (6)
-- **Gene Importance**: Scoring gene importance by interpreting single-cell foundation models (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03112-5)]
-- **Hi-C FM**: A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics analysis across species (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03097-8)]
-- **3D Genome FM**: A foundation model to help understand the regulatory implications of 3D genome organization (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03098-7)]
-- **Tissueformer**: Tissueformer: extending single-cell foundation models to predict population-level phenotypes (**BMC Bioinformatics 2026**) [[paper](https://doi.org/10.1186/s12859-026-06490-4)]
-
-### Spatial (4)
-- **CytoSignal**: CytoSignal detects locations and dynamics of ligand–receptor signaling at cellular resolution from spatial transcriptomic data (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02624-9)]
-- **graphene-seq**: In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-73883-7)]
-- **Deep Molecular Profiling**: Deep molecular profiling in three dimensions (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03149-z)]
-- **SpaMosaic**: Mosaic integration of spatial multi-omics with SpaMosaic (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02573-3)]
-
-### Perturbation (1)
-- **Computational Landscape**: Charting the computational landscape of single-cell genetic perturbation (**Journal of Advanced Research 2026**) [[paper](https://doi.org/10.1016/j.jare.2026.06.012)]
-
-### Agent (1)
-- **veloAgent**: Dissecting and steering cell dynamics using spatially-informed RNA velocity with veloAgent (**Molecular Systems Biology 2026**) [[paper](https://doi.org/10.1038/s44320-026-00213-w)]
-
-### Morphology (1)
-- **Morphodynamics**: Single-cell morphodynamics predict cell fate decisions during mucociliary epithelial differentiation (**Molecular Systems Biology 2026**) [[paper](https://doi.org/10.1038/s44320-026-00212-x)]
-
-### Tool (1)
-- **Single Cell Notebooks**: The Single Cell Notebooks for inclusive and accessible training in single-cell and spatial omics (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02584-0)]
+### Morphology (2)
+- **Morphodynamics-Expr**: Single-cell morphodynamical trajectories enable prediction of gene expression accompanying cell state change (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101567)]
+- **Morph-Transcriptomic GenModel**: A generative framework for predicting cellular morphological and transcriptomic perturbation responses (**Cell Reports Methods 2026**) [[paper](https://doi.org/10.1016/j.crmeth.2026.101459)]
 
 ## Review Notes
 
-- This update is created as `draft` by manual curation.
-- All new papers have been verified for relevance to virtual cell research.
-- Code links were added only when publicly available GitHub repositories were confirmed.
-- Please verify relevance, metadata, and placement before merging.
+- This update was created by manual, agent-assisted curation (CrossRef + arXiv + bioRxiv search, 2026-05 to 2026-07).
+- All new papers were verified for relevance to virtual cell research and de-duplicated against existing entries.
+- Low-confidence preprints (ScienceOpen, low-signal Research Square) and weak-relevance items were filtered out.
+- Code links were added only when a matching public GitHub repository was confirmed.
+- All DOIs were verified to resolve via Crossref/arXiv.
