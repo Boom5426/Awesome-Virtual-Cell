@@ -82,7 +82,6 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[Zero-Shot Benchmark]** `[Benchmark]` Systematic benchmarking of zero-shot utility and robustness in single-cell transcriptomic foundation models (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.18.733285)]
 
 - **[DeepSpot-M]** `[Virtual Cell]` DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology (**medRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.19.26356060)] [[code](https://github.com/ratschlab/DeepSpotM)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpotM.svg?logo=github&label=Stars)
-- **[DeepSpot2Cell]** `[Virtual Cell]` DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision (**NeurIPS 2025**) [[paper](https://openreview.net/forum?id=ofCkwXQKaz)] [[code](https://github.com/ratschlab/DeepSpot2Cell)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpot2Cell.svg?logo=github&label=Stars)
 
 - **[V3Cell]** `[Virtual Cell]` V3Cell: A Vision-Guided Virtual 3D Cell Framework for Phenotypic Modeling and Perturbation Prediction (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.06.23.734130)] [[code](https://github.com/Laineyoulu/V3Cell)] ![GitHub stars](https://img.shields.io/github/stars/Laineyoulu/V3Cell.svg?logo=github&label=Stars)
 
@@ -223,6 +222,8 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[Pertpy]** `[Tool]` Pertpy: an End-to-end Framework for Perturbation Analysis (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02909-7)] [[code](https://github.com/scverse/pertpy)] ![GitHub stars](https://img.shields.io/github/stars/scverse/pertpy.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/scverse/pertpy)]
 
 - **[Benchmarking]** `[Benchmark]` Benchmarking Algorithms for Generalizable Single-Cell Perturbation Response Prediction (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02980-0)] [[code](https://github.com/bm2-lab/scPerturBench/)] ![GitHub stars](https://img.shields.io/github/stars/bm2-lab/scPerturBench.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/bm2-lab/scPerturBench)]
+
+- **[DeepSpot2Cell]** `[Virtual Cell]` DeepSpot2Cell: Predicting Virtual Single-Cell Spatial Transcriptomics from H&E images using Spot-Level Supervision (**NeurIPS 2025**) [[paper](https://openreview.net/forum?id=ofCkwXQKaz)] [[code](https://github.com/ratschlab/DeepSpot2Cell)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpot2Cell.svg?logo=github&label=Stars)
 
 - **[Scouter]** `[Perturbation]` Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings (**Nature Computational Science 2025**) [[paper](https://www.nature.com/articles/s43588-025-00912-8)]
 
