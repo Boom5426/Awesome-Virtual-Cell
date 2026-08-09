@@ -53,6 +53,8 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 
 - **[Nature Methods]** Multimodal foundation transformer models for multiscale genomics (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02918-6)]
 
+- **[Nature Methods]** AI proteomics: from protein identification to virtual cells (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03085-y)]
+
 - **[Cell Perspective]** Empowering Biomedical Discovery with AI Agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)] [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
 
 - **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)] [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
@@ -61,7 +63,7 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 
 ## Research Papers
 
-Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`, `[Morphology]`, `[Agent]`, `[Benchmark]`, `[Tool]`, `[Related]`. Tags are lightweight and non-exhaustive.
+Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`, `[Morphology]`, `[Protein]`, `[Agent]`, `[Benchmark]`, `[Tool]`, `[Related]`. Tags are lightweight and non-exhaustive.
 
 ### 2026
 
@@ -217,6 +219,12 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[Single Cell Notebooks]** `[Tool]` The Single Cell Notebooks for inclusive and accessible training in single-cell and spatial omics (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02584-0)]
 
+- **[CAPTAIN]** `[Protein]` CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-72882-y)] [[preprint](https://doi.org/10.1101/2025.07.07.663366)] [[code](https://github.com/iamjiboya/CAPTAIN)] ![GitHub stars](https://img.shields.io/github/stars/iamjiboya/CAPTAIN.svg?logo=github&label=Stars)
+
+- **[scpFormer]** `[Protein]` scpFormer: A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics (**arXiv 2026**) [[paper](https://arxiv.org/abs/2604.20003)]
+
+- **[MultiPert]** `[Protein]` MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction (**PLOS Computational Biology 2026**) [[paper](https://doi.org/10.1371/journal.pcbi.1014054)] [[code](https://github.com/MengyuanZhaoo/MultiPert)] ![GitHub stars](https://img.shields.io/github/stars/MengyuanZhaoo/MultiPert.svg?logo=github&label=Stars)
+
 ### 2025
 
 - **[Pertpy]** `[Tool]` Pertpy: an End-to-end Framework for Perturbation Analysis (**Nature Methods**) [[paper](https://www.nature.com/articles/s41592-025-02909-7)] [[code](https://github.com/scverse/pertpy)] ![GitHub stars](https://img.shields.io/github/stars/scverse/pertpy.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/scverse/pertpy)]
@@ -365,6 +373,10 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 
 - **[Recursion]** `[Virtual Cell]` Virtual Cells: Predict, Explain, Discover (**arXiv 2025**) [[paper](https://arxiv.org/pdf/2505.14613)]
 
+- **[scTranslator]** `[Protein]` A pre-trained large generative model for translating single-cell transcriptomes to proteomes (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01528-z)] [[preprint](https://doi.org/10.1101/2023.07.04.547619)] [[code](https://github.com/TencentAILabHealthcare/scTranslator)] ![GitHub stars](https://img.shields.io/github/stars/TencentAILabHealthcare/scTranslator.svg?logo=github&label=Stars)
+
+- **[MTIProteinImputation]** `[Protein]` Imputing single-cell protein abundance in multiplex tissue imaging (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-59788-x)] [[code](https://github.com/goeckslab/MTIProteinImputation)] ![GitHub stars](https://img.shields.io/github/stars/goeckslab/MTIProteinImputation.svg?logo=github&label=Stars)
+
 ### 2024
 
 - **[Zero-Shot Perturbation]** `[Perturbation]` Efficient Fine-Tuning of Single-Cell Foundation Models Enables Zero-Shot Molecular Perturbation Prediction (**arXiv 2024**) [[paper](https://arxiv.org/abs/2412.13478)]
@@ -430,6 +442,12 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[LangCell]** `[Foundation Model]` LangCell: Language-Cell Pre-training for Cell Identity Understanding (**ICML 2024 Poster**) [[paper](https://icml.cc/virtual/2024/poster/34495)] [[code](https://github.com/PharMolix/LangCell)] ![GitHub stars](https://img.shields.io/github/stars/PharMolix/LangCell.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/PharMolix/LangCell)]
 
 - **[CellPLM]** `[Foundation Model]` CellPLM: Pre-training of Cell Language Model beyond Single Cells (**ICLR 2024 Poster**) [[paper](https://openreview.net/forum?id=BKXvPDekud)] [[code](https://github.com/OmicsML/CellPLM)] ![GitHub stars](https://img.shields.io/github/stars/OmicsML/CellPLM.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/OmicsML/CellPLM)]
+
+- **[scPROTEIN]** `[Protein]` scPROTEIN: A Versatile Deep Graph Contrastive Learning Framework for Single-Cell Proteomics Embedding (**Nature Methods 2024**) [[paper](https://doi.org/10.1038/s41592-024-02214-9)] [[code](https://github.com/TencentAILabHealthcare/scPROTEIN)] ![GitHub stars](https://img.shields.io/github/stars/TencentAILabHealthcare/scPROTEIN.svg?logo=github&label=Stars)
+
+- **[scLinear]** `[Protein]` scLinear Predicts Protein Abundance at Single-Cell Resolution (**Communications Biology 2024**) [[paper](https://doi.org/10.1038/s42003-024-05958-4)] [[code](https://github.com/DanHanh/scLinear)] ![GitHub stars](https://img.shields.io/github/stars/DanHanh/scLinear.svg?logo=github&label=Stars)
+
+- **[Perturbation Proteomics]** `[Protein]` AI-Empowered Perturbation Proteomics for Complex Biological Systems (**Cell Genomics 2024**) [[paper](https://doi.org/10.1016/j.xgen.2024.100691)]
 
 - **[Stanford PhD Thesis]** `[Virtual Cell]` Engineering Cells Using Artificial Intelligence (**© by Yusuf Roohani 2024**) [[paper](https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf)] [[GitHub Homepage](https://github.com/yhr91)] [[Arc profile](https://arcinstitute.org/news/yusuf-roohani-virtual-cell-architecture)]
 
@@ -578,6 +596,14 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - `[Virtual Cell]` Building the Next Generation of Virtual Cells to Understand Cellular Biology (**Biophysical Journal 2023**) [[paper](https://doi.org/10.1016/j.bpj.2023.04.006)]
 
 - **[Research Highlight]** `[Virtual Cell]` Simulating a Whole Cell (**Nature Methods 2022**) [[paper](https://doi.org/10.1038/s41592-022-01429-y)]
+
+- **[sciPENN]** `[Protein]` A Multi-Use Deep Learning Method for CITE-seq and Single-Cell RNA-seq Data Integration with Cell Surface Protein Prediction and Imputation (**Nature Machine Intelligence 2022**) [[paper](https://doi.org/10.1038/s42256-022-00545-w)] [[code](https://github.com/jlakkis/sciPENN)] ![GitHub stars](https://img.shields.io/github/stars/jlakkis/sciPENN.svg?logo=github&label=Stars)
+
+- **[totalVI]** `[Protein]` Joint Probabilistic Modeling of Single-Cell Multi-Omic Data with totalVI (**Nature Methods 2021**) [[paper](https://doi.org/10.1038/s41592-020-01050-x)] [[code](https://github.com/scverse/scvi-tools)] ![GitHub stars](https://img.shields.io/github/stars/scverse/scvi-tools.svg?logo=github&label=Stars)
+
+- **[cTP-net]** `[Protein]` Surface Protein Imputation from Single Cell Transcriptomes by Deep Neural Networks (**Nature Communications 2020**) [[paper](https://doi.org/10.1038/s41467-020-14391-0)] [[code](https://github.com/zhouzilu/cTPnet)] ![GitHub stars](https://img.shields.io/github/stars/zhouzilu/cTPnet.svg?logo=github&label=Stars)
+
+- **[CITE-seq]** `[Protein]` Simultaneous Epitope and Transcriptome Measurement in Single Cells (**Nature Methods 2017**) [[paper](https://doi.org/10.1038/nmeth.4380)]
 
 - **[Comment]** Personalized Medicine: Time for One-Person Trials (**Nature Comment 2015**) [[paper](https://doi.org/10.1038/520609a)]
 
