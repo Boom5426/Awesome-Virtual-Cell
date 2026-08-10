@@ -13,6 +13,7 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 - [Overview Papers](#overview-papers)
 - [Research Papers](#research-papers)
 - [Datasets](#datasets)
+- [Virtual Cell Challenge](#virtual-cell-challenge)
 - [Reports and Blogs](#reports-and-blogs)
 - [Videos](#videos)
 - [Historical and Foundational Works](#historical-and-foundational-works)
@@ -542,6 +543,48 @@ Tag hints: `[Virtual Cell]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`
 - **[BindingDB]** Protein-small molecule binding affinity knowledgebase [[resource](https://www.bindingdb.org/)] [[paper](https://academic.oup.com/nar/article/53/D1/D1633/7906836)]
 
 - **[PubChem]** Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)] [[paper](https://academic.oup.com/nar/article/51/D1/D1373/6777787)]
+
+## Virtual Cell Challenge
+
+The Virtual Cell Challenge (VCC) is Arc Institute's annual AI virtual cell competition, explicitly modeled on CASP: every edition generates a fresh perturbation benchmark, keeps the test split hidden, and runs a live leaderboard. Two editions have run so far. Note that [virtualcellchallenge.org](https://virtualcellchallenge.org/) now serves the current 2026 edition, so the 2025 links below point to Arc's archived posts rather than to the challenge site.
+
+### 1st Edition (2025)
+
+- **Question**: can a computational model stand in for a real Perturb-seq experiment?
+
+- **Task**: predict the single-cell transcriptional response to held-out CRISPRi gene knockdowns, in a cell context deliberately chosen to sit off the training distribution of existing foundation models.
+
+- **Data**: a newly generated Perturb-seq dataset of about 300,000 H1 human embryonic stem cells (H1 hESC) covering 300 genetic perturbations, produced with 10x Genomics Flex chemistry and released in segments for training, validation, and testing.
+
+- **Metrics**: Perturbation Discrimination Score (PDS), Differential Expression Score (DES), and Mean Absolute Error (MAE), implemented in Arc's `cell-eval` suite. A Generalist Prize introduced during the competition re-ranked the 50 top-scoring final entries on the average rank across seven metrics: the three challenge metrics plus four from the STATE model paper (Pearson delta, Spearman correlation of log fold change, AUPRC, and Spearman correlation of effect size).
+
+- **Timeline and scale**: registration opened on 26 June 2025, winners were announced on 6 December 2025 at NeurIPS 2025. Over 5,000 people registered from 114 countries, over 1,200 teams submitted results, and over 300 teams made final submissions.
+
+- **Winners**:
+  - 1st place, $100k: **BM_xTVC** (BioMap Research), entry `xTrimoSCPerturb`, a hybrid of deep learning with classical statistical features, protein embeddings, and curated public data.
+  - 2nd place, $50k: **XLearning Lab** (Sichuan University, Tianfu Jincheng Lab), a metric-driven conditional generation framework over pseudo-bulk representations.
+  - 3rd place, $25k: **Outlier** (UChicago, Dartmouth, HKU), entry `TransPert`, cross-cell-line prediction from summary-level statistics with similarity-aware aggregation and global linear scaling.
+  - Generalist Prize, $100k: **Altos Labs** (Institute of Computation), entry `go-with-the-flow`, a flow matching generative model that learns time-dependent dynamics directly in gene expression space.
+
+- **Reported takeaway**: the winning entries all paired deep learning with classical statistical features. Arc's own wrap-up states that pure end-to-end neural networks did not yet outperform hybrid models. As of this entry none of the four winning entries has released code or a methods paper; the `TransPert` manuscript is described as forthcoming.
+
+- **[Launch]** Arc Institute launches its inaugural virtual cell competition (**Arc Institute 2025**) [[announcement](https://arcinstitute.org/news/virtual-cell-challenge-2025)]
+
+- **[Commentary]** Virtual Cell Challenge: Toward a Turing Test for the Virtual Cell (**Cell Commentary 2025**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0)]
+
+- **[Data]** Behind the Data of the Virtual Cell Challenge (**Arc Institute 2025**) [[post](https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge)]
+
+- **[Results]** Virtual Cell Challenge 2025 Wrap-Up: Winners and Reflections (**Arc Institute 2025**) [[post](https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up)]
+
+- **[Evaluation Code]** cell-eval: the metrics suite used to score submissions [[code](https://github.com/ArcInstitute/cell-eval)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/cell-eval.svg?logo=github&label=Stars)
+
+- **[Metric Analysis]** Effects of Distance Metrics and Scaling on the Perturbation Discrimination Score (**arXiv 2025**) [[paper](https://arxiv.org/abs/2511.16954)]
+
+### 2nd Edition (2026)
+
+Round two is the edition currently hosted at [virtualcellchallenge.org](https://virtualcellchallenge.org/). Arc describes the VCC as an annual competition with a $100,000 grand prize, sponsored by NVIDIA, 10x Genomics, and Ultima Genomics. The task definition, benchmark dataset, and metrics for this edition are not public yet, so this entry stays deliberately thin and will be filled in once Arc publishes them.
+
+- **[Homepage]** Virtual Cell Challenge (**Arc Institute 2026**) [[homepage](https://virtualcellchallenge.org/)] [[Virtual Cell Initiative](https://arcinstitute.org/virtual-cell-initiative)]
 
 ## Reports and Blogs
 
