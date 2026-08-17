@@ -1,10 +1,15 @@
 # Automated README Updates
 
-This repository includes a GitHub Actions workflow that proposes literature updates as a draft pull request every two weeks.
+**Status: the schedule is disabled.** The workflow no longer runs on its own. It
+stays in the repository so it can be dispatched by hand from the Actions tab, and
+the two-week `schedule` trigger is commented out at the top of the workflow file
+if you want it back. README updates are curated manually for now.
+
+This repository includes a GitHub Actions workflow that proposes literature updates as a draft pull request.
 
 ## What It Does
 
-- runs on a two-week schedule and on manual dispatch
+- runs on manual dispatch only
 - scans a small set of curated update queries
 - applies repository-specific scope and de-duplication rules
 - updates `README.md` when high-confidence candidates are found

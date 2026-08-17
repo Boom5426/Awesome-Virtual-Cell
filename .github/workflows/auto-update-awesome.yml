@@ -1,9 +1,13 @@
 name: Auto Update Awesome Virtual Cell
 
+# Scheduled auto-updates are disabled. This workflow now runs only when it is
+# dispatched manually from the Actions tab. To re-enable the two-week schedule,
+# restore the `schedule` trigger below and the off-week skip step it needs:
+#
+#   schedule:
+#     - cron: "0 3 * * 1"
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * 1"
 
 permissions:
   contents: write
@@ -13,35 +17,18 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Skip off-week runs
-        id: check-week
-        if: github.event_name == 'schedule'
-        run: |
-          WEEK=$(date -u +%V)
-          if [ $((10#$WEEK % 2)) -ne 0 ]; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Skipping odd week $WEEK."
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "Running on even week $WEEK."
-          fi
-
       - name: Checkout
-        if: steps.check-week.outputs.skip != 'true'
         uses: actions/checkout@v4
 
       - name: Set up Python
-        if: steps.check-week.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Generate README updates
-        if: steps.check-week.outputs.skip != 'true'
         run: python scripts/auto_update_readme.py
 
       - name: Check for changes
-        if: steps.check-week.outputs.skip != 'true'
         id: changes
         run: |
           if git diff --quiet; then
@@ -51,7 +38,7 @@ jobs:
           fi
 
       - name: Create pull request
-        if: steps.check-week.outputs.skip != 'true' && steps.changes.outputs.changed == 'true'
+        if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
