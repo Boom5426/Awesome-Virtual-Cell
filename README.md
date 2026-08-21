@@ -6,14 +6,47 @@ Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popul
 
 For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
 
+## News
+
+Deadlines for the live competitions first, then a dated log of what changed in this list. Competition entries move into the log once they close.
+
+**Live challenges** (dates as published by the organizers, checked on 21 August 2026)
+
+| Challenge | Phase now | Next milestone | Final call |
+| --- | --- | --- | --- |
+| [Virtual Embryo Challenge (NeurIPS 2026)](#virtual-embryo-challenge-neurips-2026) | P2 open: validation submissions scored and ranked, starter kit and reference baselines released 15 Aug 2026 | Test phase opens 20 Oct 2026 | Submissions close 2 Dec 2026, winners announced 11 Dec 2026 |
+| [Virtual Cell Challenge 2026 (Arc Institute)](#2nd-edition-2026) | Submissions and live leaderboard scheduled to open 20 Aug 2026 | Final test set released late Oct 2026 | Results announced late Nov 2026 |
+
+**Updates**
+
+- `2026-08-21` Added the Virtual Embryo Challenge (NeurIPS 2026), grouped both competitions under [Challenges and Competitions](#challenges-and-competitions), and started this News log.
+- `2026-08-17` Added World Model and JEPA papers, refreshed preprint links, corrected stale venue labels.
+- `2026-08-10` Added the Virtual Cell Challenge section covering both Arc editions.
+- `2026-08-09` Added single-cell and protein papers, including scTranslator, CAPTAIN, and scPROTEIN.
+- `2026-07-16` Added TCGA and HEST Xenium virtual spatial transcriptomics datasets (community PR).
+- `2026-07-14` Added DeepSpot2Cell (NeurIPS 2025) (community PR).
+
+<details>
+<summary>Earlier updates</summary>
+
+- `2026-07-06` Added 27 new 2026 papers from a May to July literature sweep.
+- `2026-07-04` Added DeSCOPE (community PR).
+- `2026-06-22` Added 2026 papers and missing code links.
+- `2026-05-28` Expanded the Datasets section and added recent virtual cell papers.
+- `2026-05-13` Added the automated literature update workflow, now manual dispatch only.
+- `2026-03-18` Restructured the README, added the contributing guide, and linked the scientific figures section.
+
+</details>
+
 ## Contents
 
+- [News](#news)
 - [Scope](#scope)
 - [Inclusion Rules](#inclusion-rules)
 - [Overview Papers](#overview-papers)
 - [Research Papers](#research-papers)
 - [Datasets](#datasets)
-- [Virtual Cell Challenge](#virtual-cell-challenge)
+- [Challenges and Competitions](#challenges-and-competitions)
 - [Reports and Blogs](#reports-and-blogs)
 - [Videos](#videos)
 - [Historical and Foundational Works](#historical-and-foundational-works)
@@ -55,6 +88,8 @@ For scientific figure ideas and plotting templates, see [Awesome Scientific Figu
 - **[Nature Methods]** Multimodal foundation transformer models for multiscale genomics (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02918-6)]
 
 - **[Nature Methods]** AI proteomics: from protein identification to virtual cells (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03085-y)]
+
+- **[Nature Methods]** Towards predictive virtual embryos with genomics and AI (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 
 - **[Cell Perspective]** Empowering Biomedical Discovery with AI Agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)] [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
 
@@ -698,11 +733,15 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[PubChem]** Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)] [[paper](https://academic.oup.com/nar/article/51/D1/D1373/6777787)]
 
-## Virtual Cell Challenge
+## Challenges and Competitions
+
+Time-boxed competitions with hidden test sets and live leaderboards. Both entries below ask a version of the same question, whether a model can predict cell state under perturbation, at two different biological scales: cultured cell lines for the Arc challenge, a developing embryo for the NeurIPS one. Their current deadlines are mirrored at the top of [News](#news).
+
+### Virtual Cell Challenge (Arc Institute)
 
 The Virtual Cell Challenge (VCC) is Arc Institute's annual AI virtual cell competition, explicitly modeled on CASP: every edition generates a fresh perturbation benchmark, keeps the test split hidden, and runs a live leaderboard. Two editions have run so far. Note that [virtualcellchallenge.org](https://virtualcellchallenge.org/) now serves the current 2026 edition, so the 2025 links below point to Arc's archived posts rather than to the challenge site.
 
-### 1st Edition (2025)
+#### 1st Edition (2025)
 
 - **Question**: can a computational model stand in for a real Perturb-seq experiment?
 
@@ -734,7 +773,7 @@ The Virtual Cell Challenge (VCC) is Arc Institute's annual AI virtual cell compe
 
 - **[Metric Analysis]** Effects of Distance Metrics and Scaling on the Perturbation Discrimination Score (**arXiv 2025**) [[paper](https://arxiv.org/abs/2511.16954)]
 
-### 2nd Edition (2026)
+#### 2nd Edition (2026)
 
 Round two is the edition currently hosted at [virtualcellchallenge.org](https://virtualcellchallenge.org/), sponsored by NVIDIA, 10x Genomics, and Ultima Genomics. The facts below are taken from the challenge homepage as read on 17 August 2026. The scoring metrics are still unpublished, so that field stays open.
 
@@ -753,6 +792,28 @@ Round two is the edition currently hosted at [virtualcellchallenge.org](https://
 - **Prizes**: the top three models win prizes valued at $100,000, $50,000, and $25,000, each half cash and half NVIDIA Brev credits.
 
 - **[Homepage]** Virtual Cell Challenge (**Arc Institute 2026**) [[homepage](https://virtualcellchallenge.org/)] [[Virtual Cell Initiative](https://arcinstitute.org/virtual-cell-initiative)]
+
+### Virtual Embryo Challenge (NeurIPS 2026)
+
+The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized by the Qiu Lab at Stanford with Harvard, UC San Diego, MBZUAI, Carnegie Mellon, GenBio AI, and Vizgen. It moves the perturbation question from cultured cell lines into a developing embryo, and scores prediction across developmental time, 3D position, and gene knockout. The facts below are taken from the challenge page and the NeurIPS competition announcement as read on 21 August 2026.
+
+- **Question**: can a generative model predict how an embryo takes shape across space, scale, time, and perturbation?
+
+- **Tasks**: three, scored on shared hidden test sets. Temporal: predict gene-expression distributions at later developmental stages. Spatial-temporal: jointly predict expression and 3D location across scales, scored separately on the heart and on the whole embryo. Perturbation: predict knockout effects from wild-type data and observed perturbations.
+
+- **Data**: one MERFISH resource covering whole embryos and a heart-focused subset, about 1M cells across 11 time points from E6.75 to E12.5. The challenge page says "mammalian" without naming the species; the companion [Virtual Embryo atlas](https://virtualembryo.ai/) is mouse, indexed by Theiler stage.
+
+- **Tracks**: two, scored separately on identical hidden test sets. The Human Team follows a conventional ML competition workflow. The Agent Team requires the run to belong to the coding agent or LLM-driven system: a human may write the initial prompt, but may not inspect intermediate results and feed judgement back in. Because both tracks are scored on the same held-out data, the agent track is a direct comparison against human-designed pipelines.
+
+- **Metrics**: not named on the challenge page as of 21 August 2026. The page states only that both tracks are scored on the same metrics and hidden test sets, so treat the scoring as unpublished for now.
+
+- **Timeline**: portal opened 10 August 2026, starter kit and reference baselines released 15 August 2026, test phase opens 20 October 2026, final submissions close 2 December 2026, winners announced 11 December 2026 at NeurIPS.
+
+- **Prizes**: $104K total from the Laude Institute Moonshots Seed Grant, split into $54K in winner prizes ($27K per track), $30K in travel awards, and a $20K Community Contribution Award.
+
+- **[Homepage]** The Virtual Embryo Challenge: Generative Modeling of Embryogenesis Across Space, Scale and Time (**NeurIPS 2026 Competition Track**) [[homepage](https://virtualembryo.ai/challenge)] [[atlas](https://virtualembryo.ai/)] [[NeurIPS announcement](https://blog.neurips.cc/2026/07/28/neurips-2026-competitions-announced/)]
+
+- **[Background]** Towards Predictive Virtual Embryos with Genomics and AI (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 
 ## Reports and Blogs
 
@@ -833,6 +894,8 @@ Round two is the edition currently hosted at [virtualcellchallenge.org](https://
 ## Related Resources
 
 - **[Virtual Cell Challenge]** Official challenge site for evaluation and community updates [[homepage](https://virtualcellchallenge.org/)]
+
+- **[Virtual Embryo]** Interactive mouse development atlas with 3D reconstructions, annotated sections, and open REST and MCP endpoints [[site](https://virtualembryo.ai/)] [[challenge](https://virtualembryo.ai/challenge)]
 
 - **[Arc Virtual Cell Atlas]** Large-scale perturbation atlas and codebase from Arc Institute [[repo](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]
 

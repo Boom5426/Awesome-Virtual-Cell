@@ -32,6 +32,8 @@ Please include as much of the following as possible:
 - Put new research papers in the correct year bucket
 - Use lightweight tags only as browsing hints, not as strict taxonomy
 - Keep changes focused and easy to review
+- Add one dated line to the `News` section at the top of the README describing what the PR changes
+- If the entry is a competition with deadlines, also update the `Live challenges` table in `News`, and move the row into the update log once the competition closes
 
 ## How to Contribute
 
