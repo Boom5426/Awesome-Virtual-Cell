@@ -1,0 +1,26 @@
+name: Validate v2 Catalog
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate structured catalog
+        run: python scripts/validate_catalog.py
+      - name: Check README synchronization
+        run: python scripts/build_readme.py --check
+      - name: Check generated searchable catalog
+        run: |
+          cp docs/catalog.html /tmp/catalog.before.html
+          python scripts/build_catalog.py
+          diff -u /tmp/catalog.before.html docs/catalog.html
