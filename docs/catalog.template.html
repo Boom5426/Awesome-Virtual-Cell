@@ -3,57 +3,171 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Search and filter the Awesome Virtual Cell research catalog.">
 <title>Awesome Virtual Cell — Searchable Catalog</title>
 <style>
 :root{--bg:#f6f8fa;--card:#fff;--text:#1f2937;--muted:#667085;--accent:#0b6e99;--teal:#24b6a6;--line:#e5e7eb}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
-.wrap{max-width:1180px;margin:auto;padding:36px 22px 64px}
-.hero{padding:34px;border-radius:22px;color:white;background:linear-gradient(135deg,#071a2b,#0b6e99 55%,#24b6a6);box-shadow:0 15px 42px #0b6e9922}
-.hero h1{margin:0 0 8px;font-size:clamp(32px,5vw,54px)}.hero p{margin:0;opacity:.9}
-.stats{display:flex;gap:9px;flex-wrap:wrap;margin-top:21px}.stat{padding:7px 11px;border:1px solid #ffffff2d;border-radius:999px;background:#ffffff16;font-size:14px}
-.controls{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:10px;margin:24px 0 10px}
-input,select{width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:12px;background:white;font:inherit;color:inherit;outline:none}
-input:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px #0b6e9914}
-.meta{color:var(--muted);font-size:14px;margin:11px 2px 14px}.grid{display:grid;gap:10px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1180px;margin:auto;padding:30px 22px 64px}
+.hero{padding:32px;border-radius:22px;color:white;background:linear-gradient(135deg,#071a2b,#0b6e99 55%,#24b6a6);box-shadow:0 15px 42px #0b6e9922}
+.hero h1{margin:0 0 7px;font-size:clamp(32px,5vw,54px)}
+.hero>p{margin:0;opacity:.9}
+.controls{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:9px;margin:22px 0 12px}
+input,select{width:100%;padding:12px 13px;border:1px solid #ffffff4a;border-radius:11px;background:#fffffff2;color:#182230;font:inherit;outline:none}
+input:focus,select:focus{border-color:white;box-shadow:0 0 0 3px #ffffff2c}
+.quick{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 14px}
+.quick button,.tag-button{font:inherit;cursor:pointer}
+.quick button{border:1px solid #ffffff36;background:#ffffff12;color:white;padding:6px 10px;border-radius:999px;font-size:12px}
+.quick button:hover,.quick button.active{background:white;color:#0b6e99;border-color:white}
+.stats{display:flex;gap:8px;flex-wrap:wrap}
+.stat{padding:6px 10px;border:1px solid #ffffff2d;border-radius:999px;background:#ffffff13;font-size:13px}
+.meta{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:14px;margin:14px 2px}
+.grid{display:grid;gap:10px}
 .paper{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:16px 18px;box-shadow:0 3px 13px #0f172a08}
-.top{display:flex;justify-content:space-between;gap:18px}.title{font-weight:720;line-height:1.38}.venue{color:var(--muted);font-size:13px;white-space:nowrap}
-.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.tag{font-size:12px;padding:3px 7px;border-radius:999px;color:var(--accent);background:#0b6e9910;border:1px solid #0b6e9920}
-.links{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px}.links a{font-size:13px;font-weight:650;color:var(--accent);text-decoration:none}.links a:hover{text-decoration:underline}
-.empty{text-align:center;padding:60px;color:var(--muted)}footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
-@media(max-width:760px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.top{display:block}.venue{margin-top:6px}}
+.top{display:flex;justify-content:space-between;gap:18px}
+.title{font-weight:720;line-height:1.38}
+.venue{color:var(--muted);font-size:13px;white-space:nowrap}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.tag,.tag-button{font-size:12px;padding:3px 7px;border-radius:999px;color:var(--accent);background:#0b6e9910;border:1px solid #0b6e9920}
+.tag-button:hover{background:#0b6e9920}
+.links{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px}
+.links a{font-size:13px;font-weight:650;color:var(--accent);text-decoration:none}
+.links a:hover{text-decoration:underline}
+.empty{text-align:center;padding:60px;color:var(--muted)}
+footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:820px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.top{display:block}.venue{margin-top:6px}}
+@media(max-width:520px){.controls{grid-template-columns:1fr}.controls input{grid-column:auto}.wrap{padding:18px 12px 44px}.hero{padding:23px 18px;border-radius:17px}}
 </style>
 </head>
 <body><main class="wrap">
-<section class="hero"><h1>🧬 Awesome Virtual Cell</h1><p>Searchable research catalog generated from the structured source of truth.</p>
-<div class="stats"><span class="stat" id="total"></span><span class="stat" id="published"></span><span class="stat" id="withcode"></span><span class="stat" id="topiccount"></span></div></section>
-<section class="controls">
-<input id="q" type="search" placeholder="Search title, label, venue or topic…">
-<select id="year"><option value="">All years</option></select>
-<select id="tag"><option value="">All topics</option></select>
-<select id="status"><option value="">All statuses</option><option value="published">Published</option><option value="preprint">Preprint</option></select>
+<section class="hero">
+<h1>🧬 Awesome Virtual Cell</h1>
+<p>Search, filter, and browse the structured virtual-cell research catalog.</p>
+
+<section class="controls" aria-label="Paper filters">
+<input id="q" type="search" placeholder="Search title, label, venue or topic…" aria-label="Search papers">
+<select id="year" aria-label="Filter by year"><option value="">All years</option></select>
+<select id="tag" aria-label="Filter by topic"><option value="">All topics</option></select>
+<select id="status" aria-label="Filter by status"><option value="">All statuses</option><option value="published">Published</option><option value="preprint">Preprint</option></select>
 </section>
-<div class="meta" id="count"></div><section class="grid" id="grid"></section>
+
+<div class="quick" id="quickFilters" aria-label="Quick topic filters"></div>
+
+<div class="stats">
+<span class="stat" id="total"></span>
+<span class="stat" id="published"></span>
+<span class="stat" id="withcode"></span>
+<span class="stat" id="topiccount"></span>
+</div>
+</section>
+
+<div class="meta"><span id="count"></span><span>Tip: click a topic tag to filter</span></div>
+<section class="grid" id="grid"></section>
 <footer>README is the human view · <code>data/papers.json</code> is the source of truth</footer>
 </main>
 <script>
 const PAPERS=__PAPERS_JSON__;
 const byId=id=>document.getElementById(id);
-const esc=s=>String(s==null?"":s).replace(/[&<>"\']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","\'":"&#39;"}[m]});
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 const years=[...new Set(PAPERS.map(p=>p.year))].sort((a,b)=>b-a);
 const tags=[...new Set(PAPERS.flatMap(p=>p.tags||[]))].sort();
+const quickTags=["Virtual Cell","Perturbation","Foundation Model","World Model","Spatial","Agent","Benchmark"];
+
 years.forEach(y=>byId("year").insertAdjacentHTML("beforeend","<option>"+y+"</option>"));
 tags.forEach(t=>byId("tag").insertAdjacentHTML("beforeend","<option>"+esc(t)+"</option>"));
+
+byId("quickFilters").innerHTML=["",...quickTags.filter(t=>tags.includes(t))].map(t=>
+  '<button type="button" data-tag="'+esc(t)+'">'+(t||"All topics")+"</button>"
+).join("");
+
 byId("total").textContent=PAPERS.length+" papers";
 byId("published").textContent=PAPERS.filter(p=>p.status==="published").length+" published";
 byId("withcode").textContent=PAPERS.filter(p=>p.code_url).length+" with code";
 byId("topiccount").textContent=tags.length+" topic tags";
-function link(label,url){return url?"<a target=\"_blank\" rel=\"noreferrer\" href=\""+esc(url)+"\">"+label+" ↗</a>":""}
-function render(){
- const q=byId("q").value.trim().toLowerCase(),year=byId("year").value,tag=byId("tag").value,status=byId("status").value;
- const rows=PAPERS.filter(p=>{const hay=[p.title,p.label,p.venue].concat(p.tags||[]).join(" ").toLowerCase();return(!q||hay.includes(q))&&(!year||String(p.year)===year)&&(!tag||(p.tags||[]).includes(tag))&&(!status||p.status===status)});
- byId("count").textContent="Showing "+rows.length+" of "+PAPERS.length+" papers";
- if(!rows.length){byId("grid").innerHTML="<div class=\"empty\">No papers match these filters.</div>";return}
- byId("grid").innerHTML=rows.map(p=>"<article class=\"paper\"><div class=\"top\"><div class=\"title\">"+esc(p.label?"["+p.label+"] ":"")+esc(p.title)+"</div><div class=\"venue\">"+esc(p.venue||"")+" · "+p.year+"</div></div><div class=\"tags\">"+(p.tags||[]).map(t=>"<span class=\"tag\">"+esc(t)+"</span>").join("")+"<span class=\"tag\">"+esc(p.status)+"</span></div><div class=\"links\">"+link("Paper",p.paper_url||p.preprint_url)+link("Code",p.code_url)+(p.doi?link("DOI","https://doi.org/"+p.doi):"")+"</div></article>").join("");
+
+const params=new URLSearchParams(location.search);
+["q","year","tag","status"].forEach(id=>{
+  const value=params.get(id);
+  if(value!==null) byId(id).value=value;
+});
+
+function link(label,url){
+  return url?'<a target="_blank" rel="noreferrer" href="'+esc(url)+'">'+label+" ↗</a>":"";
 }
-["q","year","tag","status"].forEach(id=>byId(id).addEventListener("input",render));render();
-</script></body></html>
+
+function syncQuick(){
+  const selected=byId("tag").value;
+  document.querySelectorAll("#quickFilters button").forEach(btn=>{
+    btn.classList.toggle("active",btn.dataset.tag===selected);
+  });
+}
+
+function syncUrl(){
+  const next=new URLSearchParams();
+  ["q","year","tag","status"].forEach(id=>{
+    const value=byId(id).value.trim();
+    if(value) next.set(id,value);
+  });
+  const query=next.toString();
+  history.replaceState(null,"",location.pathname+(query?"?"+query:""));
+}
+
+function setTopic(tag){
+  byId("tag").value=tag;
+  render();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function render(){
+  const q=byId("q").value.trim().toLowerCase();
+  const year=byId("year").value;
+  const tag=byId("tag").value;
+  const status=byId("status").value;
+  const rows=PAPERS.filter(p=>{
+    const hay=[p.title,p.label,p.venue].concat(p.tags||[]).join(" ").toLowerCase();
+    return(!q||hay.includes(q))&&(!year||String(p.year)===year)&&(!tag||(p.tags||[]).includes(tag))&&(!status||p.status===status);
+  });
+
+  byId("count").textContent="Showing "+rows.length+" of "+PAPERS.length+" papers";
+  syncQuick();
+  syncUrl();
+
+  if(!rows.length){
+    byId("grid").innerHTML='<div class="empty">No papers match these filters.</div>';
+    return;
+  }
+
+  byId("grid").innerHTML=rows.map(p=>
+    '<article class="paper">'+
+      '<div class="top"><div class="title">'+esc(p.label?"["+p.label+"] ":"")+esc(p.title)+'</div><div class="venue">'+esc(p.venue||"")+" · "+p.year+"</div></div>"+
+      '<div class="tags">'+
+        (p.tags||[]).map(t=>'<button class="tag-button" type="button" data-paper-tag="'+esc(t)+'">'+esc(t)+"</button>").join("")+
+        '<span class="tag">'+esc(p.status)+"</span>"+
+      "</div>"+
+      '<div class="links">'+
+        link("Paper",p.paper_url||p.preprint_url)+
+        link("Code",p.code_url)+
+        (p.doi?link("DOI","https://doi.org/"+p.doi):"")+
+      "</div>"+
+    "</article>"
+  ).join("");
+}
+
+["q","year","tag","status"].forEach(id=>byId(id).addEventListener("input",render));
+byId("quickFilters").addEventListener("click",e=>{
+  const btn=e.target.closest("button[data-tag]");
+  if(btn) setTopic(btn.dataset.tag);
+});
+byId("grid").addEventListener("click",e=>{
+  const btn=e.target.closest("button[data-paper-tag]");
+  if(btn) setTopic(btn.dataset.paperTag);
+});
+document.addEventListener("keydown",e=>{
+  if(e.key==="/"&&!["INPUT","SELECT","TEXTAREA"].includes(document.activeElement.tagName)){
+    e.preventDefault();byId("q").focus();
+  }
+});
+render();
+</script>
+</body></html>
