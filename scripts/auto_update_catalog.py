@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 from scripts import auto_update_readme as discovery
-from scripts import build_catalog, build_readme
+from scripts import build_catalog, build_exports, build_readme
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "papers.json"
@@ -76,12 +76,7 @@ def candidate_to_record(candidate: discovery.Candidate) -> dict:
         "paper_url": candidate.primary_link,
         "preprint_url": None,
         "code_url": candidate.code_link,
-        "links": {
-            **({"paper": candidate.primary_link} if candidate.primary_link else {}),
-            **({"code": candidate.code_link} if candidate.code_link else {}),
-            **({"dataset": candidate.dataset_link} if candidate.dataset_link else {}),
-        },
-        "entry_markdown": candidate.to_markdown(),
+        "links": [],\n        "added_at": dt.date.today().isoformat(),\n        "updated_at": dt.date.today().isoformat(),
     }
 
 
@@ -103,7 +98,7 @@ def summary_markdown(candidates: list[discovery.Candidate]) -> str:
         f"- Date: {today}",
         f"- Proposed research papers: {len(candidates)}",
         "- Source of truth: `data/papers.json`",
-        "- Generated views: `README.md`, `docs/catalog.html`",
+        "- Generated views: `README.md`, web catalog, CSV, and BibTeX",
         "",
         "## Proposed Additions",
         "",
@@ -133,7 +128,7 @@ def regenerate_views() -> None:
     current = build_readme.README.read_text(encoding="utf-8")
     target = build_readme.updated_readme(current, build_readme.render(build_readme.load_papers()))
     build_readme.README.write_text(target, encoding="utf-8")
-    build_catalog.main()
+    build_catalog.main()\n    build_exports.main()
 
 
 def main() -> int:

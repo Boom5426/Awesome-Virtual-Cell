@@ -1,8 +1,8 @@
-name: Auto Update Awesome Virtual Cell
+name: Watch Preprint Publications
 
-# V2: discovery writes structured data first, then regenerates README/catalog.
-# Scheduled updates remain disabled; run manually until the new pipeline is reviewed.
 on:
+  schedule:
+    - cron: "0 4 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -10,33 +10,30 @@ permissions:
   pull-requests: write
 
 jobs:
-  update-catalog:
+  publication-watch:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Discover and update structured catalog
-        run: python scripts/auto_update_catalog.py
+      - name: Check preprints for formal publications
+        run: python scripts/publication_watcher.py --apply --max-updates 10
 
-      - name: Validate generated state
+      - name: Rebuild generated views
         run: |
           python scripts/validate_catalog.py
-          python scripts/build_exports.py
-          python scripts/build_readme.py --check
-          cp docs/catalog.html /tmp/catalog.before.html
+          python scripts/build_readme.py
           python scripts/build_catalog.py
-          diff -u /tmp/catalog.before.html docs/catalog.html
+          python scripts/build_exports.py
+          python scripts/validate_catalog.py
+          python scripts/build_readme.py --check
 
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet; then
+          if git diff --quiet data/papers.json README.md docs/catalog.html docs/index.html index.html exports; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -47,7 +44,7 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: auto/update-awesome-${{ github.run_id }}
+          branch: auto/publication-watch-${{ github.run_id }}
           delete-branch: true
           add-paths: |
             data/papers.json
@@ -57,11 +54,11 @@ jobs:
             index.html
             exports/papers.csv
             exports/papers.bib
-            auto_update_summary.md
-          commit-message: "docs: update structured virtual cell catalog"
-          title: "docs: structured virtual cell literature update"
-          body-path: auto_update_summary.md
+            publication_update_summary.md
+          commit-message: "docs: upgrade preprints to formal publications"
+          title: "docs: publication upgrades"
+          body-path: publication_update_summary.md
           draft: true
           labels: |
             automated
-            literature-update
+            publication-update

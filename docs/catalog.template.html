@@ -13,7 +13,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-s
 .hero{padding:32px;border-radius:22px;color:white;background:linear-gradient(135deg,#071a2b,#0b6e99 55%,#24b6a6);box-shadow:0 15px 42px #0b6e9922}
 .hero h1{margin:0 0 7px;font-size:clamp(32px,5vw,54px)}
 .hero>p{margin:0;opacity:.9}
-.controls{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:9px;margin:22px 0 12px}
+.controls{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:9px;margin:22px 0 12px}
 input,select{width:100%;padding:12px 13px;border:1px solid #ffffff4a;border-radius:11px;background:#fffffff2;color:#182230;font:inherit;outline:none}
 input:focus,select:focus{border-color:white;box-shadow:0 0 0 3px #ffffff2c}
 .quick{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 14px}
@@ -22,7 +22,7 @@ input:focus,select:focus{border-color:white;box-shadow:0 0 0 3px #ffffff2c}
 .quick button:hover,.quick button.active{background:white;color:#0b6e99;border-color:white}
 .stats{display:flex;gap:8px;flex-wrap:wrap}
 .stat{padding:6px 10px;border:1px solid #ffffff2d;border-radius:999px;background:#ffffff13;font-size:13px}
-.meta{display:flex;justify-content:space-between;gap:12px;color:var(--muted);font-size:14px;margin:14px 2px}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:14px;margin:14px 2px}.export-actions{display:flex;gap:7px;flex-wrap:wrap}.export-actions button{border:1px solid var(--line);background:var(--card);color:var(--accent);border-radius:9px;padding:7px 10px;cursor:pointer;font:inherit;font-size:12px}.export-actions button:hover{background:#0b6e9910}
 .grid{display:grid;gap:10px}
 .paper{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:16px 18px;box-shadow:0 3px 13px #0f172a08}
 .top{display:flex;justify-content:space-between;gap:18px}
@@ -50,6 +50,7 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
 <select id="year" aria-label="Filter by year"><option value="">All years</option></select>
 <select id="tag" aria-label="Filter by topic"><option value="">All topics</option></select>
 <select id="status" aria-label="Filter by status"><option value="">All statuses</option><option value="published">Published</option><option value="preprint">Preprint</option></select>
+<select id="sort" aria-label="Sort papers"><option value="recent">Recently added</option><option value="publication">Newest publication</option><option value="published">Published first</option><option value="code">Code available</option><option value="title">Title A–Z</option></select>
 </section>
 
 <div class="quick" id="quickFilters" aria-label="Quick topic filters"></div>
@@ -62,7 +63,7 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
 </div>
 </section>
 
-<div class="meta"><span id="count"></span><span>Tip: click a topic tag to filter</span></div>
+<div class="meta"><span id="count"></span><div class="export-actions"><button id="downloadCsv" type="button">Download filtered CSV</button><button id="downloadBib" type="button">Download filtered BibTeX</button></div></div>
 <section class="grid" id="grid"></section>
 <footer>README is the human view · <code>data/papers.json</code> is the source of truth</footer>
 </main>
@@ -87,7 +88,7 @@ byId("withcode").textContent=PAPERS.filter(p=>p.code_url).length+" with code";
 byId("topiccount").textContent=tags.length+" topic tags";
 
 const params=new URLSearchParams(location.search);
-["q","year","tag","status"].forEach(id=>{
+["q","year","tag","status","sort"].forEach(id=>{
   const value=params.get(id);
   if(value!==null) byId(id).value=value;
 });
@@ -119,16 +120,28 @@ function setTopic(tag){
   window.scrollTo({top:0,behavior:"smooth"});
 }
 
-function render(){
+function sortedRows(rows){
+  const mode=byId("sort").value;
+  const copy=rows.slice();
+  if(mode==="publication") return copy.sort((a,b)=>b.year-a.year||String(a.title).localeCompare(String(b.title)));
+  if(mode==="published") return copy.sort((a,b)=>(b.status==="published")-(a.status==="published")||b.year-a.year);
+  if(mode==="code") return copy.sort((a,b)=>Boolean(b.code_url)-Boolean(a.code_url)||b.year-a.year);
+  if(mode==="title") return copy.sort((a,b)=>String(a.title).localeCompare(String(b.title)));
+  return copy.sort((a,b)=>(b.added_at||"").localeCompare(a.added_at||"")||PAPERS.indexOf(a)-PAPERS.indexOf(b));
+}
+function filteredRows(){
   const q=byId("q").value.trim().toLowerCase();
   const year=byId("year").value;
   const tag=byId("tag").value;
   const status=byId("status").value;
-  const rows=PAPERS.filter(p=>{
+  return sortedRows(PAPERS.filter(p=>{
     const hay=[p.title,p.label,p.venue].concat(p.tags||[]).join(" ").toLowerCase();
     return(!q||hay.includes(q))&&(!year||String(p.year)===year)&&(!tag||(p.tags||[]).includes(tag))&&(!status||p.status===status);
-  });
+  }));
+}
 
+function render(){
+  const rows=filteredRows();
   byId("count").textContent="Showing "+rows.length+" of "+PAPERS.length+" papers";
   syncQuick();
   syncUrl();
@@ -154,7 +167,7 @@ function render(){
   ).join("");
 }
 
-["q","year","tag","status"].forEach(id=>byId(id).addEventListener("input",render));
+["q","year","tag","status","sort"].forEach(id=>byId(id).addEventListener("input",render));
 byId("quickFilters").addEventListener("click",e=>{
   const btn=e.target.closest("button[data-tag]");
   if(btn) setTopic(btn.dataset.tag);
@@ -163,6 +176,37 @@ byId("grid").addEventListener("click",e=>{
   const btn=e.target.closest("button[data-paper-tag]");
   if(btn) setTopic(btn.dataset.paperTag);
 });
+function csvEscape(value){
+  const s=String(value==null?"":value);
+  return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;
+}
+function filteredCsv(rows){
+  const fields=["id","label","title","year","venue","status","tags","doi","paper_url","preprint_url","code_url","added_at","updated_at"];
+  const lines=[fields.join(",")];
+  rows.forEach(p=>lines.push(fields.map(k=>csvEscape(k==="tags"?(p.tags||[]).join("|"):p[k])).join(",")));
+  return lines.join("\n")+"\n";
+}
+function bibEscape(s){return String(s||"").replace(/\\/g,"\\\\").replace(/[&%#_]/g,m=>"\\"+m)}
+function filteredBib(rows){
+  return rows.map(p=>{
+    const kind=p.status==="published"?"article":"misc";
+    const fields=[["title",p.title],["year",p.year]];
+    if(p.venue) fields.push([kind==="article"?"journal":"howpublished",p.venue]);
+    if(p.doi) fields.push(["doi",p.doi]);
+    const url=p.paper_url||p.preprint_url;
+    if(url) fields.push(["url",url]);
+    return "@"+kind+"{"+p.id+",\n"+fields.map(([k,v])=>"  "+k+" = {"+bibEscape(v)+"}").join(",\n")+"\n}";
+  }).join("\n\n")+"\n";
+}
+function downloadText(name,text,type){
+  const blob=new Blob([text],{type});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement("a");a.href=url;a.download=name;a.click();
+  setTimeout(()=>URL.revokeObjectURL(url),0);
+}
+byId("downloadCsv").addEventListener("click",()=>downloadText("awesome-virtual-cell-filtered.csv",filteredCsv(filteredRows()),"text/csv;charset=utf-8"));
+byId("downloadBib").addEventListener("click",()=>downloadText("awesome-virtual-cell-filtered.bib",filteredBib(filteredRows()),"application/x-bibtex;charset=utf-8"));
+
 document.addEventListener("keydown",e=>{
   if(e.key==="/"&&!["INPUT","SELECT","TEXTAREA"].includes(document.activeElement.tagName)){
     e.preventDefault();byId("q").focus();

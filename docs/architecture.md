@@ -25,19 +25,16 @@ Catalog -> GitHub Pages -> searchable web UI
 
 ## Source of truth
 
-- `data/papers.json` is the structured source of truth for **Research Papers**.
+- `data/papers.json` (Schema v2) is the structured source of truth for **Research Papers**; generated Markdown is not stored in the data layer.
 - `README.md` remains the human-facing Awesome List.
 - `docs/catalog.html` and `docs/index.html` are generated searchable views.
-- `entry_markdown` is retained during migration so existing auxiliary links are not lost.
-
-This is intentionally a transitional schema. Metadata is structured now, while the original entry rendering is preserved. A later normalization pass can render each entry entirely from structured fields.
-
 ## Build
 
 ```bash
 python scripts/validate_catalog.py
 python scripts/build_readme.py
 python scripts/build_catalog.py
+python scripts/build_exports.py
 ```
 
 Check that README is synchronized:
@@ -84,3 +81,11 @@ The workflow deliberately remains manual-dispatch-only until the v2 pipeline has
 ## Migration boundary
 
 The structured pipeline currently covers **Research Papers**. Datasets, challenges, reports, videos, and related resources remain Markdown-first and can be migrated incrementally after the paper pipeline is stable.
+
+## Publication watcher
+
+`scripts/publication_watcher.py` checks existing preprints against Crossref and proposes high-confidence upgrades to formal publications. A scheduled workflow opens draft PRs for human review.
+
+## Exports
+
+The full catalog is generated as `exports/papers.csv` and `exports/papers.bib`. The web catalog can also export the currently filtered result set.

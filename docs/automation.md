@@ -43,6 +43,8 @@ Dataset/resource automation remains manual until those sections are migrated to 
 - validator: `scripts/validate_catalog.py`
 - README generator: `scripts/build_readme.py`
 - catalog generator: `scripts/build_catalog.py`
+- export generator: `scripts/build_exports.py`
+- publication watcher: `scripts/publication_watcher.py`
 
 ## Manual Run
 
@@ -61,3 +63,7 @@ python scripts/build_readme.py --check
 ```
 
 The GitHub Action performs these checks before creating a draft PR.
+
+## Publication upgrades
+
+A separate weekly watcher checks preprints for formal journal/conference publications. Matches are title-similarity gated and are submitted as draft PRs rather than merged automatically.

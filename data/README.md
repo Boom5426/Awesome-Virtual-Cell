@@ -1,33 +1,37 @@
 # Structured paper catalog
 
-`papers.json` is the v2 source of truth for the `Research Papers` section.
+`papers.json` is the Schema v2 source of truth for the `Research Papers` section and the searchable catalog.
 
-## Schema
+## Schema v2
 
-Each entry contains:
+Each paper contains structured metadata only:
 
-- `id`: stable, URL-friendly identifier
-- `label`: short project/model name when available
-- `title`: canonical paper title
-- `year`: publication or preprint year
-- `venue`: journal, conference, or preprint server
+- `id`: stable identifier
+- `label`: short model/project name when available
+- `title`, `year`, `venue`
 - `status`: `published` or `preprint`
-- `tags`: lightweight browsing tags
-- `doi`: DOI when the primary URL exposes one
-- `paper_url`: formal paper URL when available
-- `preprint_url`: preprint URL when separately available
-- `code_url`: primary code repository when available
-- `links`: other named links preserved from the original entry
-- `entry_markdown`: migration-safe original README rendering
+- `tags`: lightweight browsing topics
+- `doi`
+- `paper_url`, `preprint_url`, `code_url`
+- `links`: auxiliary links such as project pages, datasets, Chinese summaries, or DeepWiki
+- `added_at`, `updated_at`: ISO dates when known
 
-## Editing rule
+Markdown is **not** stored in the data layer. README entries are generated from these fields.
 
-For v2 research-paper changes, edit `data/papers.json` first and regenerate the views:
+## Generated views
 
 ```bash
 python scripts/validate_catalog.py
 python scripts/build_readme.py
 python scripts/build_catalog.py
+python scripts/build_exports.py
 ```
 
-Do not hand-edit content inside the generated Research Papers block in `README.md`.
+Generated artifacts:
+
+- `README.md`
+- `index.html`, `docs/index.html`, `docs/catalog.html`
+- `exports/papers.csv`
+- `exports/papers.bib`
+
+Do not hand-edit the generated Research Papers block.

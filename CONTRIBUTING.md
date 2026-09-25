@@ -57,3 +57,7 @@ CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata,
 - Open an Issue for suggestions, corrections, or link reports
 - Open a Pull Request for direct edits
 - If you are not sure whether something fits, explain the connection to virtual cell research in the Issue or PR description
+
+## Schema v2 note
+
+Research papers are stored as structured metadata in `data/papers.json`. Do not add rendered Markdown fields. After changing paper metadata, regenerate README, catalog, CSV, and BibTeX outputs before submitting a PR.

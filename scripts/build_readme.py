@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Render a compact Research Papers block in README.md from data/papers.json."""
+"""Render a compact Research Papers block in README.md from Schema v2."""
 from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -17,7 +18,55 @@ RECENT_VISIBLE = 10
 
 def load_papers() -> list[dict]:
     payload = json.loads(DATA.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != 2:
+        raise SystemExit("Expected data/papers.json schema_version=2")
     return payload["papers"]
+
+
+def github_repo_path(url: str | None) -> str | None:
+    if not url:
+        return None
+    match = re.search(r"github\\.com/([^/]+/[^/#?]+)", url)
+    return match.group(1).removesuffix(".git") if match else None
+
+
+def render_entry(paper: dict) -> str:
+    parts: list[str] = ["-"]
+    if paper.get("label"):
+        parts.append(f"**[{paper['label']}]**")
+    for tag in paper.get("tags", []):
+        parts.append(f"`[{tag}]`")
+    parts.append(paper["title"])
+    venue = paper.get("venue") or "Unknown venue"
+    parts.append(f"(**{venue} {paper['year']}**)")
+
+    links: list[str] = []
+    if paper.get("paper_url"):
+        links.append(f"[[paper]({paper['paper_url']})]")
+    if paper.get("preprint_url"):
+        links.append(f"[[preprint]({paper['preprint_url']})]")
+    if paper.get("code_url"):
+        links.append(f"[[code]({paper['code_url']})]")
+        repo = github_repo_path(paper["code_url"])
+        if repo:
+            links.append(
+                f"![GitHub stars](https://img.shields.io/github/stars/{repo}.svg?logo=github&label=Stars)"
+            )
+    for item in paper.get("links", []):
+        links.append(f"[[{item['label']}]({item['url']})]")
+    return " ".join(parts + links)
+
+
+def recent_papers(papers: list[dict]) -> list[dict]:
+    indexed = list(enumerate(papers))
+    indexed.sort(
+        key=lambda pair: (
+            pair[1].get("added_at") or "",
+            -pair[0],
+        ),
+        reverse=True,
+    )
+    return [paper for _, paper in indexed[:RECENT_VISIBLE]]
 
 
 def render(papers: list[dict]) -> str:
@@ -25,9 +74,8 @@ def render(papers: list[dict]) -> str:
     for paper in papers:
         by_year[int(paper["year"])].append(paper)
 
-    recent = papers[:RECENT_VISIBLE]
+    recent = recent_papers(papers)
     recent_ids = {paper["id"] for paper in recent}
-
     chunks: list[str] = [
         "### ✨ Recent additions",
         "",
@@ -37,10 +85,9 @@ def render(papers: list[dict]) -> str:
         "",
     ]
     for paper in recent:
-        chunks += [paper["entry_markdown"].rstrip(), ""]
+        chunks += [render_entry(paper), ""]
 
     chunks += ["### 📂 More papers by year", ""]
-
     for year in sorted(by_year, reverse=True):
         remaining = [p for p in by_year[year] if p["id"] not in recent_ids]
         if not remaining:
@@ -52,9 +99,8 @@ def render(papers: list[dict]) -> str:
             "",
         ]
         for paper in remaining:
-            chunks += [paper["entry_markdown"].rstrip(), ""]
+            chunks += [render_entry(paper), ""]
         chunks += ["</details>", ""]
-
     return "\n".join(chunks).rstrip() + "\n"
 
 

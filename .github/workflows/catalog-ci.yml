@@ -9,6 +9,12 @@ on:
       - "scripts/build_catalog.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
+      - "scripts/publication_watcher.py"
+      - "scripts/build_exports.py"
+      - "exports/**"
+      - "scripts/publication_watcher.py"
+      - "scripts/build_exports.py"
+      - "exports/**"
       - "docs/catalog.template.html"
       - "docs/catalog.html"
       - "docs/index.html"
@@ -51,6 +57,13 @@ jobs:
         run: python scripts/build_readme.py --check
       - name: Run unit tests
         run: python -m unittest discover -s tests
+      - name: Check generated exports
+        run: |
+          cp exports/papers.csv /tmp/papers.before.csv
+          cp exports/papers.bib /tmp/papers.before.bib
+          python scripts/build_exports.py
+          diff -u /tmp/papers.before.csv exports/papers.csv
+          diff -u /tmp/papers.before.bib exports/papers.bib
       - name: Check generated searchable catalog
         run: |
           cp docs/catalog.html /tmp/catalog.before.html
