@@ -1,10 +1,15 @@
-# Awesome Virtual Cell [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<h1 align="center">🧬 Awesome Virtual Cell</h1>
 
 <p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/stargazers"><img src="https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Stars" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/commits/main"><img src="https://img.shields.io/github/last-commit/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Updated" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/issues"><img src="https://img.shields.io/github/issues/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Issues" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=github" /></a>
+</p>
+
+<p align="center">
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🌐_Homepage-Search_275+_Papers-0B6E99?style=for-the-badge" alt="Awesome Virtual Cell Homepage" /></a>
 </p>
 
 <p align="center">
@@ -18,7 +23,7 @@ Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popul
 For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
 
 <p align="center">
-  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🔎_Searchable_Catalog-275_papers-0B6E99?style=for-the-badge" /></a>
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🔎_Browse_Catalog-Filter_&_Search-0B6E99?style=for-the-badge" /></a>
   <a href="data/papers.json"><img src="https://img.shields.io/badge/🗂_Structured_Data-JSON-24B6A6?style=for-the-badge" /></a>
   <a href="docs/architecture.md"><img src="https://img.shields.io/badge/⚙️_V2_Architecture-source_of_truth-6B7280?style=for-the-badge" /></a>
 </p>
