@@ -1,5 +1,16 @@
 # Awesome Virtual Cell [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/stargazers"><img src="https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Stars" /></a>
+  <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/commits/main"><img src="https://img.shields.io/github/last-commit/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Updated" /></a>
+  <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/issues"><img src="https://img.shields.io/github/issues/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Issues" /></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=github" /></a>
+</p>
+
+<p align="center">
+  🧬 <b>Virtual Cells</b> &nbsp;·&nbsp; 🧫 <b>Perturbation</b> &nbsp;·&nbsp; 🧠 <b>Foundation Models</b> &nbsp;·&nbsp; 🗺️ <b>Spatial</b> &nbsp;·&nbsp; 🤖 <b>Agents</b>
+</p>
+
 A curated list of papers, datasets, benchmarks, talks, and community resources for AI-powered virtual cell research.
 
 Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popularized by the *Cell* perspective ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015) The focus of this repository is broad but practical: resources that help researchers understand, model, benchmark, or build virtual cells and related cellular foundation models.
@@ -19,16 +30,17 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 **Updates**
 
+- `2026-09-25` September literature sweep: added Speciesformer, PHAROS, LucaCell, DeepSCENIC, scKITE, scRep, AnnFlux, the Cell Virtual Cell Challenge 2026 paper, and the new TIPS review; upgraded ProteinTalks from its 2025 preprint to the 2026 Nature article.
 - `2026-08-21` Added the Virtual Embryo Challenge (NeurIPS 2026), grouped both competitions under [Challenges and Competitions](#challenges-and-competitions), and started this News log.
 - `2026-08-17` Added World Model and JEPA papers, refreshed preprint links, corrected stale venue labels.
 - `2026-08-10` Added the Virtual Cell Challenge section covering both Arc editions.
 - `2026-08-09` Added single-cell and protein papers, including scTranslator, CAPTAIN, and scPROTEIN.
 - `2026-07-16` Added TCGA and HEST Xenium virtual spatial transcriptomics datasets (community PR).
-- `2026-07-14` Added DeepSpot2Cell (NeurIPS 2025) (community PR).
 
 <details>
 <summary>Earlier updates</summary>
 
+- `2026-07-14` Added DeepSpot2Cell (NeurIPS 2025) (community PR).
 - `2026-07-06` Added 27 new 2026 papers from a May to July literature sweep.
 - `2026-07-04` Added DeSCOPE (community PR).
 - `2026-06-22` Added 2026 papers and missing code links.
@@ -89,6 +101,8 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 - **[Nature Methods]** AI proteomics: from protein identification to virtual cells (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03085-y)]
 
+- **[Review]** AI virtual cells for drug discovery and pharmacology (**Trends in Pharmacological Sciences 2026**) [[paper](https://doi.org/10.1016/j.tips.2026.08.006)]
+
 - **[Nature Methods]** Towards predictive virtual embryos with genomics and AI (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 
 - **[Cell Perspective]** Empowering Biomedical Discovery with AI Agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)] [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
@@ -102,6 +116,24 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`, `[Morphology]`, `[Protein]`, `[Agent]`, `[Benchmark]`, `[Tool]`, `[Related]`. Tags are lightweight and non-exhaustive.
 
 ### 2026
+
+- **[Speciesformer]** `[Virtual Cell]` `[Foundation Model]` Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.09.22.752128)]
+
+- **[DeepSCENIC]** `[Perturbation]` DeepSCENIC: transfer learning from sequence-to-function models enables causal gene regulatory network inference (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.09.18.752607)] [[code](https://github.com/aertslab/deepSCENIC)] ![GitHub stars](https://img.shields.io/github/stars/aertslab/deepSCENIC.svg?logo=github&label=Stars)
+
+- **[scKITE]** `[Foundation Model]` Towards a knowledge-enhanced single-cell foundation model (**arXiv 2026**) [[paper](https://arxiv.org/abs/2609.14970)]
+
+- **[PHAROS]** `[Virtual Cell]` `[Perturbation]` PHAROS: turning single-cell perturbation models into target-directed drug-combination screens (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.09.08.749477)] [[code](https://github.com/jbezney61/PHAROS)] ![GitHub stars](https://img.shields.io/github/stars/jbezney61/PHAROS.svg?logo=github&label=Stars) [[reproduce](https://github.com/jbezney61/PHAROS_reproduce)]
+
+- **[ProteinTalks]** `[Virtual Cell]` `[Protein]` An operational perturbation proteomics-based virtual cell model (**Nature 2026**) [[paper](https://doi.org/10.1038/s41586-026-11001-9)] [[preprint](https://doi.org/10.1101/2025.02.07.637070)] [[中文解读](https://mp.weixin.qq.com/s/iAmR6EhV7KYfneRktRaEfw)] [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)] ![GitHub stars](https://img.shields.io/github/stars/guomics-lab/PTV-1.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/guomics-lab/PTV-1)]
+
+- **[Virtual Cell Challenge 2026]** `[Benchmark]` Virtual Cell Challenge 2026: Benchmarking zero-shot generalization across cellular contexts (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.004)] [[challenge](https://virtualcellchallenge.org/)]
+
+- **[LucaCell]** `[Foundation Model]` LucaCell: a sequence-centric foundation model for cross-species single-cell analysis (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.09.08.750024)] [[code](https://github.com/LucaOne/LucaCell)] ![GitHub stars](https://img.shields.io/github/stars/LucaOne/LucaCell.svg?logo=github&label=Stars)
+
+- **[AnnFlux]** `[Perturbation]` AnnFlux: object-conditioned neural stochastic differential equations for single-cell perturbation dynamics (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.09.01.748703)]
+
+- **[scRep]** `[Foundation Model]` scRep: A Latent-Space Self-Distilled Foundation Model for Single-Cell Representation Learning (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.08.31.747784)]
 
 - **[Cell-o1]** `[Agent]` Cell-o1: Training LLMs to Solve Single-Cell Reasoning Puzzles with Reinforcement Learning (**Bioinformatics 2026**) [[paper](https://doi.org/10.1093/bioinformatics/btag208)] [[preprint](https://arxiv.org/abs/2506.02911)] [[code](https://github.com/ncbi-nlp/cell-o1)] ![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/cell-o1.svg?logo=github&label=Stars) [[hugging face](https://huggingface.co/ncbi/Cell-o1/)] [[ask deepwiki](https://deepwiki.com/ncbi-nlp/cell-o1)]
 
@@ -582,8 +614,6 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 - **[Prophet]** `[Perturbation]` Scalable and Universal Prediction of Cellular Phenotypes (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf)] [[code](https://github.com/theislab/prophet)] ![GitHub stars](https://img.shields.io/github/stars/theislab/prophet.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/prophet)]
 
 - `[Morphology]` Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-Cultures Using Deep Neural Networks (**Communications Biology 2025**) [[paper](https://www.nature.com/articles/s42003-025-07766-w)]
-
-- **[ProteinTalks]** `[Foundation Model]` A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.07.637070)] [[中文解读](https://mp.weixin.qq.com/s/iAmR6EhV7KYfneRktRaEfw)] [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)] ![GitHub stars](https://img.shields.io/github/stars/guomics-lab/PTV-1.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/guomics-lab/PTV-1)]
 
 - `[Virtual Cell]` Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)] [[中文解读](https://mp.weixin.qq.com/s/kPQmgzAbySrw3rp-B6JGfw)]
 
