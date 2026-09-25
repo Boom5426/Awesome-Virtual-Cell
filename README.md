@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🌐_Homepage-Search_275+_Papers-0B6E99?style=for-the-badge" alt="Awesome Virtual Cell Homepage" /></a>
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🌐_Homepage-Awesome_Virtual_Cell-0B6E99?style=for-the-badge" alt="Awesome Virtual Cell Homepage" /></a>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popul
 For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
 
 <p align="center">
-  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🔎_Browse_Catalog-Filter_&_Search-0B6E99?style=for-the-badge" /></a>
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/docs/"><img src="https://img.shields.io/badge/🔎_Browse_Catalog-Filter_&_Search-0B6E99?style=for-the-badge" /></a>
   <a href="data/papers.json"><img src="https://img.shields.io/badge/🗂_Structured_Data-JSON-24B6A6?style=for-the-badge" /></a>
   <a href="docs/architecture.md"><img src="https://img.shields.io/badge/⚙️_V2_Architecture-source_of_truth-6B7280?style=for-the-badge" /></a>
 </p>
