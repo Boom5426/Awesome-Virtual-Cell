@@ -18,7 +18,7 @@ Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popul
 For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
 
 <p align="center">
-  <a href="docs/catalog.html"><img src="https://img.shields.io/badge/🔎_Searchable_Catalog-275_papers-0B6E99?style=for-the-badge" /></a>
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🔎_Searchable_Catalog-275_papers-0B6E99?style=for-the-badge" /></a>
   <a href="data/papers.json"><img src="https://img.shields.io/badge/🗂_Structured_Data-JSON-24B6A6?style=for-the-badge" /></a>
   <a href="docs/architecture.md"><img src="https://img.shields.io/badge/⚙️_V2_Architecture-source_of_truth-6B7280?style=for-the-badge" /></a>
 </p>
