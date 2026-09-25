@@ -24,7 +24,9 @@ jobs:
       - name: Check generated searchable catalog
         run: |
           cp docs/catalog.html /tmp/catalog.before.html
-          cp docs/index.html /tmp/index.before.html
+          cp docs/index.html /tmp/docs-index.before.html
+          cp index.html /tmp/root-index.before.html
           python scripts/build_catalog.py
           diff -u /tmp/catalog.before.html docs/catalog.html
-          diff -u /tmp/index.before.html docs/index.html
+          diff -u /tmp/docs-index.before.html docs/index.html
+          diff -u /tmp/root-index.before.html index.html
