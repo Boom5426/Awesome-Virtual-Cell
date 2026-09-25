@@ -1,0 +1,25 @@
+name: Package Catalog Sources
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/curation-snapshot.yml]
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Package tracked source files only
+        run: |
+          mkdir source-snapshot
+          git archive HEAD | tar -x -C source-snapshot
+      - uses: actions/upload-artifact@v4
+        with:
+          name: catalog-source-snapshot
+          path: source-snapshot/
+          include-hidden-files: true
+          retention-days: 3
