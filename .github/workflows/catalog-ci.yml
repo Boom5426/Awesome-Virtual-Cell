@@ -1,3 +1,4 @@
+# Schema v2 catalog integrity checks
 name: Validate Catalog
 
 on:
