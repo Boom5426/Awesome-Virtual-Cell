@@ -1951,7 +1951,7 @@
       "updated_at": null
     },
     {
-      "id": "tissueformer",
+      "id": "tissueformer-digital-pathology",
       "label": "TissueFormer",
       "title": "Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution",
       "year": 2026,
@@ -3602,7 +3602,7 @@
       "updated_at": null
     },
     {
-      "id": "tissueformer",
+      "id": "tissueformer-population-phenotypes",
       "label": "Tissueformer",
       "title": "Tissueformer: extending single-cell foundation models to predict population-level phenotypes",
       "year": 2026,
@@ -4852,7 +4852,7 @@
       "updated_at": null
     },
     {
-      "id": "brief-communication",
+      "id": "deep-learning-perturbation-baselines",
       "label": "Brief Communication",
       "title": "Deep-Learning-Based Gene Perturbation Effect Prediction Does Not Yet Outperform Simple Linear Baselines",
       "year": 2025,
@@ -4875,7 +4875,7 @@
       "updated_at": null
     },
     {
-      "id": "brief-communication",
+      "id": "drifting-islands-embedding-metrics",
       "label": "Brief Communication",
       "title": "Limitations of Cell Embedding Metrics Assessed Using Drifting Islands",
       "year": 2025,
