@@ -24,7 +24,7 @@ def csv_text(papers: list[dict]) -> str:
     buf = io.StringIO()
     fields = [
         "id","label","title","year","venue","status","tags","doi",
-        "paper_url","preprint_url","code_url","added_at","updated_at",
+        "paper_url","preprint_url","code_url","added_at","updated_at","code_status","tag_review_basis",
     ]
     writer = csv.DictWriter(buf, fieldnames=fields, lineterminator="\n")
     writer.writeheader()

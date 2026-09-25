@@ -61,3 +61,9 @@ CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata,
 ## Schema v2 note
 
 Research papers are stored as structured metadata in `data/papers.json`. Do not add rendered Markdown fields. After changing paper metadata, regenerate README, catalog, CSV, and BibTeX outputs before submitting a PR.
+
+## Tag and code review
+
+Assign all applicable tags from [the controlled vocabulary](docs/taxonomy.md), with an abstract, methods or project-documentation basis. Do not treat an arbitrary transformer as a foundation model, protein priors as measured proteomics, or diffusion time as biological dynamics. A repository addition needs an author/paper link or documented paper correspondence. Put third-party reproductions and related implementations in named auxiliary links. Unknown code availability is not the same as code absence.
+
+Regenerate all views and run tests before pushing one complete commit. Research Papers are shown in full, by year; keep overview/background sections selective.

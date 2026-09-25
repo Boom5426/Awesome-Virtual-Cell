@@ -13,14 +13,14 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-s
 .hero{padding:32px;border-radius:22px;color:white;background:linear-gradient(135deg,#071a2b,#0b6e99 55%,#24b6a6);box-shadow:0 15px 42px #0b6e9922}
 .hero h1{margin:0 0 7px;font-size:clamp(32px,5vw,54px)}
 .hero>p{margin:0;opacity:.9}
-.controls{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:9px;margin:22px 0 12px}
+.controls{display:grid;grid-template-columns:2fr repeat(5,1fr);gap:9px;margin:22px 0 12px}
 input,select{width:100%;padding:12px 13px;border:1px solid #ffffff4a;border-radius:11px;background:#fffffff2;color:#182230;font:inherit;outline:none}
 input:focus,select:focus{border-color:white;box-shadow:0 0 0 3px #ffffff2c}
 .quick{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 14px}
 .quick button,.tag-button{font:inherit;cursor:pointer}
 .quick button{border:1px solid #ffffff36;background:#ffffff12;color:white;padding:6px 10px;border-radius:999px;font-size:12px}
 .quick button:hover,.quick button.active{background:white;color:#0b6e99;border-color:white}
-.stats{display:flex;gap:8px;flex-wrap:wrap}
+.selection-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.selection-row select{width:auto;padding:6px 9px;font-size:12px}.selection-row button{border:1px solid #ffffff55;border-radius:8px;background:#ffffff15;color:white;padding:6px 9px;cursor:pointer}.selection-row #selectedTopics{display:contents}.selection-row .selected-topic{background:white;color:#0b6e99}.quick button:focus-visible,.tag-button:focus-visible{outline:3px solid #7bd6eb;outline-offset:3px}.stats{display:flex;gap:8px;flex-wrap:wrap}
 .stat{padding:6px 10px;border:1px solid #ffffff2d;border-radius:999px;background:#ffffff13;font-size:13px}
 .meta{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:14px;margin:14px 2px}.export-actions{display:flex;gap:7px;flex-wrap:wrap}.export-actions button{border:1px solid var(--line);background:var(--card);color:var(--accent);border-radius:9px;padding:7px 10px;cursor:pointer;font:inherit;font-size:12px}.export-actions button:hover{background:#0b6e9910}
 .grid{display:grid;gap:10px}
@@ -43,16 +43,18 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
 <body><main class="wrap">
 <section class="hero">
 <h1>🧬 Awesome Virtual Cell</h1>
-<p>Search, filter, and browse the structured virtual-cell research catalog.</p>
+<p>Find papers by topic, method and code availability. Combine topics to narrow your search.</p>
 
 <section class="controls" aria-label="Paper filters">
 <input id="q" type="search" placeholder="Search title, label, venue or topic…" aria-label="Search papers">
 <select id="year" aria-label="Filter by year"><option value="">All years</option></select>
-<select id="tag" aria-label="Filter by topic"><option value="">All topics</option></select>
+<select id="tag" aria-label="Filter by topic"><option value="">Add a topic…</option></select>
 <select id="status" aria-label="Filter by status"><option value="">All statuses</option><option value="published">Published</option><option value="preprint">Preprint</option></select>
 <select id="sort" aria-label="Sort papers"><option value="recent">Recently added</option><option value="publication">Newest publication</option><option value="published">Published first</option><option value="code">Code available</option><option value="title">Title A–Z</option></select>
+<select id="code" aria-label="Filter code availability"><option value="">Any code status</option><option value="linked">Has a code link</option><option value="documented">Documented correspondence</option><option value="missing">No established code link</option></select>
 </section>
 
+<div class="selection-row"><span id="selectedTopics"></span><select id="match" aria-label="How to combine selected topics"><option value="all">Match all topics</option><option value="any">Match any topic</option></select><button id="reset" type="button">Clear filters</button></div>
 <div class="quick" id="quickFilters" aria-label="Quick topic filters"></div>
 
 <div class="stats">
@@ -64,154 +66,109 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
 </section>
 
 <div class="meta"><span id="count"></span><div class="export-actions"><button id="downloadCsv" type="button">Download filtered CSV</button><button id="downloadBib" type="button">Download filtered BibTeX</button></div></div>
-<section class="grid" id="grid"></section>
-<footer>README is the human view · <code>data/papers.json</code> is the source of truth</footer>
+<section class="grid" id="grid" aria-live="polite"></section>
+<footer><a href="https://github.com/Boom5426/Awesome-Virtual-Cell#research-papers">Full paper list</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/taxonomy.md">Topic definitions &amp; code-check policy</a></footer>
 </main>
 <script>
 const PAPERS=__PAPERS_JSON__;
 const byId=id=>document.getElementById(id);
-const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 const years=[...new Set(PAPERS.map(p=>p.year))].sort((a,b)=>b-a);
 const tags=[...new Set(PAPERS.flatMap(p=>p.tags||[]))].sort();
-const quickTags=["Virtual Cell","Perturbation","Foundation Model","World Model","Spatial","Agent","Benchmark"];
-
+const selected=new Set();
+const documented=p=>!!p.code_url&&["paper_linked","repository_linked"].includes(p.code_status);
+const quickTags=["Perturbation","Foundation Model","Multimodal","Spatial","Morphology","Intervention Design","Benchmark"];
 years.forEach(y=>byId("year").insertAdjacentHTML("beforeend","<option>"+y+"</option>"));
-tags.forEach(t=>byId("tag").insertAdjacentHTML("beforeend","<option>"+esc(t)+"</option>"));
-
-byId("quickFilters").innerHTML=["",...quickTags.filter(t=>tags.includes(t))].map(t=>
-  '<button type="button" data-tag="'+esc(t)+'">'+(t||"All topics")+"</button>"
-).join("");
-
+tags.forEach(t=>byId("tag").insertAdjacentHTML("beforeend",'<option value="'+esc(t)+'">'+esc(t)+"</option>"));
+byId("quickFilters").innerHTML=quickTags.filter(t=>tags.includes(t)).map(t=>'<button type="button" data-tag="'+esc(t)+'" aria-pressed="false">'+esc(t)+"</button>").join("");
 byId("total").textContent=PAPERS.length+" papers";
 byId("published").textContent=PAPERS.filter(p=>p.status==="published").length+" published";
-byId("withcode").textContent=PAPERS.filter(p=>p.code_url).length+" with code";
-byId("topiccount").textContent=tags.length+" topic tags";
-
-const params=new URLSearchParams(location.search);
-["q","year","tag","status","sort"].forEach(id=>{
-  const value=params.get(id);
-  if(value!==null) byId(id).value=value;
-});
-
-function link(label,url){
-  return url?'<a target="_blank" rel="noreferrer" href="'+esc(url)+'">'+label+" ↗</a>":"";
-}
-
-function syncQuick(){
-  const selected=byId("tag").value;
-  document.querySelectorAll("#quickFilters button").forEach(btn=>{
-    btn.classList.toggle("active",btn.dataset.tag===selected);
+byId("withcode").textContent=PAPERS.filter(p=>p.code_url).length+" code links";
+byId("topiccount").textContent=tags.length+" topics";
+function loadState(){
+  const params=new URLSearchParams(location.search);
+  ["q","year","status","sort","code","match"].forEach(id=>{
+    if(params.has(id)) byId(id).value=params.get(id);
   });
+  selected.clear(); params.getAll("tag").filter(t=>tags.includes(t)).forEach(t=>selected.add(t));
+  if(!byId("sort").value) byId("sort").value="recent";
+  if(!byId("match").value) byId("match").value="all";
 }
-
-function syncUrl(){
+function syncState(){
   const next=new URLSearchParams();
-  ["q","year","tag","status"].forEach(id=>{
-    const value=byId(id).value.trim();
-    if(value) next.set(id,value);
-  });
+  ["q","year","status","code"].forEach(id=>{const value=byId(id).value.trim();if(value)next.set(id,value);});
+  if(byId("sort").value!=="recent")next.set("sort",byId("sort").value);
+  if(byId("match").value!=="all")next.set("match",byId("match").value);
+  [...selected].sort().forEach(t=>next.append("tag",t));
   const query=next.toString();
-  history.replaceState(null,"",location.pathname+(query?"?"+query:""));
+  if(location.protocol!=="file:")history.replaceState(null,"",location.pathname+(query?"?"+query:"")+location.hash);
+  byId("selectedTopics").innerHTML=[...selected].map(t=>'<button type="button" class="selected-topic" data-remove-tag="'+esc(t)+'" aria-label="Remove '+esc(t)+'">'+esc(t)+' ×</button>').join("");
+  document.querySelectorAll("#quickFilters button").forEach(b=>{const active=selected.has(b.dataset.tag);b.classList.toggle("active",active);b.setAttribute("aria-pressed",String(active));});
 }
-
-function setTopic(tag){
-  byId("tag").value=tag;
-  render();
-  window.scrollTo({top:0,behavior:"smooth"});
-}
-
 function sortedRows(rows){
-  const mode=byId("sort").value;
-  const copy=rows.slice();
-  if(mode==="publication") return copy.sort((a,b)=>b.year-a.year||String(a.title).localeCompare(String(b.title)));
-  if(mode==="published") return copy.sort((a,b)=>(b.status==="published")-(a.status==="published")||b.year-a.year);
-  if(mode==="code") return copy.sort((a,b)=>Boolean(b.code_url)-Boolean(a.code_url)||b.year-a.year);
-  if(mode==="title") return copy.sort((a,b)=>String(a.title).localeCompare(String(b.title)));
+  const mode=byId("sort").value;const copy=rows.slice();
+  if(mode==="publication")return copy.sort((a,b)=>b.year-a.year||String(a.title).localeCompare(String(b.title)));
+  if(mode==="published")return copy.sort((a,b)=>(b.status==="published")-(a.status==="published")||b.year-a.year);
+  if(mode==="code")return copy.sort((a,b)=>Boolean(b.code_url)-Boolean(a.code_url)||b.year-a.year);
+  if(mode==="title")return copy.sort((a,b)=>String(a.title).localeCompare(String(b.title)));
   return copy.sort((a,b)=>(b.added_at||"").localeCompare(a.added_at||"")||PAPERS.indexOf(a)-PAPERS.indexOf(b));
 }
 function filteredRows(){
-  const q=byId("q").value.trim().toLowerCase();
-  const year=byId("year").value;
-  const tag=byId("tag").value;
-  const status=byId("status").value;
+  const words=byId("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const year=byId("year").value,status=byId("status").value,code=byId("code").value;
+  const wanted=[...selected],all=byId("match").value!=="any";
   return sortedRows(PAPERS.filter(p=>{
-    const hay=[p.title,p.label,p.venue].concat(p.tags||[]).join(" ").toLowerCase();
-    return(!q||hay.includes(q))&&(!year||String(p.year)===year)&&(!tag||(p.tags||[]).includes(tag))&&(!status||p.status===status);
+    const pt=p.tags||[],hay=[p.title,p.label,p.venue,p.doi,...pt].join(" ").toLowerCase();
+    const topicMatch=!wanted.length||(all?wanted.every(t=>pt.includes(t)):wanted.some(t=>pt.includes(t)));
+    const codeMatch=!code||(code==="linked"&&!!p.code_url)||(code==="documented"&&documented(p))||(code==="missing"&&!p.code_url);
+    return words.every(w=>hay.includes(w))&&(!year||String(p.year)===year)&&(!status||p.status===status)&&topicMatch&&codeMatch;
   }));
 }
-
+function link(label,url,title=""){
+  if(!url||!/^https?:\/\//i.test(url))return "";
+  return '<a target="_blank" rel="noopener noreferrer" href="'+esc(url)+'" title="'+esc(title)+'">'+esc(label)+' ↗</a>';
+}
 function render(){
   const rows=filteredRows();
   byId("count").textContent="Showing "+rows.length+" of "+PAPERS.length+" papers";
-  syncQuick();
-  syncUrl();
-
-  if(!rows.length){
-    byId("grid").innerHTML='<div class="empty">No papers match these filters.</div>';
-    return;
-  }
-
-  byId("grid").innerHTML=rows.map(p=>
-    '<article class="paper">'+
-      '<div class="top"><div class="title">'+esc(p.label?"["+p.label+"] ":"")+esc(p.title)+'</div><div class="venue">'+esc(p.venue||"")+" · "+p.year+"</div></div>"+
-      '<div class="tags">'+
-        (p.tags||[]).map(t=>'<button class="tag-button" type="button" data-paper-tag="'+esc(t)+'">'+esc(t)+"</button>").join("")+
-        '<span class="tag">'+esc(p.status)+"</span>"+
-      "</div>"+
-      '<div class="links">'+
-        link("Paper",p.paper_url||p.preprint_url)+
-        link("Code",p.code_url)+
-        (p.doi?link("DOI","https://doi.org/"+p.doi):"")+
-      "</div>"+
-    "</article>"
-  ).join("");
+  syncState();
+  ["downloadCsv","downloadBib"].forEach(id=>{byId(id).disabled=!rows.length;});
+  if(!rows.length){byId("grid").innerHTML='<div class="empty">No matches. Remove a topic or switch to “Match any topic”.</div>';return;}
+  byId("grid").innerHTML=rows.map(p=>{
+    const label=p.label&&!p.title.toLowerCase().startsWith(p.label.toLowerCase())?"["+p.label+"] ":"";
+    const primary=p.paper_url||p.preprint_url;
+    const codeLabel=p.code_status==="project_match"?"Code (project)":"Code";
+    const codeTitle=p.code_status==="project_match"?"Matching project; exact paper citation not established.":"Source-linked paper/repository correspondence; code not executed in this audit.";
+    const evidence=p.tag_review_basis==="title_and_metadata"?"Provisional classification from title and metadata":"Classified from abstract or substantive project documentation";
+    const doiUrl=p.doi?"https://doi.org/"+p.doi:null;
+    return '<article class="paper"><div class="top"><div class="title">'+esc(label+p.title)+'</div><div class="venue">'+esc(p.venue||"")+" · "+p.year+'</div></div><div class="tags">'+ptags(p,evidence)+'<span class="tag">'+esc(p.status)+'</span></div><div class="links">'+link(p.paper_url?"Paper":"Preprint",primary)+link(codeLabel,p.code_url,codeTitle)+(doiUrl!==primary?link("DOI",doiUrl):"")+'</div></article>';
+  }).join("");
 }
-
-["q","year","tag","status","sort"].forEach(id=>byId(id).addEventListener("input",render));
-byId("quickFilters").addEventListener("click",e=>{
-  const btn=e.target.closest("button[data-tag]");
-  if(btn) setTopic(btn.dataset.tag);
-});
-byId("grid").addEventListener("click",e=>{
-  const btn=e.target.closest("button[data-paper-tag]");
-  if(btn) setTopic(btn.dataset.paperTag);
-});
-function csvEscape(value){
-  const s=String(value==null?"":value);
-  return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;
-}
+function ptags(p,evidence){return(p.tags||[]).map(t=>'<button class="tag-button" type="button" title="'+esc(evidence)+'" data-paper-tag="'+esc(t)+'">'+esc(t)+"</button>").join("");}
+function toggleTopic(t){if(selected.has(t))selected.delete(t);else if(tags.includes(t))selected.add(t);render();}
+["q","year","status","sort","code","match"].forEach(id=>byId(id).addEventListener("input",render));
+byId("tag").addEventListener("change",()=>{const t=byId("tag").value;if(t)selected.add(t);byId("tag").value="";render();});
+byId("quickFilters").addEventListener("click",e=>{const b=e.target.closest("button[data-tag]");if(b)toggleTopic(b.dataset.tag);});
+byId("selectedTopics").addEventListener("click",e=>{const b=e.target.closest("button[data-remove-tag]");if(b){selected.delete(b.dataset.removeTag);render();}});
+byId("grid").addEventListener("click",e=>{const b=e.target.closest("button[data-paper-tag]");if(b){toggleTopic(b.dataset.paperTag);window.scrollTo({top:0,behavior:"smooth"});}});
+byId("reset").addEventListener("click",()=>{["q","year","tag","status","code"].forEach(id=>byId(id).value="");byId("sort").value="recent";byId("match").value="all";selected.clear();render();});
+window.addEventListener("popstate",()=>{loadState();render();});
+function csvEscape(v){const s=String(v??"");return /[",\n\r]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;}
 function filteredCsv(rows){
-  const fields=["id","label","title","year","venue","status","tags","doi","paper_url","preprint_url","code_url","added_at","updated_at"];
-  const lines=[fields.join(",")];
-  rows.forEach(p=>lines.push(fields.map(k=>csvEscape(k==="tags"?(p.tags||[]).join("|"):p[k])).join(",")));
-  return lines.join("\n")+"\n";
+  const fields=["id","label","title","year","venue","status","tags","doi","paper_url","preprint_url","code_url","added_at","updated_at","code_status","tag_review_basis"];
+  return[fields.join(","),...rows.map(p=>fields.map(k=>csvEscape(k==="tags"?(p.tags||[]).join("|"):p[k])).join(","))].join("\n")+"\n";
 }
-function bibEscape(s){return String(s||"").replace(/\\/g,"\\\\").replace(/[&%#_]/g,m=>"\\"+m)}
-function filteredBib(rows){
-  return rows.map(p=>{
-    const kind=p.status==="published"?"article":"misc";
-    const fields=[["title",p.title],["year",p.year]];
-    if(p.venue) fields.push([kind==="article"?"journal":"howpublished",p.venue]);
-    if(p.doi) fields.push(["doi",p.doi]);
-    const url=p.paper_url||p.preprint_url;
-    if(url) fields.push(["url",url]);
-    return "@"+kind+"{"+p.id+",\n"+fields.map(([k,v])=>"  "+k+" = {"+bibEscape(v)+"}").join(",\n")+"\n}";
-  }).join("\n\n")+"\n";
-}
-function downloadText(name,text,type){
-  const blob=new Blob([text],{type});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement("a");a.href=url;a.download=name;a.click();
-  setTimeout(()=>URL.revokeObjectURL(url),0);
-}
+function bibEscape(s){return String(s??"").replace(/\\/g,"\\\\").replace(/[&%#_]/g,m=>"\\"+m);}
+function filteredBib(rows){return rows.map(p=>{
+  const kind=p.status==="published"?"article":"misc",fields=[["title",p.title],["year",p.year]];
+  if(p.venue)fields.push([kind==="article"?"journal":"howpublished",p.venue]);
+  if(p.doi)fields.push(["doi",p.doi]);const url=p.paper_url||p.preprint_url;if(url)fields.push(["url",url]);
+  return"@"+kind+"{"+p.id+",\n"+fields.map(([k,v])=>"  "+k+" = {"+bibEscape(v)+"}").join(",\n")+"\n}";
+}).join("\n\n")+"\n";}
+function downloadText(name,text,type){const blob=new Blob([text],{type}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 byId("downloadCsv").addEventListener("click",()=>downloadText("awesome-virtual-cell-filtered.csv",filteredCsv(filteredRows()),"text/csv;charset=utf-8"));
 byId("downloadBib").addEventListener("click",()=>downloadText("awesome-virtual-cell-filtered.bib",filteredBib(filteredRows()),"application/x-bibtex;charset=utf-8"));
-
-document.addEventListener("keydown",e=>{
-  if(e.key==="/"&&!["INPUT","SELECT","TEXTAREA"].includes(document.activeElement.tagName)){
-    e.preventDefault();byId("q").focus();
-  }
-});
-render();
+document.addEventListener("keydown",e=>{if(e.key==="/"&&!["INPUT","SELECT","TEXTAREA"].includes(document.activeElement.tagName)){e.preventDefault();byId("q").focus();}});
+loadState();render();
 </script>
 </body></html>

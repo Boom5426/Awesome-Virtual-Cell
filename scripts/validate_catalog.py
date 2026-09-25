@@ -42,6 +42,7 @@ def valid_date(value: str | None) -> bool:
 def main() -> int:
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     papers = payload.get("papers", [])
+    vocabulary = set(json.loads((ROOT / "config" / "taxonomy.json").read_text(encoding="utf-8"))["tags"])
     errors: list[str] = []
     warnings: list[str] = []
 
@@ -61,8 +62,22 @@ def main() -> int:
             errors.append(f"#{i} {p['id']}: invalid status {p['status']!r}")
         if not re.fullmatch(r"20\d{2}", str(p["year"])):
             errors.append(f"#{i} {p['id']}: invalid year {p['year']!r}")
-        if not isinstance(p["tags"], list):
-            errors.append(f"#{i} {p['id']}: tags must be a list")
+        if not isinstance(p["tags"], list) or not p["tags"]:
+            errors.append(f"#{i} {p['id']}: tags must be a nonempty list")
+        else:
+            if any(not isinstance(t, str) or t not in vocabulary for t in p["tags"]):
+                errors.append(f"#{i} {p['id']}: unknown topic tag")
+            if len(set(p["tags"])) != len(p["tags"]):
+                errors.append(f"#{i} {p['id']}: duplicate topic tags")
+        status = p.get("code_status", "unreviewed")
+        if status not in {"unreviewed", "paper_linked", "repository_linked", "project_match", "not_found", "related_only", "release_pending"}:
+            errors.append(f"#{i} {p['id']}: unknown code_status")
+        if status in {"paper_linked", "repository_linked", "project_match"} and not p.get("code_url"):
+            errors.append(f"#{i} {p['id']}: linked-code status requires code_url")
+        if status in {"not_found", "related_only", "release_pending"} and p.get("code_url"):
+            errors.append(f"#{i} {p['id']}: unresolved-code status cannot be counted as available code")
+        if status in {"paper_linked", "repository_linked"} and not p.get("code_sources"):
+            errors.append(f"#{i} {p['id']}: verified correspondence requires supporting sources")
         if not isinstance(p["links"], list):
             errors.append(f"#{i} {p['id']}: links must be a list")
         else:

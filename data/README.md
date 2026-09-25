@@ -35,3 +35,11 @@ Generated artifacts:
 - `exports/papers.bib`
 
 Do not hand-edit the generated Research Papers block.
+
+## Topics and repository correspondence
+
+`tags` is a nonempty multi-label list using `config/taxonomy.json`. See [definitions](../docs/taxonomy.md). A tag describes the paper's scope, not a verified performance claim.
+
+`code_status` distinguishes `paper_linked`, `repository_linked`, and `project_match` from `not_found`, `related_only`, and `release_pending`. `code_sources` records the supporting URLs; `tag_review_basis` distinguishes abstracts, project documentation, and title/metadata-only provisional classification. A reachable repository is not by itself evidence of authorship or reproducibility.
+
+The dated record in `curation/2026-09-26.json` preserves decisions for every paper, including uncertain cases.

@@ -12,20 +12,21 @@
       "status": "preprint",
       "tags": [
         "Virtual Cell",
-        "Foundation Model"
+        "Foundation Model",
+        "Multimodal",
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.09.22.752128",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.09.22.752128",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.09.22.752128"
-        }
-      ],
+      "links": [],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "deepscenic",
@@ -35,20 +36,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
+        "Gene Regulation",
+        "Multimodal",
         "Perturbation"
       ],
       "doi": "10.64898/2026.09.18.752607",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.09.18.752607",
       "code_url": "https://github.com/aertslab/deepSCENIC",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.09.18.752607"
-        }
-      ],
+      "links": [],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/aertslab/deepSCENIC/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "sckite",
@@ -58,20 +61,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2609.14970",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2609.14970"
-        }
-      ],
+      "links": [],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "pharos",
@@ -81,8 +83,9 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell",
-        "Perturbation"
+        "Perturbation",
+        "Intervention Design",
+        "Virtual Cell"
       ],
       "doi": "10.64898/2026.09.08.749477",
       "paper_url": null,
@@ -90,16 +93,17 @@
       "code_url": "https://github.com/jbezney61/PHAROS",
       "links": [
         {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.09.08.749477"
-        },
-        {
           "label": "reproduce",
           "url": "https://github.com/jbezney61/PHAROS_reproduce"
         }
       ],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/jbezney61/PHAROS/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "proteintalks",
@@ -110,7 +114,11 @@
       "status": "published",
       "tags": [
         "Virtual Cell",
-        "Protein"
+        "Foundation Model",
+        "Perturbation",
+        "Protein",
+        "Dynamics",
+        "Intervention Design"
       ],
       "doi": "10.1038/s41586-026-11001-9",
       "paper_url": "https://doi.org/10.1038/s41586-026-11001-9",
@@ -127,7 +135,13 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-25"
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://www.nature.com/articles/s41586-026-11001-9",
+        "https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "virtual-cell-challenge-2026",
@@ -137,7 +151,8 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.1016/j.cell.2026.08.004",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.08.004",
@@ -150,7 +165,10 @@
         }
       ],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "lucacell",
@@ -160,20 +178,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Multimodal"
       ],
       "doi": "10.64898/2026.09.08.750024",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.09.08.750024",
       "code_url": "https://github.com/LucaOne/LucaCell",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.09.08.750024"
-        }
-      ],
+      "links": [],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/LucaOne/LucaCell/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "annflux",
@@ -183,20 +203,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Dynamics"
       ],
       "doi": "10.64898/2026.09.01.748703",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.09.01.748703",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.09.01.748703"
-        }
-      ],
+      "links": [],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "screp",
@@ -206,20 +225,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.08.31.747784",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.31.747784",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.31.747784"
-        }
-      ],
+      "links": [],
       "added_at": "2026-09-25",
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell-o1",
@@ -229,7 +247,8 @@
       "venue": "Bioinformatics",
       "status": "published",
       "tags": [
-        "Agent"
+        "Agent",
+        "Benchmark"
       ],
       "doi": "10.1093/bioinformatics/btag208",
       "paper_url": "https://doi.org/10.1093/bioinformatics/btag208",
@@ -246,7 +265,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ncbi-nlp/cell-o1"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "regvelo",
@@ -256,7 +280,10 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Dynamics",
+        "Gene Regulation",
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": "10.1016/j.cell.2026.04.022",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.04.022",
@@ -269,7 +296,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/theislab/regvelo"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "transcriptformer",
@@ -279,7 +311,8 @@
       "venue": "Science",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.1126/science.aec8514",
       "paper_url": "https://doi.org/10.1126/science.aec8514",
@@ -292,7 +325,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/czi-ai/transcriptformer"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellatria",
@@ -302,7 +340,8 @@
       "venue": "npj Artificial Intelligence",
       "status": "published",
       "tags": [
-        "Agent"
+        "Agent",
+        "Tool"
       ],
       "doi": "10.1038/s44387-025-00064-0",
       "paper_url": "https://doi.org/10.1038/s44387-025-00064-0",
@@ -319,7 +358,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/AstraZeneca/cellatria"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellvoyager",
@@ -329,7 +373,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Agent"
+        "Agent",
+        "Benchmark"
       ],
       "doi": "10.1038/s41592-026-03029-6",
       "paper_url": "https://doi.org/10.1038/s41592-026-03029-6",
@@ -346,7 +391,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/zou-group/CellVoyager/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "biomni",
@@ -356,7 +406,8 @@
       "venue": "Science",
       "status": "published",
       "tags": [
-        "Agent"
+        "Agent",
+        "Related"
       ],
       "doi": "10.1126/science.adz4351",
       "paper_url": "https://doi.org/10.1126/science.adz4351",
@@ -369,7 +420,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/snap-stanford/Biomni"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "state",
@@ -379,7 +435,9 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Foundation Model",
+        "Benchmark"
       ],
       "doi": "10.1016/j.cell.2026.07.052",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.07.052",
@@ -392,7 +450,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-25"
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ArcInstitute/state"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "unipert-g2cp",
@@ -402,7 +465,8 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": "10.1016/j.cell.2026.06.005",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.06.005",
@@ -415,7 +479,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/TencentAILabHealthcare/UniPert"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell-shapes",
@@ -425,7 +494,9 @@
       "venue": "Cell Systems",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Protein",
+        "Perturbation"
       ],
       "doi": "10.1016/j.cels.2026.101589",
       "paper_url": "https://doi.org/10.1016/j.cels.2026.101589",
@@ -433,7 +504,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "sclong",
@@ -443,7 +517,10 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation",
+        "Gene Regulation"
       ],
       "doi": "10.1038/s41467-026-69102-y",
       "paper_url": "https://doi.org/10.1038/s41467-026-69102-y",
@@ -456,7 +533,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/BaiDing1234/scLong/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "uce",
@@ -466,7 +548,8 @@
       "venue": "Nature",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41586-026-10689-z",
       "paper_url": "https://doi.org/10.1038/s41586-026-10689-z",
@@ -479,7 +562,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/snap-stanford/UCE"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellos",
@@ -489,20 +577,24 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "Virtual Cell",
+        "World Model",
+        "JEPA",
+        "Foundation Model",
+        "Representation Learning",
+        "Multimodal",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.06.18.733163",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.18.733163",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.18.733163"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "chreode",
@@ -512,20 +604,23 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "World Model",
+        "Foundation Model",
+        "Dynamics",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2605.28111",
       "code_url": "https://github.com/MufanQiu/Chreode",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2605.28111"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/MufanQiu/Chreode"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "vcwm",
@@ -535,7 +630,9 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "World Model"
+        "Virtual Cell",
+        "World Model",
+        "Review"
       ],
       "doi": "10.1016/j.cell.2026.08.042",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.08.042",
@@ -548,7 +645,10 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "world-model-gaps",
@@ -558,20 +658,20 @@
       "venue": "Research Square",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "World Model",
+        "Virtual Cell",
+        "Benchmark"
       ],
       "doi": "10.21203/rs.3.rs-10404367/v1",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.21203/rs.3.rs-10404367/v1",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.21203/rs.3.rs-10404367/v1"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "biomedical-world-models",
@@ -581,20 +681,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "World Model",
+        "Review",
+        "Related"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.05925",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.05925"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "ceno",
@@ -604,20 +704,24 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "World Model",
+        "Foundation Model",
+        "Gene Regulation",
+        "Intervention Design",
+        "Related"
       ],
       "doi": "10.64898/2026.07.28.741284",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.28.741284",
       "code_url": "https://github.com/CladeTeam/CENO",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.28.741284"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/CladeTeam/CENO"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell-jepa",
@@ -627,20 +731,21 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "JEPA"
+        "JEPA",
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2602.02093",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2602.02093"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "spatialjepa",
@@ -650,20 +755,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "JEPA"
+        "JEPA",
+        "Spatial",
+        "Multimodal",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.07.21.739810",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.21.739810",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.21.739810"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "biom-jepa",
@@ -673,20 +779,24 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "JEPA"
+        "JEPA",
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.05928",
-      "code_url": "https://github.com/sky-Yongjie-Xu/2026-CellBench",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.05928"
-        }
-      ],
+      "code_url": null,
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "release_pending",
+      "code_sources": [
+        "https://arxiv.org/abs/2608.05928",
+        "https://github.com/sky-Yongjie-Xu/2026-CellBench"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellworld",
@@ -696,20 +806,23 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "JEPA"
+        "JEPA",
+        "Foundation Model",
+        "Spatial",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.06659",
       "code_url": "https://github.com/UoM-HealthAI/CellWorld",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.06659"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/UoM-HealthAI/CellWorld/blob/release/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "terra",
@@ -719,20 +832,24 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "JEPA"
+        "JEPA",
+        "Foundation Model",
+        "Spatial",
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.07.29.741565",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.29.741565",
       "code_url": "https://github.com/Lotfollahi-lab/terra",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.29.741565"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/Lotfollahi-lab/terra/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "context-not-scale",
@@ -742,15 +859,29 @@
       "venue": "ICML",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Review",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=OI0AaBpeDK",
       "preprint_url": null,
-      "code_url": "https://github.com/czbiohub-chi/scldm_cd4",
-      "links": [],
+      "code_url": null,
+      "links": [
+        {
+          "label": "related implementation",
+          "url": "https://github.com/Biohub/scldm_cd4"
+        }
+      ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "related_only",
+      "code_sources": [
+        "https://github.com/czbiohub-chi/scldm_cd4",
+        "https://github.com/Biohub/scldm_cd4",
+        "https://openreview.net/forum?id=OI0AaBpeDK"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "scdifformer",
@@ -760,7 +891,10 @@
       "venue": "Nucleic Acids Research",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation"
       ],
       "doi": "10.1093/nar/gkag706",
       "paper_url": "https://doi.org/10.1093/nar/gkag706",
@@ -768,7 +902,12 @@
       "code_url": "https://github.com/yaoqiqi17732/scDifformer",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/yaoqiqi17732/scDifformer/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "ocellus",
@@ -778,20 +917,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Foundation Model",
+        "Multimodal",
+        "Spatial",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.07.08.737248",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.08.737248",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.08.737248"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellq-pace",
@@ -801,20 +942,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Agent",
+        "Intervention Design",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.08.04.742916",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.04.742916",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.04.742916"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "vcharness",
@@ -824,20 +966,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Virtual Cell"
       ],
       "doi": "10.64898/2026.04.11.717183",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.04.11.717183",
       "code_url": "https://github.com/genbio-ai/VCHarness",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.04.11.717183"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/genbio-ai/VCHarness"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "vcr-agent",
@@ -847,20 +990,23 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Virtual Cell",
+        "Perturbation",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2604.11661",
       "code_url": "https://github.com/valence-labs/VCR-Agent",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2604.11661"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/valence-labs/VCR-Agent"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "spacellagent",
@@ -870,20 +1016,23 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Dynamics",
+        "Spatial",
+        "Tool"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.07467",
       "code_url": "https://github.com/LittleXH-shw/SpaCellAgent",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.07467"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/LittleXH-shw/SpaCellAgent/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellconsensus",
@@ -893,20 +1042,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Tool",
+        "Dataset"
       ],
       "doi": "10.64898/2026.08.07.743503",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.07.743503",
       "code_url": "https://github.com/tansey-lab/cellconsensus",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.07.743503"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/tansey-lab/cellconsensus/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "literature-authored-embeddings",
@@ -916,20 +1067,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.07.07.737048",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.07.737048",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.07.737048"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "llm4cell",
@@ -939,7 +1089,9 @@
       "venue": "ACL",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Agent",
+        "Review"
       ],
       "doi": null,
       "paper_url": "https://aclanthology.org/2026.acl-long.1942/",
@@ -947,7 +1099,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scbench-long",
@@ -957,20 +1112,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Agent",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.26563",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.26563"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "score-distributions",
@@ -980,20 +1135,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.04595",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.04595"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "projection-basis",
@@ -1003,20 +1157,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.07.07.737004",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.07.737004",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.07.737004"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "harmonised-fm-benchmark",
@@ -1026,20 +1180,21 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Foundation Model",
+        "Spatial",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.17227",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.17227"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "sccontam",
@@ -1049,20 +1204,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Foundation Model"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.20572",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.20572"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "pertreason",
@@ -1072,20 +1226,23 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Agent",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.18777",
       "code_url": "https://github.com/dongkwan-kim/PertReasonQA",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.18777"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/dongkwan-kim/PertReasonQA"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "de-classification",
@@ -1095,20 +1252,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.07.20.739620",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.20.739620",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.20.739620"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "principled-evaluation",
@@ -1118,20 +1274,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.07.23.740433",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.23.740433",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.23.740433"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "response-magnitude",
@@ -1141,20 +1296,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Foundation Model"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.00152",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.00152"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "saffron",
@@ -1164,20 +1319,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Foundation Model",
+        "Spatial"
       ],
       "doi": "10.64898/2026.08.01.742217",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.01.742217",
       "code_url": "https://github.com/chitra-lab/SAFFRON",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.01.742217"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/chitra-lab/SAFFRON/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "confound-diagnostics",
@@ -1187,20 +1344,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Foundation Model",
+        "Perturbation",
+        "Tool"
       ],
       "doi": "10.64898/2026.08.04.732812",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.04.732812",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.04.732812"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "reliable-perturbations",
@@ -1210,20 +1368,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.08.11.744177",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.11.744177",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.11.744177"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell-line-bottleneck",
@@ -1233,20 +1390,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.08.10.743942",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.10.743942",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.10.743942"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "st-agent-benchmark",
@@ -1256,20 +1412,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Agent",
+        "Spatial"
       ],
       "doi": "10.64898/2026.07.05.736638",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.05.736638",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.05.736638"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "crisprko-vs-crispri",
@@ -1279,20 +1435,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Dataset",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.07.04.736492",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.04.736492",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.04.736492"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "jump-lite",
@@ -1302,20 +1458,23 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Morphology",
+        "Dataset",
+        "Tool"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.07632",
       "code_url": "https://github.com/afermg/JUMP_lite",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.07632"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/afermg/JUMP_lite"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scvision",
@@ -1325,7 +1484,8 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": null,
@@ -1333,16 +1493,15 @@
       "code_url": null,
       "links": [
         {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.14163"
-        },
-        {
           "label": "project",
           "url": "https://islamlab.org/scvision"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "satscg",
@@ -1352,20 +1511,21 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.02961",
       "code_url": "https://github.com/haw-ai-i/SATScG",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.02961"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/haw-ai-i/SATScG"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "gene-intelligence",
@@ -1375,20 +1535,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Benchmark"
       ],
       "doi": "10.64898/2026.06.29.735389",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.29.735389",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.29.735389"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "task-adapted-fm",
@@ -1398,20 +1558,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.06.30.735584",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.30.735584",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.30.735584"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "species-native-tokens",
@@ -1421,20 +1581,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.07.27.740807",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.27.740807",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.27.740807"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "complementary-views",
@@ -1444,20 +1603,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.00985",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.00985"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "tabula",
@@ -1467,20 +1626,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.19400",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.19400"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "adagenebudget",
@@ -1490,20 +1649,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Tool",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.08.06.743174",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.06.743174",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.06.743174"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "celltosg2sequence",
@@ -1513,20 +1672,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.06.16.732397",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.16.732397",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.16.732397"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stable-shift",
@@ -1542,14 +1701,14 @@
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.24940",
       "code_url": "https://github.com/Sajib-006/PerturbGraph",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.24940"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Sajib-006/PerturbGraph"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "pertomni",
@@ -1559,20 +1718,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Multimodal",
+        "Morphology",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.06.23.734145",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.23.734145",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.23.734145"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "sccyclemol",
@@ -1588,14 +1748,12 @@
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.30695",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.30695"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "genperturb",
@@ -1605,20 +1763,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Gene Regulation"
       ],
       "doi": "10.64898/2026.07.01.735806",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.01.735806",
       "code_url": "https://github.com/rikenbit/GenPerturb",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.01.735806"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/rikenbit/GenPerturb"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "u-pert",
@@ -1628,20 +1787,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Dynamics",
+        "Intervention Design"
       ],
       "doi": "10.64898/2026.06.30.735555",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.30.735555",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.30.735555"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "genespeak-fp",
@@ -1651,20 +1810,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.17671",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.17671"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbpfn",
@@ -1674,7 +1832,9 @@
       "venue": "ICML",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Foundation Model",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": "https://arxiv.org/abs/2607.23447",
@@ -1682,7 +1842,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "response-decomposition",
@@ -1692,20 +1855,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Benchmark"
       ],
       "doi": "10.64898/2026.07.24.740459",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.24.740459",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.24.740459"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cytokine-atlas",
@@ -1715,20 +1877,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Gene Regulation",
+        "Dataset"
       ],
       "doi": "10.64898/2026.07.27.740961",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.27.740961",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.27.740961"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbmap",
@@ -1744,14 +1906,12 @@
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.28090",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.28090"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "lgr",
@@ -1761,7 +1921,8 @@
       "venue": "ICLR",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Agent"
       ],
       "doi": null,
       "paper_url": "https://arxiv.org/abs/2608.01734",
@@ -1769,7 +1930,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "mega-ode",
@@ -1779,20 +1943,23 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Dynamics",
+        "Gene Regulation",
+        "Intervention Design"
       ],
       "doi": "10.64898/2026.08.05.742921",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.05.742921",
       "code_url": "https://github.com/Candlelight-XYJ/MEGA-ODE",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.05.742921"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Candlelight-XYJ/MEGA-ODE"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "transcouter",
@@ -1802,20 +1969,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Benchmark"
       ],
       "doi": "10.64898/2026.07.30.741892",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.30.741892",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.30.741892"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "compass",
@@ -1831,14 +1997,12 @@
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.03.742643",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.03.742643"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "slim",
@@ -1854,14 +2018,14 @@
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.07.743481",
       "code_url": "https://github.com/RasmussenLab/SLIM",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.07.743481"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/RasmussenLab/SLIM"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "genegeoflow",
@@ -1877,14 +2041,12 @@
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.06824",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.06824"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbldm",
@@ -1900,14 +2062,14 @@
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.07.743610",
       "code_url": "https://github.com/davidroad/PerturbLDM",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.07.743610"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/davidroad/PerturbLDM"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "coladan",
@@ -1917,7 +2079,11 @@
       "venue": "Genome Medicine",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Morphology",
+        "Multimodal",
+        "Perturbation",
+        "Dataset"
       ],
       "doi": "10.1186/s13073-026-01713-y",
       "paper_url": "https://doi.org/10.1186/s13073-026-01713-y",
@@ -1925,7 +2091,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "spaceland",
@@ -1935,20 +2104,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Morphology",
+        "Multimodal"
       ],
       "doi": "10.64898/2026.07.23.739686",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.23.739686",
       "code_url": "https://github.com/xufangfang408/Spaceland",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.23.739686"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/xufangfang408/Spaceland/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "tissueformer-digital-pathology",
@@ -1958,20 +2129,23 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Morphology",
+        "Multimodal",
+        "Foundation Model"
       ],
       "doi": "10.64898/2026.07.31.741265",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.31.741265",
       "code_url": "https://github.com/uhlerlab/TissueFormer",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.31.741265"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/uhlerlab/TissueFormer/blob/main/Readme.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "voice",
@@ -1981,20 +2155,21 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Morphology",
+        "Multimodal",
+        "Foundation Model"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.08366",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.08366"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "vista",
@@ -2004,20 +2179,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Morphology",
+        "Multimodal"
       ],
       "doi": "10.64898/2026.08.04.742671",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.04.742671",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.04.742671"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "squint",
@@ -2027,20 +2202,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.08.07.743490",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.07.743490",
       "code_url": "https://github.com/Lotfollahi-lab/squint",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.08.07.743490"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/Lotfollahi-lab/squint/blob/dev/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "mae-3d",
@@ -2050,20 +2226,23 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Multimodal",
+        "Representation Learning",
+        "Benchmark"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.23964",
       "code_url": "https://github.com/marrlab/mae3d-opencell",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.23964"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/marrlab/mae3d-opencell"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell-painting-rag-audit",
@@ -2073,20 +2252,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Agent",
+        "Benchmark"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.19415",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2607.19415"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "spatium",
@@ -2096,20 +2275,23 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Protein"
+        "Protein",
+        "Spatial",
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.07.23.740264",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.23.740264",
       "code_url": "https://github.com/ploughhh/Spatium",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.23.740264"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ploughhh/Spatium"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbmatch",
@@ -2119,20 +2301,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
+        "Perturbation",
         "Tool"
       ],
       "doi": "10.64898/2026.07.10.737863",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.10.737863",
       "code_url": "https://github.com/Genentech/perturbmatch",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.10.737863"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Genentech/perturbmatch"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "screpresenter",
@@ -2142,20 +2325,23 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Tool"
+        "Representation Learning",
+        "Tool",
+        "Benchmark",
+        "Foundation Model"
       ],
       "doi": "10.64898/2026.07.15.738660",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.15.738660",
       "code_url": "https://github.com/GuilhermePocas/scRepresenter",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.07.15.738660"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/GuilhermePocas/scRepresenter/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellens",
@@ -2165,20 +2351,22 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
+        "Virtual Cell",
+        "Gene Regulation",
         "Tool"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.08430",
       "code_url": "https://github.com/hnu-vis/CELLens",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2608.08430"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/hnu-vis/CELLens/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "tabular-fm-perturbation",
@@ -2188,20 +2376,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
+        "Benchmark",
+        "Perturbation",
         "Foundation Model"
       ],
       "doi": "10.64898/2026.06.28.735106",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.28.735106",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.28.735106"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellfm-datasets",
@@ -2211,20 +2399,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Spatial",
+        "Tool"
       ],
       "doi": "10.64898/2026.06.11.731508",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.11.731508",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.11.731508"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "ocoo-t",
@@ -2234,20 +2422,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.12838",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.12838"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "glitch-genes",
@@ -2257,20 +2444,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Benchmark",
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.06.22.733850",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.22.733850",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.22.733850"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "vcbench",
@@ -2280,20 +2467,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Virtual Cell",
+        "Benchmark",
+        "Foundation Model"
       ],
       "doi": "10.64898/2026.06.18.733146",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.18.733146",
       "code_url": "https://github.com/AppliedScientific/VCBench",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.18.733146"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/AppliedScientific/VCBench"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "design-space",
@@ -2303,20 +2492,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Benchmark",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.06.15.732063",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.15.732063",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.15.732063"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "pertdiffbench",
@@ -2326,20 +2515,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
+        "Perturbation",
         "Benchmark"
       ],
       "doi": "10.64898/2026.06.13.732013",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.13.732013",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.13.732013"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "zero-shot-benchmark",
@@ -2349,20 +2537,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.06.18.733285",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.18.733285",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.18.733285"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "deepspot-m",
@@ -2372,7 +2560,10 @@
       "venue": "medRxiv",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Spatial",
+        "Morphology",
+        "Multimodal",
+        "Foundation Model"
       ],
       "doi": "10.64898/2026.06.19.26356060",
       "paper_url": "https://doi.org/10.64898/2026.06.19.26356060",
@@ -2380,7 +2571,12 @@
       "code_url": "https://github.com/ratschlab/DeepSpotM",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ratschlab/DeepSpotM"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "v3cell",
@@ -2390,20 +2586,23 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Morphology",
+        "Perturbation",
+        "Dynamics"
       ],
       "doi": "10.64898/2026.06.23.734130",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.23.734130",
       "code_url": "https://github.com/Laineyoulu/V3Cell",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.23.734130"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Laineyoulu/V3Cell"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cross-context-drugpert",
@@ -2413,15 +2612,22 @@
       "venue": "Bioinformatics",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": "10.1093/bioinformatics/btag482",
       "paper_url": "https://doi.org/10.1093/bioinformatics/btag482",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Panda-myj/PertDiff",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://doi.org/10.1093/bioinformatics/btag482",
+        "https://github.com/Panda-myj/PertDiff"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scicore-omics",
@@ -2431,20 +2637,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Spatial",
+        "Morphology",
+        "Multimodal"
       ],
       "doi": "10.64898/2026.05.30.728937",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.30.728937",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.05.30.728937"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "holocell",
@@ -2454,20 +2661,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Foundation Model",
+        "Multimodal",
+        "Protein"
       ],
       "doi": "10.64898/2026.06.07.730684",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.07.730684",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.06.07.730684"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "fm-roadmap",
@@ -2477,7 +2685,9 @@
       "venue": "National Science Review",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Spatial",
+        "Review"
       ],
       "doi": "10.1093/nsr/nwag371",
       "paper_url": "https://doi.org/10.1093/nsr/nwag371",
@@ -2485,7 +2695,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "perturbcellrl",
@@ -2501,14 +2714,12 @@
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.27752",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.27752"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "kg-reasoning-llm",
@@ -2518,20 +2729,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Agent"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.08816",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.08816"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cross-modal-transfer",
@@ -2541,20 +2751,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Multimodal",
+        "Spatial"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.07676",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.07676"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "bridge",
@@ -2564,20 +2774,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Foundation Model",
+        "Morphology",
+        "Spatial",
+        "Multimodal"
       ],
       "doi": "10.64898/2026.05.05.722971",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.05.722971",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.05.05.722971"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "morphodynamics-expr",
@@ -2587,7 +2798,9 @@
       "venue": "Cell Systems",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Dynamics",
+        "Multimodal"
       ],
       "doi": "10.1016/j.cels.2026.101567",
       "paper_url": "https://doi.org/10.1016/j.cels.2026.101567",
@@ -2595,7 +2808,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "morph-transcriptomic-genmodel",
@@ -2605,7 +2821,9 @@
       "venue": "Cell Reports Methods",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Perturbation",
+        "Morphology",
+        "Multimodal"
       ],
       "doi": "10.1016/j.crmeth.2026.101459",
       "paper_url": "https://doi.org/10.1016/j.crmeth.2026.101459",
@@ -2613,7 +2831,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "doformer",
@@ -2623,20 +2844,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Gene Regulation",
+        "Multimodal"
       ],
       "doi": "10.64898/2026.05.02.722054",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.02.722054",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.05.02.722054"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "regformer",
@@ -2646,7 +2867,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41467-026-72198-x",
       "paper_url": "https://doi.org/10.1038/s41467-026-72198-x",
@@ -2654,7 +2877,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "spurious-correlation",
@@ -2664,20 +2890,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.64898/2026.05.07.723486",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.07.723486",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.05.07.723486"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scarchon",
@@ -2687,7 +2912,9 @@
       "venue": "Genome Biology",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Tool"
       ],
       "doi": "10.1186/s13059-026-04104-z",
       "paper_url": "https://doi.org/10.1186/s13059-026-04104-z",
@@ -2695,7 +2922,12 @@
       "code_url": "https://github.com/hdsu-bioquant/scArchon",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/hdsu-bioquant/scArchon/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "chemical-pert-dl",
@@ -2705,20 +2937,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
+        "Benchmark",
         "Perturbation"
       ],
       "doi": "10.64898/2026.05.13.724458",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.13.724458",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.05.13.724458"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cycle-consistent-genmodel",
@@ -2728,20 +2959,24 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Multimodal",
+        "Protein",
+        "Representation Learning"
       ],
       "doi": "10.64898/2026.05.25.727736",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.25.727736",
-      "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.05.25.727736"
-        }
-      ],
+      "code_url": "https://github.com/tansey-lab/multitme",
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://doi.org/10.64898/2026.05.25.727736",
+        "https://github.com/tansey-lab/multitme"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "statexdiff",
@@ -2751,20 +2986,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2605.16104",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2605.16104"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "descope",
@@ -2774,20 +3008,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1",
       "code_url": "https://github.com/Peg-Wu/DeSCOPE",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Peg-Wu/DeSCOPE"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "dataset-size-diversity",
@@ -2797,7 +3032,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Benchmark"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41592-026-03120-y",
@@ -2805,7 +3041,12 @@
       "code_url": "https://github.com/microsoft/scFM-dataselection",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/microsoft/scFM-dataselection/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "lingshu-cell",
@@ -2815,7 +3056,10 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "Virtual Cell",
+        "World Model",
+        "Foundation Model",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
@@ -2823,16 +3067,15 @@
       "code_url": null,
       "links": [
         {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2603.25240"
-        },
-        {
           "label": "homepage",
           "url": "https://github.com/alibaba-damo-academy/lingshu-cell-homepage"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scale",
@@ -2848,14 +3091,12 @@
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2603.17380",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2603.17380"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "conditional-monge-gap",
@@ -2873,7 +3114,12 @@
       "code_url": "https://github.com/AI4SCR/conditional-monge-gap",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/AI4SCR/conditional-monge-gap"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "proticelli",
@@ -2883,20 +3129,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Protein",
+        "Morphology"
       ],
       "doi": "10.64898/2026.03.31.715748",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.03.31.715748",
       "code_url": "https://github.com/CellProfiling/ProtiCelli",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.03.31.715748"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/CellProfiling/ProtiCelli"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "aethercell",
@@ -2906,20 +3154,23 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Foundation Model",
+        "Perturbation",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1",
       "code_url": "https://github.com/Wenyuan-AI4science/AetherCell",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Wenyuan-AI4science/AetherCell"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "alphacell",
@@ -2929,20 +3180,21 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "Virtual Cell",
+        "World Model",
+        "Perturbation",
+        "Dynamics"
       ],
       "doi": "10.64898/2026.03.02.709176",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.03.02.709176",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.03.02.709176"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "vcworld",
@@ -2952,7 +3204,10 @@
       "venue": "ICLR",
       "status": "published",
       "tags": [
-        "World Model"
+        "Virtual Cell",
+        "World Model",
+        "Foundation Model",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=hhq89Hs7T3",
@@ -2965,7 +3220,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/GENTEL-lab/VCWorld"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "spatial-perturb-seq",
@@ -2975,7 +3235,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Perturbation",
+        "Spatial",
+        "Dataset"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-026-69677-6",
@@ -2983,7 +3245,12 @@
       "code_url": "https://github.com/kimberle9/spatialperturbseq",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/kimberle9/spatialperturbseq"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "celcomen",
@@ -2993,7 +3260,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Perturbation",
+        "Spatial",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-026-69856-5",
@@ -3001,7 +3270,12 @@
       "code_url": "https://github.com/Teichlab/celcomen",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/Teichlab/celcomen/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stvcr",
@@ -3011,7 +3285,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Dynamics"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41592-026-03010-3",
@@ -3019,7 +3294,12 @@
       "code_url": "https://github.com/QiangweiPeng/stVCR",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/QiangweiPeng/stVCR"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "concord",
@@ -3029,7 +3309,7 @@
       "venue": "Nature Biotechnology",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41587-025-02950-z",
@@ -3037,7 +3317,12 @@
       "code_url": "https://github.com/Gartner-Lab/Concord",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Gartner-Lab/Concord"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "ai-scientist",
@@ -3047,15 +3332,27 @@
       "venue": "Nature",
       "status": "published",
       "tags": [
+        "Agent",
         "Related"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41586-026-10265-5",
       "preprint_url": null,
       "code_url": "https://github.com/SakanaAI/AI-Scientist",
-      "links": [],
+      "links": [
+        {
+          "label": "template-free code",
+          "url": "https://github.com/SakanaAI/AI-Scientist-v2"
+        }
+      ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41586-026-10265-5",
+        "https://github.com/SakanaAI/AI-Scientist"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "conformation-description-language",
@@ -3065,6 +3362,8 @@
       "venue": "Nature Machine Intelligence",
       "status": "published",
       "tags": [
+        "Protein",
+        "Multimodal",
         "Related"
       ],
       "doi": "10.1038/s42256-026-01068-4",
@@ -3073,7 +3372,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "crispri-map",
@@ -3083,7 +3385,9 @@
       "venue": "Cell Genomics",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Gene Regulation",
+        "Dataset"
       ],
       "doi": null,
       "paper_url": "https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X25003325%3Fshowall%3Dtrue",
@@ -3091,7 +3395,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "txpert",
@@ -3109,7 +3416,12 @@
       "code_url": "https://github.com/valence-labs/TxPert",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/valence-labs/TxPert/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "therapeutic-design",
@@ -3119,7 +3431,8 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Related"
+        "Perturbation",
+        "Intervention Design"
       ],
       "doi": "10.1016/j.cell.2026.02.016",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.02.016",
@@ -3127,7 +3440,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "x-pert",
@@ -3137,7 +3453,8 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": null,
@@ -3145,16 +3462,17 @@
       "code_url": "https://github.com/Chen-Li-17/X-Pert",
       "links": [
         {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/Chen-Li-17/X-Pert"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/Chen-Li-17/X-Pert/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "mvcbench",
@@ -3164,7 +3482,10 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Multimodal",
+        "Morphology"
       ],
       "doi": null,
       "paper_url": null,
@@ -3172,16 +3493,17 @@
       "code_url": "https://github.com/QSong-github/MVCBench",
       "links": [
         {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/QSong-github/MVCBench"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/QSong-github/MVCBench"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "harmonycell",
@@ -3191,20 +3513,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Agent",
+        "Perturbation",
+        "Tool"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/pdf/2603.01396",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/pdf/2603.01396"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scdfm",
@@ -3222,7 +3544,12 @@
       "code_url": "https://github.com/AI4Science-WestlakeU/scDFM",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/AI4Science-WestlakeU/scDFM/blob/main/README.md"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "doloris",
@@ -3240,7 +3567,12 @@
       "code_url": "https://github.com/ChangxiChi/Doloris",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ChangxiChi/Doloris"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "departures",
@@ -3258,7 +3590,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "petri",
@@ -3268,7 +3603,9 @@
       "venue": "ICLR",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=Vu8YXDooG5",
@@ -3276,7 +3613,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "strand",
@@ -3286,20 +3626,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2602.10156",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2602.10156"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbdiff",
@@ -3317,16 +3656,17 @@
       "code_url": "https://github.com/DeepGraphLearning/PerturbDiff",
       "links": [
         {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2602.19685"
-        },
-        {
           "label": "project",
           "url": "https://katarinayuan.github.io/PerturbDiff-ProjectPage/"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/DeepGraphLearning/PerturbDiff"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scbig",
@@ -3336,20 +3676,22 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Representation Learning",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2602.04901",
       "code_url": "https://github.com/ttruan2426-dot/scBIG",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2602.04901"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ttruan2426-dot/scBIG"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellxpert",
@@ -3359,7 +3701,11 @@
       "venue": "ICLR",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Foundation Model",
+        "Perturbation",
+        "Multimodal",
+        "Spatial",
+        "Protein"
       ],
       "doi": null,
       "paper_url": "https://arxiv.org/abs/2605.00930",
@@ -3367,7 +3713,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbation-representation",
@@ -3377,20 +3726,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Representation Learning",
+        "Benchmark"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2605.19343",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2605.19343"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cistranscell",
@@ -3400,20 +3749,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Gene Regulation",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.13713",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2606.13713"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "latent-causal-processes",
@@ -3423,20 +3772,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Dynamics",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2605.25581",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2605.25581"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "msinfer",
@@ -3446,20 +3795,20 @@
       "venue": "Research Square",
       "status": "preprint",
       "tags": [
+        "Protein",
+        "Multimodal",
         "Tool"
       ],
       "doi": "10.21203/rs.3.rs-9068677/v1",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.21203/rs.3.rs-9068677/v1",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.21203/rs.3.rs-9068677/v1"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stack",
@@ -3469,7 +3818,9 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
@@ -3477,16 +3828,17 @@
       "code_url": "https://github.com/ArcInstitute/stack",
       "links": [
         {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/ArcInstitute/stack"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ArcInstitute/stack"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "bioworldmodel",
@@ -3496,20 +3848,20 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "World Model"
+        "World Model",
+        "Dynamics",
+        "Related"
       ],
       "doi": "10.64898/2026.03.27.714912",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.03.27.714912",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2026.03.27.714912"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "gene-importance",
@@ -3519,7 +3871,9 @@
       "venue": "Nature Biotechnology",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Tool"
       ],
       "doi": "10.1038/s41587-026-03112-5",
       "paper_url": "https://doi.org/10.1038/s41587-026-03112-5",
@@ -3527,7 +3881,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "hi-c-fm",
@@ -3537,7 +3894,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Multimodal"
       ],
       "doi": "10.1038/s41592-026-03097-8",
       "paper_url": "https://doi.org/10.1038/s41592-026-03097-8",
@@ -3545,7 +3904,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "virtual-spatial-tumor",
@@ -3555,7 +3917,10 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Morphology",
+        "Spatial",
+        "Protein",
+        "Multimodal"
       ],
       "doi": "10.1016/j.cell.2026.05.031",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.05.031",
@@ -3563,7 +3928,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "syncell",
@@ -3573,7 +3941,9 @@
       "venue": "Nature Biotechnology",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Review",
+        "Related"
       ],
       "doi": "10.1038/s41587-026-03153-w",
       "paper_url": "https://doi.org/10.1038/s41587-026-03153-w",
@@ -3581,7 +3951,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "3d-genome-fm",
@@ -3591,7 +3964,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Review"
       ],
       "doi": "10.1038/s41592-026-03098-7",
       "paper_url": "https://doi.org/10.1038/s41592-026-03098-7",
@@ -3599,7 +3974,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "tissueformer-population-phenotypes",
@@ -3609,7 +3987,8 @@
       "venue": "BMC Bioinformatics",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.1186/s12859-026-06490-4",
       "paper_url": "https://doi.org/10.1186/s12859-026-06490-4",
@@ -3617,7 +3996,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cytosignal",
@@ -3627,7 +4009,10 @@
       "venue": "Nature Genetics",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Dynamics",
+        "Gene Regulation",
+        "Tool"
       ],
       "doi": "10.1038/s41588-026-02624-9",
       "paper_url": "https://doi.org/10.1038/s41588-026-02624-9",
@@ -3635,7 +4020,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "graphene-seq",
@@ -3645,7 +4033,10 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Multimodal",
+        "Dynamics",
+        "Dataset"
       ],
       "doi": "10.1038/s41467-026-73883-7",
       "paper_url": "https://doi.org/10.1038/s41467-026-73883-7",
@@ -3653,7 +4044,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "deep-molecular-profiling",
@@ -3663,7 +4057,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Multimodal",
+        "Review"
       ],
       "doi": "10.1038/s41592-026-03149-z",
       "paper_url": "https://doi.org/10.1038/s41592-026-03149-z",
@@ -3671,7 +4067,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "spamosaic",
@@ -3681,7 +4080,10 @@
       "venue": "Nature Genetics",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Multimodal",
+        "Protein",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41588-026-02573-3",
       "paper_url": "https://doi.org/10.1038/s41588-026-02573-3",
@@ -3689,7 +4091,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "computational-landscape",
@@ -3699,7 +4104,8 @@
       "venue": "Journal of Advanced Research",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Review"
       ],
       "doi": "10.1016/j.jare.2026.06.012",
       "paper_url": "https://doi.org/10.1016/j.jare.2026.06.012",
@@ -3707,7 +4113,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "veloagent",
@@ -3717,7 +4126,9 @@
       "venue": "Molecular Systems Biology",
       "status": "published",
       "tags": [
-        "Agent"
+        "Dynamics",
+        "Spatial",
+        "Intervention Design"
       ],
       "doi": "10.1038/s44320-026-00213-w",
       "paper_url": "https://doi.org/10.1038/s44320-026-00213-w",
@@ -3725,7 +4136,12 @@
       "code_url": "https://github.com/mcgilldinglab/veloAgent",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/mcgilldinglab/veloAgent/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "morphodynamics",
@@ -3735,7 +4151,8 @@
       "venue": "Molecular Systems Biology",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Dynamics"
       ],
       "doi": "10.1038/s44320-026-00212-x",
       "paper_url": "https://doi.org/10.1038/s44320-026-00212-x",
@@ -3743,7 +4160,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "single-cell-notebooks",
@@ -3753,7 +4173,8 @@
       "venue": "Nature Genetics",
       "status": "published",
       "tags": [
-        "Tool"
+        "Tool",
+        "Spatial"
       ],
       "doi": "10.1038/s41588-026-02584-0",
       "paper_url": "https://doi.org/10.1038/s41588-026-02584-0",
@@ -3761,7 +4182,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "captain",
@@ -3771,7 +4195,10 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Protein"
+        "Foundation Model",
+        "Multimodal",
+        "Protein",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41467-026-72882-y",
       "paper_url": "https://doi.org/10.1038/s41467-026-72882-y",
@@ -3779,7 +4206,12 @@
       "code_url": "https://github.com/iamjiboya/CAPTAIN",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/iamjiboya/CAPTAIN"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scpformer",
@@ -3789,20 +4221,20 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Protein"
+        "Foundation Model",
+        "Protein",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2604.20003",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2604.20003"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "multipert",
@@ -3812,6 +4244,8 @@
       "venue": "PLOS Computational Biology",
       "status": "published",
       "tags": [
+        "Perturbation",
+        "Multimodal",
         "Protein"
       ],
       "doi": "10.1371/journal.pcbi.1014054",
@@ -3820,7 +4254,12 @@
       "code_url": "https://github.com/MengyuanZhaoo/MultiPert",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/MengyuanZhaoo/MultiPert/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "genejepa",
@@ -3830,20 +4269,24 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "JEPA"
+        "JEPA",
+        "World Model",
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation"
       ],
       "doi": "10.1101/2025.10.14.682378",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.10.14.682378",
       "code_url": "https://github.com/BiostateAI/GeneJEPA",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.10.14.682378"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/BiostateAI/GeneJEPA"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stella",
@@ -3853,20 +4296,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Multimodal",
+        "Related"
       ],
       "doi": "10.1101/2025.07.01.662467",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.07.01.662467",
       "code_url": "https://github.com/zaixizhang/STELLA",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.07.01.662467"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/zaixizhang/STELLA"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scprint-2",
@@ -3876,20 +4321,24 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation",
+        "Gene Regulation",
+        "Benchmark"
       ],
       "doi": "10.64898/2025.12.11.693702",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2025.12.11.693702",
       "code_url": "https://github.com/cantinilab/scPRINT-2",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.64898/2025.12.11.693702"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/cantinilab/scPRINT-2"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "pertpy",
@@ -3899,6 +4348,7 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
+        "Perturbation",
         "Tool"
       ],
       "doi": null,
@@ -3912,7 +4362,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/scverse/pertpy"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "benchmarking",
@@ -3922,7 +4377,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Foundation Model"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41592-025-02980-0",
@@ -3935,7 +4392,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/bm2-lab/scPerturBench"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "deepspot2cell",
@@ -3945,7 +4407,9 @@
       "venue": "NeurIPS",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Spatial",
+        "Morphology",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=ofCkwXQKaz",
@@ -3953,7 +4417,12 @@
       "code_url": "https://github.com/ratschlab/DeepSpot2Cell",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ratschlab/DeepSpot2Cell"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "scouter",
@@ -3968,10 +4437,21 @@
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s43588-025-00912-8",
       "preprint_url": null,
-      "code_url": null,
-      "links": [],
+      "code_url": "https://github.com/PancakeZoy/scouter",
+      "links": [
+        {
+          "label": "reproduce",
+          "url": "https://github.com/PancakeZoy/scouter_misc"
+        }
+      ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s43588-025-00912-8",
+        "https://github.com/PancakeZoy/scouter"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "gperturb",
@@ -3989,7 +4469,12 @@
       "code_url": "https://github.com/hwxing3259/GPerturb",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/hwxing3259/GPerturb/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "squidiff",
@@ -3999,7 +4484,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Dynamics"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41592-025-02877-y",
@@ -4012,7 +4498,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/siyuh/Squidiff"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "nicheformer",
@@ -4022,7 +4513,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Foundation Model",
+        "Spatial",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41592-025-02814-z",
       "paper_url": "https://doi.org/10.1038/s41592-025-02814-z",
@@ -4039,7 +4532,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/theislab/nicheformer"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "nichecompass",
@@ -4049,7 +4547,9 @@
       "venue": "Nature Genetics",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Gene Regulation",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41588-025-02120-6",
@@ -4057,7 +4557,12 @@
       "code_url": "https://github.com/Lotfollahi-lab/nichecompass",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Lotfollahi-lab/nichecompass"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stamp",
@@ -4067,7 +4572,10 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Tool"
+        "Dataset",
+        "Multimodal",
+        "Protein",
+        "Morphology"
       ],
       "doi": "10.1016/j.cell.2025.05.027",
       "paper_url": "https://doi.org/10.1016/j.cell.2025.05.027",
@@ -4075,7 +4583,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturb-fish",
@@ -4085,7 +4596,9 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Perturbation",
+        "Spatial",
+        "Dataset"
       ],
       "doi": "10.1016/j.cell.2025.02.012",
       "paper_url": "https://doi.org/10.1016/j.cell.2025.02.012",
@@ -4093,7 +4606,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "adlf",
@@ -4103,15 +4619,27 @@
       "venue": "Science",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Intervention Design"
       ],
       "doi": "10.1126/science.adi8577",
       "paper_url": "https://doi.org/10.1126/science.adi8577",
       "preprint_url": null,
-      "code_url": "https://doi.org/10.5281/zenodo.16921928",
-      "links": [],
+      "code_url": "https://github.com/Cellarity/drugreflector",
+      "links": [
+        {
+          "label": "software archive",
+          "url": "https://doi.org/10.5281/zenodo.16921928"
+        }
+      ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://zenodo.org/records/16912445",
+        "https://github.com/Cellarity/drugreflector"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "tahoe-x1",
@@ -4121,17 +4649,15 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": "10.1101/2025.10.23.683759",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.10.23.683759",
       "code_url": "https://github.com/tahoebio/tahoe-x1",
       "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.10.23.683759"
-        },
         {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/tahoebio/tahoe-x1"
@@ -4142,7 +4668,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/tahoebio/tahoe-x1"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "lpm",
@@ -4152,7 +4683,9 @@
       "venue": "Nature Computational Science",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Foundation Model",
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": "10.1038/s43588-025-00870-1",
       "paper_url": "https://doi.org/10.1038/s43588-025-00870-1",
@@ -4169,7 +4702,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/perturblib/perturblib"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellnavi",
@@ -4179,7 +4717,9 @@
       "venue": "Nature Cell Biology",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Intervention Design",
+        "Gene Regulation"
       ],
       "doi": "10.1038/s41556-025-01755-1",
       "paper_url": "https://doi.org/10.1038/s41556-025-01755-1",
@@ -4196,7 +4736,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/DLS5-Omics/CellNavi"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "epiagent",
@@ -4206,7 +4751,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Gene Regulation"
       ],
       "doi": "10.1038/s41592-025-02822-z",
       "paper_url": "https://doi.org/10.1038/s41592-025-02822-z",
@@ -4223,7 +4770,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/xy-chen16/EpiAgent"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellwhisperer",
@@ -4233,6 +4785,9 @@
       "venue": "Nature Biotechnology",
       "status": "published",
       "tags": [
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning",
         "Tool"
       ],
       "doi": null,
@@ -4241,7 +4796,12 @@
       "code_url": "https://github.com/epigen/CellWhisperer",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/epigen/CellWhisperer"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "crispr-gpt",
@@ -4251,7 +4811,10 @@
       "venue": "Nature Biomedical Engineering",
       "status": "published",
       "tags": [
-        "Agent"
+        "Agent",
+        "Perturbation",
+        "Intervention Design",
+        "Tool"
       ],
       "doi": "10.1038/s41551-025-01463-z",
       "paper_url": "https://doi.org/10.1038/s41551-025-01463-z",
@@ -4268,7 +4831,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/cong-lab/crispr-gpt-pub"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "systema",
@@ -4278,7 +4846,8 @@
       "venue": "Nature Biotechnology",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.1038/s41587-025-02777-8",
       "paper_url": "https://doi.org/10.1038/s41587-025-02777-8",
@@ -4295,7 +4864,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/mlbio-epfl/systema"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "impa",
@@ -4305,6 +4879,7 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
+        "Perturbation",
         "Morphology"
       ],
       "doi": null,
@@ -4313,7 +4888,12 @@
       "code_url": "https://github.com/theislab/IMPA",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/theislab/IMPA"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "phenoprofiler",
@@ -4323,7 +4903,8 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-025-60033-1",
@@ -4340,7 +4921,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/QSong-github/PhenoProfiler"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "periscope",
@@ -4350,7 +4936,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Perturbation",
+        "Dataset"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41592-024-02537-7",
@@ -4363,7 +4951,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/broadinstitute/2022_PERISCOPE"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "morph-map",
@@ -4373,7 +4966,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Perturbation",
+        "Dataset"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41592-025-02753-9",
@@ -4386,7 +4981,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "morphdiff",
@@ -4396,7 +4996,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Perturbation",
+        "Morphology",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-025-63478-z",
@@ -4413,7 +5015,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/biomap-research/MorphDiff/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "rbio-1",
@@ -4423,17 +5030,15 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "World Model",
+        "Perturbation"
       ],
       "doi": "10.1101/2025.08.18.670981",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.08.18.670981",
       "code_url": "https://github.com/czi-ai/rbio",
       "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.08.18.670981"
-        },
         {
           "label": "中文解读",
           "url": "https://mp.weixin.qq.com/s/QPS1L1MRQr9-F8u8fZsNWw"
@@ -4444,7 +5049,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/czi-ai/rbio"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scvi-hub",
@@ -4454,7 +5064,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Tool"
+        "Tool",
+        "Dataset"
       ],
       "doi": "10.1038/s41592-025-02799-9",
       "paper_url": "https://doi.org/10.1038/s41592-025-02799-9",
@@ -4471,7 +5082,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/YosefLab/scvi-hub-reproducibility"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "graphvelo",
@@ -4481,7 +5097,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Dynamics",
+        "Multimodal",
+        "Gene Regulation"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-025-62784-w",
@@ -4498,7 +5116,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/xing-lab-pitt/GraphVelo"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stereo-cell",
@@ -4508,7 +5131,9 @@
       "venue": "Science",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Dataset",
+        "Multimodal"
       ],
       "doi": "10.1126/science.adr0475",
       "paper_url": "https://doi.org/10.1126/science.adr0475",
@@ -4525,7 +5150,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/haoshijie13/Stereo-cell-paper-code"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stofm",
@@ -4535,7 +5165,9 @@
       "venue": "ICML",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=PQx66EJUu0",
@@ -4552,7 +5184,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/PharMolix/SToFM"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "nicheflow",
@@ -4562,7 +5199,8 @@
       "venue": "NeurIPS",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Spatial",
+        "Dynamics"
       ],
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=5ofJyjgrth",
@@ -4570,7 +5208,12 @@
       "code_url": "https://github.com/kristiyansakalyan/nicheflow",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/kristiyansakalyan/nicheflow"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "scgpt-spatial",
@@ -4580,20 +5223,22 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Spatial"
+        "Foundation Model",
+        "Spatial",
+        "Representation Learning"
       ],
       "doi": "10.1101/2025.02.05.636714",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.02.05.636714",
       "code_url": "https://github.com/bowang-lab/scGPT-spatial",
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.02.05.636714"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/bowang-lab/scGPT-spatial"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "spatialagent",
@@ -4603,17 +5248,16 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Spatial",
+        "Multimodal",
+        "Tool"
       ],
       "doi": "10.1101/2025.04.03.646459",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.04.03.646459",
       "code_url": "https://github.com/Genentech/SpatialAgent",
       "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.04.03.646459"
-        },
         {
           "label": "中文解读",
           "url": "https://mp.weixin.qq.com/s/uoJ3RGxR2fa5Wy3gUcjeLQ"
@@ -4624,7 +5268,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Genentech/SpatialAgent"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellflux",
@@ -4634,6 +5283,7 @@
       "venue": "ICML",
       "status": "published",
       "tags": [
+        "Perturbation",
         "Morphology"
       ],
       "doi": null,
@@ -4647,7 +5297,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/yuhui-zh15/CellFlux"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "cellclip",
@@ -4657,7 +5312,10 @@
       "venue": "NeurIPS",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Perturbation",
+        "Multimodal",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://papers.nips.cc/paper_files/paper/2025/hash/b4689a8e6ac04c0919f7162365f1248d-Abstract-Conference.html",
@@ -4665,7 +5323,12 @@
       "code_url": "https://github.com/suinleelab/CellCLIP",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/suinleelab/CellCLIP"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "celtic",
@@ -4675,7 +5338,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Protein"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41592-025-02960-4",
@@ -4683,7 +5347,12 @@
       "code_url": "https://github.com/zaritskylab/CELTIC",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/zaritskylab/CELTIC"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "morphodiff",
@@ -4693,6 +5362,7 @@
       "venue": "ICLR",
       "status": "published",
       "tags": [
+        "Perturbation",
         "Morphology"
       ],
       "doi": "10.1101/2024.12.19.629451",
@@ -4701,7 +5371,12 @@
       "code_url": "https://github.com/bowang-lab/MorphoDiff",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/bowang-lab/MorphoDiff"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "prescribe",
@@ -4719,7 +5394,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "gde",
@@ -4729,6 +5407,8 @@
       "venue": "NeurIPS",
       "status": "published",
       "tags": [
+        "Representation Learning",
+        "Morphology",
         "Related"
       ],
       "doi": null,
@@ -4737,7 +5417,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellpb",
@@ -4747,7 +5430,8 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation"
       ],
       "doi": "10.1101/2024.12.20.629581",
       "paper_url": null,
@@ -4755,16 +5439,17 @@
       "code_url": "https://github.com/Chen-Li-17/CellPB",
       "links": [
         {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2024.12.20.629581"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/Chen-Li-17/CellPB"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/Chen-Li-17/CellPB/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbench",
@@ -4774,7 +5459,9 @@
       "venue": "NeurIPS",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Tool"
       ],
       "doi": null,
       "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8aee537279a66ced96319dfca3c00002-Abstract-Datasets_and_Benchmarks_Track.html",
@@ -4782,7 +5469,12 @@
       "code_url": "https://github.com/altoslabs/perturbench",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/altoslabs/perturbench"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "cellforge",
@@ -4792,17 +5484,15 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Agent"
+        "Agent",
+        "Virtual Cell",
+        "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2508.02276",
       "code_url": "https://github.com/gersteinlab/CellForge",
       "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2508.02276"
-        },
         {
           "label": "中文解读",
           "url": "https://mp.weixin.qq.com/s/kX43st2-SYRgxP57_xOoWw"
@@ -4813,7 +5503,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/gersteinlab/CellForge"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cradle-vae",
@@ -4823,7 +5518,8 @@
       "venue": "AAAI",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33695",
@@ -4831,7 +5527,12 @@
       "code_url": "https://github.com/dmis-lab/CRADLE-VAE",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/dmis-lab/CRADLE-VAE"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "xtransfercdr",
@@ -4841,7 +5542,8 @@
       "venue": "AAAI",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/34073",
@@ -4849,7 +5551,12 @@
       "code_url": "https://github.com/hliulab/XTransferCDR",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/hliulab/XTransferCDR/blob/main/README.md"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "deep-learning-perturbation-baselines",
@@ -4859,7 +5566,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Perturbation",
+        "Foundation Model"
       ],
       "doi": "10.1038/s41592-025-02772-6",
       "paper_url": "https://doi.org/10.1038/s41592-025-02772-6",
@@ -4872,7 +5581,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/const-ae/linear_perturbation_prediction-Paper"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "drifting-islands-embedding-metrics",
@@ -4882,7 +5596,8 @@
       "venue": "Nature Biotechnology",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41587-025-02702-z",
       "paper_url": "https://doi.org/10.1038/s41587-025-02702-z",
@@ -4895,7 +5610,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Genentech/Islander"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "geneagent",
@@ -4905,7 +5625,9 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Agent"
+        "Agent",
+        "Gene Regulation",
+        "Tool"
       ],
       "doi": "10.1038/s41592-025-02748-6",
       "paper_url": "https://doi.org/10.1038/s41592-025-02748-6",
@@ -4918,7 +5640,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ncbi-nlp/GeneAgent"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "theory",
@@ -4928,7 +5655,10 @@
       "venue": "Cell",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Review",
+        "Tool",
+        "Dynamics"
       ],
       "doi": "10.1016/j.cell.2025.06.048",
       "paper_url": "https://doi.org/10.1016/j.cell.2025.06.048",
@@ -4941,7 +5671,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/PhysiCell-Models/grammar_samples"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "gremln",
@@ -4951,17 +5686,15 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Representation Learning"
       ],
       "doi": "10.1101/2025.07.03.663009",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.07.03.663009",
       "code_url": "https://github.com/czi-ai/GREmLN",
       "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.07.03.663009"
-        },
         {
           "label": "中文解读",
           "url": "https://mp.weixin.qq.com/s/YlgiFnb-6MmhAcE5qZAwKA"
@@ -4972,7 +5705,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/czi-ai/GREmLN/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "causcell",
@@ -4982,7 +5720,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Representation Learning",
+        "Dynamics"
       ],
       "doi": "10.1038/s41467-025-62008-1",
       "paper_url": "https://doi.org/10.1038/s41467-025-62008-1",
@@ -4999,7 +5739,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/bm2-lab/CausCell"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "clip-n",
@@ -5009,7 +5754,9 @@
       "venue": "Nature Biotechnology",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Perturbation",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41587-025-02729-2",
       "paper_url": "https://doi.org/10.1038/s41587-025-02729-2",
@@ -5022,7 +5769,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/AltschulerWu-Lab/CLIPn"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "drugpt",
@@ -5032,20 +5784,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": "10.1101/2025.07.25.665130",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.07.25.665130",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.07.25.665130"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "omnipert",
@@ -5055,20 +5806,19 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
+        "Foundation Model",
         "Perturbation"
       ],
       "doi": "10.1101/2025.07.02.662744",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.07.02.662744",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.07.02.662744"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "unagi",
@@ -5078,7 +5828,9 @@
       "venue": "Nature Biomedical Engineering",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Dynamics",
+        "Perturbation",
+        "Intervention Design"
       ],
       "doi": "10.1038/s41551-025-01423-7",
       "paper_url": "https://doi.org/10.1038/s41551-025-01423-7",
@@ -5091,7 +5843,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/mcgilldinglab/UNAGI"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "omiclip",
@@ -5101,7 +5858,10 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Spatial"
+        "Foundation Model",
+        "Spatial",
+        "Morphology",
+        "Multimodal"
       ],
       "doi": "10.1038/s41592-025-02707-1",
       "paper_url": "https://doi.org/10.1038/s41592-025-02707-1",
@@ -5114,7 +5874,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/GuangyuWangLab2021/Loki"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "octo-vc",
@@ -5124,7 +5889,10 @@
       "venue": "© by Noetik",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Spatial",
+        "Perturbation",
+        "Morphology"
       ],
       "doi": null,
       "paper_url": null,
@@ -5141,7 +5909,10 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "unicure",
@@ -5151,7 +5922,10 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Foundation Model",
+        "Perturbation",
+        "Multimodal",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": null,
@@ -5159,16 +5933,17 @@
       "code_url": "https://github.com/ZexiChen502/UniCure",
       "links": [
         {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/ZexiChen502/UniCure"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ZexiChen502/UniCure"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell-graphcompass",
@@ -5178,7 +5953,9 @@
       "venue": "National Science Review",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Representation Learning"
       ],
       "doi": "10.1093/nsr/nwaf255",
       "paper_url": "https://doi.org/10.1093/nsr/nwaf255",
@@ -5191,7 +5968,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/epang-ucas/Cell-Graph-Compass"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scprint",
@@ -5201,7 +5983,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41467-025-58699-1",
       "paper_url": "https://doi.org/10.1038/s41467-025-58699-1",
@@ -5214,7 +5998,14 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41467-025-58699-1",
+        "https://virtualcellmodels.cziscience.com/model/scprint",
+        "https://github.com/cantinilab/scPRINT"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellfm",
@@ -5224,7 +6015,10 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation",
+        "Gene Regulation"
       ],
       "doi": "10.1038/s41467-025-59926-5",
       "paper_url": "https://doi.org/10.1038/s41467-025-59926-5",
@@ -5241,7 +6035,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/biomed-AI/CellFM"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "c2s-scale",
@@ -5251,17 +6050,16 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning",
+        "Perturbation"
       ],
       "doi": "10.1101/2025.04.14.648850",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.1101/2025.04.14.648850",
       "code_url": "https://github.com/vandijklab/cell2sentence",
       "links": [
-        {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2025.04.14.648850"
-        },
         {
           "label": "中文解读",
           "url": "https://mp.weixin.qq.com/s/QTBpfyoNExkPN1fbqb6ggg"
@@ -5272,7 +6070,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/vandijklab/cell2sentence"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scnet",
@@ -5282,7 +6085,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Representation Learning",
+        "Gene Regulation"
       ],
       "doi": "10.1038/s41592-025-02627-0",
       "paper_url": "https://doi.org/10.1038/s41592-025-02627-0",
@@ -5295,7 +6099,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/madilabcode/scNET/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "procyon",
@@ -5305,7 +6114,9 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Protein",
+        "Multimodal"
       ],
       "doi": "10.1101/2024.12.10.627665",
       "paper_url": null,
@@ -5313,16 +6124,17 @@
       "code_url": "https://github.com/mims-harvard/ProCyon",
       "links": [
         {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2024.12.10.627665"
-        },
-        {
           "label": "project",
           "url": "https://zitniklab.hms.harvard.edu/ProCyon/"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/mims-harvard/ProCyon"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "subcell",
@@ -5332,7 +6144,10 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Morphology",
+        "Protein",
+        "Representation Learning"
       ],
       "doi": "10.1101/2024.12.06.627299",
       "paper_url": null,
@@ -5340,16 +6155,17 @@
       "code_url": "https://github.com/CellProfiling/subcell-embed",
       "links": [
         {
-          "label": "paper",
-          "url": "https://doi.org/10.1101/2024.12.06.627299"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/CellProfiling/subcell-embed"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/CellProfiling/subcell-embed/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "token-mol-1-0",
@@ -5359,7 +6175,8 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Related"
+        "Related",
+        "Multimodal"
       ],
       "doi": "10.1038/s41467-025-59628-y",
       "paper_url": "https://doi.org/10.1038/s41467-025-59628-y",
@@ -5372,7 +6189,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/jkwang93/Token-Mol/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "comment",
@@ -5382,7 +6204,9 @@
       "venue": "Nature Biotechnology Comment",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Review",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41587-025-02583-2",
@@ -5390,7 +6214,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "recursion",
@@ -5400,20 +6227,21 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Review",
+        "Perturbation",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/pdf/2505.14613",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/pdf/2505.14613"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "sctranslator",
@@ -5423,7 +6251,10 @@
       "venue": "Nature Biomedical Engineering",
       "status": "published",
       "tags": [
-        "Protein"
+        "Foundation Model",
+        "Protein",
+        "Multimodal",
+        "Perturbation"
       ],
       "doi": "10.1038/s41551-025-01528-z",
       "paper_url": "https://doi.org/10.1038/s41551-025-01528-z",
@@ -5431,7 +6262,12 @@
       "code_url": "https://github.com/TencentAILabHealthcare/scTranslator",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/TencentAILabHealthcare/scTranslator"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "mtiproteinimputation",
@@ -5441,7 +6277,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Protein"
+        "Protein",
+        "Spatial",
+        "Morphology"
       ],
       "doi": "10.1038/s41467-025-59788-x",
       "paper_url": "https://doi.org/10.1038/s41467-025-59788-x",
@@ -5449,7 +6287,12 @@
       "code_url": "https://github.com/goeckslab/MTIProteinImputation",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/goeckslab/MTIProteinImputation/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell-maps",
@@ -5459,7 +6302,11 @@
       "venue": "Nature",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Multimodal",
+        "Protein",
+        "Morphology",
+        "Dataset"
       ],
       "doi": "10.1038/s41586-025-08878-3",
       "paper_url": "https://doi.org/10.1038/s41586-025-08878-3",
@@ -5472,7 +6319,10 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cellflow",
@@ -5482,7 +6332,8 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Morphology"
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": null,
@@ -5490,16 +6341,17 @@
       "code_url": "https://github.com/theislab/CellFlow",
       "links": [
         {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/theislab/CellFlow"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/theislab/CellFlow/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "prophet",
@@ -5509,7 +6361,9 @@
       "venue": "bioRxiv",
       "status": "preprint",
       "tags": [
-        "Perturbation"
+        "Foundation Model",
+        "Perturbation",
+        "Multimodal"
       ],
       "doi": null,
       "paper_url": null,
@@ -5517,26 +6371,29 @@
       "code_url": "https://github.com/theislab/prophet",
       "links": [
         {
-          "label": "paper",
-          "url": "https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf"
-        },
-        {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/theislab/prophet"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/theislab/prophet/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "morphology-evaluating-feature-extraction-in-ovarian-cancer-cell-line-co-cultures",
       "label": null,
-      "title": "- [Morphology] Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-Cultures Using Deep Neural Networks",
+      "title": "Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-Cultures Using Deep Neural Networks",
       "year": 2025,
       "venue": "Communications Biology",
       "status": "published",
       "tags": [
-        "Morphology"
+        "Morphology",
+        "Perturbation",
+        "Benchmark"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s42003-025-07766-w",
@@ -5544,17 +6401,21 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "virtual-cell-grow-ai-virtual-cells-three-data-pillars-and-closed-loop-learning",
       "label": null,
-      "title": "- [Virtual Cell] Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning",
+      "title": "Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning",
       "year": 2025,
       "venue": "Cell Research",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Review"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41422-025-01101-y",
@@ -5567,17 +6428,21 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "virtual-cell-build-the-virtual-cell-with-artificial-intelligence-a-perspective-f",
       "label": null,
-      "title": "- [Virtual Cell] Build the Virtual Cell with Artificial Intelligence: A Perspective for Cancer Research",
+      "title": "Build the Virtual Cell with Artificial Intelligence: A Perspective for Cancer Research",
       "year": 2025,
       "venue": "Military Medical Research",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Review"
       ],
       "doi": null,
       "paper_url": "https://link.springer.com/article/10.1186/s40779-025-00591-6",
@@ -5585,7 +6450,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "ps",
@@ -5595,7 +6463,8 @@
       "venue": "Nature Cell Biology",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Tool"
       ],
       "doi": "10.1038/s41556-025-01626-9",
       "paper_url": "https://doi.org/10.1038/s41556-025-01626-9",
@@ -5608,7 +6477,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/davidliwei/PS/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "mixscale",
@@ -5618,7 +6492,10 @@
       "venue": "Nature Cell Biology",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Gene Regulation",
+        "Multimodal",
+        "Dataset"
       ],
       "doi": "10.1038/s41556-025-01622-z",
       "paper_url": "https://doi.org/10.1038/s41556-025-01622-z",
@@ -5631,7 +6508,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/satijalab/Mixscale/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scdrugmap",
@@ -5641,15 +6523,24 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Foundation Model",
+        "Perturbation",
+        "Tool"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-025-67481-2",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/QSong-github/scDrugMap",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41467-025-67481-2",
+        "https://github.com/QSong-github/scDrugMap"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "vcc-commentary",
@@ -5659,7 +6550,10 @@
       "venue": "Cell Commentary",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Virtual Cell",
+        "Benchmark",
+        "Perturbation",
+        "Review"
       ],
       "doi": null,
       "paper_url": "https://www.cell.com/cell/fulltext/S0092-8674(25)00675-0",
@@ -5676,7 +6570,10 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     },
     {
       "id": "czi-evaluation",
@@ -5686,7 +6583,9 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
-        "Benchmark"
+        "Benchmark",
+        "Virtual Cell",
+        "Review"
       ],
       "doi": null,
       "paper_url": null,
@@ -5694,16 +6593,15 @@
       "code_url": null,
       "links": [
         {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2507.10502"
-        },
-        {
           "label": "中文解读",
           "url": "https://mp.weixin.qq.com/s/5iGqIUMq1IoHEm0Ssl84-w"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "virtual-organs",
@@ -5713,7 +6611,10 @@
       "venue": "iCell",
       "status": "published",
       "tags": [
-        "Benchmark"
+        "Virtual Cell",
+        "Benchmark",
+        "Review",
+        "Related"
       ],
       "doi": "10.71373/IQHA9494",
       "paper_url": "https://doi.org/10.71373/IQHA9494",
@@ -5721,7 +6622,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "get",
@@ -5731,7 +6635,9 @@
       "venue": "Nature",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Gene Regulation",
+        "Multimodal"
       ],
       "doi": "10.1038/s41586-024-08391-z",
       "paper_url": "https://doi.org/10.1038/s41586-024-08391-z",
@@ -5744,7 +6650,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/GET-Foundation/get_model"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "zero-shot-perturbation",
@@ -5754,20 +6665,19 @@
       "venue": "arXiv",
       "status": "preprint",
       "tags": [
+        "Foundation Model",
         "Perturbation"
       ],
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2412.13478",
       "code_url": null,
-      "links": [
-        {
-          "label": "paper",
-          "url": "https://arxiv.org/abs/2412.13478"
-        }
-      ],
+      "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "transigen",
@@ -5777,7 +6687,9 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Representation Learning",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-024-49620-3",
@@ -5790,7 +6702,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/myzhengSIMM/TranSiGen"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "prnet",
@@ -5800,15 +6717,22 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Perturbation"
+        "Perturbation",
+        "Intervention Design"
       ],
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s41467-024-53457-1",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Perturbation-Response-Prediction/PRnet",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41467-024-53457-1",
+        "https://github.com/Perturbation-Response-Prediction/PRnet"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "genept",
@@ -5818,7 +6742,8 @@
       "venue": "Nature Biomedical Engineering",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41551-024-01284-6",
       "paper_url": "https://doi.org/10.1038/s41551-024-01284-6",
@@ -5831,7 +6756,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/yiqunchen/GenePT/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scimilarity",
@@ -5841,7 +6771,9 @@
       "venue": "Nature",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Tool"
       ],
       "doi": "10.1038/s41586-024-08411-y",
       "paper_url": "https://doi.org/10.1038/s41586-024-08411-y",
@@ -5854,7 +6786,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Genentech/scimilarity"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scfoundation",
@@ -5864,7 +6801,10 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Perturbation",
+        "Gene Regulation"
       ],
       "doi": "10.1038/s41592-024-02305-7",
       "paper_url": "https://doi.org/10.1038/s41592-024-02305-7",
@@ -5877,7 +6817,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/biomap-research/scFoundation"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "scgpt",
@@ -5887,7 +6832,11 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Multimodal",
+        "Perturbation",
+        "Gene Regulation"
       ],
       "doi": "10.1038/s41592-024-02201-0",
       "paper_url": "https://doi.org/10.1038/s41592-024-02201-0",
@@ -5900,7 +6849,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/bowang-lab/scGPT/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "tamgen",
@@ -5910,20 +6864,31 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Related"
+        "Related",
+        "Multimodal"
       ],
       "doi": "10.1038/s41467-024-53632-4",
       "paper_url": "https://doi.org/10.1038/s41467-024-53632-4",
       "preprint_url": null,
-      "code_url": "https://github.com/SigmaGenX/TamGen",
+      "code_url": "https://github.com/microsoft/TamGen",
       "links": [
         {
           "label": "ask deepwiki",
           "url": "https://deepwiki.com/SigmaGenX/TamGen"
+        },
+        {
+          "label": "publication code archive",
+          "url": "https://github.com/SigmaGenX/TamGen"
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/SigmaGenX/TamGen",
+        "https://github.com/microsoft/TamGen"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "genecompass",
@@ -5933,7 +6898,10 @@
       "venue": "Cell Research",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Gene Regulation",
+        "Perturbation"
       ],
       "doi": "10.1038/s41422-024-01034-y",
       "paper_url": "https://doi.org/10.1038/s41422-024-01034-y",
@@ -5946,7 +6914,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/xCompass-AI/GeneCompass"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "sctab",
@@ -5956,7 +6929,8 @@
       "venue": "Nature Communications",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41467-024-51059-5",
       "paper_url": "https://doi.org/10.1038/s41467-024-51059-5",
@@ -5969,7 +6943,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/theislab/scTab"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "saturn",
@@ -5979,7 +6958,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41592-024-02191-z",
       "paper_url": "https://doi.org/10.1038/s41592-024-02191-z",
@@ -5992,7 +6972,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/snap-stanford/SATURN/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "cell2sentence",
@@ -6002,7 +6987,9 @@
       "venue": "ICML",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://icml.cc/virtual/2024/poster/34580",
@@ -6015,7 +7002,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/vandijklab/cell2sentence/blob/master/README.md"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "langcell",
@@ -6025,7 +7017,9 @@
       "venue": "ICML",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning"
       ],
       "doi": null,
       "paper_url": "https://icml.cc/virtual/2024/poster/34495",
@@ -6038,7 +7032,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/PharMolix/LangCell"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "cellplm",
@@ -6048,7 +7047,9 @@
       "venue": "ICLR",
       "status": "published",
       "tags": [
-        "Foundation Model"
+        "Foundation Model",
+        "Representation Learning",
+        "Spatial"
       ],
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=BKXvPDekud",
@@ -6061,7 +7062,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/OmicsML/CellPLM"
+      ],
+      "tag_review_basis": "project_documentation"
     },
     {
       "id": "scprotein",
@@ -6071,7 +7077,8 @@
       "venue": "Nature Methods",
       "status": "published",
       "tags": [
-        "Protein"
+        "Protein",
+        "Representation Learning"
       ],
       "doi": "10.1038/s41592-024-02214-9",
       "paper_url": "https://doi.org/10.1038/s41592-024-02214-9",
@@ -6079,7 +7086,12 @@
       "code_url": "https://github.com/TencentAILabHealthcare/scPROTEIN",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/TencentAILabHealthcare/scPROTEIN"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "sclinear",
@@ -6089,7 +7101,8 @@
       "venue": "Communications Biology",
       "status": "published",
       "tags": [
-        "Protein"
+        "Protein",
+        "Multimodal"
       ],
       "doi": "10.1038/s42003-024-05958-4",
       "paper_url": "https://doi.org/10.1038/s42003-024-05958-4",
@@ -6097,7 +7110,12 @@
       "code_url": "https://github.com/DanHanh/scLinear",
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/DanHanh/scLinear"
+      ],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "perturbation-proteomics",
@@ -6107,7 +7125,9 @@
       "venue": "Cell Genomics",
       "status": "published",
       "tags": [
-        "Protein"
+        "Protein",
+        "Perturbation",
+        "Review"
       ],
       "doi": "10.1016/j.xgen.2024.100691",
       "paper_url": "https://doi.org/10.1016/j.xgen.2024.100691",
@@ -6115,7 +7135,10 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
     },
     {
       "id": "stanford-phd-thesis",
@@ -6125,7 +7148,10 @@
       "venue": "© by Yusuf Roohani",
       "status": "published",
       "tags": [
-        "Virtual Cell"
+        "Virtual Cell",
+        "Perturbation",
+        "Intervention Design",
+        "Review"
       ],
       "doi": null,
       "paper_url": "https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf",
@@ -6142,7 +7168,10 @@
         }
       ],
       "added_at": null,
-      "updated_at": null
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "title_and_metadata"
     }
   ]
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a compact Research Papers block in README.md from Schema v2."""
+"""Render all research papers from the structured catalog; preserve year anchors."""
 from __future__ import annotations
 
 import argparse
@@ -46,7 +46,8 @@ def render_entry(paper: dict) -> str:
     if paper.get("preprint_url"):
         links.append(f"[[preprint]({paper['preprint_url']})]")
     if paper.get("code_url"):
-        links.append(f"[[code]({paper['code_url']})]")
+        code_label = "code (project)" if paper.get("code_status") == "project_match" else "code"
+        links.append(f"[[{code_label}]({paper['code_url']})]")
         repo = github_repo_path(paper["code_url"])
         if repo:
             links.append(
@@ -73,34 +74,14 @@ def render(papers: list[dict]) -> str:
     by_year: dict[int, list[dict]] = defaultdict(list)
     for paper in papers:
         by_year[int(paper["year"])].append(paper)
-
-    recent = recent_papers(papers)
-    recent_ids = {paper["id"] for paper in recent}
-    chunks: list[str] = [
-        "### ✨ Recent additions",
-        "",
-        f"The {RECENT_VISIBLE} most recent catalog additions are shown below. "
-        "Use the [searchable catalog](https://boom5426.github.io/Awesome-Virtual-Cell/) "
-        "to browse and filter the full collection.",
-        "",
-    ]
-    for paper in recent:
-        chunks += [render_entry(paper), ""]
-
-    chunks += ["### 📂 More papers by year", ""]
-    for year in sorted(by_year, reverse=True):
-        remaining = [p for p in by_year[year] if p["id"] not in recent_ids]
-        if not remaining:
-            continue
-        chunks += [
-            f'<a id="{year}"></a>',
-            "<details>",
-            f"<summary><b>{year} — {len(remaining)} more papers</b></summary>",
-            "",
-        ]
-        for paper in remaining:
+    years = sorted(by_year, reverse=True)
+    navigation = " · ".join(f"[{y} ({len(by_year[y])})](#{y})" for y in years)
+    chunks = [f"**{len(papers)} papers** · {navigation}", "",
+              "Papers can have multiple topics. [Search and combine topics](https://boom5426.github.io/Awesome-Virtual-Cell/) · [Tag definitions](docs/taxonomy.md)", ""]
+    for year in years:
+        chunks += [f'<a id="{year}"></a>', f"### 🗓️ {year} — {len(by_year[year])} papers", ""]
+        for paper in by_year[year]:
             chunks += [render_entry(paper), ""]
-        chunks += ["</details>", ""]
     return "\n".join(chunks).rstrip() + "\n"
 
 

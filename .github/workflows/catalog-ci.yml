@@ -6,6 +6,7 @@ on:
     paths:
       - "README.md"
       - "data/**"
+      - "config/**"
       - "scripts/build_readme.py"
       - "scripts/build_catalog.py"
       - "scripts/build_exports.py"
@@ -23,6 +24,7 @@ on:
     paths:
       - "README.md"
       - "data/**"
+      - "config/**"
       - "scripts/build_readme.py"
       - "scripts/build_catalog.py"
       - "scripts/build_exports.py"
@@ -58,6 +60,8 @@ jobs:
         run: python scripts/build_readme.py --check
       - name: Run unit tests
         run: python -m unittest discover -s tests
+      - name: Test catalog search and exports
+        run: node tests/test_catalog_ui.cjs
       - name: Check generated exports
         run: |
           cp exports/papers.csv /tmp/papers.before.csv
