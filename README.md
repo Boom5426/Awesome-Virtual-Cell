@@ -17,6 +17,26 @@ Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popul
 
 For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
 
+<p align="center">
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🔎_Searchable_Catalog-275_papers-0B6E99?style=for-the-badge" /></a>
+  <a href="data/papers.json"><img src="https://img.shields.io/badge/🗂_Structured_Data-JSON-24B6A6?style=for-the-badge" /></a>
+  <a href="docs/architecture.md"><img src="https://img.shields.io/badge/⚙️_V2_Architecture-source_of_truth-6B7280?style=for-the-badge" /></a>
+</p>
+
+<a id="start-here"></a>
+## 🚀 Start Here
+
+New to virtual cell research? Pick a track instead of reading the full list from top to bottom.
+
+| Goal | Recommended entry points |
+| --- | --- |
+| 🧬 **Understand the field** | [Cell perspective](https://doi.org/10.1016/j.cell.2024.11.015) · [Nature perspective](https://www.nature.com/articles/s41586-025-08710-y) · [The virtual cell](https://www.nature.com/articles/s41592-025-02951-5) |
+| 🧫 **Predict perturbations** | [GEARS](https://www.nature.com/articles/s41587-023-01905-6) · [CellOT](https://www.nature.com/articles/s41592-023-01969-x) · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) |
+| 🧠 **Foundation & world models** | [Geneformer](https://doi.org/10.1038/s41586-023-06139-9) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Speciesformer](https://doi.org/10.64898/2026.09.22.752128) |
+| 🖼️ **Multimodal & spatial** | [Multimodal foundation transformer](https://www.nature.com/articles/s41592-025-02918-6) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) · [TERRA](https://doi.org/10.64898/2026.07.29.741565) |
+| 🎯 **Intervention & discovery** | [PHAROS](https://doi.org/10.64898/2026.09.08.749477) · [Virtual Cell Challenge 2026](https://doi.org/10.1016/j.cell.2026.08.004) |
+| 📏 **Evaluation & benchmarking** | [Virtual Cell Challenge 2026](https://doi.org/10.1016/j.cell.2026.08.004) · [Score Distributions, Not Cells](https://arxiv.org/abs/2607.04595) · [Projection Basis](https://doi.org/10.64898/2026.07.07.737004) |
+
 <a id="news"></a>
 ## 📰 News
 
@@ -54,6 +74,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 <a id="contents"></a>
 ## 🧭 Contents
 
+- [Start Here](#start-here)
 - [News](#news)
 - [Scope](#scope)
 - [Inclusion Rules](#inclusion-rules)
@@ -124,6 +145,8 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 ## 🔬 Research Papers
 
 Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`, `[Morphology]`, `[Protein]`, `[Agent]`, `[Benchmark]`, `[Tool]`, `[Related]`. Tags are lightweight and non-exhaustive.
+
+<!-- GENERATED:RESEARCH-PAPERS:START -->
 
 <a id="2026"></a>
 ### 🗓️ 2026
@@ -683,6 +706,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 - **[Perturbation Proteomics]** `[Protein]` AI-Empowered Perturbation Proteomics for Complex Biological Systems (**Cell Genomics 2024**) [[paper](https://doi.org/10.1016/j.xgen.2024.100691)]
 
 - **[Stanford PhD Thesis]** `[Virtual Cell]` Engineering Cells Using Artificial Intelligence (**© by Yusuf Roohani 2024**) [[paper](https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf)] [[GitHub Homepage](https://github.com/yhr91)] [[Arc profile](https://arcinstitute.org/news/yusuf-roohani-virtual-cell-architecture)]
+
+<!-- GENERATED:RESEARCH-PAPERS:END -->
 
 <a id="datasets"></a>
 ## 🗃️ Datasets

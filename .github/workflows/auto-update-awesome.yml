@@ -1,11 +1,7 @@
 name: Auto Update Awesome Virtual Cell
 
-# Scheduled auto-updates are disabled. This workflow now runs only when it is
-# dispatched manually from the Actions tab. To re-enable the two-week schedule,
-# restore the `schedule` trigger below and the off-week skip step it needs:
-#
-#   schedule:
-#     - cron: "0 3 * * 1"
+# V2: discovery writes structured data first, then regenerates README/catalog.
+# Scheduled updates remain disabled; run manually until the new pipeline is reviewed.
 on:
   workflow_dispatch:
 
@@ -14,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  update-readme:
+  update-catalog:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,8 +21,16 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate README updates
-        run: python scripts/auto_update_readme.py
+      - name: Discover and update structured catalog
+        run: python scripts/auto_update_catalog.py
+
+      - name: Validate generated state
+        run: |
+          python scripts/validate_catalog.py
+          python scripts/build_readme.py --check
+          cp docs/catalog.html /tmp/catalog.before.html
+          python scripts/build_catalog.py
+          diff -u /tmp/catalog.before.html docs/catalog.html
 
       - name: Check for changes
         id: changes
@@ -37,7 +41,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create pull request
+      - name: Create draft pull request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
@@ -45,10 +49,12 @@ jobs:
           branch: auto/update-awesome-${{ github.run_id }}
           delete-branch: true
           add-paths: |
+            data/papers.json
             README.md
+            docs/catalog.html
             auto_update_summary.md
-          commit-message: "docs: automate awesome virtual cell updates"
-          title: "docs: automated awesome virtual cell update"
+          commit-message: "docs: update structured virtual cell catalog"
+          title: "docs: structured virtual cell literature update"
           body-path: auto_update_summary.md
           draft: true
           labels: |

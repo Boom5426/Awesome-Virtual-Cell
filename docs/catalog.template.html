@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Awesome Virtual Cell — Searchable Catalog</title>
+<style>
+:root{--bg:#f6f8fa;--card:#fff;--text:#1f2937;--muted:#667085;--accent:#0b6e99;--teal:#24b6a6;--line:#e5e7eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1180px;margin:auto;padding:36px 22px 64px}
+.hero{padding:34px;border-radius:22px;color:white;background:linear-gradient(135deg,#071a2b,#0b6e99 55%,#24b6a6);box-shadow:0 15px 42px #0b6e9922}
+.hero h1{margin:0 0 8px;font-size:clamp(32px,5vw,54px)}.hero p{margin:0;opacity:.9}
+.stats{display:flex;gap:9px;flex-wrap:wrap;margin-top:21px}.stat{padding:7px 11px;border:1px solid #ffffff2d;border-radius:999px;background:#ffffff16;font-size:14px}
+.controls{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:10px;margin:24px 0 10px}
+input,select{width:100%;padding:12px 13px;border:1px solid var(--line);border-radius:12px;background:white;font:inherit;color:inherit;outline:none}
+input:focus,select:focus{border-color:var(--accent);box-shadow:0 0 0 3px #0b6e9914}
+.meta{color:var(--muted);font-size:14px;margin:11px 2px 14px}.grid{display:grid;gap:10px}
+.paper{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:16px 18px;box-shadow:0 3px 13px #0f172a08}
+.top{display:flex;justify-content:space-between;gap:18px}.title{font-weight:720;line-height:1.38}.venue{color:var(--muted);font-size:13px;white-space:nowrap}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}.tag{font-size:12px;padding:3px 7px;border-radius:999px;color:var(--accent);background:#0b6e9910;border:1px solid #0b6e9920}
+.links{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px}.links a{font-size:13px;font-weight:650;color:var(--accent);text-decoration:none}.links a:hover{text-decoration:underline}
+.empty{text-align:center;padding:60px;color:var(--muted)}footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:760px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.top{display:block}.venue{margin-top:6px}}
+</style>
+</head>
+<body><main class="wrap">
+<section class="hero"><h1>🧬 Awesome Virtual Cell</h1><p>Searchable research catalog generated from the structured source of truth.</p>
+<div class="stats"><span class="stat" id="total"></span><span class="stat" id="published"></span><span class="stat" id="withcode"></span><span class="stat" id="topiccount"></span></div></section>
+<section class="controls">
+<input id="q" type="search" placeholder="Search title, label, venue or topic…">
+<select id="year"><option value="">All years</option></select>
+<select id="tag"><option value="">All topics</option></select>
+<select id="status"><option value="">All statuses</option><option value="published">Published</option><option value="preprint">Preprint</option></select>
+</section>
+<div class="meta" id="count"></div><section class="grid" id="grid"></section>
+<footer>README is the human view · <code>data/papers.json</code> is the source of truth</footer>
+</main>
+<script>
+const PAPERS=__PAPERS_JSON__;
+const byId=id=>document.getElementById(id);
+const esc=s=>String(s==null?"":s).replace(/[&<>"\']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","\'":"&#39;"}[m]});
+const years=[...new Set(PAPERS.map(p=>p.year))].sort((a,b)=>b-a);
+const tags=[...new Set(PAPERS.flatMap(p=>p.tags||[]))].sort();
+years.forEach(y=>byId("year").insertAdjacentHTML("beforeend","<option>"+y+"</option>"));
+tags.forEach(t=>byId("tag").insertAdjacentHTML("beforeend","<option>"+esc(t)+"</option>"));
+byId("total").textContent=PAPERS.length+" papers";
+byId("published").textContent=PAPERS.filter(p=>p.status==="published").length+" published";
+byId("withcode").textContent=PAPERS.filter(p=>p.code_url).length+" with code";
+byId("topiccount").textContent=tags.length+" topic tags";
+function link(label,url){return url?"<a target=\"_blank\" rel=\"noreferrer\" href=\""+esc(url)+"\">"+label+" ↗</a>":""}
+function render(){
+ const q=byId("q").value.trim().toLowerCase(),year=byId("year").value,tag=byId("tag").value,status=byId("status").value;
+ const rows=PAPERS.filter(p=>{const hay=[p.title,p.label,p.venue].concat(p.tags||[]).join(" ").toLowerCase();return(!q||hay.includes(q))&&(!year||String(p.year)===year)&&(!tag||(p.tags||[]).includes(tag))&&(!status||p.status===status)});
+ byId("count").textContent="Showing "+rows.length+" of "+PAPERS.length+" papers";
+ if(!rows.length){byId("grid").innerHTML="<div class=\"empty\">No papers match these filters.</div>";return}
+ byId("grid").innerHTML=rows.map(p=>"<article class=\"paper\"><div class=\"top\"><div class=\"title\">"+esc(p.label?"["+p.label+"] ":"")+esc(p.title)+"</div><div class=\"venue\">"+esc(p.venue||"")+" · "+p.year+"</div></div><div class=\"tags\">"+(p.tags||[]).map(t=>"<span class=\"tag\">"+esc(t)+"</span>").join("")+"<span class=\"tag\">"+esc(p.status)+"</span></div><div class=\"links\">"+link("Paper",p.paper_url||p.preprint_url)+link("Code",p.code_url)+(p.doi?link("DOI","https://doi.org/"+p.doi):"")+"</div></article>").join("");
+}
+["q","year","tag","status"].forEach(id=>byId(id).addEventListener("input",render));render();
+</script></body></html>
