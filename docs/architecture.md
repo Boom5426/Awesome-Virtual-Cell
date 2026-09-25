@@ -69,7 +69,7 @@ Public target URL:
 https://boom5426.github.io/Awesome-Virtual-Cell/
 ```
 
-`.github/workflows/pages.yml` deploys the `docs/` directory with the official GitHub Pages actions. The repository must have Pages configured to use **GitHub Actions** as its source before production deployment.
+GitHub Pages is published from the repository through the built-in Pages/Jekyll deployment. The root `index.html` is generated from the same structured catalog, so the public homepage opens directly into the searchable interface.
 
 ## Automated literature updates
 
