@@ -964,3 +964,13 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 ## 🤝 Contributing
 
 If you want to suggest a paper, dataset, benchmark, blog, or project, open an Issue or Pull Request. Please follow [CONTRIBUTING.md](CONTRIBUTING.md) for the submission format and quality bar.
+
+<a id="star-history"></a>
+## ⭐ Star History
+
+<p align="center">
+  <a href="https://star-history.com/#Boom5426/Awesome-Virtual-Cell&Date">
+    <img src="https://api.star-history.com/svg?repos=Boom5426/Awesome-Virtual-Cell&type=Date" alt="Star History Chart" />
+  </a>
+</p>
+
