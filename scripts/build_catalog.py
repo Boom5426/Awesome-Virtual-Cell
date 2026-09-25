@@ -10,6 +10,7 @@ DATA = ROOT / "data" / "papers.json"
 TEMPLATE = ROOT / "docs" / "catalog.template.html"
 CATALOG = ROOT / "docs" / "catalog.html"
 INDEX = ROOT / "docs" / "index.html"
+ROOT_INDEX = ROOT / "index.html"
 PLACEHOLDER = "__PAPERS_JSON__"
 
 
@@ -28,7 +29,8 @@ def main() -> int:
     document = render()
     CATALOG.write_text(document, encoding="utf-8")
     INDEX.write_text(document, encoding="utf-8")
-    print(f"Wrote docs/index.html and docs/catalog.html with {len(payload['papers'])} papers")
+    ROOT_INDEX.write_text(document, encoding="utf-8")
+    print(f"Wrote index.html, docs/index.html, and docs/catalog.html with {len(payload['papers'])} papers")
     return 0
 
 
