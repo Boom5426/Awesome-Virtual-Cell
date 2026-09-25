@@ -1,40 +1,63 @@
-# Automated README Updates
+# Automated Literature Updates
 
-**Status: the schedule is disabled.** The workflow no longer runs on its own. It
-stays in the repository so it can be dispatched by hand from the Actions tab, and
-the two-week `schedule` trigger is commented out at the top of the workflow file
-if you want it back. README updates are curated manually for now.
+**V2 status: data-first, manual dispatch.**
 
-This repository includes a GitHub Actions workflow that proposes literature updates as a draft pull request.
+The automation still runs only when manually dispatched from the Actions tab, but it no longer edits the Research Papers section directly. New research-paper candidates are written to the structured catalog first.
+
+## Pipeline
+
+```text
+Crossref + curated seeds
+        ↓
+candidate discovery
+        ↓
+dedupe against data/papers.json
+        ↓
+data/papers.json
+   ↙           ↘
+README.md   docs/catalog.html
+        ↓
+validation
+        ↓
+draft pull request
+```
 
 ## What It Does
 
-- runs on manual dispatch only
-- scans a small set of curated update queries
+- scans curated Crossref queries plus high-priority seeded candidates
 - applies repository-specific scope and de-duplication rules
-- updates `README.md` when high-confidence candidates are found
+- currently accepts **Research Papers** into the v2 structured pipeline
+- writes accepted candidates to `data/papers.json`
+- regenerates `README.md` and the searchable catalog
+- validates duplicate titles, duplicate DOIs, metadata, and generated-file synchronization
 - opens a **draft PR** instead of pushing to `main`
 
-## Review Model
-
-The automation is intentionally conservative:
-
-- it limits the number of additions per run
-- it prefers high-signal venues and clearly relevant titles
-- it writes a PR summary to explain why each item was proposed
-
-You still review the PR before merge.
+Dataset/resource automation remains manual until those sections are migrated to structured data.
 
 ## Files
 
 - workflow: `.github/workflows/auto-update-awesome.yml`
 - rules: `config/auto_update_rules.json`
-- update script: `scripts/auto_update_readme.py`
+- v2 updater: `scripts/auto_update_catalog.py`
+- discovery helpers (legacy-compatible): `scripts/auto_update_readme.py`
+- validator: `scripts/validate_catalog.py`
+- README generator: `scripts/build_readme.py`
+- catalog generator: `scripts/build_catalog.py`
 
 ## Manual Run
 
-To test locally:
+Preview without writing:
 
 ```bash
-python scripts/auto_update_readme.py --dry-run
+python scripts/auto_update_catalog.py --dry-run
 ```
+
+Run the full structured update:
+
+```bash
+python scripts/auto_update_catalog.py
+python scripts/validate_catalog.py
+python scripts/build_readme.py --check
+```
+
+The GitHub Action performs these checks before creating a draft PR.
