@@ -12,7 +12,7 @@ DATA = ROOT / "data" / "papers.json"
 README = ROOT / "README.md"
 START = "<!-- GENERATED:RESEARCH-PAPERS:START -->"
 END = "<!-- GENERATED:RESEARCH-PAPERS:END -->"
-RECENT_VISIBLE = 12
+RECENT_VISIBLE = 10
 
 
 def load_papers() -> list[dict]:
