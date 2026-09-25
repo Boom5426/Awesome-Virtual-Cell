@@ -1,4 +1,4 @@
-name: Validate v2 Catalog
+name: Validate Catalog
 
 on:
   push:
@@ -7,13 +7,10 @@ on:
       - "data/**"
       - "scripts/build_readme.py"
       - "scripts/build_catalog.py"
+      - "scripts/build_exports.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
       - "scripts/publication_watcher.py"
-      - "scripts/build_exports.py"
-      - "exports/**"
-      - "scripts/publication_watcher.py"
-      - "scripts/build_exports.py"
       - "exports/**"
       - "docs/catalog.template.html"
       - "docs/catalog.html"
@@ -27,8 +24,11 @@ on:
       - "data/**"
       - "scripts/build_readme.py"
       - "scripts/build_catalog.py"
+      - "scripts/build_exports.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
+      - "scripts/publication_watcher.py"
+      - "exports/**"
       - "docs/catalog.template.html"
       - "docs/catalog.html"
       - "docs/index.html"

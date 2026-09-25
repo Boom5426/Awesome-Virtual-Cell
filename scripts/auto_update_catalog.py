@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Data-first literature updater for Awesome-Virtual-Cell v2.
-
-Discovery reuses the conservative candidate logic from auto_update_readme.py,
-but accepted research-paper candidates are written to data/papers.json first.
-README.md and docs/catalog.html are then regenerated from structured data.
-"""
+"""Data-first literature updater for Awesome-Virtual-Cell Schema v2."""
 from __future__ import annotations
 
 import argparse
@@ -23,7 +18,10 @@ SUMMARY_PATH = ROOT / "auto_update_summary.md"
 
 
 def load_catalog() -> dict:
-    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != 2:
+        raise SystemExit("Expected data/papers.json schema_version=2")
+    return payload
 
 
 def catalog_keys(payload: dict) -> set[str]:
@@ -39,7 +37,8 @@ def catalog_keys(payload: dict) -> set[str]:
         ):
             if value:
                 keys.add(discovery.normalize_text(str(value)))
-        for value in (paper.get("links") or {}).values():
+        for link in paper.get("links", []):
+            value = link.get("url") if isinstance(link, dict) else None
             if value:
                 keys.add(discovery.normalize_text(str(value)))
     return keys
@@ -54,7 +53,9 @@ def doi_from_candidate(candidate: discovery.Candidate) -> str | None:
 
 def status_for(candidate: discovery.Candidate) -> str:
     venue = candidate.venue.lower()
-    return "preprint" if any(x in venue for x in ("biorxiv", "arxiv", "research square", "preprint")) else "published"
+    return "preprint" if any(
+        x in venue for x in ("biorxiv", "medrxiv", "arxiv", "research square", "preprint")
+    ) else "published"
 
 
 def slug(value: str) -> str:
@@ -63,31 +64,38 @@ def slug(value: str) -> str:
 
 
 def candidate_to_record(candidate: discovery.Candidate) -> dict:
+    status = status_for(candidate)
     doi = doi_from_candidate(candidate)
+    primary = candidate.primary_link
+    today = dt.date.today().isoformat()
     return {
         "id": slug(candidate.label or candidate.title),
         "label": candidate.label or None,
         "title": candidate.title.strip(),
         "year": int(candidate.year),
         "venue": candidate.venue.strip(),
-        "status": status_for(candidate),
+        "status": status,
         "tags": [candidate.tag] if candidate.tag else [],
         "doi": doi,
-        "paper_url": candidate.primary_link,
-        "preprint_url": None,
+        "paper_url": primary if status == "published" else None,
+        "preprint_url": primary if status == "preprint" else None,
         "code_url": candidate.code_link,
-        "links": [],\n        "added_at": dt.date.today().isoformat(),\n        "updated_at": dt.date.today().isoformat(),
+        "links": (
+            [{"label": "dataset", "url": candidate.dataset_link}]
+            if candidate.dataset_link else []
+        ),
+        "added_at": today,
+        "updated_at": today,
     }
 
 
 def merge_records(payload: dict, candidates: list[discovery.Candidate]) -> dict:
     new_records = [candidate_to_record(c) for c in candidates]
-    papers = new_records + list(payload.get("papers", []))
-    papers.sort(key=lambda p: -int(p["year"]))
-    payload = dict(payload)
-    payload["papers"] = papers
-    payload["paper_count"] = len(papers)
-    return payload
+    updated = dict(payload)
+    updated["papers"] = new_records + list(payload.get("papers", []))
+    updated["paper_count"] = len(updated["papers"])
+    updated["schema_version"] = 2
+    return updated
 
 
 def summary_markdown(candidates: list[discovery.Candidate]) -> str:
@@ -98,7 +106,7 @@ def summary_markdown(candidates: list[discovery.Candidate]) -> str:
         f"- Date: {today}",
         f"- Proposed research papers: {len(candidates)}",
         "- Source of truth: `data/papers.json`",
-        "- Generated views: `README.md`, web catalog, CSV, and BibTeX",
+        "- Generated views: README, web catalog, CSV, and BibTeX",
         "",
         "## Proposed Additions",
         "",
@@ -118,7 +126,7 @@ def summary_markdown(candidates: list[discovery.Candidate]) -> str:
         "",
         "- This PR is intentionally created as a draft.",
         "- Verify scientific relevance and metadata before merging.",
-        "- Dataset/resource candidates remain manual during the v2 migration.",
+        "- Dataset/resource sections remain Markdown-first for now.",
         "",
     ]
     return "\n".join(lines)
@@ -126,9 +134,12 @@ def summary_markdown(candidates: list[discovery.Candidate]) -> str:
 
 def regenerate_views() -> None:
     current = build_readme.README.read_text(encoding="utf-8")
-    target = build_readme.updated_readme(current, build_readme.render(build_readme.load_papers()))
+    target = build_readme.updated_readme(
+        current, build_readme.render(build_readme.load_papers())
+    )
     build_readme.README.write_text(target, encoding="utf-8")
-    build_catalog.main()\n    build_exports.main()
+    build_catalog.main()
+    build_exports.main()
 
 
 def main() -> int:
@@ -140,9 +151,11 @@ def main() -> int:
     rules = discovery.load_rules()
     payload = load_catalog()
     cutoff = (dt.date.today() - dt.timedelta(days=180)).isoformat()
-    candidates = discovery.seeded_manual_candidates() + discovery.crossref_candidates(rules, cutoff)
+    candidates = (
+        discovery.seeded_manual_candidates()
+        + discovery.crossref_candidates(rules, cutoff)
+    )
 
-    # V2 source-of-truth migration currently covers Research Papers only.
     candidates = [c for c in candidates if c.section == "research"]
     unique = discovery.dedupe_candidates(candidates, catalog_keys(payload))
     limit = args.max_additions or int(rules["max_additions_per_run"])
@@ -150,7 +163,8 @@ def main() -> int:
 
     if not chosen:
         SUMMARY_PATH.write_text(
-            "# Automated Structured Catalog Update\n\n- No high-confidence research-paper additions were found.\n",
+            "# Automated Structured Catalog Update\n\n"
+            "- No high-confidence research-paper additions were found.\n",
             encoding="utf-8",
         )
         print("No changes.")
@@ -161,7 +175,10 @@ def main() -> int:
         return 0
 
     updated = merge_records(payload, chosen)
-    DATA_PATH.write_text(json.dumps(updated, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    DATA_PATH.write_text(
+        json.dumps(updated, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+    )
     regenerate_views()
     SUMMARY_PATH.write_text(summary_markdown(chosen), encoding="utf-8")
     print(f"Updated structured catalog with {len(chosen)} additions.")
