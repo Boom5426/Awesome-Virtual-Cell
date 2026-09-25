@@ -26,7 +26,7 @@ def load_papers() -> list[dict]:
 def github_repo_path(url: str | None) -> str | None:
     if not url:
         return None
-    match = re.search(r"github\\.com/([^/]+/[^/#?]+)", url)
+    match = re.search(r"github\.com/([^/]+/[^/#?]+)", url)
     return match.group(1).removesuffix(".git") if match else None
 
 
