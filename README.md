@@ -4,25 +4,27 @@
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/stargazers"><img src="https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Stars" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/commits/main"><img src="https://img.shields.io/github/last-commit/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Updated" /></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=github" /></a>
+</p>
+
+<p align="center"><b>A curated gateway to papers, datasets, benchmarks, and community resources for AI-powered virtual cell research.</b></p>
+
+<p align="center">
+  Virtual Cells &nbsp;·&nbsp; Perturbation &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Spatial &nbsp;·&nbsp; Agents
 </p>
 
 <p align="center">
   <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🔎_Search_&_Filter-275+_Papers-0B6E99?style=for-the-badge" alt="Search and filter the Awesome Virtual Cell catalog" /></a>
-  <a href="data/papers.json"><img src="https://img.shields.io/badge/🗂_Structured_Data-JSON-24B6A6?style=for-the-badge" alt="Structured paper data" /></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/🤝_Contribute-PRs_Welcome-6B7280?style=for-the-badge" alt="Contribute to Awesome Virtual Cell" /></a>
 </p>
 
 <p align="center">
-  <b>Virtual Cells</b> &nbsp;·&nbsp; <b>Perturbation</b> &nbsp;·&nbsp; <b>Foundation Models</b> &nbsp;·&nbsp; <b>Spatial</b> &nbsp;·&nbsp; <b>Agents</b>
+  <sub>
+    <a href="#start-here">Start Here</a> ·
+    <a href="#news">Latest Updates</a> ·
+    <a href="#research-papers">Papers</a> ·
+    <a href="#datasets">Datasets</a> ·
+    <a href="#challenges-and-competitions">Challenges</a>
+  </sub>
 </p>
-
-A curated list of papers, datasets, benchmarks, talks, and community resources for AI-powered virtual cell research.
-
-Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popularized by the *Cell* perspective ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015) The focus of this repository is broad but practical: resources that help researchers understand, model, benchmark, or build virtual cells and related cellular foundation models.
-
-For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).  
-<sub>[Architecture](docs/architecture.md) · [Automation](docs/automation.md) · [Start Here](#start-here) · [Research Papers](#research-papers) · [Datasets](#datasets)</sub>
 
 <a id="start-here"></a>
 ## 🚀 Start Here
@@ -39,7 +41,7 @@ New to virtual cell research? Pick a track instead of reading the full list from
 | 📏 **Evaluation & benchmarking** | [Virtual Cell Challenge 2026](https://doi.org/10.1016/j.cell.2026.08.004) · [Score Distributions, Not Cells](https://arxiv.org/abs/2607.04595) · [Projection Basis](https://doi.org/10.64898/2026.07.07.737004) |
 
 <a id="news"></a>
-## 📰 News
+## 📰 Latest Updates
 
 Deadlines for the live competitions first, then a dated log of what changed in this list. Competition entries move into the log once they close.
 
@@ -73,12 +75,10 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 </details>
 
 <a id="contents"></a>
-## 🧭 Contents
+## 🧭 Browse the Repository
 
 - [Start Here](#start-here)
-- [News](#news)
-- [Scope](#scope)
-- [Inclusion Rules](#inclusion-rules)
+- [Latest Updates](#news)
 - [Overview Papers](#overview-papers)
 - [Research Papers](#research-papers)
 - [Datasets](#datasets)
@@ -88,20 +88,15 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 - [Historical and Foundational Works](#historical-and-foundational-works)
 - [Related Resources](#related-resources)
 
-<a id="scope"></a>
-## 🎯 Scope
+<details>
+<summary><b>About, data, and maintenance</b></summary>
 
-- In scope: virtual cell perspectives, perturbation modeling, single-cell and multimodal foundation models, spatial and morphology modeling, biological AI agents, datasets, benchmarks, and community resources closely connected to virtual cell research.
-- Also included: adjacent work that is broadly useful for the virtual cell community, especially when it contributes data, evaluation methods, or modeling tools for cellular systems.
-- Usually out of scope: generic biomedical AI work with weak cell-modeling relevance, low-confidence secondary sources, broken links, or items that do not add clear value beyond more central references already listed here.
+- [Scope](#scope)
+- [Inclusion Rules](#inclusion-rules)
+- [Repository & Data](#repository-data)
+- [Contributing](#contributing)
 
-<a id="inclusion-rules"></a>
-## ✅ Inclusion Rules
-
-- Prefer peer-reviewed papers, high-signal preprints, official project pages, and primary-source links.
-- Include code, datasets, project pages, or Chinese summaries when they are clearly useful.
-- Keep entries concise and broadly reusable for readers who are scanning the field.
-- Use lightweight tags in `Research Papers` only as browsing aids. They are intentionally approximate, not rigid taxonomy.
+</details>
 
 <a id="overview-papers"></a>
 ## 📚 Overview Papers
@@ -976,6 +971,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 <a id="related-resources"></a>
 ## 🔗 Related Resources
 
+- **[Awesome Scientific Figures]** Scientific figure ideas and plotting templates for research papers [[resource](Awesome-Scientific-Figures/README_Figure.md)]
+
 - **[Virtual Cell Challenge]** Official challenge site for evaluation and community updates [[homepage](https://virtualcellchallenge.org/)]
 
 - **[Virtual Embryo]** Interactive mouse development atlas with 3D reconstructions, annotated sections, and open REST and MCP endpoints [[site](https://virtualembryo.ai/)] [[challenge](https://virtualembryo.ai/challenge)]
@@ -985,6 +982,33 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 - **[VCell Software]** Long-running software environment for computational cell biology [[site](https://vcell.org/)]
 
 - **[Noetik OCTO-vc]** Technical report and demo for virtual cells in tissue [[report](https://www.noetik.ai/octo-vc)] [[demo](https://celleporter.noetik.ai/)]
+
+<a id="scope"></a>
+## 🎯 Scope
+
+Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popularized by the *Cell* perspective ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015) The repository is intentionally broad but practical: resources that help researchers understand, model, benchmark, or build virtual cells and related cellular foundation models.
+
+- In scope: virtual cell perspectives, perturbation modeling, single-cell and multimodal foundation models, spatial and morphology modeling, biological AI agents, datasets, benchmarks, and community resources closely connected to virtual cell research.
+- Also included: adjacent work that is broadly useful for the virtual cell community, especially when it contributes data, evaluation methods, or modeling tools for cellular systems.
+- Usually out of scope: generic biomedical AI work with weak cell-modeling relevance, low-confidence secondary sources, broken links, or items that do not add clear value beyond more central references already listed here.
+
+<a id="inclusion-rules"></a>
+## ✅ Inclusion Rules
+
+- Prefer peer-reviewed papers, high-signal preprints, official project pages, and primary-source links.
+- Include code, datasets, project pages, or Chinese summaries when they are clearly useful.
+- Keep entries concise and broadly reusable for readers who are scanning the field.
+- Use lightweight tags in `Research Papers` only as browsing aids. They are intentionally approximate, not rigid taxonomy.
+
+<a id="repository-data"></a>
+## 🧰 Repository & Data
+
+These links are mainly for reuse, contribution, and maintenance rather than day-to-day browsing.
+
+- **[Searchable catalog](https://boom5426.github.io/Awesome-Virtual-Cell/)** — filter papers by keyword, year, topic, and publication status.
+- **[Structured paper data](data/papers.json)** — machine-readable JSON backing the Research Papers section.
+- **[Architecture](docs/architecture.md)** — how structured data, generated views, validation, and automation fit together.
+- **[Automation](docs/automation.md)** — how literature updates are proposed and validated.
 
 <a id="contributing"></a>
 ## 🤝 Contributing
