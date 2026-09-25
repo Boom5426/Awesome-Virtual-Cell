@@ -1,0 +1,43 @@
+name: Verify Curated Catalog Package
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/curation-apply.yml]
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: verify-curated-package
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          name: curation-evidence-enriched
+          run-id: 36177680645
+          github-token: ${{ github.token }}
+          path: curation-evidence
+      - name: Assemble tested patch payload
+        run: cat maintenance/curation-20260926/part0.txt maintenance/curation-20260926/part1.txt maintenance/curation-20260926/part2.txt maintenance/curation-20260926/part3.txt > /tmp/curation-package.b64
+      - name: Apply locally, test every output, upload immutable blobs only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python maintenance/curation-20260926/apply.py --package /tmp/curation-package.b64 --evidence curation-evidence/evidence-enriched.json --upload
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verified-curation-build
+          path: verified-curation-build/
+          retention-days: 7
