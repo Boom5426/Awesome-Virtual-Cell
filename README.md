@@ -30,7 +30,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 **Updates**
 
-- `2026-09-25` September literature sweep: added Speciesformer, PHAROS, LucaCell, DeepSCENIC, scKITE, scRep, AnnFlux, the Cell Virtual Cell Challenge 2026 paper, and the new TIPS review; upgraded ProteinTalks from its 2025 preprint to the 2026 Nature article.
+- `2026-09-25` September literature sweep: added Speciesformer, PHAROS, LucaCell, DeepSCENIC, scKITE, scRep, AnnFlux, new Cell world-model papers, the Virtual Cell Challenge 2026 paper, and the TIPS review; upgraded ProteinTalks to Nature 2026 and STATE, Tahoe-100M, and scBaseCount to their Cell 2026 publications.
 - `2026-08-21` Added the Virtual Embryo Challenge (NeurIPS 2026), grouped both competitions under [Challenges and Competitions](#challenges-and-competitions), and started this News log.
 - `2026-08-17` Added World Model and JEPA papers, refreshed preprint links, corrected stale venue labels.
 - `2026-08-10` Added the Virtual Cell Challenge section covering both Arc editions.
@@ -103,6 +103,10 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 - **[Review]** AI virtual cells for drug discovery and pharmacology (**Trends in Pharmacological Sciences 2026**) [[paper](https://doi.org/10.1016/j.tips.2026.08.006)]
 
+- **[Cell Review]** A world model of the virtual cell (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.042)]
+
+- **[Cell Review]** World models for biomedicine (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.032)]
+
 - **[Nature Methods]** Towards predictive virtual embryos with genomics and AI (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 
 - **[Cell Perspective]** Empowering Biomedical Discovery with AI Agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)] [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
@@ -147,7 +151,7 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Biomni]** `[Agent]` Autonomous Biomedical Research with an Artificial Intelligence Agent (**Science 2026**) [[paper](https://doi.org/10.1126/science.adz4351)] [[preprint](https://doi.org/10.1101/2025.05.30.656746)] [[code](https://github.com/snap-stanford/biomni)] ![GitHub stars](https://img.shields.io/github/stars/snap-stanford/biomni.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/snap-stanford/Biomni)]
 
-- **[STATE]** `[Perturbation]` Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE (**Cell 2026, in press**) [[preprint](https://www.biorxiv.org/content/10.1101/2025.06.26.661135v2)] [[code](https://github.com/ArcInstitute/state)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/ArcInstitute/state)]
+- **[STATE]** `[Perturbation]` Predicting cellular responses to perturbation across diverse contexts with State (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.07.052)] [[preprint](https://www.biorxiv.org/content/10.1101/2025.06.26.661135v2)] [[code](https://github.com/ArcInstitute/state)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/state.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/ArcInstitute/state)]
 
 - **[UniPert-G2CP]** `[Perturbation]` UniPert-G2CP Bridges Genetic and Chemical Screens from Molecular Representation to Phenotype Modeling (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.06.005)] [[preprint](https://doi.org/10.1101/2025.02.02.635055)] [[code](https://github.com/TencentAILabHealthcare/UniPert)] ![GitHub stars](https://img.shields.io/github/stars/TencentAILabHealthcare/UniPert.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/TencentAILabHealthcare/UniPert)]
 
@@ -161,7 +165,7 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Chreode]** `[World Model]` Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction (**arXiv 2026**) [[paper](https://arxiv.org/abs/2605.28111)] [[code](https://github.com/MufanQiu/Chreode)] ![GitHub stars](https://img.shields.io/github/stars/MufanQiu/Chreode.svg?logo=github&label=Stars)
 
-- **[VCWM]** `[World Model]` A World Model of the Virtual Cell (**© by GenBio AI 2026**) [[technical report](https://genbio.ai/research/virtual-cell-may-3.pdf)]
+- **[VCWM]** `[World Model]` A world model of the virtual cell (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.042)] [[technical report](https://genbio.ai/research/virtual-cell-may-3.pdf)]
 
 - **[World Model Gaps]** `[World Model]` What Makes a Virtual Cell a World Model? Three Gaps, Three Experiments, and a Roadmap (**Research Square 2026**) [[paper](https://doi.org/10.21203/rs.3.rs-10404367/v1)]
 
@@ -677,7 +681,7 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Arc Virtual Cell Atlas]** Large-scale perturbation atlas and codebase from Arc Institute [[resource](https://arcinstitute.org/tools/virtualcellatlas)] [[repo](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]
 
-- **[Tahoe-100M]** Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)] [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
+- **[Tahoe-100M]** Tahoe-100M: Mapping drug-induced molecular phenotypes at single-cell resolution (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.035)] [[preprint](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)] [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
 - **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)] [[dataset](https://doi.org/10.25452/figshare.plus.29190726)]
 
@@ -695,7 +699,7 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 ### Single-Cell Reference Atlases
 
-- **[scBaseCount]** scBaseCount: An AI Agent-Curated, Uniformly Processed, and Continually Expanding Single Cell Data Repository (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.02.27.640494)] [[code-scRecounter](https://github.com/ArcInstitute/scRecounter)] [[code-SRAgent](https://github.com/ArcInstitute/SRAgent)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/SRAgent.svg?logo=github&label=Stars)
+- **[scBaseCount]** scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.025)] [[preprint](https://doi.org/10.1101/2025.02.27.640494)] [[code-scRecounter](https://github.com/ArcInstitute/scRecounter)] [[code-SRAgent](https://github.com/ArcInstitute/SRAgent)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/SRAgent.svg?logo=github&label=Stars)
 
 - **[CZ CELLxGENE Discover]** A single-cell data platform for scalable exploration, analysis, and modeling of aggregated data (**NAR 2025**) [[paper](https://academic.oup.com/nar/article/53/D1/D886/7912032)] [[dataset](https://cellxgene.cziscience.com/)]
 
