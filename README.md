@@ -1,32 +1,28 @@
-<h1 align="center">🧬 Awesome Virtual Cell</h1>
+<h1 align="center">Awesome Virtual Cell</h1>
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/stargazers"><img src="https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Stars" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/commits/main"><img src="https://img.shields.io/github/last-commit/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Updated" /></a>
-  <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/issues"><img src="https://img.shields.io/github/issues/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Issues" /></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square&logo=github" /></a>
 </p>
 
 <p align="center">
-  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🌐_Homepage-Awesome_Virtual_Cell-0B6E99?style=for-the-badge" alt="Awesome Virtual Cell Homepage" /></a>
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/🔎_Search_&_Filter-275+_Papers-0B6E99?style=for-the-badge" alt="Search and filter the Awesome Virtual Cell catalog" /></a>
+  <a href="data/papers.json"><img src="https://img.shields.io/badge/🗂_Structured_Data-JSON-24B6A6?style=for-the-badge" alt="Structured paper data" /></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/🤝_Contribute-PRs_Welcome-6B7280?style=for-the-badge" alt="Contribute to Awesome Virtual Cell" /></a>
 </p>
 
 <p align="center">
-  🧬 <b>Virtual Cells</b> &nbsp;·&nbsp; 🧫 <b>Perturbation</b> &nbsp;·&nbsp; 🧠 <b>Foundation Models</b> &nbsp;·&nbsp; 🗺️ <b>Spatial</b> &nbsp;·&nbsp; 🤖 <b>Agents</b>
+  <b>Virtual Cells</b> &nbsp;·&nbsp; <b>Perturbation</b> &nbsp;·&nbsp; <b>Foundation Models</b> &nbsp;·&nbsp; <b>Spatial</b> &nbsp;·&nbsp; <b>Agents</b>
 </p>
 
 A curated list of papers, datasets, benchmarks, talks, and community resources for AI-powered virtual cell research.
 
 Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popularized by the *Cell* perspective ["How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities."](https://doi.org/10.1016/j.cell.2024.11.015) The focus of this repository is broad but practical: resources that help researchers understand, model, benchmark, or build virtual cells and related cellular foundation models.
 
-For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
-
-<p align="center">
-  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/docs/"><img src="https://img.shields.io/badge/🔎_Browse_Catalog-Filter_&_Search-0B6E99?style=for-the-badge" /></a>
-  <a href="data/papers.json"><img src="https://img.shields.io/badge/🗂_Structured_Data-JSON-24B6A6?style=for-the-badge" /></a>
-  <a href="docs/architecture.md"><img src="https://img.shields.io/badge/⚙️_V2_Architecture-source_of_truth-6B7280?style=for-the-badge" /></a>
-</p>
+For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).  
+<sub>[Architecture](docs/architecture.md) · [Automation](docs/automation.md) · [Start Here](#start-here) · [Research Papers](#research-papers) · [Datasets](#datasets)</sub>
 
 <a id="start-here"></a>
 ## 🚀 Start Here
