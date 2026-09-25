@@ -2,7 +2,37 @@ name: Validate v2 Catalog
 
 on:
   push:
+    paths:
+      - "README.md"
+      - "data/**"
+      - "scripts/build_readme.py"
+      - "scripts/build_catalog.py"
+      - "scripts/validate_catalog.py"
+      - "scripts/auto_update_catalog.py"
+      - "docs/catalog.template.html"
+      - "docs/catalog.html"
+      - "docs/index.html"
+      - "index.html"
+      - "tests/**"
+      - ".github/workflows/catalog-ci.yml"
   pull_request:
+    paths:
+      - "README.md"
+      - "data/**"
+      - "scripts/build_readme.py"
+      - "scripts/build_catalog.py"
+      - "scripts/validate_catalog.py"
+      - "scripts/auto_update_catalog.py"
+      - "docs/catalog.template.html"
+      - "docs/catalog.html"
+      - "docs/index.html"
+      - "index.html"
+      - "tests/**"
+      - ".github/workflows/catalog-ci.yml"
+
+concurrency:
+  group: catalog-ci-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
