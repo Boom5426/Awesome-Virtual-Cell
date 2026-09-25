@@ -26,6 +26,23 @@ Please include as much of the following as possible:
 - Avoid duplicate entries
 - Avoid low-confidence sources, broken links, and overly broad biomedical AI resources with weak connection to virtual cells
 
+
+## V2 Structured Catalog Workflow
+
+Research-paper entries are maintained from `data/papers.json` on the v2 branch.
+
+For paper additions or metadata updates:
+
+1. Edit `data/papers.json` instead of the generated Research Papers block in `README.md`.
+2. Run `python scripts/validate_catalog.py`.
+3. Run `python scripts/build_readme.py`.
+4. Run `python scripts/build_catalog.py`.
+5. Commit the structured data and both generated views together.
+
+CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata, or a README/catalog that is out of sync with the structured source of truth.
+
+> The structured workflow currently covers **Research Papers** only. Other resource sections remain Markdown-first during the migration.
+
 ## Pull Request Notes
 
 - Keep the entry style consistent with the surrounding section
