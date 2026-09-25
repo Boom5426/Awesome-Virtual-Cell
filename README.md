@@ -17,7 +17,8 @@ Here, **AIVC** stands for **Artificial Intelligence Virtual Cell**, a term popul
 
 For scientific figure ideas and plotting templates, see [Awesome Scientific Figures](Awesome-Scientific-Figures/README_Figure.md).
 
-## News
+<a id="news"></a>
+## 📰 News
 
 Deadlines for the live competitions first, then a dated log of what changed in this list. Competition entries move into the log once they close.
 
@@ -50,7 +51,8 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 </details>
 
-## Contents
+<a id="contents"></a>
+## 🧭 Contents
 
 - [News](#news)
 - [Scope](#scope)
@@ -64,20 +66,23 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 - [Historical and Foundational Works](#historical-and-foundational-works)
 - [Related Resources](#related-resources)
 
-## Scope
+<a id="scope"></a>
+## 🎯 Scope
 
 - In scope: virtual cell perspectives, perturbation modeling, single-cell and multimodal foundation models, spatial and morphology modeling, biological AI agents, datasets, benchmarks, and community resources closely connected to virtual cell research.
 - Also included: adjacent work that is broadly useful for the virtual cell community, especially when it contributes data, evaluation methods, or modeling tools for cellular systems.
 - Usually out of scope: generic biomedical AI work with weak cell-modeling relevance, low-confidence secondary sources, broken links, or items that do not add clear value beyond more central references already listed here.
 
-## Inclusion Rules
+<a id="inclusion-rules"></a>
+## ✅ Inclusion Rules
 
 - Prefer peer-reviewed papers, high-signal preprints, official project pages, and primary-source links.
 - Include code, datasets, project pages, or Chinese summaries when they are clearly useful.
 - Keep entries concise and broadly reusable for readers who are scanning the field.
 - Use lightweight tags in `Research Papers` only as browsing aids. They are intentionally approximate, not rigid taxonomy.
 
-## Overview Papers
+<a id="overview-papers"></a>
+## 📚 Overview Papers
 
 - **[Nature News]** Can AI Build a Virtual Cell? Scientists Race to Model Life's Smallest Unit (**Nature 2025**) [[paper](https://www.nature.com/articles/d41586-025-02011-0)] [[中文解读](https://mp.weixin.qq.com/s/s-tH8ccpyBAag_QMpv0toQ)]
 
@@ -115,11 +120,13 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 - **[Cell Review]** Toward a Foundation Model of Causal Cell and Tissue Biology with a Perturbation Cell and Tissue Atlas (**Cell 2024**) [[paper](https://doi.org/10.1016/j.cell.2024.07.035)] [[中文解读](https://mp.weixin.qq.com/s/uXdSz-XCR_2gC2enwN_lDg)]
 
-## Research Papers
+<a id="research-papers"></a>
+## 🔬 Research Papers
 
 Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foundation Model]`, `[Spatial]`, `[Morphology]`, `[Protein]`, `[Agent]`, `[Benchmark]`, `[Tool]`, `[Related]`. Tags are lightweight and non-exhaustive.
 
-### 2026
+<a id="2026"></a>
+### 🗓️ 2026
 
 - **[Speciesformer]** `[Virtual Cell]` `[Foundation Model]` Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.09.22.752128)]
 
@@ -469,7 +476,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[MultiPert]** `[Protein]` MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction (**PLOS Computational Biology 2026**) [[paper](https://doi.org/10.1371/journal.pcbi.1014054)] [[code](https://github.com/MengyuanZhaoo/MultiPert)] ![GitHub stars](https://img.shields.io/github/stars/MengyuanZhaoo/MultiPert.svg?logo=github&label=Stars)
 
-### 2025
+<a id="2025"></a>
+### 🗓️ 2025
 
 - **[GeneJEPA]** `[JEPA]` GeneJEPA: A Predictive World Model of the Transcriptome (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.10.14.682378)] [[code](https://github.com/BiostateAI/GeneJEPA)] ![GitHub stars](https://img.shields.io/github/stars/BiostateAI/GeneJEPA.svg?logo=github&label=Stars)
 
@@ -637,7 +645,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[GET]** `[Foundation Model]` A Foundation Model of Transcription across Human Cell Types (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-024-08391-z)] [[code](https://github.com/GET-Foundation/get_model)] ![GitHub stars](https://img.shields.io/github/stars/GET-Foundation/get_model.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GET-Foundation/get_model)]
 
-### 2024
+<a id="2024"></a>
+### 🗓️ 2024
 
 - **[Zero-Shot Perturbation]** `[Perturbation]` Efficient Fine-Tuning of Single-Cell Foundation Models Enables Zero-Shot Molecular Perturbation Prediction (**arXiv 2024**) [[paper](https://arxiv.org/abs/2412.13478)]
 
@@ -675,9 +684,11 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Stanford PhD Thesis]** `[Virtual Cell]` Engineering Cells Using Artificial Intelligence (**© by Yusuf Roohani 2024**) [[paper](https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf)] [[GitHub Homepage](https://github.com/yhr91)] [[Arc profile](https://arcinstitute.org/news/yusuf-roohani-virtual-cell-architecture)]
 
-## Datasets
+<a id="datasets"></a>
+## 🗃️ Datasets
 
-### Perturbation and Cell-State Atlases
+<a id="perturbation-and-cell-state-atlases"></a>
+### 🧫 Perturbation and Cell-State Atlases
 
 - **[Arc Virtual Cell Atlas]** Large-scale perturbation atlas and codebase from Arc Institute [[resource](https://arcinstitute.org/tools/virtualcellatlas)] [[repo](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]
 
@@ -697,7 +708,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Virtual Cell Challenge]** Community perturbation-prediction challenge and hidden evaluation resources [[homepage](https://virtualcellchallenge.org/)]
 
-### Single-Cell Reference Atlases
+<a id="single-cell-reference-atlases"></a>
+### 🔬 Single-Cell Reference Atlases
 
 - **[scBaseCount]** scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.025)] [[preprint](https://doi.org/10.1101/2025.02.27.640494)] [[code-scRecounter](https://github.com/ArcInstitute/scRecounter)] [[code-SRAgent](https://github.com/ArcInstitute/SRAgent)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/SRAgent.svg?logo=github&label=Stars)
 
@@ -711,7 +723,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[GTEx]** Genotype-Tissue Expression project for human tissue expression baselines [[portal](https://gtexportal.org/)] [[overview](https://www.genome.gov/Funded-Programs-Projects/Genotype-Tissue-Expression-Project)]
 
-### Multimodal, Morphology, and Imaging
+<a id="multimodal-morphology-and-imaging"></a>
+### 🖼️ Multimodal, Morphology, and Imaging
 
 - **[scGeneScope]** scGeneScope: A Treatment-Matched Single Cell Imaging and Transcriptomics Dataset and Benchmark for Treatment Response Modeling (**NeurIPS 2025 Datasets and Benchmarks Track**) [[paper](https://openreview.net/forum?id=918POZbZ50)] [[dataset](https://huggingface.co/datasets/altoslabs/scGeneScope)]
 
@@ -725,7 +738,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[STAMP]** Single-cell transcriptomics analysis and multimodal profiling through imaging (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.05.027)]
 
-### Spatial and Tissue Context
+<a id="spatial-and-tissue-context"></a>
+### 🗺️ Spatial and Tissue Context
 
 - **[HEST-1k]** HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis (**NeurIPS 2024**) [[paper](https://arxiv.org/abs/2406.16192)] [[code](https://github.com/mahmoodlab/HEST)] ![GitHub stars](https://img.shields.io/github/stars/mahmoodlab/HEST.svg?logo=github&label=Stars)
 
@@ -741,7 +755,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Vizgen MERFISH datasets]** Public MERFISH example datasets for spatial transcriptomics [[datasets](https://vizgen.com/data-release-program/)]
 
-### Protein, Organelle, and Molecular Priors
+<a id="protein-organelle-and-molecular-priors"></a>
+### 🧬 Protein, Organelle, and Molecular Priors
 
 - **[Human Protein Atlas]** Subcellular and tissue protein expression atlases [[resource](https://www.proteinatlas.org/)] [[subcellular](https://www.proteinatlas.org/humanproteome/subcellular)] [[paper](https://doi.org/10.1126/science.aal3321)]
 
@@ -755,7 +770,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[OmniPath]** Signaling, ligand-receptor, and causal network priors for multi-omics analysis [[resource](https://omnipathdb.org/)] [[paper](https://academic.oup.com/nar/article/54/D1/D652/8326458)]
 
-### Chemical, Drug, and Target Resources
+<a id="chemical-drug-and-target-resources"></a>
+### 💊 Chemical, Drug, and Target Resources
 
 - **[Drug Repurposing Hub]** Curated compound library with targets, mechanisms, and clinical annotations (**Nature Medicine 2017**) [[paper](https://www.nature.com/articles/nm.4306)] [[resource](https://clue.io/repurposing)]
 
@@ -767,11 +783,13 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[PubChem]** Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)] [[paper](https://academic.oup.com/nar/article/51/D1/D1373/6777787)]
 
-## Challenges and Competitions
+<a id="challenges-and-competitions"></a>
+## 🏆 Challenges and Competitions
 
 Time-boxed competitions with hidden test sets and live leaderboards. Both entries below ask a version of the same question, whether a model can predict cell state under perturbation, at two different biological scales: cultured cell lines for the Arc challenge, a developing embryo for the NeurIPS one. Their current deadlines are mirrored at the top of [News](#news).
 
-### Virtual Cell Challenge (Arc Institute)
+<a id="virtual-cell-challenge-arc-institute"></a>
+### 🧪 Virtual Cell Challenge (Arc Institute)
 
 The Virtual Cell Challenge (VCC) is Arc Institute's annual AI virtual cell competition, explicitly modeled on CASP: every edition generates a fresh perturbation benchmark, keeps the test split hidden, and runs a live leaderboard. Two editions have run so far. Note that [virtualcellchallenge.org](https://virtualcellchallenge.org/) now serves the current 2026 edition, so the 2025 links below point to Arc's archived posts rather than to the challenge site.
 
@@ -827,7 +845,8 @@ Round two is the edition currently hosted at [virtualcellchallenge.org](https://
 
 - **[Homepage]** Virtual Cell Challenge (**Arc Institute 2026**) [[homepage](https://virtualcellchallenge.org/)] [[Virtual Cell Initiative](https://arcinstitute.org/virtual-cell-initiative)]
 
-### Virtual Embryo Challenge (NeurIPS 2026)
+<a id="virtual-embryo-challenge-neurips-2026"></a>
+### 🐣 Virtual Embryo Challenge (NeurIPS 2026)
 
 The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized by the Qiu Lab at Stanford with Harvard, UC San Diego, MBZUAI, Carnegie Mellon, GenBio AI, and Vizgen. It moves the perturbation question from cultured cell lines into a developing embryo, and scores prediction across developmental time, 3D position, and gene knockout. The facts below are taken from the challenge page and the NeurIPS competition announcement as read on 21 August 2026.
 
@@ -849,7 +868,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[Background]** Towards Predictive Virtual Embryos with Genomics and AI (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 
-## Reports and Blogs
+<a id="reports-and-blogs"></a>
+## 📝 Reports and Blogs
 
 - **[Symposium]** AI Proteomics and Virtual Cell (**© by Westlake University 2025**) [[media](https://mp.weixin.qq.com/s/45Evl-tKw9DAY8xdcWSlPg)] [[中文解读](https://mp.weixin.qq.com/s/efB7nMeXLjxEqpfbhv8AWg?scene=1)]
 
@@ -867,7 +887,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[Introduction]** Virtual Cells (**© by Udara Jay 2025**) [[blog](https://udara.io/science/virtual-cells)]
 
-## Videos
+<a id="videos"></a>
+## 🎥 Videos
 
 - **[Arc Institute]** Predicting Cellular Responses to Perturbation across Diverse Contexts with STATE [[YouTube](https://www.youtube.com/watch?v=rPWzpPf-3N0)]
 
@@ -883,7 +904,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[Podcast]** Google DeepMind CEO: We Want to Build a Virtual Cell [[YouTube](https://www.youtube.com/watch?v=CEOOMYxMvY4)]
 
-## Historical and Foundational Works
+<a id="historical-and-foundational-works"></a>
+## 🕰️ Historical and Foundational Works
 
 - **[HPA Cell Atlas]** `[Morphology]` A subcellular map of the human proteome (**Science 2017**) [[paper](https://doi.org/10.1126/science.aal3321)] [[resource](https://www.proteinatlas.org/humanproteome/subcellular)]
 
@@ -925,7 +947,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[Opinion]** Whole-Cell Simulation: A Grand Challenge of the 21st Century (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01636-5)]
 
-## Related Resources
+<a id="related-resources"></a>
+## 🔗 Related Resources
 
 - **[Virtual Cell Challenge]** Official challenge site for evaluation and community updates [[homepage](https://virtualcellchallenge.org/)]
 
@@ -937,6 +960,7 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[Noetik OCTO-vc]** Technical report and demo for virtual cells in tissue [[report](https://www.noetik.ai/octo-vc)] [[demo](https://celleporter.noetik.ai/)]
 
-## Contributing
+<a id="contributing"></a>
+## 🤝 Contributing
 
 If you want to suggest a paper, dataset, benchmark, blog, or project, open an Issue or Pull Request. Please follow [CONTRIBUTING.md](CONTRIBUTING.md) for the submission format and quality bar.
