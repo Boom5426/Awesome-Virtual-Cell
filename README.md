@@ -101,17 +101,26 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 <a id="overview-papers"></a>
 ## 📚 Overview Papers
 
-- **[Nature News]** Can AI Build a Virtual Cell? Scientists Race to Model Life's Smallest Unit (**Nature 2025**) [[paper](https://www.nature.com/articles/d41586-025-02011-0)] [[中文解读](https://mp.weixin.qq.com/s/s-tH8ccpyBAag_QMpv0toQ)]
+Five high-signal overview and perspective papers are shown by default. Expand the rest only if you want broader background coverage.
+
+- **[Nature Review]** Revisiting the blueprint for an interpretable virtual cell (**Nature Reviews Genetics 2026**) [[paper](https://www.nature.com/articles/s41576-026-00940-8)]
+
+- **[Cell Review]** A world model of the virtual cell (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.042)]
 
 - **[Nature Perspective]** Towards Multimodal Foundation Models in Molecular Cell Biology (**Nature 2025**) [[paper](https://www.nature.com/articles/s41586-025-08710-y)] [[中文解读](https://mp.weixin.qq.com/s/BQw0kzfcREYHAyaYqm5MrA)]
 
 - **[Nature Methods]** The virtual cell (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02951-5)]
 
+- **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)] [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
+
+<details>
+<summary><b>More overview and perspective papers (13)</b></summary>
+
+- **[Nature News]** Can AI Build a Virtual Cell? Scientists Race to Model Life's Smallest Unit (**Nature 2025**) [[paper](https://www.nature.com/articles/d41586-025-02011-0)] [[中文解读](https://mp.weixin.qq.com/s/s-tH8ccpyBAag_QMpv0toQ)]
+
 - **[Nature]** The Human Cell Atlas from a cell census to a unified foundation model (**Nature 2024**) [[paper](https://www.nature.com/articles/s41586-024-08338-4)]
 
 - **[Nature Review]** Interpretation, extrapolation and perturbation of single cells (**Nature Reviews Genetics 2026**) [[paper](https://www.nature.com/articles/s41576-025-00920-4)]
-
-- **[Nature Review]** Revisiting the blueprint for an interpretable virtual cell (**Nature Reviews Genetics 2026**) [[paper](https://www.nature.com/articles/s41576-026-00940-8)]
 
 - **[npj Digital Medicine]** AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential (**npj Digital Medicine 2025**) [[paper](https://www.nature.com/articles/s41746-025-02198-6)]
 
@@ -125,17 +134,15 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 - **[Review]** AI virtual cells for drug discovery and pharmacology (**Trends in Pharmacological Sciences 2026**) [[paper](https://doi.org/10.1016/j.tips.2026.08.006)]
 
-- **[Cell Review]** A world model of the virtual cell (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.042)]
-
 - **[Cell Review]** World models for biomedicine (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.032)]
 
 - **[Nature Methods]** Towards predictive virtual embryos with genomics and AI (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 
 - **[Cell Perspective]** Empowering Biomedical Discovery with AI Agents (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01070-5)] [[中文解读](https://mp.weixin.qq.com/s/QX1jzqrIMjy4_fL6brfYlQ)]
 
-- **[Cell Perspective]** How to Build the Virtual Cell with Artificial Intelligence: Priorities and Opportunities (**Cell 2024**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01332-1)] [[中文解读](https://mp.weixin.qq.com/s/JSV6zclrx3UloG401khHRQ)]
-
 - **[Cell Review]** Toward a Foundation Model of Causal Cell and Tissue Biology with a Perturbation Cell and Tissue Atlas (**Cell 2024**) [[paper](https://doi.org/10.1016/j.cell.2024.07.035)] [[中文解读](https://mp.weixin.qq.com/s/uXdSz-XCR_2gC2enwN_lDg)]
+
+</details>
 
 <a id="research-papers"></a>
 ## 🔬 Research Papers
@@ -144,8 +151,9 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 <!-- GENERATED:RESEARCH-PAPERS:START -->
 
-<a id="2026"></a>
-### 🗓️ 2026
+### ✨ Recent additions
+
+The 10 most recent catalog additions are shown below. Use the [searchable catalog](https://boom5426.github.io/Awesome-Virtual-Cell/) to browse and filter the full collection.
 
 - **[Speciesformer]** `[Virtual Cell]` `[Foundation Model]` Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.09.22.752128)]
 
@@ -166,6 +174,12 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 - **[scRep]** `[Foundation Model]` scRep: A Latent-Space Self-Distilled Foundation Model for Single-Cell Representation Learning (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.08.31.747784)]
 
 - **[Cell-o1]** `[Agent]` Cell-o1: Training LLMs to Solve Single-Cell Reasoning Puzzles with Reinforcement Learning (**Bioinformatics 2026**) [[paper](https://doi.org/10.1093/bioinformatics/btag208)] [[preprint](https://arxiv.org/abs/2506.02911)] [[code](https://github.com/ncbi-nlp/cell-o1)] ![GitHub stars](https://img.shields.io/github/stars/ncbi-nlp/cell-o1.svg?logo=github&label=Stars) [[hugging face](https://huggingface.co/ncbi/Cell-o1/)] [[ask deepwiki](https://deepwiki.com/ncbi-nlp/cell-o1)]
+
+### 📂 More papers by year
+
+<a id="2026"></a>
+<details>
+<summary><b>2026 — 164 more papers</b></summary>
 
 - **[RegVelo]** `[Perturbation]` RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.04.022)] [[preprint](https://doi.org/10.1101/2024.12.11.627935)] [[code](https://github.com/theislab/regvelo)] ![GitHub stars](https://img.shields.io/github/stars/theislab/regvelo.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/regvelo)]
 
@@ -495,8 +509,11 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[MultiPert]** `[Protein]` MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction (**PLOS Computational Biology 2026**) [[paper](https://doi.org/10.1371/journal.pcbi.1014054)] [[code](https://github.com/MengyuanZhaoo/MultiPert)] ![GitHub stars](https://img.shields.io/github/stars/MengyuanZhaoo/MultiPert.svg?logo=github&label=Stars)
 
+</details>
+
 <a id="2025"></a>
-### 🗓️ 2025
+<details>
+<summary><b>2025 — 83 more papers</b></summary>
 
 - **[GeneJEPA]** `[JEPA]` GeneJEPA: A Predictive World Model of the Transcriptome (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2025.10.14.682378)] [[code](https://github.com/BiostateAI/GeneJEPA)] ![GitHub stars](https://img.shields.io/github/stars/BiostateAI/GeneJEPA.svg?logo=github&label=Stars)
 
@@ -664,8 +681,11 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[GET]** `[Foundation Model]` A Foundation Model of Transcription across Human Cell Types (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-024-08391-z)] [[code](https://github.com/GET-Foundation/get_model)] ![GitHub stars](https://img.shields.io/github/stars/GET-Foundation/get_model.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GET-Foundation/get_model)]
 
+</details>
+
 <a id="2024"></a>
-### 🗓️ 2024
+<details>
+<summary><b>2024 — 18 more papers</b></summary>
 
 - **[Zero-Shot Perturbation]** `[Perturbation]` Efficient Fine-Tuning of Single-Cell Foundation Models Enables Zero-Shot Molecular Perturbation Prediction (**arXiv 2024**) [[paper](https://arxiv.org/abs/2412.13478)]
 
@@ -703,6 +723,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Stanford PhD Thesis]** `[Virtual Cell]` Engineering Cells Using Artificial Intelligence (**© by Yusuf Roohani 2024**) [[paper](https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf)] [[GitHub Homepage](https://github.com/yhr91)] [[Arc profile](https://arcinstitute.org/news/yusuf-roohani-virtual-cell-architecture)]
 
+</details>
+
 <!-- GENERATED:RESEARCH-PAPERS:END -->
 
 <a id="datasets"></a>
@@ -717,6 +739,9 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)] [[dataset](https://doi.org/10.25452/figshare.plus.29190726)]
 
+<details>
+<summary><b>More resources (6)</b></summary>
+
 - **[scPerturb]** scPerturb: Harmonized Single-Cell Perturbation Data (**Nature Methods 2024**) [[paper](https://www.nature.com/articles/s41592-023-02144-y)] [[dataset](https://projects.sanderlab.org/scperturb/)] [[code](https://github.com/sanderlab/scPerturb)] ![GitHub stars](https://img.shields.io/github/stars/sanderlab/scPerturb.svg?logo=github&label=Stars)
 
 - **[CIGS]** High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) [[paper](https://www.nature.com/articles/s41592-025-02781-5)] [[dataset](https://cigs.iomicscloud.com/)] [[code](https://github.com/Wang-lab302/CIGS)] ![GitHub stars](https://img.shields.io/github/stars/Wang-lab302/CIGS.svg?logo=github&label=Stars)
@@ -729,6 +754,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Virtual Cell Challenge]** Community perturbation-prediction challenge and hidden evaluation resources [[homepage](https://virtualcellchallenge.org/)]
 
+</details>
+
 <a id="single-cell-reference-atlases"></a>
 ### 🔬 Single-Cell Reference Atlases
 
@@ -738,11 +765,16 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Human Cell Atlas]** International atlas of human cells and tissues [[portal](https://data.humancellatlas.org/)] [[paper](https://www.nature.com/articles/s41586-024-08338-4)]
 
+<details>
+<summary><b>More resources (3)</b></summary>
+
 - **[Tabula Sapiens]** A multiple-organ single-cell transcriptomic atlas of humans (**Science 2022**) [[paper](https://www.science.org/doi/10.1126/science.abl4896)] [[dataset](https://tabula-sapiens-portal.ds.czbiohub.org/)]
 
 - **[Human BioMolecular Atlas Program]** HuBMAP healthy human tissue atlas and common coordinate framework [[portal](https://hubmapconsortium.org/)] [[paper](https://www.nature.com/articles/s41592-024-02563-5)]
 
 - **[GTEx]** Genotype-Tissue Expression project for human tissue expression baselines [[portal](https://gtexportal.org/)] [[overview](https://www.genome.gov/Funded-Programs-Projects/Genotype-Tissue-Expression-Project)]
+
+</details>
 
 <a id="multimodal-morphology-and-imaging"></a>
 ### 🖼️ Multimodal, Morphology, and Imaging
@@ -753,11 +785,16 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[Cell Painting Gallery]** Public high-content cell painting datasets from Broad and partners [[dataset](https://registry.opendata.aws/cellpainting-gallery/)] [[overview](https://github.com/broadinstitute/cellpainting-gallery)]
 
+<details>
+<summary><b>More resources (3)</b></summary>
+
 - **[RxRx]** Recursion high-content cellular imaging datasets for perturbation and batch-correction research [[datasets](https://www.rxrx.ai/datasets)]
 
 - **[CM4AI]** Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture from Disease-Relevant Cell Lines (**bioRxiv 2024**) [[paper](https://doi.org/10.1101/2024.05.21.589311)] [[dataset](https://cm4ai.org/)]
 
 - **[STAMP]** Single-cell transcriptomics analysis and multimodal profiling through imaging (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.05.027)]
+
+</details>
 
 <a id="spatial-and-tissue-context"></a>
 ### 🗺️ Spatial and Tissue Context
@@ -768,6 +805,9 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[HEST Xenium virtual ST]** HEST Xenium virtual spatial transcriptomics: DeepSpot-M predicted transcriptome-wide ST for 59 HEST-1k 10x Xenium samples (~13.3M cells) (**medRxiv 2026**) [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] [[dataset](https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics)] [[code](https://github.com/ratschlab/DeepSpotM)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpotM.svg?logo=github&label=Stars)
 
+<details>
+<summary><b>More resources (4)</b></summary>
+
 - **[Spatial Perturb-seq]** Spatial perturb-seq data for functional genomics within intact tissue architecture (**Nature Communications 2026**) [[paper](https://www.nature.com/articles/s41467-026-69677-6)] [[code](https://github.com/kimberle9/spatialperturbseq)]
 
 - **[Perturb-FISH]** CRISPR screening with imaging-based spatial transcriptomics (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.02.012)]
@@ -775,6 +815,8 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 - **[10x Genomics spatial datasets]** Visium, Xenium, and related public spatial transcriptomics example datasets [[datasets](https://www.10xgenomics.com/datasets)]
 
 - **[Vizgen MERFISH datasets]** Public MERFISH example datasets for spatial transcriptomics [[datasets](https://vizgen.com/data-release-program/)]
+
+</details>
 
 <a id="protein-organelle-and-molecular-priors"></a>
 ### 🧬 Protein, Organelle, and Molecular Priors
@@ -785,11 +827,16 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[ProtiCelli]** Proteome-wide image generation resources for human cell protein localization (**bioRxiv 2026**) [[paper](https://doi.org/10.64898/2026.03.31.715748)] [[code](https://github.com/CellProfiling/ProtiCelli)]
 
+<details>
+<summary><b>More resources (3)</b></summary>
+
 - **[SubCell]** Proteome-aware microscopy foundation model resources based on HPA images (**bioRxiv 2025**) [[paper](https://doi.org/10.1101/2024.12.06.627299)] [[code](https://github.com/CellProfiling/subcell-embed)]
 
 - **[STRING]** Protein functional association and interaction networks [[resource](https://string-db.org/)] [[paper](https://academic.oup.com/nar/article/53/D1/D730/7903368)]
 
 - **[OmniPath]** Signaling, ligand-receptor, and causal network priors for multi-omics analysis [[resource](https://omnipathdb.org/)] [[paper](https://academic.oup.com/nar/article/54/D1/D652/8326458)]
+
+</details>
 
 <a id="chemical-drug-and-target-resources"></a>
 ### 💊 Chemical, Drug, and Target Resources
@@ -800,9 +847,14 @@ Tag hints: `[Virtual Cell]`, `[World Model]`, `[JEPA]`, `[Perturbation]`, `[Foun
 
 - **[ChEMBL]** Drug-like molecules, bioactivities, targets, and assays [[resource](https://www.ebi.ac.uk/chembl/)] [[paper](https://academic.oup.com/nar/article/52/D1/D1180/7337608)]
 
+<details>
+<summary><b>More resources (2)</b></summary>
+
 - **[BindingDB]** Protein-small molecule binding affinity knowledgebase [[resource](https://www.bindingdb.org/)] [[paper](https://academic.oup.com/nar/article/53/D1/D1633/7906836)]
 
 - **[PubChem]** Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)] [[paper](https://academic.oup.com/nar/article/51/D1/D1373/6777787)]
+
+</details>
 
 <a id="challenges-and-competitions"></a>
 ## 🏆 Challenges and Competitions
@@ -898,6 +950,9 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[Post]** Chan Zuckerberg Initiative's rBio Uses Virtual Cells to Train AI, Bypassing Lab Work (**© by Michael Nuñez 2025**) [[blog](https://venturebeat.com/ai/chan-zuckerberg-initiatives-rbio-uses-virtual-cells-to-train-ai-bypassing-lab-work)]
 
+<details>
+<summary><b>More reports and blogs (5)</b></summary>
+
 - **[Blog]** AI's Next Frontier: Modeling Life Itself (**© by Chan Zuckerberg Initiative 2025**) [[blog](https://www.freethink.com/artificial-intelligence/virtual-cells)] [[中文解读](https://mp.weixin.qq.com/s/nVJDT3LqzRY6QZUU6odNLQ)]
 
 - **[Blog]** The State of Research on Virtual Cell Modeling (**© by Will Connell 2025**) [[blog](https://behindbioml.substack.com/p/the-state-of-research-on-virtual)]
@@ -908,6 +963,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[Introduction]** Virtual Cells (**© by Udara Jay 2025**) [[blog](https://udara.io/science/virtual-cells)]
 
+</details>
+
 <a id="videos"></a>
 ## 🎥 Videos
 
@@ -917,6 +974,9 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **[EPFL]** Virtual Cells and Digital Twins: AI in Personalized Medicine [[YouTube](https://www.youtube.com/watch?v=AJL7fMYvCKE)]
 
+<details>
+<summary><b>More videos (4)</b></summary>
+
 - **[SciLifeLab]** Emma Lundberg: AI Virtual Cells Could Revolutionize Biological Science [[YouTube](https://www.youtube.com/watch?v=Ifc1FDdDlvw)]
 
 - **[Chan Zuckerberg Initiative]** AI Virtual Cell Models: How AI is Accelerating Science [[YouTube](https://www.youtube.com/watch?v=bzSdgzDVpq4)]
@@ -924,6 +984,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 - **[Chan Zuckerberg Initiative]** CZI's Vision for AI-Powered "Virtual Cells" [[YouTube](https://www.youtube.com/watch?v=DxVL0oVMr60)]
 
 - **[Podcast]** Google DeepMind CEO: We Want to Build a Virtual Cell [[YouTube](https://www.youtube.com/watch?v=CEOOMYxMvY4)]
+
+</details>
 
 <a id="historical-and-foundational-works"></a>
 ## 🕰️ Historical and Foundational Works
@@ -939,6 +1001,9 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 - **[Geneformer]** `[Foundation Model]` Transfer Learning Enables Predictions in Network Biology (**Nature 2023**) [[paper](https://doi.org/10.1038/s41586-023-06139-9)] [[code](https://github.com/jkobject/geneformer)] ![GitHub stars](https://img.shields.io/github/stars/jkobject/geneformer.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/jkobject/geneformer)]
 
 - **[CellOT]** `[Perturbation]` Learning Single-Cell Perturbation Responses Using Neural Optimal Transport (**Nature Methods 2023**) [[paper](https://www.nature.com/articles/s41592-023-01969-x)] [[code](https://github.com/bunnech/cellot)] ![GitHub stars](https://img.shields.io/github/stars/bunnech/cellot.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/bunnech/cellot)]
+
+<details>
+<summary><b>More historical and foundational works (14)</b></summary>
 
 - **[tGPT]** `[Foundation Model]` Generative Pretraining from Large-Scale Transcriptomes for Single-Cell Deciphering (**iScience 2023**) [[paper](https://doi.org/10.1016/j.isci.2023.106536)] [[code](https://github.com/deeplearningplus/tGPT)] ![GitHub stars](https://img.shields.io/github/stars/deeplearningplus/tGPT.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/deeplearningplus/tGPT)]
 
@@ -967,6 +1032,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 - **[Review]** The Virtual Cell: A Software Environment for Computational Cell Biology (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01740-1)]
 
 - **[Opinion]** Whole-Cell Simulation: A Grand Challenge of the 21st Century (**Trends in Biotechnology 2001**) [[paper](https://doi.org/10.1016/S0167-7799(01)01636-5)]
+
+</details>
 
 <a id="related-resources"></a>
 ## 🔗 Related Resources
