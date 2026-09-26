@@ -12,7 +12,7 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-s
 .wrap{max-width:1180px;margin:auto;padding:30px 22px 64px}
 .hero{padding:32px;border-radius:22px;color:white;background:linear-gradient(135deg,#071a2b,#0b6e99 55%,#24b6a6);box-shadow:0 15px 42px #0b6e9922}
 .hero h1{margin:0 0 7px;font-size:clamp(32px,5vw,54px)}
-.hero>p{margin:0;opacity:.9}
+.hero>p{margin:0;opacity:.9}.hero-nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}.hero-nav a{color:white;font-size:12px;text-decoration:none;border-bottom:1px solid #ffffff55}.hero-nav a:hover{border-bottom-color:white}
 .controls{display:grid;grid-template-columns:2fr repeat(5,1fr);gap:9px;margin:22px 0 12px}
 input,select{width:100%;padding:12px 13px;border:1px solid #ffffff4a;border-radius:11px;background:#fffffff2;color:#182230;font:inherit;outline:none}
 input:focus,select:focus{border-color:white;box-shadow:0 0 0 3px #ffffff2c}
@@ -20,7 +20,7 @@ input:focus,select:focus{border-color:white;box-shadow:0 0 0 3px #ffffff2c}
 .quick button,.tag-button{font:inherit;cursor:pointer}
 .quick button{border:1px solid #ffffff36;background:#ffffff12;color:white;padding:6px 10px;border-radius:999px;font-size:12px}
 .quick button:hover,.quick button.active{background:white;color:#0b6e99;border-color:white}
-.selection-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.selection-row select{width:auto;padding:6px 9px;font-size:12px}.selection-row button{border:1px solid #ffffff55;border-radius:8px;background:#ffffff15;color:white;padding:6px 9px;cursor:pointer}.selection-row #selectedTopics{display:contents}.selection-row .selected-topic{background:white;color:#0b6e99}.quick button:focus-visible,.tag-button:focus-visible{outline:3px solid #7bd6eb;outline-offset:3px}.stats{display:flex;gap:8px;flex-wrap:wrap}
+.selection-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.advanced{margin:4px 0 13px;border:1px solid #ffffff35;border-radius:12px;padding:8px 10px;background:#ffffff0b}.advanced summary{cursor:pointer;font-size:12px;font-weight:700}.facet-controls{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:9px}.facet-controls select{padding:9px 10px;font-size:12px}.selection-row select{width:auto;padding:6px 9px;font-size:12px}.selection-row button{border:1px solid #ffffff55;border-radius:8px;background:#ffffff15;color:white;padding:6px 9px;cursor:pointer}.selection-row #selectedTopics{display:contents}.selection-row .selected-topic{background:white;color:#0b6e99}.quick button:focus-visible,.tag-button:focus-visible{outline:3px solid #7bd6eb;outline-offset:3px}.stats{display:flex;gap:8px;flex-wrap:wrap}
 .stat{padding:6px 10px;border:1px solid #ffffff2d;border-radius:999px;background:#ffffff13;font-size:13px}
 .meta{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--muted);font-size:14px;margin:14px 2px}.export-actions{display:flex;gap:7px;flex-wrap:wrap}.export-actions button{border:1px solid var(--line);background:var(--card);color:var(--accent);border-radius:9px;padding:7px 10px;cursor:pointer;font:inherit;font-size:12px}.export-actions button:hover{background:#0b6e9910}
 .grid{display:grid;gap:10px}
@@ -36,14 +36,15 @@ input:focus,select:focus{border-color:white;box-shadow:0 0 0 3px #ffffff2c}
 .links a:hover{text-decoration:underline}
 .empty{text-align:center;padding:60px;color:var(--muted)}
 footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
-@media(max-width:820px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.top{display:block}.venue{margin-top:6px}}
-@media(max-width:520px){.controls{grid-template-columns:1fr}.controls input{grid-column:auto}.wrap{padding:18px 12px 44px}.hero{padding:23px 18px;border-radius:17px}}
+@media(max-width:820px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.facet-controls{grid-template-columns:1fr 1fr}.top{display:block}.venue{margin-top:6px}}
+@media(max-width:520px){.controls,.facet-controls{grid-template-columns:1fr}.controls input{grid-column:auto}.wrap{padding:18px 12px 44px}.hero{padding:23px 18px;border-radius:17px}}
 </style>
 </head>
 <body><main class="wrap">
 <section class="hero">
 <h1>🧬 Awesome Virtual Cell</h1>
-<p>Find papers by topic, method and code availability. Combine topics to narrow your search.</p>
+<p>Find papers by topic, task, modality, generalization regime and code availability.</p>
+<div class="hero-nav"><a href="landscape.html">Explore Research Landscape ↗</a><a href="https://github.com/Boom5426/Awesome-Virtual-Cell#research-papers">Full GitHub list ↗</a></div>
 
 <section class="controls" aria-label="Paper filters">
 <input id="q" type="search" placeholder="Search title, label, venue or topic…" aria-label="Search papers">
@@ -56,6 +57,13 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
 
 <div class="selection-row"><span id="selectedTopics"></span><select id="match" aria-label="How to combine selected topics"><option value="all">Match all topics</option><option value="any">Match any topic</option></select><button id="reset" type="button">Clear filters</button></div>
 <div class="quick" id="quickFilters" aria-label="Quick topic filters"></div>
+<details class="advanced"><summary>Advanced facets — task, modality, perturbation type, generalization, paper type</summary><div class="facet-controls">
+<select id="task"><option value="">Any task</option></select>
+<select id="modality"><option value="">Any modality</option></select>
+<select id="perturbationType"><option value="">Any perturbation type</option></select>
+<select id="generalization"><option value="">Any generalization regime</option></select>
+<select id="paperType"><option value="">Any paper type</option></select>
+</div></details>
 
 <div class="stats">
 <span class="stat" id="total"></span>
@@ -67,7 +75,7 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
 
 <div class="meta"><span id="count"></span><div class="export-actions"><button id="downloadCsv" type="button">Download filtered CSV</button><button id="downloadBib" type="button">Download filtered BibTeX</button></div></div>
 <section class="grid" id="grid" aria-live="polite"></section>
-<footer><a href="https://github.com/Boom5426/Awesome-Virtual-Cell#research-papers">Full paper list</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/taxonomy.md">Topic definitions &amp; code-check policy</a></footer>
+<footer><a href="landscape.html">Research Landscape</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell#research-papers">Full paper list</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/facets.md">Facet definitions</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/taxonomy.md">Topic definitions</a></footer>
 </main>
 <script>
 const PAPERS=__PAPERS_JSON__;
@@ -76,10 +84,13 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&
 const years=[...new Set(PAPERS.map(p=>p.year))].sort((a,b)=>b-a);
 const tags=[...new Set(PAPERS.flatMap(p=>p.tags||[]))].sort();
 const selected=new Set();
+const facetIds={task:"task",modality:"modality",perturbationType:"perturbation_type",generalization:"generalization",paperType:"paper_type"};
+const facetValues=key=>[...new Set(PAPERS.flatMap(p=>(p.facets&&p.facets[key])||[]))].sort();
 const documented=p=>!!p.code_url&&["paper_linked","repository_linked"].includes(p.code_status);
 const quickTags=["Perturbation","Foundation Model","Multimodal","Intervention Design","Evaluation & Measurement","Spatial","Benchmark"];
 years.forEach(y=>byId("year").insertAdjacentHTML("beforeend","<option>"+y+"</option>"));
 tags.forEach(t=>byId("tag").insertAdjacentHTML("beforeend",'<option value="'+esc(t)+'">'+esc(t)+"</option>"));
+Object.entries(facetIds).forEach(([id,key])=>facetValues(key).forEach(v=>byId(id).insertAdjacentHTML("beforeend",'<option value="'+esc(v)+'">'+esc(v)+"</option>")));
 byId("quickFilters").innerHTML=quickTags.filter(t=>tags.includes(t)).map(t=>'<button type="button" data-tag="'+esc(t)+'" aria-pressed="false">'+esc(t)+"</button>").join("");
 byId("total").textContent=PAPERS.length+" papers";
 byId("published").textContent=PAPERS.filter(p=>p.status==="published").length+" published";
@@ -90,6 +101,7 @@ function loadState(){
   ["q","year","status","sort","code","match"].forEach(id=>{
     if(params.has(id)) byId(id).value=params.get(id);
   });
+  Object.entries(facetIds).forEach(([id,key])=>{if(params.has(key))byId(id).value=params.get(key);});
   selected.clear(); params.getAll("tag").filter(t=>tags.includes(t)).forEach(t=>selected.add(t));
   if(!byId("sort").value) byId("sort").value="recent";
   if(!byId("match").value) byId("match").value="all";
@@ -97,6 +109,7 @@ function loadState(){
 function syncState(){
   const next=new URLSearchParams();
   ["q","year","status","code"].forEach(id=>{const value=byId(id).value.trim();if(value)next.set(id,value);});
+  Object.entries(facetIds).forEach(([id,key])=>{const value=byId(id).value.trim();if(value)next.set(key,value);});
   if(byId("sort").value!=="recent")next.set("sort",byId("sort").value);
   if(byId("match").value!=="all")next.set("match",byId("match").value);
   [...selected].sort().forEach(t=>next.append("tag",t));
@@ -116,12 +129,14 @@ function sortedRows(rows){
 function filteredRows(){
   const words=byId("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const year=byId("year").value,status=byId("status").value,code=byId("code").value;
+  const wantedFacets=Object.fromEntries(Object.entries(facetIds).map(([id,key])=>[key,byId(id).value]));
   const wanted=[...selected],all=byId("match").value!=="any";
   return sortedRows(PAPERS.filter(p=>{
-    const pt=p.tags||[],hay=[p.title,p.label,p.venue,p.doi,...pt].join(" ").toLowerCase();
+    const pt=p.tags||[],pf=p.facets||{},facetText=Object.values(pf).flat(),hay=[p.title,p.label,p.venue,p.doi,...pt,...facetText].join(" ").toLowerCase();
     const topicMatch=!wanted.length||(all?wanted.every(t=>pt.includes(t)):wanted.some(t=>pt.includes(t)));
     const codeMatch=!code||(code==="linked"&&!!p.code_url)||(code==="documented"&&documented(p))||(code==="missing"&&!p.code_url);
-    return words.every(w=>hay.includes(w))&&(!year||String(p.year)===year)&&(!status||p.status===status)&&topicMatch&&codeMatch;
+    const facetMatch=Object.entries(wantedFacets).every(([key,value])=>!value||((pf[key]||[]).includes(value)));
+    return words.every(w=>hay.includes(w))&&(!year||String(p.year)===year)&&(!status||p.status===status)&&topicMatch&&facetMatch&&codeMatch;
   }));
 }
 function link(label,url,title=""){
@@ -146,17 +161,17 @@ function render(){
 }
 function ptags(p,evidence){return(p.tags||[]).map(t=>'<button class="tag-button" type="button" title="'+esc(evidence)+'" data-paper-tag="'+esc(t)+'">'+esc(t)+"</button>").join("");}
 function toggleTopic(t){if(selected.has(t))selected.delete(t);else if(tags.includes(t))selected.add(t);render();}
-["q","year","status","sort","code","match"].forEach(id=>byId(id).addEventListener("input",render));
+["q","year","status","sort","code","match",...Object.keys(facetIds)].forEach(id=>byId(id).addEventListener("input",render));
 byId("tag").addEventListener("change",()=>{const t=byId("tag").value;if(t)selected.add(t);byId("tag").value="";render();});
 byId("quickFilters").addEventListener("click",e=>{const b=e.target.closest("button[data-tag]");if(b)toggleTopic(b.dataset.tag);});
 byId("selectedTopics").addEventListener("click",e=>{const b=e.target.closest("button[data-remove-tag]");if(b){selected.delete(b.dataset.removeTag);render();}});
 byId("grid").addEventListener("click",e=>{const b=e.target.closest("button[data-paper-tag]");if(b){toggleTopic(b.dataset.paperTag);window.scrollTo({top:0,behavior:"smooth"});}});
-byId("reset").addEventListener("click",()=>{["q","year","tag","status","code"].forEach(id=>byId(id).value="");byId("sort").value="recent";byId("match").value="all";selected.clear();render();});
+byId("reset").addEventListener("click",()=>{["q","year","tag","status","code",...Object.keys(facetIds)].forEach(id=>byId(id).value="");byId("sort").value="recent";byId("match").value="all";selected.clear();render();});
 window.addEventListener("popstate",()=>{loadState();render();});
 function csvEscape(v){const s=String(v??"");return /[",\n\r]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;}
 function filteredCsv(rows){
-  const fields=["id","label","title","year","venue","status","tags","doi","paper_url","preprint_url","code_url","added_at","updated_at","code_status","tag_review_basis"];
-  return[fields.join(","),...rows.map(p=>fields.map(k=>csvEscape(k==="tags"?(p.tags||[]).join("|"):p[k])).join(","))].join("\n")+"\n";
+  const fields=["id","label","title","year","venue","status","tags","task","modality","perturbation_type","generalization","paper_type","doi","paper_url","preprint_url","code_url","added_at","updated_at","code_status","tag_review_basis","facet_review_basis"],facetFields=new Set(["task","modality","perturbation_type","generalization","paper_type"]);
+  return[fields.join(","),...rows.map(p=>fields.map(k=>csvEscape(k==="tags"?(p.tags||[]).join("|"):facetFields.has(k)?((p.facets||{})[k]||[]).join("|"):p[k])).join(","))].join("\n")+"\n";
 }
 function bibEscape(s){return String(s??"").replace(/\\/g,"\\\\").replace(/[&%#_]/g,m=>"\\"+m);}
 function filteredBib(rows){return rows.map(p=>{
