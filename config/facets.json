@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "policy": "Abstracts are primary evidence. Substantive project documentation is secondary. Title/metadata-only records do not receive inferred fine-grained perturbation or generalization facets.",
+  "dimensions": {
+    "task": {
+      "description": "Primary scientific/computational tasks.",
+      "values": [
+        "Representation Learning",
+        "Perturbation Modeling",
+        "World Modeling",
+        "Dynamics",
+        "Gene Regulation",
+        "Intervention Design",
+        "Evaluation & Measurement",
+        "Benchmarking",
+        "Scientific Agent",
+        "Data Resource",
+        "Tooling"
+      ]
+    },
+    "modality": {
+      "description": "Biological/readout modalities explicitly supported by reviewed evidence.",
+      "values": [
+        "Transcriptomics",
+        "Proteomics",
+        "Morphology / Imaging",
+        "Spatial",
+        "Chromatin / Epigenomics",
+        "Sequence",
+        "Multimodal"
+      ]
+    },
+    "perturbation_type": {
+      "description": "Intervention type explicitly supported by abstract/project evidence.",
+      "values": [
+        "Genetic",
+        "Chemical / Drug",
+        "Combination"
+      ]
+    },
+    "generalization": {
+      "description": "Generalization regime explicitly supported by abstract/project evidence.",
+      "values": [
+        "Unseen Perturbation",
+        "Unseen Context",
+        "Cross-Dataset",
+        "Cross-Species",
+        "Zero-Shot"
+      ]
+    },
+    "paper_type": {
+      "description": "Study/resource form.",
+      "values": [
+        "Method",
+        "Benchmark",
+        "Evaluation",
+        "Dataset",
+        "Review",
+        "Tool"
+      ]
+    }
+  }
+}

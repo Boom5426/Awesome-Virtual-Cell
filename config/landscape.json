@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "title": "Virtual Cell Research Landscape",
+  "branches": [
+    {
+      "name": "Representation & Foundation",
+      "side": "left",
+      "children": [
+        {
+          "name": "Foundation Models",
+          "tag": "Foundation Model"
+        },
+        {
+          "name": "Representation Learning",
+          "tag": "Representation Learning"
+        },
+        {
+          "name": "JEPA",
+          "tag": "JEPA"
+        },
+        {
+          "name": "Multimodal Learning",
+          "tag": "Multimodal"
+        }
+      ]
+    },
+    {
+      "name": "Prediction & Simulation",
+      "side": "left",
+      "children": [
+        {
+          "name": "Perturbation Modeling",
+          "tag": "Perturbation"
+        },
+        {
+          "name": "Dynamics",
+          "tag": "Dynamics"
+        },
+        {
+          "name": "Gene Regulation",
+          "tag": "Gene Regulation"
+        },
+        {
+          "name": "World Models",
+          "tag": "World Model"
+        }
+      ]
+    },
+    {
+      "name": "Design & Automation",
+      "side": "left",
+      "children": [
+        {
+          "name": "Intervention Design",
+          "tag": "Intervention Design"
+        },
+        {
+          "name": "Scientific Agents",
+          "tag": "Agent"
+        }
+      ]
+    },
+    {
+      "name": "Evaluation",
+      "side": "right",
+      "children": [
+        {
+          "name": "Benchmarks",
+          "tag": "Benchmark"
+        },
+        {
+          "name": "Evaluation & Measurement",
+          "tag": "Evaluation & Measurement"
+        }
+      ]
+    },
+    {
+      "name": "Biological Readouts",
+      "side": "right",
+      "children": [
+        {
+          "name": "Spatial",
+          "tag": "Spatial"
+        },
+        {
+          "name": "Morphology",
+          "tag": "Morphology"
+        },
+        {
+          "name": "Protein",
+          "tag": "Protein"
+        }
+      ]
+    },
+    {
+      "name": "Research Infrastructure",
+      "side": "right",
+      "children": [
+        {
+          "name": "Datasets",
+          "tag": "Dataset"
+        },
+        {
+          "name": "Tools",
+          "tag": "Tool"
+        },
+        {
+          "name": "Reviews",
+          "tag": "Review"
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@
 
 <p align="center">
   <a href="https://boom5426.github.io/Awesome-Virtual-Cell/"><img src="https://img.shields.io/badge/Search%20%26%20Filter-Browse%20Catalog-0B6E99?style=for-the-badge" alt="Search and filter the Awesome Virtual Cell catalog" /></a>
+  <a href="https://boom5426.github.io/Awesome-Virtual-Cell/landscape.html"><img src="https://img.shields.io/badge/Research%20Landscape-Interactive%20Map-24B6A6?style=for-the-badge" alt="Explore the interactive research landscape" /></a>
 </p>
 
 <p align="center">
