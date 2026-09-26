@@ -8,16 +8,16 @@ on:
       - "data/**"
       - "config/**"
       - "scripts/build_readme.py"
-      - "scripts/build_catalog.py"
+      - "scripts/build_catalog.py"\n      - "scripts/build_landscape.py"
       - "scripts/build_exports.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
       - "scripts/publication_watcher.py"
       - "exports/**"
-      - "docs/catalog.template.html"
+      - "docs/catalog.template.html"\n      - "docs/landscape.template.html"\n      - "docs/landscape.html"
       - "docs/catalog.html"
       - "docs/index.html"
-      - "index.html"
+      - "index.html"\n      - "landscape.html"
       - "tests/**"
       - ".github/workflows/catalog-ci.yml"
   pull_request:
@@ -26,16 +26,16 @@ on:
       - "data/**"
       - "config/**"
       - "scripts/build_readme.py"
-      - "scripts/build_catalog.py"
+      - "scripts/build_catalog.py"\n      - "scripts/build_landscape.py"
       - "scripts/build_exports.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
       - "scripts/publication_watcher.py"
       - "exports/**"
-      - "docs/catalog.template.html"
+      - "docs/catalog.template.html"\n      - "docs/landscape.template.html"\n      - "docs/landscape.html"
       - "docs/catalog.html"
       - "docs/index.html"
-      - "index.html"
+      - "index.html"\n      - "landscape.html"
       - "tests/**"
       - ".github/workflows/catalog-ci.yml"
 
@@ -69,6 +69,13 @@ jobs:
           python scripts/build_exports.py
           diff -u /tmp/papers.before.csv exports/papers.csv
           diff -u /tmp/papers.before.bib exports/papers.bib
+      - name: Check generated Research Landscape
+        run: |
+          cp landscape.html /tmp/landscape.before.html
+          cp docs/landscape.html /tmp/docs-landscape.before.html
+          python scripts/build_landscape.py
+          diff -u /tmp/landscape.before.html landscape.html
+          diff -u /tmp/docs-landscape.before.html docs/landscape.html
       - name: Check generated searchable catalog
         run: |
           cp docs/catalog.html /tmp/catalog.before.html

@@ -27,7 +27,7 @@ jobs:
       - name: Validate generated state
         run: |
           python scripts/validate_catalog.py
-          python scripts/build_exports.py
+          python scripts/build_exports.py\n          python scripts/build_landscape.py
           python scripts/build_readme.py --check
           cp docs/catalog.html /tmp/catalog.before.html
           python scripts/build_catalog.py
@@ -54,7 +54,7 @@ jobs:
             README.md
             docs/catalog.html
             docs/index.html
-            index.html
+            index.html\n            landscape.html\n            docs/landscape.html
             exports/papers.csv
             exports/papers.bib
             auto_update_summary.md

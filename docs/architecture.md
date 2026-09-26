@@ -89,3 +89,4 @@ The structured pipeline currently covers **Research Papers**. Datasets, challeng
 ## Exports
 
 The full catalog is generated as `exports/papers.csv` and `exports/papers.bib`. The web catalog can also export the currently filtered result set.
+\n## Evidence-backed facets\n\nThe catalog supports task, modality, perturbation-type, generalization and paper-type facets with per-paper evidence provenance.\n\n## Research Landscape\n\n`scripts/build_landscape.py` generates the interactive SVG mind map with zoom, pan, fit-to-view and filtered deep links.\n

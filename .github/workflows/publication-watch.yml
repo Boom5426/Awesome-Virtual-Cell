@@ -25,7 +25,7 @@ jobs:
         run: |
           python scripts/validate_catalog.py
           python scripts/build_readme.py
-          python scripts/build_catalog.py
+          python scripts/build_catalog.py\n          python scripts/build_landscape.py
           python scripts/build_exports.py
           python scripts/validate_catalog.py
           python scripts/build_readme.py --check
@@ -51,7 +51,7 @@ jobs:
             README.md
             docs/catalog.html
             docs/index.html
-            index.html
+            index.html\n            landscape.html\n            docs/landscape.html
             exports/papers.csv
             exports/papers.bib
             publication_update_summary.md

@@ -82,4 +82,18 @@ class CurationTests(unittest.TestCase):
         self.assertEqual(self.by_id['pertresolve']['code_url'],'https://github.com/Boom5426/PertResolve')
         self.assertEqual(self.by_id['principled-evaluation']['code_url'],'https://github.com/Virtual-Cell-Research-Community/scPertEval')
 
+
+    def test_facets_are_evidence_backed(self):
+        cfg=json.loads((ROOT/'config/facets.json').read_text())['dimensions']
+        receipts={r['id']:r for r in json.loads((ROOT/'data/curation/2026-09-26.json').read_text())['records']}
+        for p in self.papers:
+            self.assertEqual(set(p['facets']),set(cfg),p['id'])
+            self.assertEqual(p['facet_review_basis'],receipts[p['id']]['tag_basis'],p['id'])
+            if p['facet_review_basis']=='title_and_metadata':
+                self.assertEqual(p['facets']['perturbation_type'],[],p['id'])
+                self.assertEqual(p['facets']['generalization'],[],p['id'])
+        self.assertIn('Cross-Species',self.by_id['speciesformer']['facets']['generalization'])
+        self.assertIn('Combination',self.by_id['pharos']['facets']['perturbation_type'])
+        self.assertIn('Intervention Design',self.by_id['vcdesign']['facets']['task'])
+
 if __name__=='__main__':unittest.main()
