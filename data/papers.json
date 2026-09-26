@@ -209,7 +209,7 @@
       "label": "VCDesign",
       "title": "VCDesign: Candidate-Conditioned Inverse Modeling for Cellular Intervention Design",
       "year": 2026,
-      "venue": "ICLR 2027 submission",
+      "venue": "Manuscript",
       "status": "preprint",
       "tags": [
         "Intervention Design",
@@ -235,7 +235,7 @@
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/Boom5426/VCDesign-CED/blob/main/README.md",
-        "https://github.com/Boom5426/VCDesign-CED/blob/main/ICLR_CODE_README.md"
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/CODE_PACKAGE_README.md"
       ],
       "tag_review_basis": "project_documentation",
       "facets": {
@@ -253,7 +253,7 @@
       "facet_review_basis": "project_documentation",
       "facet_sources": [
         "https://github.com/Boom5426/VCDesign-CED/blob/main/README.md",
-        "https://github.com/Boom5426/VCDesign-CED/blob/main/ICLR_CODE_README.md"
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/CODE_PACKAGE_README.md"
       ]
     },
     {

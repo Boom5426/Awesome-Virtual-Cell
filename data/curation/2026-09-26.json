@@ -7137,14 +7137,14 @@
       "tag_rationale": "Finite-budget ranking of candidate interventions toward a desired cellular target state, including response-unseen candidates.",
       "sources": [
         "https://github.com/Boom5426/VCDesign-CED/blob/main/README.md",
-        "https://github.com/Boom5426/VCDesign-CED/blob/main/ICLR_CODE_README.md"
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/CODE_PACKAGE_README.md"
       ],
       "old_code_url": null,
       "code_url": "https://github.com/Boom5426/VCDesign-CED",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/Boom5426/VCDesign-CED/blob/main/README.md",
-        "https://github.com/Boom5426/VCDesign-CED/blob/main/ICLR_CODE_README.md"
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/CODE_PACKAGE_README.md"
       ],
       "code_note": "Public VCDesign-CED repository hosts the manuscript, implementation, configuration, demo and reproducibility entry points.",
       "repository_http_status": 200,
