@@ -647,7 +647,9 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 **Updates**
 
-- `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.\n- `2026-09-26` Expanded Intervention Design with VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, and NUDGE; CellNavi remains a core existing entry.\n- `2026-09-26` Restored the full Research Papers list; reviewed all 275 records for multi-label topics and repository correspondence, with source-linked curation notes.
+- `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.
+- `2026-09-26` Expanded Intervention Design with VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, and NUDGE; CellNavi remains a core existing entry.
+- `2026-09-26` Restored the full Research Papers list; reviewed all 275 records for multi-label topics and repository correspondence, with source-linked curation notes.
 - `2026-09-25` September literature sweep: added Speciesformer, PHAROS, LucaCell, DeepSCENIC, scKITE, scRep, AnnFlux, new Cell world-model papers, the Virtual Cell Challenge 2026 paper, and the TIPS review; upgraded ProteinTalks to Nature 2026 and STATE, Tahoe-100M, and scBaseCount to their Cell 2026 publications.
 - `2026-08-21` Added the Virtual Embryo Challenge (NeurIPS 2026), grouped both competitions under [Challenges and Competitions](#challenges-and-competitions), and started this News log.
 - `2026-08-17` Added World Model and JEPA papers, refreshed preprint links, corrected stale venue labels.

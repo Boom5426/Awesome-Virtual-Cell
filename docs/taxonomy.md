@@ -13,7 +13,8 @@ Topics are multi-label: a paper can match several independent aspects of a user 
 | Morphology | Microscopy, Cell Painting, image-derived phenotypes, histology or cell shape. |
 | Protein | Protein-level measurements, localization, structure or functional readouts. PPI or protein-sequence priors alone do not qualify. |
 | Agent | Autonomous scientific reasoning or tool-using AI systems. Agent-based biophysical simulation alone does not qualify. |
-| Benchmark | A standardized task, challenge, dataset, leaderboard, or systematic model comparison. Routine model evaluation is insufficient. |\n| Evaluation & Measurement | Evaluation protocols, metric behavior, empirical bounds/baselines, ground-truth reliability, measurement resolution, confounding, contamination, reproducibility, or benchmark validity. Can co-occur with Benchmark when both apply. |
+| Benchmark | A standardized task, challenge, dataset, leaderboard, or systematic model comparison. Routine model evaluation is insufficient. |
+| Evaluation & Measurement | Evaluation protocols, metric behavior, empirical bounds/baselines, ground-truth reliability, measurement resolution, confounding, contamination, reproducibility, or benchmark validity. Can co-occur with Benchmark when both apply. |
 | Tool | A reusable analysis, integration, processing or visualization workflow/framework. |
 | Related | Adjacent molecular, biomedical or general scientific AI rather than core cell-state modeling. |
 | Multimodal | Joint modeling/alignment of distinct assays, omics, images, biological text or chemical representations. Multiple datasets of one modality alone do not qualify. |

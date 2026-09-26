@@ -1,5 +1,7 @@
 import json
+import re
 import unittest
+from collections import Counter
 from pathlib import Path
 from scripts import build_readme
 
@@ -95,5 +97,20 @@ class CurationTests(unittest.TestCase):
         self.assertIn('Cross-Species',self.by_id['speciesformer']['facets']['generalization'])
         self.assertIn('Combination',self.by_id['pharos']['facets']['perturbation_type'])
         self.assertIn('Intervention Design',self.by_id['vcdesign']['facets']['task'])
+
+    def test_facet_documentation_matches_catalog(self):
+        doc=(ROOT/'docs/facets.md').read_text(encoding='utf-8')
+        basis=Counter(p['facet_review_basis'] for p in self.papers)
+        for label,key in [('abstract-reviewed','abstract'),('project-documentation-reviewed','project_documentation'),('title/metadata-only provisional','title_and_metadata')]:
+            self.assertIn(f'**{basis[key]} {label}**',doc)
+        for dimension in json.loads((ROOT/'config/facets.json').read_text())['dimensions']:
+            section=doc.split(f'### {dimension}\n',1)[1].split('\n### ',1)[0]
+            documented=dict((name,int(count)) for name,count in re.findall(r'^- (.+): (\d+)$',section,re.M))
+            actual=Counter(value for p in self.papers for value in p['facets'][dimension])
+            self.assertEqual(documented,dict(actual),dimension)
+
+    def test_hand_maintained_markdown_has_no_literal_newline_escapes(self):
+        self.assertNotIn(r'\n-', (ROOT/'README.md').read_text(encoding='utf-8'))
+        self.assertNotIn(r'|\n|', (ROOT/'docs/taxonomy.md').read_text(encoding='utf-8'))
 
 if __name__=='__main__':unittest.main()
