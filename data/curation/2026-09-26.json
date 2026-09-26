@@ -1,6 +1,6 @@
 {
   "review_date": "2026-09-26",
-  "scope": "All 281 Research Papers records; 275-record full audit plus six source-checked Intervention Design follow-up additions.",
+  "scope": "All 285 Research Papers records; full 275-record audit plus six Intervention Design and four Evaluation & Measurement source-checked follow-up additions.",
   "records": [
     {
       "id": "speciesformer",
@@ -625,10 +625,11 @@
       "tags": [
         "World Model",
         "Virtual Cell",
-        "Benchmark"
+        "Benchmark",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Operational capability framework and diagnostic experiments for cellular world models.",
+      "tag_rationale": "Operational capability framework and diagnostic experiments for cellular world models. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://api.crossref.org/works/10.21203/rs.3.rs-10404367/v1",
         "https://www.researchsquare.com/article/rs-10404367/v1"
@@ -1123,10 +1124,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Distribution-level perturbation evaluation under cellular overlap.",
+      "tag_rationale": "Distribution-level perturbation evaluation under cellular overlap. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://arxiv.org/abs/2607.04595"
       ],
@@ -1147,10 +1149,11 @@
       "tags": [
         "Benchmark",
         "Perturbation",
-        "Representation Learning"
+        "Representation Learning",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Projection-basis information limits for chemical/genetic perturbation prediction.",
+      "tag_rationale": "Projection-basis information limits for chemical/genetic perturbation prediction. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.07.07.737004&resultType=core&format=json"
       ],
@@ -1195,10 +1198,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Foundation Model"
+        "Foundation Model",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Pretraining-contamination audit for foundation-model evaluation.",
+      "tag_rationale": "Pretraining-contamination audit for foundation-model evaluation. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://arxiv.org/abs/2607.20572"
       ],
@@ -1245,10 +1249,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Differential-expression classification evaluation rather than expression-only accuracy.",
+      "tag_rationale": "Differential-expression classification evaluation rather than expression-only accuracy. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.07.20.739620&resultType=core&format=json"
       ],
@@ -1268,20 +1273,24 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Task-aligned evaluation principles for perturbation prediction.",
+      "tag_rationale": "Task-aligned evaluation principles for perturbation prediction. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.07.23.740433&resultType=core&format=json"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
+      "code_url": "https://github.com/Virtual-Cell-Research-Community/scPertEval",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.23.740433v1",
+        "https://github.com/Virtual-Cell-Research-Community/scPertEval/blob/main/README.md"
+      ],
+      "code_note": "scPertEval identifies itself as the reference implementation introduced by this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
     },
     {
       "id": "response-magnitude",
@@ -1292,10 +1301,11 @@
       "tags": [
         "Benchmark",
         "Perturbation",
-        "Foundation Model"
+        "Foundation Model",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Locked CRISPRi evaluation of frozen Geneformer under distribution shift.",
+      "tag_rationale": "Locked CRISPRi evaluation of frozen Geneformer under distribution shift. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://arxiv.org/abs/2608.00152"
       ],
@@ -1344,10 +1354,11 @@
         "Benchmark",
         "Foundation Model",
         "Perturbation",
-        "Tool"
+        "Tool",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Confound diagnostics for in silico gene-token perturbations.",
+      "tag_rationale": "Confound diagnostics for in silico gene-token perturbations. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.08.04.732812&resultType=core&format=json"
       ],
@@ -1367,10 +1378,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Perturbation measurement reliability and implications for prediction.",
+      "tag_rationale": "Perturbation measurement reliability and implications for prediction. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.08.11.744177&resultType=core&format=json"
       ],
@@ -1390,10 +1402,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Cross-cell-line assessment of limitations in virtual perturbation screens.",
+      "tag_rationale": "Cross-cell-line assessment of limitations in virtual perturbation screens. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.08.10.743942&resultType=core&format=json"
       ],
@@ -2961,10 +2974,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Shared-control induced spurious-correlation analysis.",
+      "tag_rationale": "Shared-control induced spurious-correlation analysis. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.05.07.723486&resultType=core&format=json"
       ],
@@ -3012,10 +3026,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Molecular-input ablations and drug-blind evaluation of chemical response models.",
+      "tag_rationale": "Molecular-input ablations and drug-blind evaluation of chemical response models. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.05.13.724458&resultType=core&format=json"
       ],
@@ -3825,10 +3840,11 @@
       "tags": [
         "Perturbation",
         "Representation Learning",
-        "Benchmark"
+        "Benchmark",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Perturbation-specific versus invariant representation analysis and prediction.",
+      "tag_rationale": "Perturbation-specific versus invariant representation analysis and prediction. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://arxiv.org/abs/2605.19343"
       ],
@@ -4953,10 +4969,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Evaluation separates systematic from perturbation-specific predictive signal.",
+      "tag_rationale": "Evaluation separates systematic from perturbation-specific predictive signal. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://api.crossref.org/works/10.1038/s41587-025-02777-8",
         "https://www.nature.com/articles/s41587-025-02777-8"
@@ -5607,10 +5624,11 @@
       "tags": [
         "Benchmark",
         "Perturbation",
-        "Foundation Model"
+        "Foundation Model",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Critical comparison of deep/foundation predictors against linear baselines.",
+      "tag_rationale": "Critical comparison of deep/foundation predictors against linear baselines. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://api.crossref.org/works/10.1038/s41592-025-02772-6",
         "https://www.nature.com/articles/s41592-025-02772-6"
@@ -5633,10 +5651,11 @@
       ],
       "tags": [
         "Benchmark",
-        "Representation Learning"
+        "Representation Learning",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Embedding-metric failure analysis and scGraph evaluation.",
+      "tag_rationale": "Embedding-metric failure analysis and scGraph evaluation. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://api.crossref.org/works/10.1038/s41587-025-02702-z",
         "https://www.nature.com/articles/s41587-025-02702-z",
@@ -6549,10 +6568,11 @@
       "tags": [
         "Benchmark",
         "Virtual Cell",
-        "Review"
+        "Review",
+        "Evaluation & Measurement"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Workshop recommendations for evaluating biological AI across modalities.",
+      "tag_rationale": "Workshop recommendations for evaluating biological AI across modalities. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://arxiv.org/abs/2507.10502"
       ],
@@ -7256,6 +7276,111 @@
         "https://doi.org/10.1038/s44320-025-00131-3"
       ],
       "code_note": "Welch Lab repository explicitly identifies itself as the implementation of the PerturbNet paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "pertresolve",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation",
+        "Virtual Cell",
+        "Tool"
+      ],
+      "tag_basis": "project_documentation",
+      "tag_rationale": "Separates perturbation detection/identification and split-half reproducibility from model prediction, and quantifies measurement and model-ranking resolution.",
+      "sources": [
+        "https://boom5426.github.io/PertResolve/",
+        "https://github.com/Boom5426/PertResolve/blob/main/README.md"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/Boom5426/PertResolve",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Boom5426/PertResolve/blob/main/README.md",
+        "https://boom5426.github.io/PertResolve/"
+      ],
+      "code_note": "Public PertResolve repository hosts the manuscript, framework, benchmark metadata and software.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "signal-bounds-baselines",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Introduces Signal, Bounds and Baselines principles to test metric sensitivity, calibrate scores against empirical bounds, and establish interpretable baseline floors.",
+      "sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.20.719650v2",
+        "https://github.com/michavol/sbb-perturbation-benchmark/blob/main/README.md"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/michavol/sbb-perturbation-benchmark",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.20.719650v2",
+        "https://github.com/michavol/sbb-perturbation-benchmark/blob/main/README.md"
+      ],
+      "code_note": "Author repository states that it reproduces the SBB analyses and evaluation framework.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "evaluation-far-from-straightforward",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Systematically tests failure modes of perturbation-response metrics under scale, sparsity and dimensionality and compares models to empirical performance bounds.",
+      "sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.02.14.705879v1"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "vcbench-in-the-wild",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Evaluation & Measurement",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Benchmarks virtual-cell perturbation prediction under unseen contexts, unseen perturbations and cross-dataset shifts and shows model rankings depend on evaluation criteria.",
+      "sources": [
+        "https://arxiv.org/abs/2604.27646",
+        "https://github.com/maoxinjie/VCBench/blob/main/README.md"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/maoxinjie/VCBench",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/maoxinjie/VCBench/blob/main/README.md",
+        "https://maoxinjie.github.io/VCBench-demo/"
+      ],
+      "code_note": "VCBench repository links the arXiv paper and supplies the unified benchmarking framework.",
       "repository_http_status": 200,
       "repository_readme_status": 200
     }

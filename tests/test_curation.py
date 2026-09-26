@@ -69,4 +69,17 @@ class CurationTests(unittest.TestCase):
         self.assertEqual(self.by_id['pairing']['code_url'],'https://doi.org/10.5281/zenodo.15848686')
         self.assertEqual(self.by_id['perturbnet']['code_url'],'https://github.com/welch-lab/PerturbNet')
 
+
+    def test_evaluation_measurement_branch(self):
+        expected={'pertresolve','signal-bounds-baselines','evaluation-far-from-straightforward','vcbench-in-the-wild',
+                  'principled-evaluation','systema','score-distributions','projection-basis','sccontam',
+                  'reliable-perturbations','spurious-correlation','deep-learning-perturbation-baselines',
+                  'drifting-islands-embedding-metrics'}
+        self.assertTrue(expected.issubset(self.by_id))
+        for key in expected:
+            self.assertIn('Evaluation & Measurement',self.by_id[key]['tags'],key)
+        self.assertNotIn('Evaluation & Measurement',self.by_id['virtual-cell-challenge-2026']['tags'])
+        self.assertEqual(self.by_id['pertresolve']['code_url'],'https://github.com/Boom5426/PertResolve')
+        self.assertEqual(self.by_id['principled-evaluation']['code_url'],'https://github.com/Virtual-Cell-Research-Community/scPertEval')
+
 if __name__=='__main__':unittest.main()

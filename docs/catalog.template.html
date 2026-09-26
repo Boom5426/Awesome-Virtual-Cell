@@ -77,7 +77,7 @@ const years=[...new Set(PAPERS.map(p=>p.year))].sort((a,b)=>b-a);
 const tags=[...new Set(PAPERS.flatMap(p=>p.tags||[]))].sort();
 const selected=new Set();
 const documented=p=>!!p.code_url&&["paper_linked","repository_linked"].includes(p.code_status);
-const quickTags=["Perturbation","Foundation Model","Multimodal","Spatial","Morphology","Intervention Design","Benchmark"];
+const quickTags=["Perturbation","Foundation Model","Multimodal","Intervention Design","Evaluation & Measurement","Spatial","Benchmark"];
 years.forEach(y=>byId("year").insertAdjacentHTML("beforeend","<option>"+y+"</option>"));
 tags.forEach(t=>byId("tag").insertAdjacentHTML("beforeend",'<option value="'+esc(t)+'">'+esc(t)+"</option>"));
 byId("quickFilters").innerHTML=quickTags.filter(t=>tags.includes(t)).map(t=>'<button type="button" data-tag="'+esc(t)+'" aria-pressed="false">'+esc(t)+"</button>").join("");

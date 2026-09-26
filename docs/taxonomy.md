@@ -13,7 +13,7 @@ Topics are multi-label: a paper can match several independent aspects of a user 
 | Morphology | Microscopy, Cell Painting, image-derived phenotypes, histology or cell shape. |
 | Protein | Protein-level measurements, localization, structure or functional readouts. PPI or protein-sequence priors alone do not qualify. |
 | Agent | Autonomous scientific reasoning or tool-using AI systems. Agent-based biophysical simulation alone does not qualify. |
-| Benchmark | A benchmark, systematic comparison, evaluation methodology or diagnostic study. Routine model evaluation is insufficient. |
+| Benchmark | A standardized task, challenge, dataset, leaderboard, or systematic model comparison. Routine model evaluation is insufficient. |\n| Evaluation & Measurement | Evaluation protocols, metric behavior, empirical bounds/baselines, ground-truth reliability, measurement resolution, confounding, contamination, reproducibility, or benchmark validity. Can co-occur with Benchmark when both apply. |
 | Tool | A reusable analysis, integration, processing or visualization workflow/framework. |
 | Related | Adjacent molecular, biomedical or general scientific AI rather than core cell-state modeling. |
 | Multimodal | Joint modeling/alignment of distinct assays, omics, images, biological text or chemical representations. Multiple datasets of one modality alone do not qualify. |
@@ -26,7 +26,7 @@ Topics are multi-label: a paper can match several independent aspects of a user 
 
 ## Evidence and uncertainty
 
-The 2026-09-26 curation pass examined all 275 catalog records. Abstract text was retrieved for 243; 17 additional records had substantive project documentation, and 15 were classified conservatively from titles/metadata. These last 15 are explicitly marked `title_and_metadata` and remain provisional. No claim is made that all full texts were accessible.
+The 2026-09-26 curation work began with a full 275-record audit and was extended with source-checked Intervention Design and Evaluation & Measurement additions. The current catalog contains 285 papers.
 
 Do not force tags merely because a model name contains “Agent”, “Spatial”, “Protein”, or “Foundation”. For example, veloAgent models spatial cell dynamics rather than being an LLM agent; SATURN/UCE/scNET use protein-related priors but are not automatically proteomics methods.
 
@@ -38,3 +38,15 @@ Do not force tags merely because a model name contains “Agent”, “Spatial�
 - **not_found / release_pending / related_only**: no established implementation link in the inspected evidence; this is not proof that no code exists.
 
 Code inspection here checks identity and links, not whether training or inference reproduces the paper. Fork status alone does not decide officialness.
+
+
+### Benchmark vs Evaluation & Measurement
+
+Use **Benchmark** when a paper primarily defines a standardized task, challenge, dataset, leaderboard, or systematic model comparison. Use **Evaluation & Measurement** when the scientific question is whether an evaluation protocol, metric, experimental measurement, reference, bound, baseline, confound, or benchmark interpretation is valid or informative. The tags can co-occur.
+
+Examples:
+
+- Virtual Cell Challenge → `Benchmark`
+- PertResolve → `Benchmark` + `Evaluation & Measurement`
+- Towards Principled Evaluation → `Benchmark` + `Evaluation & Measurement`
+- scContam → `Benchmark` + `Evaluation & Measurement`

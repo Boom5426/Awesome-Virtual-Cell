@@ -1,8 +1,128 @@
 {
   "schema_version": 2,
   "description": "Structured source of truth for Awesome Virtual Cell research papers. README, web catalog, CSV, and BibTeX are generated views.",
-  "paper_count": 281,
+  "paper_count": 285,
   "papers": [
+    {
+      "id": "pertresolve",
+      "label": "PertResolve",
+      "title": "Measurement resolution constrains fine-grained perturbation prediction",
+      "year": 2026,
+      "venue": "Manuscript",
+      "status": "preprint",
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation",
+        "Virtual Cell",
+        "Tool"
+      ],
+      "doi": null,
+      "paper_url": null,
+      "preprint_url": "https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf",
+      "code_url": "https://github.com/Boom5426/PertResolve",
+      "links": [
+        {
+          "label": "project",
+          "url": "https://boom5426.github.io/PertResolve/"
+        },
+        {
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/Boom5426/PertResolve_Bench"
+        }
+      ],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Boom5426/PertResolve/blob/main/README.md",
+        "https://boom5426.github.io/PertResolve/"
+      ],
+      "tag_review_basis": "project_documentation"
+    },
+    {
+      "id": "signal-bounds-baselines",
+      "label": "Signal, Bounds & Baselines",
+      "title": "Signal, Bounds, and Baselines: Principles for Evaluating Virtual Cell Perturbation Models",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "doi": "10.64898/2026.04.20.719650",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.04.20.719650",
+      "code_url": "https://github.com/michavol/sbb-perturbation-benchmark",
+      "links": [],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.20.719650v2",
+        "https://github.com/michavol/sbb-perturbation-benchmark/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
+    },
+    {
+      "id": "evaluation-far-from-straightforward",
+      "label": "Metric Failure Modes",
+      "title": "Evaluating Single-Cell Perturbation Response Models Is Far from Straightforward",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "doi": "10.64898/2026.02.14.705879",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.02.14.705879",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
+    },
+    {
+      "id": "vcbench-in-the-wild",
+      "label": "VCBench (In-the-Wild)",
+      "title": "Benchmarking virtual cell models for in-the-wild perturbation response",
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "preprint",
+      "tags": [
+        "Benchmark",
+        "Evaluation & Measurement",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "doi": null,
+      "paper_url": null,
+      "preprint_url": "https://arxiv.org/abs/2604.27646",
+      "code_url": "https://github.com/maoxinjie/VCBench",
+      "links": [
+        {
+          "label": "project",
+          "url": "https://maoxinjie.github.io/VCBench-demo/"
+        }
+      ],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/maoxinjie/VCBench/blob/main/README.md",
+        "https://maoxinjie.github.io/VCBench-demo/"
+      ],
+      "tag_review_basis": "abstract"
+    },
     {
       "id": "vcdesign",
       "label": "VCDesign",
@@ -719,7 +839,8 @@
       "tags": [
         "World Model",
         "Virtual Cell",
-        "Benchmark"
+        "Benchmark",
+        "Evaluation & Measurement"
       ],
       "doi": "10.21203/rs.3.rs-10404367/v1",
       "paper_url": null,
@@ -1195,7 +1316,8 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": null,
       "paper_url": null,
@@ -1218,7 +1340,8 @@
       "tags": [
         "Benchmark",
         "Perturbation",
-        "Representation Learning"
+        "Representation Learning",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.07.07.737004",
       "paper_url": null,
@@ -1264,7 +1387,8 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Foundation Model"
+        "Foundation Model",
+        "Evaluation & Measurement"
       ],
       "doi": null,
       "paper_url": null,
@@ -1312,7 +1436,8 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.07.20.739620",
       "paper_url": null,
@@ -1334,17 +1459,21 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.07.23.740433",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.23.740433",
-      "code_url": null,
+      "code_url": "https://github.com/Virtual-Cell-Research-Community/scPertEval",
       "links": [],
       "added_at": null,
       "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.23.740433v1",
+        "https://github.com/Virtual-Cell-Research-Community/scPertEval/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract"
     },
     {
@@ -1357,7 +1486,8 @@
       "tags": [
         "Benchmark",
         "Perturbation",
-        "Foundation Model"
+        "Foundation Model",
+        "Evaluation & Measurement"
       ],
       "doi": null,
       "paper_url": null,
@@ -1406,7 +1536,8 @@
         "Benchmark",
         "Foundation Model",
         "Perturbation",
-        "Tool"
+        "Tool",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.08.04.732812",
       "paper_url": null,
@@ -1428,7 +1559,8 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.08.11.744177",
       "paper_url": null,
@@ -1450,7 +1582,8 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.08.10.743942",
       "paper_url": null,
@@ -2950,7 +3083,8 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.05.07.723486",
       "paper_url": null,
@@ -2997,7 +3131,8 @@
       "status": "preprint",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": "10.64898/2026.05.13.724458",
       "paper_url": null,
@@ -3787,7 +3922,8 @@
       "tags": [
         "Perturbation",
         "Representation Learning",
-        "Benchmark"
+        "Benchmark",
+        "Evaluation & Measurement"
       ],
       "doi": null,
       "paper_url": null,
@@ -5022,7 +5158,8 @@
       "status": "published",
       "tags": [
         "Benchmark",
-        "Perturbation"
+        "Perturbation",
+        "Evaluation & Measurement"
       ],
       "doi": "10.1038/s41587-025-02777-8",
       "paper_url": "https://doi.org/10.1038/s41587-025-02777-8",
@@ -5743,7 +5880,8 @@
       "tags": [
         "Benchmark",
         "Perturbation",
-        "Foundation Model"
+        "Foundation Model",
+        "Evaluation & Measurement"
       ],
       "doi": "10.1038/s41592-025-02772-6",
       "paper_url": "https://doi.org/10.1038/s41592-025-02772-6",
@@ -5772,7 +5910,8 @@
       "status": "published",
       "tags": [
         "Benchmark",
-        "Representation Learning"
+        "Representation Learning",
+        "Evaluation & Measurement"
       ],
       "doi": "10.1038/s41587-025-02702-z",
       "paper_url": "https://doi.org/10.1038/s41587-025-02702-z",
@@ -6760,7 +6899,8 @@
       "tags": [
         "Benchmark",
         "Virtual Cell",
-        "Review"
+        "Review",
+        "Evaluation & Measurement"
       ],
       "doi": null,
       "paper_url": null,
