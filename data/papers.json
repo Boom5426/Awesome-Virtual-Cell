@@ -1,8 +1,67 @@
 {
   "schema_version": 2,
   "description": "Structured source of truth for Awesome Virtual Cell research papers. README, web catalog, CSV, and BibTeX are generated views.",
-  "paper_count": 275,
+  "paper_count": 281,
   "papers": [
+    {
+      "id": "vcdesign",
+      "label": "VCDesign",
+      "title": "VCDesign: Candidate-Conditioned Inverse Modeling for Cellular Intervention Design",
+      "year": 2026,
+      "venue": "ICLR 2027 submission",
+      "status": "preprint",
+      "tags": [
+        "Intervention Design",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "doi": null,
+      "paper_url": null,
+      "preprint_url": "https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf",
+      "code_url": "https://github.com/Boom5426/VCDesign-CED",
+      "links": [
+        {
+          "label": "project",
+          "url": "https://boom5426.github.io/VCDesign-CED/"
+        },
+        {
+          "label": "dataset",
+          "url": "https://huggingface.co/datasets/Boom5426/VCDesign"
+        }
+      ],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/README.md",
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/ICLR_CODE_README.md"
+      ],
+      "tag_review_basis": "project_documentation"
+    },
+    {
+      "id": "nudge-cell-fate",
+      "label": "NUDGE",
+      "title": "Uncovering minimal control of cell fate by natural dynamics",
+      "year": 2026,
+      "venue": "PNAS",
+      "status": "published",
+      "tags": [
+        "Intervention Design",
+        "Gene Regulation",
+        "Dynamics",
+        "Related"
+      ],
+      "doi": "10.1073/pnas.2604777123",
+      "paper_url": "https://doi.org/10.1073/pnas.2604777123",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract"
+    },
     {
       "id": "speciesformer",
       "label": "Speciesformer",
@@ -4258,6 +4317,122 @@
       "code_status": "project_match",
       "code_sources": [
         "https://github.com/MengyuanZhaoo/MultiPert/blob/main/README.md"
+      ],
+      "tag_review_basis": "abstract"
+    },
+    {
+      "id": "pdgrapher",
+      "label": "PDGrapher",
+      "title": "Combinatorial prediction of therapeutic perturbations using causally inspired neural networks",
+      "year": 2025,
+      "venue": "Nature Biomedical Engineering",
+      "status": "published",
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Gene Regulation",
+        "Representation Learning"
+      ],
+      "doi": "10.1038/s41551-025-01481-x",
+      "paper_url": "https://doi.org/10.1038/s41551-025-01481-x",
+      "preprint_url": "https://www.biorxiv.org/content/10.1101/2024.01.03.573985v5",
+      "code_url": "https://github.com/mims-harvard/PDGrapher",
+      "links": [
+        {
+          "label": "project",
+          "url": "https://zitniklab.hms.harvard.edu/projects/PDGrapher/"
+        }
+      ],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41551-025-01481-x",
+        "https://github.com/mims-harvard/PDGrapher"
+      ],
+      "tag_review_basis": "abstract"
+    },
+    {
+      "id": "pairing",
+      "label": "PAIRING",
+      "title": "Identifying an optimal perturbation to induce a desired cell state by generative deep learning",
+      "year": 2025,
+      "venue": "Cell Systems",
+      "status": "published",
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Representation Learning"
+      ],
+      "doi": "10.1016/j.cels.2025.101405",
+      "paper_url": "https://doi.org/10.1016/j.cels.2025.101405",
+      "preprint_url": null,
+      "code_url": "https://doi.org/10.5281/zenodo.15848686",
+      "links": [],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2405471225002388",
+        "https://doi.org/10.5281/zenodo.15848686"
+      ],
+      "tag_review_basis": "abstract"
+    },
+    {
+      "id": "arc-phenotype-landscape-reversion",
+      "label": "ARC",
+      "title": "Reverse control of biological networks to restore phenotype landscapes",
+      "year": 2025,
+      "venue": "Science Advances",
+      "status": "published",
+      "tags": [
+        "Intervention Design",
+        "Gene Regulation",
+        "Dynamics",
+        "Related"
+      ],
+      "doi": "10.1126/sciadv.adw3995",
+      "paper_url": "https://doi.org/10.1126/sciadv.adw3995",
+      "preprint_url": null,
+      "code_url": "https://github.com/Insoo-Jung/Phenotype-Landscape-Reversion",
+      "links": [
+        {
+          "label": "software archive",
+          "url": "https://doi.org/10.5281/zenodo.15532673"
+        }
+      ],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12372873/",
+        "https://github.com/Insoo-Jung/Phenotype-Landscape-Reversion"
+      ],
+      "tag_review_basis": "abstract"
+    },
+    {
+      "id": "perturbnet",
+      "label": "PerturbNet",
+      "title": "PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations",
+      "year": 2025,
+      "venue": "Molecular Systems Biology",
+      "status": "published",
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Representation Learning"
+      ],
+      "doi": "10.1038/s44320-025-00131-3",
+      "paper_url": "https://doi.org/10.1038/s44320-025-00131-3",
+      "preprint_url": "https://doi.org/10.1101/2022.07.20.500854",
+      "code_url": "https://github.com/welch-lab/PerturbNet",
+      "links": [],
+      "added_at": "2026-09-26",
+      "updated_at": "2026-09-26",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/welch-lab/PerturbNet/blob/main/README.md",
+        "https://doi.org/10.1038/s44320-025-00131-3"
       ],
       "tag_review_basis": "abstract"
     },

@@ -1,6 +1,6 @@
 {
   "review_date": "2026-09-26",
-  "scope": "All 275 Research Papers records; source access and association checks, not executable reproduction.",
+  "scope": "All 281 Research Papers records; 275-record full audit plus six source-checked Intervention Design follow-up additions.",
   "records": [
     {
       "id": "speciesformer",
@@ -7103,6 +7103,161 @@
       "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
       "repository_http_status": null,
       "repository_readme_status": null
+    },
+    {
+      "id": "vcdesign",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Intervention Design",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "tag_basis": "project_documentation",
+      "tag_rationale": "Finite-budget ranking of candidate interventions toward a desired cellular target state, including response-unseen candidates.",
+      "sources": [
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/README.md",
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/ICLR_CODE_README.md"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/Boom5426/VCDesign-CED",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/README.md",
+        "https://github.com/Boom5426/VCDesign-CED/blob/main/ICLR_CODE_README.md"
+      ],
+      "code_note": "Public VCDesign-CED repository hosts the manuscript, implementation, configuration, demo and reproducibility entry points.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "nudge-cell-fate",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Intervention Design",
+        "Gene Regulation",
+        "Dynamics",
+        "Related"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Finds minimal temporary interventions that drive biological networks to a desired phenotype while preserving natural dynamics.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42735313/"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No official implementation was established from the checked publication sources; this is not evidence that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "pdgrapher",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Gene Regulation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Ranks single and combinatorial therapeutic perturbations intended to shift diseased transcriptional states toward treated/healthy states.",
+      "sources": [
+        "https://doi.org/10.1038/s41551-025-01481-x",
+        "https://github.com/mims-harvard/PDGrapher/blob/main/README.md"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/mims-harvard/PDGrapher",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41551-025-01481-x",
+        "https://github.com/mims-harvard/PDGrapher"
+      ],
+      "code_note": "Official project repository explicitly links the Nature Biomedical Engineering article and contains PDGrapher source, tests and tutorials.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "pairing",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Designed specifically to identify perturbations that transform a starting cell state into a desired target state.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/40997798/",
+        "https://www.sciencedirect.com/science/article/pii/S2405471225002388"
+      ],
+      "old_code_url": null,
+      "code_url": "https://doi.org/10.5281/zenodo.15848686",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2405471225002388",
+        "https://doi.org/10.5281/zenodo.15848686"
+      ],
+      "code_note": "Cell Systems data/code availability statement points to the Zenodo code archive.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "arc-phenotype-landscape-reversion",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Intervention Design",
+        "Gene Regulation",
+        "Dynamics",
+        "Related"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Identifies reverse-control targets that restore altered biological phenotype landscapes toward a nominal landscape.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12372873/",
+        "https://github.com/Insoo-Jung/Phenotype-Landscape-Reversion"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/Insoo-Jung/Phenotype-Landscape-Reversion",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12372873/",
+        "https://github.com/Insoo-Jung/Phenotype-Landscape-Reversion"
+      ],
+      "code_note": "Science Advances data availability explicitly points to the GitHub repository and Zenodo archive.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "perturbnet",
+      "reviewed_at": "2026-09-26",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Learns a continuous perturbation-to-cell-state map and demonstrates design of perturbations to reach a desired cell-state distribution.",
+      "sources": [
+        "https://doi.org/10.1038/s44320-025-00131-3",
+        "https://doi.org/10.1101/2022.07.20.500854"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/welch-lab/PerturbNet",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/welch-lab/PerturbNet/blob/main/README.md",
+        "https://doi.org/10.1038/s44320-025-00131-3"
+      ],
+      "code_note": "Welch Lab repository explicitly identifies itself as the implementation of the PerturbNet paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
     }
   ]
 }

@@ -58,4 +58,15 @@ class CurationTests(unittest.TestCase):
             self.assertIn(d['tag_basis'],['abstract','project_documentation','title_and_metadata'])
             self.assertEqual(d['tags'],self.by_id[d['id']]['tags'])
 
+
+    def test_intervention_design_expansion(self):
+        expected={'cellnavi','pdgrapher','pairing','perturbnet','arc-phenotype-landscape-reversion','nudge-cell-fate','vcdesign','pharos'}
+        self.assertTrue(expected.issubset(self.by_id))
+        for key in expected:
+            self.assertIn('Intervention Design',self.by_id[key]['tags'],key)
+        self.assertEqual(self.by_id['pdgrapher']['code_url'],'https://github.com/mims-harvard/PDGrapher')
+        self.assertEqual(self.by_id['vcdesign']['code_url'],'https://github.com/Boom5426/VCDesign-CED')
+        self.assertEqual(self.by_id['pairing']['code_url'],'https://doi.org/10.5281/zenodo.15848686')
+        self.assertEqual(self.by_id['perturbnet']['code_url'],'https://github.com/welch-lab/PerturbNet')
+
 if __name__=='__main__':unittest.main()

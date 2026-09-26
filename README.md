@@ -9,7 +9,7 @@
 <p align="center"><b>A curated gateway to papers, datasets, benchmarks, and community resources for AI-powered virtual cell research.</b></p>
 
 <p align="center">
-  Virtual Cells &nbsp;·&nbsp; Perturbation &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Spatial &nbsp;·&nbsp; Agents
+  Virtual Cells &nbsp;·&nbsp; Perturbation &nbsp;·&nbsp; Intervention Design &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Spatial
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ New to virtual cell research? Pick a track instead of reading the full list from
 | 🧫 **Predict perturbations** | [GEARS](https://www.nature.com/articles/s41587-023-01905-6) · [CellOT](https://www.nature.com/articles/s41592-023-01969-x) · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) |
 | 🧠 **Foundation & world models** | [Geneformer](https://doi.org/10.1038/s41586-023-06139-9) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Speciesformer](https://doi.org/10.64898/2026.09.22.752128) |
 | 🖼️ **Multimodal & spatial** | [Multimodal foundation transformer](https://www.nature.com/articles/s41592-025-02918-6) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) · [TERRA](https://doi.org/10.64898/2026.07.29.741565) |
-| 🎯 **Intervention & discovery** | [PHAROS](https://doi.org/10.64898/2026.09.08.749477) · [Virtual Cell Challenge 2026](https://doi.org/10.1016/j.cell.2026.08.004) |
+| 🎯 **Intervention design** | [PDGrapher](https://doi.org/10.1038/s41551-025-01481-x) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED) · [PHAROS](https://doi.org/10.64898/2026.09.08.749477) |
 | 📏 **Evaluation & benchmarking** | [Virtual Cell Challenge 2026](https://doi.org/10.1016/j.cell.2026.08.004) · [Score Distributions, Not Cells](https://arxiv.org/abs/2607.04595) · [Projection Basis](https://doi.org/10.64898/2026.07.07.737004) |
 
 <a id="research-papers"></a>
@@ -47,12 +47,16 @@ Browse the full research collection below; each paper may carry multiple indepen
 
 <!-- GENERATED:RESEARCH-PAPERS:START -->
 
-**275 papers** · [2026 (174)](#2026) · [2025 (83)](#2025) · [2024 (18)](#2024)
+**281 papers** · [2026 (176)](#2026) · [2025 (87)](#2025) · [2024 (18)](#2024)
 
 Papers can have multiple topics. [Search and combine topics](https://boom5426.github.io/Awesome-Virtual-Cell/) · [Tag definitions](docs/taxonomy.md)
 
 <a id="2026"></a>
-### 🗓️ 2026 — 174 papers
+### 🗓️ 2026 — 176 papers
+
+- **[VCDesign]** `[Intervention Design]` `[Perturbation]` `[Virtual Cell]` VCDesign: Candidate-Conditioned Inverse Modeling for Cellular Intervention Design (**ICLR 2027 submission 2026**) [[preprint](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf)] [[code](https://github.com/Boom5426/VCDesign-CED)] ![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED.svg?logo=github&label=Stars) [[project](https://boom5426.github.io/VCDesign-CED/)] [[dataset](https://huggingface.co/datasets/Boom5426/VCDesign)]
+
+- **[NUDGE]** `[Intervention Design]` `[Gene Regulation]` `[Dynamics]` `[Related]` Uncovering minimal control of cell fate by natural dynamics (**PNAS 2026**) [[paper](https://doi.org/10.1073/pnas.2604777123)]
 
 - **[Speciesformer]** `[Virtual Cell]` `[Foundation Model]` `[Multimodal]` `[Perturbation]` `[Representation Learning]` Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.22.752128)]
 
@@ -403,7 +407,15 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 - **[MultiPert]** `[Perturbation]` `[Multimodal]` `[Protein]` MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction (**PLOS Computational Biology 2026**) [[paper](https://doi.org/10.1371/journal.pcbi.1014054)] [[code (project)](https://github.com/MengyuanZhaoo/MultiPert)] ![GitHub stars](https://img.shields.io/github/stars/MengyuanZhaoo/MultiPert.svg?logo=github&label=Stars)
 
 <a id="2025"></a>
-### 🗓️ 2025 — 83 papers
+### 🗓️ 2025 — 87 papers
+
+- **[PDGrapher]** `[Perturbation]` `[Intervention Design]` `[Gene Regulation]` `[Representation Learning]` Combinatorial prediction of therapeutic perturbations using causally inspired neural networks (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01481-x)] [[preprint](https://www.biorxiv.org/content/10.1101/2024.01.03.573985v5)] [[code](https://github.com/mims-harvard/PDGrapher)] ![GitHub stars](https://img.shields.io/github/stars/mims-harvard/PDGrapher.svg?logo=github&label=Stars) [[project](https://zitniklab.hms.harvard.edu/projects/PDGrapher/)]
+
+- **[PAIRING]** `[Perturbation]` `[Intervention Design]` `[Representation Learning]` Identifying an optimal perturbation to induce a desired cell state by generative deep learning (**Cell Systems 2025**) [[paper](https://doi.org/10.1016/j.cels.2025.101405)] [[code](https://doi.org/10.5281/zenodo.15848686)]
+
+- **[ARC]** `[Intervention Design]` `[Gene Regulation]` `[Dynamics]` `[Related]` Reverse control of biological networks to restore phenotype landscapes (**Science Advances 2025**) [[paper](https://doi.org/10.1126/sciadv.adw3995)] [[code](https://github.com/Insoo-Jung/Phenotype-Landscape-Reversion)] ![GitHub stars](https://img.shields.io/github/stars/Insoo-Jung/Phenotype-Landscape-Reversion.svg?logo=github&label=Stars) [[software archive](https://doi.org/10.5281/zenodo.15532673)]
+
+- **[PerturbNet]** `[Perturbation]` `[Intervention Design]` `[Representation Learning]` PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations (**Molecular Systems Biology 2025**) [[paper](https://doi.org/10.1038/s44320-025-00131-3)] [[preprint](https://doi.org/10.1101/2022.07.20.500854)] [[code](https://github.com/welch-lab/PerturbNet)] ![GitHub stars](https://img.shields.io/github/stars/welch-lab/PerturbNet.svg?logo=github&label=Stars)
 
 - **[GeneJEPA]** `[JEPA]` `[World Model]` `[Foundation Model]` `[Representation Learning]` `[Perturbation]` GeneJEPA: A Predictive World Model of the Transcriptome (**bioRxiv 2025**) [[preprint](https://doi.org/10.1101/2025.10.14.682378)] [[code](https://github.com/BiostateAI/GeneJEPA)] ![GitHub stars](https://img.shields.io/github/stars/BiostateAI/GeneJEPA.svg?logo=github&label=Stars)
 
@@ -626,7 +638,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 **Updates**
 
-- `2026-09-26` Restored the full Research Papers list; reviewed all 275 records for multi-label topics and repository correspondence, with source-linked curation notes.
+- `2026-09-26` Expanded Intervention Design with VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, and NUDGE; CellNavi remains a core existing entry.\n- `2026-09-26` Restored the full Research Papers list; reviewed all 275 records for multi-label topics and repository correspondence, with source-linked curation notes.
 - `2026-09-25` September literature sweep: added Speciesformer, PHAROS, LucaCell, DeepSCENIC, scKITE, scRep, AnnFlux, new Cell world-model papers, the Virtual Cell Challenge 2026 paper, and the TIPS review; upgraded ProteinTalks to Nature 2026 and STATE, Tahoe-100M, and scBaseCount to their Cell 2026 publications.
 - `2026-08-21` Added the Virtual Embryo Challenge (NeurIPS 2026), grouped both competitions under [Challenges and Competitions](#challenges-and-competitions), and started this News log.
 - `2026-08-17` Added World Model and JEPA papers, refreshed preprint links, corrected stale venue labels.
