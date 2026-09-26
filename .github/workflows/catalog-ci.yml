@@ -1,4 +1,4 @@
-# Schema v2 catalog integrity checks
+# Catalog integrity checks
 name: Validate Catalog
 
 on:
@@ -8,16 +8,20 @@ on:
       - "data/**"
       - "config/**"
       - "scripts/build_readme.py"
-      - "scripts/build_catalog.py"\n      - "scripts/build_landscape.py"
+      - "scripts/build_catalog.py"
+      - "scripts/build_landscape.py"
       - "scripts/build_exports.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
       - "scripts/publication_watcher.py"
       - "exports/**"
-      - "docs/catalog.template.html"\n      - "docs/landscape.template.html"\n      - "docs/landscape.html"
+      - "docs/catalog.template.html"
+      - "docs/landscape.template.html"
       - "docs/catalog.html"
       - "docs/index.html"
-      - "index.html"\n      - "landscape.html"
+      - "docs/landscape.html"
+      - "index.html"
+      - "landscape.html"
       - "tests/**"
       - ".github/workflows/catalog-ci.yml"
   pull_request:
@@ -26,16 +30,20 @@ on:
       - "data/**"
       - "config/**"
       - "scripts/build_readme.py"
-      - "scripts/build_catalog.py"\n      - "scripts/build_landscape.py"
+      - "scripts/build_catalog.py"
+      - "scripts/build_landscape.py"
       - "scripts/build_exports.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
       - "scripts/publication_watcher.py"
       - "exports/**"
-      - "docs/catalog.template.html"\n      - "docs/landscape.template.html"\n      - "docs/landscape.html"
+      - "docs/catalog.template.html"
+      - "docs/landscape.template.html"
       - "docs/catalog.html"
       - "docs/index.html"
-      - "index.html"\n      - "landscape.html"
+      - "docs/landscape.html"
+      - "index.html"
+      - "landscape.html"
       - "tests/**"
       - ".github/workflows/catalog-ci.yml"
 

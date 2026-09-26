@@ -1,7 +1,5 @@
 name: Auto Update Awesome Virtual Cell
 
-# V2: discovery writes structured data first, then regenerates README/catalog.
-# Scheduled updates remain disabled; run manually until the new pipeline is reviewed.
 on:
   workflow_dispatch:
 
@@ -13,22 +11,20 @@ jobs:
   update-catalog:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Discover and update structured catalog
         run: python scripts/auto_update_catalog.py
 
-      - name: Validate generated state
+      - name: Regenerate and validate views
         run: |
+          python scripts/build_landscape.py
           python scripts/validate_catalog.py
-          python scripts/build_exports.py\n          python scripts/build_landscape.py
           python scripts/build_readme.py --check
+          python scripts/build_exports.py
           cp docs/catalog.html /tmp/catalog.before.html
           python scripts/build_catalog.py
           diff -u /tmp/catalog.before.html docs/catalog.html
@@ -54,7 +50,9 @@ jobs:
             README.md
             docs/catalog.html
             docs/index.html
-            index.html\n            landscape.html\n            docs/landscape.html
+            index.html
+            landscape.html
+            docs/landscape.html
             exports/papers.csv
             exports/papers.bib
             auto_update_summary.md
