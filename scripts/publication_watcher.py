@@ -74,6 +74,26 @@ def candidates_for(paper: dict) -> list[dict]:
     return found
 
 
+def collect_proposals(papers: list[dict], max_updates: int) -> tuple[list[tuple[dict,dict]], int, int]:
+    proposals: list[tuple[dict,dict]] = []
+    scanned = 0
+    failed = 0
+    for paper in papers:
+        if paper.get("status") != "preprint":
+            continue
+        scanned += 1
+        try:
+            hits = candidates_for(paper)
+        except Exception as exc:
+            failed += 1
+            print(f"WARN: Crossref lookup failed for {paper['id']}: {exc}")
+            continue
+        if hits:
+            proposals.append((paper, hits[0]))
+    proposals.sort(key=lambda x: x[1]["score"], reverse=True)
+    return proposals[:max_updates], scanned, failed
+
+
 def update_links(paper: dict) -> None:
     core_urls = {paper.get("paper_url"), paper.get("preprint_url"), paper.get("code_url")}
     paper["links"] = [x for x in paper.get("links", []) if x.get("url") not in core_urls]
@@ -100,25 +120,7 @@ def main() -> int:
 
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     today = dt.date.today().isoformat()
-    proposals: list[tuple[dict,dict]] = []
-    scanned = 0
-    failed = 0
-
-    for paper in payload["papers"]:
-        if paper.get("status") != "preprint":
-            continue
-        scanned += 1
-        try:
-            hits = candidates_for(paper)
-        except Exception as exc:
-            failed += 1
-            print(f"WARN: Crossref lookup failed for {paper['id']}: {exc}")
-            continue
-        if hits:
-            proposals.append((paper, hits[0]))
-
-    proposals.sort(key=lambda x: x[1]["score"], reverse=True)
-    proposals = proposals[:args.max_updates]
+    proposals, scanned, failed = collect_proposals(payload["papers"], args.max_updates)
 
     lines = [
         "# Publication Upgrade Watch",
