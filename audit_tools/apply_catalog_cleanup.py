@@ -79,11 +79,20 @@ paper_linked={
 "veloagent":"https://doi.org/10.1038/s44320-026-00213-w",
 "multipert":"https://doi.org/10.1371/journal.pcbi.1014054",
 "gperturb":"https://doi.org/10.1038/s41467-025-61165-7",
+"lucacell":"https://www.biorxiv.org/content/10.64898/2026.09.08.750024v1.full",
+"cellworld":"https://arxiv.org/abs/2608.06659",
+"spacellagent":"https://arxiv.org/abs/2607.07467",
+"saffron":"https://doi.org/10.64898/2026.08.01.742217",
+"tissueformer-digital-pathology":"https://www.biorxiv.org/content/10.64898/2026.07.31.741265v1.full",
+"morphdiff":"https://doi.org/10.1038/s41467-025-63478-z",
+"xtransfercdr":"https://ojs.aaai.org/index.php/AAAI/article/download/34073/36228",
+"subcell":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12636579/",
+"cellconsensus":"https://www.biorxiv.org/content/10.64898/2026.08.07.743503v1",
 }
 
 repository_linked=[
 "scarchon","celcomen","scdfm","morph-map","mtiproteinimputation","cellflow","prophet",
-"ps","mixscale","genept","scgpt","saturn","token-mol-1-0","scnet","screpresenter"
+"ps","mixscale","genept","scgpt","saturn","token-mol-1-0","scnet","screpresenter","cell2sentence"
 ]
 
 new_code={
@@ -259,9 +268,9 @@ This follow-up starts from the code-link audit and addresses metadata/provenance
 - Normalized four direct-PDF preprint links to stable abstract/DOI URLs.
 - Replaced empty or generic duplicate short labels and disambiguated the two unrelated TissueFormer entries.
 - Added 12 newly verified code repositories: DeSCOPE, AetherCell, PRESCRIBE, response decomposition, ExpressionVAE/design-space analysis, task-adapted FM analysis, scBench-Long, Tabular FM perturbation, Species-Native Tokens, Confound Diagnostics, CRISPRko-vs-CRISPRi, and Gene Intelligence.
-- Upgraded 25 pre-existing `project_match` records only where stronger paper↔repository evidence was found.
+- Upgraded 35 pre-existing `project_match` records only where stronger paper↔repository evidence was found.
 - Corrected scDifformer's official code/weights release to the Hugging Face repository identified by the published paper; retained the previous GitHub project as an auxiliary project link.
-- Marked OCellus and CellQ/PACE as `release_pending` based on their manuscript code-availability statements.\n- The CellFM-datasets manuscript reports a GitHub code URL, but that repository returned 404 during this audit, so it is deliberately not counted as available code.
+- Marked OCellus and CellQ/PACE as `release_pending` based on their manuscript code-availability statements.\n- The CellFM-datasets manuscript reports a GitHub code URL, but that repository returned 404 during this audit, so it is deliberately not counted as available code.\n- Spaceland's manuscript still states that source code is being prepared for release; a same-project public repository exists, but it remains `project_match` rather than documented paper correspondence.
 - The publication watcher found **0** additional high-confidence preprint→formal-publication upgrades on 2026-09-28.
 
 ## Guardrails added
