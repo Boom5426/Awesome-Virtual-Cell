@@ -1,0 +1,41 @@
+name: Apply final reviewed code sweep
+on:
+  push:
+    branches: [audit/final-code-sweep-2026-09-28]
+    paths:
+      - audit_tools/apply_final_reviewed.py
+      - .github/workflows/apply-final-reviewed.yml
+permissions:
+  contents: write
+concurrency:
+  group: apply-final-reviewed-code-sweep
+  cancel-in-progress: true
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Apply reviewed evidence
+        run: python audit_tools/apply_final_reviewed.py
+      - name: Rebuild and validate
+        run: |
+          python scripts/build_readme.py
+          python scripts/build_catalog.py
+          python scripts/build_landscape.py
+          python scripts/build_exports.py
+          python scripts/validate_catalog.py
+          python scripts/build_readme.py --check
+          python -m unittest discover -s tests
+          node tests/test_catalog_ui.cjs
+      - name: Commit durable catalog changes only
+        run: |
+          git config user.name "Bo li"
+          git config user.email "83391363+Boom5426@users.noreply.github.com"
+          git rm -f audit_tools/final_code_sweep.py audit_tools/apply_final_reviewed.py .github/workflows/final-code-sweep.yml .github/workflows/apply-final-reviewed.yml
+          git add data/papers.json README.md index.html landscape.html docs/catalog.html docs/index.html docs/landscape.html docs/code-audit-2026-09-28.md docs/final-code-sweep-2026-09-28.md exports/papers.csv exports/papers.bib tests/test_code_metadata.py
+          git commit -m "curation: complete final code-link sweep"
+          git push origin HEAD:audit/final-code-sweep-2026-09-28
