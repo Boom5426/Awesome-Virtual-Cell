@@ -35,7 +35,7 @@ jobs:
           cp data/papers.json cleanup_artifact/data/
           cp README.md cleanup_artifact/
           cp index.html landscape.html cleanup_artifact/
-          cp docs/catalog.html docs/index.html docs/landscape.html docs/code-audit-2026-09-28.md docs/catalog-cleanup-2026-09-28.md cleanup_artifact/docs/
+          cp docs/catalog.html docs/index.html docs/landscape.html docs/architecture.md docs/code-audit-2026-09-28.md docs/catalog-cleanup-2026-09-28.md cleanup_artifact/docs/
           cp exports/papers.csv exports/papers.bib cleanup_artifact/exports/
           cp tests/test_curation.py cleanup_artifact/tests/
       - uses: actions/upload-artifact@v4
