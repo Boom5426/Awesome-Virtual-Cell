@@ -101,21 +101,35 @@ def main() -> int:
     payload = json.loads(DATA.read_text(encoding="utf-8"))
     today = dt.date.today().isoformat()
     proposals: list[tuple[dict,dict]] = []
+    scanned = 0
+    failed = 0
 
     for paper in payload["papers"]:
         if paper.get("status") != "preprint":
             continue
+        scanned += 1
         try:
             hits = candidates_for(paper)
         except Exception as exc:
+            failed += 1
             print(f"WARN: Crossref lookup failed for {paper['id']}: {exc}")
             continue
         if hits:
             proposals.append((paper, hits[0]))
-        if len(proposals) >= args.max_updates:
-            break
 
-    lines = ["# Publication Upgrade Watch", "", f"- Date: {today}", f"- High-confidence candidates: {len(proposals)}", ""]
+    proposals.sort(key=lambda x: x[1]["score"], reverse=True)
+    proposals = proposals[:args.max_updates]
+
+    lines = [
+        "# Publication Upgrade Watch",
+        "",
+        f"- Date: {today}",
+        f"- Preprints scanned: {scanned}",
+        f"- Lookup failures: {failed}",
+        f"- High-confidence candidates selected: {len(proposals)}",
+        f"- Per-run update cap: {args.max_updates}",
+        "",
+    ]
     for paper, hit in proposals:
         lines += [
             f"## {paper.get('label') or paper['title']}",
@@ -134,9 +148,9 @@ def main() -> int:
     if args.apply and proposals:
         payload["paper_count"] = len(payload["papers"])
         DATA.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"Applied {len(proposals)} publication upgrades")
+        print(f"Scanned {scanned} preprints; applied {len(proposals)} publication upgrades; {failed} lookups failed")
     else:
-        print(f"Found {len(proposals)} publication upgrade candidates")
+        print(f"Scanned {scanned} preprints; found {len(proposals)} publication upgrade candidates; {failed} lookups failed")
     return 0
 
 
