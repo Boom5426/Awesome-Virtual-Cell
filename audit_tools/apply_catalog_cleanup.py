@@ -76,8 +76,8 @@ paper_linked={
 "sclong":"https://doi.org/10.1038/s41467-026-69102-y",
 "dataset-size-diversity":"https://doi.org/10.1038/s41592-026-03120-y",
 "txpert":"https://doi.org/10.1038/s41587-026-03113-4",
-"veloagent":"https://doi.org/10.1038/s44320-026-00093-0",
-"multipert":"https://doi.org/10.1371/journal.pcbi.1013003",
+"veloagent":"https://doi.org/10.1038/s44320-026-00213-w",
+"multipert":"https://doi.org/10.1371/journal.pcbi.1014054",
 "gperturb":"https://doi.org/10.1038/s41467-025-61165-7",
 }
 
@@ -105,6 +105,21 @@ new_code={
     "https://github.com/sbnb-irb/LINCS_scGPT_embeddings/blob/main/README.md"]),
 "scbench-long":("https://github.com/latchbio/scbench-long","repository_linked",[
     "https://github.com/latchbio/scbench-long/blob/main/README.md"]),
+"tabular-fm-perturbation":("https://github.com/royerlab/tfm-perturbation","paper_linked",[
+    "https://www.biorxiv.org/content/10.64898/2026.06.28.735106v3.full",
+    "https://github.com/royerlab/tfm-perturbation/blob/main/README.md"]),
+"species-native-tokens":("https://github.com/hucang0/uce-competence-ruler","paper_linked",[
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13483897/",
+    "https://github.com/hucang0/uce-competence-ruler/blob/main/README.md"]),
+"confound-diagnostics":("https://github.com/willow0077/isp-confound-toolkit","paper_linked",[
+    "https://www.biorxiv.org/content/10.64898/2026.08.04.732812v1",
+    "https://github.com/willow0077/isp-confound-toolkit/blob/main/README.md"]),
+"crisprko-vs-crispri":("https://github.com/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq","paper_linked",[
+    "https://www.biorxiv.org/content/10.64898/2026.07.04.736492v1.full",
+    "https://github.com/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq/blob/main/README.md"]),
+"gene-intelligence":("https://github.com/beleggia-lab/geneintelligence","paper_linked",[
+    "https://www.biorxiv.org/content/10.64898/2026.06.29.735389v1.full",
+    "https://github.com/beleggia-lab/geneintelligence/blob/main/README.md"]),
 }
 
 changed=set()
@@ -176,7 +191,7 @@ test_path=ROOT/"tests/test_curation.py"
 test=test_path.read_text(encoding="utf-8")
 anchor="    def test_hand_maintained_markdown_has_no_literal_newline_escapes(self):\n"
 if "def test_labels_are_nonempty_and_unique" not in test:
-    block='''    def test_labels_are_nonempty_and_unique(self):\n        labels=[]\n        for p in self.papers:\n            self.assertTrue((p.get("label") or "").strip(),p["id"])\n            labels.append(p["label"].strip().casefold())\n        self.assertEqual(len(labels),len(set(labels)))\n\n    def test_formal_article_urls_have_doi(self):\n        for p in self.papers:\n            if p.get("status")!="published" or not p.get("paper_url"):\n                continue\n            url=p["paper_url"]\n            m=re.search(r"nature\\.com/articles/([^/?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),"10.1038/"+m.group(1),p["id"])\n            m=re.search(r"link\\.springer\\.com/article/(10\\.[^?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),m.group(1),p["id"])\n\n    def test_followup_code_provenance(self):\n        for key in ["descope","aethercell","prescribe","response-decomposition","design-space","task-adapted-fm","scbench-long"]:\n            self.assertTrue(self.by_id[key]["code_url"],key)\n            self.assertIn(self.by_id[key]["code_status"],["paper_linked","repository_linked"],key)\n        for key in ["ocellus","cellq-pace"]:\n            self.assertIsNone(self.by_id[key]["code_url"],key)\n            self.assertEqual(self.by_id[key]["code_status"],"release_pending",key)\n        self.assertEqual(self.by_id["scdifformer"]["code_url"],"https://huggingface.co/allenxiao/scDIFFormer")\n        self.assertEqual(self.by_id["scdifformer"]["code_status"],"paper_linked")\n\n'''
+    block='''    def test_labels_are_nonempty_and_unique(self):\n        labels=[]\n        for p in self.papers:\n            self.assertTrue((p.get("label") or "").strip(),p["id"])\n            labels.append(p["label"].strip().casefold())\n        self.assertEqual(len(labels),len(set(labels)))\n\n    def test_formal_article_urls_have_doi(self):\n        for p in self.papers:\n            if p.get("status")!="published" or not p.get("paper_url"):\n                continue\n            url=p["paper_url"]\n            m=re.search(r"nature\\.com/articles/([^/?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),"10.1038/"+m.group(1),p["id"])\n            m=re.search(r"link\\.springer\\.com/article/(10\\.[^?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),m.group(1),p["id"])\n\n    def test_followup_code_provenance(self):\n        for key in ["descope","aethercell","prescribe","response-decomposition","design-space","task-adapted-fm","scbench-long","tabular-fm-perturbation","species-native-tokens","confound-diagnostics","crisprko-vs-crispri","gene-intelligence"]:\n            self.assertTrue(self.by_id[key]["code_url"],key)\n            self.assertIn(self.by_id[key]["code_status"],["paper_linked","repository_linked"],key)\n        for key in ["ocellus","cellq-pace"]:\n            self.assertIsNone(self.by_id[key]["code_url"],key)\n            self.assertEqual(self.by_id[key]["code_status"],"release_pending",key)\n        self.assertEqual(self.by_id["scdifformer"]["code_url"],"https://huggingface.co/allenxiao/scDIFFormer")\n        self.assertEqual(self.by_id["scdifformer"]["code_status"],"paper_linked")\n\n'''
     test=test.replace(anchor,block+anchor)
     test_path.write_text(test,encoding="utf-8")
 
@@ -207,10 +222,10 @@ This follow-up starts from the code-link audit and addresses metadata/provenance
 - Filled **{len(doi_updates)}** DOI fields that were deterministically recoverable from formal publisher or preprint URLs.
 - Normalized four direct-PDF preprint links to stable abstract/DOI URLs.
 - Replaced empty or generic duplicate short labels and disambiguated the two unrelated TissueFormer entries.
-- Added 7 newly verified code repositories: DeSCOPE, AetherCell, PRESCRIBE, response decomposition, ExpressionVAE/design-space analysis, task-adapted FM analysis, and scBench-Long.
+- Added 12 newly verified code repositories: DeSCOPE, AetherCell, PRESCRIBE, response decomposition, ExpressionVAE/design-space analysis, task-adapted FM analysis, scBench-Long, Tabular FM perturbation, Species-Native Tokens, Confound Diagnostics, CRISPRko-vs-CRISPRi, and Gene Intelligence.
 - Upgraded 25 pre-existing `project_match` records only where stronger paper↔repository evidence was found.
 - Corrected scDifformer's official code/weights release to the Hugging Face repository identified by the published paper; retained the previous GitHub project as an auxiliary project link.
-- Marked OCellus and CellQ/PACE as `release_pending` based on their manuscript code-availability statements.
+- Marked OCellus and CellQ/PACE as `release_pending` based on their manuscript code-availability statements.\n- The CellFM-datasets manuscript reports a GitHub code URL, but that repository returned 404 during this audit, so it is deliberately not counted as available code.
 - The publication watcher found **0** additional high-confidence preprint→formal-publication upgrades on 2026-09-28.
 
 ## Guardrails added
