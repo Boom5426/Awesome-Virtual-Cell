@@ -2760,12 +2760,15 @@
       "doi": "10.64898/2026.08.10.743942",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.10.743942",
-      "code_url": null,
+      "code_url": "https://github.com/wkr112344/VirtualCellWorkbench",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://doi.org/10.64898/2026.08.10.743942",
+        "https://github.com/wkr112344/VirtualCellWorkbench/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [

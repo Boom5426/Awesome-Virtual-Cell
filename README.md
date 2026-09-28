@@ -173,7 +173,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[Reliable Perturbations]** `[Benchmark]` `[Perturbation]` `[Evaluation & Measurement]` Reliable single-cell perturbations explain and improve model performance (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.11.744177)]
 
-- **[Cell Line Bottleneck]** `[Benchmark]` `[Perturbation]` `[Evaluation & Measurement]` Cancer Cell Line Heterogeneity Imposes a Primary Bottleneck for Virtual Perturbation Screening at Scale (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.10.743942)]
+- **[Cell Line Bottleneck]** `[Benchmark]` `[Perturbation]` `[Evaluation & Measurement]` Cancer Cell Line Heterogeneity Imposes a Primary Bottleneck for Virtual Perturbation Screening at Scale (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.10.743942)] [[code](https://github.com/wkr112344/VirtualCellWorkbench)] ![GitHub stars](https://img.shields.io/github/stars/wkr112344/VirtualCellWorkbench.svg?logo=github&label=Stars)
 
 - **[ST Agent Benchmark]** `[Benchmark]` `[Agent]` `[Spatial]` Mind the alignment gap: a spatial transcriptomics benchmark for scientific coding agents (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.05.736638)]
 

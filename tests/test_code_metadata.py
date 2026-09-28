@@ -41,6 +41,7 @@ class CodeMetadataTests(unittest.TestCase):
             'cytokine-atlas':('https://github.com/poconnel3/CytoCarto','paper_linked'),
             'spurious-correlation':('https://github.com/phillipnicol/systema','paper_linked'),
             'bridge':('https://github.com/tracy666/BRIDGE','paper_linked'),
+            'cell-line-bottleneck':('https://github.com/wkr112344/VirtualCellWorkbench','repository_linked'),
             'morph-transcriptomic-genmodel':('https://github.com/prsigma/MultiVCDiff','paper_linked'),
             'perturbation-representation':('https://github.com/week3ndzZ/PerturbedVAE','repository_linked'),
             'pertdiffbench':('https://github.com/ZijunSong/PertDiffBench','project_match'),

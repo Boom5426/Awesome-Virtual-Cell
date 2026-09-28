@@ -7,10 +7,10 @@ This pass follows the repository-wide code audit and catalog cleanup. It focuses
 | Metric | Before | After |
 | --- | ---: | ---: |
 | Papers | 285 | 285 |
-| Code links | 205 | 214 |
-| Documented paper↔code correspondence | 198 | 211 |
+| Code links | 205 | 215 |
+| Documented paper↔code correspondence | 198 | 212 |
 | Weaker `project_match` | 7 | 3 |
-| No established code link | 80 | 71 |
+| No established code link | 80 | 70 |
 
 ## Newly established code links
 
@@ -20,6 +20,7 @@ This pass follows the repository-wide code audit and catalog cleanup. It focuses
 - **Cytokine Atlas → CytoCarto** — manuscript code/project release.
 - **Spurious Correlation → phillipnicol/systema** — repository documents the paper-specific analysis directories.
 - **BRIDGE → tracy666/BRIDGE** — repository identifies itself as the official implementation.
+- **Cell Line Bottleneck → VirtualCellWorkbench** — companion repository explicitly cites the exact 2026 bioRxiv paper and provides a reproduction toolkit.
 - **Morph-Transcriptomic GenModel → MultiVCDiff** — published study's released implementation.
 - **Perturbation Representation → PerturbedVAE** — public implementation and representation-collapse analysis for the named method.
 - **PertDiffBench → ZijunSong/PertDiffBench** — same branded benchmark project with implementation, retained as `project_match` because the repository's displayed workshop title differs from the catalogued bioRxiv title.

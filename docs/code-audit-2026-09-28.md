@@ -93,6 +93,6 @@ The 44 pre-existing `project_match` entries were not silently upgraded by this a
 The source data, README, searchable catalog and exports are regenerated together. Regression tests cover positive, missing, pending and data-only filter behavior.
 
 
-> **Current catalog after the final 2026-09-28 sweep:** 214 code links, 211 documented correspondences, 3 project matches, and 71 records without an established code link. See [final code-link sweep](final-code-sweep-2026-09-28.md).
+> **Current catalog after the final 2026-09-28 sweep:** 215 code links, 212 documented correspondences, 3 project matches, and 70 records without an established code link. See [final code-link sweep](final-code-sweep-2026-09-28.md).
 
 [Machine-readable audit for all 285 records](../data/curation/code-audit-2026-09-28.json) contains before/after metadata, per-record access/search outcomes, reviewed evidence URLs, and unresolved candidates.
