@@ -31,4 +31,29 @@ class CodeMetadataTests(unittest.TestCase):
                 self.assertTrue(m['sources'])
                 self.assertTrue(m.get('code_paths_sample'))
 
+    def test_final_sweep_reviewed_links(self):
+        papers=json.loads((ROOT/'data/papers.json').read_text())['papers']
+        by={p['id']:p for p in papers}
+        expected={
+            'zero-shot-benchmark':('https://github.com/ShellyCoder/scFMBench','paper_linked'),
+            'therapeutic-design':('https://github.com/Bin-Chen-Lab/GPS','paper_linked'),
+            'crispri-map':('https://github.com/claudiafeng123/crispri_scrnaseq_hipsci','paper_linked'),
+            'cytokine-atlas':('https://github.com/poconnel3/CytoCarto','paper_linked'),
+            'spurious-correlation':('https://github.com/phillipnicol/systema','paper_linked'),
+            'bridge':('https://github.com/tracy666/BRIDGE','paper_linked'),
+            'morph-transcriptomic-genmodel':('https://github.com/prsigma/MultiVCDiff','paper_linked'),
+            'perturbation-representation':('https://github.com/week3ndzZ/PerturbedVAE','repository_linked'),
+            'pertdiffbench':('https://github.com/ZijunSong/PertDiffBench','project_match'),
+        }
+        for key,(url,status) in expected.items():
+            self.assertEqual(by[key]['code_url'],url,key)
+            self.assertEqual(by[key]['code_status'],status,key)
+        for key in ['deepscenic','vcharness','cellens','cellpb','gremln']:
+            self.assertIn(by[key]['code_status'],{'paper_linked','repository_linked'},key)
+        self.assertEqual(by['spaceland']['code_status'],'project_match')
+        self.assertEqual(by['squint']['code_status'],'project_match')
+        self.assertIsNone(by['sccyclemol']['code_url'])
+        self.assertEqual(by['crispri-map']['doi'],'10.1016/j.xgen.2025.101076')
+        self.assertEqual(by['llm4cell']['doi'],'10.18653/v1/2026.acl-long.1942')
+
 if __name__=='__main__':unittest.main()

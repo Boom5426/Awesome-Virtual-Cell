@@ -365,10 +365,12 @@
       "code_url": "https://github.com/aertslab/deepSCENIC",
       "links": [],
       "added_at": "2026-09-25",
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
-        "https://github.com/aertslab/deepSCENIC/blob/main/README.md"
+        "https://github.com/aertslab/deepSCENIC/blob/main/README.md",
+        "https://doi.org/10.64898/2026.09.18.752607",
+        "https://github.com/aertslab/deepSCENIC_analyses/blob/main/README.md"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -1970,10 +1972,12 @@
       "code_url": "https://github.com/genbio-ai/VCHarness",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
-        "https://github.com/genbio-ai/VCHarness"
+        "https://github.com/genbio-ai/VCHarness",
+        "https://www.biorxiv.org/content/10.64898/2026.04.11.717183v1",
+        "https://genbio-ai.github.io/VCHarness/"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -2179,13 +2183,13 @@
         "Agent",
         "Review"
       ],
-      "doi": null,
+      "doi": "10.18653/v1/2026.acl-long.1942",
       "paper_url": "https://aclanthology.org/2026.acl-long.1942/",
       "preprint_url": null,
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "not_found",
       "code_sources": [],
       "tag_review_basis": "abstract",
@@ -3636,12 +3640,24 @@
       "doi": "10.64898/2026.07.27.740961",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.27.740961",
-      "code_url": null,
-      "links": [],
+      "code_url": "https://github.com/poconnel3/CytoCarto",
+      "links": [
+        {
+          "label": "project",
+          "url": "https://cytocarto.vercel.app"
+        },
+        {
+          "label": "dataset",
+          "url": "https://zenodo.org/records/21497681"
+        }
+      ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.27.740961v1.full",
+        "https://github.com/poconnel3/CytoCarto/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -4477,10 +4493,11 @@
       "code_url": "https://github.com/hnu-vis/CELLens",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
-        "https://github.com/hnu-vis/CELLens/blob/main/README.md"
+        "https://github.com/hnu-vis/CELLens/blob/main/README.md",
+        "https://arxiv.org/abs/2608.08430"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -4760,12 +4777,14 @@
       "doi": "10.64898/2026.06.13.732013",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.13.732013",
-      "code_url": null,
+      "code_url": "https://github.com/ZijunSong/PertDiffBench",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/ZijunSong/PertDiffBench/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -4799,12 +4818,15 @@
       "doi": "10.64898/2026.06.18.733285",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.18.733285",
-      "code_url": null,
+      "code_url": "https://github.com/ShellyCoder/scFMBench",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.06.18.733285v1.full",
+        "https://github.com/ShellyCoder/scFMBench/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -5233,12 +5255,15 @@
       "doi": "10.64898/2026.05.05.722971",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.05.722971",
-      "code_url": null,
+      "code_url": "https://github.com/tracy666/BRIDGE",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.05.05.722971v1.full",
+        "https://github.com/tracy666/BRIDGE/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -5325,12 +5350,15 @@
       "doi": "10.1016/j.crmeth.2026.101459",
       "paper_url": "https://doi.org/10.1016/j.crmeth.2026.101459",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/prsigma/MultiVCDiff",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://doi.org/10.1016/j.crmeth.2026.101459",
+        "https://github.com/prsigma/MultiVCDiff/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -5458,12 +5486,15 @@
       "doi": "10.64898/2026.05.07.723486",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.07.723486",
-      "code_url": null,
+      "code_url": "https://github.com/phillipnicol/systema",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.05.07.723486v1.full",
+        "https://github.com/phillipnicol/systema/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -6330,15 +6361,23 @@
         "Gene Regulation",
         "Dataset"
       ],
-      "doi": null,
-      "paper_url": "https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X25003325%3Fshowall%3Dtrue",
+      "doi": "10.1016/j.xgen.2025.101076",
+      "paper_url": "https://doi.org/10.1016/j.xgen.2025.101076",
       "preprint_url": null,
-      "code_url": null,
-      "links": [],
+      "code_url": "https://github.com/claudiafeng123/crispri_scrnaseq_hipsci",
+      "links": [
+        {
+          "label": "publisher",
+          "url": "https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X25003325%3Fshowall%3Dtrue"
+        }
+      ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12903452/",
+        "https://github.com/claudiafeng123/crispri_scrnaseq_hipsci/blob/main/README.md"
+      ],
       "tag_review_basis": "title_and_metadata",
       "facets": {
         "task": [
@@ -6417,12 +6456,15 @@
       "doi": "10.1016/j.cell.2026.02.016",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.02.016",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Bin-Chen-Lab/GPS",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://doi.org/10.1016/j.cell.2026.02.016",
+        "https://github.com/Bin-Chen-Lab/GPS/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -6936,12 +6978,15 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2605.19343",
-      "code_url": null,
+      "code_url": "https://github.com/week3ndzZ/PerturbedVAE",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://arxiv.org/abs/2605.19343",
+        "https://github.com/week3ndzZ/PerturbedVAE/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -10094,10 +10139,11 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
-        "https://github.com/Chen-Li-17/CellPB/blob/main/README.md"
+        "https://github.com/Chen-Li-17/CellPB/blob/main/README.md",
+        "https://www.biorxiv.org/content/10.1101/2024.12.20.629581v2"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -10523,10 +10569,11 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
-        "https://github.com/czi-ai/GREmLN/blob/main/README.md"
+        "https://github.com/czi-ai/GREmLN/blob/main/README.md",
+        "https://doi.org/10.1101/2025.07.03.663009"
       ],
       "tag_review_basis": "abstract",
       "facets": {
