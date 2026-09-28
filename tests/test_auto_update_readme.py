@@ -52,6 +52,17 @@ class StructuredCatalogUpdateTests(unittest.TestCase):
         self.assertNotIn("entry_markdown", record)
         self.assertIsInstance(record["links"], list)
         self.assertIsNotNone(record["added_at"])
+        self.assertEqual("project_match", record["code_status"])
+        self.assertEqual("unreviewed", record["tag_review_basis"])
+        self.assertEqual("unreviewed", record["facet_review_basis"])
+        self.assertEqual({
+            "task": [],
+            "modality": [],
+            "perturbation_type": [],
+            "generalization": [],
+            "paper_type": [],
+        }, record["facets"])
+        self.assertEqual([candidate.primary_link], record["facet_sources"])
 
     def test_render_entry_uses_structured_fields(self) -> None:
         paper = {
