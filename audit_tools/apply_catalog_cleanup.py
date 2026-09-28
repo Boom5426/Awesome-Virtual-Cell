@@ -186,12 +186,48 @@ for ident in changed:
 payload["paper_count"]=len(papers)
 DATA.write_text(json.dumps(payload,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
 
+# Repair and refresh hand-maintained architecture documentation.
+arch_path=ROOT/"docs/architecture.md"
+arch=arch_path.read_text(encoding="utf-8")
+arch=arch.replace(
+"""python scripts/build_catalog.py
+python scripts/build_exports.py""",
+"""python scripts/build_catalog.py
+python scripts/build_landscape.py
+python scripts/build_exports.py"""
+)
+arch=arch.replace(
+"""- free-text search
+- year
+- topic tag
+- `published` vs `preprint`
+- code availability in the displayed metadata""",
+"""- free-text search
+- year and `published` vs `preprint`
+- multi-label topic filtering with AND/OR matching
+- task, modality, perturbation type, generalization and paper-type facets
+- code availability, including a stricter documented-correspondence filter"""
+)
+arch=arch.replace(
+r"""\n## Evidence-backed facets\n\nThe catalog supports task, modality, perturbation-type, generalization and paper-type facets with per-paper evidence provenance.\n\n## Research Landscape\n\n`scripts/build_landscape.py` generates the interactive SVG mind map with zoom, pan, fit-to-view and filtered deep links.\n""",
+"""## Evidence-backed facets
+
+The catalog supports task, modality, perturbation-type, generalization and paper-type facets with per-paper evidence provenance.
+
+## Research Landscape
+
+`scripts/build_landscape.py` generates the interactive SVG mind map with zoom, pan, fit-to-view and filtered deep links.
+"""
+)
+arch=arch.replace("views.\n## Build","views.\n\n## Build")
+arch_path.write_text(arch,encoding="utf-8")
+
 # Add durable regression tests.
 test_path=ROOT/"tests/test_curation.py"
 test=test_path.read_text(encoding="utf-8")
 anchor="    def test_hand_maintained_markdown_has_no_literal_newline_escapes(self):\n"
 if "def test_labels_are_nonempty_and_unique" not in test:
-    block='''    def test_labels_are_nonempty_and_unique(self):\n        labels=[]\n        for p in self.papers:\n            self.assertTrue((p.get("label") or "").strip(),p["id"])\n            labels.append(p["label"].strip().casefold())\n        self.assertEqual(len(labels),len(set(labels)))\n\n    def test_formal_article_urls_have_doi(self):\n        for p in self.papers:\n            if p.get("status")!="published" or not p.get("paper_url"):\n                continue\n            url=p["paper_url"]\n            m=re.search(r"nature\\.com/articles/([^/?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),"10.1038/"+m.group(1),p["id"])\n            m=re.search(r"link\\.springer\\.com/article/(10\\.[^?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),m.group(1),p["id"])\n\n    def test_followup_code_provenance(self):\n        for key in ["descope","aethercell","prescribe","response-decomposition","design-space","task-adapted-fm","scbench-long","tabular-fm-perturbation","species-native-tokens","confound-diagnostics","crisprko-vs-crispri","gene-intelligence"]:\n            self.assertTrue(self.by_id[key]["code_url"],key)\n            self.assertIn(self.by_id[key]["code_status"],["paper_linked","repository_linked"],key)\n        for key in ["ocellus","cellq-pace"]:\n            self.assertIsNone(self.by_id[key]["code_url"],key)\n            self.assertEqual(self.by_id[key]["code_status"],"release_pending",key)\n        self.assertEqual(self.by_id["scdifformer"]["code_url"],"https://huggingface.co/allenxiao/scDIFFormer")\n        self.assertEqual(self.by_id["scdifformer"]["code_status"],"paper_linked")\n\n'''
+    block='''    def test_labels_are_nonempty_and_unique(self):\n        labels=[]\n        for p in self.papers:\n            self.assertTrue((p.get("label") or "").strip(),p["id"])\n            labels.append(p["label"].strip().casefold())\n        self.assertEqual(len(labels),len(set(labels)))\n\n    def test_formal_article_urls_have_doi(self):\n        for p in self.papers:\n            if p.get("status")!="published" or not p.get("paper_url"):\n                continue\n            url=p["paper_url"]\n            m=re.search(r"nature\\.com/articles/([^/?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),"10.1038/"+m.group(1),p["id"])\n            m=re.search(r"link\\.springer\\.com/article/(10\\.[^?#]+)",url)\n            if m:\n                self.assertEqual(p.get("doi"),m.group(1),p["id"])\n\n    def test_followup_code_provenance(self):\n        for key in ["descope","aethercell","prescribe","response-decomposition","design-space","task-adapted-fm","scbench-long","tabular-fm-perturbation","species-native-tokens","confound-diagnostics","crisprko-vs-crispri","gene-intelligence"]:\n            self.assertTrue(self.by_id[key]["code_url"],key)\n            self.assertIn(self.by_id[key]["code_status"],["paper_linked","repository_linked"],key)\n        for key in ["ocellus","cellq-pace"]:\n            self.assertIsNone(self.by_id[key]["code_url"],key)\n            self.assertEqual(self.by_id[key]["code_status"],"release_pending",key)\n        self.assertEqual(self.by_id["scdifformer"]["code_url"],"https://huggingface.co/allenxiao/scDIFFormer")\n        self.assertEqual(self.by_id["scdifformer"]["code_status"],"paper_linked")\n\n    def test_architecture_doc_is_rendered_markdown(self):\n        doc=(ROOT/"docs/architecture.md").read_text(encoding="utf-8")\n        self.assertNotIn(r"\\n",doc)\n        self.assertIn("documented-correspondence filter",doc)\n        self.assertIn("python scripts/build_landscape.py",doc)\n\n'''
     test=test.replace(anchor,block+anchor)
     test_path.write_text(test,encoding="utf-8")
 
