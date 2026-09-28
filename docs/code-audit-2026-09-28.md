@@ -2,8 +2,9 @@
 
 Baseline: `304c9a23cc0b42e638e5024fdf1e590ab2a4162d`. The paper collection remains at **285 records**.
 
-**36 missing code links added; 1 data-only link removed from code availability.**
-Code links: **159 → 194**. **91** records still have no established code link; this does not establish that their authors have not released code.
+**Initial pass:** 36 missing code links added; 1 data-only link removed from code availability. Code links moved **159 → 194**.
+
+**Follow-up pass:** 11 previously missing code links were added, 37 existing `project_match` entries were upgraded after stronger paper↔repository evidence, and scDifformer's official release URL was corrected. Current totals are **205 code links**, **198 documented correspondences**, **7 project matches**, and **80 records without an established code link**. The latter does not establish that their authors have not released code. See [catalog cleanup follow-up](catalog-cleanup-2026-09-28.md).
 
 ## Verification and coverage
 

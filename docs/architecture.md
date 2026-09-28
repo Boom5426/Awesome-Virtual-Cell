@@ -28,12 +28,14 @@ Catalog -> GitHub Pages -> searchable web UI
 - `data/papers.json` (Schema v2) is the structured source of truth for **Research Papers**; generated Markdown is not stored in the data layer.
 - `README.md` remains the human-facing Awesome List.
 - `docs/catalog.html` and `docs/index.html` are generated searchable views.
+
 ## Build
 
 ```bash
 python scripts/validate_catalog.py
 python scripts/build_readme.py
 python scripts/build_catalog.py
+python scripts/build_landscape.py
 python scripts/build_exports.py
 ```
 
@@ -48,10 +50,10 @@ python scripts/build_readme.py --check
 The catalog supports combined filtering by:
 
 - free-text search
-- year
-- topic tag
-- `published` vs `preprint`
-- code availability in the displayed metadata
+- year and `published` vs `preprint`
+- multi-label topic filtering with AND/OR matching
+- task, modality, perturbation type, generalization and paper-type facets
+- code availability, including a stricter documented-correspondence filter
 
 Local preview:
 
@@ -89,4 +91,10 @@ The structured pipeline currently covers **Research Papers**. Datasets, challeng
 ## Exports
 
 The full catalog is generated as `exports/papers.csv` and `exports/papers.bib`. The web catalog can also export the currently filtered result set.
-\n## Evidence-backed facets\n\nThe catalog supports task, modality, perturbation-type, generalization and paper-type facets with per-paper evidence provenance.\n\n## Research Landscape\n\n`scripts/build_landscape.py` generates the interactive SVG mind map with zoom, pan, fit-to-view and filtered deep links.\n
+## Evidence-backed facets
+
+The catalog supports task, modality, perturbation-type, generalization and paper-type facets with per-paper evidence provenance.
+
+## Research Landscape
+
+`scripts/build_landscape.py` generates the interactive SVG mind map with zoom, pan, fit-to-view and filtered deep links.

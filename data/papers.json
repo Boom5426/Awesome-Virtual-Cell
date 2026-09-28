@@ -460,10 +460,11 @@
         }
       ],
       "added_at": "2026-09-25",
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/jbezney61/PHAROS/blob/main/README.md"
+        "https://github.com/jbezney61/PHAROS/blob/main/README.md",
+        "https://www.biorxiv.org/content/10.64898/2026.09.08.749477v1.full"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -517,11 +518,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
         "https://www.nature.com/articles/s41586-026-11001-9",
-        "https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks"
+        "https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks",
+        "https://doi.org/10.1038/s41586-026-11001-9"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -616,10 +618,11 @@
       "code_url": "https://github.com/LucaOne/LucaCell",
       "links": [],
       "added_at": "2026-09-25",
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/LucaOne/LucaCell/blob/main/README.md"
+        "https://github.com/LucaOne/LucaCell/blob/main/README.md",
+        "https://www.biorxiv.org/content/10.64898/2026.09.08.750024v1.full"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -947,10 +950,11 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/zou-group/CellVoyager/blob/main/README.md"
+        "https://github.com/zou-group/CellVoyager/blob/main/README.md",
+        "https://doi.org/10.1038/s41592-026-03029-6"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -1190,10 +1194,11 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/BaiDing1234/scLong/blob/main/README.md"
+        "https://github.com/BaiDing1234/scLong/blob/main/README.md",
+        "https://doi.org/10.1038/s41467-026-69102-y"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -1686,10 +1691,11 @@
       "code_url": "https://github.com/UoM-HealthAI/CellWorld",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/UoM-HealthAI/CellWorld/blob/release/README.md"
+        "https://github.com/UoM-HealthAI/CellWorld/blob/release/README.md",
+        "https://arxiv.org/abs/2608.06659"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -1732,10 +1738,11 @@
       "code_url": "https://github.com/Lotfollahi-lab/terra",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/Lotfollahi-lab/terra/blob/main/README.md"
+        "https://github.com/Lotfollahi-lab/terra/blob/main/README.md",
+        "https://www.biorxiv.org/content/10.64898/2026.07.29.741565v1.full"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -1822,13 +1829,20 @@
       "doi": "10.1093/nar/gkag706",
       "paper_url": "https://doi.org/10.1093/nar/gkag706",
       "preprint_url": null,
-      "code_url": "https://github.com/yaoqiqi17732/scDifformer",
-      "links": [],
+      "code_url": "https://huggingface.co/allenxiao/scDIFFormer",
+      "links": [
+        {
+          "label": "project",
+          "url": "https://github.com/yaoqiqi17732/scDifformer"
+        }
+      ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/yaoqiqi17732/scDifformer/blob/main/README.md"
+        "https://github.com/yaoqiqi17732/scDifformer/blob/main/README.md",
+        "https://doi.org/10.1093/nar/gkag706",
+        "https://huggingface.co/allenxiao/scDIFFormer"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -1869,9 +1883,11 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "release_pending",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.08.737248v1"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -1913,9 +1929,11 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "release_pending",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.08.04.742916v1.full"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -2036,10 +2054,11 @@
       "code_url": "https://github.com/LittleXH-shw/SpaCellAgent",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/LittleXH-shw/SpaCellAgent/blob/main/README.md"
+        "https://github.com/LittleXH-shw/SpaCellAgent/blob/main/README.md",
+        "https://arxiv.org/abs/2607.07467"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -2081,10 +2100,11 @@
       "code_url": "https://github.com/tansey-lab/cellconsensus",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/tansey-lab/cellconsensus/blob/main/README.md"
+        "https://github.com/tansey-lab/cellconsensus/blob/main/README.md",
+        "https://www.biorxiv.org/content/10.64898/2026.08.07.743503v1"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -2202,12 +2222,14 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2606.26563",
-      "code_url": null,
+      "code_url": "https://github.com/latchbio/scbench-long",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/latchbio/scbench-long/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -2602,10 +2624,11 @@
       "code_url": "https://github.com/chitra-lab/SAFFRON",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/chitra-lab/SAFFRON/blob/main/README.md"
+        "https://github.com/chitra-lab/SAFFRON/blob/main/README.md",
+        "https://doi.org/10.64898/2026.08.01.742217"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -2645,12 +2668,15 @@
       "doi": "10.64898/2026.08.04.732812",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.04.732812",
-      "code_url": null,
+      "code_url": "https://github.com/willow0077/isp-confound-toolkit",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.08.04.732812v1",
+        "https://github.com/willow0077/isp-confound-toolkit/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -2815,12 +2841,15 @@
       "doi": "10.64898/2026.07.04.736492",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.04.736492",
-      "code_url": null,
+      "code_url": "https://github.com/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.04.736492v1.full",
+        "https://github.com/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -2993,12 +3022,15 @@
       "doi": "10.64898/2026.06.29.735389",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.29.735389",
-      "code_url": null,
+      "code_url": "https://github.com/beleggia-lab/geneintelligence",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.06.29.735389v1.full",
+        "https://github.com/beleggia-lab/geneintelligence/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3032,12 +3064,14 @@
       "doi": "10.64898/2026.06.30.735584",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.30.735584",
-      "code_url": null,
+      "code_url": "https://github.com/sbnb-irb/LINCS_scGPT_embeddings",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/sbnb-irb/LINCS_scGPT_embeddings/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3070,12 +3104,15 @@
       "doi": "10.64898/2026.07.27.740807",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.27.740807",
-      "code_url": null,
+      "code_url": "https://github.com/hucang0/uce-competence-ruler",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13483897/",
+        "https://github.com/hucang0/uce-competence-ruler/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3151,12 +3188,15 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.19400",
-      "code_url": null,
+      "code_url": "https://github.com/aristoteleo/tabula",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/aristoteleo/tabula/blob/main/README.md",
+        "https://github.com/aristoteleo/chiron/blob/main/CITATION.cff"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3554,12 +3594,15 @@
       "doi": "10.64898/2026.07.24.740459",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.24.740459",
-      "code_url": null,
+      "code_url": "https://github.com/xinyizhanglab/perturbation-decomposition",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.07.24.740459v1.full",
+        "https://github.com/xinyizhanglab/perturbation-decomposition/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -4025,7 +4068,7 @@
     },
     {
       "id": "tissueformer-digital-pathology",
-      "label": "TissueFormer",
+      "label": "TissueFormer (Pathology)",
       "title": "Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution",
       "year": 2026,
       "venue": "bioRxiv",
@@ -4042,10 +4085,11 @@
       "code_url": "https://github.com/uhlerlab/TissueFormer",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/uhlerlab/TissueFormer/blob/main/Readme.md"
+        "https://github.com/uhlerlab/TissueFormer/blob/main/Readme.md",
+        "https://www.biorxiv.org/content/10.64898/2026.07.31.741265v1.full"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -4389,8 +4433,8 @@
       "code_url": "https://github.com/GuilhermePocas/scRepresenter",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/GuilhermePocas/scRepresenter/blob/main/README.md"
       ],
@@ -4472,12 +4516,15 @@
       "doi": "10.64898/2026.06.28.735106",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.28.735106",
-      "code_url": null,
+      "code_url": "https://github.com/royerlab/tfm-perturbation",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.06.28.735106v3.full",
+        "https://github.com/royerlab/tfm-perturbation/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -4672,12 +4719,14 @@
       "doi": "10.64898/2026.06.15.732063",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.15.732063",
-      "code_url": null,
+      "code_url": "https://github.com/sanjukta7/sc-evae",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/sanjukta7/sc-evae/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -5453,8 +5502,8 @@
       "code_url": "https://github.com/hdsu-bioquant/scArchon",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/hdsu-bioquant/scArchon/blob/main/README.md"
       ],
@@ -5622,16 +5671,18 @@
         "Perturbation",
         "Multimodal"
       ],
-      "doi": null,
+      "doi": "10.64898/2026.04.13.718147",
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1",
-      "code_url": "https://github.com/Peg-Wu/DeSCOPE",
+      "code_url": "https://github.com/wanglabtongji/DeSCOPE",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "repository_linked",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/Peg-Wu/DeSCOPE"
+        "https://github.com/Peg-Wu/DeSCOPE",
+        "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1",
+        "https://github.com/wanglabtongji/DeSCOPE/blob/main/README.md"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -5668,16 +5719,17 @@
         "Foundation Model",
         "Benchmark"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-026-03120-y",
       "paper_url": "https://www.nature.com/articles/s41592-026-03120-y",
       "preprint_url": null,
       "code_url": "https://github.com/microsoft/scFM-dataselection",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/microsoft/scFM-dataselection/blob/main/README.md"
+        "https://github.com/microsoft/scFM-dataselection/blob/main/README.md",
+        "https://doi.org/10.1038/s41592-026-03120-y"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -5795,13 +5847,13 @@
       "tags": [
         "Perturbation"
       ],
-      "doi": null,
+      "doi": "10.1038/s42256-026-01242-8",
       "paper_url": "https://www.nature.com/articles/s42256-026-01242-8",
       "preprint_url": null,
       "code_url": "https://github.com/AI4SCR/conditional-monge-gap",
       "links": [],
       "added_at": null,
-      "updated_at": null,
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/AI4SCR/conditional-monge-gap"
@@ -5878,16 +5930,18 @@
         "Perturbation",
         "Intervention Design"
       ],
-      "doi": null,
+      "doi": "10.64898/2026.03.13.710968",
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1",
       "code_url": "https://github.com/Wenyuan-AI4science/AetherCell",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "repository_linked",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/Wenyuan-AI4science/AetherCell"
+        "https://github.com/Wenyuan-AI4science/AetherCell",
+        "https://www.biorxiv.org/content/10.64898/2026.03.13.710968v1",
+        "https://github.com/Wenyuan-AI4science/AetherCell/blob/main/README.md"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -6013,13 +6067,13 @@
         "Spatial",
         "Dataset"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-026-69677-6",
       "paper_url": "https://www.nature.com/articles/s41467-026-69677-6",
       "preprint_url": null,
       "code_url": "https://github.com/kimberle9/spatialperturbseq",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/kimberle9/spatialperturbseq"
@@ -6060,14 +6114,14 @@
         "Spatial",
         "Gene Regulation"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-026-69856-5",
       "paper_url": "https://www.nature.com/articles/s41467-026-69856-5",
       "preprint_url": null,
       "code_url": "https://github.com/Teichlab/celcomen",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/Teichlab/celcomen/blob/main/README.md"
       ],
@@ -6104,13 +6158,13 @@
         "Spatial",
         "Dynamics"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-026-03010-3",
       "paper_url": "https://www.nature.com/articles/s41592-026-03010-3",
       "preprint_url": null,
       "code_url": "https://github.com/QiangweiPeng/stVCR",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/QiangweiPeng/stVCR"
@@ -6146,13 +6200,13 @@
       "tags": [
         "Representation Learning"
       ],
-      "doi": null,
+      "doi": "10.1038/s41587-025-02950-z",
       "paper_url": "https://www.nature.com/articles/s41587-025-02950-z",
       "preprint_url": null,
       "code_url": "https://github.com/Gartner-Lab/Concord",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/Gartner-Lab/Concord"
@@ -6186,7 +6240,7 @@
         "Agent",
         "Related"
       ],
-      "doi": null,
+      "doi": "10.1038/s41586-026-10265-5",
       "paper_url": "https://www.nature.com/articles/s41586-026-10265-5",
       "preprint_url": null,
       "code_url": "https://github.com/SakanaAI/AI-Scientist",
@@ -6197,7 +6251,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "paper_linked",
       "code_sources": [
         "https://www.nature.com/articles/s41586-026-10265-5",
@@ -6314,16 +6368,17 @@
       "tags": [
         "Perturbation"
       ],
-      "doi": null,
+      "doi": "10.1038/s41587-026-03113-4",
       "paper_url": "https://www.nature.com/articles/s41587-026-03113-4",
       "preprint_url": null,
       "code_url": "https://github.com/valence-labs/TxPert",
       "links": [],
       "added_at": null,
-      "updated_at": null,
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/valence-labs/TxPert/blob/main/README.md"
+        "https://github.com/valence-labs/TxPert/blob/main/README.md",
+        "https://doi.org/10.1038/s41587-026-03113-4"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -6399,7 +6454,7 @@
         "Perturbation",
         "Multimodal"
       ],
-      "doi": null,
+      "doi": "10.1101/2025.11.13.688367",
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2",
       "code_url": "https://github.com/Chen-Li-17/X-Pert",
@@ -6410,10 +6465,11 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/Chen-Li-17/X-Pert/blob/main/README.md"
+        "https://github.com/Chen-Li-17/X-Pert/blob/main/README.md",
+        "https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -6451,7 +6507,7 @@
         "Multimodal",
         "Morphology"
       ],
-      "doi": null,
+      "doi": "10.64898/2026.04.22.720110",
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1",
       "code_url": "https://github.com/QSong-github/MVCBench",
@@ -6462,7 +6518,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/QSong-github/MVCBench"
@@ -6505,11 +6561,11 @@
       ],
       "doi": null,
       "paper_url": null,
-      "preprint_url": "https://arxiv.org/pdf/2603.01396",
+      "preprint_url": "https://arxiv.org/abs/2603.01396",
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "not_found",
       "code_sources": [],
       "tag_review_basis": "abstract",
@@ -6547,8 +6603,8 @@
       "code_url": "https://github.com/AI4Science-WestlakeU/scDFM",
       "links": [],
       "added_at": null,
-      "updated_at": null,
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/AI4Science-WestlakeU/scDFM/blob/main/README.md"
       ],
@@ -7050,7 +7106,7 @@
         "Representation Learning",
         "Perturbation"
       ],
-      "doi": null,
+      "doi": "10.64898/2026.01.09.698608",
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1",
       "code_url": "https://github.com/ArcInstitute/stack",
@@ -7061,7 +7117,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/ArcInstitute/stack"
@@ -7347,7 +7403,7 @@
     },
     {
       "id": "tissueformer-population-phenotypes",
-      "label": "Tissueformer",
+      "label": "TissueFormer (Population)",
       "title": "Tissueformer: extending single-cell foundation models to predict population-level phenotypes",
       "year": 2026,
       "venue": "BMC Bioinformatics",
@@ -7634,10 +7690,11 @@
       "code_url": "https://github.com/mcgilldinglab/veloAgent",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/mcgilldinglab/veloAgent/blob/main/README.md"
+        "https://github.com/mcgilldinglab/veloAgent/blob/main/README.md",
+        "https://doi.org/10.1038/s44320-026-00213-w"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -7863,10 +7920,11 @@
       "code_url": "https://github.com/MengyuanZhaoo/MultiPert",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/MengyuanZhaoo/MultiPert/blob/main/README.md"
+        "https://github.com/MengyuanZhaoo/MultiPert/blob/main/README.md",
+        "https://doi.org/10.1371/journal.pcbi.1014054"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -8227,7 +8285,7 @@
         "Perturbation",
         "Tool"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-025-02909-7",
       "paper_url": "https://www.nature.com/articles/s41592-025-02909-7",
       "preprint_url": null,
       "code_url": "https://github.com/scverse/pertpy",
@@ -8238,7 +8296,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/scverse/pertpy"
@@ -8274,7 +8332,7 @@
         "Perturbation",
         "Foundation Model"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-025-02980-0",
       "paper_url": "https://www.nature.com/articles/s41592-025-02980-0",
       "preprint_url": null,
       "code_url": "https://github.com/bm2-lab/scPerturBench/",
@@ -8285,7 +8343,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/bm2-lab/scPerturBench"
@@ -8365,7 +8423,7 @@
       "tags": [
         "Perturbation"
       ],
-      "doi": null,
+      "doi": "10.1038/s43588-025-00912-8",
       "paper_url": "https://www.nature.com/articles/s43588-025-00912-8",
       "preprint_url": null,
       "code_url": "https://github.com/PancakeZoy/scouter",
@@ -8376,7 +8434,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "paper_linked",
       "code_sources": [
         "https://www.nature.com/articles/s43588-025-00912-8",
@@ -8410,16 +8468,17 @@
       "tags": [
         "Perturbation"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-025-61165-7",
       "paper_url": "https://www.nature.com/articles/s41467-025-61165-7",
       "preprint_url": null,
       "code_url": "https://github.com/hwxing3259/GPerturb",
       "links": [],
       "added_at": null,
-      "updated_at": null,
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/hwxing3259/GPerturb/blob/main/README.md"
+        "https://github.com/hwxing3259/GPerturb/blob/main/README.md",
+        "https://doi.org/10.1038/s41467-025-61165-7"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -8451,7 +8510,7 @@
         "Perturbation",
         "Dynamics"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-025-02877-y",
       "paper_url": "https://www.nature.com/articles/s41592-025-02877-y",
       "preprint_url": null,
       "code_url": "https://github.com/siyuh/Squidiff",
@@ -8462,7 +8521,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/siyuh/Squidiff"
@@ -8553,13 +8612,13 @@
         "Gene Regulation",
         "Representation Learning"
       ],
-      "doi": null,
+      "doi": "10.1038/s41588-025-02120-6",
       "paper_url": "https://www.nature.com/articles/s41588-025-02120-6",
       "preprint_url": null,
       "code_url": "https://github.com/Lotfollahi-lab/nichecompass",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/Lotfollahi-lab/nichecompass"
@@ -8953,13 +9012,13 @@
         "Representation Learning",
         "Tool"
       ],
-      "doi": null,
+      "doi": "10.1038/s41587-025-02857-9",
       "paper_url": "https://www.nature.com/articles/s41587-025-02857-9",
       "preprint_url": null,
       "code_url": "https://github.com/epigen/CellWhisperer",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/epigen/CellWhisperer"
@@ -9106,13 +9165,13 @@
         "Perturbation",
         "Morphology"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-024-55707-8",
       "paper_url": "https://www.nature.com/articles/s41467-024-55707-8",
       "preprint_url": null,
       "code_url": "https://github.com/theislab/IMPA",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/theislab/IMPA"
@@ -9151,7 +9210,7 @@
         "Morphology",
         "Representation Learning"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-025-60033-1",
       "paper_url": "https://www.nature.com/articles/s41467-025-60033-1",
       "preprint_url": null,
       "code_url": "https://github.com/QSong-github/PhenoProfiler",
@@ -9166,7 +9225,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/QSong-github/PhenoProfiler"
@@ -9204,7 +9263,7 @@
         "Perturbation",
         "Dataset"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-024-02537-7",
       "paper_url": "https://www.nature.com/articles/s41592-024-02537-7",
       "preprint_url": null,
       "code_url": "https://github.com/broadinstitute/2022_PERISCOPE",
@@ -9215,7 +9274,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/broadinstitute/2022_PERISCOPE"
@@ -9253,7 +9312,7 @@
         "Perturbation",
         "Dataset"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-025-02753-9",
       "paper_url": "https://www.nature.com/articles/s41592-025-02753-9",
       "preprint_url": null,
       "code_url": "https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap",
@@ -9264,8 +9323,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap/blob/main/README.md"
       ],
@@ -9306,7 +9365,7 @@
         "Morphology",
         "Multimodal"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-025-63478-z",
       "paper_url": "https://www.nature.com/articles/s41467-025-63478-z",
       "preprint_url": null,
       "code_url": "https://github.com/biomap-research/MorphDiff",
@@ -9321,10 +9380,11 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/biomap-research/MorphDiff/blob/main/README.md"
+        "https://github.com/biomap-research/MorphDiff/blob/main/README.md",
+        "https://doi.org/10.1038/s41467-025-63478-z"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -9464,7 +9524,7 @@
         "Multimodal",
         "Gene Regulation"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-025-62784-w",
       "paper_url": "https://www.nature.com/articles/s41467-025-62784-w",
       "preprint_url": null,
       "code_url": "https://github.com/xing-lab-pitt/GraphVelo",
@@ -9479,7 +9539,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/xing-lab-pitt/GraphVelo"
@@ -9853,13 +9913,13 @@
         "Morphology",
         "Protein"
       ],
-      "doi": null,
+      "doi": "10.1038/s41592-025-02960-4",
       "paper_url": "https://www.nature.com/articles/s41592-025-02960-4",
       "preprint_url": null,
       "code_url": "https://github.com/zaritskylab/CELTIC",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/zaritskylab/CELTIC"
@@ -9942,12 +10002,15 @@
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=A5O41ntKjk",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Bunnybeibei/PRESCRIBE",
       "links": [],
       "added_at": null,
-      "updated_at": null,
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://openreview.net/pdf?id=9906f6e02e1a43c5722a84c01bcf9c6f5eb8fce0",
+        "https://github.com/Bunnybeibei/PRESCRIBE/blob/main/README.md"
+      ],
       "tag_review_basis": "title_and_metadata",
       "facets": {
         "task": [
@@ -10207,10 +10270,11 @@
       "code_url": "https://github.com/hliulab/XTransferCDR",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/hliulab/XTransferCDR/blob/main/README.md"
+        "https://github.com/hliulab/XTransferCDR/blob/main/README.md",
+        "https://ojs.aaai.org/index.php/AAAI/article/download/34073/36228"
       ],
       "tag_review_basis": "project_documentation",
       "facets": {
@@ -10235,7 +10299,7 @@
     },
     {
       "id": "deep-learning-perturbation-baselines",
-      "label": "Brief Communication",
+      "label": "Linear Perturbation Baselines",
       "title": "Deep-Learning-Based Gene Perturbation Effect Prediction Does Not Yet Outperform Simple Linear Baselines",
       "year": 2025,
       "venue": "Nature Methods",
@@ -10257,7 +10321,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/const-ae/linear_perturbation_prediction-Paper"
@@ -10286,7 +10350,7 @@
     },
     {
       "id": "drifting-islands-embedding-metrics",
-      "label": "Brief Communication",
+      "label": "Drifting Islands",
       "title": "Limitations of Cell Embedding Metrics Assessed Using Drifting Islands",
       "year": 2025,
       "venue": "Nature Biotechnology",
@@ -10307,7 +10371,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/Genentech/Islander"
@@ -10835,7 +10899,7 @@
         "Multimodal",
         "Intervention Design"
       ],
-      "doi": null,
+      "doi": "10.1101/2025.06.14.658531",
       "paper_url": null,
       "preprint_url": "https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1",
       "code_url": "https://github.com/ZexiChen502/UniCure",
@@ -10846,7 +10910,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/ZexiChen502/UniCure"
@@ -11102,8 +11166,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/madilabcode/scNET/blob/main/README.md"
       ],
@@ -11203,10 +11267,11 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
       "code_sources": [
-        "https://github.com/CellProfiling/subcell-embed/blob/main/README.md"
+        "https://github.com/CellProfiling/subcell-embed/blob/main/README.md",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12636579/"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -11251,8 +11316,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/jkwang93/Token-Mol/blob/main/README.md"
       ],
@@ -11290,13 +11355,13 @@
         "Review",
         "Intervention Design"
       ],
-      "doi": null,
+      "doi": "10.1038/s41587-025-02583-2",
       "paper_url": "https://www.nature.com/articles/s41587-025-02583-2",
       "preprint_url": null,
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "not_found",
       "code_sources": [],
       "tag_review_basis": "title_and_metadata",
@@ -11333,11 +11398,11 @@
       ],
       "doi": null,
       "paper_url": null,
-      "preprint_url": "https://arxiv.org/pdf/2505.14613",
+      "preprint_url": "https://arxiv.org/abs/2505.14613",
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "not_found",
       "code_sources": [],
       "tag_review_basis": "abstract",
@@ -11426,8 +11491,8 @@
       "code_url": "https://github.com/goeckslab/MTIProteinImputation",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/goeckslab/MTIProteinImputation/blob/main/README.md"
       ],
@@ -11517,9 +11582,9 @@
         "Perturbation",
         "Multimodal"
       ],
-      "doi": null,
+      "doi": "10.1101/2025.04.11.648220",
       "paper_url": null,
-      "preprint_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf",
+      "preprint_url": "https://doi.org/10.1101/2025.04.11.648220",
       "code_url": "https://github.com/theislab/CellFlow",
       "links": [
         {
@@ -11528,8 +11593,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/theislab/CellFlow/blob/main/README.md"
       ],
@@ -11566,9 +11631,9 @@
         "Perturbation",
         "Multimodal"
       ],
-      "doi": null,
+      "doi": "10.1101/2024.08.12.607533",
       "paper_url": null,
-      "preprint_url": "https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf",
+      "preprint_url": "https://doi.org/10.1101/2024.08.12.607533",
       "code_url": "https://github.com/theislab/prophet",
       "links": [
         {
@@ -11577,8 +11642,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/theislab/prophet/blob/main/README.md"
       ],
@@ -11605,7 +11670,7 @@
     },
     {
       "id": "morphology-evaluating-feature-extraction-in-ovarian-cancer-cell-line-co-cultures",
-      "label": null,
+      "label": "Ovarian Co-Culture Features",
       "title": "Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-Cultures Using Deep Neural Networks",
       "year": 2025,
       "venue": "Communications Biology",
@@ -11615,7 +11680,7 @@
         "Perturbation",
         "Benchmark"
       ],
-      "doi": null,
+      "doi": "10.1038/s42003-025-07766-w",
       "paper_url": "https://www.nature.com/articles/s42003-025-07766-w",
       "preprint_url": null,
       "code_url": "https://github.com/Functional-Precision-Medicine-Lab/Evaluating-Feature-Extraction-in-Ovarian-Cancer-Cell-Line-Co-Cultures-Using-Deep-Neural-Networks",
@@ -11652,7 +11717,7 @@
     },
     {
       "id": "virtual-cell-grow-ai-virtual-cells-three-data-pillars-and-closed-loop-learning",
-      "label": null,
+      "label": "Grow AI Virtual Cells",
       "title": "Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning",
       "year": 2025,
       "venue": "Cell Research",
@@ -11661,7 +11726,7 @@
         "Virtual Cell",
         "Review"
       ],
-      "doi": null,
+      "doi": "10.1038/s41422-025-01101-y",
       "paper_url": "https://www.nature.com/articles/s41422-025-01101-y",
       "preprint_url": null,
       "code_url": null,
@@ -11672,7 +11737,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "not_found",
       "code_sources": [],
       "tag_review_basis": "title_and_metadata",
@@ -11694,7 +11759,7 @@
     },
     {
       "id": "virtual-cell-build-the-virtual-cell-with-artificial-intelligence-a-perspective-f",
-      "label": null,
+      "label": "Build the Virtual Cell",
       "title": "Build the Virtual Cell with Artificial Intelligence: A Perspective for Cancer Research",
       "year": 2025,
       "venue": "Military Medical Research",
@@ -11703,13 +11768,13 @@
         "Virtual Cell",
         "Review"
       ],
-      "doi": null,
+      "doi": "10.1186/s40779-025-00591-6",
       "paper_url": "https://link.springer.com/article/10.1186/s40779-025-00591-6",
       "preprint_url": null,
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "not_found",
       "code_sources": [],
       "tag_review_basis": "title_and_metadata",
@@ -11751,8 +11816,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/davidliwei/PS/blob/main/README.md"
       ],
@@ -11801,8 +11866,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/satijalab/Mixscale/blob/main/README.md"
       ],
@@ -11845,13 +11910,13 @@
         "Perturbation",
         "Tool"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-025-67481-2",
       "paper_url": "https://www.nature.com/articles/s41467-025-67481-2",
       "preprint_url": null,
       "code_url": "https://github.com/QSong-github/scDrugMap",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "paper_linked",
       "code_sources": [
         "https://www.nature.com/articles/s41467-025-67481-2",
@@ -12127,7 +12192,7 @@
         "Representation Learning",
         "Intervention Design"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-024-49620-3",
       "paper_url": "https://www.nature.com/articles/s41467-024-49620-3",
       "preprint_url": null,
       "code_url": "https://github.com/myzhengSIMM/TranSiGen",
@@ -12138,7 +12203,7 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/myzhengSIMM/TranSiGen"
@@ -12178,13 +12243,13 @@
         "Perturbation",
         "Intervention Design"
       ],
-      "doi": null,
+      "doi": "10.1038/s41467-024-53457-1",
       "paper_url": "https://www.nature.com/articles/s41467-024-53457-1",
       "preprint_url": null,
       "code_url": "https://github.com/Perturbation-Response-Prediction/PRnet",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "paper_linked",
       "code_sources": [
         "https://www.nature.com/articles/s41467-024-53457-1",
@@ -12236,8 +12301,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/yiqunchen/GenePT/blob/main/README.md"
       ],
@@ -12388,8 +12453,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/bowang-lab/scGPT/blob/main/README.md"
       ],
@@ -12586,8 +12651,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/snap-stanford/SATURN/blob/main/README.md"
       ],
@@ -12638,8 +12703,8 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "project_match",
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/vandijklab/cell2sentence/blob/master/README.md"
       ],

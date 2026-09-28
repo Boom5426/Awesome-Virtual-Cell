@@ -109,6 +109,41 @@ class CurationTests(unittest.TestCase):
             actual=Counter(value for p in self.papers for value in p['facets'][dimension])
             self.assertEqual(documented,dict(actual),dimension)
 
+    def test_labels_are_nonempty_and_unique(self):
+        labels=[]
+        for p in self.papers:
+            self.assertTrue((p.get("label") or "").strip(),p["id"])
+            labels.append(p["label"].strip().casefold())
+        self.assertEqual(len(labels),len(set(labels)))
+
+    def test_formal_article_urls_have_doi(self):
+        for p in self.papers:
+            if p.get("status")!="published" or not p.get("paper_url"):
+                continue
+            url=p["paper_url"]
+            m=re.search(r"nature\.com/articles/([^/?#]+)",url)
+            if m:
+                self.assertEqual(p.get("doi"),"10.1038/"+m.group(1),p["id"])
+            m=re.search(r"link\.springer\.com/article/(10\.[^?#]+)",url)
+            if m:
+                self.assertEqual(p.get("doi"),m.group(1),p["id"])
+
+    def test_followup_code_provenance(self):
+        for key in ["descope","aethercell","prescribe","response-decomposition","design-space","task-adapted-fm","scbench-long","tabular-fm-perturbation","species-native-tokens","confound-diagnostics","crisprko-vs-crispri","gene-intelligence","tabula"]:
+            self.assertTrue(self.by_id[key]["code_url"],key)
+            self.assertIn(self.by_id[key]["code_status"],["paper_linked","repository_linked"],key)
+        for key in ["ocellus","cellq-pace"]:
+            self.assertIsNone(self.by_id[key]["code_url"],key)
+            self.assertEqual(self.by_id[key]["code_status"],"release_pending",key)
+        self.assertEqual(self.by_id["scdifformer"]["code_url"],"https://huggingface.co/allenxiao/scDIFFormer")
+        self.assertEqual(self.by_id["scdifformer"]["code_status"],"paper_linked")
+
+    def test_architecture_doc_is_rendered_markdown(self):
+        doc=(ROOT/"docs/architecture.md").read_text(encoding="utf-8")
+        self.assertNotIn(r"\n",doc)
+        self.assertIn("documented-correspondence filter",doc)
+        self.assertIn("python scripts/build_landscape.py",doc)
+
     def test_hand_maintained_markdown_has_no_literal_newline_escapes(self):
         self.assertNotIn(r'\n-', (ROOT/'README.md').read_text(encoding='utf-8'))
         self.assertNotIn(r'|\n|', (ROOT/'docs/taxonomy.md').read_text(encoding='utf-8'))
