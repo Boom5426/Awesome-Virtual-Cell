@@ -2,21 +2,44 @@ name: Catalog cleanup audit
 on:
   push:
     branches: [audit/catalog-cleanup-2026-09-28]
-    paths: [.github/workflows/catalog-cleanup-audit.yml]
+    paths:
+      - audit_tools/apply_catalog_cleanup.py
+      - .github/workflows/catalog-cleanup-audit.yml
 permissions:
   contents: read
 jobs:
-  publication-watch:
+  cleanup:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Dry-run publication watcher
-        run: python scripts/publication_watcher.py --max-updates 100
+      - name: Apply reviewed cleanup
+        run: python audit_tools/apply_catalog_cleanup.py
+      - name: Rebuild generated views
+        run: |
+          python scripts/build_readme.py
+          python scripts/build_catalog.py
+          python scripts/build_landscape.py
+          python scripts/build_exports.py
+          python scripts/validate_catalog.py
+          python scripts/build_readme.py --check
+      - name: Run regression tests
+        run: |
+          python -m unittest discover -s tests
+          node tests/test_catalog_ui.cjs
+      - name: Package changed repository files
+        run: |
+          mkdir -p cleanup_artifact/data cleanup_artifact/docs cleanup_artifact/exports cleanup_artifact/tests
+          cp data/papers.json cleanup_artifact/data/
+          cp README.md cleanup_artifact/
+          cp index.html landscape.html cleanup_artifact/
+          cp docs/catalog.html docs/index.html docs/landscape.html docs/code-audit-2026-09-28.md docs/catalog-cleanup-2026-09-28.md cleanup_artifact/docs/
+          cp exports/papers.csv exports/papers.bib cleanup_artifact/exports/
+          cp tests/test_curation.py cleanup_artifact/tests/
       - uses: actions/upload-artifact@v4
         with:
-          name: publication-watch-dry-run
-          path: publication_update_summary.md
+          name: catalog-cleanup-build
+          path: cleanup_artifact/
           retention-days: 7
