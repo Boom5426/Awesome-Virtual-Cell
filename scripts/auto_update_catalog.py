@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 from scripts import auto_update_readme as discovery
-from scripts import build_catalog, build_exports, build_readme
+from scripts import build_catalog, build_exports, build_landscape, build_readme
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "papers.json"
@@ -68,9 +68,11 @@ def candidate_to_record(candidate: discovery.Candidate) -> dict:
     doi = doi_from_candidate(candidate)
     primary = candidate.primary_link
     today = dt.date.today().isoformat()
+    evidence = [primary] if primary else []
+    code_status = "project_match" if candidate.code_link else "not_found"
     return {
         "id": slug(candidate.label or candidate.title),
-        "label": candidate.label or None,
+        "label": candidate.label or candidate.title.strip(),
         "title": candidate.title.strip(),
         "year": int(candidate.year),
         "venue": candidate.venue.strip(),
@@ -86,6 +88,18 @@ def candidate_to_record(candidate: discovery.Candidate) -> dict:
         ),
         "added_at": today,
         "updated_at": today,
+        "code_status": code_status,
+        "code_sources": evidence if candidate.code_link else [],
+        "tag_review_basis": "unreviewed",
+        "facets": {
+            "task": [],
+            "modality": [],
+            "perturbation_type": [],
+            "generalization": [],
+            "paper_type": [],
+        },
+        "facet_review_basis": "unreviewed",
+        "facet_sources": evidence,
     }
 
 
@@ -106,7 +120,7 @@ def summary_markdown(candidates: list[discovery.Candidate]) -> str:
         f"- Date: {today}",
         f"- Proposed research papers: {len(candidates)}",
         "- Source of truth: `data/papers.json`",
-        "- Generated views: README, web catalog, CSV, and BibTeX",
+        "- Generated views: README, web catalog, Research Landscape, CSV, and BibTeX",
         "",
         "## Proposed Additions",
         "",
@@ -139,6 +153,7 @@ def regenerate_views() -> None:
     )
     build_readme.README.write_text(target, encoding="utf-8")
     build_catalog.main()
+    build_landscape.main()
     build_exports.main()
 
 
