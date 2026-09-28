@@ -272,12 +272,16 @@
       "doi": "10.1073/pnas.2604777123",
       "paper_url": "https://doi.org/10.1073/pnas.2604777123",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/chopper6/NUDGE",
       "links": [],
       "added_at": "2026-09-26",
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.pnas.org/doi/10.1073/pnas.2604777123",
+        "https://github.com/chopper6/NUDGE/blob/main/README.md",
+        "https://github.com/chopper6/NUDGE"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -404,12 +408,15 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2609.14970",
-      "code_url": null,
+      "code_url": "https://github.com/BaoJiee/scKITE",
       "links": [],
       "added_at": "2026-09-25",
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/BaoJiee/scKITE/blob/main/README.md",
+        "https://github.com/BaoJiee/scKITE"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -1125,12 +1132,16 @@
       "doi": "10.1016/j.cels.2026.101589",
       "paper_url": "https://doi.org/10.1016/j.cels.2026.101589",
       "preprint_url": "https://doi.org/10.1101/2025.05.13.653868",
-      "code_url": null,
+      "code_url": "https://github.com/CellProfiling/2D_shapespace",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12132440/",
+        "https://github.com/CellProfiling/2D_shapespace/blob/main/README.md",
+        "https://github.com/CellProfiling/2D_shapespace"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -1578,12 +1589,15 @@
       "doi": "10.64898/2026.07.21.739810",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.21.739810",
-      "code_url": null,
+      "code_url": "https://github.com/li-lab-mcgill/SpatialJEPA",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/li-lab-mcgill/SpatialJEPA/blob/main/README.md",
+        "https://github.com/li-lab-mcgill/SpatialJEPA"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -1625,11 +1639,12 @@
       "code_url": null,
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-09-28",
       "code_status": "release_pending",
       "code_sources": [
         "https://arxiv.org/abs/2608.05928",
-        "https://github.com/sky-Yongjie-Xu/2026-CellBench"
+        "https://github.com/sky-Yongjie-Xu/2026-CellBench",
+        "https://arxiv.org/html/2608.05928"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -2106,12 +2121,14 @@
       "doi": "10.64898/2026.07.07.737048",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.07.737048",
-      "code_url": null,
+      "code_url": "https://github.com/NiklasBrunn/blueprint-embedding",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/NiklasBrunn/blueprint-embedding/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -2314,12 +2331,14 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.17227",
-      "code_url": null,
+      "code_url": "https://github.com/iced-soda/FM-benchmark",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/iced-soda/FM-benchmark/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -2356,12 +2375,15 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.20572",
-      "code_url": null,
+      "code_url": "https://github.com/sarwanpasha/scContam",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/sarwanpasha/scContam/blob/main/README.md",
+        "https://github.com/sarwanpasha/scContam"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -2398,13 +2420,19 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2607.18777",
-      "code_url": "https://github.com/dongkwan-kim/PertReasonQA",
-      "links": [],
+      "code_url": null,
+      "links": [
+        {
+          "label": "dataset",
+          "url": "https://github.com/dongkwan-kim/PertReasonQA"
+        }
+      ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "repository_linked",
+      "updated_at": "2026-09-28",
+      "code_status": "data_only",
       "code_sources": [
-        "https://github.com/dongkwan-kim/PertReasonQA"
+        "https://github.com/dongkwan-kim/PertReasonQA",
+        "https://github.com/dongkwan-kim/PertReasonQA/blob/main/README.md"
       ],
       "tag_review_basis": "abstract",
       "facets": {
@@ -2884,9 +2912,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "release_pending",
+      "code_sources": [
+        "https://arxiv.org/html/2607.14163",
+        "https://islamlab.org/scvision"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3401,12 +3432,15 @@
       "doi": "10.64898/2026.06.30.735555",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.30.735555",
-      "code_url": null,
+      "code_url": "https://github.com/QiangweiPeng/UPT",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/QiangweiPeng/UPT/blob/main/README.md",
+        "https://github.com/QiangweiPeng/UPT"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3718,12 +3752,15 @@
       "doi": "10.64898/2026.07.30.741892",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.07.30.741892",
-      "code_url": null,
+      "code_url": "https://github.com/PancakeZoy/TranScouter",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/PancakeZoy/TranScouter/blob/main/README.md",
+        "https://github.com/PancakeZoy/TranScouter"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3757,12 +3794,14 @@
       "doi": "10.64898/2026.08.03.742643",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.03.742643",
-      "code_url": null,
+      "code_url": "https://github.com/rohitsinghlab/compass",
       "links": [],
       "added_at": null,
-      "updated_at": null,
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/rohitsinghlab/compass/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -3909,12 +3948,15 @@
       "doi": "10.1186/s13073-026-01713-y",
       "paper_url": "https://doi.org/10.1186/s13073-026-01713-y",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/99wzj/Coladan",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://link.springer.com/content/pdf/10.1186/s13073-026-01713-y_reference.pdf#page=68",
+        "https://github.com/99wzj/Coladan"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -4043,12 +4085,14 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2608.08366",
-      "code_url": null,
+      "code_url": "https://github.com/Luosanj/VOICE_HE_ST_Pred",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Luosanj/VOICE_HE_ST_Pred/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -4085,12 +4129,14 @@
       "doi": "10.64898/2026.08.04.742671",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.08.04.742671",
-      "code_url": null,
+      "code_url": "https://github.com/23AIBox/VISTA",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/23AIBox/VISTA/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [],
@@ -4881,12 +4927,15 @@
       "doi": "10.64898/2026.05.30.728937",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.05.30.728937",
-      "code_url": null,
+      "code_url": "https://github.com/OpenBMB/Scicore-Omics",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/OpenBMB/Scicore-Omics/blob/main/README.md",
+        "https://github.com/OpenBMB/Scicore-Omics"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -4926,11 +4975,18 @@
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.06.07.730684",
       "code_url": null,
-      "links": [],
+      "links": [
+        {
+          "label": "project (code pending)",
+          "url": "https://github.com/bjzgcai/HoloCell"
+        }
+      ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "release_pending",
+      "code_sources": [
+        "https://github.com/bjzgcai/HoloCell/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -5170,12 +5226,19 @@
       "doi": "10.1016/j.cels.2026.101567",
       "paper_url": "https://doi.org/10.1016/j.cels.2026.101567",
       "preprint_url": null,
-      "code_url": null,
-      "links": [],
+      "code_url": "https://github.com/cancer-dynamics/MMIST_Copperman_2026",
+      "links": [
+        {
+          "label": "implementation package",
+          "url": "https://github.com/cancer-dynamics/celltraj"
+        }
+      ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/cancer-dynamics/MMIST_Copperman_2026/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -5301,12 +5364,16 @@
       "doi": "10.1038/s41467-026-72198-x",
       "paper_url": "https://doi.org/10.1038/s41467-026-72198-x",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/BGIResearch/RegFormer",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41467-026-72198-x",
+        "https://github.com/BGIResearch/RegFormer/blob/master/README.md",
+        "https://github.com/BGIResearch/RegFormer"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -5649,7 +5716,7 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2603.25240",
-      "code_url": null,
+      "code_url": "https://github.com/alibaba-damo-academy/Lingshu-Cell",
       "links": [
         {
           "label": "homepage",
@@ -5657,9 +5724,12 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/alibaba-damo-academy/Lingshu-Cell/blob/main/README.md",
+        "https://github.com/alibaba-damo-academy/Lingshu-Cell"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -6167,12 +6237,15 @@
       "doi": "10.1038/s42256-026-01068-4",
       "paper_url": "https://doi.org/10.1038/s42256-026-01068-4",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/jiachengxiong/ConfSeq",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/jiachengxiong/ConfSeq/blob/main/README.md",
+        "https://github.com/jiachengxiong/ConfSeq"
+      ],
       "tag_review_basis": "title_and_metadata",
       "facets": {
         "task": [],
@@ -6548,12 +6621,16 @@
       "doi": null,
       "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/39190",
       "preprint_url": "https://arxiv.org/abs/2511.13124",
-      "code_url": null,
+      "code_url": "https://github.com/ChangxiChi/Departures",
       "links": [],
       "added_at": null,
-      "updated_at": null,
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/39190",
+        "https://github.com/ChangxiChi/Departures/blob/main/README.md",
+        "https://github.com/ChangxiChi/Departures"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -6887,12 +6964,15 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2605.25581",
-      "code_url": null,
+      "code_url": "https://github.com/week3ndzZ/CITEVAE",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/week3ndzZ/CITEVAE",
+        "https://arxiv.org/abs/2605.25581"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -6927,12 +7007,15 @@
       "doi": "10.21203/rs.3.rs-9068677/v1",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.21203/rs.3.rs-9068677/v1",
-      "code_url": null,
+      "code_url": "https://github.com/YuzhiSun/msInfer",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/YuzhiSun/msInfer/blob/main/README.md",
+        "https://github.com/YuzhiSun/msInfer"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7057,12 +7140,15 @@
       "doi": "10.1038/s41587-026-03112-5",
       "paper_url": "https://doi.org/10.1038/s41587-026-03112-5",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Genentech/SIGnature",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Genentech/SIGnature/blob/main/README.rst",
+        "https://github.com/Genentech/SIGnature"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7099,12 +7185,14 @@
       "doi": "10.1038/s41592-026-03097-8",
       "paper_url": "https://doi.org/10.1038/s41592-026-03097-8",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Noble-Lab/HiCFoundation",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Noble-Lab/HiCFoundation/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7147,12 +7235,15 @@
       "doi": "10.1016/j.cell.2026.05.031",
       "paper_url": "https://doi.org/10.1016/j.cell.2026.05.031",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/lilab-stanford/CANVAS",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/lilab-stanford/CANVAS/blob/main/README.md",
+        "https://github.com/lilab-stanford/CANVAS"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [],
@@ -7268,12 +7359,15 @@
       "doi": "10.1186/s12859-026-06490-4",
       "paper_url": "https://doi.org/10.1186/s12859-026-06490-4",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/ZadorLaboratory/TissueFormer",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://link.springer.com/article/10.1186/s12859-026-06490-4",
+        "https://github.com/ZadorLaboratory/TissueFormer"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7308,12 +7402,16 @@
       "doi": "10.1038/s41588-026-02624-9",
       "paper_url": "https://doi.org/10.1038/s41588-026-02624-9",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/welch-lab/cytosignal",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41588-026-02624-9",
+        "https://github.com/welch-lab/cytosignal/blob/master/README.md",
+        "https://github.com/welch-lab/cytosignal"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7353,12 +7451,15 @@
       "doi": "10.1038/s41467-026-73883-7",
       "paper_url": "https://doi.org/10.1038/s41467-026-73883-7",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41467-026-73883-7",
+        "https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7439,12 +7540,16 @@
       "doi": "10.1038/s41588-026-02573-3",
       "paper_url": "https://doi.org/10.1038/s41588-026-02573-3",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/JinmiaoChenLab/SpaMosaic",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41588-026-02573-3",
+        "https://github.com/JinmiaoChenLab/SpaMosaic/blob/main/README.md",
+        "https://github.com/JinmiaoChenLab/SpaMosaic"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7571,12 +7676,20 @@
       "doi": "10.1038/s44320-026-00212-x",
       "paper_url": "https://doi.org/10.1038/s44320-026-00212-x",
       "preprint_url": null,
-      "code_url": null,
-      "links": [],
+      "code_url": "https://github.com/Sedzinski-Lab/trackomics/tree/v1_paper",
+      "links": [
+        {
+          "label": "image-processing code",
+          "url": "https://github.com/kapoorlab/CopenhagenWorkflow"
+        }
+      ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://link.springer.com/article/10.1038/s44320-026-00212-x",
+        "https://github.com/Sedzinski-Lab/trackomics/tree/v1_paper"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -7611,12 +7724,15 @@
       "doi": "10.1038/s41588-026-02584-0",
       "paper_url": "https://doi.org/10.1038/s41588-026-02584-0",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/integrativebioinformatics/scNotebooks",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/integrativebioinformatics/scNotebooks/blob/main/README.md",
+        "https://github.com/integrativebioinformatics/scNotebooks"
+      ],
       "tag_review_basis": "title_and_metadata",
       "facets": {
         "task": [
@@ -7700,12 +7816,15 @@
       "doi": null,
       "paper_url": null,
       "preprint_url": "https://arxiv.org/abs/2604.20003",
-      "code_url": null,
+      "code_url": "https://github.com/qfchou/scpFormer",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/qfchou/scpFormer/blob/main/README.md",
+        "https://github.com/qfchou/scpFormer"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -8482,12 +8601,14 @@
       "doi": "10.1016/j.cell.2025.05.027",
       "paper_url": "https://doi.org/10.1016/j.cell.2025.05.027",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Single-Cell-Genomics-Group-CNAG-CRG/STAMP",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Single-Cell-Genomics-Group-CNAG-CRG/STAMP/blob/main/README.md"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -8526,12 +8647,15 @@
       "doi": "10.1016/j.cell.2025.02.012",
       "paper_url": "https://doi.org/10.1016/j.cell.2025.02.012",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/lbinan/Perturb-FISH",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.cell.com/cell/fulltext/S0092-8674(25)00197-7",
+        "https://github.com/lbinan/Perturb-FISH"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -9856,12 +9980,15 @@
       "doi": null,
       "paper_url": "https://openreview.net/forum?id=ERQRSnqLRb",
       "preprint_url": "https://arxiv.org/abs/2505.18150",
-      "code_url": null,
+      "code_url": "https://github.com/njwfish/DistributionEmbeddings",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://arxiv.org/html/2505.18150",
+        "https://github.com/njwfish/DistributionEmbeddings"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -11342,7 +11469,7 @@
       "doi": "10.1038/s41586-025-08878-3",
       "paper_url": "https://doi.org/10.1038/s41586-025-08878-3",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/idekerlab/cellmaps_pipeline",
       "links": [
         {
           "label": "project",
@@ -11350,9 +11477,13 @@
         }
       ],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41586-025-08878-3",
+        "https://github.com/idekerlab/cellmaps_pipeline/blob/main/README.rst",
+        "https://github.com/idekerlab/cellmaps_pipeline/tree/main/cellmaps_pipeline"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -11487,12 +11618,15 @@
       "doi": null,
       "paper_url": "https://www.nature.com/articles/s42003-025-07766-w",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Functional-Precision-Medicine-Lab/Evaluating-Feature-Extraction-in-Ovarian-Cancer-Cell-Line-Co-Cultures-Using-Deep-Neural-Networks",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-09-28",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Functional-Precision-Medicine-Lab/Evaluating-Feature-Extraction-in-Ovarian-Cancer-Cell-Line-Co-Cultures-Using-Deep-Neural-Networks/blob/main/README.md",
+        "https://github.com/Functional-Precision-Medicine-Lab/Evaluating-Feature-Extraction-in-Ovarian-Cancer-Cell-Line-Co-Cultures-Using-Deep-Neural-Networks"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [

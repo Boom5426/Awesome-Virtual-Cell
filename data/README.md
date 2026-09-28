@@ -40,7 +40,7 @@ Do not hand-edit the generated Research Papers block.
 
 `tags` is a nonempty multi-label list using `config/taxonomy.json`. See [definitions](../docs/taxonomy.md). A tag describes the paper's scope, not a verified performance claim.
 
-`code_status` distinguishes `paper_linked`, `repository_linked`, and `project_match` from `not_found`, `related_only`, and `release_pending`. `code_sources` records the supporting URLs; `tag_review_basis` distinguishes abstracts, project documentation, and title/metadata-only provisional classification. A reachable repository is not by itself evidence of authorship or reproducibility.
+`code_status` distinguishes `paper_linked`, `repository_linked`, and `project_match` from `not_found`, `related_only`, `release_pending`, and `data_only`. Negative states must not populate `code_url`; auxiliary datasets and pending project pages belong under `links`. `code_sources` records the supporting URLs; `tag_review_basis` distinguishes abstracts, project documentation, and title/metadata-only provisional classification. A reachable repository is not by itself evidence of authorship or reproducibility.
 
-The dated record in `curation/2026-09-26.json` preserves decisions for every paper, including uncertain cases.
+The dated record in `curation/2026-09-26.json` preserves the earlier curation decisions. The [2026-09-28 code-link audit](../docs/code-audit-2026-09-28.md) and `curation/code-audit-2026-09-28.json` record newer code-link decisions, before/after metadata, search limitations, and unresolved cases.
 \n## Evidence-backed facets\n\nEach paper stores `facets`, `facet_review_basis`, and `facet_sources`. Abstracts are primary evidence. See [docs/facets.md](../docs/facets.md).\n

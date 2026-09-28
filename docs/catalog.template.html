@@ -75,7 +75,7 @@ footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
 
 <div class="meta"><span id="count"></span><div class="export-actions"><button id="downloadCsv" type="button">Download filtered CSV</button><button id="downloadBib" type="button">Download filtered BibTeX</button></div></div>
 <section class="grid" id="grid" aria-live="polite"></section>
-<footer><a href="landscape.html">Research Landscape</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell#research-papers">Full paper list</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/facets.md">Facet definitions</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/taxonomy.md">Topic definitions</a></footer>
+<footer><a href="landscape.html">Research Landscape</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell#research-papers">Full paper list</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/facets.md">Facet definitions</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/taxonomy.md">Topic definitions</a> · <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/blob/main/docs/code-audit-2026-09-28.md">Code-link audit</a></footer>
 </main>
 <script>
 const PAPERS=__PAPERS_JSON__;
@@ -86,7 +86,8 @@ const tags=[...new Set(PAPERS.flatMap(p=>p.tags||[]))].sort();
 const selected=new Set();
 const facetIds={task:"task",modality:"modality",perturbationType:"perturbation_type",generalization:"generalization",paperType:"paper_type"};
 const facetValues=key=>[...new Set(PAPERS.flatMap(p=>(p.facets&&p.facets[key])||[]))].sort();
-const documented=p=>!!p.code_url&&["paper_linked","repository_linked"].includes(p.code_status);
+const hasCode=p=>!!p.code_url&&!["not_found","related_only","release_pending","data_only"].includes(p.code_status);
+const documented=p=>hasCode(p)&&["paper_linked","repository_linked"].includes(p.code_status);
 const quickTags=["Perturbation","Foundation Model","Multimodal","Intervention Design","Evaluation & Measurement","Spatial","Benchmark"];
 years.forEach(y=>byId("year").insertAdjacentHTML("beforeend","<option>"+y+"</option>"));
 tags.forEach(t=>byId("tag").insertAdjacentHTML("beforeend",'<option value="'+esc(t)+'">'+esc(t)+"</option>"));
@@ -94,7 +95,7 @@ Object.entries(facetIds).forEach(([id,key])=>facetValues(key).forEach(v=>byId(id
 byId("quickFilters").innerHTML=quickTags.filter(t=>tags.includes(t)).map(t=>'<button type="button" data-tag="'+esc(t)+'" aria-pressed="false">'+esc(t)+"</button>").join("");
 byId("total").textContent=PAPERS.length+" papers";
 byId("published").textContent=PAPERS.filter(p=>p.status==="published").length+" published";
-byId("withcode").textContent=PAPERS.filter(p=>p.code_url).length+" code links";
+byId("withcode").textContent=PAPERS.filter(hasCode).length+" code links";
 byId("topiccount").textContent=tags.length+" topics";
 function loadState(){
   const params=new URLSearchParams(location.search);
@@ -122,7 +123,7 @@ function sortedRows(rows){
   const mode=byId("sort").value;const copy=rows.slice();
   if(mode==="publication")return copy.sort((a,b)=>b.year-a.year||String(a.title).localeCompare(String(b.title)));
   if(mode==="published")return copy.sort((a,b)=>(b.status==="published")-(a.status==="published")||b.year-a.year);
-  if(mode==="code")return copy.sort((a,b)=>Boolean(b.code_url)-Boolean(a.code_url)||b.year-a.year);
+  if(mode==="code")return copy.sort((a,b)=>Number(hasCode(b))-Number(hasCode(a))||b.year-a.year);
   if(mode==="title")return copy.sort((a,b)=>String(a.title).localeCompare(String(b.title)));
   return copy.sort((a,b)=>(b.added_at||"").localeCompare(a.added_at||"")||PAPERS.indexOf(a)-PAPERS.indexOf(b));
 }
@@ -134,7 +135,7 @@ function filteredRows(){
   return sortedRows(PAPERS.filter(p=>{
     const pt=p.tags||[],pf=p.facets||{},facetText=Object.values(pf).flat(),hay=[p.title,p.label,p.venue,p.doi,...pt,...facetText].join(" ").toLowerCase();
     const topicMatch=!wanted.length||(all?wanted.every(t=>pt.includes(t)):wanted.some(t=>pt.includes(t)));
-    const codeMatch=!code||(code==="linked"&&!!p.code_url)||(code==="documented"&&documented(p))||(code==="missing"&&!p.code_url);
+    const codeMatch=!code||(code==="linked"&&hasCode(p))||(code==="documented"&&documented(p))||(code==="missing"&&!hasCode(p));
     const facetMatch=Object.entries(wantedFacets).every(([key,value])=>!value||((pf[key]||[]).includes(value)));
     return words.every(w=>hay.includes(w))&&(!year||String(p.year)===year)&&(!status||p.status===status)&&topicMatch&&facetMatch&&codeMatch;
   }));
@@ -156,7 +157,7 @@ function render(){
     const codeTitle=p.code_status==="project_match"?"Matching project; exact paper citation not established.":"Source-linked paper/repository correspondence; code not executed in this audit.";
     const evidence=p.tag_review_basis==="title_and_metadata"?"Provisional classification from title and metadata":"Classified from abstract or substantive project documentation";
     const doiUrl=p.doi?"https://doi.org/"+p.doi:null;
-    return '<article class="paper"><div class="top"><div class="title">'+esc(label+p.title)+'</div><div class="venue">'+esc(p.venue||"")+" · "+p.year+'</div></div><div class="tags">'+ptags(p,evidence)+'<span class="tag">'+esc(p.status)+'</span></div><div class="links">'+link(p.paper_url?"Paper":"Preprint",primary)+link(codeLabel,p.code_url,codeTitle)+(doiUrl!==primary?link("DOI",doiUrl):"")+'</div></article>';
+    return '<article class="paper"><div class="top"><div class="title">'+esc(label+p.title)+'</div><div class="venue">'+esc(p.venue||"")+" · "+p.year+'</div></div><div class="tags">'+ptags(p,evidence)+'<span class="tag">'+esc(p.status)+'</span></div><div class="links">'+link(p.paper_url?"Paper":"Preprint",primary)+(hasCode(p)?link(codeLabel,p.code_url,codeTitle):"")+(doiUrl!==primary?link("DOI",doiUrl):"")+'</div></article>';
   }).join("");
 }
 function ptags(p,evidence){return(p.tags||[]).map(t=>'<button class="tag-button" type="button" title="'+esc(evidence)+'" data-paper-tag="'+esc(t)+'">'+esc(t)+"</button>").join("");}

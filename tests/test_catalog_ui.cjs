@@ -34,4 +34,18 @@ assert(evaluate('filteredCsv(filteredRows()).includes("code_status")'));assert(e
 assert.equal(evaluate('(filteredBib(filteredRows()).match(/^@/gm)||[]).length'),expectedCount);
 assert.equal(evaluate('link("bad","javascript:alert(1)")'),'');
 for(const f of ['docs/index.html','docs/catalog.html'])assert.equal(fs.readFileSync(path.join(root,f),'utf8'),html);
+// Code-link audit regressions: status semantics and observed omissions.
+els.reset.events.click();els.code.value='linked';
+for(const id of ['nudge-cell-fate','regformer','spamosaic','coladan'])assert(evaluate('filteredRows().some(p=>p.id==='+JSON.stringify(id)+')'));
+for(const id of ['pertreason','holocell','biom-jepa','scvision'])assert(!evaluate('filteredRows().some(p=>p.id==='+JSON.stringify(id)+')'));
+for(const status of ['data_only','release_pending','not_found','related_only']){
+ const synthetic=JSON.stringify({code_url:'https://github.com/example/resource',code_status:status});
+ assert.equal(evaluate('hasCode('+synthetic+')'),false);
+ assert.equal(evaluate('documented('+synthetic+')'),false);
+}
+assert(evaluate('hasCode({code_url:"https://github.com/example/code",code_status:"repository_linked"})'));
+assert(!evaluate('documented({code_url:"https://github.com/example/code",code_status:"project_match"})'));
+els.code.value='missing';assert(evaluate('filteredRows().some(p=>p.id==="pertreason")'));
+assert(evaluate('PAPERS.find(p=>p.id==="pertreason").links.some(l=>l.label==="dataset")'));
+els.reset.events.click();
 console.log('Catalog JS smoke tests passed: AND/OR topics, URLs, text search, code filters, reset, empty state, exports, generated parity.');

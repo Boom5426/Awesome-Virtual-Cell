@@ -34,7 +34,8 @@ def main():
         if p["facet_review_basis"]=="title_and_metadata" and (p["facets"]["perturbation_type"] or p["facets"]["generalization"]):err.append(f"#{i} {p['id']}: provisional fine facet")
         cs=p.get("code_status","unreviewed")
         if cs in {"paper_linked","repository_linked","project_match"} and not p.get("code_url"):err.append(f"#{i} {p['id']}: code URL")
-        if cs in {"not_found","related_only","release_pending"} and p.get("code_url"):err.append(f"#{i} {p['id']}: unresolved code URL")
+        if cs in {"not_found","related_only","release_pending","data_only"} and p.get("code_url"):err.append(f"#{i} {p['id']}: unresolved code URL")
+        if not isinstance(p.get("code_sources",[]),list) or any(not good_url(x) for x in p.get("code_sources",[])):err.append(f"#{i} {p['id']}: code sources")
         for k in ("paper_url","preprint_url","code_url"):
             if not good_url(p.get(k)):err.append(f"#{i} {p['id']}: {k}")
         if not isinstance(p["links"],list):err.append(f"#{i} {p['id']}: links")

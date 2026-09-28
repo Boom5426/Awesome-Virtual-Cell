@@ -65,13 +65,13 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[VCDesign]** `[Intervention Design]` `[Perturbation]` `[Virtual Cell]` VCDesign: Finite-Budget Intervention Design for Virtual Cells (**Manuscript 2026**) [[preprint](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf)] [[code](https://github.com/Boom5426/VCDesign-CED)] ![GitHub stars](https://img.shields.io/github/stars/Boom5426/VCDesign-CED.svg?logo=github&label=Stars) [[project](https://boom5426.github.io/VCDesign-CED/)] [[dataset](https://huggingface.co/datasets/Boom5426/VCDesign)]
 
-- **[NUDGE]** `[Intervention Design]` `[Gene Regulation]` `[Dynamics]` `[Related]` Uncovering minimal control of cell fate by natural dynamics (**PNAS 2026**) [[paper](https://doi.org/10.1073/pnas.2604777123)]
+- **[NUDGE]** `[Intervention Design]` `[Gene Regulation]` `[Dynamics]` `[Related]` Uncovering minimal control of cell fate by natural dynamics (**PNAS 2026**) [[paper](https://doi.org/10.1073/pnas.2604777123)] [[code](https://github.com/chopper6/NUDGE)] ![GitHub stars](https://img.shields.io/github/stars/chopper6/NUDGE.svg?logo=github&label=Stars)
 
 - **[Speciesformer]** `[Virtual Cell]` `[Foundation Model]` `[Multimodal]` `[Perturbation]` `[Representation Learning]` Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.22.752128)]
 
 - **[DeepSCENIC]** `[Gene Regulation]` `[Multimodal]` `[Perturbation]` DeepSCENIC: transfer learning from sequence-to-function models enables causal gene regulatory network inference (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.18.752607)] [[code (project)](https://github.com/aertslab/deepSCENIC)] ![GitHub stars](https://img.shields.io/github/stars/aertslab/deepSCENIC.svg?logo=github&label=Stars)
 
-- **[scKITE]** `[Foundation Model]` `[Representation Learning]` Towards a knowledge-enhanced single-cell foundation model (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.14970)]
+- **[scKITE]** `[Foundation Model]` `[Representation Learning]` Towards a knowledge-enhanced single-cell foundation model (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.14970)] [[code](https://github.com/BaoJiee/scKITE)] ![GitHub stars](https://img.shields.io/github/stars/BaoJiee/scKITE.svg?logo=github&label=Stars)
 
 - **[PHAROS]** `[Perturbation]` `[Intervention Design]` `[Virtual Cell]` PHAROS: turning single-cell perturbation models into target-directed drug-combination screens (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.08.749477)] [[code (project)](https://github.com/jbezney61/PHAROS)] ![GitHub stars](https://img.shields.io/github/stars/jbezney61/PHAROS.svg?logo=github&label=Stars) [[reproduce](https://github.com/jbezney61/PHAROS_reproduce)]
 
@@ -101,7 +101,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[UniPert-G2CP]** `[Perturbation]` `[Multimodal]` UniPert-G2CP Bridges Genetic and Chemical Screens from Molecular Representation to Phenotype Modeling (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.06.005)] [[preprint](https://doi.org/10.1101/2025.02.02.635055)] [[code](https://github.com/TencentAILabHealthcare/UniPert)] ![GitHub stars](https://img.shields.io/github/stars/TencentAILabHealthcare/UniPert.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/TencentAILabHealthcare/UniPert)]
 
-- **[Cell Shapes]** `[Morphology]` `[Protein]` `[Perturbation]` Cell shapes decode molecular phenotypes in image-based spatial proteomics (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101589)] [[preprint](https://doi.org/10.1101/2025.05.13.653868)]
+- **[Cell Shapes]** `[Morphology]` `[Protein]` `[Perturbation]` Cell shapes decode molecular phenotypes in image-based spatial proteomics (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101589)] [[preprint](https://doi.org/10.1101/2025.05.13.653868)] [[code](https://github.com/CellProfiling/2D_shapespace)] ![GitHub stars](https://img.shields.io/github/stars/CellProfiling/2D_shapespace.svg?logo=github&label=Stars)
 
 - **[scLong]** `[Foundation Model]` `[Representation Learning]` `[Perturbation]` `[Gene Regulation]` scLong: A Billion-Parameter Foundation Model for Capturing Long-Range Gene Context in Single-Cell Transcriptomics (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-69102-y)] [[preprint](https://doi.org/10.1101/2024.11.09.622759)] [[code (project)](https://github.com/BaiDing1234/scLong)] ![GitHub stars](https://img.shields.io/github/stars/BaiDing1234/scLong.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/BaiDing1234/scLong)]
 
@@ -121,7 +121,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[Cell-JEPA]** `[JEPA]` `[Foundation Model]` `[Representation Learning]` `[Perturbation]` Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2602.02093)]
 
-- **[SpatialJEPA]** `[JEPA]` `[Spatial]` `[Multimodal]` `[Representation Learning]` SpatialJEPA: JEPA-Inspired Graph-Context Distillation for Spatially Aware Multiomics Integration (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.21.739810)]
+- **[SpatialJEPA]** `[JEPA]` `[Spatial]` `[Multimodal]` `[Representation Learning]` SpatialJEPA: JEPA-Inspired Graph-Context Distillation for Spatially Aware Multiomics Integration (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.21.739810)] [[code](https://github.com/li-lab-mcgill/SpatialJEPA)] ![GitHub stars](https://img.shields.io/github/stars/li-lab-mcgill/SpatialJEPA.svg?logo=github&label=Stars)
 
 - **[BioM-JEPA]** `[JEPA]` `[Foundation Model]` `[Representation Learning]` `[Perturbation]` BioM-JEPA: Joint-Embedding Prediction of Graph-Connected Gene Blocks in Single Cells (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2608.05928)]
 
@@ -145,7 +145,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[CellConsensus]** `[Agent]` `[Tool]` `[Dataset]` CellConsensus: An agent-curated atlas for automatic cell typing (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.07.743503)] [[code (project)](https://github.com/tansey-lab/cellconsensus)] ![GitHub stars](https://img.shields.io/github/stars/tansey-lab/cellconsensus.svg?logo=github&label=Stars)
 
-- **[Literature-Authored Embeddings]** `[Agent]` `[Representation Learning]` Coding agents author interpretable single-cell embedding models from the literature (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.07.737048)]
+- **[Literature-Authored Embeddings]** `[Agent]` `[Representation Learning]` Coding agents author interpretable single-cell embedding models from the literature (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.07.737048)] [[code](https://github.com/NiklasBrunn/blueprint-embedding)] ![GitHub stars](https://img.shields.io/github/stars/NiklasBrunn/blueprint-embedding.svg?logo=github&label=Stars)
 
 - **[LLM4Cell]** `[Benchmark]` `[Agent]` `[Review]` LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology (**ACL 2026**) [[paper](https://aclanthology.org/2026.acl-long.1942/)]
 
@@ -155,11 +155,11 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[Projection Basis]** `[Benchmark]` `[Perturbation]` `[Representation Learning]` `[Evaluation & Measurement]` The projection basis determines the information ceiling for perturbation prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.07.737004)]
 
-- **[Harmonised FM Benchmark]** `[Benchmark]` `[Foundation Model]` `[Spatial]` `[Perturbation]` Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.17227)]
+- **[Harmonised FM Benchmark]** `[Benchmark]` `[Foundation Model]` `[Spatial]` `[Perturbation]` Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.17227)] [[code](https://github.com/iced-soda/FM-benchmark)] ![GitHub stars](https://img.shields.io/github/stars/iced-soda/FM-benchmark.svg?logo=github&label=Stars)
 
-- **[scContam]** `[Benchmark]` `[Foundation Model]` `[Evaluation & Measurement]` Auditing pretraining contamination in single-cell foundation model benchmarks (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.20572)]
+- **[scContam]** `[Benchmark]` `[Foundation Model]` `[Evaluation & Measurement]` Auditing pretraining contamination in single-cell foundation model benchmarks (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.20572)] [[code](https://github.com/sarwanpasha/scContam)] ![GitHub stars](https://img.shields.io/github/stars/sarwanpasha/scContam.svg?logo=github&label=Stars)
 
-- **[PertReason]** `[Benchmark]` `[Perturbation]` `[Agent]` `[Gene Regulation]` PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.18777)] [[code](https://github.com/dongkwan-kim/PertReasonQA)] ![GitHub stars](https://img.shields.io/github/stars/dongkwan-kim/PertReasonQA.svg?logo=github&label=Stars)
+- **[PertReason]** `[Benchmark]` `[Perturbation]` `[Agent]` `[Gene Regulation]` PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.18777)] [[dataset](https://github.com/dongkwan-kim/PertReasonQA)]
 
 - **[DE Classification]** `[Benchmark]` `[Perturbation]` `[Evaluation & Measurement]` Beyond Expression Prediction: Benchmarking Differential Expression Classification in Single-Cell Perturbation Models (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.20.739620)]
 
@@ -207,7 +207,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[GenPerturb]** `[Perturbation]` `[Gene Regulation]` GenPerturb: sequence-grounded interpretation of perturbation transcriptomes using pretrained genomic models (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.01.735806)] [[code](https://github.com/rikenbit/GenPerturb)] ![GitHub stars](https://img.shields.io/github/stars/rikenbit/GenPerturb.svg?logo=github&label=Stars)
 
-- **[U-Pert]** `[Perturbation]` `[Dynamics]` `[Intervention Design]` Unbalanced Perturbation Dynamics For Cell Fate Design (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.06.30.735555)]
+- **[U-Pert]** `[Perturbation]` `[Dynamics]` `[Intervention Design]` Unbalanced Perturbation Dynamics For Cell Fate Design (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.06.30.735555)] [[code](https://github.com/QiangweiPeng/UPT)] ![GitHub stars](https://img.shields.io/github/stars/QiangweiPeng/UPT.svg?logo=github&label=Stars)
 
 - **[GeneSpeak-FP]** `[Perturbation]` `[Intervention Design]` GeneSpeak-FP: Target and Compound Retrieval from Observed Cell-Level Perturbation Signatures (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.17671)]
 
@@ -223,9 +223,9 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[MEGA-ODE]** `[Perturbation]` `[Dynamics]` `[Gene Regulation]` `[Intervention Design]` MEGA-ODE: Learning Biologically Structured and Navigable Continuous Perturbation Dynamics from Sparse Omics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.05.742921)] [[code](https://github.com/Candlelight-XYJ/MEGA-ODE)] ![GitHub stars](https://img.shields.io/github/stars/Candlelight-XYJ/MEGA-ODE.svg?logo=github&label=Stars)
 
-- **[TranScouter]** `[Perturbation]` `[Benchmark]` A structured study of cross-condition prediction of transcriptional responses to gene perturbations (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.30.741892)]
+- **[TranScouter]** `[Perturbation]` `[Benchmark]` A structured study of cross-condition prediction of transcriptional responses to gene perturbations (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.30.741892)] [[code](https://github.com/PancakeZoy/TranScouter)] ![GitHub stars](https://img.shields.io/github/stars/PancakeZoy/TranScouter.svg?logo=github&label=Stars)
 
-- **[COMPASS]** `[Perturbation]` COMPASS: Component-Wise Inference of Shared and Gene-Specific Perturbation Response (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.03.742643)]
+- **[COMPASS]** `[Perturbation]` COMPASS: Component-Wise Inference of Shared and Gene-Specific Perturbation Response (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.03.742643)] [[code](https://github.com/rohitsinghlab/compass)] ![GitHub stars](https://img.shields.io/github/stars/rohitsinghlab/compass.svg?logo=github&label=Stars)
 
 - **[SLIM]** `[Perturbation]` SLIM: A small linear model with STRING embeddings for single-cell genetic perturbation prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.07.743481)] [[code](https://github.com/RasmussenLab/SLIM)] ![GitHub stars](https://img.shields.io/github/stars/RasmussenLab/SLIM.svg?logo=github&label=Stars)
 
@@ -233,15 +233,15 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[PerturbLDM]** `[Perturbation]` PerturbLDM: conditional latent diffusion for modelling single-cell perturbation responses (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.07.743610)] [[code](https://github.com/davidroad/PerturbLDM)] ![GitHub stars](https://img.shields.io/github/stars/davidroad/PerturbLDM.svg?logo=github&label=Stars)
 
-- **[Coladan]** `[Spatial]` `[Morphology]` `[Multimodal]` `[Perturbation]` `[Dataset]` Trimodal, uncertainty-guided whole-slide framework for genome-scale spatial expression and image-only virtual perturbation in cancer cohorts (**Genome Medicine 2026**) [[paper](https://doi.org/10.1186/s13073-026-01713-y)]
+- **[Coladan]** `[Spatial]` `[Morphology]` `[Multimodal]` `[Perturbation]` `[Dataset]` Trimodal, uncertainty-guided whole-slide framework for genome-scale spatial expression and image-only virtual perturbation in cancer cohorts (**Genome Medicine 2026**) [[paper](https://doi.org/10.1186/s13073-026-01713-y)] [[code](https://github.com/99wzj/Coladan)] ![GitHub stars](https://img.shields.io/github/stars/99wzj/Coladan.svg?logo=github&label=Stars)
 
 - **[Spaceland]** `[Spatial]` `[Morphology]` `[Multimodal]` Spaceland: Histology-Guided Reconstruction of High-Resolution Whole-Organ 3D Molecular Atlases from Sparse Spatial Transcriptomics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.23.739686)] [[code (project)](https://github.com/xufangfang408/Spaceland)] ![GitHub stars](https://img.shields.io/github/stars/xufangfang408/Spaceland.svg?logo=github&label=Stars)
 
 - **[TissueFormer]** `[Spatial]` `[Morphology]` `[Multimodal]` `[Foundation Model]` Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferrable Digital Pathology at Single-Cell Resolution (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.31.741265)] [[code (project)](https://github.com/uhlerlab/TissueFormer)] ![GitHub stars](https://img.shields.io/github/stars/uhlerlab/TissueFormer.svg?logo=github&label=Stars)
 
-- **[VOICE]** `[Spatial]` `[Morphology]` `[Multimodal]` `[Foundation Model]` VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2608.08366)]
+- **[VOICE]** `[Spatial]` `[Morphology]` `[Multimodal]` `[Foundation Model]` VOICE: A Vision-Omics Foundation Model Integrating Direct and Retrieval-Based Prediction of In-situ Single-Cell Gene Expression (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2608.08366)] [[code](https://github.com/Luosanj/VOICE_HE_ST_Pred)] ![GitHub stars](https://img.shields.io/github/stars/Luosanj/VOICE_HE_ST_Pred.svg?logo=github&label=Stars)
 
-- **[VISTA]** `[Spatial]` `[Morphology]` `[Multimodal]` Virtual spatial transcriptomics from histopathology enables prognostic and therapeutic response prediction in cancer (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.04.742671)]
+- **[VISTA]** `[Spatial]` `[Morphology]` `[Multimodal]` Virtual spatial transcriptomics from histopathology enables prognostic and therapeutic response prediction in cancer (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.04.742671)] [[code](https://github.com/23AIBox/VISTA)] ![GitHub stars](https://img.shields.io/github/stars/23AIBox/VISTA.svg?logo=github&label=Stars)
 
 - **[SQUINT]** `[Spatial]` `[Representation Learning]` Learning Discrete Cell and Niche Codes from Spatial Transcriptomics Using Dual Residual Vector Quantization (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.07.743490)] [[code (project)](https://github.com/Lotfollahi-lab/squint)] ![GitHub stars](https://img.shields.io/github/stars/Lotfollahi-lab/squint.svg?logo=github&label=Stars)
 
@@ -279,9 +279,9 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[Cross-Context DrugPert]** `[Perturbation]` `[Multimodal]` Enhancing Cross-Context Generalization in Drug Perturbation Prediction with a Multimodal Conditional Diffusion Framework (**Bioinformatics 2026**) [[paper](https://doi.org/10.1093/bioinformatics/btag482)] [[code](https://github.com/Panda-myj/PertDiff)] ![GitHub stars](https://img.shields.io/github/stars/Panda-myj/PertDiff.svg?logo=github&label=Stars)
 
-- **[SciCore-Omics]** `[Foundation Model]` `[Spatial]` `[Morphology]` `[Multimodal]` SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.05.30.728937)]
+- **[SciCore-Omics]** `[Foundation Model]` `[Spatial]` `[Morphology]` `[Multimodal]` SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.05.30.728937)] [[code](https://github.com/OpenBMB/Scicore-Omics)] ![GitHub stars](https://img.shields.io/github/stars/OpenBMB/Scicore-Omics.svg?logo=github&label=Stars)
 
-- **[HoloCell]** `[Virtual Cell]` `[Foundation Model]` `[Multimodal]` `[Protein]` HoloCell: A Generative Foundation Model for Holistic Cellular Modeling (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.06.07.730684)]
+- **[HoloCell]** `[Virtual Cell]` `[Foundation Model]` `[Multimodal]` `[Protein]` HoloCell: A Generative Foundation Model for Holistic Cellular Modeling (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.06.07.730684)] [[project (code pending)](https://github.com/bjzgcai/HoloCell)]
 
 - **[FM Roadmap]** `[Foundation Model]` `[Spatial]` `[Review]` A User’s Roadmap to Foundation Models on Single-Cell and Spatial-Omics – Cell Type and Lineage applications (**National Science Review 2026**) [[paper](https://doi.org/10.1093/nsr/nwag371)]
 
@@ -293,13 +293,13 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[BRIDGE]** `[Foundation Model]` `[Morphology]` `[Spatial]` `[Multimodal]` BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot Cancer Diagnosis (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.05.05.722971)]
 
-- **[Morphodynamics-Expr]** `[Morphology]` `[Dynamics]` `[Multimodal]` Single-cell morphodynamical trajectories enable prediction of gene expression accompanying cell state change (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101567)]
+- **[Morphodynamics-Expr]** `[Morphology]` `[Dynamics]` `[Multimodal]` Single-cell morphodynamical trajectories enable prediction of gene expression accompanying cell state change (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101567)] [[code](https://github.com/cancer-dynamics/MMIST_Copperman_2026)] ![GitHub stars](https://img.shields.io/github/stars/cancer-dynamics/MMIST_Copperman_2026.svg?logo=github&label=Stars) [[implementation package](https://github.com/cancer-dynamics/celltraj)]
 
 - **[Morph-Transcriptomic GenModel]** `[Perturbation]` `[Morphology]` `[Multimodal]` A generative framework for predicting cellular morphological and transcriptomic perturbation responses (**Cell Reports Methods 2026**) [[paper](https://doi.org/10.1016/j.crmeth.2026.101459)]
 
 - **[DoFormer]** `[Perturbation]` `[Gene Regulation]` `[Multimodal]` DoFormer: Causal Transformer for Gene Perturbation (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.05.02.722054)]
 
-- **[RegFormer]** `[Foundation Model]` `[Gene Regulation]` `[Representation Learning]` RegFormer: a single-cell foundation model powered by gene regulatory hierarchies (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-72198-x)]
+- **[RegFormer]** `[Foundation Model]` `[Gene Regulation]` `[Representation Learning]` RegFormer: a single-cell foundation model powered by gene regulatory hierarchies (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-72198-x)] [[code](https://github.com/BGIResearch/RegFormer)] ![GitHub stars](https://img.shields.io/github/stars/BGIResearch/RegFormer.svg?logo=github&label=Stars)
 
 - **[Spurious Correlation]** `[Benchmark]` `[Perturbation]` `[Evaluation & Measurement]` Spurious correlation inflates performance in single-cell perturbation prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.05.07.723486)]
 
@@ -315,7 +315,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[Dataset Size & Diversity]** `[Foundation Model]` `[Benchmark]` Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance (**Nature Methods 2026**) [[paper](https://www.nature.com/articles/s41592-026-03120-y)] [[code (project)](https://github.com/microsoft/scFM-dataselection)] ![GitHub stars](https://img.shields.io/github/stars/microsoft/scFM-dataselection.svg?logo=github&label=Stars)
 
-- **[Lingshu-Cell]** `[Virtual Cell]` `[World Model]` `[Foundation Model]` `[Perturbation]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2603.25240)] [[homepage](https://github.com/alibaba-damo-academy/lingshu-cell-homepage)]
+- **[Lingshu-Cell]** `[Virtual Cell]` `[World Model]` `[Foundation Model]` `[Perturbation]` Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2603.25240)] [[code](https://github.com/alibaba-damo-academy/Lingshu-Cell)] ![GitHub stars](https://img.shields.io/github/stars/alibaba-damo-academy/Lingshu-Cell.svg?logo=github&label=Stars) [[homepage](https://github.com/alibaba-damo-academy/lingshu-cell-homepage)]
 
 - **[SCALE]** `[Perturbation]` SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2603.17380)]
 
@@ -339,7 +339,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[AI Scientist]** `[Agent]` `[Related]` Towards end-to-end automation of AI research (**Nature 2026**) [[paper](https://www.nature.com/articles/s41586-026-10265-5)] [[code](https://github.com/SakanaAI/AI-Scientist)] ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist.svg?logo=github&label=Stars) [[template-free code](https://github.com/SakanaAI/AI-Scientist-v2)]
 
-- **[Conformation Description Language]** `[Protein]` `[Multimodal]` `[Related]` Bridging three-dimensional molecular structures and artificial intelligence with a conformation description language (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-026-01068-4)]
+- **[Conformation Description Language]** `[Protein]` `[Multimodal]` `[Related]` Bridging three-dimensional molecular structures and artificial intelligence with a conformation description language (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-026-01068-4)] [[code](https://github.com/jiachengxiong/ConfSeq)] ![GitHub stars](https://img.shields.io/github/stars/jiachengxiong/ConfSeq.svg?logo=github&label=Stars)
 
 - **[CRISPRi Map]** `[Perturbation]` `[Gene Regulation]` `[Dataset]` A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) [[paper](https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00332-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X25003325%3Fshowall%3Dtrue)]
 
@@ -357,7 +357,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[Doloris]** `[Perturbation]` Doloris: Dual Conditional Diffusion Implicit Bridges with Sparsity Masking Strategy for Unpaired Single-Cell Perturbation Estimation (**ICLR 2026**) [[paper](https://openreview.net/forum?id=rvpDHfoTd2)] [[code](https://github.com/ChangxiChi/Doloris)] ![GitHub stars](https://img.shields.io/github/stars/ChangxiChi/Doloris.svg?logo=github&label=Stars)
 
-- **[Departures]** `[Perturbation]` Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/39190)] [[preprint](https://arxiv.org/abs/2511.13124)]
+- **[Departures]** `[Perturbation]` Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges (**AAAI 2026**) [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/39190)] [[preprint](https://arxiv.org/abs/2511.13124)] [[code](https://github.com/ChangxiChi/Departures)] ![GitHub stars](https://img.shields.io/github/stars/ChangxiChi/Departures.svg?logo=github&label=Stars)
 
 - **[PETRI]** `[Foundation Model]` `[Multimodal]` `[Representation Learning]` PETRI: Learning Unified Cell Embeddings from Unpaired Modalities via Early-Fusion Joint Reconstruction (**ICLR 2026**) [[paper](https://openreview.net/forum?id=Vu8YXDooG5)]
 
@@ -373,45 +373,45 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[CisTransCell]** `[Perturbation]` `[Gene Regulation]` `[Multimodal]` CisTransCell: Single-Cell Perturbation Prediction via Gene Function, Regulatory Control, and Cellular Context (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2606.13713)]
 
-- **[Latent Causal Processes]** `[Perturbation]` `[Dynamics]` `[Gene Regulation]` Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2605.25581)]
+- **[Latent Causal Processes]** `[Perturbation]` `[Dynamics]` `[Gene Regulation]` Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2605.25581)] [[code](https://github.com/week3ndzZ/CITEVAE)] ![GitHub stars](https://img.shields.io/github/stars/week3ndzZ/CITEVAE.svg?logo=github&label=Stars)
 
-- **[msInfer]** `[Protein]` `[Multimodal]` `[Tool]` Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer (**Research Square 2026**) [[preprint](https://doi.org/10.21203/rs.3.rs-9068677/v1)]
+- **[msInfer]** `[Protein]` `[Multimodal]` `[Tool]` Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer (**Research Square 2026**) [[preprint](https://doi.org/10.21203/rs.3.rs-9068677/v1)] [[code](https://github.com/YuzhiSun/msInfer)] ![GitHub stars](https://img.shields.io/github/stars/YuzhiSun/msInfer.svg?logo=github&label=Stars)
 
 - **[Stack]** `[Foundation Model]` `[Representation Learning]` `[Perturbation]` Stack: In-Context Learning of Single-Cell Biology (**bioRxiv 2026**) [[preprint](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1)] [[code](https://github.com/ArcInstitute/stack)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/stack.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/ArcInstitute/stack)]
 
 - **[BioWorldModel]** `[World Model]` `[Dynamics]` `[Related]` BioWorldModel: a single architecture predicts phenotype from genotype across four kingdoms of life (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.03.27.714912)]
 
-- **[Gene Importance]** `[Foundation Model]` `[Gene Regulation]` `[Tool]` Scoring gene importance by interpreting single-cell foundation models (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03112-5)]
+- **[Gene Importance]** `[Foundation Model]` `[Gene Regulation]` `[Tool]` Scoring gene importance by interpreting single-cell foundation models (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03112-5)] [[code](https://github.com/Genentech/SIGnature)] ![GitHub stars](https://img.shields.io/github/stars/Genentech/SIGnature.svg?logo=github&label=Stars)
 
-- **[Hi-C FM]** `[Foundation Model]` `[Gene Regulation]` `[Multimodal]` A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics analysis across species (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03097-8)]
+- **[Hi-C FM]** `[Foundation Model]` `[Gene Regulation]` `[Multimodal]` A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics analysis across species (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03097-8)] [[code](https://github.com/Noble-Lab/HiCFoundation)] ![GitHub stars](https://img.shields.io/github/stars/Noble-Lab/HiCFoundation.svg?logo=github&label=Stars)
 
-- **[Virtual Spatial Tumor]** `[Morphology]` `[Spatial]` `[Protein]` `[Multimodal]` Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.05.031)]
+- **[Virtual Spatial Tumor]** `[Morphology]` `[Spatial]` `[Protein]` `[Multimodal]` Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.05.031)] [[code](https://github.com/lilab-stanford/CANVAS)] ![GitHub stars](https://img.shields.io/github/stars/lilab-stanford/CANVAS.svg?logo=github&label=Stars)
 
 - **[SynCell]** `[Virtual Cell]` `[Review]` `[Related]` A framework for building a synthetic cell from the SynCell Asia Initiative (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03153-w)]
 
 - **[3D Genome FM]** `[Foundation Model]` `[Gene Regulation]` `[Review]` A foundation model to help understand the regulatory implications of 3D genome organization (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03098-7)]
 
-- **[Tissueformer]** `[Foundation Model]` `[Representation Learning]` Tissueformer: extending single-cell foundation models to predict population-level phenotypes (**BMC Bioinformatics 2026**) [[paper](https://doi.org/10.1186/s12859-026-06490-4)]
+- **[Tissueformer]** `[Foundation Model]` `[Representation Learning]` Tissueformer: extending single-cell foundation models to predict population-level phenotypes (**BMC Bioinformatics 2026**) [[paper](https://doi.org/10.1186/s12859-026-06490-4)] [[code](https://github.com/ZadorLaboratory/TissueFormer)] ![GitHub stars](https://img.shields.io/github/stars/ZadorLaboratory/TissueFormer.svg?logo=github&label=Stars)
 
-- **[CytoSignal]** `[Spatial]` `[Dynamics]` `[Gene Regulation]` `[Tool]` CytoSignal detects locations and dynamics of ligand–receptor signaling at cellular resolution from spatial transcriptomic data (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02624-9)]
+- **[CytoSignal]** `[Spatial]` `[Dynamics]` `[Gene Regulation]` `[Tool]` CytoSignal detects locations and dynamics of ligand–receptor signaling at cellular resolution from spatial transcriptomic data (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02624-9)] [[code](https://github.com/welch-lab/cytosignal)] ![GitHub stars](https://img.shields.io/github/stars/welch-lab/cytosignal.svg?logo=github&label=Stars)
 
-- **[graphene-seq]** `[Spatial]` `[Multimodal]` `[Dynamics]` `[Dataset]` In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-73883-7)]
+- **[graphene-seq]** `[Spatial]` `[Multimodal]` `[Dynamics]` `[Dataset]` In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-73883-7)] [[code](https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq)] ![GitHub stars](https://img.shields.io/github/stars/LiuLab-Bioelectronics-Harvard/Graphene_seq.svg?logo=github&label=Stars)
 
 - **[Deep Molecular Profiling]** `[Spatial]` `[Multimodal]` `[Review]` Deep molecular profiling in three dimensions (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03149-z)]
 
-- **[SpaMosaic]** `[Spatial]` `[Multimodal]` `[Protein]` `[Representation Learning]` Mosaic integration of spatial multi-omics with SpaMosaic (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02573-3)]
+- **[SpaMosaic]** `[Spatial]` `[Multimodal]` `[Protein]` `[Representation Learning]` Mosaic integration of spatial multi-omics with SpaMosaic (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02573-3)] [[code](https://github.com/JinmiaoChenLab/SpaMosaic)] ![GitHub stars](https://img.shields.io/github/stars/JinmiaoChenLab/SpaMosaic.svg?logo=github&label=Stars)
 
 - **[Computational Landscape]** `[Perturbation]` `[Review]` Charting the computational landscape of single-cell genetic perturbation (**Journal of Advanced Research 2026**) [[paper](https://doi.org/10.1016/j.jare.2026.06.012)]
 
 - **[veloAgent]** `[Dynamics]` `[Spatial]` `[Intervention Design]` Dissecting and steering cell dynamics using spatially-informed RNA velocity with veloAgent (**Molecular Systems Biology 2026**) [[paper](https://doi.org/10.1038/s44320-026-00213-w)] [[code (project)](https://github.com/mcgilldinglab/veloAgent)] ![GitHub stars](https://img.shields.io/github/stars/mcgilldinglab/veloAgent.svg?logo=github&label=Stars)
 
-- **[Morphodynamics]** `[Morphology]` `[Dynamics]` Single-cell morphodynamics predict cell fate decisions during mucociliary epithelial differentiation (**Molecular Systems Biology 2026**) [[paper](https://doi.org/10.1038/s44320-026-00212-x)]
+- **[Morphodynamics]** `[Morphology]` `[Dynamics]` Single-cell morphodynamics predict cell fate decisions during mucociliary epithelial differentiation (**Molecular Systems Biology 2026**) [[paper](https://doi.org/10.1038/s44320-026-00212-x)] [[code](https://github.com/Sedzinski-Lab/trackomics/tree/v1_paper)] ![GitHub stars](https://img.shields.io/github/stars/Sedzinski-Lab/trackomics.svg?logo=github&label=Stars) [[image-processing code](https://github.com/kapoorlab/CopenhagenWorkflow)]
 
-- **[Single Cell Notebooks]** `[Tool]` `[Spatial]` The Single Cell Notebooks for inclusive and accessible training in single-cell and spatial omics (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02584-0)]
+- **[Single Cell Notebooks]** `[Tool]` `[Spatial]` The Single Cell Notebooks for inclusive and accessible training in single-cell and spatial omics (**Nature Genetics 2026**) [[paper](https://doi.org/10.1038/s41588-026-02584-0)] [[code](https://github.com/integrativebioinformatics/scNotebooks)] ![GitHub stars](https://img.shields.io/github/stars/integrativebioinformatics/scNotebooks.svg?logo=github&label=Stars)
 
 - **[CAPTAIN]** `[Foundation Model]` `[Multimodal]` `[Protein]` `[Representation Learning]` CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-72882-y)] [[preprint](https://doi.org/10.1101/2025.07.07.663366)] [[code](https://github.com/iamjiboya/CAPTAIN)] ![GitHub stars](https://img.shields.io/github/stars/iamjiboya/CAPTAIN.svg?logo=github&label=Stars)
 
-- **[scpFormer]** `[Foundation Model]` `[Protein]` `[Representation Learning]` scpFormer: A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2604.20003)]
+- **[scpFormer]** `[Foundation Model]` `[Protein]` `[Representation Learning]` scpFormer: A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2604.20003)] [[code](https://github.com/qfchou/scpFormer)] ![GitHub stars](https://img.shields.io/github/stars/qfchou/scpFormer.svg?logo=github&label=Stars)
 
 - **[MultiPert]** `[Perturbation]` `[Multimodal]` `[Protein]` MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction (**PLOS Computational Biology 2026**) [[paper](https://doi.org/10.1371/journal.pcbi.1014054)] [[code (project)](https://github.com/MengyuanZhaoo/MultiPert)] ![GitHub stars](https://img.shields.io/github/stars/MengyuanZhaoo/MultiPert.svg?logo=github&label=Stars)
 
@@ -448,9 +448,9 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[NicheCompass]** `[Spatial]` `[Gene Regulation]` `[Representation Learning]` Quantitative characterization of cell niches in spatially resolved omics data (**Nature Genetics 2025**) [[paper](https://www.nature.com/articles/s41588-025-02120-6)] [[code](https://github.com/Lotfollahi-lab/nichecompass)] ![GitHub stars](https://img.shields.io/github/stars/Lotfollahi-lab/nichecompass.svg?logo=github&label=Stars)
 
-- **[STAMP]** `[Dataset]` `[Multimodal]` `[Protein]` `[Morphology]` STAMP: Single-cell transcriptomics analysis and multimodal profiling through imaging (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.05.027)]
+- **[STAMP]** `[Dataset]` `[Multimodal]` `[Protein]` `[Morphology]` STAMP: Single-cell transcriptomics analysis and multimodal profiling through imaging (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.05.027)] [[code](https://github.com/Single-Cell-Genomics-Group-CNAG-CRG/STAMP)] ![GitHub stars](https://img.shields.io/github/stars/Single-Cell-Genomics-Group-CNAG-CRG/STAMP.svg?logo=github&label=Stars)
 
-- **[Perturb-FISH]** `[Perturbation]` `[Spatial]` `[Dataset]` Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular, and functional transcriptional circuits (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.02.012)]
+- **[Perturb-FISH]** `[Perturbation]` `[Spatial]` `[Dataset]` Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular, and functional transcriptional circuits (**Cell 2025**) [[paper](https://doi.org/10.1016/j.cell.2025.02.012)] [[code](https://github.com/lbinan/Perturb-FISH)] ![GitHub stars](https://img.shields.io/github/stars/lbinan/Perturb-FISH.svg?logo=github&label=Stars)
 
 - **[ADLF]** `[Perturbation]` `[Intervention Design]` Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science 2025**) [[paper](https://doi.org/10.1126/science.adi8577)] [[code](https://github.com/Cellarity/drugreflector)] ![GitHub stars](https://img.shields.io/github/stars/Cellarity/drugreflector.svg?logo=github&label=Stars) [[software archive](https://doi.org/10.5281/zenodo.16921928)]
 
@@ -504,7 +504,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[PRESCRIBE]** `[Perturbation]` PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation (**NeurIPS 2025**) [[paper](https://openreview.net/forum?id=A5O41ntKjk)]
 
-- **[GDE]** `[Representation Learning]` `[Morphology]` `[Related]` Generative Distribution Embeddings: Lifting Autoencoders to the Space of Distributions for Multiscale Representation Learning (**NeurIPS 2025**) [[paper](https://openreview.net/forum?id=ERQRSnqLRb)] [[preprint](https://arxiv.org/abs/2505.18150)]
+- **[GDE]** `[Representation Learning]` `[Morphology]` `[Related]` Generative Distribution Embeddings: Lifting Autoencoders to the Space of Distributions for Multiscale Representation Learning (**NeurIPS 2025**) [[paper](https://openreview.net/forum?id=ERQRSnqLRb)] [[preprint](https://arxiv.org/abs/2505.18150)] [[code](https://github.com/njwfish/DistributionEmbeddings)] ![GitHub stars](https://img.shields.io/github/stars/njwfish/DistributionEmbeddings.svg?logo=github&label=Stars)
 
 - **[CellPB]** `[Benchmark]` `[Perturbation]` Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2025**) [[preprint](https://doi.org/10.1101/2024.12.20.629581)] [[code (project)](https://github.com/Chen-Li-17/CellPB)] ![GitHub stars](https://img.shields.io/github/stars/Chen-Li-17/CellPB.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/Chen-Li-17/CellPB)]
 
@@ -566,13 +566,13 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[MTIProteinImputation]** `[Protein]` `[Spatial]` `[Morphology]` Imputing single-cell protein abundance in multiplex tissue imaging (**Nature Communications 2025**) [[paper](https://doi.org/10.1038/s41467-025-59788-x)] [[code (project)](https://github.com/goeckslab/MTIProteinImputation)] ![GitHub stars](https://img.shields.io/github/stars/goeckslab/MTIProteinImputation.svg?logo=github&label=Stars)
 
-- **[Cell Maps]** `[Virtual Cell]` `[Multimodal]` `[Protein]` `[Morphology]` `[Dataset]` Multimodal cell maps as a foundation for structural and functional genomics (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-025-08878-3)] [[project](https://musicmaps.ai/u2os-cellmap/)]
+- **[Cell Maps]** `[Virtual Cell]` `[Multimodal]` `[Protein]` `[Morphology]` `[Dataset]` Multimodal cell maps as a foundation for structural and functional genomics (**Nature 2025**) [[paper](https://doi.org/10.1038/s41586-025-08878-3)] [[code](https://github.com/idekerlab/cellmaps_pipeline)] ![GitHub stars](https://img.shields.io/github/stars/idekerlab/cellmaps_pipeline.svg?logo=github&label=Stars) [[project](https://musicmaps.ai/u2os-cellmap/)]
 
 - **[CellFlow]** `[Perturbation]` `[Multimodal]` CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching (**bioRxiv 2025**) [[preprint](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf)] [[code (project)](https://github.com/theislab/CellFlow)] ![GitHub stars](https://img.shields.io/github/stars/theislab/CellFlow.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/CellFlow)]
 
 - **[Prophet]** `[Foundation Model]` `[Perturbation]` `[Multimodal]` Scalable and Universal Prediction of Cellular Phenotypes (**bioRxiv 2025**) [[preprint](https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf)] [[code (project)](https://github.com/theislab/prophet)] ![GitHub stars](https://img.shields.io/github/stars/theislab/prophet.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/theislab/prophet)]
 
-- `[Morphology]` `[Perturbation]` `[Benchmark]` Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-Cultures Using Deep Neural Networks (**Communications Biology 2025**) [[paper](https://www.nature.com/articles/s42003-025-07766-w)]
+- `[Morphology]` `[Perturbation]` `[Benchmark]` Evaluating Feature Extraction in Ovarian Cancer Cell Line Co-Cultures Using Deep Neural Networks (**Communications Biology 2025**) [[paper](https://www.nature.com/articles/s42003-025-07766-w)] [[code](https://github.com/Functional-Precision-Medicine-Lab/Evaluating-Feature-Extraction-in-Ovarian-Cancer-Cell-Line-Co-Cultures-Using-Deep-Neural-Networks)] ![GitHub stars](https://img.shields.io/github/stars/Functional-Precision-Medicine-Lab/Evaluating-Feature-Extraction-in-Ovarian-Cancer-Cell-Line-Co-Cultures-Using-Deep-Neural-Networks.svg?logo=github&label=Stars)
 
 - `[Virtual Cell]` `[Review]` Grow AI Virtual Cells: Three Data Pillars and Closed-Loop Learning (**Cell Research 2025**) [[paper](https://www.nature.com/articles/s41422-025-01101-y)] [[中文解读](https://mp.weixin.qq.com/s/kPQmgzAbySrw3rp-B6JGfw)]
 
