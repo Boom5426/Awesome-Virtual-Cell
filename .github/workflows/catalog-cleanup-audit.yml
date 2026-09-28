@@ -1,0 +1,22 @@
+name: Catalog cleanup audit
+on:
+  push:
+    branches: [audit/catalog-cleanup-2026-09-28]
+    paths: [.github/workflows/catalog-cleanup-audit.yml]
+permissions:
+  contents: read
+jobs:
+  publication-watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Dry-run publication watcher
+        run: python scripts/publication_watcher.py --max-updates 100
+      - uses: actions/upload-artifact@v4
+        with:
+          name: publication-watch-dry-run
+          path: publication_update_summary.md
+          retention-days: 7
