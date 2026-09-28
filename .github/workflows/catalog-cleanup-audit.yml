@@ -1,14 +1,13 @@
-name: Catalog cleanup audit
+name: Catalog cleanup publish
 on:
   push:
     branches: [audit/catalog-cleanup-2026-09-28]
     paths:
-      - audit_tools/apply_catalog_cleanup.py
       - .github/workflows/catalog-cleanup-audit.yml
 permissions:
-  contents: read
+  contents: write
 jobs:
-  cleanup:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -17,7 +16,7 @@ jobs:
           python-version: "3.11"
       - name: Apply reviewed cleanup
         run: python audit_tools/apply_catalog_cleanup.py
-      - name: Rebuild generated views
+      - name: Rebuild and validate
         run: |
           python scripts/build_readme.py
           python scripts/build_catalog.py
@@ -25,21 +24,13 @@ jobs:
           python scripts/build_exports.py
           python scripts/validate_catalog.py
           python scripts/build_readme.py --check
-      - name: Run regression tests
-        run: |
           python -m unittest discover -s tests
           node tests/test_catalog_ui.cjs
-      - name: Package changed repository files
+      - name: Commit only durable catalog changes
         run: |
-          mkdir -p cleanup_artifact/data cleanup_artifact/docs cleanup_artifact/exports cleanup_artifact/tests
-          cp data/papers.json cleanup_artifact/data/
-          cp README.md cleanup_artifact/
-          cp index.html landscape.html cleanup_artifact/
-          cp docs/catalog.html docs/index.html docs/landscape.html docs/architecture.md docs/code-audit-2026-09-28.md docs/catalog-cleanup-2026-09-28.md cleanup_artifact/docs/
-          cp exports/papers.csv exports/papers.bib cleanup_artifact/exports/
-          cp tests/test_curation.py cleanup_artifact/tests/
-      - uses: actions/upload-artifact@v4
-        with:
-          name: catalog-cleanup-build
-          path: cleanup_artifact/
-          retention-days: 7
+          git config user.name "Bo li"
+          git config user.email "83391363+Boom5426@users.noreply.github.com"
+          git rm audit_tools/apply_catalog_cleanup.py .github/workflows/catalog-cleanup-audit.yml
+          git add data/papers.json README.md index.html landscape.html docs/architecture.md docs/catalog.html docs/index.html docs/landscape.html docs/code-audit-2026-09-28.md docs/catalog-cleanup-2026-09-28.md exports/papers.csv exports/papers.bib tests/test_curation.py
+          git commit -m "curation: apply verified catalog cleanup"
+          git push origin HEAD:audit/catalog-cleanup-2026-09-28
