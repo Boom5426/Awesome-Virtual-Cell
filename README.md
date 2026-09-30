@@ -39,11 +39,11 @@ New to virtual cell research? Pick a track instead of reading the full list from
 | Goal | Recommended entry points |
 | --- | --- |
 | 🧬 **Understand the field** | [Cell perspective](https://doi.org/10.1016/j.cell.2024.11.015) · [Nature perspective](https://www.nature.com/articles/s41586-025-08710-y) · [The virtual cell](https://www.nature.com/articles/s41592-025-02951-5) |
-| 🧫 **Predict perturbations** | [GEARS](https://www.nature.com/articles/s41587-023-01905-6) · [CellOT](https://www.nature.com/articles/s41592-023-01969-x) · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) |
-| 🧠 **Foundation & world models** | [Geneformer](https://doi.org/10.1038/s41586-023-06139-9) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Speciesformer](https://doi.org/10.64898/2026.09.22.752128) |
-| 🖼️ **Multimodal & spatial** | [Multimodal foundation transformer](https://www.nature.com/articles/s41592-025-02918-6) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) · [TERRA](https://doi.org/10.64898/2026.07.29.741565) |
-| 🎯 **Intervention design** | [PDGrapher](https://doi.org/10.1038/s41551-025-01481-x) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED) · [PHAROS](https://doi.org/10.64898/2026.09.08.749477) |
-| 📏 **Evaluation & measurement** | [PertResolve](https://github.com/Boom5426/PertResolve) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) · [Systema](https://doi.org/10.1038/s41587-025-02777-8) |
+| 🧫 **Predict perturbations** | [GEARS](https://www.nature.com/articles/s41587-023-01905-6) · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) · [PerturbNet](https://doi.org/10.1038/s44320-025-00131-3) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) |
+| 🧠 **Foundation & world models** | [Geneformer](https://doi.org/10.1038/s41586-023-06139-9) · [scGPT](https://doi.org/10.1038/s41592-024-02201-0) · [scFoundation](https://doi.org/10.1038/s41592-024-02305-7) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [TranscriptFormer](https://doi.org/10.1126/science.aec8514) |
+| 🖼️ **Multimodal & spatial** | [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) · [TERRA](https://doi.org/10.64898/2026.07.29.741565) |
+| 🎯 **Intervention design** | [PDGrapher](https://doi.org/10.1038/s41551-025-01481-x) · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED) |
+| 📏 **Evaluation & measurement** | [Systema](https://doi.org/10.1038/s41587-025-02777-8) · [PertResolve](https://github.com/Boom5426/PertResolve) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) |
 
 <a id="research-papers"></a>
 ## 🔬 Research Papers
