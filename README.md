@@ -647,10 +647,11 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 | Challenge | Phase now | Next milestone | Final call |
 | --- | --- | --- | --- |
 | [Virtual Embryo Challenge (NeurIPS 2026)](#virtual-embryo-challenge-neurips-2026) | P2 open: validation submissions scored and ranked, starter kit and reference baselines released 15 Aug 2026 | Test phase opens 20 Oct 2026 | Submissions close 2 Dec 2026, winners announced 11 Dec 2026 |
-| [Virtual Cell Challenge 2026 (Arc Institute)](#2nd-edition-2026) | Submissions and live leaderboard scheduled to open 20 Aug 2026 | Final test set released late Oct 2026 | Results announced late Nov 2026 |
+| [Virtual Cell Challenge 2026 (Arc Institute)](#2nd-edition-2026) | Validation phase open: leaderboard live since 20 Aug 2026 | Final test set released 22 Oct 2026 | Final submissions due 5 Nov 2026, 23:59 UTC; winners announced mid to late Nov 2026 (checked 1 Oct 2026) |
 
 **Updates**
 
+- `2026-10-01` Added two perturbation atlases to Datasets: genome-scale Perturb-seq in primary human CD4+ T cells (Cell 2026) and the HepG2/Jurkat essential-gene screens with TRADE (Nature Genetics 2025); updated the Virtual Cell Challenge 2026 dates from the organizers' page.
 - `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.
 - `2026-09-26` Expanded Intervention Design with VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, and NUDGE; CellNavi remains a core existing entry.
 - `2026-09-26` Restored the full Research Papers list; reviewed all 275 records for multi-label topics and repository correspondence, with source-linked curation notes.
@@ -755,6 +756,10 @@ Five high-signal overview and perspective papers are shown by default. Expand th
 - **[Tahoe-100M]** Tahoe-100M: Mapping drug-induced molecular phenotypes at single-cell resolution (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.035)] [[preprint](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)] [[code](https://github.com/ArcInstitute/arc-virtual-cell-atlas)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/arc-virtual-cell-atlas.svg?logo=github&label=Stars)
 
 - **[X-Atlas/Orion]** Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundation Models (**bioRxiv 2025**) [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)] [[dataset](https://doi.org/10.25452/figshare.plus.29190726)]
+
+- **[Primary CD4+ T cell Perturb-seq]** Genome-scale perturb-seq in primary human CD4+ T cells maps context-specific regulators of T cell programs and human immune traits (**Cell 2026**) [[paper](https://doi.org/10.1016/j.cell.2026.08.002)] [[dataset](https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/data_sharing_readme.md)]
+
+- **[TRADE: HepG2 and Jurkat Perturb-seq]** Transcriptome-wide analysis of differential expression in perturbation atlases (**Nature Genetics 2025**) [[paper](https://doi.org/10.1038/s41588-025-02169-3)] [[dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE264667)]
 
 <details>
 <summary><b>More resources (6)</b></summary>
