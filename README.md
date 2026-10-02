@@ -36,14 +36,17 @@
 
 New to virtual cell research? Pick a track instead of reading the full list from top to bottom.
 
+Start with the **bold entry** in your track, then compare the other examples. These are selective reading suggestions, not a leaderboard; preprints and unpublished manuscripts are marked explicitly.
+
 | Goal | Recommended entry points |
 | --- | --- |
-| 🧬 **Understand the field** | [Cell perspective](https://doi.org/10.1016/j.cell.2024.11.015) · [Nature perspective](https://www.nature.com/articles/s41586-025-08710-y) · [The virtual cell](https://www.nature.com/articles/s41592-025-02951-5) |
-| 🧫 **Predict perturbations** | [GEARS](https://www.nature.com/articles/s41587-023-01905-6) · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) · [PerturbNet](https://doi.org/10.1038/s44320-025-00131-3) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) |
-| 🧠 **Foundation & world models** | [Geneformer](https://doi.org/10.1038/s41586-023-06139-9) · [scGPT](https://doi.org/10.1038/s41592-024-02201-0) · [scFoundation](https://doi.org/10.1038/s41592-024-02305-7) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [TranscriptFormer](https://doi.org/10.1126/science.aec8514) |
-| 🖼️ **Multimodal & spatial** | [Nicheformer](https://doi.org/10.1038/s41592-025-02814-z) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) · [TERRA](https://doi.org/10.64898/2026.07.29.741565) |
-| 🎯 **Intervention design** | [PDGrapher](https://doi.org/10.1038/s41551-025-01481-x) · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED) |
-| 📏 **Evaluation & measurement** | [Systema](https://doi.org/10.1038/s41587-025-02777-8) · [PertResolve](https://github.com/Boom5426/PertResolve) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) |
+| 🧬 **Understand the field** | **[Cell perspective](https://doi.org/10.1016/j.cell.2024.11.015)** (priorities and opportunities) · [Grow AI Virtual Cells](https://www.nature.com/articles/s41422-025-01101-y) (data pillars and closed-loop learning) · [Nature perspective](https://www.nature.com/articles/s41586-025-08710-y) (multimodal foundations) |
+| 🧫 **Predict perturbations** | **[GEARS](https://www.nature.com/articles/s41587-023-01905-6)** (genetic perturbations) · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) (cross-context prediction) · [MAP](https://doi.org/10.1038/s42256-026-01286-w) (unprofiled drugs) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) (generative prediction; preprint) |
+| 🧠 **Cellular foundation models** | **[Geneformer](https://doi.org/10.1038/s41586-023-06139-9)** · [scGPT](https://doi.org/10.1038/s41592-024-02201-0) · [scFoundation](https://doi.org/10.1038/s41592-024-02305-7) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [TranscriptFormer](https://doi.org/10.1126/science.aec8514) — compare representations, training data and transfer settings |
+| 🌐 **World models & cell-state transitions** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** (field framing) · [CellOS](https://doi.org/10.64898/2026.06.18.733163) (joint-embedding prediction; preprint) · [Chreode](https://arxiv.org/abs/2605.28111) (temporal dynamics and perturbations; preprint) |
+| 🖼️ **Multimodal & spatial** | **[Nicheformer](https://doi.org/10.1038/s41592-025-02814-z)** (single-cell and spatial omics) · [VirTues](https://doi.org/10.1038/s41586-026-10884-y) (spatial proteomics) · [DePass](https://doi.org/10.1038/s41556-026-02067-8) (paired multi-omics integration) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) (molecular-to-phenotype perturbation modeling) |
+| 🎯 **Intervention design** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) (manuscript) — focus on choosing interventions, not only predicting their effects |
+| 📏 **Evaluation & measurement** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** (genetic perturbation evaluation) · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) (multi-omics integration benchmarks) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) (measurement resolution; manuscript) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) (preprint) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) (preprint) |
 
 <a id="research-papers"></a>
 ## 🔬 Research Papers
@@ -52,12 +55,96 @@ Browse the full research collection below; each paper may carry multiple indepen
 
 <!-- GENERATED:RESEARCH-PAPERS:START -->
 
-**285 papers** · [2026 (180)](#2026) · [2025 (87)](#2025) · [2024 (18)](#2024)
+**327 papers** · [2026 (222)](#2026) · [2025 (87)](#2025) · [2024 (18)](#2024)
 
 Papers can have multiple topics. [Search and combine topics](https://boom5426.github.io/Awesome-Virtual-Cell/) · [Tag definitions](docs/taxonomy.md)
 
 <a id="2026"></a>
-### 🗓️ 2026 — 180 papers
+### 🗓️ 2026 — 222 papers
+
+- **[Recoverable Resolution]** `[Evaluation & Measurement]` `[Benchmark]` `[Perturbation]` `[Virtual Cell]` The recoverable resolution of cellular perturbation-response prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.30.755756)] [[code](https://github.com/yongqih/cgc-counterfactual-resolution)] ![GitHub stars](https://img.shields.io/github/stars/yongqih/cgc-counterfactual-resolution.svg?logo=github&label=Stars) [[source data](https://doi.org/10.5281/zenodo.22664304)]
+
+- **[Pop-Corn]** `[Perturbation]` `[Spatial]` `[Intervention Design]` Pop-Corn: Predicting Perturbation Phenotype Effects Across Single-Cell and Spatial Contexts (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.25.754560)]
+
+- **[NexuST]** `[Foundation Model]` `[Spatial]` `[Representation Learning]` NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.22.753590)]
+
+- **[EpiZoo]** `[Foundation Model]` `[Gene Regulation]` `[Multimodal]` `[Representation Learning]` EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.24.754017)]
+
+- **[PerturbBridge]** `[Perturbation]` `[Dynamics]` `[Representation Learning]` PerturbBridge: Conditional Latent Schrödinger Bridge for Single-Cell Perturbation Response Prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.24.754259)]
+
+- **[BioPert]** `[Perturbation]` `[Representation Learning]` A biological-response compound representation allows chemical perturbation prediction across cell lines (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.28.755146)]
+
+- **[SPECTRA]** `[Perturbation]` `[Gene Regulation]` SPECTRA: predicting cellular perturbation responses with Graph Learning over Gene Regulatory Networks (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.21.752624)]
+
+- **[ISP³ Platform]** `[Tool]` `[Foundation Model]` `[Perturbation]` `[Intervention Design]` `[Dynamics]` ISP³ Platform powered by Geneformer: Framework for Cross-Species, Sequential, and Multi-Gene In Silico Perturbation Screens with Application to iPS Cell State Transitions (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.17.752497)]
+
+- **[Aging scFM Benchmark]** `[Benchmark]` `[Foundation Model]` `[Evaluation & Measurement]` `[Related]` Benchmarking single-cell foundation models for aging biology (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.21.753191)]
+
+- **[CellRFT]** `[Perturbation]` `[Evaluation & Measurement]` CellRFT: Reinforcement Fine-Tuning for Single-Cell Perturbation Modeling (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.19970)]
+
+- **[PopPert]** `[Perturbation]` PopPert: Population-level Joint-Distribution Modeling for Single-Cell Perturbation Prediction (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.01357)] [[code](https://github.com/whd1125/PopPert)] ![GitHub stars](https://img.shields.io/github/stars/whd1125/PopPert.svg?logo=github&label=Stars)
+
+- **[STP-BENCH]** `[Benchmark]` `[Spatial]` `[Morphology]` `[Evaluation & Measurement]` STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics from Histopathology Images (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.05956)] [[code](https://github.com/NEXGEM/STP-Bench)] ![GitHub stars](https://img.shields.io/github/stars/NEXGEM/STP-Bench.svg?logo=github&label=Stars)
+
+- **[RAGCell]** `[Foundation Model]` `[Multimodal]` `[Representation Learning]` RAGCell: Retrieval-Augmented Generation as Supervision for Versatile Single-cell Analysis (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.14147)]
+
+- **[stFormer]** `[Foundation Model]` `[Spatial]` `[Gene Regulation]` `[Representation Learning]` stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics (**Cell Reports Methods 2026**) [[paper](https://doi.org/10.1016/j.crmeth.2026.101612)]
+
+- **[scLDM]** `[Perturbation]` `[Dynamics]` scLDM: a conditional diffusion framework for single-cell perturbation prediction (**Bioinformatics 2026**) [[paper](https://doi.org/10.1093/bioinformatics/btag727)] [[code](https://github.com/samrogers1233/scLDM)] ![GitHub stars](https://img.shields.io/github/stars/samrogers1233/scLDM.svg?logo=github&label=Stars)
+
+- **[CSGDA]** `[Perturbation]` `[Representation Learning]` CSGDA: A Cell State-Guided Graph Domain Adaptation Network for Single-Cell Drug Response Prediction (**Bioinformatics 2026**) [[paper](https://doi.org/10.1093/bioinformatics/btag726)] [[preprint](https://doi.org/10.64898/2026.07.02.735966)]
+
+- **[DePass]** `[Tool]` `[Spatial]` `[Multimodal]` `[Representation Learning]` The dual-enhanced graph learning framework DePass allows paired data integration in single-cell and spatial multiomics (**Nature Cell Biology 2026**) [[paper](https://doi.org/10.1038/s41556-026-02067-8)] [[code](https://github.com/zhanglabNKU/DePass)] ![GitHub stars](https://img.shields.io/github/stars/zhanglabNKU/DePass.svg?logo=github&label=Stars) [[documentation](https://depass.readthedocs.io/en/latest/)]
+
+- **[IRIS]** `[Perturbation]` `[Dynamics]` `[Intervention Design]` `[Dataset]` Reconstructing signaling histories of single cells via perturbation screens and transfer learning (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03213-8)] [[dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE289836)]
+
+- **[MAP]** `[Perturbation]` `[Foundation Model]` `[Multimodal]` `[Representation Learning]` A knowledge-driven framework for predicting single-cell responses for unprofiled drugs (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-026-01286-w)] [[preprint](https://doi.org/10.64898/2026.02.25.708091)] [[code](https://github.com/MAGIC-AI4Med/MAP)] ![GitHub stars](https://img.shields.io/github/stars/MAGIC-AI4Med/MAP.svg?logo=github&label=Stars) [[dataset](https://huggingface.co/datasets/RainGate/MAP-KG)]
+
+- **[SCMBench]** `[Benchmark]` `[Foundation Model]` `[Multimodal]` `[Evaluation & Measurement]` SCMBench: benchmarking domain-specific and foundation models for single-cell multi-omics data integration (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-72570-x)] [[code](https://github.com/ml4bio/SCMBench)] ![GitHub stars](https://img.shields.io/github/stars/ml4bio/SCMBench.svg?logo=github&label=Stars)
+
+- **[GeneformerV2]** `[Foundation Model]` `[Representation Learning]` `[Gene Regulation]` `[Perturbation]` `[Tool]` Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology (**Nature Computational Science 2026**) [[paper](https://doi.org/10.1038/s43588-026-00972-4)] [[code](https://huggingface.co/ctheodoris/Geneformer)] [[dataset](https://huggingface.co/datasets/theodoris-lab/Genecorpus-104M)] [[documentation](https://geneformer.readthedocs.io/)]
+
+- **[CRISP]** `[Foundation Model]` `[Perturbation]` Predicting drug responses of unseen cell types through transfer learning with foundation models (**Nature Computational Science 2026**) [[paper](https://doi.org/10.1038/s43588-025-00887-6)] [[code](https://github.com/ml4bio/CRISP)] ![GitHub stars](https://img.shields.io/github/stars/ml4bio/CRISP.svg?logo=github&label=Stars)
+
+- **[XPert]** `[Perturbation]` `[Dynamics]` `[Gene Regulation]` Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch transformer (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-025-01165-w)] [[code](https://github.com/GSanShui/XPert)] ![GitHub stars](https://img.shields.io/github/stars/GSanShui/XPert.svg?logo=github&label=Stars) [[dataset](https://doi.org/10.6084/m9.figshare.28955141)]
+
+- **[Trustworthy Virtual Cells]** `[Virtual Cell]` `[Review]` `[Evaluation & Measurement]` `[Perturbation]` Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally validated cell models (**Frontiers in Cell and Developmental Biology 2026**) [[paper](https://doi.org/10.3389/fcell.2026.1900624)]
+
+- **[scDMC]** `[Foundation Model]` `[Representation Learning]` `[Gene Regulation]` scDMC: Unlocking biological insight from single-cell data with an interpretable dual-stream foundation model (**Genome Biology 2026**) [[paper](https://doi.org/10.1186/s13059-026-04193-w)]
+
+- **[CellVQ]** `[Foundation Model]` `[Representation Learning]` CellVQ: Illuminating cell states by a comprehensive and interpretable single cell foundation model (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-70071-5)]
+
+- **[SpatialFormer]** `[Foundation Model]` `[Spatial]` `[Multimodal]` `[Representation Learning]` SpatialFormer: universal spatial representation learning from subcellular molecular to multicellular landscapes (**Nature Computational Science 2026**) [[paper](https://doi.org/10.1038/s43588-026-01016-7)]
+
+- **[VirTues]** `[Virtual Cell]` `[Foundation Model]` `[Spatial]` `[Protein]` `[Representation Learning]` The Virtual Tissues foundation model resolves spatial proteomics across scales (**Nature 2026**) [[paper](https://doi.org/10.1038/s41586-026-10884-y)]
+
+- **[HEX]** `[Spatial]` `[Morphology]` `[Protein]` `[Multimodal]` AI-enabled virtual spatial proteomics from histopathology for interpretable biomarker discovery in lung cancer (**Nature Medicine 2026**) [[paper](https://doi.org/10.1038/s41591-025-04060-4)]
+
+- **[spEMO]** `[Foundation Model]` `[Spatial]` `[Morphology]` `[Multimodal]` `[Representation Learning]` Leveraging Multi-Modal Foundation Models for Analyzing Spatial Multi-Omic and Histopathology Data (**Nature Biomedical Engineering 2026**) [[paper](https://doi.org/10.1038/s41551-025-01602-6)]
+
+- **[Scaling Is Much Pain]** `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` Scaling up training dataset size for transcriptomic AI models is much pain with little gain (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03119-5)]
+
+- **[Biomedical FM Benchmark]** `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` `[Related]` Benchmarking biomedical foundation models (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03182-y)]
+
+- **[scTranslation]** `[Benchmark]` `[Multimodal]` `[Evaluation & Measurement]` scTranslation: A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation (**KDD 2026**) [[paper](https://doi.org/10.1145/3770855.3817464)]
+
+- **[Interpretation, Extrapolation & Perturbation]** `[Review]` `[Foundation Model]` `[Perturbation]` `[Gene Regulation]` Interpretation, extrapolation and perturbation of single cells (**Nature Reviews Genetics 2026**) [[paper](https://doi.org/10.1038/s41576-025-00920-4)]
+
+- **[AI Digital Organism]** `[Review]` `[Virtual Cell]` `[World Model]` `[Related]` How to build an AI-driven digital organism (**Nature Medicine 2026**) [[paper](https://doi.org/10.1038/s41591-026-04595-0)]
+
+- **[World Models for Biomedicine]** `[World Model]` `[Review]` `[Related]` World models for biomedicine (**Cell 2026**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(26)01005-6)]
+
+- **[Fifteen Challenges]** `[Review]` `[Virtual Cell]` `[Related]` Fifteen challenges for generative AI applications to cell biology (**Cell 2026**) [[paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00802-0)]
+
+- **[Compositional Foundation Models]** `[Review]` `[Foundation Model]` `[Multimodal]` From modality-specific to compositional foundation models for cell biology (**Cell Systems 2026**) [[paper](https://www.cell.com/cell-systems/fulltext/S2405-4712(26)00016-5)]
+
+- **[Nuisance Robustness]** `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` Robustness to nuisance perturbations enables unsupervised evaluation of single-cell foundation models (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.22.746357)]
+
+- **[Scaling Recipes]** `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` Scaling recipes for single-cell RNA sequencing foundation models: when do scaling laws hold? (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.31.747783)]
+
+- **[Accessible scFM Deployment]** `[Foundation Model]` `[Evaluation & Measurement]` `[Tool]` Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.01.06.698060)]
+
+- **[Parameter-Free Representations]** `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` `[Representation Learning]` `[Related]` Parameter-free representations outperform single-cell foundation models on downstream benchmarks (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2602.16696)]
 
 - **[PertResolve]** `[Evaluation & Measurement]` `[Benchmark]` `[Perturbation]` `[Virtual Cell]` `[Tool]` Measurement resolution constrains fine-grained perturbation prediction (**Manuscript 2026**) [[preprint](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf)] [[code](https://github.com/Boom5426/PertResolve)] ![GitHub stars](https://img.shields.io/github/stars/Boom5426/PertResolve.svg?logo=github&label=Stars) [[project](https://boom5426.github.io/PertResolve/)] [[dataset](https://huggingface.co/datasets/Boom5426/PertResolve_Bench)]
 
@@ -651,6 +738,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 **Updates**
 
+- `2026-10-02` Expanded the structured catalog from 285 to 327 papers with 42 source-checked additions, covering late-September preprints, missed 2026 peer-reviewed methods, and foundation-model/perturbation evaluation work; refreshed the English and Chinese Start Here recommendations with seven question-led tracks and explicit preprint/manuscript labels; synchronized the catalog, landscape, CSV, and BibTeX exports.
 - `2026-10-01` Added two perturbation atlases to Datasets: genome-scale Perturb-seq in primary human CD4+ T cells (Cell 2026) and the HepG2/Jurkat essential-gene screens with TRADE (Nature Genetics 2025); updated the Virtual Cell Challenge 2026 dates from the organizers' page.
 - `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.
 - `2026-09-26` Expanded Intervention Design with VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, and NUDGE; CellNavi remains a core existing entry.

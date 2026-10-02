@@ -1,6 +1,6 @@
 {
   "review_date": "2026-09-26",
-  "scope": "All 285 Research Papers records; full 275-record audit plus six Intervention Design and four Evaluation & Measurement source-checked follow-up additions.",
+  "scope": "All 327 Research Papers records; full 275-record audit, ten source-checked 2026-09-26 follow-up additions, and 42 source-checked 2026-10-02 literature-sweep additions.",
   "records": [
     {
       "id": "speciesformer",
@@ -7383,6 +7383,989 @@
       "code_note": "VCBench repository links the arXiv paper and supplies the unified benchmarking framework.",
       "repository_http_status": 200,
       "repository_readme_status": 200
+    },
+    {
+      "id": "recoverable-resolution",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Evaluation & Measurement, Benchmark, Perturbation, Virtual Cell.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.30.755756",
+        "https://api.crossref.org/works/10.64898/2026.09.30.755756",
+        "https://zenodo.org/records/22664304"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/yongqih/cgc-counterfactual-resolution",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://zenodo.org/records/22664304",
+        "https://github.com/yongqih/cgc-counterfactual-resolution"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "pop-corn",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Spatial",
+        "Intervention Design"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Spatial, Intervention Design.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.25.754560",
+        "https://www.biorxiv.org/content/10.64898/2026.09.25.754560v1"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nexust",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Spatial",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Foundation Model, Spatial, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.22.753590",
+        "https://api.crossref.org/works/10.64898/2026.09.22.753590"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "epizoo",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Gene Regulation",
+        "Multimodal",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Foundation Model, Gene Regulation, Multimodal, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.24.754017",
+        "https://api.crossref.org/works/10.64898/2026.09.24.754017"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "perturbbridge",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Dynamics",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Dynamics, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.24.754259"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "biopert",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.28.755146",
+        "https://api.crossref.org/works/10.64898/2026.09.28.755146"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "spectra-perturb",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Gene Regulation.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.21.752624",
+        "https://api.crossref.org/works/10.64898/2026.09.21.752624"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "isp3",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Tool",
+        "Foundation Model",
+        "Perturbation",
+        "Intervention Design",
+        "Dynamics"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Tool, Foundation Model, Perturbation, Intervention Design, Dynamics.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.17.752497",
+        "https://api.crossref.org/works/10.64898/2026.09.17.752497"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "aging-scfm-benchmark",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Foundation Model",
+        "Evaluation & Measurement",
+        "Related"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Benchmark, Foundation Model, Evaluation & Measurement, Related.",
+      "sources": [
+        "https://doi.org/10.64898/2026.09.21.753191"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "cellrft",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Evaluation & Measurement.",
+      "sources": [
+        "https://arxiv.org/abs/2609.19970"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "release_pending",
+      "code_sources": [],
+      "code_note": "The checked source states that code is planned or forthcoming.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "poppert",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation.",
+      "sources": [
+        "https://arxiv.org/abs/2609.01357"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/whd1125/PopPert",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://arxiv.org/abs/2609.01357"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "stp-bench",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Spatial",
+        "Morphology",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Benchmark, Spatial, Morphology, Evaluation & Measurement.",
+      "sources": [
+        "https://arxiv.org/abs/2609.05956",
+        "https://github.com/NEXGEM/STP-Bench"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/NEXGEM/STP-Bench",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://arxiv.org/abs/2609.05956"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "ragcell",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Foundation Model, Multimodal, Representation Learning.",
+      "sources": [
+        "https://arxiv.org/abs/2609.14147"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "release_pending",
+      "code_sources": [],
+      "code_note": "The checked source states that code is planned or forthcoming.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "stformer",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Spatial",
+        "Gene Regulation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Foundation Model, Spatial, Gene Regulation, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.1016/j.crmeth.2026.101612"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scldm",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Dynamics"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Dynamics.",
+      "sources": [
+        "https://doi.org/10.1093/bioinformatics/btag727"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/samrogers1233/scLDM",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://doi.org/10.1093/bioinformatics/btag727"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "csgda",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.1093/bioinformatics/btag726",
+        "https://doi.org/10.64898/2026.07.02.735966"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "depass",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Tool",
+        "Spatial",
+        "Multimodal",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Tool, Spatial, Multimodal, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.1038/s41556-026-02067-8",
+        "https://www.nature.com/articles/s41556-026-02067-8"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/zhanglabNKU/DePass",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41556-026-02067-8"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "iris-signaling-history",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Dynamics",
+        "Intervention Design",
+        "Dataset"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Dynamics, Intervention Design, Dataset.",
+      "sources": [
+        "https://doi.org/10.1038/s41592-026-03213-8",
+        "https://www.nature.com/articles/s41592-026-03213-8",
+        "https://pubmed.ncbi.nlm.nih.gov/42711495/"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "map-unprofiled-drugs",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Foundation Model",
+        "Multimodal",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Foundation Model, Multimodal, Representation Learning.",
+      "sources": [
+        "https://doi.org/10.1038/s42256-026-01286-w",
+        "https://doi.org/10.64898/2026.02.25.708091",
+        "https://www.nature.com/articles/s42256-026-01286-w"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/MAGIC-AI4Med/MAP",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s42256-026-01286-w"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scmbench",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Foundation Model",
+        "Multimodal",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Benchmark, Foundation Model, Multimodal, Evaluation & Measurement.",
+      "sources": [
+        "https://doi.org/10.1038/s41467-026-72570-x",
+        "https://www.nature.com/articles/s41467-026-72570-x",
+        "https://github.com/ml4bio/SCMBench"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/ml4bio/SCMBench",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ml4bio/SCMBench"
+      ],
+      "code_note": "The reviewed repository documentation establishes correspondence with the paper.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "geneformer-v2",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning",
+        "Gene Regulation",
+        "Perturbation",
+        "Tool"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Foundation Model, Representation Learning, Gene Regulation, Perturbation, Tool.",
+      "sources": [
+        "https://doi.org/10.1038/s43588-026-00972-4",
+        "https://www.nature.com/articles/s43588-026-00972-4"
+      ],
+      "old_code_url": null,
+      "code_url": "https://huggingface.co/ctheodoris/Geneformer",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s43588-026-00972-4"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "crisp",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Foundation Model, Perturbation.",
+      "sources": [
+        "https://doi.org/10.1038/s43588-025-00887-6",
+        "https://www.nature.com/articles/s43588-025-00887-6",
+        "https://github.com/ml4bio/CRISP"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/ml4bio/CRISP",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ml4bio/CRISP"
+      ],
+      "code_note": "The reviewed repository documentation establishes correspondence with the paper.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "xpert",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Dynamics",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Perturbation, Dynamics, Gene Regulation.",
+      "sources": [
+        "https://doi.org/10.1038/s42256-025-01165-w",
+        "https://www.nature.com/articles/s42256-025-01165-w"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/GSanShui/XPert",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s42256-025-01165-w"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "trustworthy-virtual-cells",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Review",
+        "Evaluation & Measurement",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "The reviewed abstract directly supports inclusion under Virtual Cell, Review, Evaluation & Measurement, Perturbation.",
+      "sources": [
+        "https://doi.org/10.3389/fcell.2026.1900624",
+        "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1900624/full"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scdmc",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning",
+        "Gene Regulation"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Representation Learning, Gene Regulation classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1186/s13059-026-04193-w"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "cellvq",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Representation Learning classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41467-026-70071-5"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "spatialformer",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Spatial",
+        "Multimodal",
+        "Representation Learning"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Spatial, Multimodal, Representation Learning classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s43588-026-01016-7"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "virtues",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Foundation Model",
+        "Spatial",
+        "Protein",
+        "Representation Learning"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Virtual Cell, Foundation Model, Spatial, Protein, Representation Learning classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41586-026-10884-y"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "hex-virtual-proteomics",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Spatial",
+        "Morphology",
+        "Protein",
+        "Multimodal"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Spatial, Morphology, Protein, Multimodal classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41591-025-04060-4"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "spemo",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Spatial",
+        "Morphology",
+        "Multimodal",
+        "Representation Learning"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Spatial, Morphology, Multimodal, Representation Learning classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41551-025-01602-6"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scaling-pain",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Benchmark",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Benchmark, Evaluation & Measurement classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41592-026-03119-5"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "benchmarking-biomedical-fms",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Benchmark",
+        "Evaluation & Measurement",
+        "Related"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Benchmark, Evaluation & Measurement, Related classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41592-026-03182-y"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "sctranslation",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Multimodal",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Benchmark, Multimodal, Evaluation & Measurement classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1145/3770855.3817464"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "interpretation-extrapolation-perturbation",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Review",
+        "Foundation Model",
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Review, Foundation Model, Perturbation, Gene Regulation classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41576-025-00920-4"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "ai-digital-organism",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Review",
+        "Virtual Cell",
+        "World Model",
+        "Related"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Review, Virtual Cell, World Model, Related classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.1038/s41591-026-04595-0"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "world-models-biomedicine",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "World Model",
+        "Review",
+        "Related"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad World Model, Review, Related classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://www.cell.com/cell/fulltext/S0092-8674(26)01005-6"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "fifteen-challenges",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Review",
+        "Virtual Cell",
+        "Related"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Review, Virtual Cell, Related classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://www.cell.com/cell/fulltext/S0092-8674(26)00802-0"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "compositional-foundation-models",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Review",
+        "Foundation Model",
+        "Multimodal"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Review, Foundation Model, Multimodal classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://www.cell.com/cell-systems/fulltext/S2405-4712(26)00016-5"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nuisance-robustness",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Benchmark",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Benchmark, Evaluation & Measurement classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.22.746357"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scaling-recipes",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Benchmark",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Benchmark, Evaluation & Measurement classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.31.747783"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "accessible-scfm-deployment",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Evaluation & Measurement",
+        "Tool"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Evaluation & Measurement, Tool classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://doi.org/10.64898/2026.01.06.698060"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "parameter-free-representations",
+      "reviewed_at": "2026-10-02",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Benchmark",
+        "Evaluation & Measurement",
+        "Representation Learning",
+        "Related"
+      ],
+      "tag_basis": "title_and_metadata",
+      "tag_rationale": "Title, venue, and primary-record metadata support the broad Foundation Model, Benchmark, Evaluation & Measurement, Representation Learning, Related classification; no unsupported fine-grained facets were inferred.",
+      "sources": [
+        "https://arxiv.org/abs/2602.16696"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
     }
   ]
 }

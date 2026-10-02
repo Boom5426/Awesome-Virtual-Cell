@@ -27,7 +27,7 @@ Topics are multi-label: a paper can match several independent aspects of a user 
 
 ## Evidence and uncertainty
 
-The 2026-09-26 curation work began with a full 275-record audit and was extended with source-checked Intervention Design and Evaluation & Measurement additions. The current catalog contains 285 papers.
+The 2026-09-26 curation work began with a full 275-record audit and was extended with source-checked Intervention Design and Evaluation & Measurement additions, bringing the catalog to 285 papers. A second source-checked sweep on 2026-10-02 added 42 late-September preprints, missed 2026 peer-reviewed methods, evaluation studies, and reviews. The current catalog contains 327 papers.
 
 Do not force tags merely because a model name contains “Agent”, “Spatial”, “Protein”, or “Foundation”. For example, veloAgent models spatial cell dynamics rather than being an LLM agent; SATURN/UCE/scNET use protein-related priors but are not automatically proteomics methods.
 
