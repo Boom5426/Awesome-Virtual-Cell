@@ -55,12 +55,12 @@ Browse the full research collection below; each paper may carry multiple indepen
 
 <!-- GENERATED:RESEARCH-PAPERS:START -->
 
-**327 papers** · [2026 (222)](#2026) · [2025 (87)](#2025) · [2024 (18)](#2024)
+**327 papers** · [2026 (223)](#2026) · [2025 (86)](#2025) · [2024 (18)](#2024)
 
 Papers can have multiple topics. [Search and combine topics](https://boom5426.github.io/Awesome-Virtual-Cell/) · [Tag definitions](docs/taxonomy.md)
 
 <a id="2026"></a>
-### 🗓️ 2026 — 222 papers
+### 🗓️ 2026 — 223 papers
 
 - **[Recoverable Resolution]** `[Evaluation & Measurement]` `[Benchmark]` `[Perturbation]` `[Virtual Cell]` The recoverable resolution of cellular perturbation-response prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.30.755756)] [[code](https://github.com/yongqih/cgc-counterfactual-resolution)] ![GitHub stars](https://img.shields.io/github/stars/yongqih/cgc-counterfactual-resolution.svg?logo=github&label=Stars) [[source data](https://doi.org/10.5281/zenodo.22664304)]
 
@@ -86,7 +86,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[STP-BENCH]** `[Benchmark]` `[Spatial]` `[Morphology]` `[Evaluation & Measurement]` STP-BENCH: A Unified Systematic Benchmark for Virtual Spatial Transcriptomics from Histopathology Images (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.05956)] [[code](https://github.com/NEXGEM/STP-Bench)] ![GitHub stars](https://img.shields.io/github/stars/NEXGEM/STP-Bench.svg?logo=github&label=Stars)
 
-- **[RAGCell]** `[Foundation Model]` `[Multimodal]` `[Representation Learning]` RAGCell: Retrieval-Augmented Generation as Supervision for Versatile Single-cell Analysis (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2609.14147)]
+- **[RAGCell]** `[Foundation Model]` `[Multimodal]` `[Representation Learning]` RAGCell: Retrieval-Augmented Generation as Supervision for Versatile Single-cell Analysis (**Bioinformatics 2026**) [[paper](https://doi.org/10.1093/bioinformatics/btag732)] [[preprint](https://arxiv.org/abs/2609.14147)]
 
 - **[stFormer]** `[Foundation Model]` `[Spatial]` `[Gene Regulation]` `[Representation Learning]` stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics (**Cell Reports Methods 2026**) [[paper](https://doi.org/10.1016/j.crmeth.2026.101612)]
 
@@ -232,7 +232,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[VCR-Agent]** `[Agent]` `[Virtual Cell]` `[Perturbation]` `[Gene Regulation]` Towards Autonomous Mechanistic Reasoning in Virtual Cells (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2604.11661)] [[code](https://github.com/valence-labs/VCR-Agent)] ![GitHub stars](https://img.shields.io/github/stars/valence-labs/VCR-Agent.svg?logo=github&label=Stars)
 
-- **[SpaCellAgent]** `[Agent]` `[Dynamics]` `[Spatial]` `[Tool]` SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.07467)] [[code](https://github.com/LittleXH-shw/SpaCellAgent)] ![GitHub stars](https://img.shields.io/github/stars/LittleXH-shw/SpaCellAgent.svg?logo=github&label=Stars)
+- **[SpaCellAgent]** `[Agent]` `[Dynamics]` `[Spatial]` `[Tool]` SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis (**Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 2026**) [[paper](https://doi.org/10.1145/3770855.3818914)] [[preprint](https://arxiv.org/abs/2607.07467)] [[code](https://github.com/LittleXH-shw/SpaCellAgent)] ![GitHub stars](https://img.shields.io/github/stars/LittleXH-shw/SpaCellAgent.svg?logo=github&label=Stars)
 
 - **[CellConsensus]** `[Agent]` `[Tool]` `[Dataset]` CellConsensus: An agent-curated atlas for automatic cell typing (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.08.07.743503)] [[code](https://github.com/tansey-lab/cellconsensus)] ![GitHub stars](https://img.shields.io/github/stars/tansey-lab/cellconsensus.svg?logo=github&label=Stars)
 
@@ -338,7 +338,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[MAE-3D]** `[Morphology]` `[Multimodal]` `[Representation Learning]` `[Benchmark]` 3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2606.23964)] [[code](https://github.com/marrlab/mae3d-opencell)] ![GitHub stars](https://img.shields.io/github/stars/marrlab/mae3d-opencell.svg?logo=github&label=Stars)
 
-- **[Cell Painting RAG Audit]** `[Morphology]` `[Agent]` `[Benchmark]` Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.19415)]
+- **[Cell Painting RAG Audit]** `[Morphology]` `[Agent]` `[Benchmark]` Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology (**Proceedings of the 17th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics 2026**) [[paper](https://doi.org/10.1145/3807503.3819448)] [[preprint](https://arxiv.org/abs/2607.19415)]
 
 - **[Spatium]** `[Protein]` `[Spatial]` `[Foundation Model]` `[Representation Learning]` Spatium: A Protein Language Foundation Model for Spatial Proteomics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.23.740264)] [[code](https://github.com/ploughhh/Spatium)] ![GitHub stars](https://img.shields.io/github/stars/ploughhh/Spatium.svg?logo=github&label=Stars)
 
@@ -506,8 +506,10 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[MultiPert]** `[Perturbation]` `[Multimodal]` `[Protein]` MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction (**PLOS Computational Biology 2026**) [[paper](https://doi.org/10.1371/journal.pcbi.1014054)] [[code](https://github.com/MengyuanZhaoo/MultiPert)] ![GitHub stars](https://img.shields.io/github/stars/MengyuanZhaoo/MultiPert.svg?logo=github&label=Stars)
 
+- **[UniCure]** `[Foundation Model]` `[Perturbation]` `[Multimodal]` `[Intervention Design]` Unicure: A Foundation Model for Predicting Personalized Cancer Therapy Response (**Cancer Cell 2026**) [[paper](https://doi.org/10.1016/j.ccell.2026.07.010)] [[preprint](https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1)] [[code](https://github.com/ZexiChen502/UniCure)] ![GitHub stars](https://img.shields.io/github/stars/ZexiChen502/UniCure.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/ZexiChen502/UniCure)]
+
 <a id="2025"></a>
-### 🗓️ 2025 — 87 papers
+### 🗓️ 2025 — 86 papers
 
 - **[PDGrapher]** `[Perturbation]` `[Intervention Design]` `[Gene Regulation]` `[Representation Learning]` Combinatorial prediction of therapeutic perturbations using causally inspired neural networks (**Nature Biomedical Engineering 2025**) [[paper](https://doi.org/10.1038/s41551-025-01481-x)] [[preprint](https://www.biorxiv.org/content/10.1101/2024.01.03.573985v5)] [[code](https://github.com/mims-harvard/PDGrapher)] ![GitHub stars](https://img.shields.io/github/stars/mims-harvard/PDGrapher.svg?logo=github&label=Stars) [[project](https://zitniklab.hms.harvard.edu/projects/PDGrapher/)]
 
@@ -630,8 +632,6 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 - **[OmiCLIP]** `[Foundation Model]` `[Spatial]` `[Morphology]` `[Multimodal]` A Visual-Omics Foundation Model to Bridge Histopathology with Spatial Transcriptomics (**Nature Methods 2025**) [[paper](https://doi.org/10.1038/s41592-025-02707-1)] [[code](https://github.com/GuangyuWangLab2021/Loki)] ![GitHub stars](https://img.shields.io/github/stars/GuangyuWangLab2021/Loki.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/GuangyuWangLab2021/Loki)]
 
 - **[OCTO-vc]** `[Virtual Cell]` `[Spatial]` `[Perturbation]` `[Morphology]` OCTO-vc: Virtual Cells in Real Tissue (**© by Noetik 2025**) [[technical report](https://www.noetik.ai/octo-vc)] [[online demonstration](https://celleporter.noetik.ai/)]
-
-- **[UniCure]** `[Foundation Model]` `[Perturbation]` `[Multimodal]` `[Intervention Design]` Unicure: A Foundation Model for Predicting Personalized Cancer Therapy Response (**bioRxiv 2025**) [[preprint](https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1)] [[code](https://github.com/ZexiChen502/UniCure)] ![GitHub stars](https://img.shields.io/github/stars/ZexiChen502/UniCure.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/ZexiChen502/UniCure)]
 
 - **[Cell-GraphCompass]** `[Foundation Model]` `[Gene Regulation]` `[Representation Learning]` Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model (**National Science Review 2025**) [[paper](https://doi.org/10.1093/nsr/nwaf255)] [[code](https://github.com/epang-ucas/Cell-Graph-Compass)] ![GitHub stars](https://img.shields.io/github/stars/epang-ucas/Cell-Graph-Compass.svg?logo=github&label=Stars) [[ask deepwiki](https://deepwiki.com/epang-ucas/Cell-Graph-Compass)]
 
