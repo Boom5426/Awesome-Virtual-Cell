@@ -36,17 +36,17 @@
 
 New to virtual cell research? Pick a track instead of reading the full list from top to bottom.
 
-Start with the **bold entry** in your track, then compare the other examples. These are selective reading suggestions, not a leaderboard; preprints and unpublished manuscripts are marked explicitly.
+Start with the **bold entry** in your track, then compare the other examples. These are selective reading suggestions, not a leaderboard; see the full catalog for publication status.
 
 | Goal | Recommended entry points |
 | --- | --- |
 | 🧬 **Understand the field** | **[Cell perspective](https://doi.org/10.1016/j.cell.2024.11.015)** · [Grow AI Virtual Cells](https://www.nature.com/articles/s41422-025-01101-y) · [Nature perspective](https://www.nature.com/articles/s41586-025-08710-y) |
-| 🧫 **Predict perturbations** | **[GEARS](https://www.nature.com/articles/s41587-023-01905-6)** · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [MAP](https://doi.org/10.1038/s42256-026-01286-w) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) (preprint) |
+| 🧫 **Predict perturbations** | **[GEARS](https://www.nature.com/articles/s41587-023-01905-6)** · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [PIE](https://doi.org/10.64898/2026.10.02.756297) · [MAP](https://doi.org/10.1038/s42256-026-01286-w) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) |
 | 🧠 **Cellular foundation models** | **[Geneformer](https://doi.org/10.1038/s41586-023-06139-9)** · [scGPT](https://doi.org/10.1038/s41592-024-02201-0) · [scFoundation](https://doi.org/10.1038/s41592-024-02305-7) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [TranscriptFormer](https://doi.org/10.1126/science.aec8514) |
-| 🌐 **World models & cell-state transitions** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** · [CellOS](https://doi.org/10.64898/2026.06.18.733163) (preprint) · [Chreode](https://arxiv.org/abs/2605.28111) (preprint) |
+| 🌐 **World models & cell-state transitions** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Chreode](https://arxiv.org/abs/2605.28111) |
 | 🖼️ **Multimodal & spatial** | **[Nicheformer](https://doi.org/10.1038/s41592-025-02814-z)** · [VirTues](https://doi.org/10.1038/s41586-026-10884-y) · [DePass](https://doi.org/10.1038/s41556-026-02067-8) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) |
-| 🎯 **Intervention design** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) (manuscript) |
-| 📏 **Evaluation & measurement** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) (manuscript) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) (preprint) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) (preprint) |
+| 🎯 **Intervention design** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) |
+| 📏 **Evaluation & measurement** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) |
 
 <a id="research-papers"></a>
 ## 🔬 Research Papers
@@ -55,12 +55,14 @@ Browse the full research collection below; each paper may carry multiple indepen
 
 <!-- GENERATED:RESEARCH-PAPERS:START -->
 
-**327 papers** · [2026 (223)](#2026) · [2025 (86)](#2025) · [2024 (18)](#2024)
+**328 papers** · [2026 (224)](#2026) · [2025 (86)](#2025) · [2024 (18)](#2024)
 
 Papers can have multiple topics. [Search and combine topics](https://boom5426.github.io/Awesome-Virtual-Cell/) · [Tag definitions](docs/taxonomy.md)
 
 <a id="2026"></a>
-### 🗓️ 2026 — 223 papers
+### 🗓️ 2026 — 224 papers
+
+- **[PIE]** `[Perturbation]` `[Multimodal]` PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.02.756297)] [[code](https://github.com/ArcInstitute/pie)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/pie.svg?logo=github&label=Stars) [[data & knowledge sources](https://huggingface.co/collections/arcinstitute/pie)]
 
 - **[Recoverable Resolution]** `[Evaluation & Measurement]` `[Benchmark]` `[Perturbation]` `[Virtual Cell]` The recoverable resolution of cellular perturbation-response prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.09.30.755756)] [[code](https://github.com/yongqih/cgc-counterfactual-resolution)] ![GitHub stars](https://img.shields.io/github/stars/yongqih/cgc-counterfactual-resolution.svg?logo=github&label=Stars) [[source data](https://doi.org/10.5281/zenodo.22664304)]
 

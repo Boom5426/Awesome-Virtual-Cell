@@ -39,17 +39,17 @@
 
 如果你刚进入 Virtual Cell / AI for Biology 方向，不建议从数百篇论文逐条向下读。可以先按问题选择入口：
 
-先读所在方向的**加粗条目**，再比较其他代表工作。这里是精选阅读入口，不是性能排行榜；预印本与未正式发表的研究稿均已明确标注。
+先读所在方向的**加粗条目**，再比较其他代表工作。这里是精选阅读入口，不是性能排行榜；发表状态请以完整论文目录为准。
 
 | 目标 | 推荐入口 |
 | --- | --- |
 | 🧬 **理解 Virtual Cell 的整体问题** | **[Cell perspective](https://doi.org/10.1016/j.cell.2024.11.015)** · [Grow AI Virtual Cells](https://www.nature.com/articles/s41422-025-01101-y) · [Nature perspective](https://www.nature.com/articles/s41586-025-08710-y) |
-| 🧫 **预测细胞扰动响应** | **[GEARS](https://www.nature.com/articles/s41587-023-01905-6)** · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [MAP](https://doi.org/10.1038/s42256-026-01286-w) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220)（预印本） |
+| 🧫 **预测细胞扰动响应** | **[GEARS](https://www.nature.com/articles/s41587-023-01905-6)** · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [PIE](https://doi.org/10.64898/2026.10.02.756297) · [MAP](https://doi.org/10.1038/s42256-026-01286-w) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) |
 | 🧠 **细胞基础模型** | **[Geneformer](https://doi.org/10.1038/s41586-023-06139-9)** · [scGPT](https://doi.org/10.1038/s41592-024-02201-0) · [scFoundation](https://doi.org/10.1038/s41592-024-02305-7) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [TranscriptFormer](https://doi.org/10.1126/science.aec8514) |
-| 🌐 **世界模型与细胞状态转移** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** · [CellOS](https://doi.org/10.64898/2026.06.18.733163)（预印本） · [Chreode](https://arxiv.org/abs/2605.28111)（预印本） |
+| 🌐 **世界模型与细胞状态转移** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Chreode](https://arxiv.org/abs/2605.28111) |
 | 🖼️ **多模态与空间组学** | **[Nicheformer](https://doi.org/10.1038/s41592-025-02814-z)** · [VirTues](https://doi.org/10.1038/s41586-026-10884-y) · [DePass](https://doi.org/10.1038/s41556-026-02067-8) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) |
-| 🎯 **干预设计 / 逆向设计** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf)（研究稿） |
-| 📏 **评价与测量分辨率** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf)（研究稿） · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650)（预印本） · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433)（预印本） |
+| 🎯 **干预设计 / 逆向设计** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) |
+| 📏 **评价与测量分辨率** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) |
 
 ## 🗺️ 两种最推荐的浏览方式
 

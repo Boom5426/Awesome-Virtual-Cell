@@ -1,8 +1,67 @@
 {
   "schema_version": 2,
   "description": "Structured source of truth for Awesome Virtual Cell research papers. README, web catalog, CSV, and BibTeX are generated views.",
-  "paper_count": 327,
+  "paper_count": 328,
   "papers": [
+    {
+        "id": "pie",
+        "label": "PIE",
+        "title": "PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets",
+        "year": 2026,
+        "venue": "bioRxiv",
+        "status": "preprint",
+        "tags": [
+            "Perturbation",
+            "Multimodal"
+        ],
+        "doi": "10.64898/2026.10.02.756297",
+        "paper_url": null,
+        "preprint_url": "https://doi.org/10.64898/2026.10.02.756297",
+        "code_url": "https://github.com/ArcInstitute/pie",
+        "links": [
+            {
+                "label": "data & knowledge sources",
+                "url": "https://huggingface.co/collections/arcinstitute/pie"
+            }
+        ],
+        "added_at": "2026-10-08",
+        "updated_at": "2026-10-08",
+        "code_status": "paper_linked",
+        "code_sources": [
+            "https://github.com/ArcInstitute/pie",
+            "https://arcinstitute.org/news/pie"
+        ],
+        "tag_review_basis": "project_documentation",
+        "facets": {
+            "task": [
+                "Perturbation Modeling"
+            ],
+            "modality": [
+                "Transcriptomics",
+                "Sequence",
+                "Multimodal"
+            ],
+            "perturbation_type": [
+                "Genetic",
+                "Chemical / Drug"
+            ],
+            "generalization": [
+                "Unseen Perturbation",
+                "Unseen Context",
+                "Cross-Dataset",
+                "Zero-Shot"
+            ],
+            "paper_type": [
+                "Method"
+            ]
+        },
+        "facet_review_basis": "project_documentation",
+        "facet_sources": [
+            "https://www.biorxiv.org/content/10.64898/2026.10.02.756297v1",
+            "https://github.com/ArcInstitute/pie",
+            "https://arcinstitute.org/news/pie"
+        ]
+    },
     {
       "id": "recoverable-resolution",
       "label": "Recoverable Resolution",
