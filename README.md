@@ -10,7 +10,7 @@
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/commits/main"><img src="https://img.shields.io/github/last-commit/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Updated" /></a>
 </p>
 
-<p align="center"><b>A curated gateway to papers, datasets, benchmarks, and community resources for AI-powered virtual cell research.</b></p>
+<p align="center"><b>Papers, datasets, benchmarks, and community resources for AI-powered virtual cell research.</b></p>
 
 <p align="center">
   Virtual Cells &nbsp;·&nbsp; Perturbation &nbsp;·&nbsp; Intervention Design &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Spatial
