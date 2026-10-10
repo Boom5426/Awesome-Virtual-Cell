@@ -13,7 +13,7 @@
 <p align="center"><b>Papers, datasets, benchmarks, and community resources for AI-powered virtual cell research.</b></p>
 
 <p align="center">
-  Virtual Cells &nbsp;·&nbsp; Perturbation &nbsp;·&nbsp; Intervention Design &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Spatial
+  Virtual Cells &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Perturbation Modeling &nbsp;·&nbsp; Multimodal &amp; Spatial &nbsp;·&nbsp; Intervention Design
 </p>
 
 <p align="center">
