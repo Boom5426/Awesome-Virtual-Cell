@@ -45,7 +45,7 @@ Start with the **bold entry** in your track, then compare the other examples. Th
 | 🧠 **Cellular foundation models** | **[Geneformer](https://doi.org/10.1038/s41586-023-06139-9)** · [scGPT](https://doi.org/10.1038/s41592-024-02201-0) · [scFoundation](https://doi.org/10.1038/s41592-024-02305-7) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [TranscriptFormer](https://doi.org/10.1126/science.aec8514) |
 | 🌐 **World models & cell-state transitions** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Chreode](https://arxiv.org/abs/2605.28111) |
 | 🖼️ **Multimodal & spatial** | **[Nicheformer](https://doi.org/10.1038/s41592-025-02814-z)** · [VirTues](https://doi.org/10.1038/s41586-026-10884-y) · [DePass](https://doi.org/10.1038/s41556-026-02067-8) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) |
-| 🎯 **Intervention design** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) |
+| 🎯 **Intervention design** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [LabCompass](https://doi.org/10.64898/2026.10.07.756550) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) |
 | 📏 **Evaluation & measurement** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) |
 
 <a id="research-papers"></a>
@@ -55,12 +55,14 @@ Browse the full research collection below; each paper may carry multiple indepen
 
 <!-- GENERATED:RESEARCH-PAPERS:START -->
 
-**328 papers** · [2026 (224)](#2026) · [2025 (86)](#2025) · [2024 (18)](#2024)
+**329 papers** · [2026 (225)](#2026) · [2025 (86)](#2025) · [2024 (18)](#2024)
 
 Papers can have multiple topics. [Search and combine topics](https://boom5426.github.io/Awesome-Virtual-Cell/) · [Tag definitions](docs/taxonomy.md)
 
 <a id="2026"></a>
-### 🗓️ 2026 — 224 papers
+### 🗓️ 2026 — 225 papers
+
+- **[LabCompass]** `[Intervention Design]` `[Perturbation]` `[Tool]` Generative inverse design steers human hematopoietic cell fate in vitro (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.07.756550)] [[code](https://github.com/theislab/LabCompass)] ![GitHub stars](https://img.shields.io/github/stars/theislab/LabCompass.svg?logo=github&label=Stars) [[reproducibility](https://github.com/theislab/LabCompass-reproducibility)] [[data & checkpoints](https://huggingface.co/datasets/theislab/LabCompass)]
 
 - **[PIE]** `[Perturbation]` `[Multimodal]` PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.02.756297)] [[code](https://github.com/ArcInstitute/pie)] ![GitHub stars](https://img.shields.io/github/stars/ArcInstitute/pie.svg?logo=github&label=Stars) [[data & knowledge sources](https://huggingface.co/collections/arcinstitute/pie)]
 
@@ -740,7 +742,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 **Updates**
 
-- `2026-10-10` Added LabCompass to Related Resources for single-cell perturbation modeling and inverse perturbation design.
+- `2026-10-10` Added LabCompass to Research Papers and Intervention Design reading tracks, with official code, reproducibility workflows, data, and synchronized catalog exports.
 - `2026-10-02` Expanded the structured catalog from 285 to 327 papers with 42 source-checked additions, covering late-September preprints, missed 2026 peer-reviewed methods, and foundation-model/perturbation evaluation work; refreshed the English and Chinese Start Here recommendations with seven question-led tracks and explicit preprint/manuscript labels; synchronized the catalog, landscape, CSV, and BibTeX exports.
 - `2026-10-01` Added two perturbation atlases to Datasets: genome-scale Perturb-seq in primary human CD4+ T cells (Cell 2026) and the HepG2/Jurkat essential-gene screens with TRADE (Nature Genetics 2025); updated the Virtual Cell Challenge 2026 dates from the organizers' page.
 - `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.
@@ -1158,8 +1160,6 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 - **[Arc Virtual Cell Atlas]** Large-scale perturbation atlas and codebase from Arc Institute [[repo](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]
 
 - **[VCell Software]** Long-running software environment for computational cell biology [[site](https://vcell.org/)]
-
-- **[LabCompass]** Generative modeling toolkit for single-cell perturbation response prediction and inverse perturbation design using conditional flow matching [[repo](https://github.com/theislab/LabCompass)]
 
 - **[Noetik OCTO-vc]** Technical report and demo for virtual cells in tissue [[report](https://www.noetik.ai/octo-vc)] [[demo](https://celleporter.noetik.ai/)]
 

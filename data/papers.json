@@ -1,8 +1,62 @@
 {
   "schema_version": 2,
   "description": "Structured source of truth for Awesome Virtual Cell research papers. README, web catalog, CSV, and BibTeX are generated views.",
-  "paper_count": 328,
+  "paper_count": 329,
   "papers": [
+    {
+      "id": "labcompass",
+      "label": "LabCompass",
+      "title": "Generative inverse design steers human hematopoietic cell fate in vitro",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Intervention Design",
+        "Perturbation",
+        "Tool"
+      ],
+      "doi": "10.64898/2026.10.07.756550",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.10.07.756550",
+      "code_url": "https://github.com/theislab/LabCompass",
+      "links": [
+        {
+          "label": "reproducibility",
+          "url": "https://github.com/theislab/LabCompass-reproducibility"
+        },
+        {
+          "label": "data & checkpoints",
+          "url": "https://huggingface.co/datasets/theislab/LabCompass"
+        }
+      ],
+      "added_at": "2026-10-10",
+      "updated_at": "2026-10-10",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/theislab/LabCompass-reproducibility",
+        "https://github.com/theislab/LabCompass"
+      ],
+      "tag_review_basis": "project_documentation",
+      "facets": {
+        "task": [
+          "Intervention Design",
+          "Perturbation Modeling",
+          "Tooling"
+        ],
+        "modality": [],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "project_documentation",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.10.07.756550",
+        "https://github.com/theislab/LabCompass",
+        "https://github.com/theislab/LabCompass-reproducibility"
+      ]
+    },
     {
         "id": "pie",
         "label": "PIE",
