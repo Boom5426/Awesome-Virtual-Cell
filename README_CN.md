@@ -13,7 +13,7 @@
 <p align="center"><b>面向 AI 虚拟细胞研究的论文、数据集、Benchmark 与社区资源导航。</b></p>
 
 <p align="center">
-  Virtual Cells &nbsp;·&nbsp; Perturbation &nbsp;·&nbsp; Intervention Design &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Spatial
+  Virtual Cells &nbsp;·&nbsp; Foundation Models &nbsp;·&nbsp; Perturbation Modeling &nbsp;·&nbsp; Multimodal &amp; Spatial &nbsp;·&nbsp; Intervention Design
 </p>
 
 <p align="center">
