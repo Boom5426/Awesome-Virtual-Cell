@@ -740,6 +740,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 **Updates**
 
+- `2026-10-10` Added LabCompass to Related Resources for single-cell perturbation modeling and inverse perturbation design.
 - `2026-10-02` Expanded the structured catalog from 285 to 327 papers with 42 source-checked additions, covering late-September preprints, missed 2026 peer-reviewed methods, and foundation-model/perturbation evaluation work; refreshed the English and Chinese Start Here recommendations with seven question-led tracks and explicit preprint/manuscript labels; synchronized the catalog, landscape, CSV, and BibTeX exports.
 - `2026-10-01` Added two perturbation atlases to Datasets: genome-scale Perturb-seq in primary human CD4+ T cells (Cell 2026) and the HepG2/Jurkat essential-gene screens with TRADE (Nature Genetics 2025); updated the Virtual Cell Challenge 2026 dates from the organizers' page.
 - `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.
@@ -1157,6 +1158,8 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 - **[Arc Virtual Cell Atlas]** Large-scale perturbation atlas and codebase from Arc Institute [[repo](https://github.com/ArcInstitute/arc-virtual-cell-atlas)]
 
 - **[VCell Software]** Long-running software environment for computational cell biology [[site](https://vcell.org/)]
+
+- **[LabCompass]** Generative modeling toolkit for single-cell perturbation response prediction and inverse perturbation design using conditional flow matching [[repo](https://github.com/theislab/LabCompass)]
 
 - **[Noetik OCTO-vc]** Technical report and demo for virtual cells in tissue [[report](https://www.noetik.ai/octo-vc)] [[demo](https://celleporter.noetik.ai/)]
 
