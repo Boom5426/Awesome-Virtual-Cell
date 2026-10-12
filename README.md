@@ -468,7 +468,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[CisTransCell]** `[Perturbation]` `[Gene Regulation]` `[Multimodal]` CisTransCell: Single-Cell Perturbation Prediction via Gene Function, Regulatory Control, and Cellular Context (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2606.13713)]
 
-- **[Latent Causal Processes]** `[Perturbation]` `[Dynamics]` `[Gene Regulation]` Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2605.25581)] [[code](https://github.com/week3ndzZ/CITEVAE)] ![GitHub stars](https://img.shields.io/github/stars/week3ndzZ/CITEVAE.svg?logo=github&label=Stars)
+- **[Latent Causal Processes]** `[Perturbation]` `[Dynamics]` `[Gene Regulation]` Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction (**Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 2026**) [[paper](https://doi.org/10.1145/3770855.3818868)] [[preprint](https://arxiv.org/abs/2605.25581)] [[code](https://github.com/week3ndzZ/CITEVAE)] ![GitHub stars](https://img.shields.io/github/stars/week3ndzZ/CITEVAE.svg?logo=github&label=Stars)
 
 - **[msInfer]** `[Protein]` `[Multimodal]` `[Tool]` Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer (**Research Square 2026**) [[preprint](https://doi.org/10.21203/rs.3.rs-9068677/v1)] [[code](https://github.com/YuzhiSun/msInfer)] ![GitHub stars](https://img.shields.io/github/stars/YuzhiSun/msInfer.svg?logo=github&label=Stars)
 

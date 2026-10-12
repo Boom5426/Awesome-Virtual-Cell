@@ -58,63 +58,63 @@
       ]
     },
     {
-        "id": "pie",
-        "label": "PIE",
-        "title": "PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets",
-        "year": 2026,
-        "venue": "bioRxiv",
-        "status": "preprint",
-        "tags": [
-            "Perturbation",
-            "Multimodal"
+      "id": "pie",
+      "label": "PIE",
+      "title": "PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Perturbation",
+        "Multimodal"
+      ],
+      "doi": "10.64898/2026.10.02.756297",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.10.02.756297",
+      "code_url": "https://github.com/ArcInstitute/pie",
+      "links": [
+        {
+          "label": "data & knowledge sources",
+          "url": "https://huggingface.co/collections/arcinstitute/pie"
+        }
+      ],
+      "added_at": "2026-10-08",
+      "updated_at": "2026-10-08",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/ArcInstitute/pie",
+        "https://arcinstitute.org/news/pie"
+      ],
+      "tag_review_basis": "project_documentation",
+      "facets": {
+        "task": [
+          "Perturbation Modeling"
         ],
-        "doi": "10.64898/2026.10.02.756297",
-        "paper_url": null,
-        "preprint_url": "https://doi.org/10.64898/2026.10.02.756297",
-        "code_url": "https://github.com/ArcInstitute/pie",
-        "links": [
-            {
-                "label": "data & knowledge sources",
-                "url": "https://huggingface.co/collections/arcinstitute/pie"
-            }
+        "modality": [
+          "Transcriptomics",
+          "Sequence",
+          "Multimodal"
         ],
-        "added_at": "2026-10-08",
-        "updated_at": "2026-10-08",
-        "code_status": "paper_linked",
-        "code_sources": [
-            "https://github.com/ArcInstitute/pie",
-            "https://arcinstitute.org/news/pie"
+        "perturbation_type": [
+          "Genetic",
+          "Chemical / Drug"
         ],
-        "tag_review_basis": "project_documentation",
-        "facets": {
-            "task": [
-                "Perturbation Modeling"
-            ],
-            "modality": [
-                "Transcriptomics",
-                "Sequence",
-                "Multimodal"
-            ],
-            "perturbation_type": [
-                "Genetic",
-                "Chemical / Drug"
-            ],
-            "generalization": [
-                "Unseen Perturbation",
-                "Unseen Context",
-                "Cross-Dataset",
-                "Zero-Shot"
-            ],
-            "paper_type": [
-                "Method"
-            ]
-        },
-        "facet_review_basis": "project_documentation",
-        "facet_sources": [
-            "https://www.biorxiv.org/content/10.64898/2026.10.02.756297v1",
-            "https://github.com/ArcInstitute/pie",
-            "https://arcinstitute.org/news/pie"
+        "generalization": [
+          "Unseen Perturbation",
+          "Unseen Context",
+          "Cross-Dataset",
+          "Zero-Shot"
+        ],
+        "paper_type": [
+          "Method"
         ]
+      },
+      "facet_review_basis": "project_documentation",
+      "facet_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.10.02.756297v1",
+        "https://github.com/ArcInstitute/pie",
+        "https://arcinstitute.org/news/pie"
+      ]
     },
     {
       "id": "recoverable-resolution",
@@ -8994,20 +8994,20 @@
       "label": "Latent Causal Processes",
       "title": "Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction",
       "year": 2026,
-      "venue": "arXiv",
-      "status": "preprint",
+      "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+      "status": "published",
       "tags": [
         "Perturbation",
         "Dynamics",
         "Gene Regulation"
       ],
-      "doi": null,
-      "paper_url": null,
+      "doi": "10.1145/3770855.3818868",
+      "paper_url": "https://doi.org/10.1145/3770855.3818868",
       "preprint_url": "https://arxiv.org/abs/2605.25581",
       "code_url": "https://github.com/week3ndzZ/CITEVAE",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-28",
+      "updated_at": "2026-10-12",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/week3ndzZ/CITEVAE",
