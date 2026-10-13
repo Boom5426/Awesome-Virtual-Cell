@@ -37,12 +37,14 @@ python scripts/build_readme.py
 python scripts/build_catalog.py
 python scripts/build_landscape.py
 python scripts/build_exports.py
+python scripts/build_facets_doc.py
 ```
 
-Check that README is synchronized:
+Check that README and the facet documentation are synchronized:
 
 ```bash
 python scripts/build_readme.py --check
+python scripts/build_facets_doc.py --check
 ```
 
 ## Searchable catalog

@@ -93,11 +93,11 @@ def http_get_json(url: str) -> dict:
 
 
 def load_rules() -> dict:
-    return json.loads(RULES_PATH.read_text())
+    return json.loads(RULES_PATH.read_text(encoding="utf-8"))
 
 
 def load_readme() -> str:
-    return README_PATH.read_text()
+    return README_PATH.read_text(encoding="utf-8")
 
 
 def existing_readme_keys(readme_text: str) -> set[str]:
@@ -462,8 +462,8 @@ def summary_markdown(candidates: list[Candidate]) -> str:
 
 
 def write_outputs(readme_text: str, candidates: list[Candidate]) -> None:
-    README_PATH.write_text(readme_text)
-    SUMMARY_PATH.write_text(summary_markdown(candidates))
+    README_PATH.write_text(readme_text, encoding="utf-8")
+    SUMMARY_PATH.write_text(summary_markdown(candidates), encoding="utf-8")
 
 
 def main() -> int:
@@ -482,7 +482,8 @@ def main() -> int:
 
     if not chosen:
         SUMMARY_PATH.write_text(
-            "# Automated README Update Summary\n\n- No high-confidence additions were found in this run.\n"
+            "# Automated README Update Summary\n\n- No high-confidence additions were found in this run.\n",
+            encoding="utf-8",
         )
         print("No changes.")
         return 0

@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class CodeMetadataTests(unittest.TestCase):
     def test_code_status_and_provenance(self):
-        for p in json.loads((ROOT/'data/papers.json').read_text())['papers']:
+        for p in json.loads((ROOT/'data/papers.json').read_text(encoding="utf-8"))['papers']:
             with self.subTest(paper=p['id']):
                 status=p.get('code_status')
                 if status in {'not_found','related_only','release_pending','data_only'}:
@@ -17,7 +17,7 @@ class CodeMetadataTests(unittest.TestCase):
                     self.assertTrue(p.get('code_sources'))
 
     def test_dated_audit_is_internally_consistent(self):
-        audit=json.loads((ROOT/'data/curation/code-audit-2026-09-28.json').read_text())
+        audit=json.loads((ROOT/'data/curation/code-audit-2026-09-28.json').read_text(encoding="utf-8"))
         records=audit['records'];summary=audit['summary']
         self.assertEqual(len(records),summary['papers'])
         self.assertEqual(len({r['id'] for r in records}),len(records))
@@ -32,7 +32,7 @@ class CodeMetadataTests(unittest.TestCase):
                 self.assertTrue(m.get('code_paths_sample'))
 
     def test_final_sweep_reviewed_links(self):
-        papers=json.loads((ROOT/'data/papers.json').read_text())['papers']
+        papers=json.loads((ROOT/'data/papers.json').read_text(encoding="utf-8"))['papers']
         by={p['id']:p for p in papers}
         expected={
             'zero-shot-benchmark':('https://github.com/ShellyCoder/scFMBench','paper_linked'),

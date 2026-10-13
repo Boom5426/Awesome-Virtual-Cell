@@ -22,6 +22,7 @@ jobs:
       - name: Regenerate and validate views
         run: |
           python scripts/build_landscape.py
+          python scripts/build_facets_doc.py --check
           python scripts/validate_catalog.py
           python scripts/build_readme.py --check
           python scripts/build_exports.py
@@ -47,6 +48,7 @@ jobs:
           delete-branch: true
           add-paths: |
             data/papers.json
+            docs/facets.md
             README.md
             docs/catalog.html
             docs/index.html

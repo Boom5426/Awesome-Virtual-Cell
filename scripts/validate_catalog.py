@@ -8,6 +8,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/"data"/"papers.json";BASES={"abstract","project_documentation","title_and_metadata","unreviewed"}
 REQ={"id","label","title","year","venue","status","tags","doi","paper_url","preprint_url","code_url","links","added_at","updated_at","facets","facet_review_basis","facet_sources"}
+PREPRINT_VENUES={"bioRxiv","medRxiv","arXiv","Research Square","ChemRxiv","SSRN"};PREPRINT_DOI=re.compile(r"^10\.(1101/\d{4}\.\d{2}\.\d{2}\.|64898/|21203/rs\.|48550/arxiv\.)",re.I)  # bioRxiv/medRxiv, Research Square, arXiv (not 10.1101/gr.* Genome Research)
+RECEIPTS=ROOT/"data"/"curation"/"2026-09-26.json"
 def good_url(x):
     if not x:return True
     p=urlparse(x);return p.scheme in {"http","https"} and bool(p.netloc)
@@ -16,7 +18,8 @@ def good_date(x):
     try:date.fromisoformat(x);return True
     except ValueError:return False
 def main():
-    d=json.loads(DATA.read_text());ps=d.get("papers",[]);topics=set(json.loads((ROOT/"config"/"taxonomy.json").read_text())["tags"]);fc=json.loads((ROOT/"config"/"facets.json").read_text())["dimensions"];err=[];warn=[]
+    d=json.loads(DATA.read_text(encoding="utf-8"));ps=d.get("papers",[]);topics=set(json.loads((ROOT/"config"/"taxonomy.json").read_text(encoding="utf-8"))["tags"]);fc=json.loads((ROOT/"config"/"facets.json").read_text(encoding="utf-8"))["dimensions"];err=[];warn=[]
+    receipts={r["id"] for r in json.loads(RECEIPTS.read_text(encoding="utf-8"))["records"]}
     if d.get("schema_version")!=2:err.append("expected schema_version=2")
     if d.get("facet_schema_version")!=1:err.append("expected facet_schema_version=1")
     if d.get("paper_count")!=len(ps):err.append("paper_count mismatch")
@@ -42,6 +45,11 @@ def main():
         for k in ("added_at","updated_at"):
             if not good_date(p.get(k)):err.append(f"#{i} {p['id']}: {k}")
         if p["status"]=="preprint" and not p.get("preprint_url"):warn.append(f"#{i} {p['id']}: missing preprint URL")
+        if p["status"]=="published" and p["venue"] in PREPRINT_VENUES:err.append(f"#{i} {p['id']}: preprint server venue {p['venue']} cannot be status=published")
+        if p["status"]=="published" and p.get("doi") and PREPRINT_DOI.match(p["doi"]):err.append(f"#{i} {p['id']}: published record uses preprint DOI {p['doi']}; keep it in preprint_url")
+        if p["status"]=="preprint" and p["venue"] not in PREPRINT_VENUES|{"Manuscript"}:warn.append(f"#{i} {p['id']}: preprint with venue {p['venue']}")
+        if re.match(r"(?i)proceedings of",p["venue"]):warn.append(f"#{i} {p['id']}: use a short venue name instead of {p['venue']!r}")
+        if p["id"] not in receipts:(warn if p["facet_review_basis"]=="unreviewed" else err).append(f"#{i} {p['id']}: missing curation receipt in data/curation/2026-09-26.json")
     for v,n in Counter(p["id"] for p in ps).items():
         if n>1:err.append("duplicate id "+v)
     for v,n in Counter(re.sub(r"[^a-z0-9]+"," ",p["title"].lower()).strip() for p in ps).items():

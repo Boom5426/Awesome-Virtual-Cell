@@ -3,7 +3,7 @@ from __future__ import annotations
 import csv,io,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/"data"/"papers.json";OUT=ROOT/"exports";FF=("task","modality","perturbation_type","generalization","paper_type")
-def load():return json.loads(DATA.read_text())["papers"]
+def load():return json.loads(DATA.read_text(encoding="utf-8"))["papers"]
 def csv_text(ps):
     b=io.StringIO();fields=["id","label","title","year","venue","status","tags",*FF,"doi","paper_url","preprint_url","code_url","added_at","updated_at","code_status","tag_review_basis","facet_review_basis"];w=csv.DictWriter(b,fieldnames=fields,lineterminator="\n");w.writeheader()
     for p in ps:
@@ -25,5 +25,5 @@ def bib(ps):
         out.append(f"@{kind}{{{key},\n"+",\n".join(f"  {k} = {{{esc(v)}}}" for k,v in fs)+"\n}")
     return "\n\n".join(out)+"\n"
 def main():
-    ps=load();OUT.mkdir(exist_ok=True);(OUT/"papers.csv").write_text(csv_text(ps));(OUT/"papers.bib").write_text(bib(ps));print(f"Wrote exports for {len(ps)} papers");return 0
+    ps=load();OUT.mkdir(exist_ok=True);(OUT/"papers.csv").write_text(csv_text(ps),encoding="utf-8");(OUT/"papers.bib").write_text(bib(ps),encoding="utf-8");print(f"Wrote exports for {len(ps)} papers");return 0
 if __name__=="__main__":raise SystemExit(main())

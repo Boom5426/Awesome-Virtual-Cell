@@ -4,7 +4,7 @@ Topics describe **what a paper is about**. Facets provide orthogonal search dime
 
 ## Evidence rule
 
-Current evidence basis: **275 abstract-reviewed**, **19 project-documentation-reviewed**, and **33 title/metadata-only provisional** records. Abstracts are primary. Provisional records do not receive inferred fine-grained perturbation/generalization facets.
+Current evidence basis: **341 abstract-reviewed**, **22 project-documentation-reviewed**, and **33 title/metadata-only provisional** records. Abstracts are primary. Provisional records do not receive inferred fine-grained perturbation/generalization facets.
 
 | Dimension | Meaning | Controlled values |
 | --- | --- | --- |
@@ -18,49 +18,49 @@ Current evidence basis: **275 abstract-reviewed**, **19 project-documentation-re
 
 ### task
 
-- Perturbation Modeling: 173
-- Representation Learning: 137
-- Benchmarking: 61
-- Gene Regulation: 49
-- Intervention Design: 31
-- Tooling: 31
-- Dynamics: 30
-- Evaluation & Measurement: 27
-- Scientific Agent: 25
-- Data Resource: 17
+- Perturbation Modeling: 202
+- Representation Learning: 165
+- Benchmarking: 73
+- Gene Regulation: 55
+- Evaluation & Measurement: 40
+- Intervention Design: 38
+- Scientific Agent: 34
+- Tooling: 34
+- Dynamics: 33
+- Data Resource: 23
 - World Modeling: 12
 
 ### modality
 
-- Transcriptomics: 82
-- Multimodal: 76
-- Spatial: 55
-- Morphology / Imaging: 44
-- Proteomics: 31
-- Sequence: 15
-- Chromatin / Epigenomics: 11
+- Transcriptomics: 130
+- Multimodal: 91
+- Spatial: 62
+- Morphology / Imaging: 55
+- Proteomics: 36
+- Sequence: 19
+- Chromatin / Epigenomics: 16
 
 ### perturbation_type
 
-- Chemical / Drug: 43
-- Genetic: 30
-- Combination: 6
+- Chemical / Drug: 58
+- Genetic: 52
+- Combination: 8
 
 ### generalization
 
-- Unseen Context: 11
-- Cross-Dataset: 10
-- Cross-Species: 9
-- Unseen Perturbation: 7
-- Zero-Shot: 2
+- Unseen Context: 19
+- Unseen Perturbation: 16
+- Zero-Shot: 12
+- Cross-Dataset: 11
+- Cross-Species: 10
 
 ### paper_type
 
-- Method: 206
-- Benchmark: 63
-- Tool: 32
-- Evaluation: 30
-- Review: 25
-- Dataset: 17
+- Method: 255
+- Benchmark: 75
+- Evaluation: 39
+- Tool: 36
+- Review: 26
+- Dataset: 23
 
 Empty facet arrays mean the reviewed evidence did not support a confident assignment.

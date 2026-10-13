@@ -11,6 +11,7 @@ on:
       - "scripts/build_catalog.py"
       - "scripts/build_landscape.py"
       - "scripts/build_exports.py"
+      - "scripts/build_facets_doc.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
       - "scripts/publication_watcher.py"
@@ -35,6 +36,7 @@ on:
       - "scripts/build_catalog.py"
       - "scripts/build_landscape.py"
       - "scripts/build_exports.py"
+      - "scripts/build_facets_doc.py"
       - "scripts/validate_catalog.py"
       - "scripts/auto_update_catalog.py"
       - "scripts/publication_watcher.py"
@@ -70,6 +72,8 @@ jobs:
         run: python scripts/validate_catalog.py
       - name: Check README synchronization
         run: python scripts/build_readme.py --check
+      - name: Check facet documentation synchronization
+        run: python scripts/build_facets_doc.py --check
       - name: Run unit tests
         run: python -m unittest discover -s tests
       - name: Test catalog search and exports

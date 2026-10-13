@@ -27,13 +27,14 @@ jobs:
           python scripts/build_catalog.py
           python scripts/build_landscape.py
           python scripts/build_exports.py
+          python scripts/build_facets_doc.py
           python scripts/validate_catalog.py
           python scripts/build_readme.py --check
 
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet data/papers.json README.md docs/catalog.html docs/index.html index.html landscape.html docs/landscape.html exports; then
+          if git diff --quiet data/papers.json docs/facets.md README.md docs/catalog.html docs/index.html index.html landscape.html docs/landscape.html exports; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
@@ -48,6 +49,7 @@ jobs:
           delete-branch: true
           add-paths: |
             data/papers.json
+            docs/facets.md
             README.md
             docs/catalog.html
             docs/index.html

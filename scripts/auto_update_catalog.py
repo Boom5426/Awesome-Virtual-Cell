@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 from scripts import auto_update_readme as discovery
-from scripts import build_catalog, build_exports, build_landscape, build_readme
+from scripts import build_catalog, build_exports, build_facets_doc, build_landscape, build_readme
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "papers.json"
@@ -155,6 +155,7 @@ def regenerate_views() -> None:
     build_catalog.main()
     build_landscape.main()
     build_exports.main()
+    build_facets_doc.DOC.write_text(build_facets_doc.render(), encoding="utf-8")
 
 
 def main() -> int:

@@ -25,6 +25,7 @@ python scripts/validate_catalog.py
 python scripts/build_readme.py
 python scripts/build_catalog.py
 python scripts/build_exports.py
+python scripts/build_facets_doc.py
 ```
 
 Generated artifacts:
@@ -33,6 +34,7 @@ Generated artifacts:
 - `index.html`, `docs/index.html`, `docs/catalog.html`
 - `exports/papers.csv`
 - `exports/papers.bib`
+- `docs/facets.md`
 
 Do not hand-edit the generated Research Papers block.
 

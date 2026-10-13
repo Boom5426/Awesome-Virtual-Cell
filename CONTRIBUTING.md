@@ -36,10 +36,11 @@ For paper additions or metadata updates:
 1. Edit `data/papers.json` instead of the generated Research Papers block in `README.md`.
 2. Run `python scripts/validate_catalog.py`.
 3. Run `python scripts/build_readme.py`.
-4. Run `python scripts/build_catalog.py`.
-5. Commit the structured data and both generated views together.
+4. Run `python scripts/build_catalog.py`, `python scripts/build_landscape.py`, `python scripts/build_exports.py` and `python scripts/build_facets_doc.py`.
+5. Add a curation receipt for every new paper to `data/curation/2026-09-26.json` (tags, evidence basis, sources, code status); the validator rejects reviewed papers without one.
+6. Commit the structured data and all generated views together.
 
-CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata, or a README/catalog that is out of sync with the structured source of truth.
+CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata, published records that use a preprint DOI or preprint-server venue, missing curation receipts, or a README/catalog/facet document that is out of sync with the structured source of truth.
 
 > The structured workflow currently covers **Research Papers** only. Other resource sections remain Markdown-first during the migration.
 

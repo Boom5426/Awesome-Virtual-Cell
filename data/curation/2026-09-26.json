@@ -1,6 +1,6 @@
 {
   "review_date": "2026-09-26",
-  "scope": "All 327 Research Papers records; full 275-record audit, ten source-checked 2026-09-26 follow-up additions, and 42 source-checked 2026-10-02 literature-sweep additions.",
+  "scope": "All 396 Research Papers records; full 275-record audit, ten source-checked 2026-09-26 follow-up additions, 42 source-checked 2026-10-02 literature-sweep additions, two 2026-10-08/10 additions (PIE, LabCompass), and 67 independently re-verified 2026-10-13 literature-sweep additions.",
   "records": [
     {
       "id": "speciesformer",
@@ -8364,6 +8364,1703 @@
       "code_status": "not_found",
       "code_sources": [],
       "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "pie",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Multimodal"
+      ],
+      "tag_basis": "project_documentation",
+      "tag_rationale": "Arc Institute project documentation describes a perturbation-effect model that integrates sequence and knowledge-source embeddings to generalize across unseen perturbations, contexts and datasets.",
+      "sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.10.02.756297v1",
+        "https://github.com/ArcInstitute/pie",
+        "https://arcinstitute.org/news/pie"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/ArcInstitute/pie",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/ArcInstitute/pie",
+        "https://arcinstitute.org/news/pie"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "labcompass",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Intervention Design",
+        "Perturbation",
+        "Tool"
+      ],
+      "tag_basis": "project_documentation",
+      "tag_rationale": "Project documentation and preprint describe generative inverse design of perturbations to steer hematopoietic cell fate, with released code and reproducibility workflows.",
+      "sources": [
+        "https://doi.org/10.64898/2026.10.07.756550",
+        "https://github.com/theislab/LabCompass",
+        "https://github.com/theislab/LabCompass-reproducibility"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/theislab/LabCompass",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/theislab/LabCompass-reproducibility",
+        "https://github.com/theislab/LabCompass"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scperturbbench-sciadv",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "13 methods and baselines across 25 datasets on unseen single-gene, combinatorial and cross-cell-type tasks with 24 metrics.",
+      "sources": [
+        "https://doi.org/10.1126/sciadv.aed3414",
+        "https://doi.org/10.1101/2024.12.23.630036",
+        "https://api.crossref.org/works/10.1126/sciadv.aed3414"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/TianGzlab/scPerturbBench",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/TianGzlab/scPerturbBench"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "prepr-ct",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Cell-type-specific graph priors for chemical perturbation response prediction in cell types outside the training data.",
+      "sources": [
+        "https://www.nature.com/articles/s42256-026-01202-2",
+        "https://doi.org/10.1101/2024.07.24.604816",
+        "https://api.crossref.org/works/10.1038/s42256-026-01202-2"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/reem12345/Cell-Type-Specific-Graphs",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/reem12345/Cell-Type-Specific-Graphs",
+        "https://www.nature.com/articles/s42256-026-01202-2",
+        "https://doi.org/10.1101/2024.07.24.604816"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "pereggrn",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Perturbation",
+        "Gene Regulation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Benchmarking platform of 11 perturbation datasets and an expression-forecasting engine that systematically assesses GRN-based methods.",
+      "sources": [
+        "https://doi.org/10.1186/s13059-025-03840-y",
+        "https://doi.org/10.1101/2023.07.28.551039",
+        "https://api.crossref.org/works/10.1186/s13059-025-03840-y"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/ekernf01/perturbation_benchmarking",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ekernf01/perturbation_benchmarking"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "perteval-scfm",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Foundation Model",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Standardized framework showing zero-shot scFM embeddings do not consistently beat baselines for perturbation effect prediction.",
+      "sources": [
+        "https://proceedings.mlr.press/v267/wenteler25a.html",
+        "https://doi.org/10.1101/2024.10.02.616248"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/aaronwtr/PertEval",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/aaronwtr/PertEval",
+        "https://proceedings.mlr.press/v267/wenteler25a.html",
+        "https://doi.org/10.1101/2024.10.02.616248"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "op3-benchmark",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Dataset",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Open Problems perturbation-prediction benchmark and new 146-compound PBMC dataset from the NeurIPS 2023 competition.",
+      "sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/24c4d51f3ef48dd2dbab78243ecb26a1-Abstract-Datasets_and_Benchmarks_Track.html",
+        "https://api.crossref.org/works/10.52202/079017-0650"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/openproblems-bio/task_perturbation_prediction",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/openproblems-bio/task_perturbation_prediction"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "biolord",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Disentangled generative model that shifts cells across attributes and predicts responses to unseen drugs and genetic perturbations.",
+      "sources": [
+        "https://doi.org/10.1038/s41587-023-02079-x",
+        "https://doi.org/10.1101/2023.03.05.531195",
+        "https://api.crossref.org/works/10.1038/s41587-023-02079-x"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/nitzanlab/biolord",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/nitzanlab/biolord",
+        "https://doi.org/10.1038/s41587-023-02079-x",
+        "https://doi.org/10.1101/2023.03.05.531195"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "biodiscoveryagent",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Intervention Design",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "LLM agent that iteratively designs genetic perturbation screens to find gene sets producing a target phenotype.",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html",
+        "https://arxiv.org/abs/2405.17631"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/snap-stanford/BioDiscoveryAgent",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/snap-stanford/BioDiscoveryAgent",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html",
+        "https://arxiv.org/abs/2405.17631"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "perturbqa",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Perturbation",
+        "Agent"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Benchmark for LLM structured reasoning over unseen Perturb-seq outcomes, with the SUMMER framework.",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/b6e67ae290635d0874c4cb43ba2a2cfb-Paper-Conference.pdf",
+        "https://arxiv.org/abs/2502.21290"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/Genentech/PerturbQA",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Genentech/PerturbQA"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "dbdiffusion",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Latent diffusion with perturbation-derived classifier-free guidance to infer responses to unmeasured genetic perturbations.",
+      "sources": [
+        "https://doi.org/10.1073/pnas.2525268122",
+        "https://api.crossref.org/works/10.1073/pnas.2525268122"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/ergan-shang/dbDiffusion",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ergan-shang/dbDiffusion"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "sccausalvi",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Structural causal generative model separating intrinsic cell state from treatment effects for counterfactual prediction.",
+      "sources": [
+        "https://doi.org/10.1016/j.cels.2025.101443",
+        "https://doi.org/10.1101/2025.02.02.636136",
+        "https://api.crossref.org/works/10.1016/j.cels.2025.101443"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/ShaokunAn/scCausalVI",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/ShaokunAn/scCausalVI",
+        "https://doi.org/10.1016/j.cels.2025.101443",
+        "https://doi.org/10.1101/2025.02.02.636136"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scpilot",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Query-conditioned latent optimal transport for transferring observed perturbation responses across cell types, patients and species.",
+      "sources": [
+        "https://doi.org/10.1002/advs.77461",
+        "https://api.crossref.org/works/10.1002/advs.77461"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/yongzhuangliulab/scPILOT",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/yongzhuangliulab/scPILOT"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "cellcap",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Generative model decomposing cell-state-specific genetic and compound responses into interpretable response programs.",
+      "sources": [
+        "https://doi.org/10.1016/j.cels.2025.101245",
+        "https://doi.org/10.1101/2024.03.14.585078",
+        "https://api.crossref.org/works/10.1016/j.cels.2025.101245"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/broadinstitute/CellCap",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/broadinstitute/CellCap"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "prim",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Prior-guided response inference from control-cell expression for single and combinatorial genetic perturbations.",
+      "sources": [
+        "https://doi.org/10.1101/gr.281523.125",
+        "https://api.crossref.org/works/10.1101/gr.281523.125"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "meta-flow-matching",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Dynamics"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Population-conditioned flow matching that generalizes drug-response dynamics to unseen patient populations.",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/file/ebdb990471f653dffb425eff03c7c980-Paper-Conference.pdf",
+        "https://arxiv.org/abs/2408.14608"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/lazaratan/meta-flow-matching",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/lazaratan/meta-flow-matching"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "foundation-cell-model-benchmark",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Foundation Model",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Shows a train-mean baseline rivals fine-tuned scGPT and scFoundation for post-perturbation expression prediction.",
+      "sources": [
+        "https://doi.org/10.1186/s12864-025-11600-2",
+        "https://api.crossref.org/works/10.1186/s12864-025-11600-2"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/turbine-ai/PerturbSeqPredBenchmark",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/turbine-ai/PerturbSeqPredBenchmark"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "scdebart",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Pretraining on 6.28M log-fold-change profiles conditioned on basal expression; strong reverse-perturbation identification.",
+      "sources": [
+        "https://icml.cc/virtual/2026/poster/61521"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "adapert",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Sparse perturbation-specific knowledge subgraphs that counter mean collapse in genetic perturbation response prediction.",
+      "sources": [
+        "https://icml.cc/virtual/2026/poster/63076",
+        "https://arxiv.org/abs/2602.18885"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "cure-tbdd",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Intervention Design",
+        "Perturbation",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Generates molecules conditioned on a desired transcriptomic change, i.e. inverse design from target cell state to compound.",
+      "sources": [
+        "https://icml.cc/virtual/2026/poster/66023"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/EdwardCurry/CURE_TBDD",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/EdwardCurry/CURE_TBDD",
+        "https://icml.cc/virtual/2026/poster/66023"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "aroma",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Perturbation",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Fuses text, regulatory-graph and protein-sequence evidence for interpretable virtual-cell genetic perturbation prediction; releases PerturbReason.",
+      "sources": [
+        "https://arxiv.org/abs/2604.20263"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/blazerye/AROMA",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/blazerye/AROMA"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "multiflow",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Coupled RNA-ATAC flow matching for multiomic perturbation responses in unseen cellular contexts.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.20.746112",
+        "https://api.crossref.org/works/10.64898/2026.08.20.746112"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/liuq-lab/MultiFlow",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/liuq-lab/MultiFlow"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "drift",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Disentangles invariant and responsive latents and applies conditional flow matching only to the responsive component.",
+      "sources": [
+        "https://arxiv.org/abs/2609.35106"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scegflow",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Morphology"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Conditional flow matching with condition-specific energy guidance at inference, evaluated on imaging and transcriptomic perturbations.",
+      "sources": [
+        "https://arxiv.org/abs/2610.02232"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "cifm",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Spatial",
+        "Foundation Model",
+        "Perturbation",
+        "Intervention Design"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Cell Interaction Foundation Model: a geometric GNN virtual tissue that forward-simulates therapy responses from a spatial seed for computational design.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.12.743536",
+        "https://api.crossref.org/works/10.64898/2026.08.12.743536"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "primeflow",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "End-to-end flow matching in gene-expression space for genetic and small-molecule perturbations, benchmarked in PerturBench.",
+      "sources": [
+        "https://arxiv.org/abs/2604.13986"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scdrugperturb-bench",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Evaluation & Measurement",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "181 datasets with literature-curated key-gene evidence and a Mechanism Fidelity Score; expression similarity aligns weakly with mechanism fidelity.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.19.745729",
+        "https://api.crossref.org/works/10.64898/2026.08.19.745729"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "intervention-geometry",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Evaluation & Measurement",
+        "Perturbation",
+        "Virtual Cell"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "High state-level similarity can coexist with collapse of between-perturbation geometry for unseen interventions.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.21.746243",
+        "https://api.crossref.org/works/10.64898/2026.08.21.746243"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "calibrated-metrics",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Evaluation & Measurement",
+        "Benchmark",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Positive-control baseline and metric-calibration framework across 14 datasets and 18 metrics; under calibrated metrics, deep genetic perturbation models outperform uninformative baselines.",
+      "sources": [
+        "https://www.nature.com/articles/s41587-026-03307-w",
+        "https://api.crossref.org/works/10.1038/s41587-026-03307-w"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "schmidt-tcell-challenge",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Perturbation",
+        "Intervention Design"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Results of a community challenge predicting held-out T-cell knockouts from in vivo Perturb-seq, with proposed perturbations tested in vivo.",
+      "sources": [
+        "https://doi.org/10.64898/2026.05.21.726863",
+        "https://api.crossref.org/works/10.64898/2026.05.21.726863"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scfm-zero-shot-evaluation",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Evaluation & Measurement",
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Zero-shot Geneformer and scGPT embeddings are often outperformed by simpler methods.",
+      "sources": [
+        "https://doi.org/10.1186/s13059-025-03574-x",
+        "https://doi.org/10.1101/2023.10.16.561085",
+        "https://api.crossref.org/works/10.1186/s13059-025-03574-x"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/microsoft/zero-shot-scfoundation",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/microsoft/zero-shot-scfoundation"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "scbert-deeper-evaluation",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Evaluation & Measurement",
+        "Foundation Model",
+        "Benchmark"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Logistic regression matches scBERT on annotation and removing pretraining barely changes performance.",
+      "sources": [
+        "https://www.nature.com/articles/s42256-024-00949-w",
+        "https://doi.org/10.1101/2023.10.19.563100",
+        "https://api.crossref.org/works/10.1038/s42256-024-00949-w"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/clinicalml/sc-foundation-eval",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/clinicalml/sc-foundation-eval",
+        "https://www.nature.com/articles/s42256-024-00949-w",
+        "https://doi.org/10.1101/2023.10.19.563100"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "novae",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Spatial",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Graph-based spatial foundation model producing cell-in-context representations and zero-shot spatial domains across slides.",
+      "sources": [
+        "https://www.nature.com/articles/s41592-025-02899-6",
+        "https://doi.org/10.1101/2024.09.09.612009",
+        "https://api.crossref.org/works/10.1038/s41592-025-02899-6"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/prism-oncology/novae",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/prism-oncology/novae",
+        "https://www.nature.com/articles/s41592-025-02899-6",
+        "https://doi.org/10.1101/2024.09.09.612009"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "alphagenome",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Gene Regulation",
+        "Multimodal",
+        "Related"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Unified DNA sequence-to-function model predicting cell-type-specific regulatory tracks and variant effects.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-025-10014-0",
+        "https://doi.org/10.1101/2025.06.25.661532",
+        "https://api.crossref.org/works/10.1038/s41586-025-10014-0"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/google-deepmind/alphagenome_research",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/google-deepmind/alphagenome_research"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scooby",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Gene Regulation",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Sequence-to-function model predicting single-cell RNA coverage and ATAC insertions from DNA.",
+      "sources": [
+        "https://www.nature.com/articles/s41592-025-02854-5",
+        "https://doi.org/10.1101/2024.09.19.613754",
+        "https://api.crossref.org/works/10.1038/s41592-025-02854-5"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/gagneurlab/scooby",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/gagneurlab/scooby"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "phenom-1",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Morphology",
+        "Representation Learning",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Scaled ViT masked autoencoders on perturbation microscopy recover known biological relationships better than weakly supervised models.",
+      "sources": [
+        "https://doi.org/10.1109/CVPR52733.2024.01117",
+        "https://arxiv.org/abs/2404.10242",
+        "https://api.crossref.org/works/10.1109/CVPR52733.2024.01117"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/recursionpharma/maes_microscopy",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/recursionpharma/maes_microscopy"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "vitally-consistent",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Morphology",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "1.9B-parameter microscopy MAE; layer probing for biologically consistent genetic and chemical perturbation representations.",
+      "sources": [
+        "https://proceedings.mlr.press/v267/kenyon-dean25a.html",
+        "https://arxiv.org/abs/2411.02572"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/recursionpharma/maes_microscopy",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/recursionpharma/maes_microscopy"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "molphenix",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Morphology",
+        "Multimodal",
+        "Representation Learning",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Contrastive joint space of molecules and phenomics embeddings for zero-shot molecule retrieval from cell phenotypes.",
+      "sources": [
+        "https://doi.org/10.52202/079017-3513",
+        "https://arxiv.org/abs/2409.08302",
+        "https://api.crossref.org/works/10.52202/079017-3513"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "cell-dino",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Morphology",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "DINOv2-based self-supervised embeddings for fluorescent cell microscopy (HPA, Cell Painting).",
+      "sources": [
+        "https://doi.org/10.1371/journal.pcbi.1013828",
+        "https://api.crossref.org/works/10.1371/journal.pcbi.1013828"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/facebookresearch/dinov2",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/facebookresearch/dinov2"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "sccello",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Transcriptome foundation model with cell-ontology coherence and alignment objectives.",
+      "sources": [
+        "https://doi.org/10.52202/079017-0204",
+        "https://arxiv.org/abs/2408.12373",
+        "https://api.crossref.org/works/10.52202/079017-0204"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/DeepGraphLearning/scCello",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/DeepGraphLearning/scCello"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "chromfound",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Gene Regulation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "scATAC-seq foundation model with zero-shot cell representations and enhancer-gene link discovery.",
+      "sources": [
+        "https://papers.nips.cc/paper_files/paper/2025/hash/6f4c216895c2c424ee328fcdde9cc314-Abstract-Conference.html",
+        "https://arxiv.org/abs/2505.12638"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/SAIS-LifeScience/ChromFound",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/SAIS-LifeScience/ChromFound"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "chrombert",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Gene Regulation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Pretrained on regulator ChIP-seq to learn context-specific transcriptional regulatory network representations.",
+      "sources": [
+        "https://doi.org/10.1016/j.xgen.2025.101130",
+        "https://doi.org/10.1101/2025.03.29.646077",
+        "https://api.crossref.org/works/10.1016/j.xgen.2025.101130"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/TongjiZhanglab/ChromBERT",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/TongjiZhanglab/ChromBERT"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "ghist",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Spatial",
+        "Morphology",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Predicts single-cell spatial gene expression from H&E using subcellular spatial transcriptomics supervision.",
+      "sources": [
+        "https://www.nature.com/articles/s41592-025-02795-z",
+        "https://doi.org/10.1101/2024.07.02.601790",
+        "https://api.crossref.org/works/10.1038/s41592-025-02795-z"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/SydneyBioX/GHIST",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/SydneyBioX/GHIST"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "gigatime",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Spatial",
+        "Protein",
+        "Morphology",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Translates H&E into virtual multiplex immunofluorescence and builds a virtual spatial-proteomics population.",
+      "sources": [
+        "https://doi.org/10.1016/j.cell.2025.11.016",
+        "https://api.crossref.org/works/10.1016/j.cell.2025.11.016"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/prov-gigatime/GigaTIME",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/prov-gigatime/GigaTIME"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "pups",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Protein",
+        "Morphology",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Protein language model plus image inpainting predicts single-cell localization of unseen proteins in unseen cell lines.",
+      "sources": [
+        "https://www.nature.com/articles/s41592-025-02696-1",
+        "https://doi.org/10.1101/2024.07.25.605178",
+        "https://api.crossref.org/works/10.1038/s41592-025-02696-1"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/uhlerlab/PUPS",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/uhlerlab/PUPS"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "maxtoki",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Dynamics",
+        "Perturbation",
+        "Intervention Design"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Temporal foundation model of lifespan cell-state trajectories that nominates age-modulating targets.",
+      "sources": [
+        "https://doi.org/10.64898/2026.03.30.715396",
+        "https://api.crossref.org/works/10.64898/2026.03.30.715396"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/NVIDIA/maxToki",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/NVIDIA/maxToki"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "cellmsa",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Single-cell foundation model that models context across cells, batches and cell types (accepted at NeurIPS 2026 per arXiv).",
+      "sources": [
+        "https://arxiv.org/abs/2609.38908"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/PharMolix/CellMSA",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/PharMolix/CellMSA",
+        "https://arxiv.org/abs/2609.38908"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "aido-cell",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Dense-transformer cell foundation models with full-transcriptome context; cell module of GenBio's AI-driven digital organism.",
+      "sources": [
+        "https://doi.org/10.1101/2024.11.28.625303",
+        "https://api.crossref.org/works/10.1101/2024.11.28.625303"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/genbio-ai/AIDO",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/genbio-ai/AIDO",
+        "https://doi.org/10.1101/2024.11.28.625303"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scmulan",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Multitask generative cell language model encoding expression and metadata as cell sentences.",
+      "sources": [
+        "https://doi.org/10.1007/978-1-0716-3989-4_57",
+        "https://doi.org/10.1101/2024.01.25.577152",
+        "https://api.crossref.org/works/10.1007/978-1-0716-3989-4_57"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/SuperBianC/scMulan",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/SuperBianC/scMulan"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "scelmo",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "LLM text embeddings of gene and cell descriptions as lightweight cell representations.",
+      "sources": [
+        "https://doi.org/10.1016/j.patter.2025.101431",
+        "https://doi.org/10.1101/2023.12.07.569910",
+        "https://api.crossref.org/works/10.1016/j.patter.2025.101431"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/HelloWorldLTY/scELMo",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/HelloWorldLTY/scELMo"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "kronos",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Spatial",
+        "Protein",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Self-supervised foundation model for multiplex spatial proteomics across markers, tissues and platforms.",
+      "sources": [
+        "https://arxiv.org/abs/2506.03373"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/mahmoodlab/KRONOS",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/mahmoodlab/KRONOS",
+        "https://arxiv.org/abs/2506.03373"
+      ],
+      "code_note": "The paper or an associated primary source directly links the listed implementation.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "squall",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Spatial",
+        "Multimodal",
+        "Morphology"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Histology-transcriptomics foundation model pretrained on 1.93B aligned spots for virtual spatial transcriptomics.",
+      "sources": [
+        "https://doi.org/10.64898/2026.06.01.729028",
+        "https://api.crossref.org/works/10.64898/2026.06.01.729028"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "omicsfm",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Protein",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Masked-abundance proteomics foundation model trained on 48,837 PRIDE profiles.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.25.747021",
+        "https://api.crossref.org/works/10.64898/2026.08.25.747021"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "cross-modal-proteomics-pretraining",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Protein",
+        "Multimodal",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Continued pretraining of a small Tahoe-x1 on proteomics matches or beats much larger RNA-only models.",
+      "sources": [
+        "https://doi.org/10.64898/2026.08.14.744845",
+        "https://api.crossref.org/works/10.64898/2026.08.14.744845"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "biomicroscopyprofiler",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Morphology",
+        "Multimodal",
+        "Representation Learning",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Transcriptomics-guided Cell Painting/RxRx representations improving transfer to unseen interventions (CVPR 2026 per arXiv).",
+      "sources": [
+        "https://arxiv.org/abs/2604.22832"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/The-Real-JerryChen/BioMicroscopyProfiler",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/The-Real-JerryChen/BioMicroscopyProfiler"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "txfm",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Masked-autoencoding transcriptomic foundation model with inductive evaluation against raw-count baselines.",
+      "sources": [
+        "https://arxiv.org/abs/2605.31562"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/recursionpharma/opentxfm",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/recursionpharma/opentxfm"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "perturboagent",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Perturbation",
+        "Intervention Design"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Self-planning LLM agent selecting gene panels for sequential Perturb-seq rounds.",
+      "sources": [
+        "https://proceedings.mlr.press/v311/hao25b.html",
+        "https://doi.org/10.1101/2025.05.25.656020"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "assaybench",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Benchmark",
+        "Virtual Cell",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "In-silico phenotypic-screening benchmark from 1,920 public CRISPR screens for LLMs and agents.",
+      "sources": [
+        "https://arxiv.org/abs/2605.10876"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/Genentech/AssayBench",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Genentech/AssayBench"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "gptcelltype",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "First systematic test of a general LLM annotating cell types from marker genes.",
+      "sources": [
+        "https://www.nature.com/articles/s41592-024-02235-4",
+        "https://doi.org/10.1101/2023.04.16.537094",
+        "https://api.crossref.org/works/10.1038/s41592-024-02235-4"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/Winnie09/GPTCelltype",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/Winnie09/GPTCelltype"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "cellverse",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Benchmark",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "QA benchmark on cell annotation, drug response and perturbation analysis; no LLM meaningfully beats chance on drug response.",
+      "sources": [
+        "https://neurips.cc/virtual/2025/poster/121757",
+        "https://arxiv.org/abs/2505.07865"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "cellagent",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Tool"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Hierarchical LLM multi-agent system for end-to-end natural-language single-cell analysis.",
+      "sources": [
+        "https://doi.org/10.1101/2024.05.13.593861",
+        "https://api.crossref.org/works/10.1101/2024.05.13.593861"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "virtual-lab",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Protein",
+        "Related"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Multi-agent AI scientist that designed wet-lab-validated nanobodies; adjacent to cell-state modeling.",
+      "sources": [
+        "https://www.nature.com/articles/s41586-025-09442-9",
+        "https://doi.org/10.1101/2024.11.11.623004",
+        "https://api.crossref.org/works/10.1038/s41586-025-09442-9"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/zou-group/virtual-lab",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/zou-group/virtual-lab"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "llms-meet-virtual-cell",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Review",
+        "Agent",
+        "Virtual Cell"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Survey organizing LLMs for virtual cells into oracle and agent roles across representation, perturbation and GRN tasks.",
+      "sources": [
+        "https://arxiv.org/abs/2510.07706"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "human-cytokine-dictionary",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Dataset",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Describes the ~10M-cell, 12-donor, 90-cytokine human PBMC perturbation dataset used to train virtual-cell models.",
+      "sources": [
+        "https://doi.org/10.64898/2025.12.12.693897",
+        "https://api.crossref.org/works/10.64898/2025.12.12.693897"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "data_only",
+      "code_sources": [],
+      "code_note": "Only a data resource is linked; no implementation is claimed.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "ipsc-crispri-atlas",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Dataset",
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Expressed-genome CRISPRi Perturbation Cell Atlas mapping transcriptional and fitness phenotypes of 11,739 targeted genes in KOLF2.1J iPSCs.",
+      "sources": [
+        "https://www.nature.com/articles/s41587-026-03199-w",
+        "https://doi.org/10.1101/2024.11.03.621734",
+        "https://api.crossref.org/works/10.1038/s41587-026-03199-w"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas"
+      ],
+      "code_note": "The repository README cites or names this paper.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "in-vivo-brain-perturb-seq",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Dataset",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "In vivo Perturb-seq of 1,947 disease genes across >7.7M mouse brain cells.",
+      "sources": [
+        "https://doi.org/10.64898/2026.03.16.711480",
+        "https://api.crossref.org/works/10.64898/2026.03.16.711480"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "spac-seq",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Dataset",
+        "Spatial",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "CRISPR screening read out with whole-transcriptome spatial profiling on the same tissue section.",
+      "sources": [
+        "https://doi.org/10.1016/j.cell.2026.04.049",
+        "https://api.crossref.org/works/10.1016/j.cell.2026.04.049"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "open-problems",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Evaluation & Measurement",
+        "Tool"
+      ],
+      "tag_basis": "project_documentation",
+      "tag_rationale": "Living community benchmarking platform hosting the NeurIPS 2021-2023 competitions and the perturbation-prediction task.",
+      "sources": [
+        "https://www.nature.com/articles/s41587-025-02694-w",
+        "https://api.crossref.org/works/10.1038/s41587-025-02694-w"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/openproblems-bio/openproblems",
+      "code_status": "project_match",
+      "code_sources": [
+        "https://github.com/openproblems-bio/openproblems"
+      ],
+      "code_note": "Repository project description and implementation scope match the catalog project; an exact paper citation was not found in the inspected README.",
+      "repository_http_status": 200,
+      "repository_readme_status": null
+    },
+    {
+      "id": "4d-minimal-cell",
+      "reviewed_at": "2026-10-13",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Dynamics"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Spatially resolved kinetic whole-cell model of JCVI-syn3A through a full cell cycle; mechanistic virtual-cell lineage.",
+      "sources": [
+        "https://doi.org/10.1016/j.cell.2026.02.009",
+        "https://api.crossref.org/works/10.1016/j.cell.2026.02.009"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
       "repository_http_status": null,
       "repository_readme_status": null
     }

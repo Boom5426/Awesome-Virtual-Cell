@@ -12,7 +12,7 @@ class CurationTests(unittest.TestCase):
     def setUpClass(cls):
         cls.papers=json.loads((ROOT/'data/papers.json').read_text(encoding='utf-8'))['papers']
         cls.by_id={p['id']:p for p in cls.papers}
-        cls.taxonomy=json.loads((ROOT/'config/taxonomy.json').read_text())['tags']
+        cls.taxonomy=json.loads((ROOT/'config/taxonomy.json').read_text(encoding="utf-8"))['tags']
 
     def test_every_paper_has_unique_controlled_tags(self):
         self.assertEqual(len(self.by_id),len(self.papers))
@@ -53,7 +53,7 @@ class CurationTests(unittest.TestCase):
         self.assertIn('cantinilab/scPRINT',self.by_id['scprint']['code_url'])
 
     def test_every_curated_record_has_evidence_receipt(self):
-        entries=json.loads((ROOT/'data/curation/2026-09-26.json').read_text())['records']
+        entries=json.loads((ROOT/'data/curation/2026-09-26.json').read_text(encoding="utf-8"))['records']
         self.assertEqual({p['id'] for p in entries},set(self.by_id))
         for d in entries:
             self.assertTrue(d['tag_rationale'],d['id'])
@@ -86,8 +86,8 @@ class CurationTests(unittest.TestCase):
 
 
     def test_facets_are_evidence_backed(self):
-        cfg=json.loads((ROOT/'config/facets.json').read_text())['dimensions']
-        receipts={r['id']:r for r in json.loads((ROOT/'data/curation/2026-09-26.json').read_text())['records']}
+        cfg=json.loads((ROOT/'config/facets.json').read_text(encoding="utf-8"))['dimensions']
+        receipts={r['id']:r for r in json.loads((ROOT/'data/curation/2026-09-26.json').read_text(encoding="utf-8"))['records']}
         for p in self.papers:
             self.assertEqual(set(p['facets']),set(cfg),p['id'])
             self.assertEqual(p['facet_review_basis'],receipts[p['id']]['tag_basis'],p['id'])
@@ -103,7 +103,7 @@ class CurationTests(unittest.TestCase):
         basis=Counter(p['facet_review_basis'] for p in self.papers)
         for label,key in [('abstract-reviewed','abstract'),('project-documentation-reviewed','project_documentation'),('title/metadata-only provisional','title_and_metadata')]:
             self.assertIn(f'**{basis[key]} {label}**',doc)
-        for dimension in json.loads((ROOT/'config/facets.json').read_text())['dimensions']:
+        for dimension in json.loads((ROOT/'config/facets.json').read_text(encoding="utf-8"))['dimensions']:
             section=doc.split(f'### {dimension}\n',1)[1].split('\n### ',1)[0]
             documented=dict((name,int(count)) for name,count in re.findall(r'^- (.+): (\d+)$',section,re.M))
             actual=Counter(value for p in self.papers for value in p['facets'][dimension])
