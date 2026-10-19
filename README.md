@@ -362,7 +362,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[scCycleMol]** `[Perturbation]` Modeling Cell-Cycle-Aware Single-Cell Drug Perturbation Responses (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2606.30695)]
 
-- **[GenPerturb]** `[Perturbation]` `[Gene Regulation]` GenPerturb: sequence-grounded interpretation of perturbation transcriptomes using pretrained genomic models (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.01.735806)] [[code](https://github.com/rikenbit/GenPerturb)] ![GitHub stars](https://img.shields.io/github/stars/rikenbit/GenPerturb.svg?logo=github&label=Stars)
+- **[GenPerturb]** `[Perturbation]` `[Gene Regulation]` GenPerturb: sequence-grounded interpretation of perturbation transcriptomes using pretrained genomic models (**BMC Bioinformatics 2026**) [[paper](https://doi.org/10.1186/s12859-026-06689-5)] [[preprint](https://doi.org/10.64898/2026.07.01.735806)] [[code](https://github.com/rikenbit/GenPerturb)] ![GitHub stars](https://img.shields.io/github/stars/rikenbit/GenPerturb.svg?logo=github&label=Stars)
 
 - **[U-Pert]** `[Perturbation]` `[Dynamics]` `[Intervention Design]` Unbalanced Perturbation Dynamics For Cell Fate Design (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.06.30.735555)] [[code](https://github.com/QiangweiPeng/UPT)] ![GitHub stars](https://img.shields.io/github/stars/QiangweiPeng/UPT.svg?logo=github&label=Stars)
 

@@ -8440,19 +8440,19 @@
       "label": "GenPerturb",
       "title": "GenPerturb: sequence-grounded interpretation of perturbation transcriptomes using pretrained genomic models",
       "year": 2026,
-      "venue": "bioRxiv",
-      "status": "preprint",
+      "venue": "BMC Bioinformatics",
+      "status": "published",
       "tags": [
         "Perturbation",
         "Gene Regulation"
       ],
-      "doi": "10.64898/2026.07.01.735806",
-      "paper_url": null,
+      "doi": "10.1186/s12859-026-06689-5",
+      "paper_url": "https://doi.org/10.1186/s12859-026-06689-5",
       "preprint_url": "https://doi.org/10.64898/2026.07.01.735806",
       "code_url": "https://github.com/rikenbit/GenPerturb",
       "links": [],
       "added_at": null,
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-10-19",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/rikenbit/GenPerturb"
