@@ -51,7 +51,8 @@ class CodeMetadataTests(unittest.TestCase):
             self.assertEqual(by[key]['code_status'],status,key)
         for key in ['deepscenic','vcharness','cellens','cellpb','gremln']:
             self.assertIn(by[key]['code_status'],{'paper_linked','repository_linked'},key)
-        self.assertEqual(by['spaceland']['code_status'],'project_match')
+        self.assertEqual(by['spaceland']['code_status'],'not_found')  # repository deleted upstream; re-checked 2026-10-27
+        self.assertIsNone(by['spaceland']['code_url'])
         self.assertEqual(by['squint']['code_status'],'project_match')
         self.assertIsNone(by['sccyclemol']['code_url'])
         self.assertEqual(by['crispri-map']['doi'],'10.1016/j.xgen.2025.101076')
