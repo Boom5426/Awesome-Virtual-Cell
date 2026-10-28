@@ -1,19 +1,26 @@
 #!/usr/bin/env python3
-"""Render all research papers from the structured catalog; preserve year anchors."""
+"""Render research papers and live challenges from structured data; preserve year anchors."""
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "papers.json"
+CHALLENGES = ROOT / "data" / "challenges.json"
 README = ROOT / "README.md"
 START = "<!-- GENERATED:RESEARCH-PAPERS:START -->"
 END = "<!-- GENERATED:RESEARCH-PAPERS:END -->"
+CH_START = "<!-- GENERATED:LIVE-CHALLENGES:START -->"
+CH_END = "<!-- GENERATED:LIVE-CHALLENGES:END -->"
 RECENT_VISIBLE = 10
+MONTHS = ("January", "February", "March", "April", "May", "June", "July",
+          "August", "September", "October", "November", "December")
 
 
 def load_papers() -> list[dict]:
@@ -85,12 +92,56 @@ def render(papers: list[dict]) -> str:
     return "\n".join(chunks).rstrip() + "\n"
 
 
+def load_challenges() -> dict:
+    payload = json.loads(CHALLENGES.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != 1:
+        raise SystemExit("Expected data/challenges.json schema_version=1")
+    return payload
+
+
+def render_challenges(payload: dict) -> str:
+    rows = payload["challenges"]
+    if not rows:
+        return "**Live challenges**: none open right now.\n"
+    oldest = min(date.fromisoformat(c["checked_on"]) for c in rows)
+    lines = [f"**Live challenges** (dates as published by the organizers, checked on "
+             f"{oldest.day} {MONTHS[oldest.month - 1]} {oldest.year})", "",
+             "| Challenge | Phase now | Next milestone | Final call |", "| --- | --- | --- | --- |"]
+    for c in rows:
+        lines.append(f"| [{c['name']}]({c['anchor']}) | {c['phase_now']} | {c['next_milestone']} | {c['final_call']} |")
+    return "\n".join(lines) + "\n"
+
+
+def challenge_warnings(payload: dict, today: date) -> list[str]:
+    """Staleness notes for the live-challenges table; they warn and never fail a build."""
+    notes: list[str] = []
+    for c in payload["challenges"]:
+        checked = date.fromisoformat(c["checked_on"])
+        milestones = [(date.fromisoformat(m["date"]), m["label"]) for m in c["milestones"]]
+        if milestones and max(when for when, _ in milestones) < today:
+            notes.append(f"{c['name']}: its last milestone has passed; move it to the update log "
+                         "and remove it from data/challenges.json")
+            continue
+        age = (today - checked).days
+        if age > payload["stale_after_days"]:
+            notes.append(f"{c['name']}: last checked {checked} ({age} days ago); re-check {', '.join(c['sources'])}")
+        for when, label in milestones:
+            if checked < when <= today:
+                notes.append(f"{c['name']}: milestone '{label}' on {when} passed after the check on {checked}; "
+                             "update the row")
+    return notes
+
+
+def replace_block(current: str, start: str, end: str, generated: str, name: str) -> str:
+    if start not in current or end not in current:
+        raise SystemExit(f"Generated {name} markers are missing from README.md")
+    before, rest = current.split(start, 1)
+    _, after = rest.split(end, 1)
+    return before + start + "\n\n" + generated + "\n" + end + after
+
+
 def updated_readme(current: str, generated: str) -> str:
-    if START not in current or END not in current:
-        raise SystemExit("Generated Research Papers markers are missing from README.md")
-    before, rest = current.split(START, 1)
-    _, after = rest.split(END, 1)
-    return before + START + "\n\n" + generated + "\n" + END + after
+    return replace_block(current, START, END, generated, "Research Papers")
 
 
 def main() -> int:
@@ -98,15 +149,20 @@ def main() -> int:
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
     current = README.read_text(encoding="utf-8")
+    challenges = load_challenges()
     target = updated_readme(current, render(load_papers()))
+    target = replace_block(target, CH_START, CH_END, render_challenges(challenges), "Live Challenges")
+    prefix = "::warning::" if os.environ.get("GITHUB_ACTIONS") == "true" else "WARN: "
+    for note in challenge_warnings(challenges, date.today()):
+        print(prefix + "Live challenges: " + note)
     if args.check:
         if current != target:
             print("README.md is out of date. Run: python scripts/build_readme.py")
             return 1
-        print("README.md is synchronized with data/papers.json")
+        print("README.md is synchronized with data/papers.json and data/challenges.json")
         return 0
     README.write_text(target, encoding="utf-8")
-    print("Updated README.md from data/papers.json")
+    print("Updated README.md from data/papers.json and data/challenges.json")
     return 0
 
 

@@ -48,6 +48,53 @@ Start with the **bold entry** in your track, then compare the other examples. Th
 | 🎯 **Intervention design** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [LabCompass](https://doi.org/10.64898/2026.10.07.756550) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED) |
 | 📏 **Evaluation & measurement** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) |
 
+<a id="news"></a>
+## 📰 Latest Updates
+
+Deadlines for the live competitions first, then a dated log of what changed in this list. Competition entries move into the log once they close.
+
+<!-- GENERATED:LIVE-CHALLENGES:START -->
+
+**Live challenges** (dates as published by the organizers, checked on 27 October 2026)
+
+| Challenge | Phase now | Next milestone | Final call |
+| --- | --- | --- | --- |
+| [Virtual Embryo Challenge (NeurIPS 2026)](#virtual-embryo-challenge-neurips-2026) | P3 test phase from 27 Oct 2026, 09:00 PDT (16:00 UTC), a week later than first scheduled: the default leaderboard switches to Test, P2 standings freeze, and eligible teams can request the P2 validation answers | Final submissions due 2 Dec 2026; official evaluation on the hidden test sets starts 4 Dec 2026 | Winners announced 11 Dec 2026 at NeurIPS |
+| [Virtual Cell Challenge 2026 (Arc Institute)](#2nd-edition-2026) | Final phase since 22 Oct 2026: the final test set (`controls-final`, contexts D–F, a new 300-perturbation CRISPRi panel) is out, the validation leaderboard no longer takes entries, and final-entry scores stay hidden | Final submissions due 5 Nov 2026, 23:59 UTC (`vcc` CLI 0.3.0 or newer) | Winners and the final leaderboard announced late Nov 2026 |
+
+<!-- GENERATED:LIVE-CHALLENGES:END -->
+
+**Updates**
+
+- `2026-10-27` Literature sweep across bioRxiv, arXiv, Europe PMC and the NeurIPS, ICML, ICLR and CVPR 2026 accepted lists (about 14,000 records screened): expanded the catalog from 396 to 551 papers with 155 source-checked additions, each with abstract-based tags and facets and a code-link receipt. New entries include 28 NeurIPS 2026 papers (among them MapPFN, MorphoHELM, Chem-PerturBridge, spora, PhenoAIR, CytoWave and scTrilemma), 38 journal papers (D-SPIN, RNA fingerprinting, SPARCS and a whole-cell digital twin in *Cell*, plus DynaVelo, STORIES, CauTrigger, SCIGMA, CP-POSH and scDiffusion-X), and a cluster of perturbation-evaluation studies (pseudoreplication in pooled screens, CRISPR escape dilution, shared-control score inflation, cell-level split leakage, cause-excluded evaluation, InverseBench and AmbiModBench). Upgraded nine preprints to their published versions: CellMSA, STRAND and PerturbReason (NeurIPS 2026), PerturbDiff, scBIG and Perturbation Representation (ICML 2026), CellAgent (ICLR 2026), BioMicroscopyProfiler (CVPR 2026) and GenPerturb (BMC Bioinformatics). Also refreshed CellForge's retitled preprint, removed two dead links, updated the Live challenges table (the Virtual Embryo test phase moved to 27 October and VCC 2026 is in its final phase), and added the Biohub Virtual Biology Initiative announcement to Reports and Blogs.
+- `2026-10-26` Added an open community baseline with code for the Virtual Cell Challenge 2026 (zero-shot-perturbation) (community PR).
+- `2026-10-13` Literature audit and refresh: expanded the catalog from 329 to 396 papers with 67 independently re-verified additions (perturbation benchmarks such as PEREGGRN, PertEval-scFM, OP3 and the Science Advances comparison; biolord, PrePR-CT, CellCap and scCausalVI; agents including BioDiscoveryAgent, PerTurboAgent and AssayBench; foundation models including Novae, AlphaGenome, scooby, Phenom-1, ChromFound and PUPS; and new perturbation atlases). Fixed two wrong DOIs (PhenoProfiler, Conformation Description Language), added missing DOIs, upgraded Latent Causal Processes (KDD 2026) and Stable-Shift (ACM BCB 2026), corrected statuses, titles and venues, and pointed Geneformer to its official repository. Refreshed both challenge sections with the published VCC 2026 metrics, data and *Cell* paper and the updated Virtual Embryo prize pool; added Earlier Community Challenges and nine foundational works (scVI, scGen, CPA, chemCPA, CellOracle, scBERT, Perturb-seq). Restored green CI and made the facet documentation generated.
+- `2026-10-10` Added LabCompass to Research Papers and Intervention Design reading tracks, with official code, reproducibility workflows, data, and synchronized catalog exports.
+- `2026-10-02` Expanded the structured catalog from 285 to 327 papers with 42 source-checked additions, covering late-September preprints, missed 2026 peer-reviewed methods, and foundation-model/perturbation evaluation work; refreshed the English and Chinese Start Here recommendations with seven question-led tracks and explicit preprint/manuscript labels; synchronized the catalog, landscape, CSV, and BibTeX exports.
+
+<details>
+<summary>Earlier updates</summary>
+
+- `2026-10-01` Added two perturbation atlases to Datasets: genome-scale Perturb-seq in primary human CD4+ T cells (Cell 2026) and the HepG2/Jurkat essential-gene screens with TRADE (Nature Genetics 2025); updated the Virtual Cell Challenge 2026 dates from the organizers' page.
+- `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.
+- `2026-09-26` Expanded Intervention Design with VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, and NUDGE; CellNavi remains a core existing entry.
+- `2026-09-26` Restored the full Research Papers list; reviewed all 275 records for multi-label topics and repository correspondence, with source-linked curation notes.
+- `2026-09-25` September literature sweep: added Speciesformer, PHAROS, LucaCell, DeepSCENIC, scKITE, scRep, AnnFlux, new Cell world-model papers, the Virtual Cell Challenge 2026 paper, and the TIPS review; upgraded ProteinTalks to Nature 2026 and STATE, Tahoe-100M, and scBaseCount to their Cell 2026 publications.
+- `2026-08-21` Added the Virtual Embryo Challenge (NeurIPS 2026), grouped both competitions under [Challenges and Competitions](#challenges-and-competitions), and started this News log.
+- `2026-08-17` Added World Model and JEPA papers, refreshed preprint links, corrected stale venue labels.
+- `2026-08-10` Added the Virtual Cell Challenge section covering both Arc editions.
+- `2026-08-09` Added single-cell and protein papers, including scTranslator, CAPTAIN, and scPROTEIN.
+- `2026-07-16` Added TCGA and HEST Xenium virtual spatial transcriptomics datasets (community PR).
+- `2026-07-14` Added DeepSpot2Cell (NeurIPS 2025) (community PR).
+- `2026-07-06` Added 27 new 2026 papers from a May to July literature sweep.
+- `2026-07-04` Added DeSCOPE (community PR).
+- `2026-06-22` Added 2026 papers and missing code links.
+- `2026-05-28` Expanded the Datasets section and added recent virtual cell papers.
+- `2026-05-13` Added the automated literature update workflow, now manual dispatch only.
+- `2026-03-18` Restructured the README, added the contributing guide, and linked the scientific figures section.
+
+</details>
+
 <a id="research-papers"></a>
 ## 🔬 Research Papers
 
@@ -1149,49 +1196,6 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 - **[Stanford PhD Thesis]** `[Virtual Cell]` `[Perturbation]` `[Intervention Design]` `[Review]` Engineering Cells Using Artificial Intelligence (**Stanford University PhD Thesis 2024**) [[paper](https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf)] [[GitHub Homepage](https://github.com/yhr91)] [[Arc profile](https://arcinstitute.org/news/yusuf-roohani-virtual-cell-architecture)]
 
 <!-- GENERATED:RESEARCH-PAPERS:END -->
-
-<a id="news"></a>
-## 📰 Latest Updates
-
-Deadlines for the live competitions first, then a dated log of what changed in this list. Competition entries move into the log once they close.
-
-**Live challenges** (dates as published by the organizers, checked on 27 October 2026)
-
-| Challenge | Phase now | Next milestone | Final call |
-| --- | --- | --- | --- |
-| [Virtual Embryo Challenge (NeurIPS 2026)](#virtual-embryo-challenge-neurips-2026) | P3 test phase from 27 Oct 2026, 09:00 PDT (16:00 UTC), a week later than first scheduled: the default leaderboard switches to Test, P2 standings freeze, and eligible teams can request the P2 validation answers | Final submissions due 2 Dec 2026; official evaluation on the hidden test sets starts 4 Dec 2026 | Winners announced 11 Dec 2026 at NeurIPS |
-| [Virtual Cell Challenge 2026 (Arc Institute)](#2nd-edition-2026) | Final phase since 22 Oct 2026: the final test set (`controls-final`, contexts D–F, a new 300-perturbation CRISPRi panel) is out, the validation leaderboard no longer takes entries, and final-entry scores stay hidden | Final submissions due 5 Nov 2026, 23:59 UTC (`vcc` CLI 0.3.0 or newer) | Winners and the final leaderboard announced late Nov 2026 |
-
-**Updates**
-
-- `2026-10-27` Literature sweep across bioRxiv, arXiv, Europe PMC and the NeurIPS, ICML, ICLR and CVPR 2026 accepted lists (about 14,000 records screened): expanded the catalog from 396 to 551 papers with 155 source-checked additions, each with abstract-based tags and facets and a code-link receipt. New entries include 28 NeurIPS 2026 papers (among them MapPFN, MorphoHELM, Chem-PerturBridge, spora, PhenoAIR, CytoWave and scTrilemma), 38 journal papers (D-SPIN, RNA fingerprinting, SPARCS and a whole-cell digital twin in *Cell*, plus DynaVelo, STORIES, CauTrigger, SCIGMA, CP-POSH and scDiffusion-X), and a cluster of perturbation-evaluation studies (pseudoreplication in pooled screens, CRISPR escape dilution, shared-control score inflation, cell-level split leakage, cause-excluded evaluation, InverseBench and AmbiModBench). Upgraded nine preprints to their published versions: CellMSA, STRAND and PerturbReason (NeurIPS 2026), PerturbDiff, scBIG and Perturbation Representation (ICML 2026), CellAgent (ICLR 2026), BioMicroscopyProfiler (CVPR 2026) and GenPerturb (BMC Bioinformatics). Also refreshed CellForge's retitled preprint, removed two dead links, updated the Live challenges table (the Virtual Embryo test phase moved to 27 October and VCC 2026 is in its final phase), and added the Biohub Virtual Biology Initiative announcement to Reports and Blogs.
-- `2026-10-13` Literature audit and refresh: expanded the catalog from 329 to 396 papers with 67 independently re-verified additions (perturbation benchmarks such as PEREGGRN, PertEval-scFM, OP3 and the Science Advances comparison; biolord, PrePR-CT, CellCap and scCausalVI; agents including BioDiscoveryAgent, PerTurboAgent and AssayBench; foundation models including Novae, AlphaGenome, scooby, Phenom-1, ChromFound and PUPS; and new perturbation atlases). Fixed two wrong DOIs (PhenoProfiler, Conformation Description Language), added missing DOIs, upgraded Latent Causal Processes (KDD 2026) and Stable-Shift (ACM BCB 2026), corrected statuses, titles and venues, and pointed Geneformer to its official repository. Refreshed both challenge sections with the published VCC 2026 metrics, data and *Cell* paper and the updated Virtual Embryo prize pool; added Earlier Community Challenges and nine foundational works (scVI, scGen, CPA, chemCPA, CellOracle, scBERT, Perturb-seq). Restored green CI and made the facet documentation generated.
-- `2026-10-26` Added an open community baseline with code for the Virtual Cell Challenge 2026 (zero-shot-perturbation) (community PR).
-- `2026-10-10` Added LabCompass to Research Papers and Intervention Design reading tracks, with official code, reproducibility workflows, data, and synchronized catalog exports.
-- `2026-10-02` Expanded the structured catalog from 285 to 327 papers with 42 source-checked additions, covering late-September preprints, missed 2026 peer-reviewed methods, and foundation-model/perturbation evaluation work; refreshed the English and Chinese Start Here recommendations with seven question-led tracks and explicit preprint/manuscript labels; synchronized the catalog, landscape, CSV, and BibTeX exports.
-- `2026-10-01` Added two perturbation atlases to Datasets: genome-scale Perturb-seq in primary human CD4+ T cells (Cell 2026) and the HepG2/Jurkat essential-gene screens with TRADE (Nature Genetics 2025); updated the Virtual Cell Challenge 2026 dates from the organizers' page.
-- `2026-09-26` Added Evaluation & Measurement as a distinct branch; reclassified metric/measurement/benchmark-validity studies and added PertResolve, Signal–Bounds–Baselines, metric failure-mode analysis, and in-the-wild VCBench.
-- `2026-09-26` Expanded Intervention Design with VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, and NUDGE; CellNavi remains a core existing entry.
-- `2026-09-26` Restored the full Research Papers list; reviewed all 275 records for multi-label topics and repository correspondence, with source-linked curation notes.
-- `2026-09-25` September literature sweep: added Speciesformer, PHAROS, LucaCell, DeepSCENIC, scKITE, scRep, AnnFlux, new Cell world-model papers, the Virtual Cell Challenge 2026 paper, and the TIPS review; upgraded ProteinTalks to Nature 2026 and STATE, Tahoe-100M, and scBaseCount to their Cell 2026 publications.
-- `2026-08-21` Added the Virtual Embryo Challenge (NeurIPS 2026), grouped both competitions under [Challenges and Competitions](#challenges-and-competitions), and started this News log.
-- `2026-08-17` Added World Model and JEPA papers, refreshed preprint links, corrected stale venue labels.
-- `2026-08-10` Added the Virtual Cell Challenge section covering both Arc editions.
-- `2026-08-09` Added single-cell and protein papers, including scTranslator, CAPTAIN, and scPROTEIN.
-- `2026-07-16` Added TCGA and HEST Xenium virtual spatial transcriptomics datasets (community PR).
-
-<details>
-<summary>Earlier updates</summary>
-
-- `2026-07-14` Added DeepSpot2Cell (NeurIPS 2025) (community PR).
-- `2026-07-06` Added 27 new 2026 papers from a May to July literature sweep.
-- `2026-07-04` Added DeSCOPE (community PR).
-- `2026-06-22` Added 2026 papers and missing code links.
-- `2026-05-28` Expanded the Datasets section and added recent virtual cell papers.
-- `2026-05-13` Added the automated literature update workflow, now manual dispatch only.
-- `2026-03-18` Restructured the README, added the contributing guide, and linked the scientific figures section.
-
-</details>
 
 <a id="contents"></a>
 ## 🧭 Browse the Repository

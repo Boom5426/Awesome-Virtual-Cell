@@ -84,7 +84,7 @@ The workflow deliberately remains manual-dispatch-only until the v2 pipeline has
 
 ## Migration boundary
 
-The structured pipeline currently covers **Research Papers**. Datasets, challenges, reports, videos, and related resources remain Markdown-first and can be migrated incrementally after the paper pipeline is stable.
+The structured pipeline currently covers **Research Papers** and the **Live challenges** table in News. The table is rendered from `data/challenges.json` by `scripts/build_readme.py`, which also prints a warning when a row is older than `stale_after_days`, when a milestone has passed since the last check, or when a competition has ended. Datasets, the challenge write-ups, reports, videos, and related resources remain Markdown-first and can be migrated incrementally after the paper pipeline is stable.
 
 ## Publication watcher
 
