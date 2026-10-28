@@ -1,0 +1,42 @@
+{
+  "description": "Settings for scripts/candidate_digest.py. Queries and keyword patterns are the union of those used in the 2026-10-27 literature sweep. min_keyword_score 2 is the smallest threshold that met the 0.90 recall target in the 2026-10-28 backtest (recall 0.960; score 3 reached 0.879); records at detail_keyword_score or above are listed with an abstract snippet.",
+  "window_days": 7,
+  "min_keyword_score": 2,
+  "detail_keyword_score": 3,
+  "arxiv_query": "abs:\"single-cell\" OR abs:\"single cell\" OR abs:\"scRNA-seq\" OR abs:\"virtual cell\" OR abs:\"virtual cells\" OR abs:\"Perturb-seq\" OR abs:\"spatial transcriptomics\" OR abs:\"spatial transcriptomic\" OR abs:\"spatial omics\" OR abs:\"cell painting\" OR abs:transcriptomic OR abs:transcriptomics OR abs:\"perturbation response\" OR abs:\"cellular perturbation\" OR abs:\"gene perturbation\" OR abs:\"genetic perturbation\" OR abs:\"gene expression\" OR abs:\"cell morphology\" OR abs:\"spatial proteomics\" OR abs:\"multi-omics\" OR abs:\"gene regulatory network\" OR abs:\"CRISPR screen\" OR abs:\"drug response\" OR abs:histopathology OR abs:\"cell state\" OR abs:CRISPR OR cat:q-bio.GN OR cat:q-bio.QM OR cat:q-bio.CB OR cat:q-bio.MN OR cat:q-bio.TO OR cat:q-bio.BM OR (abs:omics AND cat:cs.LG) OR (abs:perturbation AND abs:cell AND cat:cs.LG)",
+  "europepmc_query": "(TITLE_ABS:\"single-cell\" OR TITLE_ABS:\"single cell\" OR TITLE_ABS:\"scRNA-seq\" OR TITLE_ABS:\"spatial transcriptomics\" OR TITLE_ABS:\"spatial transcriptomic\" OR TITLE_ABS:\"spatial omics\" OR TITLE_ABS:\"spatial proteomics\" OR TITLE_ABS:\"cell painting\" OR TITLE_ABS:\"virtual cell\" OR TITLE_ABS:\"Perturb-seq\" OR TITLE_ABS:\"perturbation\" OR TITLE_ABS:\"transcriptomic\" OR TITLE_ABS:\"cell morphology\" OR TITLE_ABS:\"CRISPR screen\") AND (TITLE_ABS:\"deep learning\" OR TITLE_ABS:\"machine learning\" OR TITLE_ABS:\"foundation model\" OR TITLE_ABS:\"transformer\" OR TITLE_ABS:\"generative\" OR TITLE_ABS:\"neural network\" OR TITLE_ABS:\"artificial intelligence\" OR TITLE_ABS:\"language model\" OR TITLE_ABS:\"benchmark\" OR TITLE_ABS:\"diffusion model\" OR TITLE_ABS:\"representation learning\" OR TITLE_ABS:\"self-supervised\" OR TITLE_ABS:\"in silico\" OR TITLE_ABS:\"agent\")",
+  "journal_aliases": {
+    "proceedings of the national academy of sciences of the united states of america": "PNAS"
+  },
+  "keyword_patterns": [
+    "virtual cell",
+    "perturb-?seq",
+    "perturbation (response|effect|prediction|model)",
+    "(genetic|chemical|drug|gene|crispr|cellular|transcriptional) perturbation",
+    "in silico perturbation",
+    "foundation model",
+    "cell painting",
+    "morpholog(ical|y) profil",
+    "world model",
+    "single-cell (language|foundation|large)",
+    "scgpt|geneformer|scfoundation|state model|transcriptformer|uce\\b|cell2sentence",
+    "cell[- ]state transition",
+    "counterfactual",
+    "optical pooled",
+    "spatial transcriptom",
+    "spatial proteom",
+    "histolog|histopatholog|h&e",
+    "gene regulatory network",
+    "agent",
+    "benchmark",
+    "drug response",
+    "unseen (perturbation|cell|drug|gene)",
+    "combinatorial",
+    "tahoe|replogle|norman|sciplex|jump-cp|rxrx",
+    "multi-?omic",
+    "cellular dynamics|trajector",
+    "protein (localization|localisation)|subcellular",
+    "cell atlas"
+  ],
+  "cell_pattern": "single[- ]cell|scrna|cell(s|ular)?\\b|transcriptom|omics|crispr|gene expression|spatial"
+}

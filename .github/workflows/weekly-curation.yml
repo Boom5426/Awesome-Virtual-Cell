@@ -1,16 +1,31 @@
-name: Watch Preprint Publications
+name: Weekly Curation
+
+# Every Monday: (1) the publication watcher applies preprint -> venue upgrades to one rolling draft
+# PR on a fixed branch; (2) the candidate digest opens one issue listing ranked new papers, watcher
+# items that need a decision, and live challenges to re-check. Nothing is added to the catalog
+# without a human merging a PR.
 
 on:
   schedule:
     - cron: "0 4 * * 1"
   workflow_dispatch:
+    inputs:
+      days:
+        description: "Digest window in days"
+        required: false
+        default: "7"
 
 permissions:
   contents: write
   pull-requests: write
+  issues: write
+
+concurrency:
+  group: weekly-curation
+  cancel-in-progress: false
 
 jobs:
-  publication-watch:
+  curate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,6 +46,10 @@ jobs:
           python scripts/validate_catalog.py
           python scripts/build_readme.py --check
 
+      - name: Show the watcher summary on the run page
+        if: always() && hashFiles('publication_update_summary.md') != ''
+        run: cat publication_update_summary.md >> "$GITHUB_STEP_SUMMARY"
+
       - name: Check for changes
         id: changes
         run: |
@@ -40,12 +59,12 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create draft pull request
+      - name: Open or update the rolling publication pull request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: auto/publication-watch-${{ github.run_id }}
+          branch: auto/publication-watch
           delete-branch: true
           add-paths: |
             data/papers.json
@@ -66,3 +85,18 @@ jobs:
           labels: |
             automated
             publication-update
+
+      - name: Build the candidate digest
+        if: always()
+        run: python -m scripts.candidate_digest --days "${{ github.event.inputs.days || '7' }}"
+
+      - name: Open this week's digest issue and close older ones
+        if: always() && hashFiles('candidate_digest.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create curation-digest --color 0B6E99 --description "Weekly candidate digest" --force
+          url=$(gh issue create --title "Curation digest $(date -u +%F)" --label curation-digest --body-file candidate_digest.md)
+          for n in $(gh issue list --label curation-digest --state open --json number --jq '.[].number'); do
+            if [ "$n" != "${url##*/}" ]; then gh issue close "$n" --comment "Superseded by $url"; fi
+          done

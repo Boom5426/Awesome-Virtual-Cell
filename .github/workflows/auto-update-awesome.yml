@@ -17,7 +17,7 @@ jobs:
           python-version: "3.11"
 
       - name: Discover and update structured catalog
-        run: python scripts/auto_update_catalog.py
+        run: python -m scripts.auto_update_catalog  # module mode so `from scripts import ...` resolves
 
       - name: Regenerate and validate views
         run: |

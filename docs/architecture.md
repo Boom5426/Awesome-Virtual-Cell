@@ -72,15 +72,15 @@ https://boom5426.github.io/Awesome-Virtual-Cell/
 
 GitHub Pages is published from the repository through the built-in Pages/Jekyll deployment. The root `index.html` is generated from the same structured catalog, so the public homepage opens directly into the searchable interface.
 
-## Automated literature updates
+## Automated curation
 
-`scripts/auto_update_catalog.py` reuses the conservative discovery logic from the previous updater but changes the write path:
+The Weekly Curation workflow runs the publication watcher and the candidate digest every Monday. Both write through the same path as manual edits:
 
 ```text
-discover -> dedupe against catalog -> update JSON -> rebuild views -> validate -> draft PR
+discover -> dedupe against catalog -> venue policy -> update JSON or open digest issue -> rebuild views -> validate -> draft PR
 ```
 
-The workflow deliberately remains manual-dispatch-only until the v2 pipeline has been reviewed in practice.
+`scripts/auto_update_catalog.py`, the earlier Crossref updater, stays manual-dispatch-only. See [automation.md](automation.md) for sources, gates and manual runs.
 
 ## Migration boundary
 
@@ -88,7 +88,7 @@ The structured pipeline currently covers **Research Papers** and the **Live chal
 
 ## Publication watcher
 
-`scripts/publication_watcher.py` checks existing preprints against Crossref and proposes high-confidence upgrades to formal publications. A scheduled workflow opens draft PRs for human review.
+`scripts/publication_watcher.py` checks existing preprints against Crossref relations, the bioRxiv and arXiv APIs, the NeurIPS/ICML/ICLR/CVPR accepted-paper lists and a Crossref title search. Upgrades into allowlisted venues go to one rolling draft PR; publications outside `config/venue_policy.json` and near-miss titles are reported, never applied.
 
 ## Exports
 

@@ -9,3 +9,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Weekly curation run artifacts (the PR body file publication_update_summary.md stays tracked)
+publication_watch.json
+candidate_digest.md
