@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "description": "Structured source of truth for Awesome Virtual Cell research papers. README, web catalog, CSV, and BibTeX are generated views.",
-  "paper_count": 551,
+  "paper_count": 540,
   "papers": [
     {
       "id": "ai-single-cell-frontiers",
@@ -347,49 +347,6 @@
         "https://doi.org/10.1038/s41467-026-78596-5",
         "https://doi.org/10.1101/2025.02.05.636642",
         "https://api.crossref.org/works/10.1038/s41467-026-78596-5"
-      ]
-    },
-    {
-      "id": "cellular-digital-twin",
-      "label": "Cellular Digital Twin",
-      "title": "A cellular Digital Twin framework for predictive and mechanistic modeling of drug responses in precision medicine",
-      "year": 2026,
-      "venue": "Biotechnology Advances",
-      "status": "published",
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Perturbation"
-      ],
-      "doi": "10.1016/j.biotechadv.2026.109040",
-      "paper_url": "https://doi.org/10.1016/j.biotechadv.2026.109040",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": "2026-10-27",
-      "updated_at": "2026-10-27",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Perturbation Modeling"
-        ],
-        "modality": [
-          "Multimodal"
-        ],
-        "perturbation_type": [
-          "Chemical / Drug"
-        ],
-        "generalization": [],
-        "paper_type": [
-          "Review"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://doi.org/10.1016/j.biotechadv.2026.109040",
-        "https://api.crossref.org/works/10.1016/j.biotechadv.2026.109040"
       ]
     },
     {
@@ -755,45 +712,6 @@
       ]
     },
     {
-      "id": "environmental-perturbation-aivc",
-      "label": "Environmental AIVC",
-      "title": "Beyond the drug-centric view: Advancing AI virtual cell platforms for environmental perturbation modelling",
-      "year": 2026,
-      "venue": "ALTEX",
-      "status": "published",
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Perturbation"
-      ],
-      "doi": "10.14573/altex.2606062",
-      "paper_url": "https://doi.org/10.14573/altex.2606062",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": "2026-10-27",
-      "updated_at": "2026-10-27",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Perturbation Modeling"
-        ],
-        "modality": [],
-        "perturbation_type": [],
-        "generalization": [],
-        "paper_type": [
-          "Review"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://doi.org/10.14573/altex.2606062",
-        "https://api.crossref.org/works/10.14573/altex.2606062"
-      ]
-    },
-    {
       "id": "glm-prior",
       "label": "GLM-Prior",
       "title": "GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference",
@@ -897,60 +815,6 @@
       ]
     },
     {
-      "id": "hepatology-aivc",
-      "label": "AIVC for Hepatology",
-      "title": "Toward AI Virtual Cells for Hepatology: Representation, Generation, Dynamics, and Intervention in Single-Cell Models",
-      "year": 2026,
-      "venue": "Clinical and Molecular Hepatology",
-      "status": "published",
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Perturbation",
-        "Dynamics",
-        "Foundation Model",
-        "Evaluation & Measurement"
-      ],
-      "doi": "10.3350/cmh.2026.0820",
-      "paper_url": "https://doi.org/10.3350/cmh.2026.0820",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": "2026-10-27",
-      "updated_at": "2026-10-27",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Perturbation Modeling",
-          "Dynamics",
-          "Representation Learning",
-          "Evaluation & Measurement"
-        ],
-        "modality": [
-          "Transcriptomics",
-          "Spatial"
-        ],
-        "perturbation_type": [
-          "Genetic",
-          "Chemical / Drug"
-        ],
-        "generalization": [
-          "Unseen Perturbation",
-          "Unseen Context"
-        ],
-        "paper_type": [
-          "Review"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://doi.org/10.3350/cmh.2026.0820",
-        "https://api.crossref.org/works/10.3350/cmh.2026.0820"
-      ]
-    },
-    {
       "id": "latent-causal-diffusion",
       "label": "LCD",
       "title": "Latent causal diffusions for single-cell perturbation modeling",
@@ -998,54 +862,6 @@
         "https://doi.org/10.1073/pnas.2602630123",
         "https://arxiv.org/abs/2601.15341",
         "https://api.crossref.org/works/10.1073/pnas.2602630123"
-      ]
-    },
-    {
-      "id": "mechanistic-operators-perspective",
-      "label": "Mechanistic Operators",
-      "title": "Explicit Mechanistic Operators in Predictive Virtual Cells: Evidence, Failure Modes, and a Minimum Falsification Framework for Single-Cell Perturbation Prediction",
-      "year": 2026,
-      "venue": "Cells",
-      "status": "published",
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Evaluation & Measurement",
-        "Perturbation"
-      ],
-      "doi": "10.3390/cells15181711",
-      "paper_url": "https://doi.org/10.3390/cells15181711",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": "2026-10-27",
-      "updated_at": "2026-10-27",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Evaluation & Measurement",
-          "Perturbation Modeling"
-        ],
-        "modality": [
-          "Transcriptomics"
-        ],
-        "perturbation_type": [
-          "Genetic",
-          "Chemical / Drug"
-        ],
-        "generalization": [
-          "Unseen Perturbation"
-        ],
-        "paper_type": [
-          "Review"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://doi.org/10.3390/cells15181711",
-        "https://api.crossref.org/works/10.3390/cells15181711"
       ]
     },
     {
@@ -9314,55 +9130,6 @@
       ]
     },
     {
-      "id": "foundation-cell-model-benchmark",
-      "label": "Foundation Cell Model Benchmark",
-      "title": "Benchmarking foundation cell models for post-perturbation RNA-seq prediction",
-      "year": 2025,
-      "venue": "BMC Genomics",
-      "status": "published",
-      "tags": [
-        "Benchmark",
-        "Foundation Model",
-        "Perturbation",
-        "Evaluation & Measurement"
-      ],
-      "doi": "10.1186/s12864-025-11600-2",
-      "paper_url": "https://doi.org/10.1186/s12864-025-11600-2",
-      "preprint_url": null,
-      "code_url": "https://github.com/turbine-ai/PerturbSeqPredBenchmark",
-      "links": [],
-      "added_at": "2026-10-13",
-      "updated_at": "2026-10-13",
-      "code_status": "repository_linked",
-      "code_sources": [
-        "https://github.com/turbine-ai/PerturbSeqPredBenchmark"
-      ],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Perturbation Modeling",
-          "Benchmarking",
-          "Evaluation & Measurement"
-        ],
-        "modality": [
-          "Transcriptomics"
-        ],
-        "perturbation_type": [
-          "Genetic"
-        ],
-        "generalization": [],
-        "paper_type": [
-          "Benchmark",
-          "Evaluation"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://doi.org/10.1186/s12864-025-11600-2",
-        "https://api.crossref.org/works/10.1186/s12864-025-11600-2"
-      ]
-    },
-    {
       "id": "scfm-zero-shot-evaluation",
       "label": "scFM Zero-Shot Evaluation",
       "title": "Zero-shot evaluation reveals limitations of single-cell foundation models",
@@ -11780,61 +11547,6 @@
       "facet_review_basis": "abstract",
       "facet_sources": [
         "https://www.nature.com/articles/s42256-025-01165-w"
-      ]
-    },
-    {
-      "id": "trustworthy-virtual-cells",
-      "label": "Trustworthy Virtual Cells",
-      "title": "Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally validated cell models",
-      "year": 2026,
-      "venue": "Frontiers in Cell and Developmental Biology",
-      "status": "published",
-      "tags": [
-        "Virtual Cell",
-        "Review",
-        "Evaluation & Measurement",
-        "Perturbation"
-      ],
-      "doi": "10.3389/fcell.2026.1900624",
-      "paper_url": "https://doi.org/10.3389/fcell.2026.1900624",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": "2026-10-02",
-      "updated_at": "2026-10-02",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Perturbation Modeling",
-          "Evaluation & Measurement",
-          "Benchmarking",
-          "Intervention Design"
-        ],
-        "modality": [
-          "Transcriptomics",
-          "Proteomics",
-          "Morphology / Imaging",
-          "Spatial",
-          "Multimodal"
-        ],
-        "perturbation_type": [
-          "Genetic",
-          "Chemical / Drug",
-          "Combination"
-        ],
-        "generalization": [
-          "Unseen Perturbation",
-          "Unseen Context"
-        ],
-        "paper_type": [
-          "Review"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1900624/full"
       ]
     },
     {
@@ -15918,49 +15630,6 @@
       ]
     },
     {
-      "id": "genperturb",
-      "label": "GenPerturb",
-      "title": "GenPerturb: sequence-grounded interpretation of perturbation transcriptomes using pretrained genomic models",
-      "year": 2026,
-      "venue": "BMC Bioinformatics",
-      "status": "published",
-      "tags": [
-        "Perturbation",
-        "Gene Regulation"
-      ],
-      "doi": "10.1186/s12859-026-06689-5",
-      "paper_url": "https://doi.org/10.1186/s12859-026-06689-5",
-      "preprint_url": "https://doi.org/10.64898/2026.07.01.735806",
-      "code_url": "https://github.com/rikenbit/GenPerturb",
-      "links": [],
-      "added_at": null,
-      "updated_at": "2026-10-27",
-      "code_status": "repository_linked",
-      "code_sources": [
-        "https://github.com/rikenbit/GenPerturb"
-      ],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Perturbation Modeling",
-          "Gene Regulation"
-        ],
-        "modality": [
-          "Sequence"
-        ],
-        "perturbation_type": [],
-        "generalization": [],
-        "paper_type": [
-          "Method"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://doi.org/10.1186/s12859-026-06689-5",
-        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.07.01.735806&resultType=core&format=json"
-      ]
-    },
-    {
       "id": "u-pert",
       "label": "U-Pert",
       "title": "Unbalanced Perturbation Dynamics For Cell Fate Design",
@@ -19948,47 +19617,6 @@
       ]
     },
     {
-      "id": "tissueformer-population-phenotypes",
-      "label": "TissueFormer (Population)",
-      "title": "Tissueformer: extending single-cell foundation models to predict population-level phenotypes",
-      "year": 2026,
-      "venue": "BMC Bioinformatics",
-      "status": "published",
-      "tags": [
-        "Foundation Model",
-        "Representation Learning"
-      ],
-      "doi": "10.1186/s12859-026-06490-4",
-      "paper_url": "https://doi.org/10.1186/s12859-026-06490-4",
-      "preprint_url": null,
-      "code_url": "https://github.com/ZadorLaboratory/TissueFormer",
-      "links": [],
-      "added_at": null,
-      "updated_at": "2026-09-28",
-      "code_status": "paper_linked",
-      "code_sources": [
-        "https://link.springer.com/article/10.1186/s12859-026-06490-4",
-        "https://github.com/ZadorLaboratory/TissueFormer"
-      ],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Representation Learning"
-        ],
-        "modality": [],
-        "perturbation_type": [],
-        "generalization": [],
-        "paper_type": [
-          "Method"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://api.crossref.org/works/10.1186/s12859-026-06490-4",
-        "https://link.springer.com/10.1186/s12859-026-06490-4"
-      ]
-    },
-    {
       "id": "cytosignal",
       "label": "CytoSignal",
       "title": "CytoSignal detects locations and dynamics of ligand–receptor signaling at cellular resolution from spatial transcriptomic data",
@@ -20175,47 +19803,6 @@
         "https://api.crossref.org/works/10.1038/s41588-026-02573-3",
         "https://www.nature.com/articles/s41588-026-02573-3",
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41588-026-02573-3&resultType=core&format=json"
-      ]
-    },
-    {
-      "id": "computational-landscape",
-      "label": "Computational Landscape",
-      "title": "Charting the computational landscape of single-cell genetic perturbation",
-      "year": 2026,
-      "venue": "Journal of Advanced Research",
-      "status": "published",
-      "tags": [
-        "Perturbation",
-        "Review"
-      ],
-      "doi": "10.1016/j.jare.2026.06.012",
-      "paper_url": "https://doi.org/10.1016/j.jare.2026.06.012",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Perturbation Modeling"
-        ],
-        "modality": [],
-        "perturbation_type": [
-          "Genetic"
-        ],
-        "generalization": [],
-        "paper_type": [
-          "Review"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://api.crossref.org/works/10.1016/j.jare.2026.06.012",
-        "https://linkinghub.elsevier.com/retrieve/pii/S2090123226004947",
-        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.jare.2026.06.012&resultType=core&format=json"
       ]
     },
     {
@@ -24319,43 +23906,6 @@
       ]
     },
     {
-      "id": "virtual-cell-build-the-virtual-cell-with-artificial-intelligence-a-perspective-f",
-      "label": "Build the Virtual Cell",
-      "title": "Build the Virtual Cell with Artificial Intelligence: A Perspective for Cancer Research",
-      "year": 2025,
-      "venue": "Military Medical Research",
-      "status": "published",
-      "tags": [
-        "Virtual Cell",
-        "Review"
-      ],
-      "doi": "10.1186/s40779-025-00591-6",
-      "paper_url": "https://link.springer.com/article/10.1186/s40779-025-00591-6",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": null,
-      "updated_at": "2026-09-28",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "title_and_metadata",
-      "facets": {
-        "task": [],
-        "modality": [],
-        "perturbation_type": [],
-        "generalization": [],
-        "paper_type": [
-          "Review"
-        ]
-      },
-      "facet_review_basis": "title_and_metadata",
-      "facet_sources": [
-        "https://api.crossref.org/works/10.1186/s40779-025-00591-6",
-        "https://link.springer.com/article/10.1186/s40779-025-00591-6",
-        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1186%2Fs40779-025-00591-6&resultType=core&format=json"
-      ]
-    },
-    {
       "id": "ps",
       "label": "PS",
       "title": "Decoding Heterogeneous Single-Cell Perturbation Responses",
@@ -24603,47 +24153,6 @@
       "facet_review_basis": "abstract",
       "facet_sources": [
         "https://arxiv.org/abs/2507.10502"
-      ]
-    },
-    {
-      "id": "virtual-organs",
-      "label": "Virtual Organs",
-      "title": "From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models",
-      "year": 2025,
-      "venue": "iCell",
-      "status": "published",
-      "tags": [
-        "Virtual Cell",
-        "Benchmark",
-        "Review",
-        "Related"
-      ],
-      "doi": "10.71373/IQHA9494",
-      "paper_url": "https://doi.org/10.71373/IQHA9494",
-      "preprint_url": null,
-      "code_url": null,
-      "links": [],
-      "added_at": null,
-      "updated_at": "2026-09-26",
-      "code_status": "not_found",
-      "code_sources": [],
-      "tag_review_basis": "abstract",
-      "facets": {
-        "task": [
-          "Benchmarking"
-        ],
-        "modality": [],
-        "perturbation_type": [],
-        "generalization": [],
-        "paper_type": [
-          "Benchmark",
-          "Review"
-        ]
-      },
-      "facet_review_basis": "abstract",
-      "facet_sources": [
-        "https://api.crossref.org/works/10.71373/IQHA9494",
-        "https://www.icelljournal.com/index.php/iCell/article/view/22/30"
       ]
     },
     {

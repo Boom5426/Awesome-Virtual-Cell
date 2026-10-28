@@ -4,7 +4,7 @@ Topics describe **what a paper is about**. Facets provide orthogonal search dime
 
 ## Evidence rule
 
-Current evidence basis: **496 abstract-reviewed**, **22 project-documentation-reviewed**, and **33 title/metadata-only provisional** records. Abstracts are primary. Provisional records do not receive inferred fine-grained perturbation/generalization facets.
+Current evidence basis: **486 abstract-reviewed**, **22 project-documentation-reviewed**, and **32 title/metadata-only provisional** records. Abstracts are primary. Provisional records do not receive inferred fine-grained perturbation/generalization facets.
 
 | Dimension | Meaning | Controlled values |
 | --- | --- | --- |
@@ -18,49 +18,49 @@ Current evidence basis: **496 abstract-reviewed**, **22 project-documentation-re
 
 ### task
 
-- Perturbation Modeling: 274
-- Representation Learning: 215
-- Benchmarking: 109
-- Evaluation & Measurement: 91
-- Gene Regulation: 75
+- Perturbation Modeling: 266
+- Representation Learning: 213
+- Benchmarking: 106
+- Evaluation & Measurement: 87
+- Gene Regulation: 74
 - Scientific Agent: 55
-- Dynamics: 51
 - Tooling: 51
-- Intervention Design: 50
+- Dynamics: 50
+- Intervention Design: 49
 - Data Resource: 30
 - World Modeling: 15
 
 ### modality
 
-- Transcriptomics: 249
-- Multimodal: 129
-- Spatial: 92
-- Morphology / Imaging: 89
-- Proteomics: 44
+- Transcriptomics: 245
+- Multimodal: 127
+- Spatial: 90
+- Morphology / Imaging: 88
+- Proteomics: 43
 - Chromatin / Epigenomics: 28
-- Sequence: 26
+- Sequence: 25
 
 ### perturbation_type
 
-- Genetic: 102
-- Chemical / Drug: 88
-- Combination: 21
+- Genetic: 97
+- Chemical / Drug: 84
+- Combination: 20
 
 ### generalization
 
-- Unseen Context: 41
-- Unseen Perturbation: 36
+- Unseen Context: 39
+- Unseen Perturbation: 33
 - Cross-Dataset: 25
 - Zero-Shot: 21
 - Cross-Species: 13
 
 ### paper_type
 
-- Method: 350
-- Benchmark: 109
-- Evaluation: 79
+- Method: 348
+- Benchmark: 107
+- Evaluation: 78
 - Tool: 53
-- Review: 32
 - Dataset: 30
+- Review: 24
 
 Empty facet arrays mean the reviewed evidence did not support a confident assignment.

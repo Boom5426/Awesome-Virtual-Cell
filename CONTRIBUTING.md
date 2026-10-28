@@ -21,7 +21,9 @@ Please include as much of the following as possible:
 
 ## Quality Bar
 
-- Prefer peer-reviewed papers, strong preprints, and official project pages
+- Published papers must come from a venue listed in [config/venue_policy.json](config/venue_policy.json). Papers in other journals are not accepted.
+- Preprints must present a new method compared against established baselines, or a new dataset or benchmark. Reviews, perspectives and position papers wait for formal publication.
+- Company and institute technical reports must be first-party and release a model, dataset or code, or report a quantitative evaluation. A blog that announces a listed paper becomes a link on that paper.
 - Use primary-source links when possible
 - Avoid duplicate entries
 - Avoid low-confidence sources, broken links, and overly broad biomedical AI resources with weak connection to virtual cells
@@ -40,7 +42,7 @@ For paper additions or metadata updates:
 5. Add a curation receipt for every new paper to `data/curation/2026-09-26.json` (tags, evidence basis, sources, code status); the validator rejects reviewed papers without one.
 6. Commit the structured data and all generated views together.
 
-CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata, published records that use a preprint DOI or preprint-server venue, missing curation receipts, or a README/catalog/facet document that is out of sync with the structured source of truth.
+CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata, published records that use a preprint DOI or preprint-server venue, published records whose venue is not in `config/venue_policy.json`, missing curation receipts, or a README/catalog/facet document that is out of sync with the structured source of truth.
 
 > The structured workflow currently covers **Research Papers** only. Other resource sections remain Markdown-first during the migration.
 

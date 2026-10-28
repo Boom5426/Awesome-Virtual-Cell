@@ -20,6 +20,7 @@ def good_date(x):
 def main():
     d=json.loads(DATA.read_text(encoding="utf-8"));ps=d.get("papers",[]);topics=set(json.loads((ROOT/"config"/"taxonomy.json").read_text(encoding="utf-8"))["tags"]);fc=json.loads((ROOT/"config"/"facets.json").read_text(encoding="utf-8"))["dimensions"];err=[];warn=[]
     receipts={r["id"] for r in json.loads(RECEIPTS.read_text(encoding="utf-8"))["records"]}
+    vp=json.loads((ROOT/"config"/"venue_policy.json").read_text(encoding="utf-8"));venues=set(vp["published_venues"])|set(vp["other_venues"])  # owner decision 2026-10-28
     if d.get("schema_version")!=2:err.append("expected schema_version=2")
     if d.get("facet_schema_version")!=1:err.append("expected facet_schema_version=1")
     if d.get("paper_count")!=len(ps):err.append("paper_count mismatch")
@@ -46,6 +47,7 @@ def main():
             if not good_date(p.get(k)):err.append(f"#{i} {p['id']}: {k}")
         if p["status"]=="preprint" and not p.get("preprint_url"):warn.append(f"#{i} {p['id']}: missing preprint URL")
         if p["status"]=="published" and p["venue"] in PREPRINT_VENUES:err.append(f"#{i} {p['id']}: preprint server venue {p['venue']} cannot be status=published")
+        if p["status"]=="published" and p["venue"] not in venues|PREPRINT_VENUES and not p["venue"].endswith(vp["report_suffix"]):err.append(f"#{i} {p['id']}: published venue {p['venue']!r} is not in config/venue_policy.json")
         if p["status"]=="published" and p.get("doi") and PREPRINT_DOI.match(p["doi"]):err.append(f"#{i} {p['id']}: published record uses preprint DOI {p['doi']}; keep it in preprint_url")
         if p["status"]=="preprint" and p["venue"] not in PREPRINT_VENUES|{"Manuscript"}:warn.append(f"#{i} {p['id']}: preprint with venue {p['venue']}")
         if re.match(r"(?i)proceedings of",p["venue"]):warn.append(f"#{i} {p['id']}: use a short venue name instead of {p['venue']!r}")

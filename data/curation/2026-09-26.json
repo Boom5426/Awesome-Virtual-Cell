@@ -1,6 +1,6 @@
 {
   "review_date": "2026-09-26",
-  "scope": "All 551 Research Papers records; full 275-record audit, ten source-checked 2026-09-26 follow-up additions, 42 source-checked 2026-10-02 literature-sweep additions, two 2026-10-08/10 additions (PIE, LabCompass), 67 independently re-verified 2026-10-13 literature-sweep additions, and 155 source-checked 2026-10-27 literature-sweep additions (9 existing preprints upgraded to their published venues and 1 retitled preprint refreshed in the same pass).",
+  "scope": "All 540 Research Papers records; full 275-record audit, ten source-checked 2026-09-26 follow-up additions, 42 source-checked 2026-10-02 literature-sweep additions, two 2026-10-08/10 additions (PIE, LabCompass), 67 independently re-verified 2026-10-13 literature-sweep additions, and 155 source-checked 2026-10-27 literature-sweep additions (9 existing preprints upgraded to their published venues and 1 retitled preprint refreshed in the same pass). On 2026-10-28, 11 records in journals outside the venue allowlist were removed; their receipts are kept under 'removed'.",
   "records": [
     {
       "id": "speciesformer",
@@ -1778,31 +1778,6 @@
       "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
       "repository_http_status": null,
       "repository_readme_status": null
-    },
-    {
-      "id": "genperturb",
-      "reviewed_at": "2026-09-26",
-      "old_tags": [
-        "Perturbation"
-      ],
-      "tags": [
-        "Perturbation",
-        "Gene Regulation"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Sequence-to-expression priors identify cis-regulatory drivers of perturbation responses.",
-      "sources": [
-        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.07.01.735806&resultType=core&format=json"
-      ],
-      "old_code_url": "https://github.com/rikenbit/GenPerturb",
-      "code_url": "https://github.com/rikenbit/GenPerturb",
-      "code_status": "repository_linked",
-      "code_sources": [
-        "https://github.com/rikenbit/GenPerturb"
-      ],
-      "code_note": "Repository README references this paper by identifier or title; reachability checked separately. This is not an execution/reproducibility test.",
-      "repository_http_status": 200,
-      "repository_readme_status": 200
     },
     {
       "id": "u-pert",
@@ -4109,30 +4084,6 @@
       "repository_readme_status": null
     },
     {
-      "id": "tissueformer-population-phenotypes",
-      "reviewed_at": "2026-09-26",
-      "old_tags": [
-        "Foundation Model"
-      ],
-      "tags": [
-        "Foundation Model",
-        "Representation Learning"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Population-level phenotype inference using single-cell foundation-model embeddings.",
-      "sources": [
-        "https://api.crossref.org/works/10.1186/s12859-026-06490-4",
-        "https://link.springer.com/10.1186/s12859-026-06490-4"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
-    },
-    {
       "id": "cytosignal",
       "reviewed_at": "2026-09-26",
       "old_tags": [
@@ -4229,31 +4180,6 @@
         "https://api.crossref.org/works/10.1038/s41588-026-02573-3",
         "https://www.nature.com/articles/s41588-026-02573-3",
         "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41588-026-02573-3&resultType=core&format=json"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
-    },
-    {
-      "id": "computational-landscape",
-      "reviewed_at": "2026-09-26",
-      "old_tags": [
-        "Perturbation"
-      ],
-      "tags": [
-        "Perturbation",
-        "Review"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Review of computational workflows for genetic perturbation analysis.",
-      "sources": [
-        "https://api.crossref.org/works/10.1016/j.jare.2026.06.012",
-        "https://linkinghub.elsevier.com/retrieve/pii/S2090123226004947",
-        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.jare.2026.06.012&resultType=core&format=json"
       ],
       "old_code_url": null,
       "code_url": null,
@@ -6421,31 +6347,6 @@
       "repository_readme_status": null
     },
     {
-      "id": "virtual-cell-build-the-virtual-cell-with-artificial-intelligence-a-perspective-f",
-      "reviewed_at": "2026-09-26",
-      "old_tags": [
-        "Virtual Cell"
-      ],
-      "tags": [
-        "Virtual Cell",
-        "Review"
-      ],
-      "tag_basis": "title_and_metadata",
-      "tag_rationale": "Cancer-focused artificial-intelligence virtual-cell perspective.",
-      "sources": [
-        "https://api.crossref.org/works/10.1186/s40779-025-00591-6",
-        "https://link.springer.com/article/10.1186/s40779-025-00591-6",
-        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1186%2Fs40779-025-00591-6&resultType=core&format=json"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
-    },
-    {
       "id": "ps",
       "reviewed_at": "2026-09-26",
       "old_tags": [
@@ -6574,32 +6475,6 @@
       "tag_rationale": "Workshop recommendations for evaluating biological AI across modalities. Evaluation & Measurement: the study directly examines evaluation validity, metrics, bounds/baselines, confounding, reliability, resolution, contamination, or benchmark interpretation.",
       "sources": [
         "https://arxiv.org/abs/2507.10502"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
-    },
-    {
-      "id": "virtual-organs",
-      "reviewed_at": "2026-09-26",
-      "old_tags": [
-        "Benchmark"
-      ],
-      "tags": [
-        "Virtual Cell",
-        "Benchmark",
-        "Review",
-        "Related"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Perspective extending virtual-cell evaluation toward virtual organs.",
-      "sources": [
-        "https://api.crossref.org/works/10.71373/IQHA9494",
-        "https://www.icelljournal.com/index.php/iCell/article/view/22/30"
       ],
       "old_code_url": null,
       "code_url": null,
@@ -7937,30 +7812,6 @@
       "repository_readme_status": null
     },
     {
-      "id": "trustworthy-virtual-cells",
-      "reviewed_at": "2026-10-02",
-      "old_tags": [],
-      "tags": [
-        "Virtual Cell",
-        "Review",
-        "Evaluation & Measurement",
-        "Perturbation"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "The reviewed abstract directly supports inclusion under Virtual Cell, Review, Evaluation & Measurement, Perturbation.",
-      "sources": [
-        "https://doi.org/10.3389/fcell.2026.1900624",
-        "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1900624/full"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
-      "repository_http_status": null,
-      "repository_readme_status": null
-    },
-    {
       "id": "scdmc",
       "reviewed_at": "2026-10-02",
       "old_tags": [],
@@ -8768,32 +8619,6 @@
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/lazaratan/meta-flow-matching"
-      ],
-      "code_note": "The repository README cites or names this paper.",
-      "repository_http_status": 200,
-      "repository_readme_status": 200
-    },
-    {
-      "id": "foundation-cell-model-benchmark",
-      "reviewed_at": "2026-10-13",
-      "old_tags": [],
-      "tags": [
-        "Benchmark",
-        "Foundation Model",
-        "Perturbation",
-        "Evaluation & Measurement"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Shows a train-mean baseline rivals fine-tuned scGPT and scFoundation for post-perturbation expression prediction.",
-      "sources": [
-        "https://doi.org/10.1186/s12864-025-11600-2",
-        "https://api.crossref.org/works/10.1186/s12864-025-11600-2"
-      ],
-      "old_code_url": null,
-      "code_url": "https://github.com/turbine-ai/PerturbSeqPredBenchmark",
-      "code_status": "repository_linked",
-      "code_sources": [
-        "https://github.com/turbine-ai/PerturbSeqPredBenchmark"
       ],
       "code_note": "The repository README cites or names this paper.",
       "repository_http_status": 200,
@@ -10325,29 +10150,6 @@
       "repository_readme_status": 200
     },
     {
-      "id": "environmental-perturbation-aivc",
-      "reviewed_at": "2026-10-27",
-      "old_tags": [],
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Perturbation"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Review arguing that AI virtual cell platforms should model environmental exposures (dose, timing, mixtures) beyond genetic and drug perturbations, and proposing the datasets, architectures and benchmarking this needs.",
-      "sources": [
-        "https://doi.org/10.14573/altex.2606062",
-        "https://api.crossref.org/works/10.14573/altex.2606062"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "Review article; no implementation expected and none found.",
-      "repository_http_status": null,
-      "repository_readme_status": null
-    },
-    {
       "id": "single-cell-agent-benchmark",
       "reviewed_at": "2026-10-27",
       "old_tags": [],
@@ -10477,30 +10279,6 @@
       "code_note": "Stated in the Data and code availability section of the bioRxiv version (PMC12458102); the Cell full text was not readable here.",
       "repository_http_status": 200,
       "repository_readme_status": 200
-    },
-    {
-      "id": "mechanistic-operators-perspective",
-      "reviewed_at": "2026-10-27",
-      "old_tags": [],
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Evaluation & Measurement",
-        "Perturbation"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Perspective asking whether biologically specified mechanistic operators improve out-of-distribution single-cell perturbation prediction over strong simple and learned comparators, with a prospective falsification framework.",
-      "sources": [
-        "https://doi.org/10.3390/cells15181711",
-        "https://api.crossref.org/works/10.3390/cells15181711"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "Perspective with no implementation; its Data Availability Statement says no predictive model was implemented.",
-      "repository_http_status": null,
-      "repository_readme_status": null
     },
     {
       "id": "dynavelo",
@@ -13197,32 +12975,6 @@
       "repository_readme_status": 200
     },
     {
-      "id": "hepatology-aivc",
-      "reviewed_at": "2026-10-27",
-      "old_tags": [],
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Perturbation",
-        "Dynamics",
-        "Foundation Model",
-        "Evaluation & Measurement"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Review that organizes generative, dynamics and foundation-model routes toward an AI virtual cell for the liver and sets hold-out and metric requirements for perturbation-response evaluation, comparable to trustworthy-virtual-cells.",
-      "sources": [
-        "https://doi.org/10.3350/cmh.2026.0820",
-        "https://api.crossref.org/works/10.3350/cmh.2026.0820"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "Review article, so no implementation is expected.",
-      "repository_http_status": null,
-      "repository_readme_status": null
-    },
-    {
       "id": "cell-painting-3d-spheroids",
       "reviewed_at": "2026-10-27",
       "old_tags": [],
@@ -13383,29 +13135,6 @@
       "code_note": "Data availability statement (Europe PMC open-access full text) gives the GitHub repository and the package documentation.",
       "repository_http_status": 200,
       "repository_readme_status": 200
-    },
-    {
-      "id": "cellular-digital-twin",
-      "reviewed_at": "2026-10-27",
-      "old_tags": [],
-      "tags": [
-        "Review",
-        "Virtual Cell",
-        "Perturbation"
-      ],
-      "tag_basis": "abstract",
-      "tag_rationale": "Review of cellular digital twins that combine multi-omics, imaging, mechanistic models and AI to represent cell states and predict drug responses, a virtual-cell perspective comparable to trustworthy-virtual-cells.",
-      "sources": [
-        "https://doi.org/10.1016/j.biotechadv.2026.109040",
-        "https://api.crossref.org/works/10.1016/j.biotechadv.2026.109040"
-      ],
-      "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "Review article, so no implementation is expected.",
-      "repository_http_status": null,
-      "repository_readme_status": null
     },
     {
       "id": "morphogenie",
@@ -13891,6 +13620,367 @@
       "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
       "repository_http_status": null,
       "repository_readme_status": null
+    }
+  ],
+  "removed": [
+    {
+      "id": "cellular-digital-twin",
+      "removed_at": "2026-10-28",
+      "venue": "Biotechnology Advances",
+      "title": "A cellular Digital Twin framework for predictive and mechanistic modeling of drug responses in precision medicine",
+      "doi": "10.1016/j.biotechadv.2026.109040",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "cellular-digital-twin",
+        "reviewed_at": "2026-10-27",
+        "old_tags": [],
+        "tags": [
+          "Review",
+          "Virtual Cell",
+          "Perturbation"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Review of cellular digital twins that combine multi-omics, imaging, mechanistic models and AI to represent cell states and predict drug responses, a virtual-cell perspective comparable to trustworthy-virtual-cells.",
+        "sources": [
+          "https://doi.org/10.1016/j.biotechadv.2026.109040",
+          "https://api.crossref.org/works/10.1016/j.biotechadv.2026.109040"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "Review article, so no implementation is expected.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "environmental-perturbation-aivc",
+      "removed_at": "2026-10-28",
+      "venue": "ALTEX",
+      "title": "Beyond the drug-centric view: Advancing AI virtual cell platforms for environmental perturbation modelling",
+      "doi": "10.14573/altex.2606062",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "environmental-perturbation-aivc",
+        "reviewed_at": "2026-10-27",
+        "old_tags": [],
+        "tags": [
+          "Review",
+          "Virtual Cell",
+          "Perturbation"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Review arguing that AI virtual cell platforms should model environmental exposures (dose, timing, mixtures) beyond genetic and drug perturbations, and proposing the datasets, architectures and benchmarking this needs.",
+        "sources": [
+          "https://doi.org/10.14573/altex.2606062",
+          "https://api.crossref.org/works/10.14573/altex.2606062"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "Review article; no implementation expected and none found.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "hepatology-aivc",
+      "removed_at": "2026-10-28",
+      "venue": "Clinical and Molecular Hepatology",
+      "title": "Toward AI Virtual Cells for Hepatology: Representation, Generation, Dynamics, and Intervention in Single-Cell Models",
+      "doi": "10.3350/cmh.2026.0820",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "hepatology-aivc",
+        "reviewed_at": "2026-10-27",
+        "old_tags": [],
+        "tags": [
+          "Review",
+          "Virtual Cell",
+          "Perturbation",
+          "Dynamics",
+          "Foundation Model",
+          "Evaluation & Measurement"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Review that organizes generative, dynamics and foundation-model routes toward an AI virtual cell for the liver and sets hold-out and metric requirements for perturbation-response evaluation, comparable to trustworthy-virtual-cells.",
+        "sources": [
+          "https://doi.org/10.3350/cmh.2026.0820",
+          "https://api.crossref.org/works/10.3350/cmh.2026.0820"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "Review article, so no implementation is expected.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "mechanistic-operators-perspective",
+      "removed_at": "2026-10-28",
+      "venue": "Cells",
+      "title": "Explicit Mechanistic Operators in Predictive Virtual Cells: Evidence, Failure Modes, and a Minimum Falsification Framework for Single-Cell Perturbation Prediction",
+      "doi": "10.3390/cells15181711",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "mechanistic-operators-perspective",
+        "reviewed_at": "2026-10-27",
+        "old_tags": [],
+        "tags": [
+          "Review",
+          "Virtual Cell",
+          "Evaluation & Measurement",
+          "Perturbation"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Perspective asking whether biologically specified mechanistic operators improve out-of-distribution single-cell perturbation prediction over strong simple and learned comparators, with a prospective falsification framework.",
+        "sources": [
+          "https://doi.org/10.3390/cells15181711",
+          "https://api.crossref.org/works/10.3390/cells15181711"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "Perspective with no implementation; its Data Availability Statement says no predictive model was implemented.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "foundation-cell-model-benchmark",
+      "removed_at": "2026-10-28",
+      "venue": "BMC Genomics",
+      "title": "Benchmarking foundation cell models for post-perturbation RNA-seq prediction",
+      "doi": "10.1186/s12864-025-11600-2",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "foundation-cell-model-benchmark",
+        "reviewed_at": "2026-10-13",
+        "old_tags": [],
+        "tags": [
+          "Benchmark",
+          "Foundation Model",
+          "Perturbation",
+          "Evaluation & Measurement"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Shows a train-mean baseline rivals fine-tuned scGPT and scFoundation for post-perturbation expression prediction.",
+        "sources": [
+          "https://doi.org/10.1186/s12864-025-11600-2",
+          "https://api.crossref.org/works/10.1186/s12864-025-11600-2"
+        ],
+        "old_code_url": null,
+        "code_url": "https://github.com/turbine-ai/PerturbSeqPredBenchmark",
+        "code_status": "repository_linked",
+        "code_sources": [
+          "https://github.com/turbine-ai/PerturbSeqPredBenchmark"
+        ],
+        "code_note": "The repository README cites or names this paper.",
+        "repository_http_status": 200,
+        "repository_readme_status": 200
+      }
+    },
+    {
+      "id": "trustworthy-virtual-cells",
+      "removed_at": "2026-10-28",
+      "venue": "Frontiers in Cell and Developmental Biology",
+      "title": "Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally validated cell models",
+      "doi": "10.3389/fcell.2026.1900624",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "trustworthy-virtual-cells",
+        "reviewed_at": "2026-10-02",
+        "old_tags": [],
+        "tags": [
+          "Virtual Cell",
+          "Review",
+          "Evaluation & Measurement",
+          "Perturbation"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "The reviewed abstract directly supports inclusion under Virtual Cell, Review, Evaluation & Measurement, Perturbation.",
+        "sources": [
+          "https://doi.org/10.3389/fcell.2026.1900624",
+          "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2026.1900624/full"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "No matching public implementation was established from the checked primary sources; this is not proof that code does not exist.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "genperturb",
+      "removed_at": "2026-10-28",
+      "venue": "BMC Bioinformatics",
+      "title": "GenPerturb: sequence-grounded interpretation of perturbation transcriptomes using pretrained genomic models",
+      "doi": "10.1186/s12859-026-06689-5",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "genperturb",
+        "reviewed_at": "2026-09-26",
+        "old_tags": [
+          "Perturbation"
+        ],
+        "tags": [
+          "Perturbation",
+          "Gene Regulation"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Sequence-to-expression priors identify cis-regulatory drivers of perturbation responses.",
+        "sources": [
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.64898%2F2026.07.01.735806&resultType=core&format=json"
+        ],
+        "old_code_url": "https://github.com/rikenbit/GenPerturb",
+        "code_url": "https://github.com/rikenbit/GenPerturb",
+        "code_status": "repository_linked",
+        "code_sources": [
+          "https://github.com/rikenbit/GenPerturb"
+        ],
+        "code_note": "Repository README references this paper by identifier or title; reachability checked separately. This is not an execution/reproducibility test.",
+        "repository_http_status": 200,
+        "repository_readme_status": 200
+      }
+    },
+    {
+      "id": "tissueformer-population-phenotypes",
+      "removed_at": "2026-10-28",
+      "venue": "BMC Bioinformatics",
+      "title": "Tissueformer: extending single-cell foundation models to predict population-level phenotypes",
+      "doi": "10.1186/s12859-026-06490-4",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "tissueformer-population-phenotypes",
+        "reviewed_at": "2026-09-26",
+        "old_tags": [
+          "Foundation Model"
+        ],
+        "tags": [
+          "Foundation Model",
+          "Representation Learning"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Population-level phenotype inference using single-cell foundation-model embeddings.",
+        "sources": [
+          "https://api.crossref.org/works/10.1186/s12859-026-06490-4",
+          "https://link.springer.com/10.1186/s12859-026-06490-4"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "computational-landscape",
+      "removed_at": "2026-10-28",
+      "venue": "Journal of Advanced Research",
+      "title": "Charting the computational landscape of single-cell genetic perturbation",
+      "doi": "10.1016/j.jare.2026.06.012",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "computational-landscape",
+        "reviewed_at": "2026-09-26",
+        "old_tags": [
+          "Perturbation"
+        ],
+        "tags": [
+          "Perturbation",
+          "Review"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Review of computational workflows for genetic perturbation analysis.",
+        "sources": [
+          "https://api.crossref.org/works/10.1016/j.jare.2026.06.012",
+          "https://linkinghub.elsevier.com/retrieve/pii/S2090123226004947",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.jare.2026.06.012&resultType=core&format=json"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "virtual-cell-build-the-virtual-cell-with-artificial-intelligence-a-perspective-f",
+      "removed_at": "2026-10-28",
+      "venue": "Military Medical Research",
+      "title": "Build the Virtual Cell with Artificial Intelligence: A Perspective for Cancer Research",
+      "doi": "10.1186/s40779-025-00591-6",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "virtual-cell-build-the-virtual-cell-with-artificial-intelligence-a-perspective-f",
+        "reviewed_at": "2026-09-26",
+        "old_tags": [
+          "Virtual Cell"
+        ],
+        "tags": [
+          "Virtual Cell",
+          "Review"
+        ],
+        "tag_basis": "title_and_metadata",
+        "tag_rationale": "Cancer-focused artificial-intelligence virtual-cell perspective.",
+        "sources": [
+          "https://api.crossref.org/works/10.1186/s40779-025-00591-6",
+          "https://link.springer.com/article/10.1186/s40779-025-00591-6",
+          "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1186%2Fs40779-025-00591-6&resultType=core&format=json"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
+    },
+    {
+      "id": "virtual-organs",
+      "removed_at": "2026-10-28",
+      "venue": "iCell",
+      "title": "From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models",
+      "doi": "10.71373/IQHA9494",
+      "reason": "Published venue is outside config/venue_policy.json; owner decision 2026-10-28 that papers in ordinary journals are not included.",
+      "receipt": {
+        "id": "virtual-organs",
+        "reviewed_at": "2026-09-26",
+        "old_tags": [
+          "Benchmark"
+        ],
+        "tags": [
+          "Virtual Cell",
+          "Benchmark",
+          "Review",
+          "Related"
+        ],
+        "tag_basis": "abstract",
+        "tag_rationale": "Perspective extending virtual-cell evaluation toward virtual organs.",
+        "sources": [
+          "https://api.crossref.org/works/10.71373/IQHA9494",
+          "https://www.icelljournal.com/index.php/iCell/article/view/22/30"
+        ],
+        "old_code_url": null,
+        "code_url": null,
+        "code_status": "not_found",
+        "code_sources": [],
+        "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+        "repository_http_status": null,
+        "repository_readme_status": null
+      }
     }
   ]
 }
