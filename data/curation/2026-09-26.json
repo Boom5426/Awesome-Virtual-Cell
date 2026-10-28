@@ -1,6 +1,6 @@
 {
   "review_date": "2026-09-26",
-  "scope": "All 540 Research Papers records; full 275-record audit, ten source-checked 2026-09-26 follow-up additions, 42 source-checked 2026-10-02 literature-sweep additions, two 2026-10-08/10 additions (PIE, LabCompass), 67 independently re-verified 2026-10-13 literature-sweep additions, and 155 source-checked 2026-10-27 literature-sweep additions (9 existing preprints upgraded to their published venues and 1 retitled preprint refreshed in the same pass). On 2026-10-28, 11 records in journals outside the venue allowlist were removed; their receipts are kept under 'removed'.",
+  "scope": "All 552 Research Papers records; full 275-record audit, ten source-checked 2026-09-26 follow-up additions, 42 source-checked 2026-10-02 literature-sweep additions, two 2026-10-08/10 additions (PIE, LabCompass), 67 independently re-verified 2026-10-13 literature-sweep additions, and 155 source-checked 2026-10-27 literature-sweep additions (9 existing preprints upgraded to their published venues and 1 retitled preprint refreshed in the same pass). On 2026-10-28, 11 records in journals outside the venue allowlist were removed; their receipts are kept under 'removed'. Also on 2026-10-28, 12 NeurIPS 2026 papers were added after re-reading the complete accepted list (the 2026-10-27 sweep had read a feed that held 6,339 of 9,099 titles), and 3 preprints were upgraded to NeurIPS 2026.",
   "records": [
     {
       "id": "speciesformer",
@@ -13612,6 +13612,283 @@
       "sources": [
         "https://openreview.net/forum?id=LiIO6ykiB6",
         "https://neurips.cc/virtual/2026/poster/153391"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "lowrank-decoder-reliability",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Foundation Model",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Audits the shared state-transition decoder of foundation-model perturbation predictors, finds a rank-1 attention bottleneck, and proposes a per-prediction reliability signal. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=DjV66HdJ1r",
+        "https://neurips.cc/virtual/2026/poster/154415"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nova-microscopy",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Morphology",
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Vector-quantised transformer for cellular microscopy that adds curated gene and pathway graphs to the training objective to learn perturbation representations. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=dgCUPMyqg5",
+        "https://neurips.cc/virtual/2026/poster/150999"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "pt-rag",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Two-stage retrieval module that conditions a perturbation-response backbone on measured responses to related perturbations. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://arxiv.org/abs/2603.07233",
+        "https://openreview.net/forum?id=UbCFFQ9TmZ",
+        "https://neurips.cc/virtual/2026/poster/152229"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/difra100/PT-RAG_NIPS",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/difra100/PT-RAG_NIPS"
+      ],
+      "code_note": "The arXiv abstract (DataCite record 10.48550/arxiv.2603.07233) links this repository; the NeurIPS abstract gives only an anonymous review link.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "dynacell",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Morphology",
+        "Benchmark",
+        "Dataset",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Paired label-free and fluorescence 3D time-lapse dataset, baselines and a three-tier metric panel for virtual staining of live cells across perturbation states. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=Uc0kjRCFXo",
+        "https://neurips.cc/virtual/2026/poster/139363"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "spear-perturbation",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Flow-based single-cell perturbation model with spectral gene positional encodings that are re-derived from perturbation-conditioned hidden states. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=VsHXKYG0Sq",
+        "https://neurips.cc/virtual/2026/poster/152050"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "scontofm",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Single-cell foundation model that embeds the cell ontology hierarchy through lowest-common-ancestor triplet sampling. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=bbkLH5srxD",
+        "https://neurips.cc/virtual/2026/poster/151274"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "regulator-tokens-he2st",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Spatial",
+        "Morphology",
+        "Multimodal",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Flow-matching histology-to-expression model whose regulator attention pools genes into content-dependent tokens that align with known pathways. The official NeurIPS listing shows a garbled title ending \"from Histologyatial Transcriptomics Prediction from Histology\"; the record uses its first clause. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=9gb3vNBdFP",
+        "https://neurips.cc/virtual/2026/poster/154953"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "sciflf",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Spatial",
+        "Dynamics",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Identifiable feedback-controlled latent flow that reconstructs developmental dynamics and gene-regulatory Jacobians from unpaired spatial transcriptomic snapshots. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=06mL3T4arr",
+        "https://neurips.cc/virtual/2026/poster/156140"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "tracesim",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Dynamics",
+        "Benchmark"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Generative simulator of joint scRNA-seq and lineage-tracing data with fate bias, used as a benchmark for lineage reconstruction and fate prediction. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=KQzlJvrFVl",
+        "https://neurips.cc/virtual/2026/poster/139529"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "pace-trajectory",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Dynamics"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Trajectory inference from destructive time-course snapshots with a learned anisotropic Riemannian metric and neural bridges. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://arxiv.org/abs/2605.18587",
+        "https://openreview.net/forum?id=2PQtt7QLHJ",
+        "https://neurips.cc/virtual/2026/poster/155854"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/AI4Science-WestlakeU/PACE",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/AI4Science-WestlakeU/PACE"
+      ],
+      "code_note": "The arXiv abstract (DataCite record 10.48550/arxiv.2605.18587) links this repository; the NeurIPS abstract gives only an anonymous review link.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
+    },
+    {
+      "id": "toposcape",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Spatial",
+        "Morphology",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Transcriptome-to-histology generation that first resolves molecular states into multi-class cellular topologies, then renders pixels. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=V7ybz9CSNM",
+        "https://neurips.cc/virtual/2026/poster/152155"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "grnagent",
+      "reviewed_at": "2026-10-28",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "Gene Regulation",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Multi-agent framework for multi-omic GRN inference built around a transcription-factor-centred evidence graph reasoning model. Official NeurIPS abstract read on 2026-10-28.",
+      "sources": [
+        "https://openreview.net/forum?id=nlaQh30azU",
+        "https://neurips.cc/virtual/2026/poster/149734"
       ],
       "old_code_url": null,
       "code_url": null,

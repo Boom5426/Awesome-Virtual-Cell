@@ -1,8 +1,528 @@
 {
   "schema_version": 2,
   "description": "Structured source of truth for Awesome Virtual Cell research papers. README, web catalog, CSV, and BibTeX are generated views.",
-  "paper_count": 540,
+  "paper_count": 552,
   "papers": [
+    {
+      "id": "lowrank-decoder-reliability",
+      "label": "Predicted-NN-distance",
+      "title": "A low-rank decoder bottleneck bounds reliability in foundation-model perturbation prediction",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Perturbation",
+        "Foundation Model",
+        "Evaluation & Measurement"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=DjV66HdJ1r",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling",
+          "Evaluation & Measurement"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Evaluation"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=DjV66HdJ1r",
+        "https://neurips.cc/virtual/2026/poster/154415"
+      ]
+    },
+    {
+      "id": "nova-microscopy",
+      "label": "NOVA",
+      "title": "Biological Graph Priors Enable Representation Learning for Cellular Microscopy",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Morphology",
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=dgCUPMyqg5",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning"
+        ],
+        "modality": [
+          "Morphology / Imaging"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=dgCUPMyqg5",
+        "https://neurips.cc/virtual/2026/poster/150999"
+      ]
+    },
+    {
+      "id": "pt-rag",
+      "label": "PT-RAG",
+      "title": "Differentiable Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Perturbation"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=UbCFFQ9TmZ",
+      "preprint_url": "https://arxiv.org/abs/2603.07233",
+      "code_url": "https://github.com/difra100/PT-RAG_NIPS",
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/difra100/PT-RAG_NIPS"
+      ],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [
+          "Unseen Context",
+          "Unseen Perturbation"
+        ],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://arxiv.org/abs/2603.07233",
+        "https://openreview.net/forum?id=UbCFFQ9TmZ",
+        "https://neurips.cc/virtual/2026/poster/152229"
+      ]
+    },
+    {
+      "id": "dynacell",
+      "label": "DynaCell",
+      "title": "DynaCell: an Evaluation Framework for Dynamic 3D Virtual Staining of Live Cells",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Morphology",
+        "Benchmark",
+        "Dataset",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=Uc0kjRCFXo",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Benchmarking",
+          "Data Resource",
+          "Evaluation & Measurement"
+        ],
+        "modality": [
+          "Morphology / Imaging"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Benchmark",
+          "Dataset"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=Uc0kjRCFXo",
+        "https://neurips.cc/virtual/2026/poster/139363"
+      ]
+    },
+    {
+      "id": "spear-perturbation",
+      "label": "SPEAR",
+      "title": "Spectral Adaptive Repositioning for Flow-Based Single-Cell Perturbation Modeling",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Perturbation"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=VsHXKYG0Sq",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic",
+          "Chemical / Drug"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=VsHXKYG0Sq",
+        "https://neurips.cc/virtual/2026/poster/152050"
+      ]
+    },
+    {
+      "id": "scontofm",
+      "label": "scOntoFM",
+      "title": "Learning Biological Hierarchies in Single-Cell Foundation Models",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Foundation Model",
+        "Representation Learning"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=bbkLH5srxD",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [
+          "Zero-Shot"
+        ],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=bbkLH5srxD",
+        "https://neurips.cc/virtual/2026/poster/151274"
+      ]
+    },
+    {
+      "id": "regulator-tokens-he2st",
+      "label": "Regulator Tokens",
+      "title": "Pathway-Aligned Regulator Tokens for Interpretable Spatial Gene Expression Prediction from Histology",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Spatial",
+        "Morphology",
+        "Multimodal",
+        "Gene Regulation"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=9gb3vNBdFP",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Gene Regulation"
+        ],
+        "modality": [
+          "Spatial",
+          "Transcriptomics",
+          "Morphology / Imaging",
+          "Multimodal"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=9gb3vNBdFP",
+        "https://neurips.cc/virtual/2026/poster/154953"
+      ]
+    },
+    {
+      "id": "sciflf",
+      "label": "scIFLF",
+      "title": "Identifiable Feedback-Controlled Latent Flow for Unpaired Single-cell Spatio-Temporal Dynamics",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Spatial",
+        "Dynamics",
+        "Gene Regulation"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=06mL3T4arr",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Dynamics",
+          "Gene Regulation"
+        ],
+        "modality": [
+          "Spatial",
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=06mL3T4arr",
+        "https://neurips.cc/virtual/2026/poster/156140"
+      ]
+    },
+    {
+      "id": "tracesim",
+      "label": "TraceSim",
+      "title": "TraceSim: A Generative Simulator and Benchmark for Joint scRNA-seq and Lineage Tracing",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Dynamics",
+        "Benchmark"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=KQzlJvrFVl",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Benchmarking",
+          "Dynamics"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Benchmark",
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=KQzlJvrFVl",
+        "https://neurips.cc/virtual/2026/poster/139529"
+      ]
+    },
+    {
+      "id": "pace-trajectory",
+      "label": "PACE",
+      "title": "PACE: Geometry-Aware Bridge Transport for Single-Cell Trajectory Inference",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Dynamics"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=2PQtt7QLHJ",
+      "preprint_url": "https://arxiv.org/abs/2605.18587",
+      "code_url": "https://github.com/AI4Science-WestlakeU/PACE",
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://github.com/AI4Science-WestlakeU/PACE"
+      ],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Dynamics"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://arxiv.org/abs/2605.18587",
+        "https://openreview.net/forum?id=2PQtt7QLHJ",
+        "https://neurips.cc/virtual/2026/poster/155854"
+      ]
+    },
+    {
+      "id": "toposcape",
+      "label": "TopoScape",
+      "title": "Layout Before Pixels: Topology-Anchored Transcriptome-to-Histology Generation",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Spatial",
+        "Morphology",
+        "Multimodal"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=V7ybz9CSNM",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [],
+        "modality": [
+          "Spatial",
+          "Transcriptomics",
+          "Morphology / Imaging",
+          "Multimodal"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=V7ybz9CSNM",
+        "https://neurips.cc/virtual/2026/poster/152155"
+      ]
+    },
+    {
+      "id": "grnagent",
+      "label": "GRNAgent",
+      "title": "GRNAgent: A Multimodal Graph Reasoning Agent for Gene Regulatory Network Inference",
+      "year": 2026,
+      "venue": "NeurIPS",
+      "status": "published",
+      "tags": [
+        "Agent",
+        "Gene Regulation",
+        "Multimodal"
+      ],
+      "doi": null,
+      "paper_url": "https://openreview.net/forum?id=nlaQh30azU",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-10-28",
+      "updated_at": "2026-10-28",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Gene Regulation",
+          "Scientific Agent"
+        ],
+        "modality": [
+          "Transcriptomics",
+          "Chromatin / Epigenomics",
+          "Multimodal"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://openreview.net/forum?id=nlaQh30azU",
+        "https://neurips.cc/virtual/2026/poster/149734"
+      ]
+    },
     {
       "id": "ai-single-cell-frontiers",
       "label": "AI in Single-Cell Genomics",
@@ -3914,15 +4434,15 @@
       "label": "CELLO",
       "title": "Towards Scalable Context-Aware Single-Cell Spatial Transcriptomics Prediction from Histology Images",
       "year": 2026,
-      "venue": "arXiv",
-      "status": "preprint",
+      "venue": "NeurIPS",
+      "status": "published",
       "tags": [
         "Spatial",
         "Morphology",
         "Multimodal"
       ],
       "doi": null,
-      "paper_url": null,
+      "paper_url": "https://openreview.net/forum?id=ZvH7ZrvJgK",
       "preprint_url": "https://arxiv.org/abs/2609.36429",
       "code_url": "https://github.com/zjgao02/CELLO",
       "links": [
@@ -3936,7 +4456,7 @@
         }
       ],
       "added_at": "2026-10-27",
-      "updated_at": "2026-10-27",
+      "updated_at": "2026-10-28",
       "code_status": "paper_linked",
       "code_sources": [
         "https://arxiv.org/html/2609.36429",
@@ -3959,6 +4479,8 @@
       },
       "facet_review_basis": "abstract",
       "facet_sources": [
+        "https://openreview.net/forum?id=ZvH7ZrvJgK",
+        "https://neurips.cc/virtual/2026/poster/151537",
         "https://arxiv.org/abs/2609.36429"
       ]
     },
@@ -8484,20 +9006,20 @@
       "label": "TxFM",
       "title": "Effective Biological Representation Learning by Masking Gene Expression",
       "year": 2026,
-      "venue": "arXiv",
-      "status": "preprint",
+      "venue": "NeurIPS",
+      "status": "published",
       "tags": [
         "Foundation Model",
         "Representation Learning",
         "Evaluation & Measurement"
       ],
       "doi": null,
-      "paper_url": null,
+      "paper_url": "https://openreview.net/forum?id=N5JfcgHkY9",
       "preprint_url": "https://arxiv.org/abs/2605.31562",
       "code_url": "https://github.com/recursionpharma/opentxfm",
       "links": [],
       "added_at": "2026-10-13",
-      "updated_at": "2026-10-13",
+      "updated_at": "2026-10-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/recursionpharma/opentxfm"
@@ -8519,6 +9041,8 @@
       },
       "facet_review_basis": "abstract",
       "facet_sources": [
+        "https://openreview.net/forum?id=N5JfcgHkY9",
+        "https://neurips.cc/virtual/2026/poster/153201",
         "https://arxiv.org/abs/2605.31562"
       ]
     },
@@ -8527,8 +9051,8 @@
       "label": "AssayBench",
       "title": "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents",
       "year": 2026,
-      "venue": "arXiv",
-      "status": "preprint",
+      "venue": "NeurIPS",
+      "status": "published",
       "tags": [
         "Agent",
         "Benchmark",
@@ -8536,7 +9060,7 @@
         "Evaluation & Measurement"
       ],
       "doi": null,
-      "paper_url": null,
+      "paper_url": "https://openreview.net/forum?id=L6NiXA9cBN",
       "preprint_url": "https://arxiv.org/abs/2605.10876",
       "code_url": "https://github.com/Genentech/AssayBench",
       "links": [
@@ -8546,7 +9070,7 @@
         }
       ],
       "added_at": "2026-10-13",
-      "updated_at": "2026-10-13",
+      "updated_at": "2026-10-28",
       "code_status": "repository_linked",
       "code_sources": [
         "https://github.com/Genentech/AssayBench"
@@ -8570,6 +9094,8 @@
       },
       "facet_review_basis": "abstract",
       "facet_sources": [
+        "https://openreview.net/forum?id=L6NiXA9cBN",
+        "https://neurips.cc/virtual/2026/poster/139516",
         "https://arxiv.org/abs/2605.10876"
       ]
     },
