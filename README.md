@@ -1,10 +1,9 @@
 <h1 align="center">Awesome Virtual Cell</h1>
 
-<p align="center">
-  <strong>English</strong> · <a href="README_CN.md">简体中文</a>
-</p>
 
 <p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/Language-English-1F6FB2?style=flat-square&amp;logo=googletranslate&amp;logoColor=white" alt="Language: English"></a>
+  <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/%E8%AF%AD%E8%A8%80-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-1BA39C?style=flat-square&amp;logo=googletranslate&amp;logoColor=white" alt="语言：简体中文"></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/stargazers"><img src="https://img.shields.io/github/stars/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Stars" /></a>
   <a href="https://github.com/Boom5426/Awesome-Virtual-Cell/commits/main"><img src="https://img.shields.io/github/last-commit/Boom5426/Awesome-Virtual-Cell?style=flat-square&logo=github&label=Updated" /></a>
