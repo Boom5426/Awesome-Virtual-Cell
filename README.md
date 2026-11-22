@@ -66,6 +66,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 | Date | What changed |
 | --- | --- |
+| `2026-11-23` | Tahoe-100M vs. SEA-AD drug-scoring notebook added to Related Resources (community PR) |
 | `2026-11-23` | Verified 15 additional author code repositories; synchronized Chinese latest-paper index and linked both README checks to CI |
 | `2026-11-22` | 26 source-checked virtual-cell papers added; challenge timeline and winners updated; catalog and exports rebuilt |
 | `2026-10-28` | Stricter inclusion rules (venue allowlist, preprint bar, technical reports); 12 NeurIPS 2026 papers added; weekly curation workflow |
@@ -1735,6 +1736,8 @@ Closed competitions that are still useful for their datasets, baselines, and les
 - **[VCell Software]** Long-running software environment for computational cell biology [[site](https://vcell.org/)]
 
 - **[Noetik OCTO-vc]** Technical report and demo for virtual cells in tissue [[report](https://www.noetik.ai/octo-vc)] [[demo](https://celleporter.noetik.ai/)]
+
+- **[Tahoe-100M vs. SEA-AD Notebook]** Worked notebook that reads Tahoe-100M's pseudobulk differential-expression tables for its three glial lines (H4, SW 1088, A-172) and scores all 379 drugs against the SEA-AD astrocyte signature of Alzheimer's progression; it then shows the reversal score mostly tracks one ribosomal-gene growth axis (Spearman -0.89), so a high score is not evidence of efficacy [[repo](https://github.com/Scigantic/tahoe-seaad-alzheimers)]
 
 <a id="scope"></a>
 ## 🎯 Scope
