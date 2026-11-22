@@ -18,6 +18,9 @@ START = "<!-- GENERATED:RESEARCH-PAPERS:START -->"
 END = "<!-- GENERATED:RESEARCH-PAPERS:END -->"
 CH_START = "<!-- GENERATED:LIVE-CHALLENGES:START -->"
 CH_END = "<!-- GENERATED:LIVE-CHALLENGES:END -->"
+CN_README = ROOT / "README_CN.md"
+CN_START = "<!-- GENERATED:RECENT-PAPERS-CN:START -->"
+CN_END = "<!-- GENERATED:RECENT-PAPERS-CN:END -->"
 RECENT_VISIBLE = 10
 MONTHS = ("January", "February", "March", "April", "May", "June", "July",
           "August", "September", "October", "November", "December")
@@ -92,6 +95,49 @@ def render(papers: list[dict]) -> str:
     return "\n".join(chunks).rstrip() + "\n"
 
 
+
+def render_recent_cn(papers: list[dict]) -> str:
+    """Render one latest dated batch from the same structured paper catalog.
+
+    This is a compact bilingual navigation index, not a second paper database.
+    """
+    latest = max((p.get("added_at") or "" for p in papers), default="")
+    fresh = [p for p in papers if p.get("added_at") == latest] if latest else []
+    if not fresh:
+        return "暂无标注入库日期的新增论文。"
+
+    journals = [p for p in fresh if p["status"] == "published"]
+    preprints = [p for p in fresh if p["status"] == "preprint"]
+    linked = sum(bool(p.get("code_url")) for p in fresh)
+    lines = [
+        f"**最近入库：{latest} · {len(fresh)} 篇论文**（正式发表 {len(journals)} 篇；预印本 {len(preprints)} 篇；已核实代码 {linked} 项）",
+        "",
+        "以下仅按发表状态区分，不代表质量排名。链接直接读取英文目录使用的论文与代码字段。",
+    ]
+    for title, subset in (("正式发表", journals), ("预印本（未经同行评审）", preprints)):
+        if not subset:
+            continue
+        lines += ["", f"### {title}（{len(subset)}）", "",
+                  "| 论文 | 期刊/来源 | 代码与资源 |",
+                  "| --- | --- | --- |"]
+        for p in subset:
+            url = p.get("paper_url") or p.get("preprint_url")
+            label = p.get("label") or p["title"]
+            paper = f"[{label}]({url})" if url else label
+            code = p.get("code_url")
+            if code:
+                code_label = "GitHub" if github_repo_path(code) else "代码"
+                resources = f"[{code_label}]({code})"
+            elif p.get("code_status") == "release_pending":
+                resources = "代码待公开"
+            else:
+                resources = "未核实公开代码"
+            for extra in p.get("links", []):
+                if isinstance(extra, dict) and extra.get("url") and extra.get("label"):
+                    resources += f" · [{extra['label']}]({extra['url']})"
+            lines.append(f"| {paper} — {p['title']} | {p['venue']} {p['year']} | {resources} |")
+    return "\n".join(lines) + "\n"
+
 def load_challenges() -> dict:
     payload = json.loads(CHALLENGES.read_text(encoding="utf-8"))
     if payload.get("schema_version") != 1:
@@ -149,20 +195,27 @@ def main() -> int:
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
     current = README.read_text(encoding="utf-8")
+    chinese = CN_README.read_text(encoding="utf-8")
+    papers = load_papers()
     challenges = load_challenges()
-    target = updated_readme(current, render(load_papers()))
+    target = updated_readme(current, render(papers))
     target = replace_block(target, CH_START, CH_END, render_challenges(challenges), "Live Challenges")
+    cn_target = replace_block(chinese, CN_START, CN_END, render_recent_cn(papers), "Chinese recent papers")
     prefix = "::warning::" if os.environ.get("GITHUB_ACTIONS") == "true" else "WARN: "
     for note in challenge_warnings(challenges, date.today()):
         print(prefix + "Live challenges: " + note)
     if args.check:
-        if current != target:
-            print("README.md is out of date. Run: python scripts/build_readme.py")
+        if current != target or chinese != cn_target:
+            if current != target:
+                print("README.md is out of date. Run: python scripts/build_readme.py")
+            if chinese != cn_target:
+                print("README_CN.md is out of date. Run: python scripts/build_readme.py")
             return 1
-        print("README.md is synchronized with data/papers.json and data/challenges.json")
+        print("README.md and README_CN.md are synchronized with structured data")
         return 0
     README.write_text(target, encoding="utf-8")
-    print("Updated README.md from data/papers.json and data/challenges.json")
+    CN_README.write_text(cn_target, encoding="utf-8")
+    print("Updated README.md and README_CN.md from structured data")
     return 0
 
 

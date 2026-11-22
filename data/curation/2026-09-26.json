@@ -13900,7 +13900,7 @@
     },
     {
       "id": "nov26-comm-sis",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Foundation Model",
@@ -13914,16 +13914,19 @@
         "https://doi.org/10.1038/s42256-026-01328-3"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/microsoft/cell_synergy",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s42256-026-01328-3",
+        "https://github.com/microsoft/cell_synergy"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-superb-seq",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Perturbation",
@@ -13936,16 +13939,19 @@
         "https://doi.org/10.1038/s41592-026-03319-z"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/BradBalderson/Sheriff",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03319-z",
+        "https://github.com/BradBalderson/Sheriff"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed. Sheriff is the primary edit-calling pipeline; https://github.com/BradBalderson/superb_analysis is the accompanying analyses repository.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-space-map",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Spatial",
@@ -13958,16 +13964,19 @@
         "https://doi.org/10.1038/s41592-026-03310-8"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/czhu/space-map",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03310-8",
+        "https://github.com/czhu/space-map"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-pangea",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Dataset",
@@ -13979,16 +13988,19 @@
         "https://doi.org/10.1038/s41592-026-03295-4"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/srkim727/pangeapy",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03295-4",
+        "https://github.com/srkim727/pangeapy"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-hist2prot",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Morphology",
@@ -14002,16 +14014,19 @@
         "https://doi.org/10.1038/s43018-026-01270-8"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/Jsf826/Hist2Prot",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s43018-026-01270-8",
+        "https://github.com/Jsf826/Hist2Prot"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-piano",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Multimodal",
@@ -14024,16 +14039,19 @@
         "https://doi.org/10.1016/j.crmeth.2026.101661"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/NingWang1729/piano",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.08.06.743394v1",
+        "https://github.com/NingWang1729/piano"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-morphological-ssl-comparison",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Morphology",
@@ -14048,11 +14066,14 @@
         "https://doi.org/10.1038/s41592-026-03270-z"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/johnsonandjohnson/DeepCellMorpho",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03270-z",
+        "https://github.com/johnsonandjohnson/DeepCellMorpho"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
@@ -14079,7 +14100,7 @@
     },
     {
       "id": "nov26-epipack",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Tool",
@@ -14092,16 +14113,19 @@
         "https://doi.org/10.1038/s41467-026-78924-9"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/ZhangLabGT/EpiPack",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41467-026-78924-9",
+        "https://github.com/ZhangLabGT/EpiPack"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-deep-lineage",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Dynamics",
@@ -14113,16 +14137,19 @@
         "https://doi.org/10.1016/j.cels.2026.101759"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/garyhlai/deep-lineage",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2405471226002413",
+        "https://github.com/garyhlai/deep-lineage"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-genesis",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Perturbation",
@@ -14134,16 +14161,19 @@
         "https://doi.org/10.64898/2026.10.30.763081"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/rickconci/GENESIS",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.10.30.763081v1",
+        "https://github.com/rickconci/GENESIS"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
       "id": "nov26-expert",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Intervention Design",
@@ -14156,11 +14186,14 @@
         "https://doi.org/10.64898/2026.11.02.762549"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/GoyalLab/ExPert",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.02.762549v1.full",
+        "https://github.com/GoyalLab/ExPert"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
@@ -14263,7 +14296,7 @@
     },
     {
       "id": "nov26-lingocell",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Foundation Model",
@@ -14278,9 +14311,9 @@
       ],
       "old_code_url": null,
       "code_url": null,
-      "code_status": "not_found",
+      "code_status": "release_pending",
       "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "code_note": "Author project page states that code and pretrained weights are not public; available on request as of 2026-11-23. A placeholder GitHub README ('Coming soon') is not an implementation.",
       "repository_http_status": null,
       "repository_readme_status": null
     },
@@ -14307,7 +14340,7 @@
     },
     {
       "id": "nov26-graph-guided-flow-matching",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Perturbation",
@@ -14319,12 +14352,15 @@
         "https://doi.org/10.64898/2026.11.12.766125"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
+      "code_url": "https://github.com/TRON-Bioinformatics/GFM",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.12.766125v1",
+        "https://github.com/TRON-Bioinformatics/GFM"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
     },
     {
       "id": "nov26-scfm-baseline-benchmark-nov",
@@ -14374,7 +14410,7 @@
     },
     {
       "id": "nov26-ember",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Representation Learning",
@@ -14387,16 +14423,19 @@
         "https://doi.org/10.64898/2026.10.28.762655"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
+      "code_url": "https://github.com/ma-compbio-lab/EMBER",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ma-compbio-lab/EMBER",
+        "https://github.com/ma-compbio-lab/EMBER"
+      ],
+      "code_note": "The repository's own README or description identifies the method and matches this paper; paper-level code linkage was not independently confirmed. Repository exists (HTTP 200, checked 2026-11-23); no code was executed.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
     },
     {
       "id": "nov26-unified-perturbational-modeling",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Virtual Cell",
@@ -14409,11 +14448,14 @@
         "https://doi.org/10.64898/2026.10.25.761625"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
+      "code_url": "https://github.com/youlab2025/UPM",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1",
+        "https://github.com/youlab2025/UPM"
+      ],
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
+      "repository_http_status": 200,
       "repository_readme_status": null
     },
     {
@@ -14462,7 +14504,7 @@
     },
     {
       "id": "nov26-causal-mediator-dynamics",
-      "reviewed_at": "2026-11-22",
+      "reviewed_at": "2026-11-23",
       "old_tags": [],
       "tags": [
         "Gene Regulation",
@@ -14475,12 +14517,15 @@
         "https://doi.org/10.64898/2026.11.05.764481"
       ],
       "old_code_url": null,
-      "code_url": null,
-      "code_status": "not_found",
-      "code_sources": [],
-      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
-      "repository_http_status": null,
-      "repository_readme_status": null
+      "code_url": "https://github.com/welch-lab/causalode",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/welch-lab/causalode",
+        "https://github.com/welch-lab/causalode"
+      ],
+      "code_note": "The repository's own README or description identifies the method and matches this paper; paper-level code linkage was not independently confirmed. Repository exists (HTTP 200, checked 2026-11-23); no code was executed.",
+      "repository_http_status": 200,
+      "repository_readme_status": 200
     }
   ],
   "removed": [

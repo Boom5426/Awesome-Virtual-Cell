@@ -66,18 +66,20 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 | Date | What changed |
 | --- | --- |
+| `2026-11-23` | Verified 15 additional author code repositories; synchronized Chinese latest-paper index and linked both README checks to CI |
 | `2026-11-22` | 26 source-checked virtual-cell papers added; challenge timeline and winners updated; catalog and exports rebuilt |
 | `2026-10-28` | Stricter inclusion rules (venue allowlist, preprint bar, technical reports); 12 NeurIPS 2026 papers added; weekly curation workflow |
 | `2026-10-27` | Literature sweep: 155 papers added (396 to 551) and 9 preprints upgraded to their published venues |
 | `2026-10-26` | Open community baseline with code for the Virtual Cell Challenge 2026 (community PR) |
-| `2026-10-13` | Literature audit: 67 re-verified papers added (329 to 396), DOI fixes and venue upgrades |
+
 
 
 <details>
-<summary>Earlier updates (19)</summary>
+<summary>Earlier updates (20)</summary>
 
 | Date | What changed |
 | --- | --- |
+| `2026-10-13` | Literature audit: 67 re-verified papers added (329 to 396), DOI fixes and venue upgrades |
 | `2026-10-10` | LabCompass added, with official code, workflows and data |
 | `2026-10-02` | 42 source-checked papers added (285 to 327); new Start Here reading tracks |
 | `2026-10-01` | Two perturbation atlases added to Datasets; Virtual Cell Challenge 2026 dates updated |
@@ -114,29 +116,29 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 <a id="2026"></a>
 ### 🗓️ 2026 — 428 papers
 
-- **[CoMM / SIS]** `[Foundation Model]` `[Multimodal]` `[Spatial]` `[Evaluation & Measurement]` Multimodal cell foundation models require synergistic integration beyond alignment (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-026-01328-3)]
+- **[CoMM / SIS]** `[Foundation Model]` `[Multimodal]` `[Spatial]` `[Evaluation & Measurement]` Multimodal cell foundation models require synergistic integration beyond alignment (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-026-01328-3)] [[code](https://github.com/microsoft/cell_synergy)] ![GitHub stars](https://img.shields.io/github/stars/microsoft/cell_synergy.svg?logo=github&label=Stars)
 
-- **[Superb-seq]** `[Perturbation]` `[Multimodal]` `[Gene Regulation]` Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03319-z)]
+- **[Superb-seq]** `[Perturbation]` `[Multimodal]` `[Gene Regulation]` Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03319-z)] [[code](https://github.com/BradBalderson/Sheriff)] ![GitHub stars](https://img.shields.io/github/stars/BradBalderson/Sheriff.svg?logo=github&label=Stars) [[Superb-seq analysis](https://github.com/BradBalderson/superb_analysis)]
 
-- **[Space-map]** `[Spatial]` `[Tool]` `[Representation Learning]` Space-map: 3D single-cell atlas reconstruction from serial sections (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03310-8)]
+- **[Space-map]** `[Spatial]` `[Tool]` `[Representation Learning]` Space-map: 3D single-cell atlas reconstruction from serial sections (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03310-8)] [[code](https://github.com/czhu/space-map)] ![GitHub stars](https://img.shields.io/github/stars/czhu/space-map.svg?logo=github&label=Stars)
 
-- **[PANGEA]** `[Dataset]` `[Representation Learning]` PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03295-4)]
+- **[PANGEA]** `[Dataset]` `[Representation Learning]` PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03295-4)] [[code](https://github.com/srkim727/pangeapy)] ![GitHub stars](https://img.shields.io/github/stars/srkim727/pangeapy.svg?logo=github&label=Stars)
 
-- **[Hist2Prot]** `[Morphology]` `[Protein]` `[Spatial]` `[Multimodal]` The deep learning framework Hist2Prot infers single-cell spatial proteomics from histology to predict biomarkers and clinical outcomes (**Nature Cancer 2026**) [[paper](https://doi.org/10.1038/s43018-026-01270-8)]
+- **[Hist2Prot]** `[Morphology]` `[Protein]` `[Spatial]` `[Multimodal]` The deep learning framework Hist2Prot infers single-cell spatial proteomics from histology to predict biomarkers and clinical outcomes (**Nature Cancer 2026**) [[paper](https://doi.org/10.1038/s43018-026-01270-8)] [[code](https://github.com/Jsf826/Hist2Prot)] ![GitHub stars](https://img.shields.io/github/stars/Jsf826/Hist2Prot.svg?logo=github&label=Stars)
 
-- **[PIANO]** `[Multimodal]` `[Representation Learning]` `[Foundation Model]` PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells (**Cell Reports Methods 2026**) [[paper](https://doi.org/10.1016/j.crmeth.2026.101661)]
+- **[PIANO]** `[Multimodal]` `[Representation Learning]` `[Foundation Model]` PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells (**Cell Reports Methods 2026**) [[paper](https://doi.org/10.1016/j.crmeth.2026.101661)] [[code](https://github.com/NingWang1729/piano)] ![GitHub stars](https://img.shields.io/github/stars/NingWang1729/piano.svg?logo=github&label=Stars)
 
-- **[Morphological SSL comparison]** `[Morphology]` `[Perturbation]` `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03270-z)]
+- **[Morphological SSL comparison]** `[Morphology]` `[Perturbation]` `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03270-z)] [[code](https://github.com/johnsonandjohnson/DeepCellMorpho)] ![GitHub stars](https://img.shields.io/github/stars/johnsonandjohnson/DeepCellMorpho.svg?logo=github&label=Stars)
 
 - **[Cas12a DDR screens]** `[Perturbation]` `[Dataset]` `[Gene Regulation]` Cas12a-based combinatorial knockout screens define the genetic architecture of the DNA damage response (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03339-2)]
 
-- **[EpiPack]** `[Tool]` `[Representation Learning]` `[Evaluation & Measurement]` EpiPack: A computational framework for reference mapping and out-of-reference detection for single-cell ATAC-seq data with heterogeneous peak features (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-78924-9)]
+- **[EpiPack]** `[Tool]` `[Representation Learning]` `[Evaluation & Measurement]` EpiPack: A computational framework for reference mapping and out-of-reference detection for single-cell ATAC-seq data with heterogeneous peak features (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-78924-9)] [[code](https://github.com/ZhangLabGT/EpiPack)] ![GitHub stars](https://img.shields.io/github/stars/ZhangLabGT/EpiPack.svg?logo=github&label=Stars)
 
-- **[Deep Lineage]** `[Dynamics]` `[Representation Learning]` Deep Lineage: Single-cell lineage tracing and fate inference using deep learning (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101759)]
+- **[Deep Lineage]** `[Dynamics]` `[Representation Learning]` Deep Lineage: Single-cell lineage tracing and fate inference using deep learning (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101759)] [[code](https://github.com/garyhlai/deep-lineage)] ![GitHub stars](https://img.shields.io/github/stars/garyhlai/deep-lineage.svg?logo=github&label=Stars)
 
-- **[GENESIS]** `[Perturbation]` `[Evaluation & Measurement]` Single-cell perturbation prediction near experimental reproducibility with GENESIS (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.30.763081)]
+- **[GENESIS]** `[Perturbation]` `[Evaluation & Measurement]` Single-cell perturbation prediction near experimental reproducibility with GENESIS (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.30.763081)] [[code](https://github.com/rickconci/GENESIS)] ![GitHub stars](https://img.shields.io/github/stars/rickconci/GENESIS.svg?logo=github&label=Stars)
 
-- **[ExPert]** `[Intervention Design]` `[Perturbation]` `[Gene Regulation]` ExPert infers causal perturbations from cell states across biological and clinical contexts (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.02.762549)]
+- **[ExPert]** `[Intervention Design]` `[Perturbation]` `[Gene Regulation]` ExPert infers causal perturbations from cell states across biological and clinical contexts (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.02.762549)] [[code](https://github.com/GoyalLab/ExPert)] ![GitHub stars](https://img.shields.io/github/stars/GoyalLab/ExPert.svg?logo=github&label=Stars)
 
 - **[MitoWorld]** `[World Model]` `[Virtual Cell]` `[Dynamics]` `[Morphology]` `[Perturbation]` MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2611.23953)]
 
@@ -146,25 +148,25 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[scAnyOmics]** `[Virtual Cell]` `[Foundation Model]` `[Multimodal]` `[Protein]` `[Representation Learning]` scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2610.41399)]
 
-- **[LingoCell]** `[Foundation Model]` `[Multimodal]` `[Spatial]` `[Perturbation]` LingoCell interprets gene perturbations through natural language and tissue niches (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.08.765157)]
+- **[LingoCell]** `[Foundation Model]` `[Multimodal]` `[Spatial]` `[Perturbation]` LingoCell interprets gene perturbations through natural language and tissue niches (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.08.765157)] [[project (code on request)](https://lingocell.com/resources.html)]
 
 - **[scDisentangle]** `[Perturbation]` `[Representation Learning]` scDisentangle: sequential disentanglement for single-cell perturbation response prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.04.764292)]
 
-- **[Graph-guided Flow Matching]** `[Perturbation]` `[Gene Regulation]` Graph-guided flow matching enables biologically informed prediction at single-cell resolution (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.12.766125)]
+- **[Graph-guided Flow Matching]** `[Perturbation]` `[Gene Regulation]` Graph-guided flow matching enables biologically informed prediction at single-cell resolution (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.12.766125)] [[code](https://github.com/TRON-Bioinformatics/GFM)] ![GitHub stars](https://img.shields.io/github/stars/TRON-Bioinformatics/GFM.svg?logo=github&label=Stars)
 
 - **[scFM baseline benchmark Nov]** `[Benchmark]` `[Foundation Model]` `[Perturbation]` `[Gene Regulation]` `[Evaluation & Measurement]` Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.03.763968)]
 
 - **[GRAFT]** `[Perturbation]` `[Intervention Design]` `[Multimodal]` Cross-modal transfer enables zero-shot prediction of drug responses across cell types (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.27.762107)]
 
-- **[EMBER]** `[Representation Learning]` `[Perturbation]` `[Gene Regulation]` EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.28.762655)]
+- **[EMBER]** `[Representation Learning]` `[Perturbation]` `[Gene Regulation]` EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.28.762655)] [[code](https://github.com/ma-compbio-lab/EMBER)] ![GitHub stars](https://img.shields.io/github/stars/ma-compbio-lab/EMBER.svg?logo=github&label=Stars) [[EMBER dataset](https://huggingface.co/datasets/NickDST/EMBER-data)]
 
-- **[Unified Perturbational Modeling]** `[Virtual Cell]` `[Perturbation]` `[Evaluation & Measurement]` How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling? (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.25.761625)]
+- **[Unified Perturbational Modeling]** `[Virtual Cell]` `[Perturbation]` `[Evaluation & Measurement]` How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling? (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.25.761625)] [[code](https://github.com/youlab2025/UPM)] ![GitHub stars](https://img.shields.io/github/stars/youlab2025/UPM.svg?logo=github&label=Stars)
 
 - **[Dynamic-state Disentangled Perturbation]** `[Perturbation]` `[Dynamics]` `[Representation Learning]` Disentangled generative modeling of single-cell perturbation responses across dynamic cellular states (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.07.765083)]
 
 - **[BLOOM Virtual Embryo]** `[Virtual Cell]` `[Dynamics]` `[Perturbation]` BLOOM: Biologically Informed Flow Matching for Transcriptomic Virtual Embryo Modeling (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.26.761895)]
 
-- **[Causal Mediator Dynamics]** `[Gene Regulation]` `[Perturbation]` `[Dynamics]` Inferring gene regulatory networks from single-cell perturbation data by optimizing causal reach of latent mediator dynamics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.05.764481)]
+- **[Causal Mediator Dynamics]** `[Gene Regulation]` `[Perturbation]` `[Dynamics]` Inferring gene regulatory networks from single-cell perturbation data by optimizing causal reach of latent mediator dynamics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.05.764481)] [[code](https://github.com/welch-lab/causalode)] ![GitHub stars](https://img.shields.io/github/stars/welch-lab/causalode.svg?logo=github&label=Stars)
 
 - **[Predicted-NN-distance]** `[Perturbation]` `[Foundation Model]` `[Evaluation & Measurement]` A low-rank decoder bottleneck bounds reliability in foundation-model perturbation prediction (**NeurIPS 2026**) [[paper](https://openreview.net/forum?id=DjV66HdJ1r)]
 

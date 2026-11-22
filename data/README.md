@@ -30,7 +30,7 @@ python scripts/build_facets_doc.py
 
 Generated artifacts:
 
-- `README.md`
+- `README.md` and `README_CN.md` (latest-batch index)
 - `index.html`, `docs/index.html`, `docs/catalog.html`
 - `exports/papers.csv`
 - `exports/papers.bib`
