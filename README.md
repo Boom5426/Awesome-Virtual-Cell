@@ -1541,7 +1541,7 @@ The Virtual Cell Challenge (VCC) is Arc Institute's annual AI virtual cell compe
 
 #### 2nd Edition (2026)
 
-Round two is the edition currently hosted at [virtualcellchallenge.org](https://virtualcellchallenge.org/), sponsored by NVIDIA, 10x Genomics, and Ultima Genomics. The facts below are taken from the challenge homepage, its [Evaluation page](https://virtualcellchallenge.org/evaluation), and the accompanying *Cell* paper, as read on 13 October 2026.
+The second edition was hosted at [virtualcellchallenge.org](https://virtualcellchallenge.org/), sponsored by NVIDIA, 10x Genomics, and Ultima Genomics. The task specifications below come from the challenge homepage, its [Evaluation page](https://virtualcellchallenge.org/evaluation) and accompanying *Cell* paper; the final results were announced by Arc Institute on 19 November 2026.
 
 - **Question**: does a perturbation model transfer to cell contexts in which it has never seen a perturbation?
 
@@ -1555,9 +1555,11 @@ Round two is the edition currently hosted at [virtualcellchallenge.org](https://
 
 - **Submission policy**: entries do not require open weights or code. Arc frames this as a deliberate choice to encourage industry participation alongside academia and individual entrants. It also makes this edition less reproducible than the 2025 one, so treat leaderboard positions as claims rather than as verifiable results.
 
-- **Timeline**: registration opened 4 August 2026, submissions and the live leaderboard opened 20 August 2026, the final test set is released 22 October 2026, final submissions are due 5 November 2026, and winners are announced in late November 2026.
+- **Timeline**: registration opened 4 August 2026, submissions and the live leaderboard opened 20 August 2026, the final test set was released 22 October 2026, submissions closed 5 November 2026, and winners were announced 19 November 2026.
 
 - **Prizes**: the top three models win prizes valued at $100,000, $50,000, and $25,000, each half cash and half NVIDIA Brev credits.
+
+- **Final results (19 November 2026)**: **BioInsight AI Lab (Illumina)** placed first with its CellularAI Algorithm (final score 0.440), followed by **FlowState** and **X-team (Xaira Therapeutics)**. The composite score is normalized between the cell-context mean (0) and an experimental replicate reference (1); it is **not** a 44% accuracy rate. The winning systems relied heavily on transferring perturbation responses from related public screens. [[Official winners and evaluation](https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up)]
 
 - **[Homepage]** Virtual Cell Challenge (**Arc Institute 2026**) [[homepage](https://virtualcellchallenge.org/)] [[Virtual Cell Initiative](https://arcinstitute.org/virtual-cell-initiative)]
 
