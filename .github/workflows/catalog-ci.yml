@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - "README.md"
+      - "README_CN.md"
       - "data/**"
       - "config/**"
       - "scripts/build_readme.py"
@@ -31,6 +32,7 @@ on:
   pull_request:
     paths:
       - "README.md"
+      - "README_CN.md"
       - "data/**"
       - "config/**"
       - "scripts/build_readme.py"

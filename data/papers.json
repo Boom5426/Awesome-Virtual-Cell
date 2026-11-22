@@ -19,12 +19,15 @@
       "doi": "10.1038/s42256-026-01328-3",
       "paper_url": "https://doi.org/10.1038/s42256-026-01328-3",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/microsoft/cell_synergy",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s42256-026-01328-3",
+        "https://github.com/microsoft/cell_synergy"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -62,12 +65,20 @@
       "doi": "10.1038/s41592-026-03319-z",
       "paper_url": "https://doi.org/10.1038/s41592-026-03319-z",
       "preprint_url": null,
-      "code_url": null,
-      "links": [],
+      "code_url": "https://github.com/BradBalderson/Sheriff",
+      "links": [
+        {
+          "label": "Superb-seq analysis",
+          "url": "https://github.com/BradBalderson/superb_analysis"
+        }
+      ],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03319-z",
+        "https://github.com/BradBalderson/Sheriff"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -107,12 +118,15 @@
       "doi": "10.1038/s41592-026-03310-8",
       "paper_url": "https://doi.org/10.1038/s41592-026-03310-8",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/czhu/space-map",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03310-8",
+        "https://github.com/czhu/space-map"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -147,12 +161,15 @@
       "doi": "10.1038/s41592-026-03295-4",
       "paper_url": "https://doi.org/10.1038/s41592-026-03295-4",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/srkim727/pangeapy",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03295-4",
+        "https://github.com/srkim727/pangeapy"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -188,12 +205,15 @@
       "doi": "10.1038/s43018-026-01270-8",
       "paper_url": "https://doi.org/10.1038/s43018-026-01270-8",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/Jsf826/Hist2Prot",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s43018-026-01270-8",
+        "https://github.com/Jsf826/Hist2Prot"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -231,12 +251,15 @@
       "doi": "10.1016/j.crmeth.2026.101661",
       "paper_url": "https://doi.org/10.1016/j.crmeth.2026.101661",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/NingWang1729/piano",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.08.06.743394v1",
+        "https://github.com/NingWang1729/piano"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -274,12 +297,15 @@
       "doi": "10.1038/s41592-026-03270-z",
       "paper_url": "https://doi.org/10.1038/s41592-026-03270-z",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/johnsonandjohnson/DeepCellMorpho",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41592-026-03270-z",
+        "https://github.com/johnsonandjohnson/DeepCellMorpho"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -356,12 +382,15 @@
       "doi": "10.1038/s41467-026-78924-9",
       "paper_url": "https://doi.org/10.1038/s41467-026-78924-9",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/ZhangLabGT/EpiPack",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.nature.com/articles/s41467-026-78924-9",
+        "https://github.com/ZhangLabGT/EpiPack"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -396,12 +425,15 @@
       "doi": "10.1016/j.cels.2026.101759",
       "paper_url": "https://doi.org/10.1016/j.cels.2026.101759",
       "preprint_url": null,
-      "code_url": null,
+      "code_url": "https://github.com/garyhlai/deep-lineage",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S2405471226002413",
+        "https://github.com/garyhlai/deep-lineage"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -435,12 +467,15 @@
       "doi": "10.64898/2026.10.30.763081",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.10.30.763081",
-      "code_url": null,
+      "code_url": "https://github.com/rickconci/GENESIS",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.10.30.763081v1",
+        "https://github.com/rickconci/GENESIS"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -476,12 +511,15 @@
       "doi": "10.64898/2026.11.02.762549",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.11.02.762549",
-      "code_url": null,
+      "code_url": "https://github.com/GoyalLab/ExPert",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.02.762549v1.full",
+        "https://github.com/GoyalLab/ExPert"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -711,10 +749,15 @@
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.11.08.765157",
       "code_url": null,
-      "links": [],
+      "links": [
+        {
+          "label": "project (code on request)",
+          "url": "https://lingocell.com/resources.html"
+        }
+      ],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
+      "updated_at": "2026-11-23",
+      "code_status": "release_pending",
       "code_sources": [],
       "tag_review_basis": "abstract",
       "facets": {
@@ -793,12 +836,15 @@
       "doi": "10.64898/2026.11.12.766125",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.11.12.766125",
-      "code_url": null,
+      "code_url": "https://github.com/TRON-Bioinformatics/GFM",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.11.12.766125v1",
+        "https://github.com/TRON-Bioinformatics/GFM"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -925,12 +971,20 @@
       "doi": "10.64898/2026.10.28.762655",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.10.28.762655",
-      "code_url": null,
-      "links": [],
+      "code_url": "https://github.com/ma-compbio-lab/EMBER",
+      "links": [
+        {
+          "label": "EMBER dataset",
+          "url": "https://huggingface.co/datasets/NickDST/EMBER-data"
+        }
+      ],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/ma-compbio-lab/EMBER",
+        "https://github.com/ma-compbio-lab/EMBER"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -969,12 +1023,15 @@
       "doi": "10.64898/2026.10.25.761625",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.10.25.761625",
-      "code_url": null,
+      "code_url": "https://github.com/youlab2025/UPM",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1",
+        "https://github.com/youlab2025/UPM"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [
@@ -1092,12 +1149,15 @@
       "doi": "10.64898/2026.11.05.764481",
       "paper_url": null,
       "preprint_url": "https://doi.org/10.64898/2026.11.05.764481",
-      "code_url": null,
+      "code_url": "https://github.com/welch-lab/causalode",
       "links": [],
       "added_at": "2026-11-22",
-      "updated_at": "2026-11-22",
-      "code_status": "not_found",
-      "code_sources": [],
+      "updated_at": "2026-11-23",
+      "code_status": "repository_linked",
+      "code_sources": [
+        "https://github.com/welch-lab/causalode",
+        "https://github.com/welch-lab/causalode"
+      ],
       "tag_review_basis": "abstract",
       "facets": {
         "task": [

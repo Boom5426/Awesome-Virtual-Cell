@@ -44,12 +44,60 @@
 | 目标 | 推荐入口 |
 | --- | --- |
 | 🧬 **理解 Virtual Cell 的整体问题** | **[Cell perspective](https://doi.org/10.1016/j.cell.2024.11.015)** · [Grow AI Virtual Cells](https://www.nature.com/articles/s41422-025-01101-y) · [Nature perspective](https://www.nature.com/articles/s41586-025-08710-y) |
-| 🧫 **预测细胞扰动响应** | **[GEARS](https://www.nature.com/articles/s41587-023-01905-6)** · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [PIE](https://doi.org/10.64898/2026.10.02.756297) · [MAP](https://doi.org/10.1038/s42256-026-01286-w) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) |
+| 🧫 **预测细胞扰动响应** | **[GEARS](https://www.nature.com/articles/s41587-023-01905-6)** · [STATE](https://doi.org/10.1016/j.cell.2026.07.052) · [PIE](https://doi.org/10.64898/2026.10.02.756297) · [MAP](https://doi.org/10.1038/s42256-026-01286-w) · [CellFlow](https://doi.org/10.1101/2025.04.11.648220) · [GENESIS（预印本）](https://doi.org/10.64898/2026.10.30.763081) |
 | 🧠 **细胞基础模型** | **[Geneformer](https://doi.org/10.1038/s41586-023-06139-9)** · [scGPT](https://doi.org/10.1038/s41592-024-02201-0) · [scFoundation](https://doi.org/10.1038/s41592-024-02305-7) · [UCE](https://doi.org/10.1038/s41586-026-10689-z) · [TranscriptFormer](https://doi.org/10.1126/science.aec8514) |
-| 🌐 **世界模型与细胞状态转移** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Chreode](https://arxiv.org/abs/2605.28111) |
-| 🖼️ **多模态与空间组学** | **[Nicheformer](https://doi.org/10.1038/s41592-025-02814-z)** · [VirTues](https://doi.org/10.1038/s41586-026-10884-y) · [DePass](https://doi.org/10.1038/s41556-026-02067-8) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) |
-| 🎯 **干预设计 / 逆向设计** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [LabCompass](https://doi.org/10.64898/2026.10.07.756550) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) |
-| 📏 **评价与测量分辨率** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) |
+| 🌐 **世界模型与细胞状态转移** | **[A world model of the virtual cell](https://doi.org/10.1016/j.cell.2026.08.042)** · [CellOS](https://doi.org/10.64898/2026.06.18.733163) · [Chreode](https://arxiv.org/abs/2605.28111) · [MitoWorld（预印本）](https://arxiv.org/abs/2611.23953) |
+| 🖼️ **多模态与空间组学** | **[Nicheformer](https://doi.org/10.1038/s41592-025-02814-z)** · [VirTues](https://doi.org/10.1038/s41586-026-10884-y) · [DePass](https://doi.org/10.1038/s41556-026-02067-8) · [UniPert-G2CP](https://doi.org/10.1016/j.cell.2026.06.005) · [Hist2Prot](https://doi.org/10.1038/s43018-026-01270-8) |
+| 🎯 **干预设计 / 逆向设计** | **[PDGrapher](https://doi.org/10.1038/s41551-025-01481-x)** · [DrugReflector](https://doi.org/10.1126/science.adi8577) · [LabCompass](https://doi.org/10.64898/2026.10.07.756550) · [CellNavi](https://doi.org/10.1038/s41556-025-01755-1) · [PAIRING](https://doi.org/10.1016/j.cels.2025.101405) · [VCDesign](https://github.com/Boom5426/VCDesign-CED/blob/main/paper/VCDesign.pdf) · [ExPert（预印本）](https://doi.org/10.64898/2026.11.02.762549) |
+| 📏 **评价与测量分辨率** | **[Systema](https://doi.org/10.1038/s41587-025-02777-8)** · [SCMBench](https://doi.org/10.1038/s41467-026-72570-x) · [PertResolve](https://github.com/Boom5426/PertResolve/blob/main/manuscript/PertResolve_manuscript.pdf) · [Signal, Bounds & Baselines](https://doi.org/10.64898/2026.04.20.719650) · [Principled Evaluation](https://doi.org/10.64898/2026.07.23.740433) · [scFM 基准（预印本）](https://doi.org/10.64898/2026.11.03.763968) |
+
+## 🆕 最新论文（与英文目录自动同步）
+
+本区从 `data/papers.json` 自动生成，按最近一次入库日期显示全部新增论文。**论文、发表状态和代码链接与英文目录使用同一份数据**，不单独维护第二套易过时的长列表。
+
+<!-- GENERATED:RECENT-PAPERS-CN:START -->
+
+**最近入库：2026-11-22 · 26 篇论文**（正式发表 10 篇；预印本 16 篇；已核实代码 17 项）
+
+以下仅按发表状态区分，不代表质量排名。链接直接读取英文目录使用的论文与代码字段。
+
+### 正式发表（10）
+
+| 论文 | 期刊/来源 | 代码与资源 |
+| --- | --- | --- |
+| [CoMM / SIS](https://doi.org/10.1038/s42256-026-01328-3) — Multimodal cell foundation models require synergistic integration beyond alignment | Nature Machine Intelligence 2026 | [GitHub](https://github.com/microsoft/cell_synergy) |
+| [Superb-seq](https://doi.org/10.1038/s41592-026-03319-z) — Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression | Nature Methods 2026 | [GitHub](https://github.com/BradBalderson/Sheriff) · [Superb-seq analysis](https://github.com/BradBalderson/superb_analysis) |
+| [Space-map](https://doi.org/10.1038/s41592-026-03310-8) — Space-map: 3D single-cell atlas reconstruction from serial sections | Nature Methods 2026 | [GitHub](https://github.com/czhu/space-map) |
+| [PANGEA](https://doi.org/10.1038/s41592-026-03295-4) — PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases | Nature Methods 2026 | [GitHub](https://github.com/srkim727/pangeapy) |
+| [Hist2Prot](https://doi.org/10.1038/s43018-026-01270-8) — The deep learning framework Hist2Prot infers single-cell spatial proteomics from histology to predict biomarkers and clinical outcomes | Nature Cancer 2026 | [GitHub](https://github.com/Jsf826/Hist2Prot) |
+| [PIANO](https://doi.org/10.1016/j.crmeth.2026.101661) — PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells | Cell Reports Methods 2026 | [GitHub](https://github.com/NingWang1729/piano) |
+| [Morphological SSL comparison](https://doi.org/10.1038/s41592-026-03270-z) — Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations | Nature Methods 2026 | [GitHub](https://github.com/johnsonandjohnson/DeepCellMorpho) |
+| [Cas12a DDR screens](https://doi.org/10.1038/s41587-026-03339-2) — Cas12a-based combinatorial knockout screens define the genetic architecture of the DNA damage response | Nature Biotechnology 2026 | 未核实公开代码 |
+| [EpiPack](https://doi.org/10.1038/s41467-026-78924-9) — EpiPack: A computational framework for reference mapping and out-of-reference detection for single-cell ATAC-seq data with heterogeneous peak features | Nature Communications 2026 | [GitHub](https://github.com/ZhangLabGT/EpiPack) |
+| [Deep Lineage](https://doi.org/10.1016/j.cels.2026.101759) — Deep Lineage: Single-cell lineage tracing and fate inference using deep learning | Cell Systems 2026 | [GitHub](https://github.com/garyhlai/deep-lineage) |
+
+### 预印本（未经同行评审）（16）
+
+| 论文 | 期刊/来源 | 代码与资源 |
+| --- | --- | --- |
+| [GENESIS](https://doi.org/10.64898/2026.10.30.763081) — Single-cell perturbation prediction near experimental reproducibility with GENESIS | bioRxiv 2026 | [GitHub](https://github.com/rickconci/GENESIS) |
+| [ExPert](https://doi.org/10.64898/2026.11.02.762549) — ExPert infers causal perturbations from cell states across biological and clinical contexts | bioRxiv 2026 | [GitHub](https://github.com/GoyalLab/ExPert) |
+| [MitoWorld](https://arxiv.org/abs/2611.23953) — MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation | arXiv 2026 | 未核实公开代码 |
+| [S1Pert](https://arxiv.org/abs/2611.17705) — S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence | arXiv 2026 | [GitHub](https://github.com/liujiawen-jpg/S1Pert) |
+| [CellCanon](https://arxiv.org/abs/2611.05890) — CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating | arXiv 2026 | [GitHub](https://github.com/ZhaokangLiang123/CellCanon) |
+| [scAnyOmics](https://arxiv.org/abs/2610.41399) — scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells | arXiv 2026 | 未核实公开代码 |
+| [LingoCell](https://doi.org/10.64898/2026.11.08.765157) — LingoCell interprets gene perturbations through natural language and tissue niches | bioRxiv 2026 | 代码待公开 · [project (code on request)](https://lingocell.com/resources.html) |
+| [scDisentangle](https://doi.org/10.64898/2026.11.04.764292) — scDisentangle: sequential disentanglement for single-cell perturbation response prediction | bioRxiv 2026 | 未核实公开代码 |
+| [Graph-guided Flow Matching](https://doi.org/10.64898/2026.11.12.766125) — Graph-guided flow matching enables biologically informed prediction at single-cell resolution | bioRxiv 2026 | [GitHub](https://github.com/TRON-Bioinformatics/GFM) |
+| [scFM baseline benchmark Nov](https://doi.org/10.64898/2026.11.03.763968) — Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines | bioRxiv 2026 | 未核实公开代码 |
+| [GRAFT](https://doi.org/10.64898/2026.10.27.762107) — Cross-modal transfer enables zero-shot prediction of drug responses across cell types | bioRxiv 2026 | 未核实公开代码 |
+| [EMBER](https://doi.org/10.64898/2026.10.28.762655) — EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations | bioRxiv 2026 | [GitHub](https://github.com/ma-compbio-lab/EMBER) · [EMBER dataset](https://huggingface.co/datasets/NickDST/EMBER-data) |
+| [Unified Perturbational Modeling](https://doi.org/10.64898/2026.10.25.761625) — How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling? | bioRxiv 2026 | [GitHub](https://github.com/youlab2025/UPM) |
+| [Dynamic-state Disentangled Perturbation](https://doi.org/10.64898/2026.11.07.765083) — Disentangled generative modeling of single-cell perturbation responses across dynamic cellular states | bioRxiv 2026 | 未核实公开代码 |
+| [BLOOM Virtual Embryo](https://doi.org/10.64898/2026.10.26.761895) — BLOOM: Biologically Informed Flow Matching for Transcriptomic Virtual Embryo Modeling | bioRxiv 2026 | 未核实公开代码 |
+| [Causal Mediator Dynamics](https://doi.org/10.64898/2026.11.05.764481) — Inferring gene regulatory networks from single-cell perturbation data by optimizing causal reach of latent mediator dynamics | bioRxiv 2026 | [GitHub](https://github.com/welch-lab/causalode) |
+
+<!-- GENERATED:RECENT-PAPERS-CN:END -->
 
 ## 🗺️ 两种最推荐的浏览方式
 
@@ -104,6 +152,8 @@
 Benchmark、挑战赛与社区评测见：
 
 **[README → Challenges and Competitions](README.md#challenges-and-competitions)**
+
+**挑战赛状态（核对于 2026-11-22）：** [Arc Virtual Cell Challenge 2026](https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up) 已于 11 月 19 日公布结果，Illumina BioInsight AI Lab 获第一名；[Virtual Embryo Challenge 2026](https://virtualembryo.ai/challenge/rules) 的最终提交截止时间为 **11 月 25 日 23:59 AoE**。请以主 README 的实时挑战赛表格与官方页面为准。
 
 当前仓库不仅收集通用单细胞数据，还重点关注与 Virtual Cell 直接相关的：
 
