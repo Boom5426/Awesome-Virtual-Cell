@@ -13920,9 +13920,9 @@
         "https://www.nature.com/articles/s42256-026-01328-3",
         "https://github.com/microsoft/cell_synergy"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-superb-seq",
@@ -13945,9 +13945,9 @@
         "https://www.nature.com/articles/s41592-026-03319-z",
         "https://github.com/BradBalderson/Sheriff"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23). Main processing pipeline is Sheriff; paper also links supplemental analyses at https://github.com/BradBalderson/superb_analysis.",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed. Sheriff is the primary edit-calling pipeline; https://github.com/BradBalderson/superb_analysis is the accompanying analyses repository.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-space-map",
@@ -13970,9 +13970,9 @@
         "https://www.nature.com/articles/s41592-026-03310-8",
         "https://github.com/czhu/space-map"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-pangea",
@@ -13994,9 +13994,9 @@
         "https://www.nature.com/articles/s41592-026-03295-4",
         "https://github.com/srkim727/pangeapy"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-hist2prot",
@@ -14020,9 +14020,9 @@
         "https://www.nature.com/articles/s43018-026-01270-8",
         "https://github.com/Jsf826/Hist2Prot"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-piano",
@@ -14045,9 +14045,9 @@
         "https://www.biorxiv.org/content/10.64898/2026.08.06.743394v1",
         "https://github.com/NingWang1729/piano"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-morphological-ssl-comparison",
@@ -14072,9 +14072,9 @@
         "https://www.nature.com/articles/s41592-026-03270-z",
         "https://github.com/johnsonandjohnson/DeepCellMorpho"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-cas12a-ddr-screens",
@@ -14119,9 +14119,9 @@
         "https://www.nature.com/articles/s41467-026-78924-9",
         "https://github.com/ZhangLabGT/EpiPack"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-deep-lineage",
@@ -14143,9 +14143,9 @@
         "https://www.sciencedirect.com/science/article/pii/S2405471226002413",
         "https://github.com/garyhlai/deep-lineage"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-genesis",
@@ -14167,9 +14167,9 @@
         "https://www.biorxiv.org/content/10.64898/2026.10.30.763081v1",
         "https://github.com/rickconci/GENESIS"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-expert",
@@ -14192,9 +14192,9 @@
         "https://www.biorxiv.org/content/10.64898/2026.11.02.762549v1.full",
         "https://github.com/GoyalLab/ExPert"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-mitoworld",
@@ -14358,7 +14358,7 @@
         "https://www.biorxiv.org/content/10.64898/2026.11.12.766125v1",
         "https://github.com/TRON-Bioinformatics/GFM"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
       "repository_readme_status": 200
     },
@@ -14429,7 +14429,7 @@
         "https://github.com/ma-compbio-lab/EMBER",
         "https://github.com/ma-compbio-lab/EMBER"
       ],
-      "code_note": "Repository documents the exact research method. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The repository's own README or description identifies the method and matches this paper; paper-level code linkage was not independently confirmed. Repository exists (HTTP 200, checked 2026-11-23); no code was executed.",
       "repository_http_status": 200,
       "repository_readme_status": 200
     },
@@ -14454,9 +14454,9 @@
         "https://www.biorxiv.org/content/10.64898/2026.10.25.761625v1",
         "https://github.com/youlab2025/UPM"
       ],
-      "code_note": "Paper's code-availability section or original preprint names this repository. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The publisher's code-availability text or original preprint identifies this repository; the GitHub repository exists (HTTP 200, checked 2026-11-23). No code execution or reproducibility test was performed.",
       "repository_http_status": 200,
-      "repository_readme_status": 200
+      "repository_readme_status": null
     },
     {
       "id": "nov26-dynamic-state-disentangled-perturbation",
@@ -14523,7 +14523,7 @@
         "https://github.com/welch-lab/causalode",
         "https://github.com/welch-lab/causalode"
       ],
-      "code_note": "Repository documents the exact research method. GitHub API confirms the public repository exists and its README/descriptive metadata matches the paper (checked 2026-11-23).",
+      "code_note": "The repository's own README or description identifies the method and matches this paper; paper-level code linkage was not independently confirmed. Repository exists (HTTP 200, checked 2026-11-23); no code was executed.",
       "repository_http_status": 200,
       "repository_readme_status": 200
     }
