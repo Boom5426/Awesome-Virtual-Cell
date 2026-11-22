@@ -54,12 +54,11 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 <!-- GENERATED:LIVE-CHALLENGES:START -->
 
-**Live challenges** (dates as published by the organizers, checked on 27 October 2026)
+**Live challenges** (dates as published by the organizers, checked on 22 November 2026)
 
 | Challenge | Phase now | Next milestone | Final call |
 | --- | --- | --- | --- |
-| [Virtual Embryo Challenge (NeurIPS 2026)](#virtual-embryo-challenge-neurips-2026) | P3 test phase from 27 Oct 2026, 09:00 PDT (16:00 UTC), a week later than first scheduled: the default leaderboard switches to Test, P2 standings freeze, and eligible teams can request the P2 validation answers | Final submissions due 2 Dec 2026; official evaluation on the hidden test sets starts 4 Dec 2026 | Winners announced 11 Dec 2026 at NeurIPS |
-| [Virtual Cell Challenge 2026 (Arc Institute)](#2nd-edition-2026) | Final phase since 22 Oct 2026: the final test set (`controls-final`, contexts D–F, a new 300-perturbation CRISPRi panel) is out, the validation leaderboard no longer takes entries, and final-entry scores stay hidden | Final submissions due 5 Nov 2026, 23:59 UTC (`vcc` CLI 0.3.0 or newer) | Winners and the final leaderboard announced late Nov 2026 |
+| [Virtual Embryo Challenge (NeurIPS 2026)](#virtual-embryo-challenge-neurips-2026) | P3 hidden-test phase open (since 27 Oct 2026); eligible teams can submit predictions | Final submissions due 25 Nov 2026, 23:59 AoE (moved from 2 Dec); official evaluation begins 26 Nov 2026 | Winners announced 11 Dec 2026 at NeurIPS |
 
 <!-- GENERATED:LIVE-CHALLENGES:END -->
 
@@ -67,17 +66,19 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 | Date | What changed |
 | --- | --- |
+| `2026-11-22` | 26 source-checked virtual-cell papers added; challenge timeline and winners updated; catalog and exports rebuilt |
 | `2026-10-28` | Stricter inclusion rules (venue allowlist, preprint bar, technical reports); 12 NeurIPS 2026 papers added; weekly curation workflow |
 | `2026-10-27` | Literature sweep: 155 papers added (396 to 551) and 9 preprints upgraded to their published venues |
 | `2026-10-26` | Open community baseline with code for the Virtual Cell Challenge 2026 (community PR) |
 | `2026-10-13` | Literature audit: 67 re-verified papers added (329 to 396), DOI fixes and venue upgrades |
-| `2026-10-10` | LabCompass added, with official code, workflows and data |
+
 
 <details>
-<summary>Earlier updates (18)</summary>
+<summary>Earlier updates (19)</summary>
 
 | Date | What changed |
 | --- | --- |
+| `2026-10-10` | LabCompass added, with official code, workflows and data |
 | `2026-10-02` | 42 source-checked papers added (285 to 327); new Start Here reading tracks |
 | `2026-10-01` | Two perturbation atlases added to Datasets; Virtual Cell Challenge 2026 dates updated |
 | `2026-09-26` | New Evaluation & Measurement branch (PertResolve, Signal–Bounds–Baselines, VCBench and more) |
@@ -106,12 +107,64 @@ Browse the full research collection below; each paper may carry multiple indepen
 
 <!-- GENERATED:RESEARCH-PAPERS:START -->
 
-**552 papers** · [2026 (402)](#2026) · [2025 (123)](#2025) · [2024 (27)](#2024)
+**578 papers** · [2026 (428)](#2026) · [2025 (123)](#2025) · [2024 (27)](#2024)
 
 Papers can have multiple topics. [Search and combine topics](https://boom5426.github.io/Awesome-Virtual-Cell/) · [Tag definitions](docs/taxonomy.md)
 
 <a id="2026"></a>
-### 🗓️ 2026 — 402 papers
+### 🗓️ 2026 — 428 papers
+
+- **[CoMM / SIS]** `[Foundation Model]` `[Multimodal]` `[Spatial]` `[Evaluation & Measurement]` Multimodal cell foundation models require synergistic integration beyond alignment (**Nature Machine Intelligence 2026**) [[paper](https://doi.org/10.1038/s42256-026-01328-3)]
+
+- **[Superb-seq]** `[Perturbation]` `[Multimodal]` `[Gene Regulation]` Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03319-z)]
+
+- **[Space-map]** `[Spatial]` `[Tool]` `[Representation Learning]` Space-map: 3D single-cell atlas reconstruction from serial sections (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03310-8)]
+
+- **[PANGEA]** `[Dataset]` `[Representation Learning]` PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03295-4)]
+
+- **[Hist2Prot]** `[Morphology]` `[Protein]` `[Spatial]` `[Multimodal]` The deep learning framework Hist2Prot infers single-cell spatial proteomics from histology to predict biomarkers and clinical outcomes (**Nature Cancer 2026**) [[paper](https://doi.org/10.1038/s43018-026-01270-8)]
+
+- **[PIANO]** `[Multimodal]` `[Representation Learning]` `[Foundation Model]` PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells (**Cell Reports Methods 2026**) [[paper](https://doi.org/10.1016/j.crmeth.2026.101661)]
+
+- **[Morphological SSL comparison]** `[Morphology]` `[Perturbation]` `[Foundation Model]` `[Benchmark]` `[Evaluation & Measurement]` Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations (**Nature Methods 2026**) [[paper](https://doi.org/10.1038/s41592-026-03270-z)]
+
+- **[Cas12a DDR screens]** `[Perturbation]` `[Dataset]` `[Gene Regulation]` Cas12a-based combinatorial knockout screens define the genetic architecture of the DNA damage response (**Nature Biotechnology 2026**) [[paper](https://doi.org/10.1038/s41587-026-03339-2)]
+
+- **[EpiPack]** `[Tool]` `[Representation Learning]` `[Evaluation & Measurement]` EpiPack: A computational framework for reference mapping and out-of-reference detection for single-cell ATAC-seq data with heterogeneous peak features (**Nature Communications 2026**) [[paper](https://doi.org/10.1038/s41467-026-78924-9)]
+
+- **[Deep Lineage]** `[Dynamics]` `[Representation Learning]` Deep Lineage: Single-cell lineage tracing and fate inference using deep learning (**Cell Systems 2026**) [[paper](https://doi.org/10.1016/j.cels.2026.101759)]
+
+- **[GENESIS]** `[Perturbation]` `[Evaluation & Measurement]` Single-cell perturbation prediction near experimental reproducibility with GENESIS (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.30.763081)]
+
+- **[ExPert]** `[Intervention Design]` `[Perturbation]` `[Gene Regulation]` ExPert infers causal perturbations from cell states across biological and clinical contexts (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.02.762549)]
+
+- **[MitoWorld]** `[World Model]` `[Virtual Cell]` `[Dynamics]` `[Morphology]` `[Perturbation]` MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2611.23953)]
+
+- **[S1Pert]** `[Perturbation]` `[Gene Regulation]` `[Evaluation & Measurement]` S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2611.17705)] [[code](https://github.com/liujiawen-jpg/S1Pert)] ![GitHub stars](https://img.shields.io/github/stars/liujiawen-jpg/S1Pert.svg?logo=github&label=Stars)
+
+- **[CellCanon]** `[Agent]` `[World Model]` `[Virtual Cell]` `[Perturbation]` `[Evaluation & Measurement]` CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2611.05890)] [[code](https://github.com/ZhaokangLiang123/CellCanon)] ![GitHub stars](https://img.shields.io/github/stars/ZhaokangLiang123/CellCanon.svg?logo=github&label=Stars)
+
+- **[scAnyOmics]** `[Virtual Cell]` `[Foundation Model]` `[Multimodal]` `[Protein]` `[Representation Learning]` scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2610.41399)]
+
+- **[LingoCell]** `[Foundation Model]` `[Multimodal]` `[Spatial]` `[Perturbation]` LingoCell interprets gene perturbations through natural language and tissue niches (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.08.765157)]
+
+- **[scDisentangle]** `[Perturbation]` `[Representation Learning]` scDisentangle: sequential disentanglement for single-cell perturbation response prediction (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.04.764292)]
+
+- **[Graph-guided Flow Matching]** `[Perturbation]` `[Gene Regulation]` Graph-guided flow matching enables biologically informed prediction at single-cell resolution (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.12.766125)]
+
+- **[scFM baseline benchmark Nov]** `[Benchmark]` `[Foundation Model]` `[Perturbation]` `[Gene Regulation]` `[Evaluation & Measurement]` Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.03.763968)]
+
+- **[GRAFT]** `[Perturbation]` `[Intervention Design]` `[Multimodal]` Cross-modal transfer enables zero-shot prediction of drug responses across cell types (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.27.762107)]
+
+- **[EMBER]** `[Representation Learning]` `[Perturbation]` `[Gene Regulation]` EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.28.762655)]
+
+- **[Unified Perturbational Modeling]** `[Virtual Cell]` `[Perturbation]` `[Evaluation & Measurement]` How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling? (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.25.761625)]
+
+- **[Dynamic-state Disentangled Perturbation]** `[Perturbation]` `[Dynamics]` `[Representation Learning]` Disentangled generative modeling of single-cell perturbation responses across dynamic cellular states (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.07.765083)]
+
+- **[BLOOM Virtual Embryo]** `[Virtual Cell]` `[Dynamics]` `[Perturbation]` BLOOM: Biologically Informed Flow Matching for Transcriptomic Virtual Embryo Modeling (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.10.26.761895)]
+
+- **[Causal Mediator Dynamics]** `[Gene Regulation]` `[Perturbation]` `[Dynamics]` Inferring gene regulatory networks from single-cell perturbation data by optimizing causal reach of latent mediator dynamics (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.11.05.764481)]
 
 - **[Predicted-NN-distance]** `[Perturbation]` `[Foundation Model]` `[Evaluation & Measurement]` A low-rank decoder bottleneck bounds reliability in foundation-model perturbation prediction (**NeurIPS 2026**) [[paper](https://openreview.net/forum?id=DjV66HdJ1r)]
 
@@ -1488,7 +1541,7 @@ The Virtual Cell Challenge (VCC) is Arc Institute's annual AI virtual cell compe
 
 #### 2nd Edition (2026)
 
-Round two is the edition currently hosted at [virtualcellchallenge.org](https://virtualcellchallenge.org/), sponsored by NVIDIA, 10x Genomics, and Ultima Genomics. The facts below are taken from the challenge homepage, its [Evaluation page](https://virtualcellchallenge.org/evaluation), and the accompanying *Cell* paper, as read on 13 October 2026.
+The second edition was hosted at [virtualcellchallenge.org](https://virtualcellchallenge.org/), sponsored by NVIDIA, 10x Genomics, and Ultima Genomics. The task specifications below come from the challenge homepage, its [Evaluation page](https://virtualcellchallenge.org/evaluation) and accompanying *Cell* paper; the final results were announced by Arc Institute on 19 November 2026.
 
 - **Question**: does a perturbation model transfer to cell contexts in which it has never seen a perturbation?
 
@@ -1502,9 +1555,11 @@ Round two is the edition currently hosted at [virtualcellchallenge.org](https://
 
 - **Submission policy**: entries do not require open weights or code. Arc frames this as a deliberate choice to encourage industry participation alongside academia and individual entrants. It also makes this edition less reproducible than the 2025 one, so treat leaderboard positions as claims rather than as verifiable results.
 
-- **Timeline**: registration opened 4 August 2026, submissions and the live leaderboard opened 20 August 2026, the final test set is released 22 October 2026, final submissions are due 5 November 2026, and winners are announced in late November 2026.
+- **Timeline**: registration opened 4 August 2026, submissions and the live leaderboard opened 20 August 2026, the final test set was released 22 October 2026, submissions closed 5 November 2026, and winners were announced 19 November 2026.
 
 - **Prizes**: the top three models win prizes valued at $100,000, $50,000, and $25,000, each half cash and half NVIDIA Brev credits.
+
+- **Final results (19 November 2026)**: **BioInsight AI Lab (Illumina)** placed first with its CellularAI Algorithm (final score 0.440), followed by **FlowState** and **X-team (Xaira Therapeutics)**. The composite score is normalized between the cell-context mean (0) and an experimental replicate reference (1); it is **not** a 44% accuracy rate. The winning systems relied heavily on transferring perturbation responses from related public screens. [[Official winners and evaluation](https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up)]
 
 - **[Homepage]** Virtual Cell Challenge (**Arc Institute 2026**) [[homepage](https://virtualcellchallenge.org/)] [[Virtual Cell Initiative](https://arcinstitute.org/virtual-cell-initiative)]
 
@@ -1529,7 +1584,7 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **Metrics**: still not named on the challenge page as of 13 October 2026. The page states only that both tracks are scored on the same metrics and hidden test sets; teams get no biological performance feedback before designating up to two official test submissions per task, which are then scored, posted to the public test leaderboard, and locked.
 
-- **Timeline**: portal opened 10 August 2026, starter kit and reference baselines released 15 August 2026, test phase opens 27 October 2026 at 09:00 PDT (moved from 20 October; per the [timeline page](https://virtualembryo.ai/challenge/timeline) read on 27 October 2026), final submissions close 2 December 2026, official evaluation starts 4 December 2026, winners announced 11 December 2026 at NeurIPS.
+- **Timeline**: portal opened 10 August 2026, starter kit and reference baselines released 15 August 2026, test phase opens 27 October 2026 at 09:00 PDT (moved from 20 October; per the [timeline page](https://virtualembryo.ai/challenge/timeline) read on 27 October 2026), final submissions close 25 November 2026, official evaluation starts 26 November 2026, winners announced 11 December 2026 at NeurIPS.
 
 - **Prizes**: $112K total from the Laude Institute Moonshots Seed Grant, split into $54K in winner prizes ($27K per track: one $8K first, two $5K second, and three $3K third prizes), an $8K Generality Award for the best single architecture that answers more than one task, $30K in travel awards, and a $20K Community Contribution Award.
 
