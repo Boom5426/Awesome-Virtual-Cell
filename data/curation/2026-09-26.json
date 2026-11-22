@@ -13897,6 +13897,590 @@
       "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
       "repository_http_status": null,
       "repository_readme_status": null
+    },
+    {
+      "id": "nov26-comm-sis",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Multimodal",
+        "Spatial",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Evaluates synergy beyond alignment in multimodal cellular foundation models.",
+      "sources": [
+        "https://doi.org/10.1038/s42256-026-01328-3"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-superb-seq",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Multimodal",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Jointly captures CRISPR-Cas9 edit calls and single-cell transcriptomic responses to resolve on- and off-target effects.",
+      "sources": [
+        "https://doi.org/10.1038/s41592-026-03319-z"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-space-map",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Spatial",
+        "Tool",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Reconstructs 3D cellular tissue atlases from serial spatially profiled sections and benchmarks registration.",
+      "sources": [
+        "https://doi.org/10.1038/s41592-026-03310-8"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-pangea",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Dataset",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Large-scale human disease single-cell atlas spanning tissues and biological contexts.",
+      "sources": [
+        "https://doi.org/10.1038/s41592-026-03295-4"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-hist2prot",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Morphology",
+        "Protein",
+        "Spatial",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Learns to predict spatial protein expression from histology with multi-cohort validation.",
+      "sources": [
+        "https://doi.org/10.1038/s43018-026-01270-8"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-piano",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Multimodal",
+        "Representation Learning",
+        "Foundation Model"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Generative multi-omics integration and gene-expression modeling at very large scale.",
+      "sources": [
+        "https://doi.org/10.1016/j.crmeth.2026.101661"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-morphological-ssl-comparison",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Morphology",
+        "Perturbation",
+        "Foundation Model",
+        "Benchmark",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Comparative empirical study of self-supervised morphology embeddings for cellular perturbation profiling.",
+      "sources": [
+        "https://doi.org/10.1038/s41592-026-03270-z"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-cas12a-ddr-screens",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Dataset",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Large combinatorial Cas12a screens provide data on the DNA damage response genetic-interaction architecture.",
+      "sources": [
+        "https://doi.org/10.1038/s41587-026-03339-2"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-epipack",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Tool",
+        "Representation Learning",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Maps heterogeneous scATAC profiles to references and detects out-of-reference cell states.",
+      "sources": [
+        "https://doi.org/10.1038/s41467-026-78924-9"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-deep-lineage",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Dynamics",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Models single-cell lineage tracing and cell-fate transitions.",
+      "sources": [
+        "https://doi.org/10.1016/j.cels.2026.101759"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-genesis",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Generative distributional perturbation modeling evaluated against biological experiment reproducibility and model baselines.",
+      "sources": [
+        "https://doi.org/10.64898/2026.10.30.763081"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-expert",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Intervention Design",
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Ranks candidate gene perturbations in reverse from cell states using 22 CRISPRi screens.",
+      "sources": [
+        "https://doi.org/10.64898/2026.11.02.762549"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-mitoworld",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "World Model",
+        "Virtual Cell",
+        "Dynamics",
+        "Morphology",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Predicts future cell morphology trajectories and cell division timing under genetic knockdown, with tracked-cell evaluations.",
+      "sources": [
+        "https://arxiv.org/abs/2611.23953"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-s1pert",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Gene Regulation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Predicts target-specific responses using statistically screened expression labels and efficient cached contextual features.",
+      "sources": [
+        "https://arxiv.org/abs/2611.17705"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/liujiawen-jpg/S1Pert",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://arxiv.org/abs/2611.17705"
+      ],
+      "code_note": "Paper explicitly links to the source-code repository.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-cellcanon",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Agent",
+        "World Model",
+        "Virtual Cell",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Evaluates an agentic system for predicting, explaining and updating drug-perturbation responses on held-out conditions.",
+      "sources": [
+        "https://arxiv.org/abs/2611.05890"
+      ],
+      "old_code_url": null,
+      "code_url": "https://github.com/ZhaokangLiang123/CellCanon",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://arxiv.org/abs/2611.05890"
+      ],
+      "code_note": "Paper explicitly links to the source-code repository.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-scanyomics",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Foundation Model",
+        "Multimodal",
+        "Protein",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Distills pretrained foundation models for missing-modality completion across RNA, proteins and chromatin, tested on held-out donors.",
+      "sources": [
+        "https://arxiv.org/abs/2610.41399"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-lingocell",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Foundation Model",
+        "Multimodal",
+        "Spatial",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Connects perturbation expression effects with language explanations and spatial niche contexts.",
+      "sources": [
+        "https://doi.org/10.64898/2026.11.08.765157"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-scdisentangle",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Separates confounded cell-state factors for perturbation prediction with empirical comparison experiments.",
+      "sources": [
+        "https://doi.org/10.64898/2026.11.04.764292"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-graph-guided-flow-matching",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Uses a gene-network-informed flow model to predict Perturb-seq responses.",
+      "sources": [
+        "https://doi.org/10.64898/2026.11.12.766125"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-scfm-baseline-benchmark-nov",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Benchmark",
+        "Foundation Model",
+        "Perturbation",
+        "Gene Regulation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Benchmarks single-cell foundation models against task-aligned simple baselines for annotation, perturbation and GRN inference.",
+      "sources": [
+        "https://doi.org/10.64898/2026.11.03.763968"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-graft",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Multimodal"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Transfers genetic response signals to drug-response prediction across unmeasured cell types.",
+      "sources": [
+        "https://doi.org/10.64898/2026.10.27.762107"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-ember",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Representation Learning",
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Predicts effects of compositional cellular perturbations from context-dependent gene embeddings.",
+      "sources": [
+        "https://doi.org/10.64898/2026.10.28.762655"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-unified-perturbational-modeling",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Investigates generalizing perturbation prediction across multiple experimental settings with unified modeling.",
+      "sources": [
+        "https://doi.org/10.64898/2026.10.25.761625"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-dynamic-state-disentangled-perturbation",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Perturbation",
+        "Dynamics",
+        "Representation Learning"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Disentangles dynamic cellular states from perturbation effects in a generative response framework.",
+      "sources": [
+        "https://doi.org/10.64898/2026.11.07.765083"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-bloom-virtual-embryo",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Virtual Cell",
+        "Dynamics",
+        "Perturbation"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Applies biologically informed flow matching to generative virtual-embryo transcriptomic development.",
+      "sources": [
+        "https://doi.org/10.64898/2026.10.26.761895"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
+    },
+    {
+      "id": "nov26-causal-mediator-dynamics",
+      "reviewed_at": "2026-11-22",
+      "old_tags": [],
+      "tags": [
+        "Gene Regulation",
+        "Perturbation",
+        "Dynamics"
+      ],
+      "tag_basis": "abstract",
+      "tag_rationale": "Infers dynamic gene regulatory effects from perturbation measurements using latent causal-mediator optimization.",
+      "sources": [
+        "https://doi.org/10.64898/2026.11.05.764481"
+      ],
+      "old_code_url": null,
+      "code_url": null,
+      "code_status": "not_found",
+      "code_sources": [],
+      "code_note": "No matching public implementation established from the sources inspected; this does not mean that no code exists.",
+      "repository_http_status": null,
+      "repository_readme_status": null
     }
   ],
   "removed": [

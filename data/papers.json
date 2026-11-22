@@ -1,8 +1,1125 @@
 {
   "schema_version": 2,
   "description": "Structured source of truth for Awesome Virtual Cell research papers. README, web catalog, CSV, and BibTeX are generated views.",
-  "paper_count": 552,
+  "paper_count": 578,
   "papers": [
+    {
+      "id": "nov26-comm-sis",
+      "label": "CoMM / SIS",
+      "title": "Multimodal cell foundation models require synergistic integration beyond alignment",
+      "year": 2026,
+      "venue": "Nature Machine Intelligence",
+      "status": "published",
+      "tags": [
+        "Foundation Model",
+        "Multimodal",
+        "Spatial",
+        "Evaluation & Measurement"
+      ],
+      "doi": "10.1038/s42256-026-01328-3",
+      "paper_url": "https://doi.org/10.1038/s42256-026-01328-3",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning",
+          "Evaluation & Measurement"
+        ],
+        "modality": [
+          "Transcriptomics",
+          "Spatial",
+          "Multimodal"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s42256-026-01328-3"
+      ]
+    },
+    {
+      "id": "nov26-superb-seq",
+      "label": "Superb-seq",
+      "title": "Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression",
+      "year": 2026,
+      "venue": "Nature Methods",
+      "status": "published",
+      "tags": [
+        "Perturbation",
+        "Multimodal",
+        "Gene Regulation"
+      ],
+      "doi": "10.1038/s41592-026-03319-z",
+      "paper_url": "https://doi.org/10.1038/s41592-026-03319-z",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Data Resource",
+          "Tooling"
+        ],
+        "modality": [
+          "Transcriptomics",
+          "Sequence",
+          "Multimodal"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s41592-026-03319-z"
+      ]
+    },
+    {
+      "id": "nov26-space-map",
+      "label": "Space-map",
+      "title": "Space-map: 3D single-cell atlas reconstruction from serial sections",
+      "year": 2026,
+      "venue": "Nature Methods",
+      "status": "published",
+      "tags": [
+        "Spatial",
+        "Tool",
+        "Representation Learning"
+      ],
+      "doi": "10.1038/s41592-026-03310-8",
+      "paper_url": "https://doi.org/10.1038/s41592-026-03310-8",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Tooling"
+        ],
+        "modality": [
+          "Spatial",
+          "Morphology / Imaging"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s41592-026-03310-8"
+      ]
+    },
+    {
+      "id": "nov26-pangea",
+      "label": "PANGEA",
+      "title": "PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases",
+      "year": 2026,
+      "venue": "Nature Methods",
+      "status": "published",
+      "tags": [
+        "Dataset",
+        "Representation Learning"
+      ],
+      "doi": "10.1038/s41592-026-03295-4",
+      "paper_url": "https://doi.org/10.1038/s41592-026-03295-4",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Data Resource"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Dataset"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s41592-026-03295-4"
+      ]
+    },
+    {
+      "id": "nov26-hist2prot",
+      "label": "Hist2Prot",
+      "title": "The deep learning framework Hist2Prot infers single-cell spatial proteomics from histology to predict biomarkers and clinical outcomes",
+      "year": 2026,
+      "venue": "Nature Cancer",
+      "status": "published",
+      "tags": [
+        "Morphology",
+        "Protein",
+        "Spatial",
+        "Multimodal"
+      ],
+      "doi": "10.1038/s43018-026-01270-8",
+      "paper_url": "https://doi.org/10.1038/s43018-026-01270-8",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning"
+        ],
+        "modality": [
+          "Morphology / Imaging",
+          "Proteomics",
+          "Spatial",
+          "Multimodal"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s43018-026-01270-8"
+      ]
+    },
+    {
+      "id": "nov26-piano",
+      "label": "PIANO",
+      "title": "PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells",
+      "year": 2026,
+      "venue": "Cell Reports Methods",
+      "status": "published",
+      "tags": [
+        "Multimodal",
+        "Representation Learning",
+        "Foundation Model"
+      ],
+      "doi": "10.1016/j.crmeth.2026.101661",
+      "paper_url": "https://doi.org/10.1016/j.crmeth.2026.101661",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning"
+        ],
+        "modality": [
+          "Transcriptomics",
+          "Multimodal"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1016/j.crmeth.2026.101661"
+      ]
+    },
+    {
+      "id": "nov26-morphological-ssl-comparison",
+      "label": "Morphological SSL comparison",
+      "title": "Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations",
+      "year": 2026,
+      "venue": "Nature Methods",
+      "status": "published",
+      "tags": [
+        "Morphology",
+        "Perturbation",
+        "Foundation Model",
+        "Benchmark",
+        "Evaluation & Measurement"
+      ],
+      "doi": "10.1038/s41592-026-03270-z",
+      "paper_url": "https://doi.org/10.1038/s41592-026-03270-z",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning",
+          "Evaluation & Measurement"
+        ],
+        "modality": [
+          "Morphology / Imaging"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Evaluation"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s41592-026-03270-z"
+      ]
+    },
+    {
+      "id": "nov26-cas12a-ddr-screens",
+      "label": "Cas12a DDR screens",
+      "title": "Cas12a-based combinatorial knockout screens define the genetic architecture of the DNA damage response",
+      "year": 2026,
+      "venue": "Nature Biotechnology",
+      "status": "published",
+      "tags": [
+        "Perturbation",
+        "Dataset",
+        "Gene Regulation"
+      ],
+      "doi": "10.1038/s41587-026-03339-2",
+      "paper_url": "https://doi.org/10.1038/s41587-026-03339-2",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Data Resource"
+        ],
+        "modality": [],
+        "perturbation_type": [
+          "Genetic",
+          "Combination"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Dataset"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s41587-026-03339-2"
+      ]
+    },
+    {
+      "id": "nov26-epipack",
+      "label": "EpiPack",
+      "title": "EpiPack: A computational framework for reference mapping and out-of-reference detection for single-cell ATAC-seq data with heterogeneous peak features",
+      "year": 2026,
+      "venue": "Nature Communications",
+      "status": "published",
+      "tags": [
+        "Tool",
+        "Representation Learning",
+        "Evaluation & Measurement"
+      ],
+      "doi": "10.1038/s41467-026-78924-9",
+      "paper_url": "https://doi.org/10.1038/s41467-026-78924-9",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning",
+          "Tooling"
+        ],
+        "modality": [
+          "Chromatin / Epigenomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1038/s41467-026-78924-9"
+      ]
+    },
+    {
+      "id": "nov26-deep-lineage",
+      "label": "Deep Lineage",
+      "title": "Deep Lineage: Single-cell lineage tracing and fate inference using deep learning",
+      "year": 2026,
+      "venue": "Cell Systems",
+      "status": "published",
+      "tags": [
+        "Dynamics",
+        "Representation Learning"
+      ],
+      "doi": "10.1016/j.cels.2026.101759",
+      "paper_url": "https://doi.org/10.1016/j.cels.2026.101759",
+      "preprint_url": null,
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Dynamics"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.1016/j.cels.2026.101759"
+      ]
+    },
+    {
+      "id": "nov26-genesis",
+      "label": "GENESIS",
+      "title": "Single-cell perturbation prediction near experimental reproducibility with GENESIS",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "doi": "10.64898/2026.10.30.763081",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.10.30.763081",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling",
+          "Evaluation & Measurement"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.10.30.763081"
+      ]
+    },
+    {
+      "id": "nov26-expert",
+      "label": "ExPert",
+      "title": "ExPert infers causal perturbations from cell states across biological and clinical contexts",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Intervention Design",
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "doi": "10.64898/2026.11.02.762549",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.11.02.762549",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Intervention Design",
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [
+          "Unseen Context"
+        ],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.11.02.762549"
+      ]
+    },
+    {
+      "id": "nov26-mitoworld",
+      "label": "MitoWorld",
+      "title": "MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation",
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "preprint",
+      "tags": [
+        "World Model",
+        "Virtual Cell",
+        "Dynamics",
+        "Morphology",
+        "Perturbation"
+      ],
+      "doi": null,
+      "paper_url": null,
+      "preprint_url": "https://arxiv.org/abs/2611.23953",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "World Modeling",
+          "Dynamics",
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Morphology / Imaging"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://arxiv.org/abs/2611.23953"
+      ]
+    },
+    {
+      "id": "nov26-s1pert",
+      "label": "S1Pert",
+      "title": "S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence",
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "preprint",
+      "tags": [
+        "Perturbation",
+        "Gene Regulation",
+        "Evaluation & Measurement"
+      ],
+      "doi": null,
+      "paper_url": null,
+      "preprint_url": "https://arxiv.org/abs/2611.17705",
+      "code_url": "https://github.com/liujiawen-jpg/S1Pert",
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://arxiv.org/abs/2611.17705"
+      ],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [
+          "Unseen Perturbation"
+        ],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://arxiv.org/abs/2611.17705"
+      ]
+    },
+    {
+      "id": "nov26-cellcanon",
+      "label": "CellCanon",
+      "title": "CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating",
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "preprint",
+      "tags": [
+        "Agent",
+        "World Model",
+        "Virtual Cell",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "doi": null,
+      "paper_url": null,
+      "preprint_url": "https://arxiv.org/abs/2611.05890",
+      "code_url": "https://github.com/ZhaokangLiang123/CellCanon",
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "paper_linked",
+      "code_sources": [
+        "https://arxiv.org/abs/2611.05890"
+      ],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Scientific Agent",
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Chemical / Drug"
+        ],
+        "generalization": [
+          "Unseen Perturbation"
+        ],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://arxiv.org/abs/2611.05890"
+      ]
+    },
+    {
+      "id": "nov26-scanyomics",
+      "label": "scAnyOmics",
+      "title": "scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells",
+      "year": 2026,
+      "venue": "arXiv",
+      "status": "preprint",
+      "tags": [
+        "Virtual Cell",
+        "Foundation Model",
+        "Multimodal",
+        "Protein",
+        "Representation Learning"
+      ],
+      "doi": null,
+      "paper_url": null,
+      "preprint_url": "https://arxiv.org/abs/2610.41399",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning"
+        ],
+        "modality": [
+          "Transcriptomics",
+          "Proteomics",
+          "Chromatin / Epigenomics",
+          "Multimodal"
+        ],
+        "perturbation_type": [],
+        "generalization": [
+          "Unseen Context"
+        ],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://arxiv.org/abs/2610.41399"
+      ]
+    },
+    {
+      "id": "nov26-lingocell",
+      "label": "LingoCell",
+      "title": "LingoCell interprets gene perturbations through natural language and tissue niches",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Foundation Model",
+        "Multimodal",
+        "Spatial",
+        "Perturbation"
+      ],
+      "doi": "10.64898/2026.11.08.765157",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.11.08.765157",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning",
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics",
+          "Spatial",
+          "Multimodal"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.11.08.765157"
+      ]
+    },
+    {
+      "id": "nov26-scdisentangle",
+      "label": "scDisentangle",
+      "title": "scDisentangle: sequential disentanglement for single-cell perturbation response prediction",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Perturbation",
+        "Representation Learning"
+      ],
+      "doi": "10.64898/2026.11.04.764292",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.11.04.764292",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.11.04.764292"
+      ]
+    },
+    {
+      "id": "nov26-graph-guided-flow-matching",
+      "label": "Graph-guided Flow Matching",
+      "title": "Graph-guided flow matching enables biologically informed prediction at single-cell resolution",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "doi": "10.64898/2026.11.12.766125",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.11.12.766125",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.11.12.766125"
+      ]
+    },
+    {
+      "id": "nov26-scfm-baseline-benchmark-nov",
+      "label": "scFM baseline benchmark Nov",
+      "title": "Where single-cell foundation models help: a benchmark of annotation, perturbation and regulatory inference against simple baselines",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Benchmark",
+        "Foundation Model",
+        "Perturbation",
+        "Gene Regulation",
+        "Evaluation & Measurement"
+      ],
+      "doi": "10.64898/2026.11.03.763968",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.11.03.763968",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Benchmarking",
+          "Evaluation & Measurement"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Benchmark"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.11.03.763968"
+      ]
+    },
+    {
+      "id": "nov26-graft",
+      "label": "GRAFT",
+      "title": "Cross-modal transfer enables zero-shot prediction of drug responses across cell types",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Perturbation",
+        "Intervention Design",
+        "Multimodal"
+      ],
+      "doi": "10.64898/2026.10.27.762107",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.10.27.762107",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics",
+          "Multimodal"
+        ],
+        "perturbation_type": [
+          "Genetic",
+          "Chemical / Drug"
+        ],
+        "generalization": [
+          "Zero-Shot",
+          "Unseen Context"
+        ],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.10.27.762107"
+      ]
+    },
+    {
+      "id": "nov26-ember",
+      "label": "EMBER",
+      "title": "EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Representation Learning",
+        "Perturbation",
+        "Gene Regulation"
+      ],
+      "doi": "10.64898/2026.10.28.762655",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.10.28.762655",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Representation Learning",
+          "Perturbation Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic",
+          "Combination"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.10.28.762655"
+      ]
+    },
+    {
+      "id": "nov26-unified-perturbational-modeling",
+      "label": "Unified Perturbational Modeling",
+      "title": "How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling?",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Virtual Cell",
+        "Perturbation",
+        "Evaluation & Measurement"
+      ],
+      "doi": "10.64898/2026.10.25.761625",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.10.25.761625",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling",
+          "Evaluation & Measurement"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.10.25.761625"
+      ]
+    },
+    {
+      "id": "nov26-dynamic-state-disentangled-perturbation",
+      "label": "Dynamic-state Disentangled Perturbation",
+      "title": "Disentangled generative modeling of single-cell perturbation responses across dynamic cellular states",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Perturbation",
+        "Dynamics",
+        "Representation Learning"
+      ],
+      "doi": "10.64898/2026.11.07.765083",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.11.07.765083",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Perturbation Modeling",
+          "Dynamics"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.11.07.765083"
+      ]
+    },
+    {
+      "id": "nov26-bloom-virtual-embryo",
+      "label": "BLOOM Virtual Embryo",
+      "title": "BLOOM: Biologically Informed Flow Matching for Transcriptomic Virtual Embryo Modeling",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Virtual Cell",
+        "Dynamics",
+        "Perturbation"
+      ],
+      "doi": "10.64898/2026.10.26.761895",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.10.26.761895",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Dynamics",
+          "World Modeling"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.10.26.761895"
+      ]
+    },
+    {
+      "id": "nov26-causal-mediator-dynamics",
+      "label": "Causal Mediator Dynamics",
+      "title": "Inferring gene regulatory networks from single-cell perturbation data by optimizing causal reach of latent mediator dynamics",
+      "year": 2026,
+      "venue": "bioRxiv",
+      "status": "preprint",
+      "tags": [
+        "Gene Regulation",
+        "Perturbation",
+        "Dynamics"
+      ],
+      "doi": "10.64898/2026.11.05.764481",
+      "paper_url": null,
+      "preprint_url": "https://doi.org/10.64898/2026.11.05.764481",
+      "code_url": null,
+      "links": [],
+      "added_at": "2026-11-22",
+      "updated_at": "2026-11-22",
+      "code_status": "not_found",
+      "code_sources": [],
+      "tag_review_basis": "abstract",
+      "facets": {
+        "task": [
+          "Gene Regulation",
+          "Dynamics"
+        ],
+        "modality": [
+          "Transcriptomics"
+        ],
+        "perturbation_type": [
+          "Genetic"
+        ],
+        "generalization": [],
+        "paper_type": [
+          "Method"
+        ]
+      },
+      "facet_review_basis": "abstract",
+      "facet_sources": [
+        "https://doi.org/10.64898/2026.11.05.764481"
+      ]
+    },
     {
       "id": "lowrank-decoder-reliability",
       "label": "Predicted-NN-distance",
