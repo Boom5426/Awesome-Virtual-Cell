@@ -127,7 +127,7 @@ class PublicationWatcherTests(unittest.TestCase):
 
     def test_accepted_list_match_and_near_miss(self):
         index = {watcher.norm(t): {"title": t, "venue": "NeurIPS", "year": 2026, "url": "https://openreview.net/forum?id=a"}
-                 for t in ["PerturbReason: A Knowledge-Grounded Benchmark and Framework for Mechanistic Reasoning",
+                 for t in ["PertReason: A Knowledge-Grounded Benchmark and Framework for Mechanistic Reasoning",
                            "An Unrelated Paper About Robot Locomotion"]}
         exact, near = watcher.accepted_match({"title": "PertReason: A Knowledge-Grounded Benchmark and Framework for Mechanistic Reasoning"}, index)
         self.assertIsNone(near)
@@ -158,7 +158,7 @@ class PublicationWatcherTests(unittest.TestCase):
                          rows[watcher.norm("Imaging & Phenomics")]["url"])
 
     def test_accepted_hit_uses_the_poster_pages_openreview_forum(self):
-        paper = {"id": "p", "status": "preprint", "title": "PerturbReason: A Benchmark", "year": 2026, "doi": None,
+        paper = {"id": "p", "status": "preprint", "title": "PertReason: A Benchmark", "year": 2026, "doi": None,
                  "preprint_url": "https://arxiv.org/abs/2607.18777"}
         poster = "https://neurips.cc/virtual/2026/poster/139067"
         ctx = watcher.Context(arxiv={}, accepted={watcher.norm(paper["title"]): {

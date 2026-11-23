@@ -8701,7 +8701,7 @@
         "Multimodal"
       ],
       "tag_basis": "abstract",
-      "tag_rationale": "Fuses text, regulatory-graph and protein-sequence evidence for interpretable virtual-cell genetic perturbation prediction; releases PerturbReason.",
+      "tag_rationale": "Fuses text, regulatory-graph and protein-sequence evidence for interpretable virtual-cell genetic perturbation prediction; releases PertReason.",
       "sources": [
         "https://arxiv.org/abs/2604.20263"
       ],

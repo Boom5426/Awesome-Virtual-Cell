@@ -16341,8 +16341,8 @@
     },
     {
       "id": "pertreason",
-      "label": "PerturbReason",
-      "title": "PerturbReason: A Knowledge-Grounded Benchmark and Framework for Cell-State–Conditioned Mechanistic Reasoning of Perturbation Effects",
+      "label": "PertReason",
+      "title": "PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State–Conditioned Mechanistic Reasoning of Perturbation Effects",
       "year": 2026,
       "venue": "NeurIPS",
       "status": "published",
