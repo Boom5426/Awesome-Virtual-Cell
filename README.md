@@ -66,6 +66,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 | Date | What changed |
 | --- | --- |
+| `2026-11-26` | KPMP and KPMP Xenium kidney virtual spatial transcriptomics datasets (community PR) |
 | `2026-11-23` | Tahoe-100M vs. SEA-AD drug-scoring notebook added to Related Resources (community PR) |
 | `2026-11-23` | Verified 15 additional author code repositories; synchronized Chinese latest-paper index and linked both README checks to CI |
 | `2026-11-22` | 26 source-checked virtual-cell papers added; challenge timeline and winners updated; catalog and exports rebuilt |
@@ -1446,6 +1447,10 @@ Five high-signal overview and perspective papers are shown by default. Expand th
 - **[TCGA virtual ST atlas]** TCGA virtual spatial transcriptomics atlas: DeepSpot-M predicted transcriptome-wide ST for TCGA H&E (FF + FFPE; ~28.7k slides / 32 cancer types) (**medRxiv 2026**) [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] [[dataset](https://huggingface.co/datasets/ratschlab/TCGA_virtual_spatial_transcriptomics_atlas)] [[code](https://github.com/ratschlab/DeepSpotM)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpotM.svg?logo=github&label=Stars)
 
 - **[HEST Xenium virtual ST]** HEST Xenium virtual spatial transcriptomics: DeepSpot-M predicted transcriptome-wide ST for 59 HEST-1k 10x Xenium samples (~13.3M cells) (**medRxiv 2026**) [[paper](https://www.medrxiv.org/content/10.64898/2026.06.19.26356060v1)] [[dataset](https://huggingface.co/datasets/ratschlab/HEST_Xenium_virtual_spatial_transcriptomics)] [[code](https://github.com/ratschlab/DeepSpotM)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpotM.svg?logo=github&label=Stars)
+
+- **[KPMP virtual ST atlas]** KPMP virtual spatial transcriptomics atlas: DeepSpot-M predicted transcriptome-wide ST for 1,534 H&E kidney biopsy slides from 476 KPMP participants (~5.46M spots; linked clinical and histopathological annotations) (**medRxiv 2026**) [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)] [[dataset](https://huggingface.co/datasets/ratschlab/KPMP_virtual_spatial_transcriptomics_atlas)] [[code](https://github.com/ratschlab/DeepSpotM)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpotM.svg?logo=github&label=Stars)
+
+- **[KPMP Xenium virtual ST]** KPMP Xenium virtual spatial transcriptomics: DeepSpot-M predicted transcriptome-wide ST for 49 H&E sections of KPMP 10x Xenium kidney biopsies (~1.64M cells; includes the measured Xenium panel) (**medRxiv 2026**) [[paper](https://www.medrxiv.org/content/10.64898/2026.11.17.26368273v1)] [[dataset](https://huggingface.co/datasets/ratschlab/KPMP_Xenium_virtual_spatial_transcriptomics)] [[code](https://github.com/ratschlab/DeepSpotM)] ![GitHub stars](https://img.shields.io/github/stars/ratschlab/DeepSpotM.svg?logo=github&label=Stars)
 
 <details>
 <summary><b>More resources (5)</b></summary>
