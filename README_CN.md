@@ -153,7 +153,7 @@ Benchmark、挑战赛与社区评测见：
 
 **[README → Challenges and Competitions](README.md#challenges-and-competitions)**
 
-**挑战赛状态（核对于 2026-11-22）：** [Arc Virtual Cell Challenge 2026](https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up) 已于 11 月 19 日公布结果，Illumina BioInsight AI Lab 获第一名；[Virtual Embryo Challenge 2026](https://virtualembryo.ai/challenge/rules) 的最终提交截止时间为 **11 月 25 日 23:59 AoE**。请以主 README 的实时挑战赛表格与官方页面为准。
+**挑战赛状态（核对日期：2026-11-26）：** 两项 2026 年赛事均已结束提交。[Arc Virtual Cell Challenge 2026](https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up) 已于 11 月 19 日公布最终结果：Illumina BioInsight AI Lab（0.4399）、FlowState（0.3348）、X-team（0.3263）分别获前三名。[Virtual Embryo Challenge 2026](https://virtualembryo.ai/challenge/timeline) 已于 11 月 25 日 23:59 AoE 截止提交，正在进行最终评估；预计 12 月 1 日前通知获奖队伍，12 月 12 日在 NeurIPS 正式公布结果。最终排名尚未确认。
 
 当前仓库不仅收集通用单细胞数据，还重点关注与 Virtual Cell 直接相关的：
 

@@ -2,37 +2,5 @@
   "schema_version": 1,
   "description": "Live competitions shown in the README News section. Text fields are rendered as written; milestone dates drive the staleness warnings in scripts/build_readme.py.",
   "stale_after_days": 14,
-  "challenges": [
-    {
-      "id": "virtual-embryo-2026",
-      "name": "Virtual Embryo Challenge (NeurIPS 2026)",
-      "anchor": "#virtual-embryo-challenge-neurips-2026",
-      "checked_on": "2026-11-22",
-      "phase_now": "P3 hidden-test phase open (since 27 Oct 2026); eligible teams can submit predictions",
-      "next_milestone": "Final submissions due 25 Nov 2026, 23:59 AoE (moved from 2 Dec); official evaluation begins 26 Nov 2026",
-      "final_call": "Winners announced 11 Dec 2026 at NeurIPS",
-      "milestones": [
-        {
-          "date": "2026-10-27",
-          "label": "P3 test phase opens"
-        },
-        {
-          "date": "2026-11-25",
-          "label": "final submissions due"
-        },
-        {
-          "date": "2026-11-26",
-          "label": "official evaluation begins"
-        },
-        {
-          "date": "2026-12-11",
-          "label": "winners announced"
-        }
-      ],
-      "sources": [
-        "https://virtualembryo.ai/challenge/rules",
-        "https://virtualembryo.ai/challenge/timeline"
-      ]
-    }
-  ]
+  "challenges": []
 }

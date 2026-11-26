@@ -54,11 +54,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 <!-- GENERATED:LIVE-CHALLENGES:START -->
 
-**Live challenges** (dates as published by the organizers, checked on 22 November 2026)
-
-| Challenge | Phase now | Next milestone | Final call |
-| --- | --- | --- | --- |
-| [Virtual Embryo Challenge (NeurIPS 2026)](#virtual-embryo-challenge-neurips-2026) | P3 hidden-test phase open (since 27 Oct 2026); eligible teams can submit predictions | Final submissions due 25 Nov 2026, 23:59 AoE (moved from 2 Dec); official evaluation begins 26 Nov 2026 | Winners announced 11 Dec 2026 at NeurIPS |
+**Live challenges**: none open right now.
 
 <!-- GENERATED:LIVE-CHALLENGES:END -->
 
@@ -66,6 +62,7 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 | Date | What changed |
 | --- | --- |
+| `2026-11-26` | Both 2026 challenges closed for submissions; Arc final scores published, Virtual Embryo final ranking expected 12 Dec |
 | `2026-11-26` | KPMP and KPMP Xenium kidney virtual spatial transcriptomics datasets (community PR) |
 | `2026-11-23` | Tahoe-100M vs. SEA-AD drug-scoring notebook added to Related Resources (community PR) |
 | `2026-11-23` | Verified 15 additional author code repositories; synchronized Chinese latest-paper index and linked both README checks to CI |
@@ -1567,7 +1564,7 @@ The second edition was hosted at [virtualcellchallenge.org](https://virtualcellc
 
 - **Prizes**: the top three models win prizes valued at $100,000, $50,000, and $25,000, each half cash and half NVIDIA Brev credits.
 
-- **Final results (19 November 2026)**: **BioInsight AI Lab (Illumina)** placed first with its CellularAI Algorithm (final score 0.440), followed by **FlowState** and **X-team (Xaira Therapeutics)**. The composite score is normalized between the cell-context mean (0) and an experimental replicate reference (1); it is **not** a 44% accuracy rate. The winning systems relied heavily on transferring perturbation responses from related public screens. [[Official winners and evaluation](https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up)]
+- **Final results (19 November 2026)**: **BioInsight AI Lab (Illumina)** placed first with its CellularAI Algorithm (0.4399), followed by **FlowState** (0.3348) and **X-team (Xaira Therapeutics)** (0.3263). The composite score is normalized between the cell-context mean (0) and an experimental replicate reference (1); it is **not** a 44% accuracy rate. The winning systems relied heavily on transferring perturbation responses from related public screens. [[Official winners and evaluation](https://arcinstitute.org/news/virtual-cell-challenge-2026-wrap-up)]
 
 - **[Homepage]** Virtual Cell Challenge (**Arc Institute 2026**) [[homepage](https://virtualcellchallenge.org/)] [[Virtual Cell Initiative](https://arcinstitute.org/virtual-cell-initiative)]
 
@@ -1580,7 +1577,7 @@ The second edition was hosted at [virtualcellchallenge.org](https://virtualcellc
 <a id="virtual-embryo-challenge-neurips-2026"></a>
 ### 🐣 Virtual Embryo Challenge (NeurIPS 2026)
 
-The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized by the Qiu Lab at Stanford with Harvard, UC San Diego, MBZUAI, Carnegie Mellon, GenBio AI, and Vizgen. It moves the perturbation question from cultured cell lines into a developing embryo, and scores prediction across developmental time, 3D position, and gene knockout. The facts below are taken from the challenge page and the NeurIPS competition announcement as read on 21 August 2026.
+The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized by the Qiu Lab at Stanford with Harvard, UC San Diego, MBZUAI, Carnegie Mellon, GenBio AI, and Vizgen. It moves the perturbation question from cultured cell lines into a developing embryo, and scores prediction across developmental time, 3D position, and gene knockout. Challenge status and evaluation details were refreshed from the official pages on 26 November 2026.
 
 - **Question**: can a generative model predict how an embryo takes shape across space, scale, time, and perturbation?
 
@@ -1590,9 +1587,11 @@ The Virtual Embryo Challenge is a NeurIPS 2026 Competition Track entry organized
 
 - **Tracks**: two, scored separately on identical hidden test sets. The Human Team follows a conventional ML competition workflow. The Agent Team requires the run to belong to the coding agent or LLM-driven system: a human may write the initial prompt, but may not inspect intermediate results and feed judgement back in. Because both tracks are scored on the same held-out data, the agent track is a direct comparison against human-designed pipelines.
 
-- **Metrics**: still not named on the challenge page as of 13 October 2026. The page states only that both tracks are scored on the same metrics and hidden test sets; teams get no biological performance feedback before designating up to two official test submissions per task, which are then scored, posted to the public test leaderboard, and locked.
+- **Metrics**: task-specific biological scores are normalized to a reference floor (50) and a split-half experimental reference (100), with an upper cap of 100; scores are not percentages of accuracy. Both tracks use the same hidden test sets. See the [evaluation page](https://virtualembryo.ai/challenge/evaluation) and [leaderboard scoring notes](https://virtualembryo.ai/challenge/leaderboard).
 
-- **Timeline**: portal opened 10 August 2026, starter kit and reference baselines released 15 August 2026, test phase opens 27 October 2026 at 09:00 PDT (moved from 20 October; per the [timeline page](https://virtualembryo.ai/challenge/timeline) read on 27 October 2026), final submissions close 25 November 2026, official evaluation starts 26 November 2026, winners announced 11 December 2026 at NeurIPS.
+- **Timeline**: portal opened 10 August 2026; starter kit and reference baselines released 15 August; P3 opened 27 October; final submissions closed 25 November at 23:59 AoE (26 November, 12:00 UTC); official evaluation began 26 November. Winners are scheduled to be notified by 1 December and publicly announced at NeurIPS on **12 December 2026**. [[Official timeline](https://virtualembryo.ai/challenge/timeline)]
+
+- **Status (26 November 2026)**: submissions closed; official scoring and Agent Team evidence review are underway. The final ranking and award recipients have not yet been confirmed. [[Leaderboard](https://virtualembryo.ai/challenge/leaderboard)] [[Rules](https://virtualembryo.ai/challenge/rules)]
 
 - **Prizes**: $112K total from the Laude Institute Moonshots Seed Grant, split into $54K in winner prizes ($27K per track: one $8K first, two $5K second, and three $3K third prizes), an $8K Generality Award for the best single architecture that answers more than one task, $30K in travel awards, and a $20K Community Contribution Award.
 
