@@ -720,7 +720,7 @@ Papers can have multiple topics. [Search and combine topics](https://boom5426.gi
 
 - **[scContam]** `[Benchmark]` `[Foundation Model]` `[Evaluation & Measurement]` Auditing pretraining contamination in single-cell foundation model benchmarks (**arXiv 2026**) [[preprint](https://arxiv.org/abs/2607.20572)] [[code](https://github.com/sarwanpasha/scContam)] ![GitHub stars](https://img.shields.io/github/stars/sarwanpasha/scContam.svg?logo=github&label=Stars)
 
-- **[PerturbReason]** `[Benchmark]` `[Perturbation]` `[Agent]` `[Gene Regulation]` PerturbReason: A Knowledge-Grounded Benchmark and Framework for Cell-State–Conditioned Mechanistic Reasoning of Perturbation Effects (**NeurIPS 2026**) [[paper](https://openreview.net/forum?id=nDBq0FPB7Y)] [[preprint](https://arxiv.org/abs/2607.18777)] [[dataset](https://github.com/dongkwan-kim/PertReasonQA)]
+- **[PertReason]** `[Benchmark]` `[Perturbation]` `[Agent]` `[Gene Regulation]` PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State–Conditioned Mechanistic Reasoning of Perturbation Effects (**NeurIPS 2026**) [[paper](https://openreview.net/forum?id=nDBq0FPB7Y)] [[preprint](https://arxiv.org/abs/2607.18777)] [[dataset](https://github.com/dongkwan-kim/PertReasonQA)]
 
 - **[DE Classification]** `[Benchmark]` `[Perturbation]` `[Evaluation & Measurement]` Beyond Expression Prediction: Benchmarking Differential Expression Classification in Single-Cell Perturbation Models (**bioRxiv 2026**) [[preprint](https://doi.org/10.64898/2026.07.20.739620)]
 
