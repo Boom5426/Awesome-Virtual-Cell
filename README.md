@@ -58,48 +58,13 @@ Deadlines for the live competitions first, then a dated log of what changed in t
 
 <!-- GENERATED:LIVE-CHALLENGES:END -->
 
-**Updates** (one line each, newest first; full entries in the [update log](docs/updates.md))
+**Updates** (latest three; [full update log](docs/updates.md))
 
 | Date | What changed |
 | --- | --- |
 | `2026-11-26` | Both 2026 challenges closed for submissions; Arc final scores published, Virtual Embryo final ranking expected 12 Dec |
 | `2026-11-26` | KPMP and KPMP Xenium kidney virtual spatial transcriptomics datasets (community PR) |
 | `2026-11-23` | Tahoe-100M vs. SEA-AD drug-scoring notebook added to Related Resources (community PR) |
-| `2026-11-23` | Verified 15 additional author code repositories; synchronized Chinese latest-paper index and linked both README checks to CI |
-| `2026-11-22` | 26 source-checked virtual-cell papers added; challenge timeline and winners updated; catalog and exports rebuilt |
-| `2026-10-28` | Stricter inclusion rules (venue allowlist, preprint bar, technical reports); 12 NeurIPS 2026 papers added; weekly curation workflow |
-| `2026-10-27` | Literature sweep: 155 papers added (396 to 551) and 9 preprints upgraded to their published venues |
-| `2026-10-26` | Open community baseline with code for the Virtual Cell Challenge 2026 (community PR) |
-
-
-
-<details>
-<summary>Earlier updates (20)</summary>
-
-| Date | What changed |
-| --- | --- |
-| `2026-10-13` | Literature audit: 67 re-verified papers added (329 to 396), DOI fixes and venue upgrades |
-| `2026-10-10` | LabCompass added, with official code, workflows and data |
-| `2026-10-02` | 42 source-checked papers added (285 to 327); new Start Here reading tracks |
-| `2026-10-01` | Two perturbation atlases added to Datasets; Virtual Cell Challenge 2026 dates updated |
-| `2026-09-26` | New Evaluation & Measurement branch (PertResolve, Signal–Bounds–Baselines, VCBench and more) |
-| `2026-09-26` | Intervention Design expanded (VCDesign, PDGrapher, PAIRING, PerturbNet, ARC, NUDGE) |
-| `2026-09-26` | Full Research Papers list restored; all 275 records reviewed for topics and code links |
-| `2026-09-25` | September sweep (Speciesformer, PHAROS, LucaCell and more); STATE, Tahoe-100M and scBaseCount upgraded to Cell 2026 |
-| `2026-08-21` | Virtual Embryo Challenge added; both competitions grouped; this log started |
-| `2026-08-17` | World Model and JEPA papers added; preprint links and venue labels refreshed |
-| `2026-08-10` | Virtual Cell Challenge section covering both Arc editions |
-| `2026-08-09` | Single-cell and protein papers (scTranslator, CAPTAIN, scPROTEIN) |
-| `2026-07-16` | TCGA and HEST Xenium virtual spatial transcriptomics datasets (community PR) |
-| `2026-07-14` | DeepSpot2Cell (NeurIPS 2025) (community PR) |
-| `2026-07-06` | 27 new 2026 papers from a May to July sweep |
-| `2026-07-04` | DeSCOPE (community PR) |
-| `2026-06-22` | 2026 papers and missing code links |
-| `2026-05-28` | Datasets section expanded; recent virtual cell papers |
-| `2026-05-13` | Automated literature update workflow (manual dispatch) |
-| `2026-03-18` | README restructured; contributing guide added |
-
-</details>
 
 <a id="research-papers"></a>
 ## 🔬 Research Papers

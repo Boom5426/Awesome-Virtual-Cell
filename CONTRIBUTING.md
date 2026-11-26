@@ -52,7 +52,7 @@ CI rejects duplicate normalized titles, duplicate DOIs, malformed core metadata,
 - Put new research papers in the correct year bucket
 - Use lightweight tags only as browsing hints, not as strict taxonomy
 - Keep changes focused and easy to review
-- Add one dated row to the `Updates` table in the README `News` section (a one-line summary) and the full entry at the top of `docs/updates.md`
+- Add one dated row to the `Updates` table in the README `News` section (a one-line summary) and the full entry at the top of `docs/updates.md`. Keep at most the three newest rows in the README; preserve older entries in `docs/updates.md` only.
 - If the entry is a competition with deadlines, edit `data/challenges.json` (it renders the `Live challenges` table in `News`) and run `python scripts/build_readme.py`. Once the competition closes, add a dated line to the update log and remove its entry from that file
 
 ## How to Contribute
